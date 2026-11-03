@@ -1583,7 +1583,15 @@
    "published_raw": "Mon, 02 Nov 2026 14:44:18 +0000",
    "fetched_at": "2026-11-03T21:07:41.331933Z",
    "excerpt": "<p>The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website.</p>\n<p>The post <a href=\"https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/\">Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "bleepingcomputer:62c945c0e6fb": {
+   "source_id": "bleepingcomputer",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "published_raw": "Tue, 03 Nov 2026 16:28:44 -0500",
+   "fetched_at": "2026-11-03T21:31:41.029642Z",
+   "excerpt": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]"
   }
  },
- "updated_at": "2026-11-03T21:07:34.896408Z"
+ "updated_at": "2026-11-03T21:31:33.512381Z"
 }

@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T21:07:34.896408Z",
+ "generated_at": "2026-11-03T21:31:33.512381Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": null,
- "last_successful_update": "2026-11-03T21:07:34.896408Z",
+ "last_successful_update": "2026-11-03T21:31:33.512381Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-03T21:07:34.951566Z"
+   "checked_at": "2026-11-03T21:31:33.565717Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-03T21:07:35.533723Z"
+   "checked_at": "2026-11-03T21:31:34.638716Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-03T21:07:36.244213Z"
+   "checked_at": "2026-11-03T21:31:35.713162Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-03T21:07:36.693432Z"
+   "checked_at": "2026-11-03T21:31:35.933126Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-03T21:07:37.572416Z"
+   "checked_at": "2026-11-03T21:31:37.176897Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-03T21:07:37.645005Z"
+   "checked_at": "2026-11-03T21:31:37.451506Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-03T21:07:37.824805Z"
+   "checked_at": "2026-11-03T21:31:37.615846Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-03T21:07:37.989788Z"
+   "checked_at": "2026-11-03T21:31:37.852019Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-03T21:07:38.601172Z"
+   "checked_at": "2026-11-03T21:31:38.324414Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-03T21:07:39.907698Z"
+   "checked_at": "2026-11-03T21:31:39.689998Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-03T21:07:40.082335Z"
+   "checked_at": "2026-11-03T21:31:39.925985Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-03T21:07:40.181305Z"
+   "checked_at": "2026-11-03T21:31:40.135856Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-03T21:07:40.290040Z"
+   "checked_at": "2026-11-03T21:31:40.327247Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-03T21:07:40.640081Z"
+   "checked_at": "2026-11-03T21:31:40.661343Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-03T21:07:40.795508Z"
+   "checked_at": "2026-11-03T21:31:41.029642Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-03T21:07:40.969844Z"
+   "checked_at": "2026-11-03T21:31:41.230507Z"
   },
   {
    "id": "securityweek",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-03T21:07:41.331933Z"
+   "checked_at": "2026-11-03T21:31:41.553874Z"
   }
  ],
  "daily_top": [],
@@ -573,11 +573,11 @@
  ],
  "quality_report": {
   "fetched_items": 290,
-  "unique_after_dedupe": 197,
+  "unique_after_dedupe": 198,
   "merged_duplicates": 1,
   "shown": 0,
   "decisions": {
-   "included": 84,
+   "included": 85,
    "below_threshold": 50,
    "no_topic": 41,
    "excluded": 22
@@ -620,7 +620,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 134
+   "skipped_no_key": 135
   },
   "queue_size": 15,
   "invalid_enrichment": [],
@@ -738,6 +738,14 @@
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -1133,14 +1141,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
    }
   ],
   "topics_without_source": []
