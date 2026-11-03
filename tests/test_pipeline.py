@@ -865,7 +865,8 @@ class TestPublishedFeed(unittest.TestCase):
             self.assertTrue(set(a["groups"]) <= group_ids)
             self.assertIn("fetched_at", a)
             if a["processing_status"] == "enriched":
-                needed = (["headline", "summary", "story", "key_facts", "availability_status"] if a.get("format_version") == 2
+                # CyberScope: availability_status is voor productnieuws en hoeft niet; takeaway wel
+                needed = (["headline", "summary", "story", "key_facts", "takeaway"] if a.get("format_version") == 2
                           else ["summary", "what_is_new", "personal_relevance", "availability_status"])
                 for k in needed:
                     self.assertIn(k, a, f"{a['title']}: {k}")
