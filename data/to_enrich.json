@@ -1,5 +1,224 @@
 {
- "generated_at": "2026-11-03T21:03:28.220554Z",
+ "generated_at": "2026-11-03T21:07:34.896408Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
- "items": []
+ "items": [
+  {
+   "id": "df100ad46108",
+   "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
+   "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-02T08:35:00Z",
+   "excerpt": "Ivanti heeft updates uitgebracht voor twee actief aangevallen kwetsbaarheden in Connect Secure vpn-servers. De twee ...",
+   "preliminary_score": 90,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "edge_devices"
+   ]
+  },
+  {
+   "id": "9bef2c57ef4c",
+   "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-11-03T08:54:04Z",
+   "excerpt": "Ivanti heeft meerdere kwetsbaarheden verholpen in Connect Secure. Een kwaadwillende kan de kwetsbaarheid (CVE-2026-104935 ) misbruiken om zonder voorafgaande authenticatie willekeurige commando's uit te voeren op het kwetsbare systeem. Ivanti meldt op de hoogte te zijn van rapporten dat de kwetsbaarheid als ZeroDay kwetsbaarheid is misbruikt. Er is (nog) geen publieke Proof-of-Concept (PoC) beschikbaar, maar het NCSC verwacht dat publieke PoC of exploitcode op korte termijn beschikbaar komt, wat de kans op grootschalig misbruik vergroot. **Update: **Ivanti heeft twee nieuwe kwetsbaarheden gepubliceerd (CVE-2026-111357 en CVE-2026-118527), die samen met CVE-2026-104935 actief zijn misbruikt. Naast de toevoeging van deze twee kwetsbaarheden is ook de lijst met kwetsbare versies uitgebreid. Zo is versie 25.1.1.2, die eerder als gepatcht werd beschouwd voor CVE-2026-104935, nog kwetsbaar voor CVE-2026-111357 en CVE-2026-118527.",
+   "preliminary_score": 89,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "edge_devices"
+   ]
+  },
+  {
+   "id": "875e59480304",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source_id": "microsoft_threat_intel",
+   "source_name": "Microsoft Threat Intelligence",
+   "published_at": "2026-11-03T17:32:47Z",
+   "excerpt": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .",
+   "preliminary_score": 85,
+   "preliminary_topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-11-02T14:00:00Z",
+   "excerpt": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet. We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong Technology Co., an Android Original Equipment Manufacturer (OEM) and Original Design Manufacturer (ODM). Videostrong monetized the backdoor by selling access to criminal affiliates and loading those affiliates’ malware modules onto infected devices. These secondary modules were conducting ad-fraud; silently enrolling infected devices into residential proxy networks; and loading additional malware onto XCPE-compromised devices. We also took action to disrupt the command and control (C2) domains that operate these affiliate modules. Because these affiliates each have diversified distribution channels for their modules beyond XCPE, we assess that taking down their C2 domains will sever access to at least 10 million additional compromised devices. We found this malicious software built directly into many different device models and brands over multiple years, supported by dedicated infrastructure",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "attack_techniques",
+    "incidents_breaches",
+    "malware"
+   ]
+  },
+  {
+   "id": "e554aac3b811",
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T15:00:10Z",
+   "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "siem_detection",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "08252db330fb",
+   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-10-29T14:00:00Z",
+   "excerpt": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "attack_techniques",
+    "ransomware",
+    "phishing_identity"
+   ]
+  },
+  {
+   "id": "8b5f34b85bf1",
+   "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-10-30T14:00:00Z",
+   "excerpt": "Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse Introduction Recent intrusions in which threat actors have been observed weaponizing agentic frameworks to execute highly-automated intrusions has put a spotlight on evolving adversarial use of LLMs. In our September 2026 report , Google Threat Intelligence Group (GTIG) noted that forward leaning adversaries were beginning to transition from basic prompting to agentic workflows and LLM-enabled automation. Since this publication, GTIG and Mandiant have observed multiple threat actors abusing the open-source, agentic pentesting frameworks ARTEX, Hexstrike and CAIRN in incident response engagements to conduct a broad range of actions across multiple phases of the attack life cycle. This activity has been seen across the threat landscape, as noted in a recent Wiz report . The emergence of Artex and similar agentic offensive intrusion frameworks underscores a broader shift toward threat actor adoption of open source multi-agent offensive frameworks, as well as potentially custom agentic harnesses. This represents a paradigm shift towards intrusions occurring ",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "threat_intelligence",
+    "incident_response",
+    "security_market"
+   ]
+  },
+  {
+   "id": "11af3bdb9908",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-10-29T18:00:34Z",
+   "excerpt": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "1d820fad715a",
+   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-10-22T09:49:08Z",
+   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder meer: - Arbitrary code execution uitvoeren via crafted input of deserialisatieprocessen. - Volledige systeemcompromittering bereiken via netwerktoegang zonder authenticatie. - Ongeautoriseerde toegang verkrijgen tot gevoelige of kritieke data. - Data manipuleren, creëren, verwijderen of wijzigen zonder juiste rechten. - Denial-of-Service veroorzaken door resource-uitputting, crashes of hangs. - Privilege escalation uitvoeren binnen het systeem. - Cross-site scripting en spoofing aanvallen uitvoeren. - Kwetsbaarheden in authenticatie- en autorisatiemechanismen misbruiken. De kwetsbaarheden zijn",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "6a6d5082414c",
+   "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-10-21T14:01:37Z",
+   "excerpt": "PHP heeft twee kritieke kwetsbaarheden verholpen. De kwetsbaarheden kunnen zonder authenticatie op afstand worden misbruikt voor het uitvoeren van willekeurige code. Alle PHP-installaties die webverzoeken verwerken zijn getroffen. De kwetsbaarheid met kenmerk CVE-2026-109618 betreft geheugenbeschadiging bij de afhandeling van een Out-of-Memory-situatie. Hierdoor kunnen interne requestgegevens slechts gedeeltelijk worden geïnitialiseerd en tijdens de verwerking als geldige gegevens worden behandeld, wat kan leiden tot Remote Code Execution. De kwetsbaarheid met kenmerk CVE-2026-109619 betreft het achterblijven van interne globale status nadat het bijbehorende geheugen is vrijgegeven. Een volgend verzoek dat door dezelfde worker wordt verwerkt, kan deze verouderde status gebruiken voordat deze opnieuw wordt geïnitialiseerd, wat eveneens kan leiden tot Remote Code Execution. Beide kwetsbaarheden kunnen zonder authenticatie via webverzoeken worden misbruikt en kunnen leiden tot het uitvoeren van willekeurige code op de getroffen server. Het PHP-team adviseert alle gebruikers dringend om onmiddellijk te updaten. Het NCSC adviseert daarom de beveiligingsupdates met spoed toe te passen.",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "b4efc3f65f51",
+   "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+   "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-03T12:21:49Z",
+   "excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "7b72d51a9df2",
+   "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+   "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-10-28T21:32:02Z",
+   "excerpt": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems to deploy KeyDrift.",
+   "preliminary_score": 81,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "threat_intelligence"
+   ]
+  },
+  {
+   "id": "1c4ce65b251a",
+   "title": "Camera Management Software Compromise Leads to Malware Deployment",
+   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-10-27T13:00:00Z",
+   "excerpt": "Attackers compromised camera management software to deploy malware, establish persistence, and beacon to C2. Huntress breaks down the attack chain and IOCs.",
+   "preliminary_score": 80,
+   "preliminary_topics": [
+    "attack_techniques",
+    "incidents_breaches",
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "edc3ee16f036",
+   "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
+   "source_id": "crowdstrike_blog",
+   "source_name": "CrowdStrike blog",
+   "published_at": "2026-10-30T05:00:00Z",
+   "excerpt": "",
+   "preliminary_score": 80,
+   "preliminary_topics": [
+    "siem_detection",
+    "cloud_attacks",
+    "security_market"
+   ]
+  },
+  {
+   "id": "5ab695849a1f",
+   "title": "It was a matter of when, not if...",
+   "url": "/newsroom/articles/when-no-if/",
+   "source_id": "divd",
+   "source_name": "DIVD (Dutch Institute for Vulnerability Disclosure)",
+   "published_at": "2026-09-24T20:36:00Z",
+   "excerpt": "Security people always say it’s not a matter of if, but when you get hacked. It took us (almost) seven years but we can now say that we’re the hackers that got hacked. We noticed suspicious activity, investigated, and came to the inevitable conclusion that damn, we got hacked. So what do hackers do when they get hacked? Handle it the way we think it should be handled. That is open, transparent and honest, even if it sucks. So far, we’ve been in full incident response mode, blocked access to our infrastructure and started a forensics investigation with the assistance of a third party incident response team.",
+   "preliminary_score": 78,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "incident_response"
+   ]
+  }
+ ]
 }

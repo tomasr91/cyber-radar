@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T21:03:28.220554Z",
- "mode": "snapshot",
- "mode_note": "Lege startfeed: CyberScope is net aangemaakt. De eerste nachtrun haalt de echte artikelen op.",
+ "generated_at": "2026-11-03T21:07:34.896408Z",
+ "mode": "live",
+ "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": null,
- "last_successful_update": "2026-11-03T20:00:00Z",
+ "last_successful_update": "2026-11-03T21:07:34.896408Z",
  "groups": [
   {
    "id": "incidenten",
@@ -140,10 +140,10 @@
    "priority": 5,
    "region": "nl",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 30,
+   "message": "30 items via https://www.security.nl/rss/headlines.xml",
+   "checked_at": "2026-11-03T21:07:34.951566Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -154,10 +154,10 @@
    "priority": 3,
    "region": "nl",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 25,
+   "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
+   "checked_at": "2026-11-03T21:07:35.533723Z"
   },
   {
    "id": "fox_it",
@@ -168,10 +168,10 @@
    "priority": 4,
    "region": "nl",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://blog.fox-it.com/feed/",
+   "checked_at": "2026-11-03T21:07:36.244213Z"
   },
   {
    "id": "divd",
@@ -182,10 +182,10 @@
    "priority": 4,
    "region": "nl",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 30,
+   "message": "30 items via https://www.divd.nl/index.xml",
+   "checked_at": "2026-11-03T21:07:36.693432Z"
   },
   {
    "id": "watchtowr_labs",
@@ -196,10 +196,10 @@
    "priority": 5,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 15,
+   "message": "15 items via https://labs.watchtowr.com/rss/",
+   "checked_at": "2026-11-03T21:07:37.572416Z"
   },
   {
    "id": "dfir_report",
@@ -210,10 +210,10 @@
    "priority": 5,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://thedfirreport.com/feed/",
+   "checked_at": "2026-11-03T21:07:37.645005Z"
   },
   {
    "id": "cisco_talos",
@@ -224,10 +224,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 15,
+   "message": "15 items via https://blog.talosintelligence.com/rss/",
+   "checked_at": "2026-11-03T21:07:37.824805Z"
   },
   {
    "id": "project_zero",
@@ -238,10 +238,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "atom",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
+   "checked_at": "2026-11-03T21:07:37.989788Z"
   },
   {
    "id": "google_threat_intel",
@@ -252,10 +252,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 20,
+   "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
+   "checked_at": "2026-11-03T21:07:38.601172Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -266,10 +266,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+   "checked_at": "2026-11-03T21:07:39.907698Z"
   },
   {
    "id": "unit42",
@@ -280,10 +280,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 15,
+   "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
+   "checked_at": "2026-11-03T21:07:40.082335Z"
   },
   {
    "id": "datadog_security_labs",
@@ -294,10 +294,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 30,
+   "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
+   "checked_at": "2026-11-03T21:07:40.181305Z"
   },
   {
    "id": "huntress_blog",
@@ -308,10 +308,10 @@
    "priority": 4,
    "region": "na",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 30,
+   "message": "30 items via https://www.huntress.com/blog/rss.xml",
+   "checked_at": "2026-11-03T21:07:40.290040Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -322,10 +322,10 @@
    "priority": 3,
    "region": "na",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
+   "checked_at": "2026-11-03T21:07:40.640081Z"
   },
   {
    "id": "bleepingcomputer",
@@ -336,10 +336,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 15,
+   "message": "15 items via https://www.bleepingcomputer.com/feed/",
+   "checked_at": "2026-11-03T21:07:40.795508Z"
   },
   {
    "id": "the_record",
@@ -350,10 +350,10 @@
    "priority": 4,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 5,
+   "message": "5 items via https://therecord.media/feed/",
+   "checked_at": "2026-11-03T21:07:40.969844Z"
   },
   {
    "id": "securityweek",
@@ -364,10 +364,10 @@
    "priority": 3,
    "region": "world",
    "fetch_method": "rss",
-   "status": "not_fetched",
-   "items": 0,
-   "message": "Niet opgenomen in deze momentopname.",
-   "checked_at": "2026-11-03T20:00:00Z"
+   "status": "ok",
+   "items": 10,
+   "message": "10 items via https://www.securityweek.com/feed/",
+   "checked_at": "2026-11-03T21:07:41.331933Z"
   }
  ],
  "daily_top": [],
@@ -572,23 +572,57 @@
   "tomasr91"
  ],
  "quality_report": {
-  "fetched_items": 0,
-  "unique_after_dedupe": 0,
-  "merged_duplicates": 0,
+  "fetched_items": 290,
+  "unique_after_dedupe": 197,
+  "merged_duplicates": 1,
   "shown": 0,
-  "decisions": {},
+  "decisions": {
+   "included": 84,
+   "below_threshold": 50,
+   "no_topic": 41,
+   "excluded": 22
+  },
   "processing": {},
   "without_date": 0,
   "per_group": {},
   "per_source": {},
-  "date_flags": [],
+  "date_flags": [
+   {
+    "source_id": "ncsc_nl_advisories",
+    "items": 5,
+    "from": "2026-10-22T09:12:12Z",
+    "to": "2026-10-22T12:09:18Z",
+    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
+    "source_id": "security_nl",
+    "items": 6,
+    "from": "2026-10-30T11:56:33Z",
+    "to": "2026-10-30T14:54:02Z",
+    "message": "6 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
+    "source_id": "huntress_blog",
+    "items": 9,
+    "from": "2026-10-14T16:00:00Z",
+    "to": "2026-10-14T19:00:00Z",
+    "message": "9 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
+    "source_id": "crowdstrike_blog",
+    "items": 5,
+    "from": "2026-11-03T08:00:00Z",
+    "to": "2026-11-03T08:00:00Z",
+    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   }
+  ],
   "enrichment": {
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 0
+   "skipped_no_key": 134
   },
-  "queue_size": 0,
+  "queue_size": 15,
   "invalid_enrichment": [],
   "invalid_deepdives": [],
   "invalid_deepdive_options": [],
@@ -597,7 +631,518 @@
   "invalid_interest_suggestions": [],
   "threshold": 60,
   "max_per_source": 12,
-  "not_shown": [],
+  "not_shown": [
+   {
+    "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
+    "relevance_score": 90,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
+    "relevance_score": 89,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
+    "relevance_score": 86,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
+    "relevance_score": 86,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+    "relevance_score": 85,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
+    "relevance_score": 85,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
+    "relevance_score": 85,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
+    "relevance_score": 85,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Shutting the Door on the XCPE Botnet",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
+    "relevance_score": 84,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0447 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab door GitLab Inc.",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0447",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0442 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0442",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Camera Management Software Compromise Leads to Malware Deployment",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
+    "source_id": "crowdstrike_blog",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "It was a matter of when, not if...",
+    "source_id": "divd",
+    "url": "/newsroom/articles/when-no-if/",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Two critical RCEs in PHP core",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "PHP2Shell - Critical vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619): detection, analysis, and remediation",
+    "source_id": "datadog_security_labs",
+    "url": "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/token-replay-spray",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "There's only so much code: the rise in vulnerability numbers",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+    "relevance_score": 77,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+    "relevance_score": 77,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Introducing pathrunner: An AWS privilege escalation framework",
+    "source_id": "datadog_security_labs",
+    "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
+    "relevance_score": 77,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+    "relevance_score": 77,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "ARMORY CASTLE Exploits BeyondTrust",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Investigating Ephemeral Supply Chain Tampering",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0461 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0461",
+    "relevance_score": 75,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+    "relevance_score": 74,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
+    "relevance_score": 74,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "How to fix a bug in a fix",
+    "source_id": "project_zero",
+    "url": "https://projectzero.google/2026/10/emergency-patching.html",
+    "relevance_score": 74,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+    "relevance_score": 74,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0453 [1.00] [M/H] Kwetsbaarheid in Google Brotli-decoder",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0453",
+    "relevance_score": 74,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   }
+  ],
   "topics_without_source": []
  }
 }
