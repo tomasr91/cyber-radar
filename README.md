@@ -19,7 +19,7 @@ CyberScope is gebouwd op de code van de [Data & AI Radar](https://github.com/tom
 README.md                    ← dit bestand
 context/
   profile.md                 ← voor wie, kennisniveau, uitlegstijl, leerpad
-  werkcontext.md             ← werkomgeving van de lezer, klantvragen, grenzen
+  werkcontext.md             ← werkomgeving van de lezer, grenzen
   interests.yml              ← onderwerpen, prioriteiten, verdeling, regio-voorrang, uitsluitingen
   verdieping.yml             ← ideeënlijst voor verdiepingen (leerpad in vier fasen)
   sources.yml                ← nieuwsbronnen en hun betrouwbaarheid
@@ -44,7 +44,7 @@ Alleen artikelen die Claude heeft uitgelegd komen in de app. Een fout uitlegbest
 
 ## Wat CyberScope toevoegt aan de Data & AI Radar
 
-- **Artikelen** in dezelfde vorm als de Data & AI Radar (één doorlopend verhaal), met de lijn wat gebeurde · hoe werkt het · hoe zie en voorkom je het · wat betekent het. Plus klantvragen, "Bevestigd", "Nog onbekend of onzeker" en "Onthoud". Diepere uitleg staat in de verdiepingen.
+- **Artikelen** in dezelfde vorm als de Data & AI Radar (één doorlopend verhaal), met de lijn wat gebeurde · hoe werkt het · hoe zie en voorkom je het · wat betekent het. Plus "Bevestigd", "Nog onbekend of onzeker" en "Onthoud". Diepere uitleg staat in de verdiepingen.
 - **Regio-voorrang**: Nederland, dan Benelux, Europa, Noord-Amerika, de rest van de wereld (`scoring.region_bonus` in `interests.yml`).
 - **Leveranciersneutraal**; nieuws over leveranciers alleen bij groot nieuws (`security_market`, prioriteit 1).
 - **Uitleg, geen handleiding**: geen werkende aanvalscode (redactiegids §4).

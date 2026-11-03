@@ -77,7 +77,6 @@ Een verdieping legt uit hoe een aanval werkt, wat je ervan ziet en hoe je je bes
 
 - Schrijf volgens de redactiegids (§1: begrijpelijk Nederlands, korte zinnen, begrip uitleggen vóór je het gebruikt, één vergelijking per nieuw begrip).
 - 5 tot 7 onderdelen (`sections`), elk met een korte kop en 2 tot 4 alinea's. Samen 6 tot 10 minuten lezen. Een logische lijn is: wat is het en waarom bestaat het · hoe werkt het normaal · wat gaat er mis en hoe misbruikt een aanvaller dat · een echt voorbeeld · hoe ziet een securityteam het (SIEM, logs, EDR) · hoe voorkom je het (vulnerability management, maatregelen) · wat betekent het voor klanten.
-- `customer_questions`: 2 tot 5 vragen die de lezer een klant over dit onderwerp kan stellen.
 - `takeaway`: de belangrijkste les in één of twee zinnen.
 - `limitations`: 2 tot 4 korte zinnen over wat het stuk niet behandelt, waar experts het oneens zijn, of wat onzeker is.
 - `experiment` (optioneel): iets kleins dat de lezer zelf kan doen zonder risico, bijv. "Open in je browser de ontwikkelaarstools en bekijk de HTTP-verzoeken als je een website opent." Nooit iets uitproberen op systemen van anderen.
@@ -98,7 +97,6 @@ Gebruik de `id` van de gekozen keuze als bestandsnaam, `id` en `plan_id`.
   "headline": "Nederlandse kop, hooguit ongeveer 70 tekens",
   "summary": "Twee of drie zinnen voor de kaart en de opening.",
   "sections": [{"heading": "Korte kop", "paragraphs": ["Alinea.", "Alinea."]}],
-  "customer_questions": ["Vraag aan een klant?"],
   "takeaway": "De les in één of twee zinnen.",
   "limitations": ["Korte zin"],
   "further_reading": [{"label": "Titel (auteur of organisatie, maand jaar)", "url": "https://...", "note": "Waarom lezen."}],

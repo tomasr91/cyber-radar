@@ -80,7 +80,7 @@ by = {a["headline"]: a for a in feed["articles"]}
 check("pipeline: beide testartikelen in de feed", len(feed["articles"]) == 2, str([a.get("decision") for a in feed["articles"]]))
 long_a = by.get(LONG["headline"], {})
 check("pipeline: regio Nederland geeft extra punten", long_a.get("score_parts", {}).get("region") == 0.06)
-check("pipeline: nieuwe velden komen in de feed", all(k in long_a for k in ["customer_questions", "takeaway", "exploitation"]))
+check("pipeline: nieuwe velden komen in de feed", all(k in long_a for k in ["takeaway", "personal_relevance"]))
 check("pipeline: begrip uit een onderdeel in de woordenlijst", any(g["term"] == "webshell" for g in feed["glossary"]))
 
 site = Path(tempfile.mkdtemp())
@@ -115,7 +115,7 @@ with sync_playwright() as p:
     heads = page.locator("#reader .art-sec h2").all_inner_texts()
     check("uitgebreid artikel: vaste koppen", heads == ["Wat is er gebeurd?", "Wat is de technologie?", "Wat gaat er technisch fout?", "Hoe zie je dit?"], str(heads))
     check("geen labels voor misbruik of patch", "actief misbruikt" not in txt and "patch beschikbaar" not in txt)
-    check("klantvragen", page.locator("#reader .qs li").count() == 2 and "vragen die je een klant kunt stellen" in txt.lower())
+    check("geen klantvragen meer", page.locator("#reader .qs li").count() == 0 and "vragen die je een klant" not in txt.lower())
     check("bevestigd en onbekend apart", "Bevestigd" in txt and "Nog onbekend of onzeker" in txt and "Testonbekend" in txt)
     check("onthoud-blok", page.locator("#reader .takeaway").count() == 1 and "Testles" in page.locator("#reader .takeaway").inner_text())
     check("begrip in een onderdeel onderstreept", page.locator("#reader .art-sec .term, #reader .art-sec [data-term]").count() >= 1

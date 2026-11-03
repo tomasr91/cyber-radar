@@ -27,7 +27,6 @@ De lezer heeft basiskennis en wil de techniek leren. Na het lezen moet de lezer 
 - Staat er **waarom** het gevaarlijk is, niet alleen dát?
 - Is de koppeling gelegd met **SIEM** (wat zie je in de logs?), **vulnerability management** (hoe vind je kwetsbare systemen, hoe urgent is het?) en **threat intelligence** (wordt het misbruikt, door wie?), waar dat past?
 - Zijn **feiten, vermoedens en mogelijkheden** gescheiden?
-- Zijn er **klantvragen** die een Customer Success Manager echt zou stellen?
 
 ### Opbouw: één doorlopend verhaal
 Net als de Data & AI Radar: een Nederlandse kop, een samenvatting en één doorlopend verhaal (`story`) van **3 tot 5 korte alinea's**. Geen losse onderdelen met koppen. Volg in het verhaal deze lijn, en sla over wat de bron niet zegt:
@@ -115,7 +114,7 @@ Redenen bij 👎:
 - `oud_nieuws`: let beter op of iets echt nieuw is.
 
 Redenen bij 👍:
-- `praktisch` (handig voor klantgesprekken): maak de klantvragen en "wat betekent dit voor je werk" vaker concreet.
+- `praktisch` (handig voor klantgesprekken): maak "wat betekent dit voor je werk" vaker concreet.
 - `goed_uitgelegd`: lees de uitleg van dat artikel (`data/enrichment/<id>.json`) en houd die opbouw en dat niveau aan.
 - `nieuw_voor_mij`: kies vaker artikelen die een nieuw concept of nieuwe techniek uitleggen; neem het onderwerp mee bij de verdiepingskeuzes.
 - `mijn_stack` (past bij mijn werk): leg vaker de link naar SIEM, vulnerability management en threat intelligence.
@@ -134,7 +133,6 @@ Redenen bij 👍:
 - `key_facts` bevat **alleen feiten uit de bronnen**: CVE-nummers, getroffen versies, datums, cijfers, wie wat bevestigde. Elk feit dat in het verhaal staat, staat ook hier.
 - `limitations` = **Nog onbekend of onzeker**: wat de bronnen (nog) niet zeggen, waar ze elkaar tegenspreken, en belangen van de bron.
 - `personal_relevance`: één of twee zinnen over wat dit betekent voor het werk van een Customer Success Manager bij een securityleverancier.
-- `customer_questions`: 2 tot 5 vragen die de lezer een klant kan stellen, bijv. "Weten jullie welke systemen deze software draaien?", "Hoe zien jullie of iemand dit al geprobeerd heeft?". Concreet bij dit onderwerp, geen verkoopvragen.
 - `takeaway`: de belangrijkste technische les in één of twee zinnen. Niet het nieuws herhalen, maar wat de lezer moet onthouden over hoe het werkt.
 - `region`: waar het nieuws over gaat: `nl`, `benelux`, `eu`, `na` of `world` (een wereldwijde kwetsbaarheid = `world`).
 - `official_docs`: alleen links die je zelf hebt geopend (advies, CVE-pagina, onderzoek). Nooit zelf een URL opbouwen.
@@ -163,7 +161,6 @@ Redenen bij 👍:
   "key_facts": ["Feit uit de bron met CVE-nummer, versie of datum.", "..."],
   "limitations": ["Wat nog onbekend is."],
   "personal_relevance": "Eén of twee zinnen: wat betekent dit voor je werk?",
-  "customer_questions": ["Vraag aan een klant?", "..."],
   "takeaway": "De technische les in één of twee zinnen.",
   "region": "nl | benelux | eu | na | world",
   "official_docs": [{"label": "Naam", "url": "https://..."}],

@@ -34,7 +34,6 @@ Dit bestand beschrijft de werkomgeving van de lezer, zodat CyberScope nieuws kan
 
 - `[aanname]` Klanten zijn organisaties van allerlei omvang en sectoren die vulnerability management, SIEM/detectie of MDR afnemen.
 - `[aanvullen]` Belangrijkste sectoren en landen van de klanten.
-- Klantvragen in de app zijn vragen die de lezer **aan een klant** kan stellen om het gesprek inhoudelijk te maken (bijv. "Weten jullie welke systemen deze software draaien?"). Geen verkoopvragen.
 
 ## 4. Grenzen
 

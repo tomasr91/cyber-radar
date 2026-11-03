@@ -1512,8 +1512,8 @@ article.full h1 { font-size: clamp(1.5rem, 5.6vw, 2.05rem); line-height: 1.15; l
         <div class="story">${(a.story || []).map((p) => `<p>${mark(p)}</p>`).join("")}</div>
         ${(a.sections || []).map((x) => `<section class="art-sec"><h2>${esc(x.heading)}</h2><div class="story">${x.paragraphs.map((p) => `<p>${mark(p)}</p>`).join("")}</div></section>`).join("")}
         ${showcaseBlock(a.showcase)}
-        ${a.personal_relevance || a.customer_questions?.length ? `<section class="block"><h2>Wat betekent dit voor je werk?</h2>${a.personal_relevance ? `<p>${esc(a.personal_relevance)}</p>` : ""}
-          ${a.customer_questions?.length ? `<p class="show-arrow">Vragen die je een klant kunt stellen</p><ul class="qs">${a.customer_questions.map((q) => `<li>${esc(q)}</li>`).join("")}</ul>` : ""}</section>` : ""}
+        ${a.personal_relevance ? `<section class="block"><h2>Wat betekent dit voor je werk?</h2>${a.personal_relevance ? `<p>${esc(a.personal_relevance)}</p>` : ""}
+</section>` : ""}
         ${a.experiment ? `<section class="try"><h2>Probeer dit</h2><p>${esc(a.experiment)}</p></section>` : ""}
         ${a.key_facts?.length ? `<section class="block"><h2>Bevestigd <span class="kind bron">Uit de bron</span></h2><ul>${a.key_facts.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}
         ${a.limitations?.length ? `<section class="block"><h2>Nog onbekend of onzeker</h2><ul>${a.limitations.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}

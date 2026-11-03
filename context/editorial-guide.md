@@ -37,7 +37,7 @@ Een artikel is **één doorlopend verhaal**, net als in de Data & AI Radar. Geen
    - *Hoe werkt het technisch?* Kort de normale werking, dan wat er fout gaat en hoe een aanvaller dat misbruikt (op begripsniveau).
    - *Hoe zie je het en hoe voorkom je het?* Logs en SIEM, vulnerability management, patchen.
    - *Wat betekent het voor organisaties?*
-4. **Wat betekent dit voor je werk?** (`personal_relevance`) met 2 tot 4 **vragen die je een klant kunt stellen** (`customer_questions`).
+4. **Wat betekent dit voor je werk?** (`personal_relevance`): één of twee zinnen.
 5. **Bevestigd** (`key_facts`): 3 tot 6 korte feiten uit de bron.
 6. **Nog onbekend of onzeker** (`limitations`): wat (nog) niet bekend is.
 7. **Onthoud** (`takeaway`): de belangrijkste technische les in één of twee zinnen.
@@ -84,7 +84,6 @@ Naast het nieuws (tabblad *Actueel*) schrijft CyberScope verdiepingen (tabblad *
 - Gebruik `profile.md`, `werkcontext.md` en `interests.yml`.
 - Koppel waar het kan aan **SIEM, vulnerability management en threat intelligence**: hoe helpt elk ervan bij dit onderwerp?
 - **Leveranciersneutraal.** Schrijf over categorieën (vulnerability management, SIEM, EDR, MDR, threat intelligence), niet over merken. Een leverancier noem je alleen als die zelf de bron is (bijv. het onderzoek of het advies), kort en feitelijk.
-- **Klantvragen** zijn vragen die een Customer Success Manager een klant stelt om het gesprek inhoudelijk te maken. Geen verkoopvragen.
 - Wissel voorbeelden en invalshoeken af.
 - Regio: Nederlands nieuws eerst, dan Benelux, Europa, Noord-Amerika, de rest van de wereld. Zet in `region` waar het nieuws over gaat.
 
