@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T21:48:28.882726Z",
+ "generated_at": "2026-11-03T21:58:40.601647Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-03T22:10:00Z",
- "last_successful_update": "2026-11-03T21:48:28.882726Z",
+ "last_article_added_at": "2026-11-03T21:48:00Z",
+ "last_successful_update": "2026-11-03T21:58:40.601647Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-03T21:48:28.911595Z"
+   "checked_at": "2026-11-03T21:58:40.661687Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-03T21:48:29.538595Z"
+   "checked_at": "2026-11-03T21:58:41.444887Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-03T21:48:30.499137Z"
+   "checked_at": "2026-11-03T21:58:42.392824Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-03T21:48:30.707496Z"
+   "checked_at": "2026-11-03T21:58:42.700955Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-03T21:48:31.918180Z"
+   "checked_at": "2026-11-03T21:58:44.232779Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-03T21:48:32.140893Z"
+   "checked_at": "2026-11-03T21:58:44.369193Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-03T21:48:32.302858Z"
+   "checked_at": "2026-11-03T21:58:44.638056Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-03T21:48:32.436414Z"
+   "checked_at": "2026-11-03T21:58:44.783997Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-03T21:48:32.987080Z"
+   "checked_at": "2026-11-03T21:58:45.198345Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-03T21:48:34.455461Z"
+   "checked_at": "2026-11-03T21:58:46.818968Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-03T21:48:34.656236Z"
+   "checked_at": "2026-11-03T21:58:47.034793Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-03T21:48:34.938364Z"
+   "checked_at": "2026-11-03T21:58:47.126401Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-03T21:48:35.206617Z"
+   "checked_at": "2026-11-03T21:58:47.315233Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-03T21:48:35.471012Z"
+   "checked_at": "2026-11-03T21:58:47.543321Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-03T21:48:35.709515Z"
+   "checked_at": "2026-11-03T21:58:47.676162Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-03T21:48:35.814485Z"
+   "checked_at": "2026-11-03T21:58:47.766375Z"
   },
   {
    "id": "securityweek",
@@ -367,14 +367,15 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-03T21:48:36.066648Z"
+   "checked_at": "2026-11-03T21:58:48.033016Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
   "11af3bdb9908",
   "8b5f34b85bf1",
-  "30b15a7c5706"
+  "30b15a7c5706",
+  "5ab695849a1f"
  ],
  "articles": [
   {
@@ -423,7 +424,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:45:00Z",
+   "processed_at": "2026-11-03T21:31:00Z",
    "reading_minutes": 6,
    "format_version": 2,
    "headline": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden",
@@ -600,7 +601,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:52:00Z",
+   "processed_at": "2026-11-03T21:33:00Z",
    "reading_minutes": 6,
    "format_version": 2,
    "headline": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt",
@@ -757,7 +758,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T22:10:00Z",
+   "processed_at": "2026-11-03T21:39:00Z",
    "reading_minutes": 5,
    "format_version": 2,
    "headline": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig",
@@ -903,7 +904,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T22:04:00Z",
+   "processed_at": "2026-11-03T21:37:00Z",
    "reading_minutes": 5,
    "format_version": 2,
    "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
@@ -1005,6 +1006,159 @@
    "region": "world"
   },
   {
+   "id": "5ab695849a1f",
+   "title": "It was a matter of when, not if...",
+   "url": "/newsroom/articles/when-no-if/",
+   "source_id": "divd",
+   "published_at": "2026-09-24T20:36:00Z",
+   "date_note": "Het oorspronkelijke bericht van DIVD is van 24 september 2026; deze uitleg gebruikt ook de latere updates tot en met 31 oktober.",
+   "fetched_at": "2026-11-03T21:07:36.693432Z",
+   "summary": "Het Nederlandse DIVD, dat zelf kwetsbaarheden meldt, werd in september gehackt. De aanvaller kwam binnen via twee onbekende lekken in het ticketsysteem en was in twaalf minuten root. DIVD zegt dat er een AI-framework achter zat.",
+   "personal_relevance": "Een Nederlands voorbeeld van hoe snel een aanval kan gaan, en hoe een organisatie open communiceert over oorzaak, tijdlijn en gelekte gegevens. Handig als referentie in gesprekken over reactietijden.",
+   "limitations": [
+    "Hoeveel mensen getroffen zijn, maakt DIVD niet bekend.",
+    "De rol van ARTEX is de conclusie van DIVD op basis van logfragmenten; onafhankelijke bevestiging staat niet in de bronnen.",
+    "Het eindrapport en een verdiepend verslag over de AI-aanval zijn nog niet verschenen; de pagina's van DIVD zijn op enkele punten niet helemaal consistent (zoals datums van updates).",
+    "Wie de aanvaller is, is onbekend. DIVD zegt geen verband te zien met bekende groepen of oud-vrijwilligers."
+   ],
+   "official_docs": [
+    {
+     "label": "DIVD: overzicht van het incident en updates",
+     "url": "https://www.divd.nl/hacked/"
+    },
+    {
+     "label": "DIVD CSIRT: casusdossier",
+     "url": "https://csirt.divd.nl/cases/DIVD-2026-00014/"
+    }
+   ],
+   "topics": [
+    "incidents_breaches",
+    "exploited_vulnerabilities",
+    "attack_techniques",
+    "incident_response"
+   ],
+   "groups": [
+    "incidenten",
+    "kwetsbaarheden",
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.14,
+    "source": 0.8,
+    "quality": 0.78,
+    "region": 0.06,
+    "fit": 0.15
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:42:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad",
+   "story": [
+    "Het Dutch Institute for Vulnerability Disclosure (DIVD) meldde op 24 september dat het zelf gehackt was. Vrijwilligers van DIVD zoeken naar kwetsbare systemen op internet en waarschuwen de eigenaren. DIVD merkte verdachte activiteit op, blokkeerde de toegang tot zijn systemen en schakelde een extern incident-responseteam in. Het meldde het datalek bij de Autoriteit Persoonsgegevens en het NCSC.",
+    "In latere updates op zijn eigen site gaf DIVD de oorzaak: twee onbekende lekken (zero-days) in Zammad, de helpdesksoftware achter het meldpunt van DIVD. Op 31 oktober noemde DIVD het AI-aanvalsframework ARTEX als gebruikt hulpmiddel."
+   ],
+   "key_facts": [
+    "DIVD maakte op 24 september 2026 bekend dat het gehackt was en meldde dit bij de Autoriteit Persoonsgegevens en het NCSC.",
+    "Volgens DIVD kwam de aanvaller binnen op 21 september via CVE-2026-102489 (sessie overnemen, code uitvoeren) en CVE-2026-102490 (rechten verhogen tot root) in Zammad, opgelost in versie 7.2 en 7.2.2.",
+    "DIVD: de aanvaller was in ongeveer 12 minuten root en deed meer dan 450.000 verzoeken met meer dan 2.500 scripts.",
+    "DIVD: detectie binnen 19 minuten, reactie binnen 19 uur, indamming 9 uur later; op 2 oktober was het incident ingedamd.",
+    "E-mailadressen van vrijwilligers zijn bevestigd weggehaald; andere gegevens zijn deels gelekt of nog in onderzoek.",
+    "Op 31 oktober 2026 noemde DIVD het framework ARTEX als gebruikt bij de aanval."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "zero-days",
+     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "ticketsysteem",
+     "explanation": "Software waarin een helpdesk meldingen en e-mails ontvangt, verdeelt en afhandelt."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "CSIRT",
+     "explanation": "Computer Security Incident Response Team: een team dat beveiligingsmeldingen ontvangt en bij incidenten coördineert."
+    },
+    {
+     "term": "netwerksegmentatie",
+     "explanation": "Een netwerk opdelen in afgeschermde delen, zodat een aanvaller in het ene deel niet zomaar bij het andere kan."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.65,
+    "why": "Nog geen duimpjes; een Nederlands incident met bekende technische oorzaak, precies wat je profiel noemt."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Zammad is een ticketsysteem: software waarin een helpdesk e-mails en meldingen ontvangt, verdeelt en beantwoordt. Bij DIVD kwamen daar de meldingen over kwetsbaarheden binnen. Zo'n systeem staat op internet, want mensen moeten er berichten naartoe kunnen sturen.",
+      "Na het inloggen krijgt de gebruiker een sessie: een soort tijdelijk toegangsbewijs, zodat hij niet bij elke klik opnieuw hoeft in te loggen."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Het eerste lek, CVE-2026-102489, liet een aanvaller een sessie overnemen en daarmee code uitvoeren op de server. Het tweede, CVE-2026-102490, liet hem daarna zijn rechten verhogen tot root op installaties via DEB- of RPM-pakketten. Samen gaven ze volledige controle.",
+      "Het is een klassieke keten: eerst binnenkomen als gewone gebruiker of proces, dan rechten verhogen. Elk lek alleen is minder erg; samen leveren ze de hele server op. DIVD houdt de details van het eerste lek bewust geheim."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "Volgens DIVD kwam de aanvaller op 21 september binnen en was hij in ongeveer twaalf minuten root; het verhogen van de rechten zelf duurde ongeveer één minuut. Daarna maakte hij een beheersleutel voor de API aan die nooit verloopt, las hij een mailbox meerdere keren uit en deed hij verschillende dingen tegelijk: scannen, wachtwoorden proberen te resetten bij de hostingpartij en sleutels uit een database stelen.",
+      "De aanval omvatte meer dan 450.000 verzoeken en meer dan 2.500 scripts. DIVD ziet daarin en in scripts met commentaar waarin agenten 'met elkaar lijken te praten' het bewijs dat AI is gebruikt. Op 31 oktober noemde DIVD ARTEX als het gebruikte framework. Dat is de conclusie van DIVD, op basis van logfragmenten."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Bevestigd weggehaald: e-mailadressen van vrijwilligers en mogelijk contactgegevens. Deels gelekt: onder meer gegevens uit GSuite, het helpdesk- en ticketsysteem en Jira/Confluence. Nog in onderzoek: onder meer lijsten met kwetsbare systemen en proof of concept-code. Geen aanwijzingen voor toegang tot HR, broncode, Slack, boekhouding of bank.",
+      "Dat laatste is gevoelig. Een organisatie als DIVD weet welke systemen bij anderen kwetsbaar zijn. In handen van een aanvaller is zo'n lijst een kant-en-klaar doelwittenoverzicht. DIVD adviseert daarom: ga ervan uit dat de aanvaller alle correspondentie met het CSIRT heeft."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "DIVD zag de aanval binnen negentien minuten. Het reageren duurde negentien uur en het indammen nog eens negen uur; DIVD zegt zelf dat dat sneller kan.",
+      "Signalen die hier in de logs stonden: een enorme hoeveelheid verzoeken in korte tijd, een nieuw aangemaakte API-sleutel zonder verloopdatum, en een testmail van de aanvaller. Zulke gebeurtenissen kun je in een SIEM als melding instellen, bijvoorbeeld bij elke nieuwe beheersleutel."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Tegen een zero-day helpt patchen pas als er een patch is. Zammad dichtte de lekken in versie 7.2 en 7.2.2; DIVD adviseert te updaten of Zammad offline te halen.",
+      "Wat wel hielp: netwerksegmentatie. De omgeving waarin DIVD CVE-nummers uitgeeft, stond los van de rest en toont geen sporen van toegang. Ook snelle detectie en vooraf geregelde hulp bij incidenten beperken de schade."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Welke systemen hebben jullie op internet staan die meldingen of tickets ontvangen, en wie houdt die bij?",
+    "Krijgt jullie SIEM een melding als er een nieuwe beheersleutel of API-token wordt aangemaakt?",
+    "Hoe lang duurt het bij jullie van detectie tot indamming, en is dat ooit geoefend?",
+    "Zijn de gevoeligste omgevingen gescheiden van de rest van het netwerk?"
+   ],
+   "takeaway": "Een aanvaller met twee onbekende lekken en geautomatiseerde tools kan in minuten van buiten naar root gaan. Detectie werkte hier snel; de winst zat daarna in reactiesnelheid en in segmentatie die de schade beperkte.",
+   "region": "nl",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "7b72d51a9df2",
    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -1048,7 +1202,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:58:00Z",
+   "processed_at": "2026-11-03T21:35:00Z",
    "reading_minutes": 5,
    "format_version": 2,
    "headline": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk",
@@ -1153,6 +1307,297 @@
    "region": "world",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "875e59480304",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-11-03T17:32:47Z",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
+   "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
+   "limitations": [
+    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
+    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
+    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
+   ],
+   "official_docs": [
+    {
+     "label": "Microsoft Threat Intelligence: fake-download campaign",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
+    }
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "malware"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.8,
+    "quality": 0.6,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:46:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
+   "story": [
+    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
+    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
+    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
+    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
+   ],
+   "key_facts": [
+    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
+    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
+    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
+    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
+    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
+    "language": "kql",
+    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
+    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
+   },
+   "terms": [
+    {
+     "term": "resource hijacking",
+     "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
+    },
+    {
+     "term": "adware",
+     "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
+    },
+    {
+     "term": "geplande taken",
+     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+     "term": "SYSTEM-rechten",
+     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+     "term": "PUA",
+     "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
+   },
+   "customer_questions": [
+    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
+    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
+    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
+   ],
+   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
+   "region": "world"
+  },
+  {
+   "id": "08252db330fb",
+   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+   "source_id": "cisco_talos",
+   "published_at": "2026-10-29T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:37.824805Z",
+   "summary": "In het derde kwartaal was phishing nog steeds de belangrijkste ingang bij incidenten die Cisco Talos onderzocht, vaak via telefoontjes van een nep-helpdesk. Het aandeel ransomware steeg naar 27 procent.",
+   "personal_relevance": "Dit soort kwartaalcijfers zijn handig om een klantgesprek mee te openen: waar komen aanvallers nu binnen, en is dat bij jullie afgedekt? Vooral het punt 'onvoldoende logging' raakt direct aan SIEM en MDR.",
+   "limitations": [
+    "De cijfers gaan alleen over zaken van het eigen incident-responseteam van Talos, niet over alle aanvallen.",
+    "Wat de bellers precies zeiden, staat niet in het rapport; ook niet of Microsoft Teams werd gebruikt.",
+    "Talos geeft geen specifieke detectieregels voor vishing."
+   ],
+   "topics": [
+    "ransomware",
+    "siem_detection",
+    "phishing_identity",
+    "incident_response"
+   ],
+   "groups": [
+    "incidenten",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.77,
+    "source": 0.8,
+    "quality": 0.65,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:44:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe",
+   "story": [
+    "Cisco Talos publiceert elk kwartaal wat zijn incident-responseteam tegenkwam. In het derde kwartaal van 2026 was phishing de vaakst gebruikte ingang (37 procent), op de voet gevolgd door het misbruiken van systemen die open naar internet staan (33 procent), zoals beveiligingsgateways en beheerschermen. Ransomware en de voorbereiding daarop waren samen goed voor 27 procent van de zaken; in de vier kwartalen daarvoor was dat steeds hooguit 20 procent.",
+    "Opvallend is vishing: phishing via de telefoon. Aanvallers deden zich voor als de IT-helpdesk en lieten slachtoffers een programma voor beheer op afstand (RMM) starten, zoals Microsoft Quick Assist. Daarmee kregen ze een legitieme ingang, die minder snel alarm geeft dan malware. Bij een zaak met de nieuwe ransomware VYPR volgden daarna PowerShell, extra beheertools en het dagenlang wegsluizen van gegevens.",
+    "Bij de zwakke plekken die Talos vond, stond onvoldoende logging bovenaan (meer dan 40 procent), gevolgd door ontbrekende of zwakke MFA en slecht beheer van wachtwoorden en sleutels (elk 33 procent). Aanvallers schakelden EDR het vaakst uit met kwetsbare drivers (BYOVD) of een kwaadaardig beleid voor Windows Defender Application Control.",
+    "Talos adviseert MFA die niet te phishen is, zoals hardwaresleutels. Belangrijk tegen de nep-helpdesk: laat het registreren van een nieuw MFA-apparaat verlopen via de helpdesk met controle van de identiteit, niet via zelfbediening. En bewaar logs minstens 90 dagen centraal, buiten het apparaat zelf."
+   ],
+   "key_facts": [
+    "Phishing was de belangrijkste eerste ingang (37 procent, vorig kwartaal meer dan 50 procent), gevolgd door misbruik van systemen aan internet (33 procent) (Talos, 29 oktober 2026).",
+    "Ransomware en pre-ransomware waren 27 procent van de zaken; in elk van de vier vorige kwartalen hooguit 20 procent.",
+    "Financiële sector en openbaar bestuur waren samen het vaakst doelwit (elk 18 procent).",
+    "Onvoldoende logging kwam voor in meer dan 40 procent van de zaken; ontbrekende of zwakke MFA in 33 procent.",
+    "In een zaak met de nieuwe ransomware VYPR werd het slachtoffer overgehaald een Microsoft Quick Assist-sessie te starten.",
+    "Talos noemt de ransomwarefamilies The Gentlemen, Qilin, Rhysida, Interlock en het nieuwe VYPR."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "vishing",
+     "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."
+    },
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "BYOVD",
+     "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."
+   },
+   "customer_questions": [
+    "Hoe controleert jullie helpdesk wie er belt voordat er een MFA-apparaat of wachtwoord wordt gereset?",
+    "Welke tools voor beheer op afstand zijn bij jullie toegestaan, en zou je merken als iemand Quick Assist start?",
+    "Hoe lang bewaren jullie logs, en staan ze buiten de systemen zelf?",
+    "Zou jullie monitoring alarm slaan als EDR op een machine wordt uitgeschakeld?"
+   ],
+   "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
+   "region": "world"
+  },
+  {
+   "id": "1c4ce65b251a",
+   "title": "Camera Management Software Compromise Leads to Malware Deployment",
+   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-27T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Huntress zag in september en oktober een paar inbraken die begonnen bij software voor het beheren van beveiligingscamera's. Daarna verstopte de aanvaller zijn malware achter een echt Microsoft-programma.",
+   "personal_relevance": "Camerasystemen en andere 'facilitaire' software vallen vaak buiten het zicht van IT en security. Een goed voorbeeld om te vragen of zulke systemen in de scope van vulnerability management en monitoring zitten.",
+   "limitations": [
+    "Hoe de camerasoftware werd overgenomen, is onbekend; het is niet bevestigd dat het om een kwetsbaarheid of om gestolen wachtwoorden gaat.",
+    "Het aantal getroffen organisaties en sectoren wordt niet genoemd.",
+    "Wat de aanvaller uiteindelijk wilde, en wie het was, is onbekend."
+   ],
+   "official_docs": [
+    {
+     "label": "Huntress: Camera Management Software Compromise",
+     "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    }
+   ],
+   "topics": [
+    "attack_techniques",
+    "incidents_breaches",
+    "siem_detection",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "incidenten",
+    "detectie"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.69,
+    "source": 0.68,
+    "quality": 0.65,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:48:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand",
+   "story": [
+    "Het beveiligingsbedrijf Huntress onderzocht in september en oktober een handvol incidenten bij verschillende klanten. Volgens Huntress begonnen ze allemaal bij een gehackt systeem voor camerabeheer (CMS.exe). Hoe de aanvallers dat systeem overnamen, is onbekend: Huntress vond geen logs van de applicatie en noemt geen kwetsbaarheid.",
+    "Vanuit de camerasoftware startte de aanvaller een programma dat een reverse shell opende: een verbinding van binnen naar buiten waarmee hij opdrachten kon geven. Daarna gebruikte hij DLL-sideloading. Hij zette een echt programma van Microsoft (WpcMon.exe) in een gebruikersmap, met daarnaast twee nagemaakte DLL-bestanden. Windows laadt dan die nep-DLL's, zodat de malware meelift op een vertrouwd programma.",
+    "Om terug te komen na een herstart, zette de aanvaller WpcMon.exe in de Run-sleutel van het register. De nep-DLL's maakten daarna regelmatig contact met één server van de aanvaller.",
+    "Huntress adviseert camerabeheersoftware in kaart te brengen en de toegang ertoe te beperken, en met applicatiecontrole te voorkomen dat programma's en DLL's uit gebruikersmappen draaien. Het signaal om op te letten: een Windows-programma dat normaal in system32 staat, maar ineens vanuit een gebruikersprofiel draait."
+   ],
+   "key_facts": [
+    "Huntress zag in september en oktober 2026 een handvol incidenten bij meerdere klanten die begonnen bij camerabeheersoftware (publicatie 27 oktober 2026).",
+    "De maker van de software kon Huntress niet met zekerheid vaststellen; teksten in het programma wijzen naar een Koreaans bedrijf.",
+    "De aanvaller plaatste het echte Microsoft-programma WpcMon.exe met twee aangepaste DLL's in een gebruikersmap (DLL-sideloading).",
+    "Persistentie verliep via een Run-sleutel in het register; de DLL's maakten contact met één commandoserver.",
+    "Huntress noemt geen CVE en kon de oorzaak van de eerste inbraak niet vaststellen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan de verdachte procesketen eruitzien in een overzicht van processen. Let op regel 3: WpcMon.exe hoort in C:\\Windows\\System32, niet in een gebruikersprofiel.",
+    "language": "text",
+    "code": "Ouderproces                                  > Kindproces\nC:\\Program Files (x86)\\CMS\\CMS.exe            > ...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe\n...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe > C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\WpcMon\\WpcMon.exe",
+    "note": "Nagebouwd voorbeeld op basis van de paden in het artikel van Huntress; het echte overzicht staat daar."
+   },
+   "terms": [
+    {
+     "term": "reverse shell",
+     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
+    },
+    {
+     "term": "DLL-sideloading",
+     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+     "term": "Run-sleutel",
+     "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
+    },
+    {
+     "term": "applicatiecontrole",
+     "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen met een duidelijk detectiesignaal."
+   },
+   "customer_questions": [
+    "Wie beheert bij jullie de software voor camera's en toegangscontrole, en valt die onder dezelfde patch- en scanprocessen?",
+    "Is die software bereikbaar vanaf internet?",
+    "Zou jullie EDR of SIEM het melden als een Windows-programma vanuit een gebruikersmap draait in plaats van uit system32?"
+   ],
+   "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
+   "region": "world"
   }
  ],
  "deepdives": [],
@@ -1172,6 +1617,17 @@
    ]
   },
   {
+   "term": "adware",
+   "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "875e59480304",
+     "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
    "term": "AI-agent",
    "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest.",
    "refs": [
@@ -1179,6 +1635,17 @@
      "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "applicatiecontrole",
+   "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1c4ce65b251a",
+     "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
     }
    ]
   },
@@ -1205,6 +1672,17 @@
    ]
   },
   {
+   "term": "BYOVD",
+   "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
+    }
+   ]
+  },
+  {
    "term": "C2",
    "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt.",
    "refs": [
@@ -1227,6 +1705,17 @@
    ]
   },
   {
+   "term": "CSIRT",
+   "explanation": "Computer Security Incident Response Team: een team dat beveiligingsmeldingen ontvangt en bij incidenten coördineert.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
    "term": "CVSS-score",
    "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt.",
    "refs": [
@@ -1234,6 +1723,28 @@
      "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "DLL-sideloading",
+   "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1c4ce65b251a",
+     "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
+    }
+   ]
+  },
+  {
+   "term": "EDR",
+   "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
     }
    ]
   },
@@ -1256,6 +1767,17 @@
      "kind": "a",
      "id": "11af3bdb9908",
      "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "geplande taken",
+   "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "875e59480304",
+     "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
     }
    ]
   },
@@ -1348,6 +1870,28 @@
    ]
   },
   {
+   "term": "MFA",
+   "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
+    }
+   ]
+  },
+  {
+   "term": "netwerksegmentatie",
+   "explanation": "Een netwerk opdelen in afgeschermde delen, zodat een aanvaller in het ene deel niet zomaar bij het andere kan.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
    "term": "NTLM",
    "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet.",
    "refs": [
@@ -1403,6 +1947,17 @@
    ]
   },
   {
+   "term": "PUA",
+   "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "875e59480304",
+     "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
    "term": "residential proxy",
    "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen.",
    "refs": [
@@ -1414,13 +1969,62 @@
    ]
   },
   {
+   "term": "resource hijacking",
+   "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "875e59480304",
+     "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "reverse shell",
+   "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1c4ce65b251a",
+     "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
+    }
+   ]
+  },
+  {
+   "term": "RMM",
+   "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
+    }
+   ]
+  },
+  {
    "term": "root",
    "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren.",
    "refs": [
     {
      "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    },
+    {
+     "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "Run-sleutel",
+   "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1c4ce65b251a",
+     "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
     }
    ]
   },
@@ -1436,6 +2040,17 @@
    ]
   },
   {
+   "term": "sessie",
+   "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
    "term": "supply chain",
    "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt.",
    "refs": [
@@ -1447,6 +2062,28 @@
    ]
   },
   {
+   "term": "SYSTEM-rechten",
+   "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "875e59480304",
+     "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "ticketsysteem",
+   "explanation": "Software waarin een helpdesk meldingen en e-mails ontvangt, verdeelt en afhandelt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
    "term": "use-after-free",
    "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen.",
    "refs": [
@@ -1454,6 +2091,17 @@
      "kind": "a",
      "id": "11af3bdb9908",
      "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "vishing",
+   "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
     }
    ]
   },
@@ -1487,6 +2135,17 @@
      "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "zero-days",
+   "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5ab695849a1f",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
     }
    ]
   }
@@ -1665,7 +2324,26 @@
  },
  "interest_suggestions": [],
  "interest_log": [],
- "runs": null,
+ "runs": {
+  "date": "2026-11-03",
+  "tasks": {
+   "uitleggen": {
+    "status": "ok",
+    "summary": "9 artikelen uitgelegd (6 uitgebreid), 6 overgeslagen: 2 dubbel, 1 marketing en 3 niet te lezen.",
+    "finished_at": "2026-11-03T21:51:00Z",
+    "problems": [
+     "Vers ophalen was niet nodig: feed.json was van vandaag.",
+     "Drie artikelen waren niet te openen (SecurityWeek over Android, NCSC-advies over Oracle, CrowdStrike-blog) en zijn overgeslagen met 'Niet te lezen'.",
+     "De CISA KEV-pagina's, NVD en de EPSS-site van FIRST waren niet te openen; misbruik is gecontroleerd via de leverancier, het NCSC, het CVE-record en andere bronnen."
+    ],
+    "counts": {
+     "uitgelegd": 9,
+     "uitgebreid": 6,
+     "overgeslagen": 6
+    }
+   }
+  }
+ },
  "feedback": {
   "topics": {},
   "sources": {},
@@ -1689,7 +2367,7 @@
   "fetched_items": 290,
   "unique_after_dedupe": 198,
   "merged_duplicates": 1,
-  "shown": 5,
+  "shown": 9,
   "decisions": {
    "included": 85,
    "below_threshold": 50,
@@ -1697,19 +2375,24 @@
    "excluded": 22
   },
   "processing": {
-   "enriched": 5
+   "enriched": 9
   },
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 3,
-   "aanvallen": 1,
-   "ti": 1
+   "aanvallen": 2,
+   "ti": 1,
+   "incidenten": 2,
+   "detectie": 1
   },
   "per_source": {
    "security_nl": 1,
    "unit42": 1,
    "google_threat_intel": 2,
-   "cisco_talos": 1
+   "divd": 1,
+   "cisco_talos": 2,
+   "microsoft_threat_intel": 1,
+   "huntress_blog": 1
   },
   "date_flags": [
    {
@@ -1745,7 +2428,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 130
+   "skipped_no_key": 126
   },
   "queue_size": 15,
   "invalid_enrichment": [],
@@ -1794,14 +2477,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
-    "relevance_score": 85,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
@@ -1864,14 +2539,6 @@
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
     "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
@@ -1976,26 +2643,10 @@
     "excluded_by": []
    },
    {
-    "title": "Camera Management Software Compromise Leads to Malware Deployment",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
     "source_id": "crowdstrike_blog",
     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
     "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "It was a matter of when, not if...",
-    "source_id": "divd",
-    "url": "/newsroom/articles/when-no-if/",
-    "relevance_score": 78,
     "decision": "included",
     "excluded_by": []
    },
@@ -2266,6 +2917,40 @@
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder",
+    "source_id": "datadog_security_labs",
+    "url": "https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0456 [1.00] [M/H] Kwetsbaarheden verholpen in Apple iOS en iPadOS",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0456",
+    "relevance_score": 73,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    }
   ],
   "topics_without_source": []

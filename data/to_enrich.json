@@ -1,22 +1,7 @@
 {
- "generated_at": "2026-11-03T21:48:28.882726Z",
+ "generated_at": "2026-11-03T21:58:40.601647Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
-  {
-   "id": "875e59480304",
-   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-11-03T17:32:47Z",
-   "excerpt": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .",
-   "preliminary_score": 85,
-   "preliminary_topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "incident_response"
-   ]
-  },
   {
    "id": "62c945c0e6fb",
    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
@@ -29,79 +14,6 @@
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence"
-   ]
-  },
-  {
-   "id": "08252db330fb",
-   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-10-29T14:00:00Z",
-   "excerpt": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "attack_techniques",
-    "ransomware",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "1d820fad715a",
-   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
-   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-   "source_id": "ncsc_nl_advisories",
-   "source_name": "NCSC-NL beveiligingsadviezen",
-   "published_at": "2026-10-22T09:49:08Z",
-   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder meer: - Arbitrary code execution uitvoeren via crafted input of deserialisatieprocessen. - Volledige systeemcompromittering bereiken via netwerktoegang zonder authenticatie. - Ongeautoriseerde toegang verkrijgen tot gevoelige of kritieke data. - Data manipuleren, creëren, verwijderen of wijzigen zonder juiste rechten. - Denial-of-Service veroorzaken door resource-uitputting, crashes of hangs. - Privilege escalation uitvoeren binnen het systeem. - Cross-site scripting en spoofing aanvallen uitvoeren. - Kwetsbaarheden in authenticatie- en autorisatiemechanismen misbruiken. De kwetsbaarheden zijn",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ]
-  },
-  {
-   "id": "b4efc3f65f51",
-   "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-   "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-03T12:21:49Z",
-   "excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ]
-  },
-  {
-   "id": "1c4ce65b251a",
-   "title": "Camera Management Software Compromise Leads to Malware Deployment",
-   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-27T13:00:00Z",
-   "excerpt": "Attackers compromised camera management software to deploy malware, establish persistence, and beacon to C2. Huntress breaks down the attack chain and IOCs.",
-   "preliminary_score": 80,
-   "preliminary_topics": [
-    "attack_techniques",
-    "incidents_breaches",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "5ab695849a1f",
-   "title": "It was a matter of when, not if...",
-   "url": "/newsroom/articles/when-no-if/",
-   "source_id": "divd",
-   "source_name": "DIVD (Dutch Institute for Vulnerability Disclosure)",
-   "published_at": "2026-09-24T20:36:00Z",
-   "excerpt": "Security people always say it’s not a matter of if, but when you get hacked. It took us (almost) seven years but we can now say that we’re the hackers that got hacked. We noticed suspicious activity, investigated, and came to the inevitable conclusion that damn, we got hacked. So what do hackers do when they get hacked? Handle it the way we think it should be handled. That is open, transparent and honest, even if it sucks. So far, we’ve been in full incident response mode, blocked access to our infrastructure and started a forensics investigation with the assistance of a third party incident response team.",
-   "preliminary_score": 78,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "incident_response"
    ]
   },
   {
@@ -222,6 +134,95 @@
     "exploited_vulnerabilities",
     "ransomware",
     "edge_devices"
+   ]
+  },
+  {
+   "id": "064bd0353dfc",
+   "title": "Introducing pathrunner: An AWS privilege escalation framework",
+   "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
+   "source_id": "datadog_security_labs",
+   "source_name": "Datadog Security Labs",
+   "published_at": "2026-10-20T00:00:00Z",
+   "excerpt": "Introducing pathrunner, a modular, cloud-native offensive security framework that automates the exploitation of AWS IAM privilege escalation paths.",
+   "preliminary_score": 77,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "attack_techniques",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "82e9316ac12e",
+   "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
+   "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-10-21T04:00:00Z",
+   "excerpt": "Two critical PHP RCEs, CVE-2026-109618 and CVE-2026-109619, leaked before the patch. Learn what's known, who's exposed, and how to prepare now.",
+   "preliminary_score": 77,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "1fa3674c266e",
+   "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
+   "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+   "source_id": "watchtowr_labs",
+   "source_name": "watchTowr Labs",
+   "published_at": "2026-10-09T17:31:14Z",
+   "excerpt": "Before we begin, yes - it's confusing. There are more vulnerabilities with watchTowr IDs in this blog post than there are CVE IDs (assigned by PaperCut), due to PaperCut bundling vulnerabilities and then patch bypasses for those same vulnerabilities into singular CVE IDs. Paper! It still exists. We have",
+   "preliminary_score": 76,
+   "preliminary_topics": [
+    "vulnerabilities_cve"
+   ]
+  },
+  {
+   "id": "3b47cd8d755b",
+   "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+   "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-10-15T18:00:00Z",
+   "excerpt": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
+   "preliminary_score": 76,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+   ]
+  },
+  {
+   "id": "580236cbddf9",
+   "title": "ARMORY CASTLE Exploits BeyondTrust",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-10-15T14:00:00Z",
+   "excerpt": "Written by: Jayson Frost, Bryce Greathouse, Brian Meyer, John Palmisano, Rajesh Rajeshirke, Steve Rasch, John Wolfram Introduction On October 15, BeyondTrust disclosed a vulnerability, CVE-2026-102764, impacting BeyondTrust Remote Support (formerly Bomgar) appliances. BeyondTrust Remote Support is an enterprise secure remote access solution that enables IT teams to securely access and troubleshoot remote endpoints. The successful exploitation of this vulnerability results in the arbitrary upload of files. During an incident response engagement, Mandiant identified evidence that ARMORY CASTLE, a suspected PRC-nexus espionage threat actor (formerly tracked as UNC5221 ), exploited this vulnerability as a zero-day, in late August 2026. This blog describes how ARMORY CASTLE escalated privileges and established persistent access to compromised BeyondTrust Remote Support appliances following exploitation of CVE-2026-102764, and provides actionable guidance for defenders. Organizations should prepare for potential widespread exploitation following this disclosure, as ARMORY CASTLE and other threat actors have historically conducted broad, opportunistic exploitation once the vulnerability b",
+   "preliminary_score": 76,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "incidents_breaches",
+    "threat_intelligence",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "b06c9cfc80a7",
+   "title": "Investigating Ephemeral Supply Chain Tampering",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-10-15T11:00:00Z",
+   "excerpt": "Written by: Tyler McLellan Introduction Google Threat Intelligence Group (GTIG) and Mandiant investigated a software supply chain compromise campaign targeting the update infrastructure belonging to AOMEI Technology between April 2026 and July 2026. The threat actor conducted repeated, short-burst configuration tampering against AOMEI origin servers. Each tampering window remained active for only five to ten minutes before reverting to authentic versions. This is the first time that we have encountered a software supply chain compromise that was implemented with these very short windows, effectively evading traditional point-in-time triage and automated file scanning. The campaign delivered a multi-stage payload chain involving the newly tracked CROSSROAD downloader and SHINYROAD backdoor. The threat actor iteratively modified its tradecraft, pivoting its staging infrastructure from cloud providers to dedicated domains and legitimate cloud storage. This evolving staging setup makes it particularly challenging for defenders to establish effective infrastructure-based blocking or network controls. We attribute this activity to a threat cluster we are tracking as UNC7017. Based on ava",
+   "preliminary_score": 76,
+   "preliminary_topics": [
+    "threat_intelligence",
+    "malware",
+    "supply_chain"
    ]
   }
  ]
