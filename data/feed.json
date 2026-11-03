@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T21:41:39.755916Z",
+ "generated_at": "2026-11-03T21:48:28.882726Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": null,
- "last_successful_update": "2026-11-03T21:41:39.755916Z",
+ "last_article_added_at": "2026-11-03T22:10:00Z",
+ "last_successful_update": "2026-11-03T21:48:28.882726Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-03T21:41:39.784979Z"
+   "checked_at": "2026-11-03T21:48:28.911595Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-03T21:41:40.583860Z"
+   "checked_at": "2026-11-03T21:48:29.538595Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-03T21:41:41.543051Z"
+   "checked_at": "2026-11-03T21:48:30.499137Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-03T21:41:41.867911Z"
+   "checked_at": "2026-11-03T21:48:30.707496Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-03T21:41:43.263475Z"
+   "checked_at": "2026-11-03T21:48:31.918180Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-03T21:41:43.417119Z"
+   "checked_at": "2026-11-03T21:48:32.140893Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-03T21:41:43.579139Z"
+   "checked_at": "2026-11-03T21:48:32.302858Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-03T21:41:43.713221Z"
+   "checked_at": "2026-11-03T21:48:32.436414Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-03T21:41:44.163499Z"
+   "checked_at": "2026-11-03T21:48:32.987080Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-03T21:41:45.775969Z"
+   "checked_at": "2026-11-03T21:48:34.455461Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-03T21:41:45.928148Z"
+   "checked_at": "2026-11-03T21:48:34.656236Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-03T21:41:46.033996Z"
+   "checked_at": "2026-11-03T21:48:34.938364Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-03T21:41:46.243549Z"
+   "checked_at": "2026-11-03T21:48:35.206617Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-03T21:41:46.447665Z"
+   "checked_at": "2026-11-03T21:48:35.471012Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-03T21:41:46.606756Z"
+   "checked_at": "2026-11-03T21:48:35.709515Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-03T21:41:46.667797Z"
+   "checked_at": "2026-11-03T21:48:35.814485Z"
   },
   {
    "id": "securityweek",
@@ -367,16 +367,1130 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-03T21:41:47.029758Z"
+   "checked_at": "2026-11-03T21:48:36.066648Z"
   }
  ],
- "daily_top": [],
- "articles": [],
+ "daily_top": [
+  "df100ad46108",
+  "11af3bdb9908",
+  "8b5f34b85bf1",
+  "30b15a7c5706"
+ ],
+ "articles": [
+  {
+   "id": "df100ad46108",
+   "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
+   "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-02T08:35:00Z",
+   "fetched_at": "2026-11-03T21:07:34.951566Z",
+   "summary": "Ivanti heeft twee nieuwe lekken in Connect Secure gedicht. Aanvallers combineerden die met een eerder lek om vpn-servers volledig over te nemen en het netwerk erachter te verkennen.",
+   "personal_relevance": "Vpn-servers zijn een vaste ingang voor aanvallers. Dit is een goed voorbeeld om met klanten te bespreken dat patchen alleen niet genoeg is als een apparaat mogelijk al gehackt was.",
+   "limitations": [
+    "Bronnen verschillen over welk CVE-nummer bij welke stap hoort en over de scores: een andere site noemt voor CVE-2026-104935 een CVSS van 8,6 en voor CVE-2026-118527 een score van 4,3; het NCSC geeft voor CVE-2026-118527 geen score.",
+    "De precieze lijst met veilige versies staat in het advies van Ivanti; dat advies konden we niet zelf openen.",
+    "Onbekend is hoeveel organisaties zijn getroffen en wie de aanvaller is. Volexity denkt met lage zekerheid aan criminelen, niet aan spionage.",
+    "Volexity zag geen daadwerkelijke laterale beweging; het uiteindelijke doel van de aanval is niet bekend."
+   ],
+   "official_docs": [
+    {
+     "label": "NCSC-2026-0416 (versie 1.0.1)",
+     "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0416.html"
+    },
+    {
+     "label": "Volexity: analyse van de aanvalsketen",
+     "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "edge_devices"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 95,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.85,
+    "quality": 0.8,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:45:00Z",
+   "reading_minutes": 6,
+   "format_version": 2,
+   "headline": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden",
+   "story": [
+    "Ivanti heeft updates uitgebracht voor twee actief aangevallen kwetsbaarheden in Connect Secure: CVE-2026-111357 en CVE-2026-118527. Aanvallers gebruikten die samen met CVE-2026-104935, een lek dat Ivanti op 13 oktober al dichtte. Het NCSC werkte zijn advies op 3 november bij. Versies die na 13 oktober als veilig golden, zijn nog kwetsbaar voor de twee nieuwe lekken.",
+    "Het beveiligingsbedrijf Volexity ontdekte de aanval begin oktober bij een klant. De aanval begon op 3 oktober. De vpn-server had toen alle updates. Alle drie de lekken waren dus een zero-day: niemand kende ze nog, ook Ivanti niet."
+   ],
+   "key_facts": [
+    "Ivanti bracht updates uit voor CVE-2026-111357 en CVE-2026-118527 in Connect Secure; beide zijn actief misbruikt (Security.NL, NCSC-2026-0416 versie 1.0.1 van 3 november 2026).",
+    "Aanvallers combineerden deze lekken met CVE-2026-104935, dat Ivanti op 13 oktober 2026 dichtte.",
+    "Het NCSC geeft CVE-2026-104935 een CVSS-score van 10,0 en CVE-2026-111357 een score van 7,0.",
+    "Volgens het NCSC zijn versies 25.1.1.2 en 22.8R2.5, eerder als veilig gezien voor CVE-2026-104935, nog kwetsbaar voor de twee nieuwe lekken.",
+    "Volexity: de aanval begon op 3 oktober 2026 op een apparaat met versie 22.8R2.4 dat alle updates had; de aanvaller (UTA0576) stal inloggegevens en zocht in Active Directory naar LAPS-wachtwoorden en BitLocker-herstelinformatie.",
+    "CISA nam de twee nieuwe lekken op in de lijst van actief misbruikte kwetsbaarheden en gaf Amerikaanse overheidsdiensten drie dagen om te patchen (Security.NL)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verdacht verzoek eruitzien in een log met headers. Het gevraagde pad is welcome.cgi, maar de interne header wijst naar een ander script. Dat verschil is het signaal dat Volexity noemt.",
+    "language": "log",
+    "code": "203.0.113.10 - - [03/Oct/2026:09:14:22 +0000] \"POST /dana-na/auth/url_default/welcome.cgi HTTP/1.1\" 200 512 x-dscgi-path=\"<ander script>\"\n203.0.113.10 - - [03/Oct/2026:09:14:22 +0000] \"POST /dana-na/auth/url_default/welcome.cgi HTTP/1.1\" 200 512 x-dscgi-path=\"<ander script>\"\n203.0.113.10 - - [03/Oct/2026:09:14:23 +0000] \"POST /dana-na/auth/url_default/welcome.cgi HTTP/1.1\" 200 498 x-dscgi-path=\"<ander script>\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de headerwaarde is bewust weggelaten. De echte kenmerken staan in de analyse van Volexity."
+   },
+   "terms": [
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "LDAP",
+     "explanation": "Een protocol om gegevens op te vragen uit een gebruikersadministratie zoals Active Directory, bijvoorbeeld wie er bestaat en in welke groep zit."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "password spraying",
+     "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
+    },
+    {
+     "term": "laterale beweging",
+     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+     "term": "CVSS-score",
+     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een actief misbruikt lek in een vpn-server past bij je interesse in kwetsbaarheden en aanvalsketens."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Ivanti Connect Secure is een vpn-server. Medewerkers loggen er van buitenaf op in en komen zo veilig in het bedrijfsnetwerk. Zo'n apparaat staat daarom altijd open naar internet.",
+      "Een vpn-server is ook gekoppeld aan de gebruikersadministratie van het bedrijf, vaak Active Directory. Hij praat daarmee via LDAP om te controleren wie mag inloggen. Daarvoor heeft het apparaat een eigen account met rechten in dat netwerk."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Volgens Volexity bestond de aanval uit drie stappen. Eerst omzeilt de aanvaller de inlog: zijn verzoek bereikt een intern script dat alleen voor ingelogde gebruikers bedoeld is. Daarna laat hij via een uploadfunctie code uitvoeren. Tot slot verhoogt hij zijn rechten (privilege escalation) tot root, de hoogste beheerder op het apparaat.",
+      "Elk lek los is minder erg dan de keten. Een rechtenlek dat alleen lokaal werkt, lijkt beperkt. Gecombineerd met een inlogomzeiling wordt het een volledige overname zonder wachtwoord. Daarom geeft het NCSC CVE-2026-104935 een CVSS-score van 10,0, terwijl CVE-2026-111357 alleen 7,0 krijgt."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De aanvaller heeft alleen nodig dat de vpn-server bereikbaar is via internet. Een account is niet nodig. Volexity zag dat de aanvaller zijn opdrachten en de resultaten via dezelfde versleutelde webverzoeken heen en weer stuurde. Hij plaatste geen webshell of achterdeur, en werkte grotendeels in het geheugen.",
+      "Daarna gebruikte hij het apparaat als springplank. Hij haalde inloggegevens van het apparaat, waaronder het domeinaccount voor LDAP. Met dat account zocht hij in Active Directory naar lokale beheerderswachtwoorden (LAPS) en herstelinformatie van BitLocker, de schijfversleuteling van Windows. Hij zette ook een netwerksniffer aan om wachtwoorden uit het verkeer te vissen, en probeerde veelgebruikte wachtwoorden op veel accounts (password spraying).",
+      "Volexity schat met middelmatige zekerheid in dat de aanvaller taalmodellen (AI) gebruikte om de aanval en de scripts te bouwen. Dat is een inschatting, geen vaststaand feit."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Bevestigd: de aanvaller had volledige controle over de vpn-server en stal inloggegevens. Volexity zag voorbereiding op een sprong naar andere systemen (laterale beweging), maar die zelf niet. De aanval werd volgens Volexity verstoord voordat het doel duidelijk was.",
+      "Mogelijk, afhankelijk van de omgeving: met domeinaccounts, beheerderswachtwoorden en BitLocker-sleutels kan een aanvaller veel verder komen. Denk aan inloggen op werkplekken en servers, of het uitlezen van versleutelde laptops."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Volexity noemt sporen in de weblogs: opvallend veel verzoeken naar welcome.cgi, en een verschil tussen het gevraagde pad en een interne header die naar een ander script wijst. Die header staat niet altijd in de standaardlogs. Soms zie je hem alleen in een proxy of WAF.",
+      "De aanvaller knipte stukken uit het debuglog en het auditlog van het apparaat. Gaten in de logs zijn dus zelf een signaal. Ivanti's eigen controletool (Integrity Checker Tool) zag deze aanval niet, omdat de wijzigingen alleen in het geheugen zaten. Een schone uitslag is dus geen bewijs dat er niets is gebeurd.",
+      "Voor een SIEM is het verkeer vanaf de vpn-server naar binnen interessant: LDAP-zoekopdrachten naar LAPS- of BitLocker-gegevens, Kerberos-verzoeken en mislukte inlogpogingen op veel accounts tegelijk."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Installeer de nieuwste update van Ivanti. Een apparaat dat alleen de update van 13 oktober heeft, is volgens het NCSC nog kwetsbaar. CISA gaf Amerikaanse overheidsdiensten drie dagen om te patchen.",
+      "Patchen haalt een aanvaller die al binnen is er niet uit. Bij twijfel helpt alleen onderzoek van geheugen, schijf en netwerkverkeer. Vervang daarna de wachtwoorden die het apparaat kon zien, zoals het LDAP-serviceaccount.",
+      "Geef het serviceaccount van de vpn-server zo min mogelijk rechten in Active Directory. Dan kan een aanvaller via dat account ook minder uitlezen."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Draaien jullie Ivanti Connect Secure, en welke versie staat er nu op?",
+    "Komen de logs van jullie vpn-server in de SIEM terecht, en zou je merken als er stukken uit verdwijnen?",
+    "Welke rechten heeft het serviceaccount van de vpn-server in Active Directory?",
+    "Zien jullie het als de vpn-server ineens LDAP-zoekopdrachten naar BitLocker- of LAPS-gegevens doet?"
+   ],
+   "takeaway": "Een keten van lekken kan samen veel gevaarlijker zijn dan elk lek apart. En een apparaat aan de rand van het netwerk geeft een aanvaller ook de sleutels die dat apparaat zelf heeft, zoals zijn account in Active Directory.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "11af3bdb9908",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "source_id": "unit42",
+   "published_at": "2026-10-29T18:00:34Z",
+   "date_note": "Het artikel van Unit 42 verscheen op 21 oktober en is daarna meerdere keren bijgewerkt, het laatst op 29 oktober 2026.",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Twee kritieke fouten in PHP laten een aanvaller zonder inlog code uitvoeren op een webserver, nog vóór de website zelf iets doet. Ze staan inmiddels op de CISA-lijst van misbruikte lekken.",
+   "personal_relevance": "Bijna elke klant heeft ergens PHP draaien, vaak zonder het te weten. Dit is een goed moment om te bespreken hoe vulnerability management ook software vindt die in apparaten en producten verstopt zit.",
+   "limitations": [
+    "Bronnen verschillen over welke PHP-versies kwetsbaar zijn: de PHP-adviezen noemen 8.2 tot en met 8.5, het NCSC spreekt van alle versies vanaf PHP 5.",
+    "Unit 42 trok op 25 oktober een eerdere melding over een aanval op een Europese overheidsinstelling in: de link met PHP2Shell kon niet worden bevestigd.",
+    "Of CVE-2026-109619 al met succes is misbruikt, zegt geen enkele bron; de bevestigde overnames gaan over CVE-2026-109618.",
+    "De EPSS-score konden we niet bij FIRST zelf controleren; Tenable en OpenCVE tonen een score van bijna 1.",
+    "Unit 42 is onderdeel van Palo Alto Networks, wiens eigen producten ook getroffen zijn."
+   ],
+   "official_docs": [
+    {
+     "label": "PHP-advies CVE-2026-109618 (GHSA-w8hw-w9fx-j79w)",
+     "url": "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
+    },
+    {
+     "label": "PHP-advies CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp)",
+     "url": "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp"
+    },
+    {
+     "label": "NCSC-2026-0443",
+     "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0443.html"
+    },
+    {
+     "label": "Palo Alto Networks: advies voor PAN-OS",
+     "url": "https://security.paloaltonetworks.com/CVE-2026-109618"
+    },
+    {
+     "label": "Amazon: misbruik vóór bekendmaking",
+     "url": "https://aws.amazon.com/ko/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    },
+    {
+     "label": "NCSC: overzicht getroffen producten",
+     "url": "https://github.com/NCSC-NL/php2shell"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "siem_detection",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "detectie",
+    "web"
+   ],
+   "relevance_score": 94,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.77,
+    "source": 0.8,
+    "quality": 0.82,
+    "fit": 0.15
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:52:00Z",
+   "reading_minutes": 6,
+   "format_version": 2,
+   "headline": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt",
+   "story": [
+    "Op 21 oktober dichtte het PHP-project twee kritieke kwetsbaarheden: CVE-2026-109618 en CVE-2026-109619, samen bekend als PHP2Shell. Details lekten een dag eerder uit, waarna de updates sneller verschenen. Het NCSC waarschuwde dezelfde dag dat alle PHP-installaties die webverzoeken verwerken getroffen zijn. CISA zette beide lekken op 26 oktober op de lijst van actief misbruikte kwetsbaarheden (KEV).",
+    "Unit 42 van Palo Alto Networks houdt een overzicht bij. Op 29 oktober meldde Unit 42 dat PHP2Shell wordt misbruikt tegen beheerinterfaces van PAN-OS-firewalls die open naar internet staan. Daar draait PHP onder de motorkap. Volgens Unit 42 combineerde de aanvaller het met een lek in de Linux-kernel om root te worden."
+   ],
+   "key_facts": [
+    "Het PHP-project dichtte CVE-2026-109618 en CVE-2026-109619 op 21 oktober 2026 in PHP 8.2.35, 8.3.36, 8.4.27 en 8.5.12.",
+    "Beide lekken krijgen van PHP een CVSS 4.0-score van 9,2 en zijn zonder inlog via webverzoeken te misbruiken (PHP-adviezen, NCSC-2026-0443).",
+    "CISA nam beide lekken op 26 oktober 2026 op in de KEV-lijst.",
+    "Amazon zag op 17 oktober 2026 een misbruikpoging in zijn honeypots; op 24 oktober meldde een onderzoeker geslaagde overnames van drie honeypots met PHP 8.4.26.",
+    "Unit 42 (update 29 oktober): PHP2Shell wordt misbruikt tegen PAN-OS-beheerinterfaces die open naar internet staan, gecombineerd met een Linux-kernellek om root te worden.",
+    "Unit 42 ziet ruim 22,6 miljoen mogelijk kwetsbare PHP-installaties op internet."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige detectieregel in Sigma: meld het als een webserverproces (regel 6) een shell of downloadprogramma start (regel 8). Dat doet een webserver normaal bijna nooit. Regel 10 zegt: beide voorwaarden moeten waar zijn.",
+    "language": "sigma",
+    "code": "title: Webserverproces start een shell of downloader\nlogsource:\n  product: linux\n  category: process_creation\ndetection:\n  parent:\n    ParentImage|endswith: ['/httpd', '/apache2', '/php-fpm', '/lsphp']\n  child:\n    Image|endswith: ['/sh', '/bash', '/curl', '/wget']\n  condition: parent and child\nlevel: high",
+    "note": "Nagebouwd voorbeeld in de geest van de hunting-query van Unit 42; die is uitgebreider en bedoeld voor hun eigen platform."
+   },
+   "terms": [
+    {
+     "term": "use-after-free",
+     "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen."
+    },
+    {
+     "term": "workers",
+     "explanation": "Werkprocessen van een webserver die steeds opnieuw worden gebruikt om verzoeken af te handelen. Dat is sneller dan voor elk verzoek een nieuw proces starten."
+    },
+    {
+     "term": "KEV",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "honeypots",
+     "explanation": "Lokservers die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+     "term": "geheugenbeschadiging",
+     "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.65,
+    "why": "Nog geen duimpjes; een webkwetsbaarheid in PHP staat expliciet in je lijst met onderwerpen die je wilt begrijpen."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "PHP is een programmeertaal waarin heel veel websites zijn geschreven, van webshops tot WordPress. Een webserver zoals Apache ontvangt het verzoek van de browser en geeft het aan PHP. PHP start het verzoek op, leest de ingestuurde gegevens (zoals een formulier of upload), voert het script uit en ruimt daarna het geheugen op.",
+      "Om snel te blijven, gebruikt de server steeds dezelfde werkprocessen (workers). Eén worker handelt na elkaar honderden verzoeken af. Tussen twee verzoeken moet PHP dus alles netjes opruimen, anders blijft er iets achter voor het volgende verzoek."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "CVE-2026-109618 zit in wat PHP doet als het geheugen opraakt. PHP springt dan in één keer uit het verzoek. Gebeurt dat op een ongelukkig moment vroeg in het verzoek, dan wordt het opruimen overgeslagen. Bij het afsluiten leest PHP daarna geheugen dat niet klopt. Dat is geheugenbeschadiging.",
+      "CVE-2026-109619 is een use-after-free. Na een fout blijft in de worker een verwijzing staan naar geheugen van het vorige verzoek, dat al is vrijgegeven. Het volgende verzoek op dezelfde worker gebruikt die oude verwijzing. Wie dat geheugen slim vult, kan de software laten doen wat hij wil.",
+      "Waarom is dit zo ernstig? Beide fouten zitten in PHP zelf en treden op vóórdat de code van de website draait. Het maakt dus niet uit hoe goed de website is gebouwd. Volgens het PHP-project is het risico het grootst bij Apache met mod_php."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "Een inlog is niet nodig. Volgens de adviezen van PHP stuurt de aanvaller speciaal opgebouwde formulier-uploads (multipart-verzoeken) naar de server. Bij het tweede lek moeten twee verzoeken na elkaar op dezelfde worker terechtkomen.",
+      "Het is niet makkelijk. Rapid7 meldt dat de openbare proof of concept-code alleen werkt bij één specifieke combinatie van besturingssysteem, PHP-versie en webserver. Toch lukte het een onderzoeker op 24 oktober om drie lokservers (honeypots) met PHP 8.4.26 over te nemen.",
+      "Lukt het, dan draait de code van de aanvaller met de rechten van de webserver. Met een tweede lek, zoals in de kernel, kan hij daarna root worden."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Bevestigd: Amazon zag al op 17 oktober een poging, vier dagen vóór de bekendmaking. Unit 42 bevestigt misbruik tegen PAN-OS-beheerinterfaces; volgens Palo Alto Networks gaat het om ongeveer 0,02 procent van de geïnstalleerde apparaten.",
+      "Mogelijk: wie code op een webserver uitvoert, kan de website aanpassen, gegevens uit de database halen of de server gebruiken om verder het netwerk in te gaan. Unit 42 ziet ruim 22,6 miljoen PHP-installaties op internet die mogelijk kwetsbaar zijn. PHP zit ook verstopt in apparaten en producten; het NCSC houdt daarvoor een lijst bij."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Amazon adviseert in de weblogs te zoeken naar POST-verzoeken met formulier-uploads waarin de tekst PHP_SESSION_UPLOAD_PROGRESS voorkomt, en te kijken vanaf 17 oktober.",
+      "De hunting-query van Unit 42 kijkt naar wat er ná een geslaagde aanval gebeurt: een webserverproces (zoals apache2, httpd of php-fpm) dat ineens een shell, curl of wget start, of programma's uit /tmp draait. Dat werkt ongeacht het precieze lek, maar geeft ook valse meldingen.",
+      "Rapid7 en het PHP-project waarschuwen: geen verdachte logregels betekent niet dat er niets is gebeurd."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Update naar PHP 8.2.35, 8.3.36, 8.4.27 of 8.5.12 en herstart daarna alle PHP-workers. Gebruik op Linux de updates van de distributie. Oudere PHP-versies krijgen geen officiële release meer.",
+      "Kan dat niet direct, dan noemt het PHP-project tijdelijke maatregelen, zoals de functie session.upload_progress uitzetten en grote formulier-uploads beperken. Die maken een installatie volgens PHP niet veilig.",
+      "Vergeet de verborgen PHP niet: firewalls, NAS-apparaten en andere producten met een webbeheerscherm. Zet zulke beheerschermen nooit open naar internet."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie op welke servers en apparaten PHP draait, ook in producten van leveranciers?",
+    "Zijn de PHP-workers na de update ook echt herstart?",
+    "Staan er beheerschermen van firewalls of andere apparaten open naar internet?",
+    "Zou jullie SIEM het zien als een webserverproces ineens een shell of curl start?"
+   ],
+   "takeaway": "Een lek in de taal of het platform onder een website is gevaarlijker dan een lek in de website zelf: het raakt alles wat erop draait, hoe goed de website ook is gebouwd. Detectie op gedrag (een webserver die een shell start) werkt ook als je het precieze lek niet kent.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "8b5f34b85bf1",
+   "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-10-30T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en Mandiant zien sinds eind augustus aanvallers die AI-frameworks als ARTEX een groot deel van een inbraak laten uitvoeren. Dat gaat op machinesnelheid, maar laat ook veel sporen na.",
+   "personal_relevance": "Klanten gaan vragen wat AI-aanvallen voor hen betekenen. Dit stuk geeft een nuchter antwoord: sneller en grootschaliger, maar met duidelijke sporen, mits je logt en snel reageert.",
+   "limitations": [
+    "De verwachtingen over volledig zelfstandige aanvallen binnen 1 tot 6 maanden zijn een inschatting van Google.",
+    "Hoe vaak deze tools buiten de eigen onderzoeken van Google en Mandiant worden gebruikt, is onbekend.",
+    "Google zegt dat aanvallers die lang onopvallend willen blijven de openbare versies minder snel zullen gebruiken; hun werkwijze kan dus anders zijn.",
+    "Google verkoopt zelf beveiligingsdiensten en detectieregels die in het stuk worden genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: ARTEX and Friends",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    }
+   ],
+   "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "siem_detection",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "aanvallen",
+    "ti",
+    "detectie",
+    "incidenten"
+   ],
+   "relevance_score": 94,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.81,
+    "source": 0.8,
+    "quality": 0.83,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T22:10:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig",
+   "story": [
+    "Google Threat Intelligence en Mandiant zien sinds eind augustus 2026 in hun incidentonderzoeken aanvallers die AI-agenten inzetten. Het gaat om frameworks als ARTEX, PentAGI en CAIRN: open-source software die oorspronkelijk voor penetratietesten is gemaakt. De maker van ARTEX haalde de code in oktober offline omdat criminelen hem massaal misbruikten, maar kopieën en varianten blijven in omloop.",
+    "Het typische patroon: de aanvaller heeft al gestolen inloggegevens en laat ARTEX de rest doen. In één campagne ging het van het eerste gehackte account naar diepe toegang in ongeveer vier uur, en één keer in vijftien minuten. Google concludeert dat zulke tools aanvallen versnellen tot machinesnelheid, maar snelheid boven onopvallendheid stellen."
+   ],
+   "key_facts": [
+    "Google Threat Intelligence en Mandiant zien sinds eind augustus 2026 aanvallers die ARTEX, PentAGI, CAIRN en mogelijk eigen AI-frameworks gebruiken (publicatie 30 oktober 2026).",
+    "De maker van ARTEX haalde de oorspronkelijke code in oktober 2026 offline wegens misbruik; varianten zijn nog in omloop.",
+    "In de campagne UNC7228 ging het van eerste account naar diepe toegang in ongeveer 4 uur, en in één geval in 15 minuten.",
+    "Google zag een verkenning van 11 soorten cloudresources in 8 seconden en meer dan 110.000 opgevraagde objecten in Active Directory.",
+    "Pogingen tot laterale beweging werden in de onderzochte gevallen tegengehouden.",
+    "Google schat met grote zekerheid in dat criminelen zelfstandige aanvalstools steeds meer zullen gebruiken."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "penetratietesten",
+     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+     "term": "Kerberoasting",
+     "explanation": "Een aanvalstechniek waarbij een aanvaller met een gewoon account versleutelde tickets van serviceaccounts opvraagt en die offline probeert te kraken."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "CI/CD",
+     "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."
+    },
+    {
+     "term": "NTLM",
+     "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met concrete detectiesignalen past bij wat je wilt leren."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Een AI-agent is een programma dat een taalmodel (zoals een chatbot) niet alleen laat antwoorden, maar ook zelf acties laat uitvoeren: opdrachten draaien, resultaten lezen en de volgende stap kiezen. Bij een multi-agentsysteem werken meerdere van zulke agenten samen, elk met een eigen taak.",
+      "ARTEX is zo'n systeem voor aanvallen: zes gespecialiseerde sub-agenten, aangestuurd via een webconsole. PentAGI werkt vergelijkbaar: de gebruiker geeft een doelwit en een doel, en de agenten verdelen het werk en draaien bekende hacktools."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier gaat niet één ding fout; het gaat om een nieuwe manier van werken. Stappen die een menselijke aanvaller uren of dagen kosten, zoals een netwerk in kaart brengen of rechten in de cloud uitzoeken, doet een agent in seconden. Google zag een verkenning van elf soorten cloudresources in acht seconden.",
+      "Daardoor wordt de tijd tussen eerste toegang en schade veel korter. Een securityteam dat pas de volgende ochtend naar meldingen kijkt, is dan te laat."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "Google beschrijft de stappen die ARTEX in waargenomen aanvallen uitvoerde. Eerst verkenning: rechten in Azure en AWS in kaart brengen en websites aftasten. Daarna rechten verhogen, bijvoorbeeld via Kerberoasting en het aanmaken van beheerdersaccounts. Dan het interne netwerk verkennen, zoals Active Directory en Exchange.",
+      "Pogingen om door te stappen naar andere systemen werden in die gevallen tegengehouden, onder meer door beperkingen op tokens, endpointbeveiliging en ingrijpende verdedigers. De aanvallers bouwden ook vaste toegang op, bijvoorbeeld met extra SSH-sleutels en eigen servers in de cloud.",
+      "De aanvaller heeft nog wel een begin nodig: meestal gestolen inloggegevens. De agent vervangt dus niet de eerste toegang, maar versnelt alles wat daarna komt."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Bevestigd in de onderzochte gevallen: grootschalige verkenning (meer dan 110.000 objecten in Active Directory), het verzamelen van gegevens en het klaarzetten van grote opslag, waarschijnlijk om gegevens weg te sluizen. Doelwitten waren onder meer overheid, technologie, chemie en industrie.",
+      "Verwachting van Google: binnen één tot drie maanden eenvoudige aanvallen met meerdere agenten zonder of met weinig menselijke sturing, en binnen drie tot zes maanden geavanceerde volledig zelfstandige aanvallen. Dat is een inschatting, geen feit."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Het goede nieuws: deze aanvallen zijn luidruchtig. Google zag uitbarstingen van activiteit van 2 tot 25 seconden, zoals 27 gebeurtenissen in 23 seconden. Agenten probeerden dingen steeds opnieuw, wat honderden foutmeldingen gaf. Een webshell werd meerdere keren herschreven tot hij werkte.",
+      "Voor een SIEM betekent dat: let op snelheid en volume, niet alleen op losse handelingen. Hoeveel acties doet één account per minuut in de cloudbeheeromgeving? Google noemt ook verkeer naar diensten als webhook.site als signaal; ARTEX gebruikte honderden wisselende webhook-adressen als communicatiekanaal.",
+      "Google benadrukt wel: een aanval zien is niet hetzelfde als hem stoppen. Bij machinesnelheid moet de reactie ook snel zijn."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Google noemt vijf lagen. Bescherm de beheeromgeving van cloud en CI/CD. Gebruik kortlevende inloggegevens en zo min mogelijk rechten. Harden de configuratie, zoals segmentatie en minder gebruik van het oude NTLM-protocol. Stel limieten in op bedrijfsapplicaties, zoals hoeveel mails een app mag sturen.",
+      "De vijfde laag is detectie op gedrag en volume: leer wat normaal is, en meld afwijkingen in snelheid. Beperk ook uitgaand verkeer naar diensten die aanvallers vaak als tussenstation gebruiken."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Hoe snel reageert jullie team, of jullie MDR-partner, op een melding buiten kantoortijd?",
+    "Hebben jullie detectie op ongewoon veel acties in korte tijd, bijvoorbeeld in de cloudbeheeromgeving?",
+    "Gebruiken jullie kortlevende inloggegevens voor cloudbeheer, of vaste sleutels?",
+    "Zien jullie uitgaand verkeer naar diensten als webhook.site?"
+   ],
+   "takeaway": "AI-agenten versnellen vooral wat na de eerste toegang komt: verkennen, rechten verhogen, gegevens verzamelen. Dat maakt de reactietijd belangrijker dan ooit, maar ook detectie op snelheid en volume kansrijker.",
+   "region": "world"
+  },
+  {
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
+   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
+   "limitations": [
+    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
+    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
+    "Een reactie van Videostrong staat niet in de bron.",
+    "De precieze datum van de actie en de rechtbank worden niet genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
+   ],
+   "topics": [
+    "threat_intelligence",
+    "supply_chain",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.94,
+    "source": 0.8,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T22:04:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
+   "story": [
+    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
+    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
+   ],
+   "key_facts": [
+    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
+    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
+    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
+    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
+    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
+    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "botnet",
+     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
+    },
+    {
+     "term": "firmware",
+     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+     "term": "residential proxy",
+     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
+    },
+    {
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
+    "Staan die apparaten in een apart netwerksegment?",
+    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
+   ],
+   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
+   "region": "world"
+  },
+  {
+   "id": "7b72d51a9df2",
+   "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+   "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+   "source_id": "cisco_talos",
+   "published_at": "2026-10-28T21:32:02Z",
+   "date_note": "Het lek is van februari 2026; Talos beschrijft eerdere activiteit zonder datums.",
+   "fetched_at": "2026-11-03T21:07:37.824805Z",
+   "summary": "Talos analyseerde malware die een spionagegroep op Cisco SD-WAN-controllers plaatste via een lek in de inlogcontrole. De malware leest het beheerverkeer mee en verzamelt sleutelmateriaal waarmee verkeer tussen vestigingen wordt versleuteld.",
+   "personal_relevance": "Netwerkapparatuur valt vaak buiten het zicht van EDR en SIEM. Dit voorbeeld helpt om met klanten te bespreken of hun netwerkkern ook logs aanlevert en wordt gescand.",
+   "limitations": [
+    "Talos geeft geen datums: onbekend is wanneer en hoe lang UAT-11473 actief was, en hoeveel organisaties getroffen zijn.",
+    "Of er echt sleutels zijn weggestuurd, en of organisaties hun IPsec-sleutels moeten vervangen, zeggen Cisco en Talos niet.",
+    "Dat het veld van 32 bytes sleutelmateriaal is, is een inschatting van Talos.",
+    "Het verband tussen UAT-11473 en de groep die het lek eerder als zero-day misbruikte, is niet duidelijk."
+   ],
+   "official_docs": [
+    {
+     "label": "Cisco-advies CVE-2026-20127",
+     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "threat_intelligence",
+    "edge_devices",
+    "malware"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.74,
+    "source": 0.8,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:58:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk",
+   "story": [
+    "Cisco Talos beschrijft hoe de groep UAT-11473 eerder een lek in Cisco Catalyst SD-WAN misbruikte: CVE-2026-20127. Daarna plaatste de groep een eigen malwareframework, KeyDrift, op de controllers die het netwerk aansturen. Talos noemt de groep een zeer geavanceerde APT. Het doelwit waren organisaties in ruimtevaart en satellietdiensten, defensie- en luchtvaarttechnologie en beleidsonderzoek.",
+    "Het lek zelf is niet nieuw: Cisco maakte het op 25 februari 2026 bekend en CISA zette het dezelfde dag op de KEV-lijst. Nieuw is de analyse van wat aanvallers ná de inbraak deden. Talos geeft geen datums voor deze activiteit."
+   ],
+   "key_facts": [
+    "CVE-2026-20127 is een inlogomzeiling in de peering-controle van Cisco Catalyst SD-WAN Controller, Manager en Validator, met CVSS-score 10,0 (Cisco).",
+    "Cisco maakte het lek bekend op 25 februari 2026; CISA nam het dezelfde dag op in de KEV-lijst.",
+    "Talos koppelt de groep UAT-11473 aan KeyDrift, met onderdelen PolyFlame (achterdeur) en LittleFilch (verzamelen van sleutelmateriaal).",
+    "Talos ziet met grote zekerheid overlap tussen de infrastructuur van UAT-11473 en die van Volt Typhoon, maar zegt niet dat het dezelfde groep is.",
+    "Doelwitten volgens Talos: ruimtevaart en satellietdiensten, defensie- en luchtvaarttechnologie en beleidsonderzoek.",
+    "Cisco werkte zijn advies op 28 oktober 2026 bij met een verwijzing naar de Talos-analyse.",
+    "Volgens The Hacker News eist CISA-richtlijn ED 26-03 dat Amerikaanse overheidsdiensten bij een inbraak de systemen opnieuw opbouwen vanaf gepatchte images."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SD-WAN",
+     "explanation": "Software-defined WAN: een manier om vestigingen via gewone internetverbindingen tot één beveiligd netwerk te verbinden, centraal aangestuurd door controllers."
+    },
+    {
+     "term": "IPsec",
+     "explanation": "Een standaard om netwerkverkeer tussen twee punten te versleutelen. Wie de sleutels heeft, kan het verkeer in principe ontcijferen."
+    },
+    {
+     "term": "APT",
+     "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
+    },
+    {
+     "term": "achterdeur",
+     "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
+    },
+    {
+     "term": "peering",
+     "explanation": "Het opzetten van een vertrouwde verbinding tussen twee netwerkonderdelen die elkaar daarna gegevens en sleutels toesturen."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; technische malware-analyse op netwerkapparatuur, met detectiesporen."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "SD-WAN verbindt de vestigingen van een organisatie via één virtueel netwerk over gewone internetverbindingen. Het verkeer tussen vestigingen is versleuteld met IPsec. Centrale controllers bepalen hoe het verkeer loopt en delen de sleutels uit.",
+      "Bij Cisco heet dat de Catalyst SD-WAN Controller (vroeger vSmart). Daarnaast is er een Manager voor het beheer en een Validator die nieuwe apparaten toelaat. Wie de controller beheerst, beheerst dus het hele netwerk tussen de vestigingen."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "CVE-2026-20127 zit in de manier waarop SD-WAN-onderdelen elkaar herkennen (peering). Volgens Cisco werkt die controle niet goed. Een aanvaller zonder account kan zich zo voordoen als vertrouwd onderdeel en krijgt beheerrechten. CVSS-score: 10,0.",
+      "Met die rechten kan de aanvaller de configuratie van het hele SD-WAN aanpassen. Daarom is dit zo gevaarlijk: het is geen lek in één apparaat, maar in het brein van het netwerk."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "Na de inbraak paste UAT-11473 de opstartscripts van normale diensten aan, zodat de malware na elke herstart terugkomt. Een hulpprogramma laadt de malware in het geheugen van vdaemon, het proces dat de beheerverbindingen tussen SD-WAN-onderdelen afhandelt.",
+      "Daarin draaien twee onderdelen. PolyFlame is een achterdeur: de aanvaller kan opdrachten uitvoeren en bestanden lezen of schrijven. De opdrachten reizen mee in het normale SD-WAN-beheerverkeer, dus er is geen apart adres van een aanvalsserver. LittleFilch leest het ontsleutelde beheerverkeer mee en haalt er IP-adressen en een veld van 32 bytes uit. Talos schat in dat dit sleutelmateriaal voor de IPsec-versleuteling is.",
+      "De malware wist ook sporen uit, bijvoorbeeld door de tijdstempels van bestanden te vervalsen. Talos zag dat het framework nog wordt doorontwikkeld."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Bevestigd: de aanvallers hadden langdurig toegang tot controllers en konden het beheerverkeer meelezen. Volgens Talos is het doel langdurige toegang en het automatisch wegsluizen van sleutelmateriaal.",
+      "Mogelijk: met de sleutels kan een aanvaller in theorie het versleutelde verkeer tussen vestigingen ontcijferen als hij dat verkeer ook kan onderscheppen. Of er echt sleutels zijn weggestuurd, zegt Talos niet."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Cisco adviseert in auth.log te kijken naar SSH-inlogs op het account vmanage-admin vanaf onbekende IP-adressen. Vergelijk ook de nieuwe beheerverbindingen tussen SD-WAN-onderdelen met de geplande wijzigingen: een onbekende peer is verdacht.",
+      "Talos noemt sporen op het apparaat zelf: gewijzigde opstartscripts van sshd, onbekende bibliotheken in het vdaemon-proces en versleutelde bestanden in tijdelijke mappen. Voor het netwerk zijn er Snort-regels voor het lek en voor het verkeer van KeyDrift; volgens The Hacker News staat een deel daarvan standaard uit.",
+      "Lastig voor een SIEM: netwerkapparaten sturen vaak weinig logs door, en deze malware verstopt zich in normaal beheerverkeer."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Installeer een versie waarin het lek is gedicht en volg de hardeningsgids van Cisco. Cisco noemt geen workaround, alleen als tijdelijke maatregel: poort 22 en 830 alleen openzetten voor bekende controllers en vertrouwde adressen.",
+      "Een update haalt malware die er al zit niet weg. De Amerikaanse overheid eiste daarom dat diensten bij een vermoeden van inbraak de controllers opnieuw opbouwen vanaf schone, gepatchte images."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Gebruiken jullie Cisco Catalyst SD-WAN, en draaien de controllers een gepatchte versie?",
+    "Sturen jullie SD-WAN-controllers logs naar de SIEM, zoals SSH-inlogs en nieuwe peers?",
+    "Zijn de beheerpoorten van de controllers beperkt tot bekende adressen?",
+    "Wat is jullie plan als een netwerkapparaat mogelijk gehackt is: patchen of opnieuw opbouwen?"
+   ],
+   "takeaway": "Wie de centrale controller van een netwerk overneemt, kan zich verstoppen in het normale beheerverkeer en de sleutels van de versleuteling verzamelen. Een update dicht het lek, maar verwijdert geen malware die al is geplaatst.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  }
+ ],
  "deepdives": [],
  "deepdive_options": null,
  "trends": [],
  "weekly": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "achterdeur",
+   "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "AI-agent",
+   "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "APT",
+   "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "botnet",
+   "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "C2",
+   "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "CI/CD",
+   "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "CVSS-score",
+   "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "firmware",
+   "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "geheugenbeschadiging",
+   "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "honeypots",
+   "explanation": "Lokservers die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "IOC's",
+   "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "IPsec",
+   "explanation": "Een standaard om netwerkverkeer tussen twee punten te versleutelen. Wie de sleutels heeft, kan het verkeer in principe ontcijferen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "Kerberoasting",
+   "explanation": "Een aanvalstechniek waarbij een aanvaller met een gewoon account versleutelde tickets van serviceaccounts opvraagt en die offline probeert te kraken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "KEV",
+   "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "KEV-lijst",
+   "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "laterale beweging",
+   "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "LDAP",
+   "explanation": "Een protocol om gegevens op te vragen uit een gebruikersadministratie zoals Active Directory, bijvoorbeeld wie er bestaat en in welke groep zit.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "NTLM",
+   "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "password spraying",
+   "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "peering",
+   "explanation": "Het opzetten van een vertrouwde verbinding tussen twee netwerkonderdelen die elkaar daarna gegevens en sleutels toesturen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "penetratietesten",
+   "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "proof of concept",
+   "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "residential proxy",
+   "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "root",
+   "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "SD-WAN",
+   "explanation": "Software-defined WAN: een manier om vestigingen via gewone internetverbindingen tot één beveiligd netwerk te verbinden, centraal aangestuurd door controllers.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7b72d51a9df2",
+     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "supply chain",
+   "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "30b15a7c5706",
+     "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "use-after-free",
+   "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "webshell",
+   "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "8b5f34b85bf1",
+     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "workers",
+   "explanation": "Werkprocessen van een webserver die steeds opnieuw worden gebruikt om verzoeken af te handelen. Dat is sneller dan voor elk verzoek een nieuw proces starten.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11af3bdb9908",
+     "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "zero-day",
+   "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  }
+ ],
  "interests": {
   "areas": [
    {
@@ -575,17 +1689,28 @@
   "fetched_items": 290,
   "unique_after_dedupe": 198,
   "merged_duplicates": 1,
-  "shown": 0,
+  "shown": 5,
   "decisions": {
    "included": 85,
    "below_threshold": 50,
    "no_topic": 41,
    "excluded": 22
   },
-  "processing": {},
+  "processing": {
+   "enriched": 5
+  },
   "without_date": 0,
-  "per_group": {},
-  "per_source": {},
+  "per_group": {
+   "kwetsbaarheden": 3,
+   "aanvallen": 1,
+   "ti": 1
+  },
+  "per_source": {
+   "security_nl": 1,
+   "unit42": 1,
+   "google_threat_intel": 2,
+   "cisco_talos": 1
+  },
   "date_flags": [
    {
     "source_id": "ncsc_nl_advisories",
@@ -620,7 +1745,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 135
+   "skipped_no_key": 130
   },
   "queue_size": 15,
   "invalid_enrichment": [],
@@ -632,14 +1757,6 @@
   "threshold": 60,
   "max_per_source": 12,
   "not_shown": [
-   {
-    "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
-    "relevance_score": 90,
-    "decision": "included",
-    "excluded_by": []
-   },
    {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
     "source_id": "ncsc_nl_advisories",
@@ -717,14 +1834,6 @@
     ]
    },
    {
-    "title": "Shutting the Door on the XCPE Botnet",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
@@ -762,22 +1871,6 @@
     "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -871,14 +1964,6 @@
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
     "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
-    "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
    },
@@ -1141,6 +2226,46 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+    "relevance_score": 73,
+    "decision": "included",
+    "excluded_by": []
    }
   ],
   "topics_without_source": []
