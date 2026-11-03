@@ -1508,7 +1508,7 @@ article.full h1 { font-size: clamp(1.5rem, 5.6vw, 2.05rem); line-height: 1.15; l
         <p class="orig">Origineel: ${esc(a.title)}</p>
         ${a.article_type === "opinie" && a.author ? `<div class="note" style="margin-top:14px">Dit is een mening van ${esc(a.author)}.</div>` : ""}
         ${a.date_note ? `<div class="note" style="margin-top:14px">${esc(a.date_note)}</div>` : ""}
-        ${a.exploitation || a.patch_status ? `<div class="pills">${[a.exploitation, a.patch_status].filter((x) => x && x !== "onbekend").map((x) => `<span class="pill ${esc(x)}">${esc(STATUS_LABEL[x] || x)}</span>`).join("")}</div>` : ""}
+        ${a.exploitation && a.exploitation !== "onbekend" ? `<div class="pills">${[a.exploitation].filter((x) => x && x !== "onbekend").map((x) => `<span class="pill ${esc(x)}">${esc(STATUS_LABEL[x] || x)}</span>`).join("")}</div>` : ""}
         ${a.sections?.length ? `<section class="art-sec"><h2>Wat is er gebeurd?</h2></section>` : ""}
         <div class="story">${(a.story || []).map((p) => `<p>${mark(p)}</p>`).join("")}</div>
         ${(a.sections || []).map((x) => `<section class="art-sec"><h2>${esc(x.heading)}</h2><div class="story">${x.paragraphs.map((p) => `<p>${mark(p)}</p>`).join("")}</div></section>`).join("")}

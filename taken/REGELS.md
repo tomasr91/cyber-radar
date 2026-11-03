@@ -49,7 +49,7 @@ Schrijf aan het eind `data/runs/<datum>-<taak>.json`, met de datum in Nederlands
 
 ```json
 {"task": "uitleggen", "started_at": "2026-11-04T01:22:40Z", "finished_at": "2026-11-04T02:08:10Z",
- "status": "ok", "summary": "8 artikelen uitgelegd (3 uitgebreid), 6 overgeslagen",
+ "status": "ok", "summary": "8 artikelen uitgelegd, 6 overgeslagen",
  "counts": {"uitgelegd": 8, "overgeslagen": 6}, "problems": []}
 ```
 

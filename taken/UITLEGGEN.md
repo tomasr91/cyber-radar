@@ -12,10 +12,9 @@ Lees eerst `taken/REGELS.md`. Deze taak schrijft per nieuw artikel de uitleg die
    1. Open de `url` en lees het **volledige artikel**. Nooit alleen op titel of `excerpt`.
    2. Niet te lezen (betaalmuur, fout, geen inhoud)? Schrijf `data/enrichment/skipped/<id>.json` met `{"article_id", "url", "reason", "checked_at"}` en ga door. Begin `reason` dan met "Niet te lezen": zo'n artikel komt na een week nog één keer terug op de werklijst.
    3. Valt het onder **Niet uitleggen**? Ook een `skipped`-bestand, met de regel als `reason`.
-   4. Gaat het over een kwetsbaarheid of een technische aanval? **Zoek de primaire bron op** (advies van de leverancier, CISA, NCSC, NVD, het onderzoek zelf) en lees die ook. Technische details komen uit de primaire bron; zet die in `official_docs`.
-   5. Kies de lengte (redactiegids §2): **kort** bij nieuws met weinig technische diepgang, **uitgebreid** (met `sections`) als er iets te leren valt. Richtlijn: ongeveer de helft van de artikelen uitgebreid.
-   6. Schrijf `data/enrichment/<id>.json` volgens **Formaat** hieronder, met begrippen (`terms`) en waar het past een `showcase`.
-   7. **Na elke 5 artikelen opslaan** (zie REGELS: tussendoor opslaan), commit `Uitleg: <aantal> artikelen`.
+   4. **Primaire bron alleen als het nodig is**: als het artikel te weinig uitlegt hoe het technisch werkt, of als je twijfelt of een technische claim klopt. Lees dan één primaire bron (advies van de leverancier, NCSC, het onderzoek zelf) en zet die in `official_docs`. Anders is het artikel genoeg.
+   5. Schrijf `data/enrichment/<id>.json` volgens **Formaat** hieronder, met begrippen (`terms`) en waar het past een `showcase`.
+   6. **Na elke 5 artikelen opslaan** (zie REGELS: tussendoor opslaan), commit `Uitleg: <aantal> artikelen`.
 6. **Aanvullen.** Staan er artikelen in `data/to_tag.json`: zet in hun `data/enrichment/<id>.json` alleen de ontbrekende velden `soort` en/of `fit` (de rest niet aanraken). Hooguit 20, opslaan met commit `Soort en fit: <aantal> artikelen`.
 7. **Afronden.** Laatste artikelen opslaan, taakverslag `data/runs/<datum>-uitleggen.json` schrijven en opslaan.
 
@@ -30,21 +29,18 @@ De lezer heeft basiskennis en wil de techniek leren. Na het lezen moet de lezer 
 - Zijn **feiten, vermoedens en mogelijkheden** gescheiden?
 - Zijn er **klantvragen** die een Customer Success Manager echt zou stellen?
 
-### Uitgebreid: vaste onderdelen
-`story` = "Wat is er gebeurd?" (1 of 2 alinea's). Daarna `sections` met deze koppen, in deze volgorde. Laat een onderdeel weg als de bronnen er niets over zeggen.
+### Opbouw: één doorlopend verhaal
+Net als de Data & AI Radar: een Nederlandse kop, een samenvatting en één doorlopend verhaal (`story`) van **3 tot 5 korte alinea's**. Geen losse onderdelen met koppen. Volg in het verhaal deze lijn, en sla over wat de bron niet zegt:
+1. Wat is er gebeurd?
+2. Hoe werkt het technisch? Eerst kort de normale werking, dan wat er fout gaat en hoe een aanvaller dat misbruikt (op begripsniveau).
+3. Hoe zie je het en hoe voorkom je het? (logs/SIEM, vulnerability management, patchen)
+4. Wat betekent het voor organisaties?
 
-1. `Wat is de technologie?`
-2. `Wat gaat er technisch fout?`
-3. `Hoe kan een aanvaller dit misbruiken?`
-4. `Wat is de mogelijke impact?`
-5. `Hoe zie je dit?`
-6. `Hoe voorkom je dit?`
-
-Per onderdeel 1 tot 3 korte alinea's. "Hoe kan een aanvaller dit misbruiken?" blijft op begripsniveau: wat heeft de aanvaller nodig, wat gebeurt er, wat zijn de beperkingen. **Geen werkende aanvalscode of uitvoerbare stappen.**
+Diepere uitleg van een techniek hoort in een verdieping, niet in het nieuws. Roept een artikel een "hoe werkt dat eigenlijk?"-vraag op, dan komt die terug als keuze bij Verdieping.
 
 ### Kwetsbaarheden
-- Zet altijd `exploitation` en `patch_status` (redactiegids §2). `actief_misbruikt` alleen als een betrouwbare bron het bevestigt (CISA KEV, NCSC, de leverancier, een onderzoeksteam dat het zelf zag); noem die bron in `key_facts`.
-- Controleer actief misbruik zelf in de CISA KEV-lijst (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) en, als die er is, de EPSS-score (https://www.first.org/epss/). De CISA-feeds zelf haalt de pipeline niet op (CISA weigert GitHub Actions).
+- Zet altijd `exploitation` (redactiegids §2). `actief_misbruikt` alleen als een betrouwbare bron het bevestigt (CISA KEV, NCSC, de leverancier, een onderzoeksteam dat het zelf zag); noem die bron in `key_facts`.
+- Twijfel je of iets actief misbruikt wordt? Kijk dan in de CISA KEV-lijst (https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
 - Leg uit waarom het wel of niet urgent is, verder dan de CVSS-score: misbruik, bereikbaar vanaf internet, inlog nodig of niet, wat de aanvaller daarna kan.
 - Komt er openbare aanvalscode (bijv. een module voor een pentestframework zoals Metasploit)? Noem het en leg uit wat dat betekent voor het risico: misbruik wordt dan voor veel meer mensen eenvoudig.
 
@@ -80,7 +76,7 @@ Regels:
 De lezer heeft basiskennis en komt veel nieuwe termen tegen. Geef bij elke uitleg (hooguit 6) en elke verdieping (hooguit 8) de begrippen die hij misschien nog niet kent. De app onderstreept ze in de tekst; tikken geeft de uitleg. Alle begrippen samen staan in het menu onder Begrippen. Zo bouwt de lezer een eigen woordenlijst op.
 
 - **Welke:** vaktermen en afkortingen met een eigen betekenis (bijv. webshell, deserialisatie, laterale beweging, EDR, IOC, CVSS, EPSS, KEV, proof of concept, adversary-in-the-middle, sessietoken). **Niet** wat de lezer al kent (`profile.md` §2): cybersecurity, SIEM, vulnerability management, threat intelligence, kwetsbaarheid, hack, wachtwoord.
-- **Letterlijk:** `term` staat precies zo in de tekst waarin de app onderstreept: in `story` of in de alinea's van `sections`. Anders keurt de controle het af.
+- **Letterlijk:** `term` staat precies zo in de tekst waarin de app onderstreept: in `story`. Anders keurt de controle het af.
 - **Uitleg:** één of twee korte zinnen (hooguit 240 tekens), begrijpelijk Nederlands: wat het is en waarvoor het dient. Een vergelijking mag.
 - **Zelfde uitleg:** staat het begrip al in `glossary` in `data/feed.json`, neem die uitleg over, tenzij hij niet klopt. Zo blijft de woordenlijst consistent.
 
@@ -163,15 +159,7 @@ Redenen bij 👍:
   "url": "<url uit de werklijst>",
   "headline": "Nederlandse kop, hooguit ongeveer 70 tekens",
   "summary": "Eén of twee zinnen voor de kaart in de lijst.",
-  "story": ["Wat is er gebeurd? Alinea 1.", "Alinea 2."],
-  "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": ["..."]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": ["..."]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": ["..."]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": ["..."]},
-    {"heading": "Hoe zie je dit?", "paragraphs": ["..."]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": ["..."]}
-  ],
+  "story": ["Wat is er gebeurd?", "Hoe werkt het technisch?", "Hoe zie je het en hoe voorkom je het?", "Wat betekent het?"],
   "key_facts": ["Feit uit de bron met CVE-nummer, versie of datum.", "..."],
   "limitations": ["Wat nog onbekend is."],
   "personal_relevance": "Eén of twee zinnen: wat betekent dit voor je werk?",
@@ -179,7 +167,6 @@ Redenen bij 👍:
   "takeaway": "De technische les in één of twee zinnen.",
   "region": "nl | benelux | eu | na | world",
   "exploitation": "actief_misbruikt | poc_openbaar | geen_misbruik_bekend | onbekend",
-  "patch_status": "patch_beschikbaar | workaround | geen_patch | onbekend",
   "official_docs": [{"label": "Naam", "url": "https://..."}],
   "topics": ["vulnerabilities_cve", "web_software_security"],
   "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.6},
@@ -197,4 +184,4 @@ Redenen bij 👍:
 }
 ```
 
-Korte artikelen hebben geen `sections`. `exploitation` en `patch_status` alleen bij kwetsbaarheden. `showcase` en `terms` alleen als ze iets toevoegen.
+`exploitation` alleen bij kwetsbaarheden. `showcase` en `terms` alleen als ze iets toevoegen.

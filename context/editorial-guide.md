@@ -28,35 +28,24 @@ Dit bestand bepaalt **hoe** CyberScope nieuws verwerkt en presenteert. **Wat** r
 
 ## 2. Opbouw van een artikel
 
-Er zijn twee lengtes. Kies wat het onderwerp vraagt: **kort waar het kan, uitgebreid waar het iets te leren valt.**
+Een artikel is **één doorlopend verhaal**, net als in de Data & AI Radar. Geen formulier met losse vakjes.
 
-### Kort (nieuws met weinig technische diepgang)
-- **Kop** (`headline`), **samenvatting** (`summary`), **verhaal** (`story`, 2 tot 4 alinea's): wat is er gebeurd, hoe werkt het, wat betekent het.
-- **Onthoud** (`takeaway`): één of twee zinnen.
+1. **Kop** (`headline`): Nederlands, hooguit ongeveer 70 tekens. Zegt wat er speelt.
+2. **Samenvatting** (`summary`): één of twee zinnen voor de kaart in de lijst.
+3. **Verhaal** (`story`): 3 tot 5 korte alinea's met deze lijn:
+   - *Wat is er gebeurd?*
+   - *Hoe werkt het technisch?* Kort de normale werking, dan wat er fout gaat en hoe een aanvaller dat misbruikt (op begripsniveau).
+   - *Hoe zie je het en hoe voorkom je het?* Logs en SIEM, vulnerability management, patchen.
+   - *Wat betekent het voor organisaties?*
+4. **Wat betekent dit voor je werk?** (`personal_relevance`) met 2 tot 4 **vragen die je een klant kunt stellen** (`customer_questions`).
+5. **Bevestigd** (`key_facts`): 3 tot 6 korte feiten uit de bron.
+6. **Nog onbekend of onzeker** (`limitations`): wat (nog) niet bekend is.
+7. **Onthoud** (`takeaway`): de belangrijkste technische les in één of twee zinnen.
 
-### Uitgebreid (een technisch onderwerp met leerwaarde)
-Het verhaal (`story`) beantwoordt **Wat is er gebeurd?** (1 tot 2 alinea's). Daarna volgen de vaste onderdelen (`sections`), elk met precies deze kop. Laat een onderdeel weg als de bron er niets over zegt; verzin het niet.
+**Lengte past zich aan:** liever kort en helder dan volledig. Diepere uitleg van een techniek hoort in een verdieping.
 
-1. **Wat is de technologie?** Welke software of infrastructuur is betrokken, en wat doet die normaal? Leg eerst de normale werking uit.
-2. **Wat gaat er technisch fout?** De fout of de aanvalsmethode. Waarom is die fout gevaarlijk?
-3. **Hoe kan een aanvaller dit misbruiken?** Stap voor stap, op begripsniveau: wat heeft de aanvaller nodig, welke toegang, welke techniek, wat gebeurt er als het lukt, wat zijn de beperkingen.
-4. **Wat is de mogelijke impact?** Maak onderscheid tussen bevestigde impact, mogelijke impact en impact die afhangt van de situatie.
-5. **Hoe zie je dit?** Welke signalen een securityteam kan zien: logs, SIEM, EDR, netwerkverkeer, threat intelligence.
-6. **Hoe voorkom je dit?** Patchen, configuratie, toegang beperken, segmentatie, monitoring, detectieregels: alleen wat bij dit onderwerp past, met de reden erbij.
-
-Daarna, bij beide lengtes:
-- **Wat betekent dit voor je werk?** (`personal_relevance`): één of twee zinnen, plus **vragen die je een klant kunt stellen** (`customer_questions`, 2 tot 5).
-- **Bevestigd** (`key_facts`): 3 tot 6 korte feiten uit de bron, met CVE-nummers, versies, datums en cijfers.
-- **Nog onbekend of onzeker** (`limitations`): wat (nog) niet bekend is, of waar bronnen elkaar tegenspreken.
-- **Onthoud** (`takeaway`): de belangrijkste technische les in één of twee zinnen.
-- **Bron**: naam, publicatiedatum en link toont de app automatisch.
-
-### Kwetsbaarheden: altijd de urgentie
-Bij een kwetsbaarheid vul je twee velden die de app als label toont:
-- `exploitation`: `actief_misbruikt` (bevestigd door bijv. CISA KEV, NCSC of de leverancier), `poc_openbaar` (aanvalscode is openbaar, misbruik nog niet bevestigd), `geen_misbruik_bekend` of `onbekend`.
-- `patch_status`: `patch_beschikbaar`, `workaround` (alleen een tijdelijke maatregel), `geen_patch` of `onbekend`.
-
-Leg uit **waarom** iets wel of niet urgent is, verder dan de CVSS-score: wordt het actief misbruikt, is het systeem bereikbaar vanaf internet, is er geen inlog nodig, wat kan de aanvaller daarna, hoe groot is de kans op misbruik (EPSS)?
+### Kwetsbaarheden: urgentie
+Zet bij een kwetsbaarheid `exploitation`: `actief_misbruikt` (bevestigd door bijv. NCSC, CISA KEV of de leverancier), `poc_openbaar` (aanvalscode is openbaar), `geen_misbruik_bekend` of `onbekend`. De app toont *actief misbruikt* als label. Leg in het verhaal kort uit waarom iets wel of niet urgent is: misbruik, bereikbaar vanaf internet, inlog nodig of niet.
 
 ### Incidenten: feiten, vermoedens, mogelijkheden
 - Zeg wat **bevestigd** is (door de getroffen organisatie, een officiële instantie of onderzoekers die het zelf zagen).
@@ -77,7 +66,7 @@ Naast het nieuws (tabblad *Actueel*) schrijft CyberScope verdiepingen (tabblad *
 ## 3. Betrouwbaarheid
 
 - **Verzin niets**: geen feiten, CVE-nummers, versies, aanvallersnamen, citaten of bronnen die niet in de bron staan.
-- **Geen technische claim zonder betrouwbare onderbouwing.** Een nieuwssite (`trust_level: medium`) is genoeg voor *wat er gebeurde*, niet voor *hoe het technisch werkt*: zoek daarvoor de primaire bron op (advies van de leverancier, CISA, NCSC, NVD, het onderzoek zelf) en zet die in `official_docs`.
+- **Geen technische claim zonder betrouwbare onderbouwing.** Legt een nieuwssite (`trust_level: medium`) niet goed uit hoe het technisch werkt, of twijfel je, kijk dan bij een primaire bron (advies van de leverancier, NCSC, het onderzoek zelf) en zet die in `official_docs`.
 - **Herkomst blijft herleidbaar**: alles wat als feit in het verhaal staat, staat ook in `key_facts`. Interpretaties formuleer je herkenbaar als zodanig ("dat betekent dat…", "waarschijnlijk…").
 - **Actueel**: gebruik de originele publicatiedatum. Gaat een artikel over iets ouds, meld dat of laat het weg.
 - **Onzekerheid**: zeg het als bronnen elkaar tegenspreken of als iets nog onderzocht wordt.
