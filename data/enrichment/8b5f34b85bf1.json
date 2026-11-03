@@ -9,32 +9,50 @@
     "Het typische patroon: de aanvaller heeft al gestolen inloggegevens en laat ARTEX de rest doen. In één campagne ging het van het eerste gehackte account naar diepe toegang in ongeveer vier uur, en één keer in vijftien minuten. Google concludeert dat zulke tools aanvallen versnellen tot machinesnelheid, maar snelheid boven onopvallendheid stellen."
   ],
   "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": [
-      "Een AI-agent is een programma dat een taalmodel (zoals een chatbot) niet alleen laat antwoorden, maar ook zelf acties laat uitvoeren: opdrachten draaien, resultaten lezen en de volgende stap kiezen. Bij een multi-agentsysteem werken meerdere van zulke agenten samen, elk met een eigen taak.",
-      "ARTEX is zo'n systeem voor aanvallen: zes gespecialiseerde sub-agenten, aangestuurd via een webconsole. PentAGI werkt vergelijkbaar: de gebruiker geeft een doelwit en een doel, en de agenten verdelen het werk en draaien bekende hacktools."
-    ]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
-      "Hier gaat niet één ding fout; het gaat om een nieuwe manier van werken. Stappen die een menselijke aanvaller uren of dagen kosten, zoals een netwerk in kaart brengen of rechten in de cloud uitzoeken, doet een agent in seconden. Google zag een verkenning van elf soorten cloudresources in acht seconden.",
-      "Daardoor wordt de tijd tussen eerste toegang en schade veel korter. Een securityteam dat pas de volgende ochtend naar meldingen kijkt, is dan te laat."
-    ]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
-      "Google beschrijft de stappen die ARTEX in waargenomen aanvallen uitvoerde. Eerst verkenning: rechten in Azure en AWS in kaart brengen en websites aftasten. Daarna rechten verhogen, bijvoorbeeld via Kerberoasting en het aanmaken van beheerdersaccounts. Dan het interne netwerk verkennen, zoals Active Directory en Exchange.",
-      "Pogingen om door te stappen naar andere systemen werden in die gevallen tegengehouden, onder meer door beperkingen op tokens, endpointbeveiliging en ingrijpende verdedigers. De aanvallers bouwden ook vaste toegang op, bijvoorbeeld met extra SSH-sleutels en eigen servers in de cloud.",
-      "De aanvaller heeft nog wel een begin nodig: meestal gestolen inloggegevens. De agent vervangt dus niet de eerste toegang, maar versnelt alles wat daarna komt."
-    ]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
-      "Bevestigd in de onderzochte gevallen: grootschalige verkenning (meer dan 110.000 objecten in Active Directory), het verzamelen van gegevens en het klaarzetten van grote opslag, waarschijnlijk om gegevens weg te sluizen. Doelwitten waren onder meer overheid, technologie, chemie en industrie.",
-      "Verwachting van Google: binnen één tot drie maanden eenvoudige aanvallen met meerdere agenten zonder of met weinig menselijke sturing, en binnen drie tot zes maanden geavanceerde volledig zelfstandige aanvallen. Dat is een inschatting, geen feit."
-    ]},
-    {"heading": "Hoe zie je dit?", "paragraphs": [
-      "Het goede nieuws: deze aanvallen zijn luidruchtig. Google zag uitbarstingen van activiteit van 2 tot 25 seconden, zoals 27 gebeurtenissen in 23 seconden. Agenten probeerden dingen steeds opnieuw, wat honderden foutmeldingen gaf. Een webshell werd meerdere keren herschreven tot hij werkte.",
-      "Voor een SIEM betekent dat: let op snelheid en volume, niet alleen op losse handelingen. Hoeveel acties doet één account per minuut in de cloudbeheeromgeving? Google noemt ook verkeer naar diensten als webhook.site als signaal; ARTEX gebruikte honderden wisselende webhook-adressen als communicatiekanaal.",
-      "Google benadrukt wel: een aanval zien is niet hetzelfde als hem stoppen. Bij machinesnelheid moet de reactie ook snel zijn."
-    ]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": [
-      "Google noemt vijf lagen. Bescherm de beheeromgeving van cloud en CI/CD. Gebruik kortlevende inloggegevens en zo min mogelijk rechten. Harden de configuratie, zoals segmentatie en minder gebruik van het oude NTLM-protocol. Stel limieten in op bedrijfsapplicaties, zoals hoeveel mails een app mag sturen.",
-      "De vijfde laag is detectie op gedrag en volume: leer wat normaal is, en meld afwijkingen in snelheid. Beperk ook uitgaand verkeer naar diensten die aanvallers vaak als tussenstation gebruiken."
-    ]}
+    {
+      "heading": "Wat is de technologie?",
+      "paragraphs": [
+        "Een AI-agent is een programma dat een taalmodel (zoals een chatbot) niet alleen laat antwoorden, maar ook zelf acties laat uitvoeren: opdrachten draaien, resultaten lezen en de volgende stap kiezen. Bij een multi-agentsysteem werken meerdere van zulke agenten samen, elk met een eigen taak.",
+        "ARTEX is zo'n systeem voor aanvallen: zes gespecialiseerde sub-agenten, aangestuurd via een webconsole. PentAGI werkt vergelijkbaar: de gebruiker geeft een doelwit en een doel, en de agenten verdelen het werk en draaien bekende hacktools."
+      ]
+    },
+    {
+      "heading": "Wat gaat er technisch fout?",
+      "paragraphs": [
+        "Hier gaat niet één ding fout; het gaat om een nieuwe manier van werken. Stappen die een menselijke aanvaller uren of dagen kosten, zoals een netwerk in kaart brengen of rechten in de cloud uitzoeken, doet een agent in seconden. Google zag een verkenning van elf soorten cloudresources in acht seconden.",
+        "Daardoor wordt de tijd tussen eerste toegang en schade veel korter. Een securityteam dat pas de volgende ochtend naar meldingen kijkt, is dan te laat."
+      ]
+    },
+    {
+      "heading": "Hoe kan een aanvaller dit misbruiken?",
+      "paragraphs": [
+        "Google beschrijft de stappen die ARTEX in waargenomen aanvallen uitvoerde. Eerst verkenning: rechten in Azure en AWS in kaart brengen en websites aftasten. Daarna rechten verhogen, bijvoorbeeld via Kerberoasting en het aanmaken van beheerdersaccounts. Dan het interne netwerk verkennen, zoals Active Directory en Exchange.",
+        "Pogingen om door te stappen naar andere systemen werden in die gevallen tegengehouden, onder meer door beperkingen op tokens, endpointbeveiliging en ingrijpende verdedigers. De aanvallers bouwden ook vaste toegang op, bijvoorbeeld met extra SSH-sleutels en eigen servers in de cloud.",
+        "De aanvaller heeft nog wel een begin nodig: meestal gestolen inloggegevens. De agent vervangt dus niet de eerste toegang, maar versnelt alles wat daarna komt."
+      ]
+    },
+    {
+      "heading": "Wat is de mogelijke impact?",
+      "paragraphs": [
+        "Bevestigd in de onderzochte gevallen: grootschalige verkenning (meer dan 110.000 objecten in Active Directory), het verzamelen van gegevens en het klaarzetten van grote opslag, waarschijnlijk om gegevens weg te sluizen. Doelwitten waren onder meer overheid, technologie, chemie en industrie.",
+        "Verwachting van Google: binnen één tot drie maanden eenvoudige aanvallen met meerdere agenten zonder of met weinig menselijke sturing, en binnen drie tot zes maanden geavanceerde volledig zelfstandige aanvallen. Dat is een inschatting, geen feit."
+      ]
+    },
+    {
+      "heading": "Hoe zie je dit?",
+      "paragraphs": [
+        "Het goede nieuws: deze aanvallen zijn luidruchtig. Google zag uitbarstingen van activiteit van 2 tot 25 seconden, zoals 27 gebeurtenissen in 23 seconden. Agenten probeerden dingen steeds opnieuw, wat honderden foutmeldingen gaf. Een webshell werd meerdere keren herschreven tot hij werkte.",
+        "Voor een SIEM betekent dat: let op snelheid en volume, niet alleen op losse handelingen. Hoeveel acties doet één account per minuut in de cloudbeheeromgeving? Google noemt ook verkeer naar diensten als webhook.site als signaal; ARTEX gebruikte honderden wisselende webhook-adressen als communicatiekanaal.",
+        "Google benadrukt wel: een aanval zien is niet hetzelfde als hem stoppen. Bij machinesnelheid moet de reactie ook snel zijn."
+      ]
+    },
+    {
+      "heading": "Hoe voorkom je dit?",
+      "paragraphs": [
+        "Google noemt vijf lagen. Bescherm de beheeromgeving van cloud en CI/CD. Gebruik kortlevende inloggegevens en zo min mogelijk rechten. Harden de configuratie, zoals segmentatie en minder gebruik van het oude NTLM-protocol. Stel limieten in op bedrijfsapplicaties, zoals hoeveel mails een app mag sturen.",
+        "De vijfde laag is detectie op gedrag en volume: leer wat normaal is, en meld afwijkingen in snelheid. Beperk ook uitgaand verkeer naar diensten die aanvallers vaak als tussenstation gebruiken."
+      ]
+    }
   ],
   "key_facts": [
     "Google Threat Intelligence en Mandiant zien sinds eind augustus 2026 aanvallers die ARTEX, PentAGI, CAIRN en mogelijk eigen AI-frameworks gebruiken (publicatie 30 oktober 2026).",
@@ -60,25 +78,58 @@
   "takeaway": "AI-agenten versnellen vooral wat na de eerste toegang komt: verkennen, rechten verhogen, gegevens verzamelen. Dat maakt de reactietijd belangrijker dan ooit, maar ook detectie op snelheid en volume kansrijker.",
   "region": "world",
   "official_docs": [
-    {"label": "Google Threat Intelligence: ARTEX and Friends", "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"}
+    {
+      "label": "Google Threat Intelligence: ARTEX and Friends",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    }
   ],
-  "topics": ["attack_techniques", "threat_intelligence", "cloud_attacks", "siem_detection"],
-  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.9},
+  "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "cloud_attacks",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.9
+  },
   "development_key": "artex-agentic-frameworks-okt-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.6, "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met concrete detectiesignalen past bij wat je wilt leren."},
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met concrete detectiesignalen past bij wat je wilt leren."
+  },
   "terms": [
-    {"term": "AI-agent", "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."},
-    {"term": "penetratietesten", "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."},
-    {"term": "Kerberoasting", "explanation": "Een aanvalstechniek waarbij een aanvaller met een gewoon account versleutelde tickets van serviceaccounts opvraagt en die offline probeert te kraken."},
-    {"term": "webshell", "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."},
-    {"term": "CI/CD", "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."},
-    {"term": "NTLM", "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."}
+    {
+      "term": "AI-agent",
+      "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+      "term": "penetratietesten",
+      "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+      "term": "Kerberoasting",
+      "explanation": "Een aanvalstechniek waarbij een aanvaller met een gewoon account versleutelde tickets van serviceaccounts opvraagt en die offline probeert te kraken."
+    },
+    {
+      "term": "webshell",
+      "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+      "term": "CI/CD",
+      "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."
+    },
+    {
+      "term": "NTLM",
+      "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T22:10:00Z",
+  "processed_at": "2026-11-03T21:39:00Z",
   "prompt_version": "cyber-taak-v1"
 }

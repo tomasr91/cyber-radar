@@ -33,22 +33,49 @@
   "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
   "region": "world",
   "official_docs": [],
-  "topics": ["phishing_identity", "ransomware", "incident_response", "siem_detection"],
-  "quality": {"depth": 0.55, "practicality": 0.85, "novelty": 0.55},
+  "topics": [
+    "phishing_identity",
+    "ransomware",
+    "incident_response",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.55,
+    "practicality": 0.85,
+    "novelty": 0.55
+  },
   "development_key": "talos-ir-trends-q3-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."
+  },
   "terms": [
-    {"term": "vishing", "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."},
-    {"term": "RMM", "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."},
-    {"term": "MFA", "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."},
-    {"term": "EDR", "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."},
-    {"term": "BYOVD", "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."}
+    {
+      "term": "vishing",
+      "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."
+    },
+    {
+      "term": "RMM",
+      "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+      "term": "MFA",
+      "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+      "term": "BYOVD",
+      "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T22:20:00Z",
+  "processed_at": "2026-11-03T21:44:00Z",
   "prompt_version": "cyber-taak-v1"
 }

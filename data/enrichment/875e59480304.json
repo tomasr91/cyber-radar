@@ -31,16 +31,30 @@
   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
   "region": "world",
   "official_docs": [
-    {"label": "Microsoft Threat Intelligence: fake-download campaign", "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"}
+    {
+      "label": "Microsoft Threat Intelligence: fake-download campaign",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
+    }
   ],
-  "topics": ["malware", "siem_detection", "threat_intelligence"],
-  "quality": {"depth": 0.6, "practicality": 0.7, "novelty": 0.5},
+  "topics": [
+    "malware",
+    "siem_detection",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.7,
+    "novelty": 0.5
+  },
   "development_key": "nep-installers-inno-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
+  },
   "showcase": {
     "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
     "language": "kql",
@@ -48,13 +62,28 @@
     "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
   },
   "terms": [
-    {"term": "resource hijacking", "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."},
-    {"term": "adware", "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."},
-    {"term": "geplande taken", "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."},
-    {"term": "SYSTEM-rechten", "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."},
-    {"term": "PUA", "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."}
+    {
+      "term": "resource hijacking",
+      "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
+    },
+    {
+      "term": "adware",
+      "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
+    },
+    {
+      "term": "geplande taken",
+      "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+      "term": "SYSTEM-rechten",
+      "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+      "term": "PUA",
+      "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T22:24:00Z",
+  "processed_at": "2026-11-03T21:46:00Z",
   "prompt_version": "cyber-taak-v1"
 }

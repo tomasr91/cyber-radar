@@ -9,33 +9,51 @@
     "Het beveiligingsbedrijf Volexity ontdekte de aanval begin oktober bij een klant. De aanval begon op 3 oktober. De vpn-server had toen alle updates. Alle drie de lekken waren dus een zero-day: niemand kende ze nog, ook Ivanti niet."
   ],
   "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": [
-      "Ivanti Connect Secure is een vpn-server. Medewerkers loggen er van buitenaf op in en komen zo veilig in het bedrijfsnetwerk. Zo'n apparaat staat daarom altijd open naar internet.",
-      "Een vpn-server is ook gekoppeld aan de gebruikersadministratie van het bedrijf, vaak Active Directory. Hij praat daarmee via LDAP om te controleren wie mag inloggen. Daarvoor heeft het apparaat een eigen account met rechten in dat netwerk."
-    ]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
-      "Volgens Volexity bestond de aanval uit drie stappen. Eerst omzeilt de aanvaller de inlog: zijn verzoek bereikt een intern script dat alleen voor ingelogde gebruikers bedoeld is. Daarna laat hij via een uploadfunctie code uitvoeren. Tot slot verhoogt hij zijn rechten (privilege escalation) tot root, de hoogste beheerder op het apparaat.",
-      "Elk lek los is minder erg dan de keten. Een rechtenlek dat alleen lokaal werkt, lijkt beperkt. Gecombineerd met een inlogomzeiling wordt het een volledige overname zonder wachtwoord. Daarom geeft het NCSC CVE-2026-104935 een CVSS-score van 10,0, terwijl CVE-2026-111357 alleen 7,0 krijgt."
-    ]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
-      "De aanvaller heeft alleen nodig dat de vpn-server bereikbaar is via internet. Een account is niet nodig. Volexity zag dat de aanvaller zijn opdrachten en de resultaten via dezelfde versleutelde webverzoeken heen en weer stuurde. Hij plaatste geen webshell of achterdeur, en werkte grotendeels in het geheugen.",
-      "Daarna gebruikte hij het apparaat als springplank. Hij haalde inloggegevens van het apparaat, waaronder het domeinaccount voor LDAP. Met dat account zocht hij in Active Directory naar lokale beheerderswachtwoorden (LAPS) en herstelinformatie van BitLocker, de schijfversleuteling van Windows. Hij zette ook een netwerksniffer aan om wachtwoorden uit het verkeer te vissen, en probeerde veelgebruikte wachtwoorden op veel accounts (password spraying).",
-      "Volexity schat met middelmatige zekerheid in dat de aanvaller taalmodellen (AI) gebruikte om de aanval en de scripts te bouwen. Dat is een inschatting, geen vaststaand feit."
-    ]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
-      "Bevestigd: de aanvaller had volledige controle over de vpn-server en stal inloggegevens. Volexity zag voorbereiding op een sprong naar andere systemen (laterale beweging), maar die zelf niet. De aanval werd volgens Volexity verstoord voordat het doel duidelijk was.",
-      "Mogelijk, afhankelijk van de omgeving: met domeinaccounts, beheerderswachtwoorden en BitLocker-sleutels kan een aanvaller veel verder komen. Denk aan inloggen op werkplekken en servers, of het uitlezen van versleutelde laptops."
-    ]},
-    {"heading": "Hoe zie je dit?", "paragraphs": [
-      "Volexity noemt sporen in de weblogs: opvallend veel verzoeken naar welcome.cgi, en een verschil tussen het gevraagde pad en een interne header die naar een ander script wijst. Die header staat niet altijd in de standaardlogs. Soms zie je hem alleen in een proxy of WAF.",
-      "De aanvaller knipte stukken uit het debuglog en het auditlog van het apparaat. Gaten in de logs zijn dus zelf een signaal. Ivanti's eigen controletool (Integrity Checker Tool) zag deze aanval niet, omdat de wijzigingen alleen in het geheugen zaten. Een schone uitslag is dus geen bewijs dat er niets is gebeurd.",
-      "Voor een SIEM is het verkeer vanaf de vpn-server naar binnen interessant: LDAP-zoekopdrachten naar LAPS- of BitLocker-gegevens, Kerberos-verzoeken en mislukte inlogpogingen op veel accounts tegelijk."
-    ]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": [
-      "Installeer de nieuwste update van Ivanti. Een apparaat dat alleen de update van 13 oktober heeft, is volgens het NCSC nog kwetsbaar. CISA gaf Amerikaanse overheidsdiensten drie dagen om te patchen.",
-      "Patchen haalt een aanvaller die al binnen is er niet uit. Bij twijfel helpt alleen onderzoek van geheugen, schijf en netwerkverkeer. Vervang daarna de wachtwoorden die het apparaat kon zien, zoals het LDAP-serviceaccount.",
-      "Geef het serviceaccount van de vpn-server zo min mogelijk rechten in Active Directory. Dan kan een aanvaller via dat account ook minder uitlezen."
-    ]}
+    {
+      "heading": "Wat is de technologie?",
+      "paragraphs": [
+        "Ivanti Connect Secure is een vpn-server. Medewerkers loggen er van buitenaf op in en komen zo veilig in het bedrijfsnetwerk. Zo'n apparaat staat daarom altijd open naar internet.",
+        "Een vpn-server is ook gekoppeld aan de gebruikersadministratie van het bedrijf, vaak Active Directory. Hij praat daarmee via LDAP om te controleren wie mag inloggen. Daarvoor heeft het apparaat een eigen account met rechten in dat netwerk."
+      ]
+    },
+    {
+      "heading": "Wat gaat er technisch fout?",
+      "paragraphs": [
+        "Volgens Volexity bestond de aanval uit drie stappen. Eerst omzeilt de aanvaller de inlog: zijn verzoek bereikt een intern script dat alleen voor ingelogde gebruikers bedoeld is. Daarna laat hij via een uploadfunctie code uitvoeren. Tot slot verhoogt hij zijn rechten (privilege escalation) tot root, de hoogste beheerder op het apparaat.",
+        "Elk lek los is minder erg dan de keten. Een rechtenlek dat alleen lokaal werkt, lijkt beperkt. Gecombineerd met een inlogomzeiling wordt het een volledige overname zonder wachtwoord. Daarom geeft het NCSC CVE-2026-104935 een CVSS-score van 10,0, terwijl CVE-2026-111357 alleen 7,0 krijgt."
+      ]
+    },
+    {
+      "heading": "Hoe kan een aanvaller dit misbruiken?",
+      "paragraphs": [
+        "De aanvaller heeft alleen nodig dat de vpn-server bereikbaar is via internet. Een account is niet nodig. Volexity zag dat de aanvaller zijn opdrachten en de resultaten via dezelfde versleutelde webverzoeken heen en weer stuurde. Hij plaatste geen webshell of achterdeur, en werkte grotendeels in het geheugen.",
+        "Daarna gebruikte hij het apparaat als springplank. Hij haalde inloggegevens van het apparaat, waaronder het domeinaccount voor LDAP. Met dat account zocht hij in Active Directory naar lokale beheerderswachtwoorden (LAPS) en herstelinformatie van BitLocker, de schijfversleuteling van Windows. Hij zette ook een netwerksniffer aan om wachtwoorden uit het verkeer te vissen, en probeerde veelgebruikte wachtwoorden op veel accounts (password spraying).",
+        "Volexity schat met middelmatige zekerheid in dat de aanvaller taalmodellen (AI) gebruikte om de aanval en de scripts te bouwen. Dat is een inschatting, geen vaststaand feit."
+      ]
+    },
+    {
+      "heading": "Wat is de mogelijke impact?",
+      "paragraphs": [
+        "Bevestigd: de aanvaller had volledige controle over de vpn-server en stal inloggegevens. Volexity zag voorbereiding op een sprong naar andere systemen (laterale beweging), maar die zelf niet. De aanval werd volgens Volexity verstoord voordat het doel duidelijk was.",
+        "Mogelijk, afhankelijk van de omgeving: met domeinaccounts, beheerderswachtwoorden en BitLocker-sleutels kan een aanvaller veel verder komen. Denk aan inloggen op werkplekken en servers, of het uitlezen van versleutelde laptops."
+      ]
+    },
+    {
+      "heading": "Hoe zie je dit?",
+      "paragraphs": [
+        "Volexity noemt sporen in de weblogs: opvallend veel verzoeken naar welcome.cgi, en een verschil tussen het gevraagde pad en een interne header die naar een ander script wijst. Die header staat niet altijd in de standaardlogs. Soms zie je hem alleen in een proxy of WAF.",
+        "De aanvaller knipte stukken uit het debuglog en het auditlog van het apparaat. Gaten in de logs zijn dus zelf een signaal. Ivanti's eigen controletool (Integrity Checker Tool) zag deze aanval niet, omdat de wijzigingen alleen in het geheugen zaten. Een schone uitslag is dus geen bewijs dat er niets is gebeurd.",
+        "Voor een SIEM is het verkeer vanaf de vpn-server naar binnen interessant: LDAP-zoekopdrachten naar LAPS- of BitLocker-gegevens, Kerberos-verzoeken en mislukte inlogpogingen op veel accounts tegelijk."
+      ]
+    },
+    {
+      "heading": "Hoe voorkom je dit?",
+      "paragraphs": [
+        "Installeer de nieuwste update van Ivanti. Een apparaat dat alleen de update van 13 oktober heeft, is volgens het NCSC nog kwetsbaar. CISA gaf Amerikaanse overheidsdiensten drie dagen om te patchen.",
+        "Patchen haalt een aanvaller die al binnen is er niet uit. Bij twijfel helpt alleen onderzoek van geheugen, schijf en netwerkverkeer. Vervang daarna de wachtwoorden die het apparaat kon zien, zoals het LDAP-serviceaccount.",
+        "Geef het serviceaccount van de vpn-server zo min mogelijk rechten in Active Directory. Dan kan een aanvaller via dat account ook minder uitlezen."
+      ]
+    }
   ],
   "key_facts": [
     "Ivanti bracht updates uit voor CVE-2026-111357 en CVE-2026-118527 in Connect Secure; beide zijn actief misbruikt (Security.NL, NCSC-2026-0416 versie 1.0.1 van 3 november 2026).",
@@ -63,17 +81,35 @@
   "exploitation": "actief_misbruikt",
   "patch_status": "patch_beschikbaar",
   "official_docs": [
-    {"label": "NCSC-2026-0416 (versie 1.0.1)", "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0416.html"},
-    {"label": "Volexity: analyse van de aanvalsketen", "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"}
+    {
+      "label": "NCSC-2026-0416 (versie 1.0.1)",
+      "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0416.html"
+    },
+    {
+      "label": "Volexity: analyse van de aanvalsketen",
+      "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/"
+    }
   ],
-  "topics": ["exploited_vulnerabilities", "edge_devices", "vulnerabilities_cve", "attack_techniques"],
-  "quality": {"depth": 0.85, "practicality": 0.85, "novelty": 0.7},
+  "topics": [
+    "exploited_vulnerabilities",
+    "edge_devices",
+    "vulnerabilities_cve",
+    "attack_techniques"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.85,
+    "novelty": 0.7
+  },
   "development_key": "cve-2026-104935-ivanti-connect-secure",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.6, "why": "Nog geen duimpjes; een actief misbruikt lek in een vpn-server past bij je interesse in kwetsbaarheden en aanvalsketens."},
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een actief misbruikt lek in een vpn-server past bij je interesse in kwetsbaarheden en aanvalsketens."
+  },
   "showcase": {
     "caption": "Zo kan een verdacht verzoek eruitzien in een log met headers. Het gevraagde pad is welcome.cgi, maar de interne header wijst naar een ander script. Dat verschil is het signaal dat Volexity noemt.",
     "language": "log",
@@ -81,14 +117,32 @@
     "note": "Nagebouwd voorbeeld met een voorbeeldadres; de headerwaarde is bewust weggelaten. De echte kenmerken staan in de analyse van Volexity."
   },
   "terms": [
-    {"term": "zero-day", "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."},
-    {"term": "LDAP", "explanation": "Een protocol om gegevens op te vragen uit een gebruikersadministratie zoals Active Directory, bijvoorbeeld wie er bestaat en in welke groep zit."},
-    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
-    {"term": "password spraying", "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."},
-    {"term": "laterale beweging", "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."},
-    {"term": "CVSS-score", "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."}
+    {
+      "term": "zero-day",
+      "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+      "term": "LDAP",
+      "explanation": "Een protocol om gegevens op te vragen uit een gebruikersadministratie zoals Active Directory, bijvoorbeeld wie er bestaat en in welke groep zit."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "password spraying",
+      "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
+    },
+    {
+      "term": "laterale beweging",
+      "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+      "term": "CVSS-score",
+      "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T21:45:00Z",
+  "processed_at": "2026-11-03T21:31:00Z",
   "prompt_version": "cyber-taak-v1"
 }

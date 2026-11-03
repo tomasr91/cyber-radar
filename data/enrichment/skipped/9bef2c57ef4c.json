@@ -2,5 +2,5 @@
   "article_id": "9bef2c57ef4c",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
   "reason": "Zelfde ontwikkeling als df100ad46108 (Ivanti Connect Secure, CVE-2026-104935/111357/118527); het NCSC-advies is als primaire bron in die uitleg gebruikt.",
-  "checked_at": "2026-11-03T21:46:00Z"
+  "checked_at": "2026-11-03T21:30:00Z"
 }

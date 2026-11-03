@@ -1,0 +1,17 @@
+{
+ "task": "uitleggen",
+ "started_at": "2026-11-03T21:14:14Z",
+ "finished_at": "2026-11-03T21:51:00Z",
+ "status": "ok",
+ "summary": "9 artikelen uitgelegd (6 uitgebreid), 6 overgeslagen: 2 dubbel, 1 marketing en 3 niet te lezen.",
+ "counts": {
+  "uitgelegd": 9,
+  "uitgebreid": 6,
+  "overgeslagen": 6
+ },
+ "problems": [
+  "Vers ophalen was niet nodig: feed.json was van vandaag.",
+  "Drie artikelen waren niet te openen (SecurityWeek over Android, NCSC-advies over Oracle, CrowdStrike-blog) en zijn overgeslagen met 'Niet te lezen'.",
+  "De CISA KEV-pagina's, NVD en de EPSS-site van FIRST waren niet te openen; misbruik is gecontroleerd via de leverancier, het NCSC, het CVE-record en andere bronnen."
+ ]
+}

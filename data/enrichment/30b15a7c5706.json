@@ -9,31 +9,49 @@
     "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
   ],
   "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": [
-      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
-      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
-    ]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
-      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
-      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
-    ]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
-      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
-      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
-      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
-    ]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
-      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
-      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
-    ]},
-    {"heading": "Hoe zie je dit?", "paragraphs": [
-      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
-      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
-    ]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": [
-      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
-      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
-    ]}
+    {
+      "heading": "Wat is de technologie?",
+      "paragraphs": [
+        "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+        "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+      ]
+    },
+    {
+      "heading": "Wat gaat er technisch fout?",
+      "paragraphs": [
+        "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+        "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+      ]
+    },
+    {
+      "heading": "Hoe kan een aanvaller dit misbruiken?",
+      "paragraphs": [
+        "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+        "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+        "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+      ]
+    },
+    {
+      "heading": "Wat is de mogelijke impact?",
+      "paragraphs": [
+        "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+        "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+      ]
+    },
+    {
+      "heading": "Hoe zie je dit?",
+      "paragraphs": [
+        "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+        "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+      ]
+    },
+    {
+      "heading": "Hoe voorkom je dit?",
+      "paragraphs": [
+        "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+        "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+      ]
+    }
   ],
   "key_facts": [
     "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
@@ -58,25 +76,57 @@
   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
   "region": "world",
   "official_docs": [
-    {"label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet", "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"}
+    {
+      "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
   ],
-  "topics": ["supply_chain", "malware", "threat_intelligence"],
-  "quality": {"depth": 0.75, "practicality": 0.65, "novelty": 0.7},
+  "topics": [
+    "supply_chain",
+    "malware",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.75,
+    "practicality": 0.65,
+    "novelty": 0.7
+  },
   "development_key": "xcpe-botnet-videostrong-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
+  },
   "terms": [
-    {"term": "botnet", "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."},
-    {"term": "firmware", "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."},
-    {"term": "supply chain", "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."},
-    {"term": "residential proxy", "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."},
-    {"term": "C2", "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."},
-    {"term": "IOC's", "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."}
+    {
+      "term": "botnet",
+      "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
+    },
+    {
+      "term": "firmware",
+      "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
+    },
+    {
+      "term": "supply chain",
+      "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+      "term": "residential proxy",
+      "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
+    },
+    {
+      "term": "C2",
+      "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+      "term": "IOC's",
+      "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T22:04:00Z",
+  "processed_at": "2026-11-03T21:37:00Z",
   "prompt_version": "cyber-taak-v1"
 }

@@ -2,5 +2,5 @@
   "article_id": "6a6d5082414c",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
   "reason": "Zelfde ontwikkeling als 11af3bdb9908 (PHP2Shell, CVE-2026-109618 en CVE-2026-109619); het NCSC-advies is als bron in die uitleg gebruikt.",
-  "checked_at": "2026-11-03T21:46:00Z"
+  "checked_at": "2026-11-03T21:30:00Z"
 }

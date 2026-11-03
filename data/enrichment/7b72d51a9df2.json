@@ -9,32 +9,50 @@
     "Het lek zelf is niet nieuw: Cisco maakte het op 25 februari 2026 bekend en CISA zette het dezelfde dag op de KEV-lijst. Nieuw is de analyse van wat aanvallers ná de inbraak deden. Talos geeft geen datums voor deze activiteit."
   ],
   "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": [
-      "SD-WAN verbindt de vestigingen van een organisatie via één virtueel netwerk over gewone internetverbindingen. Het verkeer tussen vestigingen is versleuteld met IPsec. Centrale controllers bepalen hoe het verkeer loopt en delen de sleutels uit.",
-      "Bij Cisco heet dat de Catalyst SD-WAN Controller (vroeger vSmart). Daarnaast is er een Manager voor het beheer en een Validator die nieuwe apparaten toelaat. Wie de controller beheerst, beheerst dus het hele netwerk tussen de vestigingen."
-    ]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
-      "CVE-2026-20127 zit in de manier waarop SD-WAN-onderdelen elkaar herkennen (peering). Volgens Cisco werkt die controle niet goed. Een aanvaller zonder account kan zich zo voordoen als vertrouwd onderdeel en krijgt beheerrechten. CVSS-score: 10,0.",
-      "Met die rechten kan de aanvaller de configuratie van het hele SD-WAN aanpassen. Daarom is dit zo gevaarlijk: het is geen lek in één apparaat, maar in het brein van het netwerk."
-    ]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
-      "Na de inbraak paste UAT-11473 de opstartscripts van normale diensten aan, zodat de malware na elke herstart terugkomt. Een hulpprogramma laadt de malware in het geheugen van vdaemon, het proces dat de beheerverbindingen tussen SD-WAN-onderdelen afhandelt.",
-      "Daarin draaien twee onderdelen. PolyFlame is een achterdeur: de aanvaller kan opdrachten uitvoeren en bestanden lezen of schrijven. De opdrachten reizen mee in het normale SD-WAN-beheerverkeer, dus er is geen apart adres van een aanvalsserver. LittleFilch leest het ontsleutelde beheerverkeer mee en haalt er IP-adressen en een veld van 32 bytes uit. Talos schat in dat dit sleutelmateriaal voor de IPsec-versleuteling is.",
-      "De malware wist ook sporen uit, bijvoorbeeld door de tijdstempels van bestanden te vervalsen. Talos zag dat het framework nog wordt doorontwikkeld."
-    ]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
-      "Bevestigd: de aanvallers hadden langdurig toegang tot controllers en konden het beheerverkeer meelezen. Volgens Talos is het doel langdurige toegang en het automatisch wegsluizen van sleutelmateriaal.",
-      "Mogelijk: met de sleutels kan een aanvaller in theorie het versleutelde verkeer tussen vestigingen ontcijferen als hij dat verkeer ook kan onderscheppen. Of er echt sleutels zijn weggestuurd, zegt Talos niet."
-    ]},
-    {"heading": "Hoe zie je dit?", "paragraphs": [
-      "Cisco adviseert in auth.log te kijken naar SSH-inlogs op het account vmanage-admin vanaf onbekende IP-adressen. Vergelijk ook de nieuwe beheerverbindingen tussen SD-WAN-onderdelen met de geplande wijzigingen: een onbekende peer is verdacht.",
-      "Talos noemt sporen op het apparaat zelf: gewijzigde opstartscripts van sshd, onbekende bibliotheken in het vdaemon-proces en versleutelde bestanden in tijdelijke mappen. Voor het netwerk zijn er Snort-regels voor het lek en voor het verkeer van KeyDrift; volgens The Hacker News staat een deel daarvan standaard uit.",
-      "Lastig voor een SIEM: netwerkapparaten sturen vaak weinig logs door, en deze malware verstopt zich in normaal beheerverkeer."
-    ]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": [
-      "Installeer een versie waarin het lek is gedicht en volg de hardeningsgids van Cisco. Cisco noemt geen workaround, alleen als tijdelijke maatregel: poort 22 en 830 alleen openzetten voor bekende controllers en vertrouwde adressen.",
-      "Een update haalt malware die er al zit niet weg. De Amerikaanse overheid eiste daarom dat diensten bij een vermoeden van inbraak de controllers opnieuw opbouwen vanaf schone, gepatchte images."
-    ]}
+    {
+      "heading": "Wat is de technologie?",
+      "paragraphs": [
+        "SD-WAN verbindt de vestigingen van een organisatie via één virtueel netwerk over gewone internetverbindingen. Het verkeer tussen vestigingen is versleuteld met IPsec. Centrale controllers bepalen hoe het verkeer loopt en delen de sleutels uit.",
+        "Bij Cisco heet dat de Catalyst SD-WAN Controller (vroeger vSmart). Daarnaast is er een Manager voor het beheer en een Validator die nieuwe apparaten toelaat. Wie de controller beheerst, beheerst dus het hele netwerk tussen de vestigingen."
+      ]
+    },
+    {
+      "heading": "Wat gaat er technisch fout?",
+      "paragraphs": [
+        "CVE-2026-20127 zit in de manier waarop SD-WAN-onderdelen elkaar herkennen (peering). Volgens Cisco werkt die controle niet goed. Een aanvaller zonder account kan zich zo voordoen als vertrouwd onderdeel en krijgt beheerrechten. CVSS-score: 10,0.",
+        "Met die rechten kan de aanvaller de configuratie van het hele SD-WAN aanpassen. Daarom is dit zo gevaarlijk: het is geen lek in één apparaat, maar in het brein van het netwerk."
+      ]
+    },
+    {
+      "heading": "Hoe kan een aanvaller dit misbruiken?",
+      "paragraphs": [
+        "Na de inbraak paste UAT-11473 de opstartscripts van normale diensten aan, zodat de malware na elke herstart terugkomt. Een hulpprogramma laadt de malware in het geheugen van vdaemon, het proces dat de beheerverbindingen tussen SD-WAN-onderdelen afhandelt.",
+        "Daarin draaien twee onderdelen. PolyFlame is een achterdeur: de aanvaller kan opdrachten uitvoeren en bestanden lezen of schrijven. De opdrachten reizen mee in het normale SD-WAN-beheerverkeer, dus er is geen apart adres van een aanvalsserver. LittleFilch leest het ontsleutelde beheerverkeer mee en haalt er IP-adressen en een veld van 32 bytes uit. Talos schat in dat dit sleutelmateriaal voor de IPsec-versleuteling is.",
+        "De malware wist ook sporen uit, bijvoorbeeld door de tijdstempels van bestanden te vervalsen. Talos zag dat het framework nog wordt doorontwikkeld."
+      ]
+    },
+    {
+      "heading": "Wat is de mogelijke impact?",
+      "paragraphs": [
+        "Bevestigd: de aanvallers hadden langdurig toegang tot controllers en konden het beheerverkeer meelezen. Volgens Talos is het doel langdurige toegang en het automatisch wegsluizen van sleutelmateriaal.",
+        "Mogelijk: met de sleutels kan een aanvaller in theorie het versleutelde verkeer tussen vestigingen ontcijferen als hij dat verkeer ook kan onderscheppen. Of er echt sleutels zijn weggestuurd, zegt Talos niet."
+      ]
+    },
+    {
+      "heading": "Hoe zie je dit?",
+      "paragraphs": [
+        "Cisco adviseert in auth.log te kijken naar SSH-inlogs op het account vmanage-admin vanaf onbekende IP-adressen. Vergelijk ook de nieuwe beheerverbindingen tussen SD-WAN-onderdelen met de geplande wijzigingen: een onbekende peer is verdacht.",
+        "Talos noemt sporen op het apparaat zelf: gewijzigde opstartscripts van sshd, onbekende bibliotheken in het vdaemon-proces en versleutelde bestanden in tijdelijke mappen. Voor het netwerk zijn er Snort-regels voor het lek en voor het verkeer van KeyDrift; volgens The Hacker News staat een deel daarvan standaard uit.",
+        "Lastig voor een SIEM: netwerkapparaten sturen vaak weinig logs door, en deze malware verstopt zich in normaal beheerverkeer."
+      ]
+    },
+    {
+      "heading": "Hoe voorkom je dit?",
+      "paragraphs": [
+        "Installeer een versie waarin het lek is gedicht en volg de hardeningsgids van Cisco. Cisco noemt geen workaround, alleen als tijdelijke maatregel: poort 22 en 830 alleen openzetten voor bekende controllers en vertrouwde adressen.",
+        "Een update haalt malware die er al zit niet weg. De Amerikaanse overheid eiste daarom dat diensten bij een vermoeden van inbraak de controllers opnieuw opbouwen vanaf schone, gepatchte images."
+      ]
+    }
   ],
   "key_facts": [
     "CVE-2026-20127 is een inlogomzeiling in de peering-controle van Cisco Catalyst SD-WAN Controller, Manager en Validator, met CVSS-score 10,0 (Cisco).",
@@ -63,25 +81,58 @@
   "exploitation": "actief_misbruikt",
   "patch_status": "patch_beschikbaar",
   "official_docs": [
-    {"label": "Cisco-advies CVE-2026-20127", "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk"}
+    {
+      "label": "Cisco-advies CVE-2026-20127",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk"
+    }
   ],
-  "topics": ["edge_devices", "exploited_vulnerabilities", "malware", "threat_intelligence"],
-  "quality": {"depth": 0.85, "practicality": 0.7, "novelty": 0.75},
+  "topics": [
+    "edge_devices",
+    "exploited_vulnerabilities",
+    "malware",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.7,
+    "novelty": 0.75
+  },
   "development_key": "cve-2026-20127-cisco-sdwan-keydrift",
   "date_note": "Het lek is van februari 2026; Talos beschrijft eerdere activiteit zonder datums.",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; technische malware-analyse op netwerkapparatuur, met detectiesporen."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; technische malware-analyse op netwerkapparatuur, met detectiesporen."
+  },
   "terms": [
-    {"term": "SD-WAN", "explanation": "Software-defined WAN: een manier om vestigingen via gewone internetverbindingen tot één beveiligd netwerk te verbinden, centraal aangestuurd door controllers."},
-    {"term": "IPsec", "explanation": "Een standaard om netwerkverkeer tussen twee punten te versleutelen. Wie de sleutels heeft, kan het verkeer in principe ontcijferen."},
-    {"term": "APT", "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."},
-    {"term": "achterdeur", "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."},
-    {"term": "peering", "explanation": "Het opzetten van een vertrouwde verbinding tussen twee netwerkonderdelen die elkaar daarna gegevens en sleutels toesturen."},
-    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."}
+    {
+      "term": "SD-WAN",
+      "explanation": "Software-defined WAN: een manier om vestigingen via gewone internetverbindingen tot één beveiligd netwerk te verbinden, centraal aangestuurd door controllers."
+    },
+    {
+      "term": "IPsec",
+      "explanation": "Een standaard om netwerkverkeer tussen twee punten te versleutelen. Wie de sleutels heeft, kan het verkeer in principe ontcijferen."
+    },
+    {
+      "term": "APT",
+      "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
+    },
+    {
+      "term": "achterdeur",
+      "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
+    },
+    {
+      "term": "peering",
+      "explanation": "Het opzetten van een vertrouwde verbinding tussen twee netwerkonderdelen die elkaar daarna gegevens en sleutels toesturen."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T21:58:00Z",
+  "processed_at": "2026-11-03T21:35:00Z",
   "prompt_version": "cyber-taak-v1"
 }

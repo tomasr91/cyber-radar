@@ -9,34 +9,52 @@
     "Unit 42 van Palo Alto Networks houdt een overzicht bij. Op 29 oktober meldde Unit 42 dat PHP2Shell wordt misbruikt tegen beheerinterfaces van PAN-OS-firewalls die open naar internet staan. Daar draait PHP onder de motorkap. Volgens Unit 42 combineerde de aanvaller het met een lek in de Linux-kernel om root te worden."
   ],
   "sections": [
-    {"heading": "Wat is de technologie?", "paragraphs": [
-      "PHP is een programmeertaal waarin heel veel websites zijn geschreven, van webshops tot WordPress. Een webserver zoals Apache ontvangt het verzoek van de browser en geeft het aan PHP. PHP start het verzoek op, leest de ingestuurde gegevens (zoals een formulier of upload), voert het script uit en ruimt daarna het geheugen op.",
-      "Om snel te blijven, gebruikt de server steeds dezelfde werkprocessen (workers). Eén worker handelt na elkaar honderden verzoeken af. Tussen twee verzoeken moet PHP dus alles netjes opruimen, anders blijft er iets achter voor het volgende verzoek."
-    ]},
-    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
-      "CVE-2026-109618 zit in wat PHP doet als het geheugen opraakt. PHP springt dan in één keer uit het verzoek. Gebeurt dat op een ongelukkig moment vroeg in het verzoek, dan wordt het opruimen overgeslagen. Bij het afsluiten leest PHP daarna geheugen dat niet klopt. Dat is geheugenbeschadiging.",
-      "CVE-2026-109619 is een use-after-free. Na een fout blijft in de worker een verwijzing staan naar geheugen van het vorige verzoek, dat al is vrijgegeven. Het volgende verzoek op dezelfde worker gebruikt die oude verwijzing. Wie dat geheugen slim vult, kan de software laten doen wat hij wil.",
-      "Waarom is dit zo ernstig? Beide fouten zitten in PHP zelf en treden op vóórdat de code van de website draait. Het maakt dus niet uit hoe goed de website is gebouwd. Volgens het PHP-project is het risico het grootst bij Apache met mod_php."
-    ]},
-    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
-      "Een inlog is niet nodig. Volgens de adviezen van PHP stuurt de aanvaller speciaal opgebouwde formulier-uploads (multipart-verzoeken) naar de server. Bij het tweede lek moeten twee verzoeken na elkaar op dezelfde worker terechtkomen.",
-      "Het is niet makkelijk. Rapid7 meldt dat de openbare proof of concept-code alleen werkt bij één specifieke combinatie van besturingssysteem, PHP-versie en webserver. Toch lukte het een onderzoeker op 24 oktober om drie lokservers (honeypots) met PHP 8.4.26 over te nemen.",
-      "Lukt het, dan draait de code van de aanvaller met de rechten van de webserver. Met een tweede lek, zoals in de kernel, kan hij daarna root worden."
-    ]},
-    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
-      "Bevestigd: Amazon zag al op 17 oktober een poging, vier dagen vóór de bekendmaking. Unit 42 bevestigt misbruik tegen PAN-OS-beheerinterfaces; volgens Palo Alto Networks gaat het om ongeveer 0,02 procent van de geïnstalleerde apparaten.",
-      "Mogelijk: wie code op een webserver uitvoert, kan de website aanpassen, gegevens uit de database halen of de server gebruiken om verder het netwerk in te gaan. Unit 42 ziet ruim 22,6 miljoen PHP-installaties op internet die mogelijk kwetsbaar zijn. PHP zit ook verstopt in apparaten en producten; het NCSC houdt daarvoor een lijst bij."
-    ]},
-    {"heading": "Hoe zie je dit?", "paragraphs": [
-      "Amazon adviseert in de weblogs te zoeken naar POST-verzoeken met formulier-uploads waarin de tekst PHP_SESSION_UPLOAD_PROGRESS voorkomt, en te kijken vanaf 17 oktober.",
-      "De hunting-query van Unit 42 kijkt naar wat er ná een geslaagde aanval gebeurt: een webserverproces (zoals apache2, httpd of php-fpm) dat ineens een shell, curl of wget start, of programma's uit /tmp draait. Dat werkt ongeacht het precieze lek, maar geeft ook valse meldingen.",
-      "Rapid7 en het PHP-project waarschuwen: geen verdachte logregels betekent niet dat er niets is gebeurd."
-    ]},
-    {"heading": "Hoe voorkom je dit?", "paragraphs": [
-      "Update naar PHP 8.2.35, 8.3.36, 8.4.27 of 8.5.12 en herstart daarna alle PHP-workers. Gebruik op Linux de updates van de distributie. Oudere PHP-versies krijgen geen officiële release meer.",
-      "Kan dat niet direct, dan noemt het PHP-project tijdelijke maatregelen, zoals de functie session.upload_progress uitzetten en grote formulier-uploads beperken. Die maken een installatie volgens PHP niet veilig.",
-      "Vergeet de verborgen PHP niet: firewalls, NAS-apparaten en andere producten met een webbeheerscherm. Zet zulke beheerschermen nooit open naar internet."
-    ]}
+    {
+      "heading": "Wat is de technologie?",
+      "paragraphs": [
+        "PHP is een programmeertaal waarin heel veel websites zijn geschreven, van webshops tot WordPress. Een webserver zoals Apache ontvangt het verzoek van de browser en geeft het aan PHP. PHP start het verzoek op, leest de ingestuurde gegevens (zoals een formulier of upload), voert het script uit en ruimt daarna het geheugen op.",
+        "Om snel te blijven, gebruikt de server steeds dezelfde werkprocessen (workers). Eén worker handelt na elkaar honderden verzoeken af. Tussen twee verzoeken moet PHP dus alles netjes opruimen, anders blijft er iets achter voor het volgende verzoek."
+      ]
+    },
+    {
+      "heading": "Wat gaat er technisch fout?",
+      "paragraphs": [
+        "CVE-2026-109618 zit in wat PHP doet als het geheugen opraakt. PHP springt dan in één keer uit het verzoek. Gebeurt dat op een ongelukkig moment vroeg in het verzoek, dan wordt het opruimen overgeslagen. Bij het afsluiten leest PHP daarna geheugen dat niet klopt. Dat is geheugenbeschadiging.",
+        "CVE-2026-109619 is een use-after-free. Na een fout blijft in de worker een verwijzing staan naar geheugen van het vorige verzoek, dat al is vrijgegeven. Het volgende verzoek op dezelfde worker gebruikt die oude verwijzing. Wie dat geheugen slim vult, kan de software laten doen wat hij wil.",
+        "Waarom is dit zo ernstig? Beide fouten zitten in PHP zelf en treden op vóórdat de code van de website draait. Het maakt dus niet uit hoe goed de website is gebouwd. Volgens het PHP-project is het risico het grootst bij Apache met mod_php."
+      ]
+    },
+    {
+      "heading": "Hoe kan een aanvaller dit misbruiken?",
+      "paragraphs": [
+        "Een inlog is niet nodig. Volgens de adviezen van PHP stuurt de aanvaller speciaal opgebouwde formulier-uploads (multipart-verzoeken) naar de server. Bij het tweede lek moeten twee verzoeken na elkaar op dezelfde worker terechtkomen.",
+        "Het is niet makkelijk. Rapid7 meldt dat de openbare proof of concept-code alleen werkt bij één specifieke combinatie van besturingssysteem, PHP-versie en webserver. Toch lukte het een onderzoeker op 24 oktober om drie lokservers (honeypots) met PHP 8.4.26 over te nemen.",
+        "Lukt het, dan draait de code van de aanvaller met de rechten van de webserver. Met een tweede lek, zoals in de kernel, kan hij daarna root worden."
+      ]
+    },
+    {
+      "heading": "Wat is de mogelijke impact?",
+      "paragraphs": [
+        "Bevestigd: Amazon zag al op 17 oktober een poging, vier dagen vóór de bekendmaking. Unit 42 bevestigt misbruik tegen PAN-OS-beheerinterfaces; volgens Palo Alto Networks gaat het om ongeveer 0,02 procent van de geïnstalleerde apparaten.",
+        "Mogelijk: wie code op een webserver uitvoert, kan de website aanpassen, gegevens uit de database halen of de server gebruiken om verder het netwerk in te gaan. Unit 42 ziet ruim 22,6 miljoen PHP-installaties op internet die mogelijk kwetsbaar zijn. PHP zit ook verstopt in apparaten en producten; het NCSC houdt daarvoor een lijst bij."
+      ]
+    },
+    {
+      "heading": "Hoe zie je dit?",
+      "paragraphs": [
+        "Amazon adviseert in de weblogs te zoeken naar POST-verzoeken met formulier-uploads waarin de tekst PHP_SESSION_UPLOAD_PROGRESS voorkomt, en te kijken vanaf 17 oktober.",
+        "De hunting-query van Unit 42 kijkt naar wat er ná een geslaagde aanval gebeurt: een webserverproces (zoals apache2, httpd of php-fpm) dat ineens een shell, curl of wget start, of programma's uit /tmp draait. Dat werkt ongeacht het precieze lek, maar geeft ook valse meldingen.",
+        "Rapid7 en het PHP-project waarschuwen: geen verdachte logregels betekent niet dat er niets is gebeurd."
+      ]
+    },
+    {
+      "heading": "Hoe voorkom je dit?",
+      "paragraphs": [
+        "Update naar PHP 8.2.35, 8.3.36, 8.4.27 of 8.5.12 en herstart daarna alle PHP-workers. Gebruik op Linux de updates van de distributie. Oudere PHP-versies krijgen geen officiële release meer.",
+        "Kan dat niet direct, dan noemt het PHP-project tijdelijke maatregelen, zoals de functie session.upload_progress uitzetten en grote formulier-uploads beperken. Die maken een installatie volgens PHP niet veilig.",
+        "Vergeet de verborgen PHP niet: firewalls, NAS-apparaten en andere producten met een webbeheerscherm. Zet zulke beheerschermen nooit open naar internet."
+      ]
+    }
   ],
   "key_facts": [
     "Het PHP-project dichtte CVE-2026-109618 en CVE-2026-109619 op 21 oktober 2026 in PHP 8.2.35, 8.3.36, 8.4.27 en 8.5.12.",
@@ -65,21 +83,51 @@
   "exploitation": "actief_misbruikt",
   "patch_status": "patch_beschikbaar",
   "official_docs": [
-    {"label": "PHP-advies CVE-2026-109618 (GHSA-w8hw-w9fx-j79w)", "url": "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"},
-    {"label": "PHP-advies CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp)", "url": "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp"},
-    {"label": "NCSC-2026-0443", "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0443.html"},
-    {"label": "Palo Alto Networks: advies voor PAN-OS", "url": "https://security.paloaltonetworks.com/CVE-2026-109618"},
-    {"label": "Amazon: misbruik vóór bekendmaking", "url": "https://aws.amazon.com/ko/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"},
-    {"label": "NCSC: overzicht getroffen producten", "url": "https://github.com/NCSC-NL/php2shell"}
+    {
+      "label": "PHP-advies CVE-2026-109618 (GHSA-w8hw-w9fx-j79w)",
+      "url": "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
+    },
+    {
+      "label": "PHP-advies CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp)",
+      "url": "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp"
+    },
+    {
+      "label": "NCSC-2026-0443",
+      "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0443.html"
+    },
+    {
+      "label": "Palo Alto Networks: advies voor PAN-OS",
+      "url": "https://security.paloaltonetworks.com/CVE-2026-109618"
+    },
+    {
+      "label": "Amazon: misbruik vóór bekendmaking",
+      "url": "https://aws.amazon.com/ko/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    },
+    {
+      "label": "NCSC: overzicht getroffen producten",
+      "url": "https://github.com/NCSC-NL/php2shell"
+    }
   ],
-  "topics": ["exploited_vulnerabilities", "web_software_security", "vulnerabilities_cve", "siem_detection"],
-  "quality": {"depth": 0.85, "practicality": 0.85, "novelty": 0.75},
+  "topics": [
+    "exploited_vulnerabilities",
+    "web_software_security",
+    "vulnerabilities_cve",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.85,
+    "novelty": 0.75
+  },
   "development_key": "cve-2026-109618-php2shell",
   "date_note": "Het artikel van Unit 42 verscheen op 21 oktober en is daarna meerdere keren bijgewerkt, het laatst op 29 oktober 2026.",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.65, "why": "Nog geen duimpjes; een webkwetsbaarheid in PHP staat expliciet in je lijst met onderwerpen die je wilt begrijpen."},
+  "fit": {
+    "score": 0.65,
+    "why": "Nog geen duimpjes; een webkwetsbaarheid in PHP staat expliciet in je lijst met onderwerpen die je wilt begrijpen."
+  },
   "showcase": {
     "caption": "Een eenvoudige detectieregel in Sigma: meld het als een webserverproces (regel 6) een shell of downloadprogramma start (regel 8). Dat doet een webserver normaal bijna nooit. Regel 10 zegt: beide voorwaarden moeten waar zijn.",
     "language": "sigma",
@@ -87,14 +135,32 @@
     "note": "Nagebouwd voorbeeld in de geest van de hunting-query van Unit 42; die is uitgebreider en bedoeld voor hun eigen platform."
   },
   "terms": [
-    {"term": "use-after-free", "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen."},
-    {"term": "workers", "explanation": "Werkprocessen van een webserver die steeds opnieuw worden gebruikt om verzoeken af te handelen. Dat is sneller dan voor elk verzoek een nieuw proces starten."},
-    {"term": "KEV", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
-    {"term": "proof of concept", "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."},
-    {"term": "honeypots", "explanation": "Lokservers die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."},
-    {"term": "geheugenbeschadiging", "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller."}
+    {
+      "term": "use-after-free",
+      "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen."
+    },
+    {
+      "term": "workers",
+      "explanation": "Werkprocessen van een webserver die steeds opnieuw worden gebruikt om verzoeken af te handelen. Dat is sneller dan voor elk verzoek een nieuw proces starten."
+    },
+    {
+      "term": "KEV",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "proof of concept",
+      "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+      "term": "honeypots",
+      "explanation": "Lokservers die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+      "term": "geheugenbeschadiging",
+      "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-03T21:52:00Z",
+  "processed_at": "2026-11-03T21:33:00Z",
   "prompt_version": "cyber-taak-v1"
 }
