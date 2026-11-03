@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "article_id": "08252db330fb",
+  "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+  "headline": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe",
+  "summary": "In het derde kwartaal was phishing nog steeds de belangrijkste ingang bij incidenten die Cisco Talos onderzocht, vaak via telefoontjes van een nep-helpdesk. Het aandeel ransomware steeg naar 27 procent.",
+  "story": [
+    "Cisco Talos publiceert elk kwartaal wat zijn incident-responseteam tegenkwam. In het derde kwartaal van 2026 was phishing de vaakst gebruikte ingang (37 procent), op de voet gevolgd door het misbruiken van systemen die open naar internet staan (33 procent), zoals beveiligingsgateways en beheerschermen. Ransomware en de voorbereiding daarop waren samen goed voor 27 procent van de zaken; in de vier kwartalen daarvoor was dat steeds hooguit 20 procent.",
+    "Opvallend is vishing: phishing via de telefoon. Aanvallers deden zich voor als de IT-helpdesk en lieten slachtoffers een programma voor beheer op afstand (RMM) starten, zoals Microsoft Quick Assist. Daarmee kregen ze een legitieme ingang, die minder snel alarm geeft dan malware. Bij een zaak met de nieuwe ransomware VYPR volgden daarna PowerShell, extra beheertools en het dagenlang wegsluizen van gegevens.",
+    "Bij de zwakke plekken die Talos vond, stond onvoldoende logging bovenaan (meer dan 40 procent), gevolgd door ontbrekende of zwakke MFA en slecht beheer van wachtwoorden en sleutels (elk 33 procent). Aanvallers schakelden EDR het vaakst uit met kwetsbare drivers (BYOVD) of een kwaadaardig beleid voor Windows Defender Application Control.",
+    "Talos adviseert MFA die niet te phishen is, zoals hardwaresleutels. Belangrijk tegen de nep-helpdesk: laat het registreren van een nieuw MFA-apparaat verlopen via de helpdesk met controle van de identiteit, niet via zelfbediening. En bewaar logs minstens 90 dagen centraal, buiten het apparaat zelf."
+  ],
+  "key_facts": [
+    "Phishing was de belangrijkste eerste ingang (37 procent, vorig kwartaal meer dan 50 procent), gevolgd door misbruik van systemen aan internet (33 procent) (Talos, 29 oktober 2026).",
+    "Ransomware en pre-ransomware waren 27 procent van de zaken; in elk van de vier vorige kwartalen hooguit 20 procent.",
+    "Financiële sector en openbaar bestuur waren samen het vaakst doelwit (elk 18 procent).",
+    "Onvoldoende logging kwam voor in meer dan 40 procent van de zaken; ontbrekende of zwakke MFA in 33 procent.",
+    "In een zaak met de nieuwe ransomware VYPR werd het slachtoffer overgehaald een Microsoft Quick Assist-sessie te starten.",
+    "Talos noemt de ransomwarefamilies The Gentlemen, Qilin, Rhysida, Interlock en het nieuwe VYPR."
+  ],
+  "limitations": [
+    "De cijfers gaan alleen over zaken van het eigen incident-responseteam van Talos, niet over alle aanvallen.",
+    "Wat de bellers precies zeiden, staat niet in het rapport; ook niet of Microsoft Teams werd gebruikt.",
+    "Talos geeft geen specifieke detectieregels voor vishing."
+  ],
+  "personal_relevance": "Dit soort kwartaalcijfers zijn handig om een klantgesprek mee te openen: waar komen aanvallers nu binnen, en is dat bij jullie afgedekt? Vooral het punt 'onvoldoende logging' raakt direct aan SIEM en MDR.",
+  "customer_questions": [
+    "Hoe controleert jullie helpdesk wie er belt voordat er een MFA-apparaat of wachtwoord wordt gereset?",
+    "Welke tools voor beheer op afstand zijn bij jullie toegestaan, en zou je merken als iemand Quick Assist start?",
+    "Hoe lang bewaren jullie logs, en staan ze buiten de systemen zelf?",
+    "Zou jullie monitoring alarm slaan als EDR op een machine wordt uitgeschakeld?"
+  ],
+  "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["phishing_identity", "ransomware", "incident_response", "siem_detection"],
+  "quality": {"depth": 0.55, "practicality": 0.85, "novelty": 0.55},
+  "development_key": "talos-ir-trends-q3-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."},
+  "terms": [
+    {"term": "vishing", "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."},
+    {"term": "RMM", "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."},
+    {"term": "MFA", "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."},
+    {"term": "EDR", "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."},
+    {"term": "BYOVD", "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-03T22:20:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

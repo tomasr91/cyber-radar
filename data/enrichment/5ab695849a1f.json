@@ -1,0 +1,85 @@
+{
+  "format_version": 2,
+  "article_id": "5ab695849a1f",
+  "url": "/newsroom/articles/when-no-if/",
+  "headline": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad",
+  "summary": "Het Nederlandse DIVD, dat zelf kwetsbaarheden meldt, werd in september gehackt. De aanvaller kwam binnen via twee onbekende lekken in het ticketsysteem en was in twaalf minuten root. DIVD zegt dat er een AI-framework achter zat.",
+  "story": [
+    "Het Dutch Institute for Vulnerability Disclosure (DIVD) meldde op 24 september dat het zelf gehackt was. Vrijwilligers van DIVD zoeken naar kwetsbare systemen op internet en waarschuwen de eigenaren. DIVD merkte verdachte activiteit op, blokkeerde de toegang tot zijn systemen en schakelde een extern incident-responseteam in. Het meldde het datalek bij de Autoriteit Persoonsgegevens en het NCSC.",
+    "In latere updates op zijn eigen site gaf DIVD de oorzaak: twee onbekende lekken (zero-days) in Zammad, de helpdesksoftware achter het meldpunt van DIVD. Op 31 oktober noemde DIVD het AI-aanvalsframework ARTEX als gebruikt hulpmiddel."
+  ],
+  "sections": [
+    {"heading": "Wat is de technologie?", "paragraphs": [
+      "Zammad is een ticketsysteem: software waarin een helpdesk e-mails en meldingen ontvangt, verdeelt en beantwoordt. Bij DIVD kwamen daar de meldingen over kwetsbaarheden binnen. Zo'n systeem staat op internet, want mensen moeten er berichten naartoe kunnen sturen.",
+      "Na het inloggen krijgt de gebruiker een sessie: een soort tijdelijk toegangsbewijs, zodat hij niet bij elke klik opnieuw hoeft in te loggen."
+    ]},
+    {"heading": "Wat gaat er technisch fout?", "paragraphs": [
+      "Het eerste lek, CVE-2026-102489, liet een aanvaller een sessie overnemen en daarmee code uitvoeren op de server. Het tweede, CVE-2026-102490, liet hem daarna zijn rechten verhogen tot root op installaties via DEB- of RPM-pakketten. Samen gaven ze volledige controle.",
+      "Het is een klassieke keten: eerst binnenkomen als gewone gebruiker of proces, dan rechten verhogen. Elk lek alleen is minder erg; samen leveren ze de hele server op. DIVD houdt de details van het eerste lek bewust geheim."
+    ]},
+    {"heading": "Hoe kan een aanvaller dit misbruiken?", "paragraphs": [
+      "Volgens DIVD kwam de aanvaller op 21 september binnen en was hij in ongeveer twaalf minuten root; het verhogen van de rechten zelf duurde ongeveer één minuut. Daarna maakte hij een beheersleutel voor de API aan die nooit verloopt, las hij een mailbox meerdere keren uit en deed hij verschillende dingen tegelijk: scannen, wachtwoorden proberen te resetten bij de hostingpartij en sleutels uit een database stelen.",
+      "De aanval omvatte meer dan 450.000 verzoeken en meer dan 2.500 scripts. DIVD ziet daarin en in scripts met commentaar waarin agenten 'met elkaar lijken te praten' het bewijs dat AI is gebruikt. Op 31 oktober noemde DIVD ARTEX als het gebruikte framework. Dat is de conclusie van DIVD, op basis van logfragmenten."
+    ]},
+    {"heading": "Wat is de mogelijke impact?", "paragraphs": [
+      "Bevestigd weggehaald: e-mailadressen van vrijwilligers en mogelijk contactgegevens. Deels gelekt: onder meer gegevens uit GSuite, het helpdesk- en ticketsysteem en Jira/Confluence. Nog in onderzoek: onder meer lijsten met kwetsbare systemen en proof of concept-code. Geen aanwijzingen voor toegang tot HR, broncode, Slack, boekhouding of bank.",
+      "Dat laatste is gevoelig. Een organisatie als DIVD weet welke systemen bij anderen kwetsbaar zijn. In handen van een aanvaller is zo'n lijst een kant-en-klaar doelwittenoverzicht. DIVD adviseert daarom: ga ervan uit dat de aanvaller alle correspondentie met het CSIRT heeft."
+    ]},
+    {"heading": "Hoe zie je dit?", "paragraphs": [
+      "DIVD zag de aanval binnen negentien minuten. Het reageren duurde negentien uur en het indammen nog eens negen uur; DIVD zegt zelf dat dat sneller kan.",
+      "Signalen die hier in de logs stonden: een enorme hoeveelheid verzoeken in korte tijd, een nieuw aangemaakte API-sleutel zonder verloopdatum, en een testmail van de aanvaller. Zulke gebeurtenissen kun je in een SIEM als melding instellen, bijvoorbeeld bij elke nieuwe beheersleutel."
+    ]},
+    {"heading": "Hoe voorkom je dit?", "paragraphs": [
+      "Tegen een zero-day helpt patchen pas als er een patch is. Zammad dichtte de lekken in versie 7.2 en 7.2.2; DIVD adviseert te updaten of Zammad offline te halen.",
+      "Wat wel hielp: netwerksegmentatie. De omgeving waarin DIVD CVE-nummers uitgeeft, stond los van de rest en toont geen sporen van toegang. Ook snelle detectie en vooraf geregelde hulp bij incidenten beperken de schade."
+    ]}
+  ],
+  "key_facts": [
+    "DIVD maakte op 24 september 2026 bekend dat het gehackt was en meldde dit bij de Autoriteit Persoonsgegevens en het NCSC.",
+    "Volgens DIVD kwam de aanvaller binnen op 21 september via CVE-2026-102489 (sessie overnemen, code uitvoeren) en CVE-2026-102490 (rechten verhogen tot root) in Zammad, opgelost in versie 7.2 en 7.2.2.",
+    "DIVD: de aanvaller was in ongeveer 12 minuten root en deed meer dan 450.000 verzoeken met meer dan 2.500 scripts.",
+    "DIVD: detectie binnen 19 minuten, reactie binnen 19 uur, indamming 9 uur later; op 2 oktober was het incident ingedamd.",
+    "E-mailadressen van vrijwilligers zijn bevestigd weggehaald; andere gegevens zijn deels gelekt of nog in onderzoek.",
+    "Op 31 oktober 2026 noemde DIVD het framework ARTEX als gebruikt bij de aanval."
+  ],
+  "limitations": [
+    "Hoeveel mensen getroffen zijn, maakt DIVD niet bekend.",
+    "De rol van ARTEX is de conclusie van DIVD op basis van logfragmenten; onafhankelijke bevestiging staat niet in de bronnen.",
+    "Het eindrapport en een verdiepend verslag over de AI-aanval zijn nog niet verschenen; de pagina's van DIVD zijn op enkele punten niet helemaal consistent (zoals datums van updates).",
+    "Wie de aanvaller is, is onbekend. DIVD zegt geen verband te zien met bekende groepen of oud-vrijwilligers."
+  ],
+  "personal_relevance": "Een Nederlands voorbeeld van hoe snel een aanval kan gaan, en hoe een organisatie open communiceert over oorzaak, tijdlijn en gelekte gegevens. Handig als referentie in gesprekken over reactietijden.",
+  "customer_questions": [
+    "Welke systemen hebben jullie op internet staan die meldingen of tickets ontvangen, en wie houdt die bij?",
+    "Krijgt jullie SIEM een melding als er een nieuwe beheersleutel of API-token wordt aangemaakt?",
+    "Hoe lang duurt het bij jullie van detectie tot indamming, en is dat ooit geoefend?",
+    "Zijn de gevoeligste omgevingen gescheiden van de rest van het netwerk?"
+  ],
+  "takeaway": "Een aanvaller met twee onbekende lekken en geautomatiseerde tools kan in minuten van buiten naar root gaan. Detectie werkte hier snel; de winst zat daarna in reactiesnelheid en in segmentatie die de schade beperkte.",
+  "region": "nl",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "official_docs": [
+    {"label": "DIVD: overzicht van het incident en updates", "url": "https://www.divd.nl/hacked/"},
+    {"label": "DIVD CSIRT: casusdossier", "url": "https://csirt.divd.nl/cases/DIVD-2026-00014/"}
+  ],
+  "topics": ["incidents_breaches", "exploited_vulnerabilities", "incident_response", "attack_techniques"],
+  "quality": {"depth": 0.75, "practicality": 0.8, "novelty": 0.8},
+  "development_key": "hack-divd-sep-2026",
+  "date_note": "Het oorspronkelijke bericht van DIVD is van 24 september 2026; deze uitleg gebruikt ook de latere updates tot en met 31 oktober.",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "incident",
+  "fit": {"score": 0.65, "why": "Nog geen duimpjes; een Nederlands incident met bekende technische oorzaak, precies wat je profiel noemt."},
+  "terms": [
+    {"term": "zero-days", "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."},
+    {"term": "ticketsysteem", "explanation": "Software waarin een helpdesk meldingen en e-mails ontvangt, verdeelt en afhandelt."},
+    {"term": "sessie", "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."},
+    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
+    {"term": "CSIRT", "explanation": "Computer Security Incident Response Team: een team dat beveiligingsmeldingen ontvangt en bij incidenten coördineert."},
+    {"term": "netwerksegmentatie", "explanation": "Een netwerk opdelen in afgeschermde delen, zodat een aanvaller in het ene deel niet zomaar bij het andere kan."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-03T22:16:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

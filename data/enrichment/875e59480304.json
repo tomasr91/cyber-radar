@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "article_id": "875e59480304",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+  "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
+  "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
+  "story": [
+    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
+    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
+    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
+    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
+  ],
+  "key_facts": [
+    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
+    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
+    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
+    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
+    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
+  ],
+  "limitations": [
+    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
+    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
+    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
+  ],
+  "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
+  "customer_questions": [
+    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
+    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
+    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
+  ],
+  "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
+  "region": "world",
+  "official_docs": [
+    {"label": "Microsoft Threat Intelligence: fake-download campaign", "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"}
+  ],
+  "topics": ["malware", "siem_detection", "threat_intelligence"],
+  "quality": {"depth": 0.6, "practicality": 0.7, "novelty": 0.5},
+  "development_key": "nep-installers-inno-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."},
+  "showcase": {
+    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
+    "language": "kql",
+    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
+    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
+  },
+  "terms": [
+    {"term": "resource hijacking", "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."},
+    {"term": "adware", "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."},
+    {"term": "geplande taken", "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."},
+    {"term": "SYSTEM-rechten", "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."},
+    {"term": "PUA", "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-03T22:24:00Z",
+  "prompt_version": "cyber-taak-v1"
+}
