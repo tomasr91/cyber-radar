@@ -1,0 +1,603 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-03T21:03:28.220554Z",
+ "mode": "snapshot",
+ "mode_note": "Lege startfeed: CyberScope is net aangemaakt. De eerste nachtrun haalt de echte artikelen op.",
+ "last_article_added_at": null,
+ "last_successful_update": "2026-11-03T20:00:00Z",
+ "groups": [
+  {
+   "id": "incidenten",
+   "label": "Hacks & incidenten"
+  },
+  {
+   "id": "kwetsbaarheden",
+   "label": "Kwetsbaarheden"
+  },
+  {
+   "id": "aanvallen",
+   "label": "Aanvalstechnieken"
+  },
+  {
+   "id": "web",
+   "label": "Web & software"
+  },
+  {
+   "id": "detectie",
+   "label": "SIEM & detectie"
+  },
+  {
+   "id": "vm",
+   "label": "Vulnerability management"
+  },
+  {
+   "id": "ti",
+   "label": "Threat intelligence"
+  },
+  {
+   "id": "overig",
+   "label": "Markt & regels"
+  }
+ ],
+ "topics": {
+  "vulnerabilities_cve": {
+   "name": "Nieuwe kwetsbaarheden (CVE's)",
+   "priority": 5,
+   "group": "kwetsbaarheden"
+  },
+  "exploited_vulnerabilities": {
+   "name": "Actief misbruikte kwetsbaarheden en zero-days",
+   "priority": 5,
+   "group": "kwetsbaarheden"
+  },
+  "edge_devices": {
+   "name": "VPN's, firewalls en andere randapparatuur",
+   "priority": 4,
+   "group": "kwetsbaarheden"
+  },
+  "attack_techniques": {
+   "name": "Aanvalstechnieken uitgelegd",
+   "priority": 5,
+   "group": "aanvallen",
+   "learning": true
+  },
+  "web_software_security": {
+   "name": "Webtechnologie en softwarebeveiliging",
+   "priority": 4,
+   "group": "web",
+   "learning": true
+  },
+  "phishing_identity": {
+   "name": "Phishing, identiteit en accounts",
+   "priority": 4,
+   "group": "aanvallen"
+  },
+  "malware": {
+   "name": "Malware",
+   "priority": 4,
+   "group": "aanvallen"
+  },
+  "supply_chain": {
+   "name": "Aanvallen via leveranciers en software",
+   "priority": 4,
+   "group": "web"
+  },
+  "incidents_breaches": {
+   "name": "Hacks, datalekken en incidenten",
+   "priority": 5,
+   "group": "incidenten"
+  },
+  "ransomware": {
+   "name": "Ransomware",
+   "priority": 5,
+   "group": "incidenten"
+  },
+  "cloud_attacks": {
+   "name": "Aanvallen op cloudomgevingen",
+   "priority": 4,
+   "group": "incidenten"
+  },
+  "siem_detection": {
+   "name": "SIEM, logs en detectie",
+   "priority": 5,
+   "group": "detectie",
+   "learning": true
+  },
+  "vulnerability_management": {
+   "name": "Vulnerability management en prioriteren",
+   "priority": 5,
+   "group": "vm",
+   "learning": true
+  },
+  "threat_intelligence": {
+   "name": "Threat intelligence en aanvallersgroepen",
+   "priority": 5,
+   "group": "ti"
+  },
+  "incident_response": {
+   "name": "Incident response en onderzoek",
+   "priority": 4,
+   "group": "detectie"
+  },
+  "security_market": {
+   "name": "Securitymarkt en leveranciers",
+   "priority": 1,
+   "group": "overig"
+  },
+  "policy_regulation": {
+   "name": "Wetgeving en toezicht",
+   "priority": 2,
+   "group": "overig"
+  }
+ },
+ "sources": [
+  {
+   "id": "security_nl",
+   "name": "Security.NL",
+   "url": "https://www.security.nl",
+   "type": "independent_news",
+   "trust_level": "medium",
+   "priority": 5,
+   "region": "nl",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "ncsc_nl_advisories",
+   "name": "NCSC-NL beveiligingsadviezen",
+   "url": "https://advisories.ncsc.nl",
+   "type": "official_docs",
+   "trust_level": "high",
+   "priority": 3,
+   "region": "nl",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "fox_it",
+   "name": "Fox-IT (NCC Group) blog",
+   "url": "https://blog.fox-it.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "nl",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "divd",
+   "name": "DIVD (Dutch Institute for Vulnerability Disclosure)",
+   "url": "https://www.divd.nl",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "nl",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "watchtowr_labs",
+   "name": "watchTowr Labs",
+   "url": "https://labs.watchtowr.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 5,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "dfir_report",
+   "name": "The DFIR Report",
+   "url": "https://thedfirreport.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 5,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "cisco_talos",
+   "name": "Cisco Talos",
+   "url": "https://blog.talosintelligence.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "project_zero",
+   "name": "Google Project Zero",
+   "url": "https://googleprojectzero.blogspot.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "atom",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "google_threat_intel",
+   "name": "Google Threat Intelligence (Mandiant)",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "microsoft_threat_intel",
+   "name": "Microsoft Threat Intelligence",
+   "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
+   "type": "vendor_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "unit42",
+   "name": "Unit 42 (Palo Alto Networks)",
+   "url": "https://unit42.paloaltonetworks.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "datadog_security_labs",
+   "name": "Datadog Security Labs",
+   "url": "https://securitylabs.datadoghq.com",
+   "type": "expert_blog",
+   "trust_level": "high",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "huntress_blog",
+   "name": "Huntress blog",
+   "url": "https://www.huntress.com/blog",
+   "type": "vendor_blog",
+   "trust_level": "medium",
+   "priority": 4,
+   "region": "na",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "crowdstrike_blog",
+   "name": "CrowdStrike blog",
+   "url": "https://www.crowdstrike.com/en-us/blog/",
+   "type": "vendor_blog",
+   "trust_level": "medium",
+   "priority": 3,
+   "region": "na",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "bleepingcomputer",
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com",
+   "type": "independent_news",
+   "trust_level": "medium",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "the_record",
+   "name": "The Record (Recorded Future News)",
+   "url": "https://therecord.media",
+   "type": "independent_news",
+   "trust_level": "medium",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  },
+  {
+   "id": "securityweek",
+   "name": "SecurityWeek",
+   "url": "https://www.securityweek.com",
+   "type": "independent_news",
+   "trust_level": "medium",
+   "priority": 3,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "not_fetched",
+   "items": 0,
+   "message": "Niet opgenomen in deze momentopname.",
+   "checked_at": "2026-11-03T20:00:00Z"
+  }
+ ],
+ "daily_top": [],
+ "articles": [],
+ "deepdives": [],
+ "deepdive_options": null,
+ "trends": [],
+ "weekly": null,
+ "glossary": [],
+ "interests": {
+  "areas": [
+   {
+    "id": "kwetsbaarheden",
+    "name": "Nieuwe kwetsbaarheden en softwarefouten",
+    "share": 0.3
+   },
+   {
+    "id": "techniek",
+    "name": "Hoe aanvallen technisch werken",
+    "share": 0.3
+   },
+   {
+    "id": "incidenten",
+    "name": "Actuele hacks en incidenten",
+    "share": 0.25
+   },
+   {
+    "id": "praktijk",
+    "name": "Detectie en securitypraktijk",
+    "share": 0.15
+   }
+  ],
+  "topics": [
+   {
+    "id": "vulnerabilities_cve",
+    "name": "Nieuwe kwetsbaarheden (CVE's)",
+    "description": "Nieuwe kwetsbaarheden en softwarefouten in software die organisaties gebruiken: Windows, Linux, PHP, webservers, browsers, databases, API's en cloudplatformen. Niet alleen het CVE-nummer en de score: wat gaat er technisch fout, wie loopt risico en hoe los je het op.",
+    "priority": 5,
+    "area": "kwetsbaarheden"
+   },
+   {
+    "id": "exploited_vulnerabilities",
+    "name": "Actief misbruikte kwetsbaarheden en zero-days",
+    "description": "Kwetsbaarheden die aanvallers nu al misbruiken, zero-days en toevoegingen aan de CISA-lijst van misbruikte kwetsbaarheden (KEV). Juist hier wordt duidelijk waarom iets urgent is.",
+    "priority": 5,
+    "area": "kwetsbaarheden"
+   },
+   {
+    "id": "edge_devices",
+    "name": "VPN's, firewalls en andere randapparatuur",
+    "description": "Kwetsbaarheden in apparaten aan de rand van het netwerk (VPN-servers, firewalls, load balancers, bestandsoverdracht). Vaak bereikbaar vanaf internet en daardoor een favoriete ingang voor aanvallers.",
+    "priority": 4,
+    "area": "kwetsbaarheden"
+   },
+   {
+    "id": "attack_techniques",
+    "name": "Aanvalstechnieken uitgelegd",
+    "description": "Hoe een aanval technisch verloopt: remote code execution, SQL injection, cross-site scripting, privilege escalation, credential theft, authentication bypass, laterale beweging, command and control en misbruik van bestaande rechten. Centraal leergebied.",
+    "priority": 5,
+    "area": "techniek",
+    "learning": true
+   },
+   {
+    "id": "web_software_security",
+    "name": "Webtechnologie en softwarebeveiliging",
+    "description": "Hoe websites, webservers, API's, databases, sessies en authenticatie werken, en waar het misgaat. PHP, JavaScript, HTTP, Apache, Nginx, OAuth, cookies en open-sourcecomponenten. Eerst de normale werking, dan de fout.",
+    "priority": 4,
+    "area": "techniek",
+    "learning": true
+   },
+   {
+    "id": "phishing_identity",
+    "name": "Phishing, identiteit en accounts",
+    "description": "Phishing, social engineering en aanvallen op accounts: wachtwoorden stelen, MFA omzeilen, sessietokens kapen, misbruik van Microsoft 365 en Entra ID.",
+    "priority": 4,
+    "area": "techniek"
+   },
+   {
+    "id": "malware",
+    "name": "Malware",
+    "description": "Hoe malware werkt: infostealers, loaders, backdoors, remote access trojans en botnets. Hoe het binnenkomt, wat het doet en hoe je het ziet.",
+    "priority": 4,
+    "area": "techniek"
+   },
+   {
+    "id": "supply_chain",
+    "name": "Aanvallen via leveranciers en software",
+    "description": "Aanvallen via de toeleveringsketen: besmette open-sourcepakketten (npm, PyPI), gekaapte updates en aanvallen via een leverancier of IT-dienstverlener.",
+    "priority": 4,
+    "area": "techniek"
+   },
+   {
+    "id": "incidents_breaches",
+    "name": "Hacks, datalekken en incidenten",
+    "description": "Cyberaanvallen op organisaties, datalekken en incidenten waarbij systemen uit moeten. Alleen interessant met technische inhoud: hoe kwam de aanvaller binnen, wat is bevestigd en wat nog niet.",
+    "priority": 5,
+    "area": "incidenten"
+   },
+   {
+    "id": "ransomware",
+    "name": "Ransomware",
+    "description": "Ransomware-aanvallen en -groepen: hoe ze binnenkomen, zich verspreiden, data stelen en versleutelen, en hoe organisaties zich herstellen.",
+    "priority": 5,
+    "area": "incidenten"
+   },
+   {
+    "id": "cloud_attacks",
+    "name": "Aanvallen op cloudomgevingen",
+    "description": "Aanvallen op en fouten in cloudomgevingen: Azure, AWS, Google Cloud, Microsoft 365, verkeerde instellingen, gelekte sleutels en misbruik van cloudidentiteiten.",
+    "priority": 4,
+    "area": "incidenten"
+   },
+   {
+    "id": "siem_detection",
+    "name": "SIEM, logs en detectie",
+    "description": "Hoe aanvallen zichtbaar worden: logs, detectieregels, alerts, EDR, netwerkmonitoring en threat hunting. Hoe een securityanalist een melding onderzoekt en hoe false positives ontstaan. Centraal leergebied.",
+    "priority": 5,
+    "area": "praktijk",
+    "learning": true
+   },
+   {
+    "id": "vulnerability_management",
+    "name": "Vulnerability management en prioriteren",
+    "description": "Kwetsbaarheden vinden, systemen inventariseren, risico's beoordelen en prioriteren, patchen en controleren. CVSS, EPSS en KEV, en waarom een hoge score niet altijd het meest urgent is.",
+    "priority": 5,
+    "area": "praktijk",
+    "learning": true
+   },
+   {
+    "id": "threat_intelligence",
+    "name": "Threat intelligence en aanvallersgroepen",
+    "description": "Aanvallersgroepen, campagnes, nieuwe technieken en patronen. Vooral: wat betekent deze informatie en hoe gebruikt een organisatie het (bij detectie en prioriteren).",
+    "priority": 5,
+    "area": "praktijk"
+   },
+   {
+    "id": "incident_response",
+    "name": "Incident response en onderzoek",
+    "description": "Hoe een organisatie een incident onderzoekt en afhandelt: forensisch onderzoek, indammen, herstellen en lessen trekken. Inclusief volledige aanvalsketens uit echte onderzoeken.",
+    "priority": 4,
+    "area": "praktijk"
+   },
+   {
+    "id": "security_market",
+    "name": "Securitymarkt en leveranciers",
+    "description": "Groot nieuws over securityleveranciers (zoals Tenable, Qualys, CrowdStrike, Splunk, SentinelOne, Microsoft): grote overnames, koerswijzigingen of productlijnen die stoppen. Alleen bij groot nieuws.",
+    "priority": 1,
+    "area": "overig"
+   },
+   {
+    "id": "policy_regulation",
+    "name": "Wetgeving en toezicht",
+    "description": "Regels die organisaties verplichten tot betere beveiliging, zoals NIS2 (in Nederland de Cyberbeveiligingswet) en de Cyber Resilience Act. Alleen bij nieuws met directe gevolgen.",
+    "priority": 2,
+    "area": "overig"
+   }
+  ],
+  "excluded": [
+   {
+    "id": "funding_rounds",
+    "name": "Investeringsrondes en beursnieuws"
+   },
+   {
+    "id": "deals_promotions",
+    "name": "Aanbiedingen, webinars en evenementen"
+   },
+   {
+    "id": "roundups",
+    "name": "Weekoverzichten van andere sites"
+   },
+   {
+    "id": "ncsc_lower_likelihood",
+    "name": "NCSC-adviezen met lage of middelmatige kans"
+   },
+   {
+    "id": "awards_marketing",
+    "name": "Prijzen, ranglijsten en marketing"
+   }
+  ],
+  "updated": "2026-11-03"
+ },
+ "interest_suggestions": [],
+ "interest_log": [],
+ "runs": null,
+ "feedback": {
+  "topics": {},
+  "sources": {},
+  "kinds": {},
+  "votes": 0,
+  "reads": 0,
+  "offset": 0.0,
+  "weight": 0.15,
+  "updated_at": null,
+  "effect": {
+   "days": 7,
+   "lifted": [],
+   "dropped": []
+  }
+ },
+ "repo": "tomasr91/cyber-radar",
+ "issue_authors": [
+  "tomasr91"
+ ],
+ "quality_report": {
+  "fetched_items": 0,
+  "unique_after_dedupe": 0,
+  "merged_duplicates": 0,
+  "shown": 0,
+  "decisions": {},
+  "processing": {},
+  "without_date": 0,
+  "per_group": {},
+  "per_source": {},
+  "date_flags": [],
+  "enrichment": {
+   "api_key_present": false,
+   "processed": 0,
+   "failed": [],
+   "skipped_no_key": 0
+  },
+  "queue_size": 0,
+  "invalid_enrichment": [],
+  "invalid_deepdives": [],
+  "invalid_deepdive_options": [],
+  "invalid_trends": [],
+  "invalid_weekly": [],
+  "invalid_interest_suggestions": [],
+  "threshold": 60,
+  "max_per_source": 12,
+  "not_shown": [],
+  "topics_without_source": []
+ }
+}

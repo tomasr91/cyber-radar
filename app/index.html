@@ -1,0 +1,1722 @@
+<title>CyberScope</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,750&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: één leeskolom van max. 680px, kleverige kop met filters, artikel opent als volledig scherm. */
+:root {
+  /* Eén donker thema, dag en nacht. Cyaan is de enige accentkleur (knoppen, links, actieve tabs,
+     relevantie). Zelfde opzet als de Data & AI Radar, andere kleur zodat je ze op één telefoon uit elkaar houdt. */
+  --bg: #0f1217;
+  --surface: #171b22;
+  --ink: #e7eaf0;
+  --muted: #9aa3b2;
+  --line: #2a303a;
+  --accent: #4cc3e8;
+  --accent-soft: #13313b;
+  --accent2: #4cc3e8;
+  --accent2-soft: #13313b;
+  --signal: #4cc3e8;
+  --signal-off: #333a46;
+  --ok: #6fd3a0; --ok-soft: #173326;
+  --warn: #f0c060; --warn-soft: #3a2f16;
+  --bad: #ff9a90; --bad-soft: #3d1d1b;
+  --info: #c3cad6; --info-soft: #252b35;
+  --f-display: "Bricolage Grotesque", "Segoe UI", Roboto, system-ui, sans-serif;
+  --f-read: "Literata", Georgia, "Times New Roman", serif;
+  --f-meta: "IBM Plex Mono", ui-monospace, "Roboto Mono", monospace;
+  --r: 14px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-display); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 680px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* Kop */
+header.top { background: var(--bg); }
+.filters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding-top: 8px; }
+.brand { display: flex; align-items: center; gap: 12px; padding-block: 14px 10px; }
+.mark { width: 34px; height: 34px; flex: none; }
+.brand h1 { margin: 0; white-space: nowrap; font-size: clamp(1.08rem, 5.2vw, 1.32rem); font-weight: 750; letter-spacing: -0.02em; line-height: 1.1; }
+/* Tijd van de nieuwste artikelen: rechts, klein en grijs, op twee regels (datum / tijd) */
+.brand .upd { margin: 0; display: flex; align-items: center; gap: 7px; font-size: 0.76rem; line-height: 1.25; color: var(--muted); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.brand .upd .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.brand .upd span:last-child { display: flex; flex-direction: column; }
+.brand p strong { color: var(--ink); font-weight: 600; }
+.views { display: flex; gap: 22px; margin: 0 2px 8px; }
+.views button { border: 0; background: none; padding: 6px 0; font: inherit; font-size: 1rem; font-weight: 650; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; }
+.views button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent2); }
+.tabs[hidden] { display: none !important; }
+.tabs { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; padding: 4px; margin-bottom: 8px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.tabs button { border: 0; background: none; height: 38px; border-radius: 9px; font-size: 0.95rem; cursor: pointer; color: var(--muted); }
+.tabs button[aria-pressed="true"] { background: #262c36; color: var(--accent2); font-weight: 650; box-shadow: inset 0 0 0 1px #3a4250; }
+.brand .grow { flex: 1; min-width: 0; }
+.icon-btn { width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); display: grid; place-items: center; cursor: pointer; flex: none; }
+.icon-btn svg { width: 19px; height: 19px; }
+.search { display: flex; gap: 8px; padding-bottom: 10px; }
+.search input { flex: 1; min-width: 0; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 14px; font: inherit; font-size: 1rem; }
+.chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 10px; scrollbar-width: none; scroll-padding-inline: 16px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-size: 0.88rem; font-weight: 500; cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
+.chip .n { font-family: var(--f-meta); font-size: 0.72rem; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+.controls { display: flex; gap: 8px; justify-content: space-between; padding-bottom: 10px; flex-wrap: wrap; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; padding: 6px 11px; font-size: 0.8rem; cursor: pointer; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 650; }
+
+/* Status van de feed */
+.status { display: flex; gap: 10px; align-items: flex-start; margin: 16px 0 6px; padding: 12px 14px; border-radius: var(--r); background: var(--surface); border: 1px solid var(--line); font-size: 0.86rem; color: var(--muted); }
+.status[hidden] { display: none; }
+.status strong { color: var(--ink); font-weight: 650; }
+.status .dot { width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex: none; }
+.status a { white-space: nowrap; }
+
+/* Lijsten */
+main { padding-bottom: 64px; }
+h2.sec { font-size: 0.74rem; font-family: var(--f-meta); font-weight: 500; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); margin: 26px 0 10px; display: flex; justify-content: space-between; gap: 8px; }
+.top5 { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.top5 li + li { border-top: 1px solid var(--line); }
+.top5 button { display: grid; grid-template-columns: 28px 1fr auto; gap: 10px; align-items: start; width: 100%; text-align: left; background: none; border: 0; padding: 13px 14px; cursor: pointer; }
+.top5 .rank { font-family: var(--f-meta); font-size: 0.8rem; color: var(--signal); padding-top: 2px; }
+.top5 .t { display: block; font-weight: 650; font-size: 0.98rem; line-height: 1.3; text-wrap: balance; }
+.top5 .m { display: block; font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+.cards { margin-top: 14px; display: grid; gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 15px 15px 13px; cursor: pointer; display: grid; gap: 8px; min-width: 0; }
+.card:hover { border-color: color-mix(in srgb, var(--accent2) 45%, var(--line)); }
+.meta { display: flex; justify-content: space-between; gap: 10px; font-family: var(--f-meta); font-size: 0.76rem; color: var(--muted); align-items: center; }
+.meta .src { color: var(--ink); font-weight: 500; }
+.card h3 { margin: 0; font-size: 1.12rem; line-height: 1.28; font-weight: 650; letter-spacing: -0.01em; text-wrap: balance; overflow-wrap: anywhere; }
+.card[data-id] .sum, .card[data-dd] .sum { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .sum { margin: 0; font-family: var(--f-read); font-size: 0.95rem; line-height: 1.55; color: var(--ink); }
+.card .why { margin: 0; font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+.card .why b { color: var(--accent2); font-weight: 650; }
+/* Actiebalk onder een artikel of verdieping: 👍 👎 ＋ Later ✦ Vraag Claude in één rij; extra's eronder */
+.act-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line); }
+.act-bar .fb, .act-bar .later, .act-bar .fb-btns { display: contents; }
+.act-bar .fb-reasons, .act-bar .fb-note { flex-basis: 100%; order: 5; margin: 2px 0 0; }
+.act-bar .later-form, .act-bar .later-done { flex-basis: 100%; order: 6; }
+.act-bar .ask { flex-basis: 100%; order: 7; margin-top: 4px; }
+.act-bar .ask[hidden] { display: none; }
+.act-btn, .act-bar .fb-btns button { display: inline-flex; align-items: center; gap: 6px; height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 0.9rem; cursor: pointer; }
+.act-bar .fb-btns button { padding: 0 13px; font-size: 1.05rem; }
+.act-btn[aria-expanded="true"] { border-color: var(--accent2); color: var(--accent2); }
+.card.read { opacity: .55; }
+.card.read h3 { font-weight: 550; }
+.read-tick { color: var(--ok); margin-right: 6px; font-weight: 700; }
+.since-line { display: flex; align-items: center; gap: 10px; color: var(--muted); font-family: var(--f-meta); font-size: 0.72rem; margin: 6px 2px; }
+.since-line::before, .since-line::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+#seg-view button { position: relative; }
+.src-line { margin: 22px 0 0; font-family: var(--f-meta); font-size: 0.74rem; color: var(--muted); line-height: 1.6; }
+.fb-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.fb-btns button, .fb-reasons button { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 0 14px; height: 40px; font-size: 0.9rem; cursor: pointer; }
+.fb-btns button[aria-pressed="true"] { border-color: var(--accent2); background: var(--accent2-soft); color: var(--accent2); font-weight: 650; }
+.fb-reasons { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.fb-group { align-items: center; margin-top: 8px; }
+.fb-group .lbl { flex-basis: 100%; font-family: var(--f-meta); font-size: 0.72rem; color: var(--muted); }
+.fb-reasons button { height: 34px; font-size: 0.82rem; color: var(--muted); }
+.fb-reasons button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); }
+.fb-note { margin: 10px 0 0; font-size: 0.82rem; color: var(--muted); }
+.fb-send { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 14px; padding: 10px 14px; min-height: 44px; border-radius: var(--r); border: 1px solid var(--accent2); background: var(--accent2-soft); color: var(--ink); text-decoration: none; font-size: 0.9rem; }
+.fb-send b { color: var(--accent2); }
+.fb-float { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 25; margin: 0; width: max-content; max-width: calc(100% - 32px); min-height: 44px; padding: 0 6px 0 16px; gap: 12px; border-radius: 999px; border: 1px solid var(--line); background: #222833; box-shadow: 0 8px 24px rgba(0,0,0,.5); font-size: 0.86rem; color: var(--muted); white-space: nowrap; }
+.fb-float b { display: inline-flex; align-items: center; height: 32px; padding: 0 14px; border-radius: 999px; background: var(--accent2); color: #1a1205; font-weight: 600; }
+.cards.has-float { padding-bottom: 72px; }
+.term { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; text-decoration: underline dotted var(--muted); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.term.new { color: var(--accent2); text-decoration-color: var(--accent2); }   /* nog niet bekeken */
+.term-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--surface); border-top: 2px solid var(--accent2); padding: 16px 20px calc(18px + env(safe-area-inset-bottom)); box-shadow: 0 -10px 30px rgba(0,0,0,.45); }
+.term-sheet[hidden] { display: none; }
+.term-sheet .wrap { position: relative; }
+.term-sheet h3 { margin: 0 32px 6px 0; font-size: 1.05rem; color: var(--accent2); }
+.term-sheet p { margin: 0 0 10px; font-family: var(--f-read); line-height: 1.6; }
+.term-sheet a { color: var(--accent2); font-size: 0.9rem; }
+.term-sheet .x { position: absolute; top: -6px; right: 0; width: 36px; height: 36px; border: 0; background: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; }
+.gl-filter { width: 100%; margin-top: 14px; height: 44px; padding: 0 14px; border-radius: var(--r); border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; }
+.gloss { margin: 14px 0 0; display: grid; gap: 10px; }
+.gl-item { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
+.gl-item[hidden] { display: none; }
+.gl-item dt { font-weight: 700; color: var(--accent2); margin-bottom: 4px; }
+.gl-item dd { margin: 0; font-family: var(--f-read); line-height: 1.6; }
+.gl-refs { display: block; margin-top: 6px; font-family: var(--f-meta); font-size: 0.78rem; color: var(--muted); }
+.gl-refs a { color: var(--muted); }
+.week-bar { position: relative; touch-action: pan-y; transition: transform .2s, opacity .2s; }
+.week-bar .fb-send { padding-right: 44px; }
+.week-x { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border: 0; background: none; color: var(--muted); font-size: 1.3rem; cursor: pointer; }
+.week-bar.gone { opacity: 0; }
+.runs { list-style: none; padding: 0 !important; margin: 0 !important; display: grid; gap: 8px; }
+.runs li { font-family: var(--f-display); display: grid; gap: 2px; }
+.runs li b { font-weight: 650; }
+.runs li span { font-size: 0.86rem; color: var(--muted); }
+.runs li.ok b { color: var(--ok); } .runs li.deels b { color: var(--warn); } .runs li.mislukt b { color: var(--bad); } .runs li.none b { color: var(--muted); }
+.near { list-style: none; padding: 0 !important; margin: 0 !important; display: grid; gap: 10px; }
+.near li a { color: var(--ink); }
+.near li span { display: block; font-family: var(--f-meta); font-size: 0.74rem; color: var(--muted); margin-top: 2px; }
+.all-src summary { cursor: pointer; font-weight: 650; }
+.all-src ul { list-style: none; padding: 0 !important; margin: 10px 0 0 !important; display: grid; gap: 6px; font-size: 0.9rem; }
+.bk-list { list-style: none; padding: 0 !important; margin: 4px 0 14px !important; display: grid; gap: 6px; font-size: 0.92rem; }
+.bk-list li { font-family: var(--f-display); display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.bk-list b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.bk-confirm { margin-top: 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); }
+.bk-confirm .row { display: flex; gap: 8px; }
+.bk-confirm .small { font-size: 0.84rem; color: var(--muted); }
+.bk-msg { margin: 12px 0 0; font-size: 0.9rem; } .bk-msg.ok { color: var(--ok); } .bk-msg.bad { color: var(--bad); }
+.wk-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 14px; }
+.wk-list li { border-left: 3px solid var(--accent2); padding: 2px 0 2px 12px; }
+.wk-list h3 { margin: 0 0 4px; font-size: 1rem; line-height: 1.35; }
+.wk-list p { margin: 0 0 4px; font-family: var(--f-read); line-height: 1.6; }
+.wk-links { display: flex; flex-direction: column; gap: 2px; font-size: 0.88rem; }
+.wk-links a, .wk-stats a { color: var(--accent2); }
+.wk-stats { list-style: none; padding: 0 !important; margin: 6px 0 0 !important; display: grid; gap: 6px; font-size: 0.95rem; }
+.wk-stats b { font-variant-numeric: tabular-nums; }
+.trend { cursor: default; margin-top: 14px; }
+.trend .meta .src { color: var(--accent2); }
+.trend-list { list-style: none; margin: 4px 0 0; padding: 0; border-top: 1px solid var(--line); }
+.trend-list button { display: grid; gap: 2px; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 10px 0; cursor: pointer; color: var(--ink); min-height: 44px; }
+.trend-list li:last-child button { border-bottom: 0; }
+.trend-list .t { font-weight: 550; font-size: 0.95rem; }
+.trend-list .m { color: var(--muted); font-size: 0.74rem; font-family: var(--f-meta); }
+.quiz, .fb { font-family: var(--f-display); }
+.q-list { margin: 8px 0 0; padding-left: 1.2em; display: grid; gap: 18px; }
+.q-from { margin: 0 0 4px; font-family: var(--f-meta); font-size: 0.72rem; color: var(--muted); }
+.q-text { margin: 0 0 8px; font-weight: 600; line-height: 1.4; }
+.q-opts { display: grid; gap: 6px; }
+.q-opts button { text-align: left; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 10px; padding: 10px 12px; min-height: 44px; font-size: 0.92rem; cursor: pointer; line-height: 1.35; }
+.q-opts button:disabled { cursor: default; opacity: .7; }
+.q-opts button.right { border-color: var(--ok); background: var(--ok-soft); color: var(--ok); opacity: 1; }
+.q-opts button.wrong { border-color: var(--bad); background: var(--bad-soft); color: var(--bad); opacity: 1; }
+.q-exp { margin: 8px 0 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5; }
+.q-exp b { color: var(--ink); }
+.ask-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.ask-chips button { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 0 12px; height: 36px; font-size: 0.84rem; cursor: pointer; }
+.ask-form { display: grid; gap: 8px; }
+.ask-form textarea { width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 12px; padding: 10px 12px; font: inherit; font-size: 1rem; resize: vertical; min-height: 48px; }
+.ask-form .btn { justify-self: start; }
+.ask { font-family: var(--f-display); }
+.show, .show p { font-family: var(--f-display); }
+.show-cap { margin: 0 0 10px; font-size: 0.95rem; line-height: 1.5; }
+.show-arrow { margin: 10px 0 6px; font-family: var(--f-meta); font-size: 0.7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent2); }
+pre.code { margin: 0; padding: 12px 14px; background: #0b0e12; border: 1px solid var(--line); border-radius: 10px; overflow-x: auto; font-family: var(--f-meta); font-size: 0.8rem; line-height: 1.55; color: #d6dbe4; white-space: pre; }
+.res-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+table.res { border-collapse: collapse; width: 100%; font-family: var(--f-meta); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+table.res th, table.res td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+table.res th { color: var(--muted); font-weight: 500; background: var(--surface); }
+table.res tr:last-child td { border-bottom: 0; }
+a.card.opt { text-decoration: none; color: inherit; }
+article.card.opt.chosen { cursor: default; border-color: var(--accent2); }
+.pick-note { margin: 14px 2px 0; font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+.pick-note b { color: var(--ink); font-weight: 650; }
+.later-list { margin-top: 10px; display: grid; gap: 10px; }
+.later-item { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent2); border-radius: var(--r); padding: 12px 14px; }
+.later-item h3 { margin: 0 0 4px; font-size: 1.02rem; line-height: 1.3; }
+.later-item .later-note { margin: 0 0 6px; font-family: var(--f-read); line-height: 1.55; }
+.later-item .from { display: block; margin-bottom: 10px; font-family: var(--f-meta); font-size: 0.76rem; color: var(--muted); }
+.later-item .from a { color: var(--muted); }
+.later-acts { display: flex; flex-wrap: wrap; gap: 8px; }
+.later-acts .btn { height: 36px; padding: 0 12px; font-size: 0.86rem; }
+.later-acts .btn.ghost { color: var(--muted); border-color: var(--line); }
+.later-form { display: grid; gap: 8px; }
+.later-form input, .later-form textarea { width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 12px; padding: 10px 12px; font: inherit; font-size: 1rem; }
+.later-form textarea { resize: vertical; min-height: 48px; }
+.later-form .row { display: flex; gap: 8px; }
+.later-done { margin: 0; font-size: 0.92rem; color: var(--muted); }
+.later-done a { color: var(--accent2); }
+.card .card-date { font-family: var(--f-meta); font-size: 0.66rem; font-weight: 400; color: var(--muted); margin-right: 8px; }
+.card .raw { margin: 0; font-size: 0.84rem; color: var(--muted); font-style: italic; font-family: var(--f-read); }
+.foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 2px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 0.74rem; padding: 3px 8px; border-radius: 6px; background: var(--info-soft); color: var(--info); }
+.pill { font-family: var(--f-meta); font-size: 0.68rem; padding: 2px 7px; border-radius: 999px; text-transform: lowercase; }
+.pill.beschikbaar { background: var(--ok-soft); color: var(--ok); }
+.pill.preview, .pill.experimenteel { background: var(--warn-soft); color: var(--warn); }
+.pill.aangekondigd, .pill.onbekend { background: var(--info-soft); color: var(--info); }
+.pill.rawp { background: var(--info-soft); color: var(--muted); }
+.pill.opinie { background: var(--accent2-soft); color: var(--accent2); }
+.pill.actief_misbruikt, .pill.geen_patch { background: var(--bad-soft); color: var(--bad); }
+.pill.poc_openbaar, .pill.workaround { background: var(--warn-soft); color: var(--warn); }
+.pill.patch_beschikbaar { background: var(--ok-soft); color: var(--ok); }
+.pill.geen_misbruik_bekend { background: var(--info-soft); color: var(--info); }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.art-sec h2 { font-size: 1.12rem; margin: 26px 0 8px; letter-spacing: -0.01em; }
+.qs { margin: 0; padding-left: 1.2em; }
+.qs li { margin: 0 0 6px; }
+.takeaway { margin-top: 22px; padding: 14px 16px; border-radius: var(--r); background: var(--accent2-soft); border: 1px solid color-mix(in srgb, var(--accent2) 40%, transparent); }
+.takeaway h2 { margin: 0 0 6px; font-size: 0.95rem; color: var(--accent2); }
+.takeaway p { margin: 0; }
+/* Lampje rechtsonder op de kaart: leeronderwerp (geel, fijne fitting) */
+.card.leer { position: relative; padding-bottom: 22px; }
+/* Menu (tandwiel): donkere waas over de pagina, lichter paneel met afgeronde bovenkant, rijen met icoon en pijltje */
+.menu-backdrop { position: fixed; inset: 0; z-index: 39; background: rgba(0,0,0,.6); }
+.menu-backdrop[hidden] { display: none; }
+.menu-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: #222833; border-radius: 20px 20px 0 0; border-top: 1px solid #3a4250; box-shadow: 0 -12px 40px rgba(0,0,0,.6); padding: 8px 0 calc(16px + env(safe-area-inset-bottom)); }
+.menu-sheet[hidden] { display: none; }
+.menu-grab { width: 40px; height: 4px; border-radius: 2px; background: #4a5363; margin: 4px auto 10px; }
+.menu-sheet a { display: flex; align-items: center; gap: 14px; padding: 12px 12px; margin: 2px 0; border-radius: 14px; color: var(--ink); text-decoration: none; -webkit-tap-highlight-color: transparent; }
+.menu-sheet a:hover, .menu-sheet a:active, .menu-sheet a:focus-visible { background: #2c3340; outline: none; }
+.menu-sheet .mi { flex: none; width: 38px; height: 38px; padding: 9px; border-radius: 11px; background: var(--accent2-soft); color: var(--accent2); }
+.menu-sheet .mt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.menu-sheet .mt > span { font-weight: 650; }
+.menu-sheet .mc { flex: none; width: 18px; height: 18px; color: var(--muted); }
+.menu-sheet a small { color: var(--muted); font-size: 0.82rem; }
+#btn-menu { position: relative; }
+#btn-menu.has-dot::after, .menu-dot { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent2); }
+#btn-menu.has-dot::after { position: absolute; top: 6px; right: 6px; box-shadow: 0 0 0 2px var(--surface); }
+.menu-dot { margin-left: 8px; vertical-align: 2px; }
+.menu-dot[hidden] { display: none; }
+/* Mijn interesses */
+.int-sec { margin-top: 26px; }
+.int-sec > h2 { font-size: 1.1rem; margin: 0 0 4px; }
+.int-sec > .pick-note { margin: 0 0 10px; }
+.int-sugg { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent2); border-radius: var(--r); padding: 12px 14px; margin-top: 10px; }
+.int-sugg .kind { font-family: var(--f-meta); font-size: 0.72rem; color: var(--accent2); }
+.int-sugg h3 { margin: 2px 0 4px; font-size: 1.02rem; }
+.int-sugg p { margin: 0 0 4px; font-family: var(--f-read); line-height: 1.55; }
+.int-sugg .why { color: var(--muted); font-family: inherit; font-size: 0.88rem; }
+.int-area { margin-top: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 0 14px 4px; }
+.int-area > header { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 0 10px; border-bottom: 2px solid var(--accent2); }
+.int-area > header h3 { margin: 0; font-size: 1.02rem; font-weight: 750; color: var(--ink); line-height: 1.3; }
+.int-area > header .share { flex: none; font-family: var(--f-meta); font-size: 0.72rem; color: var(--accent2); background: var(--accent2-soft); border-radius: 999px; padding: 3px 8px; }
+.int-area .int-topic:first-of-type { border-top: 0; }
+.int-how { margin-top: 14px; padding: 12px 14px; border: 1px dashed var(--line); border-radius: var(--r); font-size: 0.86rem; color: var(--muted); line-height: 1.5; }
+.int-how p { margin: 0 0 6px; } .int-how p:last-child { margin: 0; }
+.int-how b { color: var(--ink); }
+.lvl-pill { font-family: var(--f-meta); font-size: 0.7rem; border-radius: 999px; padding: 1px 7px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.lvl-pill.lvl-5 { color: var(--accent2); border-color: color-mix(in srgb, var(--accent2) 60%, transparent); }
+.lvl-pill.lvl-4 { color: var(--ink); }
+.int-topic .row1 .lvl-pill { margin-left: auto; }
+.learn-btn { display: inline-flex; align-items: center; gap: 5px; }
+.follow-btn { display: inline-flex; align-items: center; gap: 5px; }
+.int-pin { width: 11px; height: 13px; flex: none; color: var(--muted); }
+.row1 > .int-pin { color: var(--accent2); }
+.follow-btn[aria-pressed="true"] { border-color: var(--accent2) !important; color: var(--accent2) !important; background: var(--accent2-soft) !important; }
+.follow-btn[aria-pressed="true"] .int-pin { color: var(--accent2); }
+.learn-btn .int-lamp { color: var(--muted); }
+.learn-btn[aria-pressed="true"] { border-color: #f5d547 !important; color: #f5d547 !important; background: rgba(245,213,71,.1) !important; }
+.learn-btn[aria-pressed="true"] .int-lamp { color: #f5d547; }
+.int-plan { margin: 6px 0 0; font-size: 0.84rem; color: var(--accent2); }
+.int-plan b { font-weight: 650; }
+.int-topic { border-top: 1px solid var(--line); padding: 0; }
+.int-topic .row1 { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 46px; padding: 8px 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.int-topic .row1 .nm { flex: 0 1 auto; }
+.int-topic .row1 .chev { flex: none; color: var(--muted); font-size: 1.1rem; line-height: 1; transition: transform .15s; }
+.int-topic.open .row1 .chev { transform: rotate(90deg); }
+.int-topic .row1 .eff { margin: 0 0 0 auto; }
+.int-topic .row1 .eff + .lvl-pill { margin-left: 0; }
+.int-more { padding: 0 0 10px; }
+.int-topic > .int-plan { margin: -4px 0 10px; }
+.int-topic .nm { font-weight: 650; }
+.int-topic .lvl { font-family: var(--f-meta); font-size: 0.72rem; color: var(--muted); }
+.int-topic .eff { font-family: var(--f-meta); font-size: 0.72rem; color: var(--ok); }
+.int-topic .eff.neg { color: var(--muted); }
+.int-topic .ds { margin: 0; font-size: 0.84rem; color: var(--muted); line-height: 1.45; }
+.int-topic .fb-reasons, .int-sugg .fb-reasons { margin-top: 8px; }
+.int-topic .fb-reasons button { height: 28px; padding: 0 11px; font-size: 0.76rem; }
+.int-lamp { display: inline-block; width: 8px; height: 10px; color: #f5d547; }
+.int-note { width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 12px; padding: 10px 12px; font: inherit; font-size: 1rem; resize: vertical; min-height: 70px; }
+.int-excl summary { cursor: pointer; font-weight: 650; }
+.int-excl ul { margin: 8px 0 0; color: var(--muted); }
+.score-fb { margin: 10px 0 0; font-size: 0.86rem; line-height: 1.45; }
+.fb-eff .learned { margin: 0 0 8px; font-size: 0.92rem; line-height: 1.5; }
+.fb-eff .learned b { font-weight: 600; }
+.fb-eff .sum { margin: 0 0 6px; font-size: 0.9rem; color: var(--muted); }
+.fb-eff .sum b { color: var(--ink); }
+.fb-eff h3 { margin: 12px 0 4px; font-size: 0.78rem; font-family: var(--f-meta); color: var(--muted); font-weight: 500; text-transform: uppercase; letter-spacing: .04em; }
+.eff-list, .eff-lean { list-style: none; padding: 0 !important; margin: 0 !important; display: grid; gap: 6px; font-size: 0.9rem; }
+.eff-list li, .eff-lean li { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.eff-list a { color: var(--ink); text-decoration: none; }
+.fb-eff .d { flex: none; font-family: var(--f-meta); font-size: 0.78rem; color: var(--ok); }
+.fb-eff li.neg .d { color: var(--muted); }
+.int-log { list-style: none; padding: 0 !important; margin: 6px 0 0 !important; display: grid; gap: 6px; font-size: 0.9rem; }
+.int-log time { font-family: var(--f-meta); font-size: 0.74rem; color: var(--muted); margin-right: 8px; }
+.lamp { position: absolute; right: 13px; bottom: 8px; width: 10px; height: 13px; color: #f5d547; display: block; }
+.lamp svg { width: 100%; height: 100%; display: block; }
+.signal { display: inline-flex; align-items: center; gap: 7px; font-family: var(--f-meta); font-size: 0.74rem; color: var(--muted); }
+.bars { display: inline-flex; gap: 1.5px; align-items: flex-end; height: 14px; }
+.bars i { width: 2.5px; border-radius: 1px; background: var(--signal-off); }
+.bars i:nth-child(1) { height: 5px; } .bars i:nth-child(2) { height: 7px; } .bars i:nth-child(3) { height: 9px; } .bars i:nth-child(4) { height: 11px; } .bars i:nth-child(5) { height: 14px; }
+.bars i.on { background: var(--signal); }
+.empty { text-align: center; padding: 40px 20px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); }
+.empty h3 { color: var(--ink); margin: 0 0 6px; font-size: 1.05rem; }
+.btn { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--accent); background: var(--accent); color: var(--bg); font-weight: 650; text-decoration: none; cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--accent); }
+.skel { height: 132px; border-radius: var(--r); background: linear-gradient(90deg, var(--surface), var(--line), var(--surface)); background-size: 200% 100%; animation: sh 1.4s infinite linear; border: 1px solid var(--line); }
+@keyframes sh { to { background-position: -200% 0; } }
+
+/* Artikelweergave */
+.reader { position: fixed; inset: 0; z-index: 40; background: var(--bg); overflow-y: auto; -webkit-overflow-scrolling: touch; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.reader .bar { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
+.reader .bar .wrap { display: flex; align-items: center; gap: 10px; padding-block: 10px; }
+.reader .bar .crumb { font-family: var(--f-meta); font-size: 0.74rem; color: var(--muted); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+article.full { padding-block: 22px 60px; }
+article.full h1 { font-size: clamp(1.5rem, 5.6vw, 2.05rem); line-height: 1.15; letter-spacing: -0.02em; font-weight: 750; margin: 10px 0 14px; text-wrap: balance; overflow-wrap: anywhere; }
+.lead { font-family: var(--f-read); font-size: 1.1rem; line-height: 1.6; margin: 0 0 8px; }
+.block { margin-top: 26px; }
+.block h2 { font-size: 1.05rem; margin: 0 0 6px; font-weight: 650; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.kind { font-family: var(--f-meta); font-size: 0.66rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; padding: 2px 6px; border-radius: 5px; }
+.kind.bron { background: var(--ok-soft); color: var(--ok); }
+.kind.uitleg { background: var(--accent-soft); color: var(--accent); }
+.kind.idee { background: var(--warn-soft); color: var(--warn); }
+.block p, .block li { font-family: var(--f-read); font-size: 1.02rem; line-height: 1.68; }
+.block p { margin: 0; max-width: 64ch; }
+.block ul { margin: 6px 0 0; padding-left: 1.2em; max-width: 64ch; }
+.callout { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; }
+.orig { margin: -6px 0 18px; font-size: 0.8rem; color: var(--muted); font-family: var(--f-meta); overflow-wrap: anywhere; }
+.story p { font-family: var(--f-read); font-size: 1.06rem; line-height: 1.72; margin: 0 0 1.05em; max-width: 64ch; }
+.story p:first-child { font-size: 1.14rem; }
+.try { margin-top: 26px; background: var(--accent2-soft); border-radius: var(--r); padding: 16px 18px; }
+.try h2 { margin: 0 0 6px; font-size: 1rem; color: var(--accent2); }
+.try p { margin: 0; font-family: var(--f-read); font-size: 1rem; line-height: 1.65; }
+.source { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 10px; }
+.source dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; font-size: 0.86rem; }
+.source dt { color: var(--muted); font-family: var(--f-meta); font-size: 0.74rem; padding-top: 2px; }
+.source dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.note { font-size: 0.84rem; color: var(--warn); background: var(--warn-soft); border-radius: 10px; padding: 10px 12px; }
+.meta.top { flex-wrap: wrap; justify-content: flex-start; gap: 6px 14px; }
+.meta.top .score-btn { margin-left: auto; }
+/* Relevantie op de artikelpagina: zelfde staafjes als op de kaart, zonder rand of i; wel aantikbaar */
+.score-btn { display: inline-flex; align-items: center; font: inherit; color: inherit; background: none; border: 0; padding: 6px 0 6px 10px; margin: -6px 0; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.score-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.score-dlg { width: min(420px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); color: var(--ink); padding: 18px; box-shadow: 0 12px 40px rgba(0,0,0,.25); }
+.score-dlg::backdrop { background: rgba(0,0,0,.35); }
+.score-dlg h2 { margin: 0 0 10px; font-size: 1rem; }
+.score-dlg .score-note { font-size: .8rem; color: var(--muted); margin: 10px 0 12px; }
+.score-dlg form { display: flex; justify-content: flex-end; margin: 0; }
+.pill.verdieping { background: var(--accent2-soft); color: var(--accent2); }
+.pill.eigen { background: transparent; color: var(--accent2); border: 1px solid color-mix(in srgb, var(--accent2) 55%, transparent); padding: 1px 7px; }
+.own-next { margin: 14px 2px 0; padding: 10px 14px; border-radius: var(--r); border: 1px dashed var(--line); font-size: 0.88rem; color: var(--muted); line-height: 1.45; }
+.own-next b { color: var(--ink); font-weight: 650; }
+.dd-sec h2 { font-size: 1.15rem; margin: 30px 0 8px; font-weight: 650; }
+.reading { margin: 6px 0 0; padding-left: 1.2em; max-width: 64ch; }
+.reading li { font-size: 0.95rem; line-height: 1.55; margin-bottom: 8px; }
+.reading .why { display: block; color: var(--muted); font-size: 0.85rem; }
+.score-table { width: 100%; border-collapse: collapse; font-size: 0.84rem; font-variant-numeric: tabular-nums; }
+.score-table td { padding: 6px 0; border-top: 1px solid var(--line); }
+.score-table td:last-child { text-align: right; font-family: var(--f-meta); }
+.meter { height: 6px; border-radius: 3px; background: var(--signal-off); overflow: hidden; width: 90px; display: inline-block; vertical-align: middle; margin-right: 8px; }
+.meter > span { display: block; height: 100%; background: var(--signal); }
+
+/* Feedcontrole */
+.report h1 { font-size: 1.6rem; margin: 12px 0 6px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 14px 0; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.stat b { display: block; font-size: 1.5rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 0.78rem; color: var(--muted); }
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.tbl table { border-collapse: collapse; width: 100%; font-size: 0.82rem; min-width: 520px; }
+.tbl th, .tbl td { text-align: left; padding: 9px 10px; border-top: 1px solid var(--line); vertical-align: top; }
+.tbl th { border-top: 0; font-family: var(--f-meta); font-weight: 500; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.st { font-family: var(--f-meta); font-size: 0.7rem; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+.st.ok { background: var(--ok-soft); color: var(--ok); }
+.st.failed { background: var(--bad-soft); color: var(--bad); }
+.st.not_supported, .st.skipped, .st.not_fetched { background: var(--info-soft); color: var(--info); }
+.report p { max-width: 64ch; }
+@media (prefers-reduced-motion: reduce) { .skel { animation: none; } * { scroll-behavior: auto !important; } }
+@media (min-width: 760px) { .card { padding: 18px 20px 16px; } .brand { padding-top: 20px; } }
+</style>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+        <!-- Zelfde ontwerp als het app-icoon (scripts/make_icons.py): variant B 'Signaal' -->
+        <path d="M17 17 L17 2 A15 15 0 0 1 31.1 11.9 Z" fill="var(--accent2)"/>
+        <circle cx="17" cy="17" r="15" fill="none" stroke="#c4cbd6" stroke-width="1.8"/>
+        <circle cx="17" cy="17" r="8.25" fill="none" stroke="#808998" stroke-width="1.8"/>
+        <circle cx="23.2" cy="8.15" r="2.1" fill="var(--ink)"/>
+        <circle cx="17" cy="17" r="1.8" fill="var(--ink)"/>
+      </svg>
+      <div class="grow">
+        <h1>CyberScope</h1>
+      </div>
+      <p class="upd" id="upd">Laden…</p>
+      <button class="icon-btn" id="btn-menu" type="button" aria-label="Menu" title="Menu" aria-haspopup="menu" aria-expanded="false">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16.02 7.83 L18.09 8.15 L18.09 11.85 L16.02 12.17 L15.79 12.72 L17.03 14.41 L14.41 17.03 L12.72 15.79 L12.17 16.02 L11.85 18.09 L8.15 18.09 L7.83 16.02 L7.28 15.79 L5.59 17.03 L2.97 14.41 L4.21 12.72 L3.98 12.17 L1.91 11.85 L1.91 8.15 L3.98 7.83 L4.21 7.28 L2.97 5.59 L5.59 2.97 L7.28 4.21 L7.83 3.98 L8.15 1.91 L11.85 1.91 L12.17 3.98 L12.72 4.21 L14.41 2.97 L17.03 5.59 L15.79 7.28Z"/><circle cx="10" cy="10" r="2.7"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="filters">
+  <div class="wrap">
+    <div class="views" role="tablist" aria-label="Weergave" id="seg-view">
+      <button type="button" role="tab" data-v="actueel">Actueel</button><button type="button" role="tab" data-v="verdieping">Verdieping</button>
+    </div>
+    <div class="tabs" role="group" aria-label="Sortering" id="seg-sort">
+      <button type="button" data-v="date">Nieuw</button><button type="button" data-v="trends">Trends</button>
+    </div>
+    <div class="tabs" role="group" aria-label="Verdiepingen" id="seg-dd" hidden>
+      <button type="button" data-v="alle">Verdiepingen</button><button type="button" data-v="morgen">Morgen</button><button type="button" data-v="later">Later</button>
+    </div>
+  </div>
+</div>
+
+<div class="menu-backdrop" id="menu-backdrop" hidden></div>
+<div class="menu-sheet" id="menu-sheet" role="menu" aria-label="Menu" hidden>
+  <div class="wrap">
+    <div class="menu-grab" aria-hidden="true"></div>
+    <a role="menuitem" href="#interesses"><svg class="mi" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="7"/><circle cx="10" cy="10" r="3.5"/><circle cx="10" cy="10" r=".8" fill="currentColor"/></svg><span class="mt"><span>Mijn interesses<i class="menu-dot" id="menu-dot" hidden></i></span></span><svg class="mc" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"/></svg></a>
+    <a role="menuitem" href="#begrippen"><svg class="mi" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H15v12H5.5A1.5 1.5 0 0 0 4 16.5z"/><path d="M4 16.5A1.5 1.5 0 0 0 5.5 18H15v-3"/></svg><span class="mt"><span>Begrippen</span></span><svg class="mc" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"/></svg></a>
+    <a role="menuitem" href="#backup"><svg class="mi" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3v9M6.5 8.5 10 12l3.5-3.5"/><path d="M4 14v2.5h12V14"/></svg><span class="mt"><span>Back-up</span></span><svg class="mc" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"/></svg></a>
+    <a role="menuitem" href="#feedcontrole"><svg class="mi" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 10h3l2-5 3 10 2-5h5"/></svg><span class="mt"><span>Status</span></span><svg class="mc" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"/></svg></a>
+  </div>
+</div>
+<main class="wrap" id="main">
+  <div class="status" id="status" hidden></div>
+  <div id="content"><div class="cards"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
+</main>
+
+
+<div class="reader" id="reader" hidden></div>
+
+<script>
+(() => {
+  /* ---- Bron van artikeldata ----
+     De app leest alleen feed.json (gemaakt door de pipeline). Komen artikelen later
+     uit een GitHub-repository, dan maakt de pipeline nog steeds dit bestand en
+     verandert hier niets. */
+  const FEED_URL = "feed.json";
+  const SUPPORTED_SCHEMA = 1;
+
+  const state = { feed: null, view: "actueel", ddTab: "alle", ddById: new Map(), group: "all", period: "all", sort: "date", q: "", byId: new Map(), scrollY: 0 };
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("cyberscope:" + k); return v ?? d; } catch { return d; } },
+    set(k, v) {
+      try { localStorage.setItem("cyberscope:" + k, v); } catch {}
+      // Tabblad en subtab ook per sessie: verversen houdt je waar je was, de app opnieuw openen begint bij Actueel
+      if (["view", "sort", "ddTab"].includes(k)) { try { sessionStorage.setItem("cyberscope:" + k, v); } catch {} }
+    },
+    session(k) { try { return sessionStorage.getItem("cyberscope:" + k); } catch { return null; } },
+  };
+
+  /* ---- Duimpjes ----
+     Bewaard op dit toestel (cyberscope:fb). Versturen = één GitHub-issue "Feedback: ..." met een
+     JSON-blok; GitHub Actions verwerkt het direct (scripts/collect_feedback.py). */
+  const FB_UP = { praktisch: "Handig voor klantgesprekken", goed_uitgelegd: "Goed uitgelegd", nieuw_voor_mij: "Nieuw voor mij", mijn_stack: "Past bij mijn werk", meer_hiervan: "Meer hiervan" };
+  const fbPoints = () => Math.round((state.feed?.feedback?.weight || 0.15) * 100);   // maximaal effect in punten
+  // 👎 standaard over het artikel; alleen de onderwerp-redenen verlagen het onderwerp en de bron (pipeline/feedback.py)
+  const FB_DOWN_ARTICLE = ["te_basic", "te_vaag", "oud_nieuws"], FB_DOWN_TOPIC = ["geen_interesse", "niet_mijn_stack"];
+  const FB_DOWN = { te_basic: "Te basic", niet_mijn_stack: "Niet relevant voor mijn werk", oud_nieuws: "Oud nieuws", te_vaag: "Te vaag of te technisch", geen_interesse: "Interesseert me niet" };
+  const fb = {
+    all() { try { return JSON.parse(localStorage.getItem("cyberscope:fb") || "{}"); } catch { return {}; } },
+    save(d) { try { localStorage.setItem("cyberscope:fb", JSON.stringify(d)); } catch {} },
+    get(id) { return this.all()[id]; },
+    set(id, v) { const d = this.all(); if (v) d[id] = v; else delete d[id]; this.save(d); },
+    pending() { return Object.entries(this.all()).filter(([, v]) => !v.sent); },
+  };
+  /* ---- Gelezen ----
+     Een artikel of verdieping telt als gelezen als je tot onderaan scrolt en het minstens
+     15 seconden open had. Bewaard op dit toestel (cyberscope:read). Gelezen artikelen gaan mee met
+     je feedback als licht signaal (0,5; een duim omhoog telt 2). */
+  const READ_MS = window.__radarReadMs || 15000;   // __radarReadMs alleen voor de tests
+  const reads = {
+    all() { try { return JSON.parse(localStorage.getItem("cyberscope:read") || "{}"); } catch { return {}; } },
+    save(d) { try { localStorage.setItem("cyberscope:read", JSON.stringify(d)); } catch {} },
+    mark(key) { const d = this.all(); if (d[key]) return; d[key] = { at: new Date().toISOString(), sent: false }; this.save(d); },
+    pendingArticles() { return Object.entries(this.all()).filter(([k, v]) => k.startsWith("a-") && !v.sent).map(([k]) => k.slice(2)); },
+    since(ms) { return Object.entries(this.all()).filter(([, v]) => Date.parse(v.at) >= ms).map(([k]) => k); },
+  };
+  let readTimer = null, readObs = null;
+  function trackRead(key) {
+    clearTimeout(readTimer); readObs?.disconnect();
+    const end = $("#reader .read-end"); if (!end || reads.all()[key]) return;
+    const t0 = Date.now();
+    readObs = new IntersectionObserver((es) => {
+      if (!es.some((e) => e.isIntersecting)) return;
+      readObs.disconnect();
+      readTimer = setTimeout(() => { if (location.hash === "#" + key) reads.mark(key); }, Math.max(0, READ_MS - (Date.now() - t0)));
+    });
+    readObs.observe(end);
+  }
+  const TZ = "Europe/Amsterdam";
+  const dateOnly = (iso) => /T00:00:00(\.000)?Z$/.test(iso);
+  function fmtDate(iso) {
+    if (!iso) return "datum onbekend";
+    const d = new Date(iso);
+    return d.toLocaleDateString("nl-NL", { day: "numeric", month: "short", year: "numeric", timeZone: dateOnly(iso) ? "UTC" : TZ });
+  }
+  function fmtDateTime(iso) {
+    if (!iso) return "onbekend";
+    return new Date(iso).toLocaleString("nl-NL", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: TZ });
+  }
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
+  const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+  const TYPE_LABEL = { official_docs: "Officieel", vendor_blog: "Leverancier", expert_blog: "Vakmens", technical_article: "Technisch", independent_news: "Onafhankelijk" };
+  const SRC_STATUS = { ok: "werkt", failed: "mislukt", not_supported: "niet ondersteund", skipped: "handmatig", not_fetched: "niet opgehaald" };
+  const MODE = {
+    live: { label: "Live", color: "var(--ok)", text: "Alle feeds zijn opgehaald." },
+    partial: { label: "Gedeeltelijk live", color: "var(--warn)", text: "Niet alle bronnen konden worden opgehaald." },
+    snapshot: { label: "Momentopname", color: "var(--warn)", text: "" },
+    demo: { label: "Demonstratiedata", color: "var(--bad)", text: "Geen echt nieuws: alleen om de app te testen." },
+    stale: { label: "Verouderd", color: "var(--bad)", text: "Ophalen mislukt; je ziet de vorige feed." },
+  };
+
+  const source = (id) => state.feed.sources.find((s) => s.id === id) || { name: id, type: "" };
+  const groupLabel = (id) => (state.feed.groups.find((g) => g.id === id) || { label: id }).label;
+  const firstSentence = (t) => (String(t || "").match(/^.*?[.!?](\s|$)/) || [t])[0].trim();
+
+  // Geel lampje rechtsonder: het artikel gaat vooral over iets dat je nog aan het leren bent
+  // (pipeline/score.py zet a.learning; learning: true in interests.yml).
+  function lamp(a) {
+    const t = a?.learning;
+    return t ? `<span class="lamp" title="Leeronderwerp: ${esc(t)}" aria-label="Leeronderwerp: ${esc(t)}" role="img"><svg viewBox="0 0 12 15" aria-hidden="true"><path fill="currentColor" d="M6 .8a4.4 4.4 0 0 0-2.6 8c.4.3.6.7.6 1.2v.3h4v-.3c0-.5.2-.9.6-1.2A4.4 4.4 0 0 0 6 .8Z"/><path d="M4.4 11.9h3.2M4.9 13.5h2.2" stroke="currentColor" stroke-width=".6" stroke-linecap="round" fill="none"/></svg></span>` : "";
+  }
+  function bars(score, a) {
+    const n = Math.max(1, Math.min(5, Math.ceil((score || 0) / 20)));
+    return `<span class="signal" title="Relevantie ${score} van 100"><span class="bars" aria-hidden="true">${[1,2,3,4,5].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>${score}</span>`;
+  }
+
+  /* ---- Laden ---- */
+  async function load() {
+    try {
+      const res = await fetch(FEED_URL, { cache: "no-store" });
+      if (!res.ok) throw new Error(`het bestand gaf status ${res.status}`);
+      const feed = await res.json();
+      if (feed.schema_version !== SUPPORTED_SCHEMA) throw new Error(`onbekende feedversie ${feed.schema_version}`);
+      if (!Array.isArray(feed.articles)) throw new Error("het bestand bevat geen artikellijst");
+      state.feed = feed;
+      feed.articles.forEach((a) => state.byId.set(a.id, a));
+      (feed.deepdives || []).forEach((d) => state.ddById.set(d.id, d));
+      // Bij openen altijd: Actueel > Nieuw, en Verdieping op Verdiepingen (T, 1-11-2026).
+      // Binnen een sessie onthoudt de app wel waar je was.
+      state.sort = store.session("sort") === "trends" ? "trends" : "date";
+      state.view = ["verdieping"].includes(store.session("view")) ? store.session("view") : "actueel";
+      state.ddTab = ["morgen", "later"].includes(store.session("ddTab")) ? store.session("ddTab") : "alle";
+      renderStatus();
+      renderSeg();
+      updateMenuDot();
+      keepStorage();
+      route();
+    } catch (e) {
+      $("#upd").textContent = "Niet geladen";
+      $("#status").hidden = false;
+      $("#status").innerHTML = `<span class="dot" style="background:var(--bad)"></span><span><strong>De feed kon niet worden geladen.</strong> ${esc(e.message)}. Controleer of feed.json naast de app staat.</span>`;
+      $("#content").innerHTML = `<div class="empty"><h3>Geen artikelen beschikbaar</h3><p>De app vindt geen leesbare feed. Probeer het opnieuw.</p><button class="btn" type="button" id="retry">Opnieuw laden</button></div>`;
+      $("#retry").onclick = () => location.reload();
+    }
+  }
+
+  function renderStatus() {
+    const f = state.feed, m = MODE[f.mode] || MODE.partial;
+    const ok = f.sources.filter((s) => s.status === "ok").length;
+    const fine = f.mode === "live" && ok === f.sources.length;
+    const updIso = newestAdded(f) || f.last_article_added_at || f.last_successful_update || f.generated_at;
+    const upd = fmtDateTime(updIso);
+    const ud = new Date(updIso);
+    const day = ud.toLocaleDateString("nl-NL", { day: "numeric", month: "short", timeZone: TZ });
+    const time = ud.toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit", timeZone: TZ });
+    $("#upd").innerHTML = `<span class="dot" style="background:${m.color}"></span><span><span>${esc(day)}</span><span>${esc(time)}</span></span>`;   // alleen bolletje + datum/tijd, rechts
+    $("#upd").title = $("#upd").ariaLabel = `Nieuwe artikelen toegevoegd op ${upd}`;
+    const st = $("#status");
+    st.hidden = fine;
+    if (!fine) {
+      const text = f.mode === "snapshot" ? `Momentopname uit ${ok} bronnen; wordt niet automatisch ververst.` : `${m.text} ${ok} van ${f.sources.length} bronnen leverden artikelen.`;
+      st.innerHTML = `<span class="dot" style="background:${m.color}"></span><span><strong>${esc(m.label)}</strong><br>${esc(text)} <a href="#feedcontrole">Status</a></span>`;
+    }
+  }
+
+  /* ---- Filters ---- */
+  function inPeriod(a) {
+    if (state.period === "all") return true;
+    if (!a.published_at) return false;
+    const ref = Date.parse(state.feed.last_successful_update || state.feed.generated_at);
+    const days = state.period === "week" ? 7 : 31;
+    return ref - Date.parse(a.published_at) <= days * 864e5;
+  }
+  function matches(a) {
+    if (state.group !== "all" && !(a.groups || []).includes(state.group)) return false;
+    if (!inPeriod(a)) return false;
+    if (state.q) {
+      const hay = norm([a.headline, a.title, a.summary, a.excerpt, source(a.source_id).name, ...(a.topics || []).map((t) => state.feed.topics[t]?.name)].join(" "));
+      if (!norm(state.q).split(/\s+/).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+  function sorted(list) {
+    const l = [...list];
+    // "Nieuw" = nieuw in de radar: wanneer Claude het uitlegde, anders wanneer het werd opgehaald.
+    const t = (iso) => (iso ? Date.parse(iso) || 0 : 0);
+    const added = (a) => t(a.processed_at) || t(a.fetched_at) || t(a.published_at);
+    if (state.sort === "date") l.sort((a, b) => added(b) - added(a) || t(b.published_at) - t(a.published_at));
+    else l.sort((a, b) => b.relevance_score - a.relevance_score || (b.published_at || "").localeCompare(a.published_at || ""));
+    // Nooit meer dan 2 kaarten van dezelfde bron achter elkaar; "Nieuw" en "Eerder" apart, zodat de scheidslijn klopt.
+    if (state.sort === "date") { const nw = l.filter(isNew); return spread(nw).concat(spread(l.filter((a) => !isNew(a)))); }
+    return spread(l);
+  }
+  function spread(list, max = 2) {
+    const rest = [...list], out = [];
+    while (rest.length) {
+      const run = out.length >= max && out.slice(-max).every((a) => a.source_id === out[out.length - 1].source_id) ? out[out.length - 1].source_id : null;
+      const i = run ? rest.findIndex((a) => a.source_id !== run) : 0;
+      out.push(rest.splice(i < 0 ? 0 : i, 1)[0]);
+    }
+    return out;
+  }
+
+  function renderSeg() {
+    document.querySelectorAll("#seg-sort button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === state.sort));
+    document.querySelectorAll("#seg-view button").forEach((b) => b.setAttribute("aria-selected", b.dataset.v === state.view));
+    $("#seg-sort").hidden = state.view !== "actueel";
+    // De tijd hoort alleen bij Actueel. Onzichtbaar maken i.p.v. weghalen: dan blijft de kop even hoog
+    // en verspringen logo en titel niet bij het wisselen van tabblad.
+    $("#upd").style.visibility = state.view === "actueel" ? "" : "hidden";
+    $("#seg-dd").hidden = state.view !== "verdieping";
+    document.querySelectorAll("#seg-dd button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === state.ddTab));
+  }
+
+  /* ---- Lijst ---- */
+  // Datum waarop het artikel in de app kwam (uitgelegd, anders opgehaald), kort als 29-10.
+  const addedAt = (a) => a.processed_at || a.fetched_at || a.published_at;
+  const shortDate = (iso) => new Date(iso).toLocaleDateString("nl-NL", { day: "2-digit", month: "2-digit", timeZone: TZ });
+  // Datum-tijd van het nieuwste artikel in de app.
+  const newestAdded = (f) => [...(f.articles || []).map(addedAt), ...(f.deepdives || []).map((d) => d.written_at)].filter(Boolean).sort((x, y) => Date.parse(y) - Date.parse(x))[0];
+  /* Bezoeken: bij het openen van de app (nieuwe sessie) onthouden we wanneer je de vorige keer keek.
+     Artikelen die daarna in de app kwamen staan bovenaan onder "Nieuw sinds je laatste bezoek". */
+  const visit = (() => {
+    try {
+      let prev = sessionStorage.getItem("cyberscope:prevVisit");
+      if (prev === null) {
+        prev = localStorage.getItem("cyberscope:lastVisit") || "";
+        sessionStorage.setItem("cyberscope:prevVisit", prev);
+        localStorage.setItem("cyberscope:lastVisit", new Date().toISOString());
+      }
+      return Date.parse(prev) || 0;
+    } catch { return 0; }
+  })();
+  const isNew = (a) => visit && Date.parse(addedAt(a) || "") > visit;
+  const isRead = (key) => !!reads.all()[key];
+  function card(a) {
+    const s = source(a.source_id);
+    const body = a.processing_status === "enriched" ? a.summary : a.excerpt;
+    const read = isRead("a-" + a.id);
+    return `<article class="card${a.learning ? " leer" : ""}${read ? " read" : ""}" data-id="${esc(a.id)}" tabindex="0" role="link" aria-label="${esc(a.headline || a.title)}${read ? " (gelezen)" : ""}">
+      <div class="meta"><span class="src">${read ? `<span class="read-tick" title="Gelezen">✓</span>` : ""}${addedAt(a) ? `<span class="card-date">${esc(shortDate(addedAt(a)))}</span>` : ""}${esc(s.name)}</span>${a.article_type === "opinie" ? `<span class="pill opinie">opinie</span>` : ""}${a.exploitation === "actief_misbruikt" ? `<span class="pill actief_misbruikt">actief misbruikt</span>` : ""}${bars(a.relevance_score, a)}</div>
+      <h3>${esc(a.headline || a.title)}</h3>
+      ${body ? `<p class="sum">${esc(body)}</p>` : ""}
+      ${lamp(a)}
+    </article>`;
+  }
+
+  // Eigen voorstel van T (uit Later): plan_id begint met "eigen-"
+  const isOwn = (d) => String(d.plan_id || d.id || "").startsWith("eigen-");
+  const ownPill = (d) => isOwn(d) ? `<span class="pill eigen">jouw voorstel</span>` : "";
+  function ddCard(d) {
+    const read = isRead("v-" + d.id);
+    return `<article class="card${read ? " read" : ""}" data-dd="${esc(d.id)}" tabindex="0" role="link" aria-label="${esc(d.headline)}">
+      <div class="meta"><span class="src"><span class="card-date">${esc(shortDate(d.written_at))}</span></span>${ownPill(d)}<span>${d.reading_minutes} min lezen</span></div>
+      <h3>${esc(d.headline)}</h3>
+      <p class="sum">${esc(d.summary)}</p>
+    </article>`;
+  }
+  /* ---- Keuzes voor de verdieping van morgen ----
+     De app is een statische site en kan zelf niets in de repository zetten. Een keuze wordt
+     daarom een GitHub-issue "Verdieping: <id>" dat je met één tik aanmaakt. De Claude-taak
+     leest dat de volgende ochtend (scripts/next_deepdive.py). Alleen issues van de eigenaar tellen. */
+  const AREA_LABEL = { eigen: "Jouw lijst", kwetsbaarheden: "Kwetsbaarheden", techniek: "Hoe aanvallen werken", incidenten: "Hacks & incidenten", praktijk: "Detectie & praktijk" };
+  const repo = () => state.feed.repo || "tomasr91/cyber-radar";
+  // Bovenaan elk issue: een link terug naar de app. Na "Create" toont GitHub het issue; één tik en je bent terug.
+  const backLink = (hash = "") => `**[↩ Terug naar de CyberScope](${location.origin}${location.pathname}${hash ? "#" + hash : ""})**\n\n`;
+  function issueUrl(o) {
+    const body = backLink() + `Gekozen in de CyberScope.\n\n**${o.title}**\n\n${o.question}\n\nClaude schrijft deze verdieping bij de volgende ochtendrun en sluit dit issue daarna.`;
+    return `https://github.com/${repo()}/issues/new?title=${encodeURIComponent("Verdieping: " + o.id)}&body=${encodeURIComponent(body)}`;
+  }
+  function optCard(o, chosen) {
+    const inner = `<div class="meta"><span class="src">${esc(AREA_LABEL[o.area] || "Verdieping")}</span>${chosen ? `<span class="pill verdieping">morgen</span>` : ""}</div>
+      <h3>${esc(o.title)}</h3>
+      ${o.question ? `<p class="sum">${esc(o.question)}</p>` : ""}
+      ${o.why && !chosen ? `<p class="why">${esc(o.why)}</p>` : ""}`;
+    return chosen ? `<article class="card opt chosen" data-opt="${esc(o.id)}">${inner}</article>`
+      : `<a class="card opt" href="${esc(issueUrl(o))}" target="_blank" rel="noopener" data-opt="${esc(o.id)}">${inner}</a>`;
+  }
+  function renderPicker() {
+    const o = state.feed.deepdive_options;
+    // Eigen voorstellen (eigen-...) tellen niet als keuze: die komen er naast de gewone verdieping bij.
+    const all = state.chosen || [];
+    const chosen = all.filter((id) => !id.startsWith("eigen-"));
+    const own = all.filter((id) => id.startsWith("eigen-"));
+    const known = new Map((o?.options || []).map((x) => [x.id, x]));
+    const mine = new Map(later.all().map((x) => [x.id, x]));
+    const ownNote = own.length ? `<p class="own-next">Ook morgen: jouw voorstel ${own.map((id) => `<b>${esc(mine.get(id)?.title || id.slice(6).replace(/-/g, " "))}</b>`).join(" en ")}.</p>` : "";
+    if (chosen.length) {
+      // Er is gekozen: alleen die keuze, als de verdieping van morgen.
+      return `<div class="cards">${chosen.map((id) => optCard(known.get(id) || { id, title: id }, true)).join("")}</div>${ownNote}`;
+    }
+    if (!o?.options?.length) return `<div class="empty"><h3>Nog geen keuzes</h3><p>Claude zet morgenochtend 5 onderwerpen klaar.</p></div>${ownNote}`;
+    return `<div class="cards">${o.options.map((x) => optCard(x)).join("")}</div>${ownNote}`;
+  }
+  let chosenAt = 0;
+  async function loadChosen(force) {
+    if (!force && Date.now() - chosenAt < 60e3) return;
+    chosenAt = Date.now();
+    try {
+      const allowed = new Set([repo().split("/")[0], ...(state.feed.issue_authors || [])].map((x) => String(x).toLowerCase()));
+      // Unieke URL en no-store: anders geeft GitHub tot een minuut een oude lijst terug
+      const res = await fetch(`https://api.github.com/repos/${repo()}/issues?state=open&per_page=50&t=${Date.now()}`, { cache: "no-store", headers: { Accept: "application/vnd.github+json" } });
+      if (!res.ok) return;
+      const ids = (await res.json())
+        .filter((i) => !i.pull_request && allowed.has((i.user?.login || "").toLowerCase()))
+        .map((i) => (String(i.title).match(/^\s*Verdieping:\s*([a-z0-9-]+)\s*$/i) || [])[1]).filter(Boolean).map((x) => x.toLowerCase());
+      if (ids.join() !== (state.chosen || []).join()) { state.chosen = ids; if (state.view === "verdieping" && $("#reader").hidden) renderList(); }
+    } catch { /* offline of GitHub niet bereikbaar: keuzes blijven gewoon zichtbaar */ }
+  }
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && state.feed && state.view === "verdieping") loadChosen(true); });
+
+  /* ---- Trends: "Dit speelt nu" (data/trends.json, geschreven door de Claude-taak) ---- */
+  function renderTrends() {
+    const ts = state.feed.trends || [];
+    if (!ts.length) return `<div class="empty" style="margin-top:14px"><h3>Nu geen trends</h3><p>Een trend verschijnt als minstens drie artikelen uit verschillende bronnen over dezelfde ontwikkeling gaan. Claude kijkt daar elke ochtend naar.</p></div>`;
+    return `<p class="pick-note">Waar meerdere bronnen nu tegelijk over schrijven.</p>` + ts.map((t) => {
+      const arts = t.article_ids.map((id) => state.byId.get(id)).filter(Boolean);
+      const srcs = new Set(arts.map((a) => a.source_id)).size;
+      return `<section class="trend card" data-trend="${esc(t.id)}">
+        <div class="meta"><span class="src">Dit speelt nu</span><span>${arts.length} artikelen · ${srcs} bronnen</span></div>
+        <h3>${esc(t.title)}</h3>
+        <p class="sum">${esc(t.summary)}</p>
+        <ul class="trend-list">${arts.map((a) => `<li><button type="button" data-id="${esc(a.id)}"><span class="t">${esc(a.headline || a.title)}</span><span class="m">${esc(source(a.source_id).name)}</span></button></li>`).join("")}</ul>
+      </section>`;
+    }).join("");
+  }
+
+  function renderList() {
+    const f = state.feed;
+    if (state.view === "verdieping") {
+      const dds = [...(f.deepdives || [])].sort((a, b) => Date.parse(b.written_at) - Date.parse(a.written_at));
+      $("#content").innerHTML = state.ddTab === "morgen" ? renderPicker() : state.ddTab === "later" ? renderLaterTab()
+        : dds.length ? reviewBar() + `<div class="cards">${dds.map(ddCard).join("")}</div>`
+        : `<div class="empty"><h3>Nog geen verdiepingen</h3><p>Kies bij Morgen een onderwerp. Claude schrijft hem de volgende ochtend.</p></div>`;
+      loadChosen();
+      return;
+    }
+    if (state.sort === "trends") { $("#content").innerHTML = renderTrends(); return; }
+    const list = sorted(f.articles.filter(matches));
+    let html = "";
+    if (!list.length) {
+      const missing = f.quality_report?.topics_without_source || [];
+      const groupMissing = state.group !== "all" && missing.some((t) => f.topics[t]?.group === state.group);
+      html += `<div class="empty"><h3>Nog geen artikelen</h3><p>Er zijn nu geen artikelen om te tonen. Kom later terug.</p></div>`;
+    } else {
+      // Op "Nieuw": eerst wat sinds je laatste bezoek binnenkwam, daarna een scheidslijn "Eerder"
+      const nNew = state.sort === "date" ? list.filter(isNew).length : 0;
+      const cards = list.map((a, i) => (nNew && i === nNew && i < list.length ? `<div class="since-line"><span>Eerder</span></div>` : "") + card(a)).join("");
+      const sb = fbSendBar(); html += weekBar() + `<div class="cards${sb ? " has-float" : ""}">${cards}</div>` + sb;
+    }
+    $("#content").innerHTML = html;
+  }
+
+  /* ---- Controlevragen ----
+     Antwoorden bewaard op dit toestel (cyberscope:quiz). Fout = na 7 dagen terug als herhaling. */
+  const quiz = {
+    all() { try { return JSON.parse(localStorage.getItem("cyberscope:quiz") || "{}"); } catch { return {}; } },
+    save(d) { try { localStorage.setItem("cyberscope:quiz", JSON.stringify(d)); } catch {} },
+    due() {
+      const now = Date.now(), d = this.all();
+      return Object.entries(d).filter(([, v]) => !v.ok && Date.parse(v.due) <= now).map(([k]) => k);
+    },
+  };
+  const qLookup = (key) => { const [dd, i] = key.split(":"); const d = state.ddById.get(dd); return d?.quiz?.[Number(i)] ? { d, q: d.quiz[Number(i)] } : null; };
+  function qItem(key, review) {
+    const hit = qLookup(key); if (!hit) return "";
+    const { d, q } = hit, rec = quiz.all()[key];
+    const answered = rec && (!review || rec.review);
+    return `<li class="q" data-q="${esc(key)}" data-review="${review ? 1 : 0}">
+      ${review ? `<p class="q-from">${esc(d.headline)}</p>` : ""}
+      <p class="q-text">${esc(q.question)}</p>
+      <div class="q-opts">${q.options.map((o, i) => `<button type="button" data-opt-i="${i}" ${answered ? "disabled" : ""}
+        class="${answered && i === q.answer ? "right" : ""}${answered && rec.pick === i && i !== q.answer ? " wrong" : ""}">${esc(o)}</button>`).join("")}</div>
+      ${answered ? `<p class="q-exp"><b>${rec.pick === q.answer ? "Goed." : "Niet goed."}</b> ${esc(q.explanation)}${rec.pick !== q.answer ? " Deze vraag komt over een week terug." : ""}</p>` : ""}
+    </li>`;
+  }
+  function quizBlock(d) {
+    if (!d.quiz?.length) return "";
+    return `<section class="block quiz"><h2>Test jezelf</h2><ol class="q-list">${d.quiz.map((_, i) => qItem(`${d.id}:${i}`)).join("")}</ol></section>`;
+  }
+  function quizClick(e) {
+    const b = e.target.closest("[data-opt-i]"); if (!b || b.disabled) return;
+    const li = b.closest(".q"), key = li.dataset.q, review = li.dataset.review === "1";
+    const hit = qLookup(key); if (!hit) return;
+    const pick = Number(b.dataset.optI), ok = pick === hit.q.answer, d = quiz.all();
+    d[key] = { ok: ok || (d[key]?.ok && !review), pick, at: new Date().toISOString(), due: new Date(Date.now() + 7 * 864e5).toISOString(), review };
+    if (review && ok) d[key].ok = true;
+    quiz.save(d);
+    li.outerHTML = qItem(key, review);
+  }
+  function reviewBar() {
+    const n = quiz.due().filter(qLookup).length;
+    return n ? `<a class="fb-send" href="#herhaling"><span>${n} vraag${n === 1 ? "" : "en"} om te herhalen</span><b>Herhalen ›</b></a>` : "";
+  }
+  function renderReview() {
+    const keys = quiz.due().filter(qLookup);
+    openReader(`<div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">Herhaling</span></div></div>
+      <article class="full wrap"><h1>Herhaling</h1>
+      ${keys.length ? `<p class="lead">Deze vragen had je een week geleden niet goed. Lukt het nu?</p><section class="block quiz"><ol class="q-list">${keys.map((k) => { const d = quiz.all(); delete d[k].review; quiz.save(d); return qItem(k, true); }).join("")}</ol></section>`
+        : `<p class="lead">Niets te herhalen. Goed bezig.</p>`}</article>`);
+  }
+
+  /* ---- Jouw lijst ("Later bekijken") ----
+     Onderwerpen die je later nog wilt bekijken, met een notitie en waar je het zag.
+     Alleen op dit toestel (cyberscope:later). "Maak hier een verdieping van" opent een GitHub-issue
+     "Verdieping: eigen-<slug>"; scripts/next_deepdive.py geeft dat door aan de Claude-taak. */
+  const later = {
+    all() { try { return JSON.parse(localStorage.getItem("cyberscope:later") || "[]"); } catch { return []; } },
+    save(d) { try { localStorage.setItem("cyberscope:later", JSON.stringify(d)); } catch {} },
+    add(item) { const d = this.all().filter((x) => x.id !== item.id); d.unshift(item); this.save(d); },
+    remove(id) { this.save(this.all().filter((x) => x.id !== id)); },
+    fromDoc(key) { return this.all().find((x) => x.from?.key === key); },
+  };
+  const slug = (t) => "eigen-" + (t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 50).replace(/-+$/, "") || "onderwerp");
+  function laterBlock(key, title) {
+    const saved = later.fromDoc(key);
+    return `<section class="later" id="later" data-key="${esc(key)}" data-title="${esc(title)}">
+      ${saved ? `<p class="later-done">✓ <b>${esc(saved.title)}</b> staat op je lijst · <a href="#lijst">Bekijk lijst ›</a></p>`
+        : `<button type="button" class="act-btn" data-later="open">＋ Later</button>`}</section>`;
+  }
+  function laterClick(e) {
+    const box = e.target.closest("#later"); if (!box) return false;
+    const act = e.target.closest("[data-later]")?.dataset.later; if (!act) return false;
+    if (act === "open") {
+      box.innerHTML = `<div class="later-form"><h2 style="font-size:1.05rem;margin:0">Later bekijken</h2>
+        <input id="later-t" type="text" maxlength="100" value="${esc(box.dataset.title)}" aria-label="Onderwerp">
+        <textarea id="later-n" rows="2" maxlength="400" placeholder="Notitie (optioneel): waar ben je benieuwd naar?" aria-label="Notitie"></textarea>
+        <div class="row"><button type="button" class="btn" data-later="save">Op mijn lijst</button><button type="button" class="btn ghost" data-later="cancel">Annuleren</button></div></div>`;
+      const t = $("#later-t", box); t.focus(); t.select();
+    } else if (act === "save") {
+      const title = $("#later-t", box).value.trim(); if (!title) return true;
+      const key = box.dataset.key, kind = key.startsWith("v-") ? "v" : "a";
+      later.add({ id: slug(title), title, note: $("#later-n", box).value.trim(), at: new Date().toISOString(),
+        from: { key, kind, id: key.slice(2), title: box.dataset.title } });
+      box.outerHTML = laterBlock(key, box.dataset.title);
+    } else if (act === "cancel") {
+      box.outerHTML = laterBlock(box.dataset.key, box.dataset.title);
+    }
+    return true;
+  }
+  function laterIssueUrl(x) {
+    const from = x.from ? `${x.from.title} (${location.origin}${location.pathname}#${x.from.key})` : "";
+    const body = backLink("lijst") + `Eigen onderwerp uit Jouw lijst in de CyberScope.\n\nOnderwerp: ${x.title}\n${x.note ? `Notitie: ${x.note.replace(/\s+/g, " ")}\n` : ""}${from ? `Gezien in: ${from}\n` : ""}\nClaude schrijft deze verdieping bij de volgende ochtendrun en sluit dit issue daarna.`;
+    return `https://github.com/${repo()}/issues/new?title=${encodeURIComponent("Verdieping: " + x.id)}&body=${encodeURIComponent(body)}`;
+  }
+  function renderLater(canChoose) {
+    const items = later.all();
+    const written = new Map((state.feed.deepdives || []).map((d) => [d.plan_id || d.id, d]));
+    const chosen = new Set(state.chosen || []);
+    return `<p class="pick-note">Wat je nog wilt bekijken. Maak er een verdieping van, of tik op Klaar als je het gezien hebt.</p>
+      <div class="later-list">${items.map((x) => {
+        const dd = written.get(x.id);
+        const act = dd ? `<a class="btn" href="#v-${esc(dd.id)}">Lees de verdieping ›</a>`
+          : chosen.has(x.id) ? `<span class="pill verdieping">morgen</span>`
+          : canChoose ? `<a class="btn" href="${esc(laterIssueUrl(x))}" target="_blank" rel="noopener" data-later-pick="${esc(x.id)}">Maak hier een verdieping van</a>` : "";
+        const fromLink = x.from && (x.from.kind === "a" ? state.byId.has(x.from.id) : state.ddById.has(x.from.id))
+          ? `<a href="#${esc(x.from.key)}">${esc(x.from.title)}</a>` : esc(x.from?.title || "");
+        return `<div class="later-item" data-later-id="${esc(x.id)}"><h3>${esc(x.title)}</h3>
+          ${x.note ? `<p class="later-note">${esc(x.note)}</p>` : ""}
+          <span class="from">${fromLink ? `Gezien in: ${fromLink} · ` : ""}${esc(fmtDate(x.at))}</span>
+          <div class="later-acts">${act}<button type="button" class="btn ghost" data-later-done="${esc(x.id)}">Klaar</button></div></div>`;
+      }).join("")}</div>
+      ${canChoose ? `<p class="pick-note">Maak je er een verdieping van, dan opent GitHub. Claude schrijft hem vannacht, naast je gewone keuze, en morgenochtend staat hij er met het label <b>jouw voorstel</b>. Je onderwerp en notitie komen in een openbaar issue: zet er niets van je werk in.</p>` : ""}`;
+  }
+
+  function renderLaterTab() {
+    if (!later.all().length) return `<div class="empty" style="margin-top:14px"><h3>Nog niets bewaard</h3><p>Tik onder een artikel of verdieping op <b>＋ Later bekijken</b> om iets op deze lijst te zetten.</p></div>`;
+    return renderLater(true);
+  }
+
+  /* ---- Mijn interesses ----
+     Wat de radar als interessant ziet (feed.interests, uit interests.yml), Claudes voorstellen
+     (feed.interest_suggestions, elke zondag) en het logboek. Je reacties blijven op dit toestel
+     (cyberscope:int) tot je ze verstuurt als issue "Interesses: ..."; Claude verwerkt ze 's nachts. */
+  const LEVEL = { 5: "kern", 4: "belangrijk", 3: "regelmatig", 2: "af en toe", 1: "alleen groot nieuws" };
+  const KIND = { nieuw: "Nieuw onderwerp", belangrijker: "Belangrijker maken", minder: "Minder belangrijk maken", weg: "Weghalen" };
+  const CHG = { belangrijker: "Belangrijker", minder: "Minder", weg: "Weg" };
+  const intStore = {
+    get() { try { return Object.assign({ answers: {}, changes: {}, learn: {}, follow: {}, note: "", sentAnswers: {} }, JSON.parse(localStorage.getItem("cyberscope:int") || "{}")); } catch { return { answers: {}, changes: {}, learn: {}, follow: {}, note: "", sentAnswers: {} }; } },
+    save(d) { try { localStorage.setItem("cyberscope:int", JSON.stringify(d)); } catch {} },
+  };
+  function openSuggestions() {
+    const d = intStore.get();
+    return (state.feed?.interest_suggestions || []).filter((x) => !d.answers[x.id] && !d.sentAnswers[x.id]);
+  }
+  function updateMenuDot() {
+    const n = openSuggestions().length;
+    $("#btn-menu")?.classList.toggle("has-dot", n > 0);
+    const md = $("#menu-dot"); if (md) md.hidden = !n;
+  }
+  function intPending(d) { return Object.keys(d.answers).length + Object.keys(d.changes).length + Object.keys(d.learn).length + Object.keys(d.follow || {}).length + (d.note.trim() ? 1 : 0); }
+  // Interesses gaan mee in het gezamenlijke feedback-issue (verstuurbalk op Actueel).
+  function intParts(d) {
+    const topics = new Map((state.feed.interests?.topics || []).map((t) => [t.id, t.name]));
+    const sugg = new Map((state.feed.interest_suggestions || []).map((x) => [x.id, x]));
+    const lines = [
+      ...Object.entries(d.answers).map(([id, a]) => `- Voorstel "${sugg.get(id)?.name || topics.get(sugg.get(id)?.topic) || id}" (${(KIND[sugg.get(id)?.kind] || "").toLowerCase()}): ${a}`),
+      ...Object.entries(d.changes).map(([t, c]) => `- ${topics.get(t) || t}: ${c}`),
+      ...Object.entries(d.learn).map(([t, on]) => `- ${topics.get(t) || t}: ${on ? "leeronderwerp (geel lampje)" : "geen leeronderwerp meer"}`),
+      ...Object.entries(d.follow || {}).map(([t, on]) => `- ${topics.get(t) || t}: ${on ? "altijd volgen" : "niet meer altijd volgen"}`),
+      ...(d.note.trim() ? [`- In mijn eigen woorden: ${d.note.trim().replace(/\s+/g, " ")}`] : []),
+    ];
+    const data = { answers: Object.entries(d.answers).map(([id, a]) => ({ id, a })),
+      changes: [...Object.entries(d.changes).map(([topic, c]) => ({ topic, c })),
+        ...Object.entries(d.learn).map(([topic, on]) => ({ topic, c: on ? "leren" : "niet_leren" })),
+        ...Object.entries(d.follow || {}).map(([topic, on]) => ({ topic, c: on ? "volgen" : "niet_volgen" }))], note: d.note.trim() };
+    return { lines, data };
+  }
+
+  function intSendBar() {
+    const n = intPending(intStore.get());
+    return n ? `<a class="fb-send" href="#" id="int-to-send"><span>${n} wijziging${n === 1 ? "" : "en"} klaar · versturen doe je op Actueel</span><b>Naar Actueel ›</b></a>` : "";
+  }
+  const INT_LAMP = `<svg class="int-lamp" viewBox="0 0 12 15" aria-label="leeronderwerp" role="img"><path fill="currentColor" d="M6 .8a4.4 4.4 0 0 0-2.6 8c.4.3.6.7.6 1.2v.3h4v-.3c0-.5.2-.9.6-1.2A4.4 4.4 0 0 0 6 .8Z"/><path d="M4.4 11.9h3.2M4.9 13.5h2.2" stroke="currentColor" stroke-width=".6" stroke-linecap="round" fill="none"/></svg>`;
+  const INT_PIN = `<svg class="int-pin" viewBox="0 0 12 14" aria-label="altijd volgen" role="img"><path d="M3 1.2h6v1.6l-1 1v3.4l2 1.6v1.2H2V8.8l2-1.6V3.8l-1-1z M6 10v3" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  // Effect van je duimpjes op artikelen over dit onderwerp (relatief, in punten)
+  function intEffect(id) {
+    const f = state.feed.feedback || {}, v = f.topics?.[id];
+    return v == null ? 0 : Math.round((v - (f.offset || 0)) * fbPoints());
+  }
+  // Eén onderwerp: niveau (jij kiest), je duimpjes (automatisch), en knoppen die zeggen wat er gebeurt
+  function intTopicRow(t, d) {
+    const p = t.priority, chg = d.changes[t.id], e = t.follow ? Math.max(0, intEffect(t.id)) : intEffect(t.id);   // altijd volgen: nooit omlaag
+    const learnNow = t.id in d.learn ? d.learn[t.id] : !!t.learning;   // zoals het wordt na versturen
+    const followNow = t.id in d.follow ? d.follow[t.id] : !!t.follow;
+    const to = { belangrijker: p < 5 ? LEVEL[p + 1] : null, minder: p > 1 ? LEVEL[p - 1] : null };
+    const btn = (c, label) => `<button type="button" data-int-chg="${c}" aria-pressed="${chg === c}">${label}</button>`;
+    const plan = [chg === "weg" ? "Vannacht: uitgezet. Je krijgt er geen artikelen meer over."
+      : chg ? `Vannacht: van <b>${esc(LEVEL[p])}</b> naar <b>${esc(to[chg])}</b>.` : "",
+      t.id in d.learn ? (d.learn[t.id] ? "Vannacht: wordt leeronderwerp (geel lampje op de kaarten)." : "Vannacht: geen leeronderwerp meer.") : "",
+      t.id in d.follow ? (d.follow[t.id] ? "Vannacht: altijd volgen. Je feedback duwt het niet meer omlaag en er staat elke week minstens één artikel over in je feed." : "Vannacht: niet meer altijd volgen.") : ""].filter(Boolean).join("<br>");
+    const open = intOpen === t.id;
+    return `<div class="int-topic${open ? " open" : ""}" data-topic="${esc(t.id)}">
+      <button type="button" class="row1" data-int-open aria-expanded="${open}"><span class="nm">${esc(t.name)}</span>${learnNow ? INT_LAMP : ""}${followNow ? INT_PIN : ""}
+        ${e ? `<span class="eff${e < 0 ? " neg" : ""}">${e > 0 ? "+" : "−"}${Math.abs(e)}</span>` : ""}<span class="lvl-pill lvl-${p}">${esc(LEVEL[p] || "")}</span><span class="chev" aria-hidden="true">›</span></button>
+      ${open ? `<div class="int-more"><p class="ds">${esc(t.description)}</p>
+      <div class="fb-reasons">${to.belangrijker ? btn("belangrijker", `▲ Naar ${to.belangrijker}`) : ""}${to.minder ? btn("minder", `▼ Naar ${to.minder}`) : ""}${btn("weg", "Uitzetten")}<button type="button" class="learn-btn" data-int-learn aria-pressed="${learnNow}">${INT_LAMP}${learnNow ? "Leeronderwerp" : "Leren"}</button><button type="button" class="follow-btn" data-int-follow aria-pressed="${followNow}">${INT_PIN}${followNow ? "Altijd volgen" : "Volgen"}</button></div></div>` : ""}
+      ${plan ? `<p class="int-plan">${plan}</p>` : ""}</div>`;
+  }
+  let intOpen = null;   // welk onderwerp op Mijn interesses is opengeklapt (één tegelijk)
+  function renderInterests() {
+    const f = state.feed, I = f.interests || { areas: [], topics: [], excluded: [] }, d = intStore.get();
+    const topicName = new Map(I.topics.map((t) => [t.id, t.name]));
+    const sugg = (f.interest_suggestions || []).map((x) => {
+      const ans = d.answers[x.id], sent = d.sentAnswers[x.id];
+      return `<div class="int-sugg" data-sugg="${esc(x.id)}"><span class="kind">${esc(KIND[x.kind] || x.kind)}</span>
+        <h3>${esc(x.name || topicName.get(x.topic) || x.topic)}</h3>${x.description ? `<p>${esc(x.description)}</p>` : ""}
+        <p class="why">${esc(x.why)}</p>
+        ${sent ? `<p class="why">Verstuurd: ${esc(sent)}. Claude verwerkt het vannacht.</p>`
+          : `<div class="fb-reasons">${["ja", "nee"].map((a) => `<button type="button" data-int-ans="${a}" aria-pressed="${ans === a}">${a === "ja" ? "Ja, doen" : "Nee"}</button>`).join("")}</div>`}</div>`;
+    }).join("");
+    const areas = [...I.areas, { id: "overig", name: "Overig", share: null }].map((a) => {
+      const ts = I.topics.filter((t) => t.area === a.id).sort((x, y) => y.priority - x.priority);
+      return ts.length ? `<section class="int-area"><header><h3>${esc(a.name)}</h3>${a.share ? `<span class="share">${Math.round(a.share * 100)}% van je feed</span>` : ""}</header>
+        ${ts.map((t) => intTopicRow(t, d)).join("")}</section>` : "";
+    }).join("");
+    const log = (f.interest_log || []).map((x) => `<li><time>${esc(fmtDate(x.at))}</time>${esc(x.text)}</li>`).join("");
+    openReader(`<div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">Mijn interesses</span></div></div>
+      <article class="full wrap"><h1>Mijn interesses</h1>
+      <div id="int-send-wrap">${intSendBar()}</div>
+      ${sugg ? `<section class="int-sec"><h2>Voorstellen van Claude</h2>${sugg}</section>` : ""}
+      <section class="int-sec"><h2>Jouw onderwerpen</h2>${areas}</section>
+      ${fbEffectBlock()}
+      <section class="int-sec"><h2>In je eigen woorden</h2><textarea class="int-note" id="int-note" maxlength="1000" placeholder="Bijv. meer over Fabric, minder over AI-onderzoek">${esc(d.note)}</textarea></section>
+      <section class="int-sec int-excl"><details><summary>Wat je niet wilt zien (${I.excluded.length})</summary><ul>${I.excluded.map((x) => `<li>${esc(x.name)}</li>`).join("")}</ul></details></section>
+      ${log ? `<section class="int-sec int-excl"><details><summary>Recent aangepast</summary><ul class="int-log">${log}</ul></details></section>` : ""}
+      </article>`);
+    const note = $("#int-note");
+    if (note) note.oninput = () => { const x = intStore.get(); x.note = note.value; intStore.save(x); $("#int-send-wrap").innerHTML = intSendBar(); };
+  }
+  function intClick(e) {
+    if (e.target.closest("#int-to-send")) {
+      e.preventDefault(); state.view = "actueel"; state.sort = "date"; renderSeg(); location.hash = "";
+      return true;
+    }
+    const lb = e.target.closest("[data-int-learn]");
+    if (lb) {
+      const d = intStore.get(), row = lb.closest("[data-topic]"), id = row.dataset.topic;
+      const t = (state.feed.interests?.topics || []).find((x) => x.id === id);
+      const now = id in d.learn ? d.learn[id] : !!t?.learning;
+      if (id in d.learn) delete d.learn[id]; else d.learn[id] = !now;   // tweede tik = terug naar hoe het was
+      intStore.save(d);
+      if (t) row.outerHTML = intTopicRow(t, d);
+      $("#int-send-wrap").innerHTML = intSendBar();
+      return true;
+    }
+    const ob = e.target.closest("[data-int-open]");
+    if (ob) {
+      const d = intStore.get(), id = ob.closest("[data-topic]").dataset.topic, prev = intOpen;
+      intOpen = prev === id ? null : id;
+      const topics = state.feed.interests?.topics || [];
+      for (const tid of new Set([prev, id].filter(Boolean))) {
+        const row = document.querySelector(`.int-topic[data-topic="${tid}"]`), t = topics.find((x) => x.id === tid);
+        if (row && t) row.outerHTML = intTopicRow(t, d);
+      }
+      return true;
+    }
+    const fbtn = e.target.closest("[data-int-follow]");
+    if (fbtn) {
+      const d = intStore.get(), row = fbtn.closest("[data-topic]"), id = row.dataset.topic;
+      const t = (state.feed.interests?.topics || []).find((x) => x.id === id);
+      const now = id in d.follow ? d.follow[id] : !!t?.follow;
+      if (id in d.follow) delete d.follow[id]; else d.follow[id] = !now;
+      intStore.save(d);
+      if (t) row.outerHTML = intTopicRow(t, d);
+      $("#int-send-wrap").innerHTML = intSendBar();
+      return true;
+    }
+    const ab = e.target.closest("[data-int-ans]"), cb = e.target.closest("[data-int-chg]");
+    if (!ab && !cb) return false;
+    const d = intStore.get();
+    if (ab) { const id = ab.closest("[data-sugg]").dataset.sugg; d.answers[id] === ab.dataset.intAns ? delete d.answers[id] : (d.answers[id] = ab.dataset.intAns); }
+    if (cb) { const t = cb.closest("[data-topic]").dataset.topic; d.changes[t] === cb.dataset.intChg ? delete d.changes[t] : (d.changes[t] = cb.dataset.intChg); }
+    intStore.save(d);
+    if (cb) {
+      const row = cb.closest("[data-topic]"), t = (state.feed.interests?.topics || []).find((x) => x.id === row.dataset.topic);
+      if (t) row.outerHTML = intTopicRow(t, d);
+    } else {
+      const box = ab.parentElement, val = d.answers[ab.closest("[data-sugg]").dataset.sugg];
+      box.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.intAns === val)));
+    }
+    $("#int-send-wrap").innerHTML = intSendBar();
+    updateMenuDot();
+    return true;
+  }
+
+  /* ---- Blijvende opslag ----
+     Vraag Chrome om de opslag van de Radar als blijvend te markeren: dan ruimt Chrome die niet zelf op
+     als de telefoon vol raakt. Zelf browsergegevens wissen blijft alles weghalen; daarvoor is de back-up.
+     Chrome beslist zelf (geen pop-up); bij een geïnstalleerde app wordt het meestal toegestaan. */
+  let storagePersisted = null;
+  async function keepStorage() {
+    try {
+      if (!navigator.storage?.persist) return;
+      storagePersisted = (await navigator.storage.persisted()) || (await navigator.storage.persist());
+    } catch { storagePersisted = null; }
+    showPersist();
+  }
+  function showPersist() {
+    const el = $("#bk-persist"); if (!el) return;
+    el.className = "bk-msg" + (storagePersisted ? " ok" : "");
+    el.textContent = storagePersisted === true ? "✓ Blijvende opslag: Chrome ruimt je gegevens niet zelf op."
+      : storagePersisted === false ? "Chrome heeft de opslag nog niet als blijvend gemarkeerd. Installeer CyberScope als app, dan gebeurt dat meestal vanzelf." : "";
+  }
+
+  /* ---- Back-up ----
+     Alles wat alleen op dit toestel staat in één bestand (cyberscope:*).
+     Wat je al verstuurde (duimpjes, keuzes, interesses) staat ook op GitHub. Terugzetten vervangt wat er nu staat. */
+  const BK_APP = "cyberscope-backup";
+  const bkKeys = () => Object.keys(localStorage).filter((k) => k.startsWith("cyberscope:"));
+  function bkSummary(get) {
+    const j = (k, d) => { try { return JSON.parse(get(k) || "null") ?? d; } catch { return d; } };
+    const rows = [
+      ["Controlevragen en herhaling", `${Object.keys(j("cyberscope:quiz", {})).length} antwoorden`],
+      ["Later-lijst", `${j("cyberscope:later", []).length} onderwerpen`],
+      ["Gelezen en duimpjes", `${Object.keys(j("cyberscope:read", {})).length} gelezen, ${Object.keys(j("cyberscope:fb", {})).length} duimpjes`],
+      ["Bekeken begrippen", `${Object.keys(j("cyberscope:terms", {})).length}`],
+    ];
+    return `<ul class="bk-list">${rows.map(([a, b]) => `<li><span>${esc(a)}</span><b>${esc(b)}</b></li>`).join("")}</ul>`;
+  }
+  let bkPending = null;   // gekozen bestand, nog niet teruggezet
+  function renderBackup(msg) {
+    const p = bkPending;
+    openReader(`<div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">Back-up</span></div></div>
+      <article class="full wrap"><h1>Back-up</h1>
+      <p class="lead">Alles wat alleen op deze telefoon staat, in één bestand.</p>
+      <p class="bk-msg" id="bk-persist"></p>
+      <section class="block"><h2>Nu op dit toestel</h2>${bkSummary((k) => localStorage.getItem(k))}
+        <button type="button" class="btn" id="bk-save">Bewaren in Downloads</button></section>
+      <section class="block"><h2>Terugzetten</h2>
+        <label class="btn ghost" for="bk-file">Kies een back-upbestand…</label><input type="file" id="bk-file" accept=".json,application/json" hidden>
+        ${p ? `<div class="bk-confirm"><p>Back-up van <b>${esc(fmtDateTime(p.at))}</b>:</p>${bkSummary((k) => p.data[k])}
+          <p class="small">Dit vervangt wat er nu op dit toestel staat.</p>
+          <div class="row"><button type="button" class="btn" id="bk-restore">Terugzetten</button><button type="button" class="btn ghost" id="bk-cancel">Annuleren</button></div></div>` : ""}
+        ${msg ? `<p class="bk-msg ${msg.ok ? "ok" : "bad"}">${esc(msg.text)}</p>` : ""}</section>
+      </article>`);
+    showPersist();
+    $("#bk-save").onclick = () => {
+      const data = Object.fromEntries(bkKeys().map((k) => [k, localStorage.getItem(k)]));
+      const blob = new Blob([JSON.stringify({ app: BK_APP, version: 1, exportedAt: new Date().toISOString(), data }, null, 1)], { type: "application/json" });
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `cyberscope-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      store.set("backupAt", new Date().toISOString());
+      renderBackup({ ok: true, text: "Back-up staat in je Downloads." });
+    };
+    $("#bk-file").onchange = async (e) => {
+      const file = e.target.files?.[0]; if (!file) return;
+      try {
+        const o = JSON.parse(await file.text());
+        if (o?.app === BK_APP && o.data && typeof o.data === "object") {
+          const data = Object.fromEntries(Object.entries(o.data).filter(([k, v]) => k.startsWith("cyberscope:") && typeof v === "string"));
+          bkPending = { at: o.exportedAt, data };
+        } else throw new Error();
+        renderBackup();
+      } catch { bkPending = null; renderBackup({ ok: false, text: "Dit is geen back-up van CyberScope." }); }
+    };
+    if (p) {
+      $("#bk-cancel").onclick = () => { bkPending = null; renderBackup(); };
+      $("#bk-restore").onclick = () => {
+        // Alleen sleutels uit de back-up vervangen; bij een volledige Radar-back-up eerst de oude radar-gegevens weg.
+        if (Object.keys(p.data).some((k) => k.startsWith("cyberscope:"))) bkKeys().forEach((k) => localStorage.removeItem(k));
+        Object.entries(p.data).forEach(([k, v]) => { try { localStorage.setItem(k, v); } catch {} });
+        bkPending = null;
+        location.hash = ""; location.reload();
+      };
+    }
+  }
+
+  /* ---- Begrippen ----
+     Claude zet bij een stuk `terms` (pipeline/terms.py). De eerste keer dat een begrip in de tekst
+     staat wordt het onderstreept; tik erop voor de uitleg. Alle begrippen: menu (tandwiel) > Begrippen. */
+  const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // Begrippen die je al eens aantikte: niet meer oranje, alleen nog gestippeld (cyberscope:terms).
+  const termsSeen = {
+    all() { try { return JSON.parse(localStorage.getItem("cyberscope:terms") || "{}"); } catch { return {}; } },
+    has(t) { return !!this.all()[t.trim().toLowerCase()]; },
+    add(t) { const d = this.all(); d[t.trim().toLowerCase()] = new Date().toISOString(); try { localStorage.setItem("cyberscope:terms", JSON.stringify(d)); } catch {} },
+  };
+  function termMarker(terms) {
+    const todo = (terms || []).filter((t) => t?.term).sort((a, b) => b.term.length - a.term.length)
+      .map((t) => ({ t, re: new RegExp(`(?<![\\p{L}\\p{N}_])${reEsc(esc(t.term.trim()))}(?![\\p{L}\\p{N}_])`, "iu") }));
+    const done = new Set();
+    return (text) => {
+      let h = esc(text);
+      for (const x of todo) {
+        if (done.has(x)) continue;
+        const m = h.match(x.re); if (!m) continue;
+        const before = h.slice(0, m.index);
+        if (before.lastIndexOf("<") > before.lastIndexOf(">")) continue;   // niet binnen een tag
+        if ((before.match(/<button/g) || []).length !== (before.match(/<\/button>/g) || []).length) continue;   // niet binnen een ander begrip
+        h = before + `<button type="button" class="term${termsSeen.has(x.t.term) ? "" : " new"}" data-term="${esc(x.t.term)}" data-exp="${esc(x.t.explanation)}">${m[0]}</button>` + h.slice(m.index + m[0].length);
+        done.add(x);
+      }
+      return h;
+    };
+  }
+  function termClick(e) {
+    const sheet = $("#term-sheet"); if (!sheet) return false;
+    if (e.target.closest("#term-sheet .x")) { sheet.hidden = true; return true; }
+    const b = e.target.closest(".term");
+    if (!b) { if (!e.target.closest("#term-sheet")) sheet.hidden = true; return false; }
+    sheet.innerHTML = `<div class="wrap"><button type="button" class="x" aria-label="Sluiten">×</button><h3>${esc(b.dataset.term)}</h3><p>${esc(b.dataset.exp)}</p><a href="#begrippen">Alle begrippen ›</a></div>`;
+    sheet.hidden = false;
+    termsSeen.add(b.dataset.term);
+    document.querySelectorAll(".term.new").forEach((el) => { if (el.dataset.term.toLowerCase() === b.dataset.term.toLowerCase()) el.classList.remove("new"); });
+    return true;
+  }
+  function renderGlossaryPage() {
+    openReader(`<div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">Begrippen</span></div></div>
+      <article class="full wrap"><h1>Begrippen</h1>${renderGlossary()}</article>`);
+    const q = $("#reader #gl-q");
+    if (q) q.oninput = () => { const v = q.value.trim().toLowerCase(); document.querySelectorAll("#reader .gl-item").forEach((el) => { el.hidden = !!v && !el.dataset.k.includes(v); }); };
+  }
+  const termSheet = `<div class="term-sheet" id="term-sheet" role="dialog" aria-label="Uitleg begrip" hidden></div>`;
+  function renderGlossary() {
+    const g = state.feed.glossary || [];
+    if (!g.length) return `<div class="empty"><h3>Nog geen begrippen</h3><p>Claude zet vanaf nu bij elk stuk de lastige begrippen, ook bij stukken die er al staan. In de tekst zijn ze onderstreept.</p></div>`;
+    return `<input class="gl-filter" id="gl-q" type="search" placeholder="Zoek in ${g.length} begrippen" aria-label="Zoek een begrip">
+      <dl class="gloss">${g.map((t) => `<div class="gl-item" data-k="${esc((t.term + " " + t.explanation).toLowerCase())}"><dt>${esc(t.term)}</dt><dd>${esc(t.explanation)}
+        <span class="gl-refs">Uit: ${t.refs.map((r) => `<a href="#${r.kind}-${esc(r.id)}">${esc(r.title)}</a>`).join(" · ")}</span></dd></div>`).join("")}</dl>`;
+  }
+
+  /* ---- Jouw week ----
+     Zondag schrijft Claude data/weekly.json (pipeline/weekly.py): de 3 belangrijkste ontwikkelingen.
+     De app zet erbij wat alleen op dit toestel staat (laatste 7 dagen): verdiepingen en of je ze las,
+     je controlevragen, herhalingen en wat je las en beoordeelde. */
+  // De balk blijft staan tot je hem zelf wegveegt (of op × tikt); per week onthouden (cyberscope:weekGone).
+  function isoWeekRange(week) {
+    const [y, w] = week.split("-W").map(Number);
+    const jan4 = new Date(Date.UTC(y, 0, 4)), mon = new Date(jan4);
+    mon.setUTCDate(jan4.getUTCDate() - ((jan4.getUTCDay() + 6) % 7) + (w - 1) * 7);
+    const sun = new Date(mon); sun.setUTCDate(mon.getUTCDate() + 6);
+    const f = (d) => d.toLocaleDateString("nl-NL", { day: "numeric", month: "short", timeZone: "UTC" });
+    return `${f(mon)} – ${f(sun)}`;
+  }
+  function weekBar() {
+    const w = state.feed.weekly;
+    if (!w || store.get("weekGone", "") === w.week) return "";
+    return `<div class="week-bar" id="week-bar" data-week="${esc(w.week)}"><a class="fb-send" href="#week"><span>Jouw week ${esc(w.week.split("-W")[1].replace(/^0/, ""))} staat klaar</span><b>Bekijken ›</b></a><button type="button" class="week-x" aria-label="Jouw week wegvegen">×</button></div>`;
+  }
+  // Herinnering in Jouw week als de laatste back-up meer dan 6 dagen oud is (of er nog geen is).
+  function backupReminder() {
+    const at = Date.parse(store.get("backupAt", "")) || 0, days = Math.floor((Date.now() - at) / 864e5);
+    if (at && days < 7) return "";
+    return `<a class="fb-send" href="#backup" id="bk-remind"><span>${at ? `Laatste back-up: ${days} dagen geleden` : "Nog geen back-up gemaakt"}</span><b>Nu bewaren ›</b></a>`;
+  }
+  function renderWeek() {
+    const w = state.feed.weekly, since = Date.now() - 7 * 864e5;
+    const read = new Set(reads.since(0));
+    const hl = w.highlights.map((h) => `<li><h3>${esc(h.title)}</h3><p>${esc(h.why)}</p>
+      ${h.article_ids.length ? `<div class="wk-links">${h.article_ids.map((id) => state.byId.get(id)).filter(Boolean)
+        .map((a) => `<a href="#a-${esc(a.id)}">${esc(a.headline || a.title)}${read.has("a-" + a.id) ? " ✓" : ""}</a>`).join("")}</div>` : ""}</li>`).join("");
+    const dds = (state.feed.deepdives || []).filter((d) => Date.parse(d.written_at) >= since);
+    const qs = Object.values(quiz.all()).filter((v) => Date.parse(v.at) >= since);
+    const qOk = qs.filter((v) => v.ok).length, due = quiz.due().filter(qLookup).length;
+    const readN = reads.since(since).filter((k) => k.startsWith("a-")).length;
+    const votesN = Object.values(fb.all()).filter((v) => Date.parse(v.at) >= since).length;
+    const stats = [
+      dds.length ? `<li>Verdiepingen: <b>${dds.filter((d) => read.has("v-" + d.id)).length} van ${dds.length}</b> gelezen${dds.filter((d) => !read.has("v-" + d.id)).map((d) => `<br><a href="#v-${esc(d.id)}">${esc(d.headline)}</a>`).join("")}</li>` : "",
+      qs.length ? `<li>Controlevragen: <b>${qOk} van ${qs.length}</b> goed</li>` : `<li>Controlevragen: nog geen beantwoord deze week</li>`,
+      due ? `<li><a href="#herhaling">${plural(due, "vraag", "vragen")} om te herhalen ›</a></li>` : "",
+      `<li>Gelezen: <b>${plural(readN, "artikel", "artikelen")}</b>${votesN ? `, ${plural(votesN, "duimpje", "duimpjes")} gegeven` : ""}</li>`,
+    ].join("");
+    openReader(`<div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">${esc(isoWeekRange(w.week))}</span></div></div>
+      <article class="full wrap"><h1>Jouw week ${esc(w.week.split("-W")[1].replace(/^0/, ""))}</h1>
+      <p class="lead">${esc(w.intro)}</p>
+      <section class="block"><h2>Wat er echt toe deed</h2><ol class="wk-list">${hl}</ol></section>
+      ${w.focus ? `<section class="try"><h2>Deze week proberen</h2><p>${esc(w.focus)}</p></section>` : ""}
+      <section class="block"><h2>Jouw leerweek</h2><ul class="wk-stats">${stats}</ul>${fbSendBar(true)}${backupReminder()}</section>
+      </article>`);
+  }
+
+  /* ---- Verdieping ---- */
+  function renderDeepdive(d) {
+    const mark = termMarker(d.terms);
+    const topics = (d.topics || []).map((t) => state.feed.topics[t]?.name).filter(Boolean);
+    const reading = (d.further_reading || []).map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>${r.note ? `<span class="why">${esc(r.note)}</span>` : ""}</li>`).join("");
+    const html = `
+      <div class="bar"><div class="wrap">
+        <button class="icon-btn" type="button" id="back" aria-label="Terug naar de lijst"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button>
+        <span class="crumb"></span>
+      </div></div>
+      <article class="full wrap dd">
+        <div class="meta top">${ownPill(d)}<span>${d.reading_minutes} min lezen</span></div>
+        <h1>${esc(d.headline)}</h1>
+        <p class="lead">${mark(d.summary)}</p>
+        ${(d.sections || []).map((s) => `<section class="dd-sec"><h2>${esc(s.heading)}</h2><div class="story">${s.paragraphs.map((p) => `<p>${mark(p)}</p>`).join("")}</div></section>`).join("")}
+        ${showcaseBlock(d.showcase)}
+        ${d.experiment ? `<section class="try"><h2>Probeer dit</h2><p>${esc(d.experiment)}</p></section>` : ""}
+        ${d.limitations?.length ? `<section class="block"><h2>Let op</h2><ul>${d.limitations.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}
+        ${quizBlock(d)}
+        <div class="read-end" aria-hidden="true"></div>
+        <section class="act-bar">${laterBlock("v-" + d.id, d.headline)}${askBlock("verdieping")}</section>
+        ${reading ? `<section class="block"><h2>Verder lezen</h2><ul class="reading">${reading}</ul></section>` : ""}
+        <p class="src-line">Geschreven op ${esc(fmtDate(d.written_at))}${d.currency_check ? ` · ${esc(d.currency_check)}` : ""}</p>
+      </article>`;
+    openReader(html);
+    trackRead("v-" + d.id);
+  }
+
+  /* ---- Artikel ---- */
+  const REGION_LABEL = { nl: "Nederland", benelux: "Benelux", eu: "Europa", na: "Noord-Amerika", world: "wereld" };
+  const STATUS_LABEL = { actief_misbruikt: "actief misbruikt", poc_openbaar: "aanvalscode openbaar", geen_misbruik_bekend: "geen misbruik bekend",
+    patch_beschikbaar: "patch beschikbaar", workaround: "alleen tijdelijke maatregel", geen_patch: "nog geen patch" };
+  function block(title, kind, text) {
+    if (!text) return "";
+    const kinds = { bron: "Uit de bron", uitleg: "Uitleg", idee: "Idee" };
+    return `<section class="block"><h2>${esc(title)}${kind ? ` <span class="kind ${kind}">${kinds[kind]}</span>` : ""}</h2><p>${esc(text)}</p></section>`;
+  }
+  /* ---- Zien en doen ----
+     showcase: klein stukje echte code met resultaat ("Zo ziet het eruit").
+     */
+  function resultTable(cols, rows) {
+    return `<div class="res-wrap"><table class="res"><thead><tr>${cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead>
+      <tbody>${rows.map((r) => `<tr>${r.map((v) => `<td>${esc(v === null ? "NULL" : v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  }
+  function showcaseBlock(sc) {
+    if (!sc?.code) return "";
+    return `<section class="block show"><h2>Zo ziet het eruit</h2>
+      <p class="show-cap">${esc(sc.caption)}</p>
+      <pre class="code" data-lang="${esc(sc.language || "")}"><code>${esc(sc.code)}</code></pre>
+      ${sc.result?.columns ? `<p class="show-arrow">Resultaat</p>${resultTable(sc.result.columns, sc.result.rows)}` : ""}
+      ${sc.note ? `<p class="fb-note">${esc(sc.note)}</p>` : ""}</section>`;
+  }
+
+
+  /* ---- Vraag het Claude ----
+     Opent claude.ai (of de Claude-app) met een ingevuld bericht: kern van het stuk, bronlink,
+     korte context over de stack, en jouw vraag. claude.ai/new?q= vult de vraag in; de URL blijft
+     kort genoeg (< ~6000 tekens) door de uitleg in te korten. Geen sleutels in de app. */
+  const ASK_ME = "Over mij: Senior Customer Success Manager bij een cybersecurityleverancier, met basiskennis van cybersecurity (SIEM, vulnerability management, threat intelligence). Ik wil begrijpen hoe het technisch werkt en er goede gesprekken met klanten over voeren. Geen aanvalsinstructies, wel uitleg.";
+  const ASK_CHIPS = ["Leg dit eenvoudiger uit", "Hoe zie je dit in de logs?", "Welke vragen stel ik hierover aan een klant?", "Geef een concreet voorbeeld"];
+  function askPrompt(ctx, question) {
+    const head = `Ik lees in mijn CyberScope ${ctx.kind} en heb een vraag.\n\n${ctx.kind === "dit artikel" ? "Artikel" : "Verdieping"}: ${ctx.title}${ctx.meta ? ` (${ctx.meta})` : ""}${ctx.url ? `\nBron: ${ctx.url}` : ""}\nSamenvatting: ${ctx.summary || ""}`;
+    const tail = `\n\n${ASK_ME}\n\nMijn vraag: ${question}\n\nAntwoord in eenvoudig Nederlands, kort en concreet.${ctx.url ? " Lees zo nodig de bron." : ""}`;
+    let body = ctx.body || "";
+    const room = 1800 - head.length - tail.length;   // 1800 tekens ≈ 6000 na URL-codering
+    if (body.length > room) body = room > 200 ? body.slice(0, room).replace(/\s+\S*$/, "") + " …" : "";
+    return head + (body ? `\nUitleg uit de radar: ${body}` : "") + tail;
+  }
+  const askUrl = (ctx, q) => `https://claude.ai/new?q=${encodeURIComponent(askPrompt(ctx, q))}`;
+  function askBlock(kind) {
+    return `<button type="button" class="act-btn" id="ask-toggle" aria-expanded="false" aria-controls="ask">✦ Vraag Claude</button>
+      <section class="ask" id="ask" data-kind="${kind}" hidden>
+      <div class="ask-chips">${ASK_CHIPS.map((c) => `<button type="button" data-ask="${esc(c)}">${esc(c)}</button>`).join("")}</div>
+      <form class="ask-form" id="ask-form"><textarea id="ask-q" rows="2" placeholder="Of stel je eigen vraag…" aria-label="Je vraag over dit stuk"></textarea>
+      <button class="btn" type="submit">Vraag Claude ↗</button></form></section>`;
+  }
+  function askContext() {
+    const h = location.hash.slice(1);
+    if (h.startsWith("a-")) {
+      const a = state.byId.get(h.slice(2)); if (!a) return null;
+      return { kind: "dit artikel", title: a.headline || a.title, meta: `${source(a.source_id).name}, ${fmtDate(a.published_at)}`, url: a.url,
+        summary: a.summary, body: [...(a.story || [a.simple_explanation, a.personal_relevance].filter(Boolean)), ...(a.sections || []).map((x) => `${x.heading}: ${x.paragraphs.join(" ")}`)].join(" ") };
+    }
+    if (h.startsWith("v-")) {
+      const d = state.ddById.get(h.slice(2)); if (!d) return null;
+      return { kind: "deze verdieping", title: d.headline, meta: `geschreven ${fmtDate(d.written_at)}`, url: "",
+        summary: d.summary, body: (d.sections || []).map((x) => `${x.heading}: ${x.paragraphs.join(" ")}`).join(" ") };
+    }
+    return null;
+  }
+  function askOpen(q) {
+    const ctx = askContext(); if (!ctx || !q.trim()) return;
+    window.open(askUrl(ctx, q.trim()), "_blank", "noopener");
+  }
+  function askClick(e) {
+    const tg = e.target.closest("#ask-toggle");
+    if (tg) { const box = $("#ask"), open = box.hidden; box.hidden = !open; tg.setAttribute("aria-expanded", String(open)); if (open) $("#ask-q")?.focus({ preventScroll: true }); return; }
+    const chip = e.target.closest("[data-ask]");
+    if (chip) askOpen(chip.dataset.ask);
+  }
+
+  function fbBlock(a) {
+    const mine = fb.get(a.id);
+    const reasons = mine ? (mine.v === 1 ? FB_UP : FB_DOWN) : null;
+    return `<div class="fb-btns">
+        <button type="button" data-vote="1" aria-pressed="${mine?.v === 1}" aria-label="Nuttig" title="Nuttig">👍</button>
+        <button type="button" data-vote="-1" aria-pressed="${mine?.v === -1}" aria-label="Niet voor mij" title="Niet voor mij">👎</button>
+      </div>
+      ${!reasons ? "" : mine.v === 1 ? `<div class="fb-reasons">${rbtns(FB_UP, Object.keys(FB_UP), mine)}</div>`
+        : `<div class="fb-reasons fb-group"><span class="lbl">Dit artikel</span>${rbtns(FB_DOWN, FB_DOWN_ARTICLE, mine)}</div>
+           <div class="fb-reasons fb-group"><span class="lbl">Dit onderwerp</span>${rbtns(FB_DOWN, FB_DOWN_TOPIC, mine)}</div>`}`;
+  }
+  function rbtns(map, keys, mine) {
+    return keys.map((k) => `<button type="button" data-reason="${k}" aria-pressed="${mine.r === k}">${map[k]}</button>`).join("");
+  }
+  function fbClick(e) {
+    const box = e.target.closest("#fb"); if (!box) return;
+    const id = box.dataset.id, a = state.byId.get(id), cur = fb.get(id);
+    const vb = e.target.closest("[data-vote]"), rb = e.target.closest("[data-reason]");
+    if (vb) {
+      const v = Number(vb.dataset.vote);
+      fb.set(id, cur?.v === v ? null : { v, r: null, title: a?.headline || a?.title || "", at: new Date().toISOString(), sent: false });
+    } else if (rb && cur) {
+      fb.set(id, { ...cur, r: cur.r === rb.dataset.reason ? null : rb.dataset.reason, sent: false });
+    } else return;
+    box.innerHTML = fbBlock(a || { id });
+  }
+  const READ_MIN_SEND = 5;   // alleen gelezen (zonder duimpjes)? Pas vanaf 5 de knop tonen
+  const plural = (n, one, more) => `${n} ${n === 1 ? one : more}`;
+  function fbSummary(items, rd, ni = 0) {
+    return [items.length ? plural(items.length, "beoordeling", "beoordelingen") : "", rd.length ? `${rd.length} gelezen` : "",
+      ni ? `${plural(ni, "wijziging", "wijzigingen")} in je interesses` : ""].filter(Boolean).join(", ");
+  }
+  // Eén issue voor alles wat nog naar de radar moet: duimpjes, gelezen en wijzigingen in je interesses.
+  // GitHub Actions verwerkt duimpjes direct; interesses zet het klaar voor de nachtrun (collect_feedback.py).
+  function fbIssueUrl(items, rd = []) {
+    const di = intStore.get(), ni = intPending(di), ip = ni ? intParts(di) : null;
+    const label = (v) => (v.v === 1 ? "👍" : "👎") + (v.r ? ` (${(FB_UP[v.r] || FB_DOWN[v.r] || v.r).toLowerCase()})` : "");
+    const lines = items.map(([id, v]) => `- ${label(v)} ${v.title || id}`)
+      .concat(rd.length ? [`- 📖 ${plural(rd.length, "artikel", "artikelen")} helemaal gelezen`] : [])
+      .concat(ip ? ["", "Interesses (Claude verwerkt dit vannacht):", ...ip.lines] : []).join("\n");
+    const block = JSON.stringify({ votes: items.map(([id, v]) => ({ id, v: v.v, r: v.r || null })), reads: rd, ...(ip ? { interests: ip.data } : {}) });
+    const body = backLink() + `Beoordelingen uit de CyberScope. GitHub Actions verwerkt dit automatisch en sluit het issue.\n\n${lines}\n\n\`\`\`json\n${block}\n\`\`\``;
+    const title = `Feedback: ${fbSummary(items, rd, ni)}`;
+    return `https://github.com/${repo()}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+  function fbSendBar(always) {
+    const items = fb.pending(), rd = reads.pendingArticles().filter((id) => !fb.get(id)), ni = intPending(intStore.get());
+    if (!items.length && !ni && (rd.length < (always ? 1 : READ_MIN_SEND))) return "";
+    const href = esc(fbIssueUrl(items, rd)), sum = esc(fbSummary(items, rd, ni));
+    if (!always) return `<a class="fb-send fb-float" id="fb-send" href="${href}" target="_blank" rel="noopener"><span>${sum}</span><b>Versturen</b></a>`;
+    return `<a class="fb-send" id="fb-send" href="${href}" target="_blank" rel="noopener"><span>${sum} klaar om te versturen</span><b>Versturen ›</b></a>`;
+  }
+  function markSent() {
+    const d = fb.all(); Object.values(d).forEach((v) => { v.sent = true; }); fb.save(d);
+    const r = reads.all(); Object.entries(r).forEach(([k, v]) => { if (k.startsWith("a-")) v.sent = true; }); reads.save(r);
+    const di = intStore.get(); Object.assign(di.sentAnswers, di.answers);
+    intStore.save({ answers: {}, changes: {}, learn: {}, follow: {}, note: "", sentAnswers: di.sentAnswers });
+    updateMenuDot();
+  }
+
+  // Feedback per onderwerp of bron, in punten ten opzichte van het gemiddelde artikel
+  function fbLean() {
+    const f = state.feed.feedback || {}, o = f.offset || 0, W = fbPoints(), tn = state.feed.topics || {};
+    return [...Object.entries(f.topics || {}).map(([id, v]) => ({ key: "t:" + id, name: tn[id]?.name || id, pts: Math.round((v - o) * W) })),
+      ...Object.entries(f.sources || {}).map(([id, v]) => ({ key: "s:" + id, name: source(id).name, pts: Math.round((v - o) * W) })),
+      ...Object.entries(f.kinds || {}).map(([id, v]) => ({ key: "k:" + id, name: SOORT[id] || id, pts: Math.round((v - o) * W) }))];
+  }
+  const SOORT = { incident: "Incidenten", kwetsbaarheid: "Kwetsbaarheden", onderzoek: "Technisch onderzoek", advies: "Officiële adviezen", achtergrond: "Achtergrond en uitleg", mening: "Meningen" };
+  // Wat de radar over je leerde, in een paar zinnen
+  function fbLearned(lean) {
+    const lc = (s) => s.charAt(0).toLowerCase() + s.slice(1);
+    const and = (xs) => xs.length > 1 ? xs.slice(0, -1).join(", ") + " en " + xs[xs.length - 1] : xs[0];
+    const kinds = lean.filter((x) => x.key.startsWith("k:")), topics = lean.filter((x) => x.key.startsWith("t:")), srcs = lean.filter((x) => x.key.startsWith("s:"));
+    const out = [];
+    const kUp = kinds.filter((x) => x.pts > 0), kDown = kinds.filter((x) => x.pts < 0);
+    if (kUp.length) out.push(`Je waardeert <b>${esc(lc(kUp[0].name))}</b> het meest${kDown.length ? `, <b>${esc(lc(kDown[kDown.length - 1].name))}</b> het minst` : ""}.`);
+    const tUp = topics.filter((x) => x.pts > 0).slice(0, 2).map((x) => `<b>${esc(x.name)}</b>`);
+    if (tUp.length) out.push(`Sterkst bij ${and(tUp)}.`);
+    const down = [...topics, ...srcs].filter((x) => x.pts < 0).slice(-2).map((x) => `<b>${esc(x.name)}</b>`);
+    if (down.length) out.push(`Minder bij ${and(down)}.`);
+    const fits = state.feed.articles.filter((a) => a.fit), good = fits.filter((a) => a.fit.score >= 0.7).length;
+    if (fits.length) out.push(`Claude vond ${good} van de ${fits.length} beoordeelde artikelen in je lijst sterk passend.`);
+    return out;
+  }
+  // "Hoger door je 👍 op X" / "Lager door ... Y": welke onderwerpen en bron van dit artikel de feedback bepaalden
+  function fbReason(a) {
+    const pts = Math.round((a.score_parts?.feedback || 0) * fbPoints());
+    if (!pts) return "";
+    const lean = new Map(fbLean().map((x) => [x.key, x]));
+    const by = [...(a.topics || []).slice(0, 2).map((t) => lean.get("t:" + t)), lean.get("s:" + a.source_id)]
+      .filter((x) => x && Math.sign(x.pts) === Math.sign(pts)).map((x) => `<b>${esc(x.name)}</b>`);
+    const list = by.length > 1 ? by.slice(0, -1).join(", ") + " en " + by[by.length - 1] : by[0];
+    return pts > 0 ? `${pts} punten hoger door je duimen omhoog en wat je las over ${list || "dit soort artikelen"}.`
+      : `${-pts} punten lager: je gaf aan dat ${list || "dit soort artikelen"} je minder interesseert.`;
+  }
+  // Mijn interesses: wat je feedback deze week veranderde
+  function fbEffectBlock() {
+    const e = state.feed.feedback?.effect;
+    const lean = fbLean().filter((x) => x.pts).sort((x, y) => y.pts - x.pts);
+    const learned = fbLearned(lean);
+    const pt = (n) => `${n > 0 ? "+" : "−"}${Math.abs(n)}`;
+    const row = (x, href, ext) => `<li${x.delta < 0 ? ' class="neg"' : ""}><a href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>${esc(x.title)}</a><span class="d">${pt(x.delta)}</span></li>`;
+    const lifted = e?.lifted || [], dropped = e?.dropped || [];
+    if (!learned.length && !lifted.length && !dropped.length) return "";
+    return `<section class="int-sec fb-eff"><h2>Wat de radar over je leerde</h2>
+      ${learned.length ? `<p class="learned">${learned.join(" ")}</p>` : ""}
+      ${lifted.length || dropped.length ? `<p class="sum">Afgelopen ${e?.days || 7} dagen door je feedback: <b>${lifted.length}</b> erbij, <b>${dropped.length}</b> eruit.</p>` : ""}
+      ${lifted.length ? `<h3>Erbij</h3><ul class="eff-list">${lifted.map((x) => row(x, "#a-" + x.id)).join("")}</ul>` : ""}
+      ${dropped.length ? `<h3>Eruit</h3><ul class="eff-list">${dropped.map((x) => row(x, x.url, true)).join("")}</ul>` : ""}
+    </section>`;
+  }
+  function renderArticle(a) {
+    const mark = termMarker(a.terms);
+    const s = source(a.source_id);
+    const enriched = a.processing_status === "enriched";
+    const parts = a.score_parts || {};
+    const partRows = [["Past bij je onderwerpen", parts.topic, "55%"], ["Inhoudelijke kwaliteit", parts.quality, "20%"], ["Actualiteit", parts.recency, "15%"], ["Bron", parts.source, "10%"]]
+      .map(([l, v, w]) => `<tr><td>${l} <span style="color:var(--muted)">(${w})</span></td><td><span class="meter"><span style="width:${Math.round((v || 0) * 100)}%"></span></span>${(v ?? 0).toFixed(2)}</td></tr>`).join("")
+      + (parts.region ? `<tr><td>Regio <span style="color:var(--muted)">(${esc(REGION_LABEL[a.region] || REGION_LABEL[source(a.source_id).region] || "")})</span></td><td>+${Math.round(parts.region * 100)} punten</td></tr>` : "")
+      + (parts.feedback ? `<tr><td>Jouw feedback <span style="color:var(--muted)">(max. ±${fbPoints()})</span></td><td>${parts.feedback > 0 ? "+" : ""}${Math.round(parts.feedback * fbPoints())} punten</td></tr>` : "");
+    const fbWhy = fbReason(a);
+    const fitPts = parts.fit != null ? Math.round(parts.fit * 20) : null;
+    const fitRow = a.fit ? `<tr><td>Past bij jou <span style="color:var(--muted)">(Claude, max. ±10)</span></td><td>${fitPts > 0 ? "+" : ""}${fitPts} punten</td></tr>` : "";
+    // In de app sinds = wanneer Claude het uitlegde, anders wanneer het werd opgehaald (zelfde als sorteren op Nieuw).
+    const added = a.processed_at || a.fetched_at;
+    const inApp = added ? fmtDate(added) : "onbekend";
+    const html = `
+      <div class="bar"><div class="wrap">
+        <button class="icon-btn" type="button" id="back" aria-label="Terug naar de feed"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button>
+        <span class="crumb"></span>
+        <a class="btn ghost" style="height:36px;padding:0 12px;font-size:.84rem" href="${esc(a.url)}" target="_blank" rel="noopener">Origineel ↗</a>
+      </div></div>
+      <article class="full wrap">
+        <div class="meta top"><span class="src">${esc(s.name)}</span><button type="button" class="score-btn" id="score-btn" aria-haspopup="dialog" aria-label="Relevantie ${a.relevance_score} van 100, toon uitleg">${bars(a.relevance_score)}</button></div>
+        ${a.format_version === 2 ? `
+        <h1>${esc(a.headline)}</h1>
+        <p class="orig">Origineel: ${esc(a.title)}</p>
+        ${a.article_type === "opinie" && a.author ? `<div class="note" style="margin-top:14px">Dit is een mening van ${esc(a.author)}.</div>` : ""}
+        ${a.date_note ? `<div class="note" style="margin-top:14px">${esc(a.date_note)}</div>` : ""}
+        ${a.exploitation || a.patch_status ? `<div class="pills">${[a.exploitation, a.patch_status].filter((x) => x && x !== "onbekend").map((x) => `<span class="pill ${esc(x)}">${esc(STATUS_LABEL[x] || x)}</span>`).join("")}</div>` : ""}
+        ${a.sections?.length ? `<section class="art-sec"><h2>Wat is er gebeurd?</h2></section>` : ""}
+        <div class="story">${(a.story || []).map((p) => `<p>${mark(p)}</p>`).join("")}</div>
+        ${(a.sections || []).map((x) => `<section class="art-sec"><h2>${esc(x.heading)}</h2><div class="story">${x.paragraphs.map((p) => `<p>${mark(p)}</p>`).join("")}</div></section>`).join("")}
+        ${showcaseBlock(a.showcase)}
+        ${a.personal_relevance || a.customer_questions?.length ? `<section class="block"><h2>Wat betekent dit voor je werk?</h2>${a.personal_relevance ? `<p>${esc(a.personal_relevance)}</p>` : ""}
+          ${a.customer_questions?.length ? `<p class="show-arrow">Vragen die je een klant kunt stellen</p><ul class="qs">${a.customer_questions.map((q) => `<li>${esc(q)}</li>`).join("")}</ul>` : ""}</section>` : ""}
+        ${a.experiment ? `<section class="try"><h2>Probeer dit</h2><p>${esc(a.experiment)}</p></section>` : ""}
+        ${a.key_facts?.length ? `<section class="block"><h2>Bevestigd <span class="kind bron">Uit de bron</span></h2><ul>${a.key_facts.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}
+        ${a.limitations?.length ? `<section class="block"><h2>Nog onbekend of onzeker</h2><ul>${a.limitations.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}
+        ${a.takeaway ? `<section class="takeaway"><h2>Onthoud</h2><p>${mark(a.takeaway)}</p></section>` : ""}
+        ` : `
+        <h1>${esc(a.title)}</h1>
+        ${enriched ? `<p class="lead">${esc(a.summary)}</p>` : `<div class="callout"><p style="margin:0">Claude heeft dit artikel nog niet uitgelegd. Dat gebeurt meestal de volgende ochtend.${a.excerpt ? ` Korte beschrijving (Engels): <em>${esc(a.excerpt)}</em>` : ""}</p></div>`}
+        ${a.date_note ? `<div class="note" style="margin-top:14px">${esc(a.date_note)}</div>` : ""}
+        ${block("Wat is er nieuw?", "bron", a.what_is_new)}
+        ${block("Eenvoudig uitgelegd", "uitleg", a.simple_explanation)}
+        ${block("Een voorbeeld", "uitleg", a.practical_example)}
+        ${block("Waarom is dit relevant voor jou?", "uitleg", a.personal_relevance)}
+        ${block("Wat kun je ermee?", "idee", a.practical_application)}
+        ${block("Probeer dit", "idee", a.experiment)}
+        ${a.limitations?.length ? `<section class="block"><h2>Beperkingen en aandachtspunten</h2><ul>${a.limitations.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></section>` : ""}
+        `}
+        <div class="read-end" aria-hidden="true"></div>
+        <section class="act-bar"><div class="fb" id="fb" data-id="${esc(a.id)}">${fbBlock(a)}</div>${laterBlock("a-" + a.id, a.headline || a.title)}${askBlock("artikel")}</section>
+        <p class="src-line">Gepubliceerd ${esc(a.published_at ? fmtDate(a.published_at) : "onbekend")} · In de app sinds ${esc(inApp)}</p>
+        <dialog class="score-dlg" id="score-dlg" aria-labelledby="score-dlg-h">
+          <h2 id="score-dlg-h">Waarom deze score?</h2>
+          <table class="score-table">${partRows}${fitRow}</table>
+          ${fbWhy ? `<p class="score-fb">${fbWhy}</p>` : ""}
+          ${a.fit?.why ? `<p class="score-fb">Claude: ${esc(a.fit.why)}</p>` : ""}
+          <p class="score-note">Berekend met de prioriteiten uit interests.yml. Totaal ${a.relevance_score} van 100${a.decision === "included_exceptional" ? "; getoond via de uitzonderingsregel" : a.decision === "area_minimum" ? "; getoond via de ondergrens voor dit gebied" : a.decision === "follow_minimum" ? "; getoond omdat je dit onderwerp altijd volgt" : ""}.</p>
+          <form method="dialog"><button class="btn ghost" type="submit">Sluiten</button></form>
+        </dialog>
+      </article>`;
+    openReader(html);
+    trackRead("a-" + a.id);
+  }
+
+  /* ---- Feedcontrole ---- */
+
+  // Status: werkt alles, wat deed de nachtrun, welke bronnen hebben een probleem, wat viel net buiten de feed.
+  function nightRun() {
+    const f = state.feed, t = (x) => Date.parse(x || "") || 0;
+    const times = [...f.articles.map((a) => t(a.processed_at)), ...(f.deepdives || []).map((d) => t(d.written_at))].filter(Boolean);
+    if (!times.length) return null;
+    const last = Math.max(...times), win = 3 * 3600e3;   // alles binnen 3 uur voor de laatste uitleg = dezelfde run
+    return { at: last, articles: f.articles.filter((a) => last - t(a.processed_at) < win).length,
+      deepdives: (f.deepdives || []).filter((d) => last - t(d.written_at) < win).length };
+  }
+  // Per nachttaak (data/runs, pipeline/runs.py): wat deed hij en lukte het
+  function runTasks() {
+    const r = state.feed.runs; if (!r?.tasks) return "";
+    const names = { uitleggen: "Uitleggen", verdiepen: "Verdiepen", overzicht: "Overzicht", inhalen: "Inhalen" };
+    const icon = { ok: "✓", deels: "⚠", mislukt: "✗" };
+    const day = new Date(r.date + "T12:00:00Z").toLocaleDateString("nl-NL", { weekday: "long", day: "numeric", month: "short", timeZone: "UTC" });
+    const rows = Object.keys(names).filter((t) => r.tasks[t] || t !== "inhalen").map((t) => {
+      const x = r.tasks[t];
+      return `<li class="run ${x ? esc(x.status) : "none"}"><b>${x ? icon[x.status] || "?" : "–"} ${names[t]}</b><span>${x ? esc(x.summary) : "niet gedraaid"}${x?.problems?.length ? ` · ${esc(x.problems.join("; "))}` : ""}</span></li>`;
+    }).join("");
+    return `<section class="block"><h2>Nachttaken, ${esc(day)}</h2><ul class="runs">${rows}</ul></section>`;
+  }
+  function renderReport() {
+    const f = state.feed, q = f.quality_report || {}, run = nightRun();
+    const bad = f.sources.filter((s) => s.status !== "ok" && s.status !== "skipped");
+    const stale = !run || Date.now() - run.at > 30 * 3600e3;   // langer dan 30 uur geen uitleg = nachtrun gemist
+    const failed = f.mode === "failed" || f.mode === "stale";
+    const color = failed ? "var(--bad)" : stale || bad.length ? "var(--warn)" : "var(--ok)";
+    const plural = (n, a, b) => `${n} ${n === 1 ? a : b}`;
+    const head = failed ? `<strong>Ophalen mislukt.</strong> ${esc(f.mode_note || "")}`
+      : stale ? `<strong>Vannacht niet bijgewerkt.</strong> Laatste nieuws van ${esc(run ? fmtDateTime(new Date(run.at).toISOString()) : "onbekend")}.`
+      : `<strong>${bad.length ? `${plural(bad.length, "bron gaf", "bronnen gaven")} niets` : "Alles werkt."}</strong> Laatste nachtrun ${esc(fmtDateTime(new Date(run.at).toISOString()))}: ${plural(run.articles, "artikel", "artikelen")} uitgelegd${run.deepdives ? `, ${plural(run.deepdives, "verdieping", "verdiepingen")} geschreven` : ""}.`;
+    const why = { below_threshold: (x) => `score net te laag (${x.relevance_score})`, source_cap: () => `al ${f.quality_report?.max_per_source || 12} artikelen van deze bron` };
+    const near = (q.not_shown || []).filter((x) => why[x.decision]).sort((a, b) => b.relevance_score - a.relevance_score).slice(0, 5);
+    openReader(`
+      <div class="bar"><div class="wrap"><button class="icon-btn" type="button" id="back" aria-label="Terug naar de feed"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 6.5 10l6 6"/></svg></button><span class="crumb">Status</span></div></div>
+      <div class="wrap report" style="padding-block:18px 60px">
+        <h1>Status</h1>
+        <div class="status" id="run-status" style="margin:12px 0"><span class="dot" style="background:${color}"></span><span>${head}</span></div>
+        ${runTasks()}
+        ${bad.length ? `<section class="block"><h2>Bronnen met een probleem</h2><ul>${bad.map((s) => `<li><strong>${esc(s.name)}</strong>: ${esc(s.message || SRC_STATUS[s.status] || s.status)}</li>`).join("")}</ul></section>` : ""}
+        <section class="block"><h2>Net niet in je feed</h2>${near.length ? `<ul class="near">${near.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a><span>${esc(source(x.source_id).name)} · ${esc(why[x.decision](x))}</span></li>`).join("")}</ul>` : `<p style="font-size:.92rem;color:var(--muted)">Niets dat er net buiten viel.</p>`}</section>
+        <section class="block"><details class="all-src"><summary>Alle bronnen (${f.sources.length})</summary><ul>${f.sources.map((s) => `<li><span class="st ${esc(s.status)}">${esc(SRC_STATUS[s.status] || s.status)}</span> ${esc(s.name)} <span style="color:var(--muted)">· ${s.items ?? 0} items</span></li>`).join("")}</ul></details></section>
+      </div>`);
+  }
+
+
+  /* ---- Navigatie (#a-<id> en #feedcontrole) ---- */
+  function openReader(html) {
+    const r = $("#reader");
+    const wasHidden = r.hidden;
+    if (wasHidden) state.scrollY = window.scrollY;
+    r.innerHTML = html;
+    r.hidden = false;
+    r.scrollTop = 0;
+    document.body.style.overflow = "hidden";
+    $("#back", r).onclick = () => { history.length > 1 && state.cameFromList ? history.back() : (location.hash = ""); };
+    $("#back", r).focus({ preventScroll: true });
+    if (r.querySelector("article.full") && !r.querySelector("#term-sheet")) r.insertAdjacentHTML("beforeend", termSheet);
+    r.onclick = (e) => {
+      if (termClick(e)) return;
+      if (laterClick(e)) return;
+      if (intClick(e)) return;
+      if (e.target.closest("#fb-send")) { markSent(); setTimeout(() => { if (location.hash === "#week") renderWeek(); }, 300); return; }
+      fbClick(e); quizClick(e); askClick(e);
+    };
+    const af = $("#ask-form", r);
+    if (af) af.onsubmit = (e) => { e.preventDefault(); askOpen($("#ask-q", r).value); };
+    const dlg = $("#score-dlg", r), btn = $("#score-btn", r);
+    if (dlg && btn) {
+      btn.onclick = () => dlg.showModal();
+      dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+    }
+  }
+  function closeReader() {
+    const r = $("#reader");
+    if (r.hidden) return;
+    r.hidden = true; r.innerHTML = "";
+    document.body.style.overflow = "";
+    window.scrollTo(0, state.scrollY);
+  }
+  function route() {
+    if (!state.feed) return;
+    const h = location.hash.slice(1);
+    if (h.startsWith("a-") && state.byId.has(h.slice(2))) { renderArticle(state.byId.get(h.slice(2))); return; }
+    if (h === "herhaling") { renderReview(); return; }
+    if (h === "lijst") {
+      state.view = "verdieping"; state.ddTab = "later"; store.set("view", state.view); store.set("ddTab", state.ddTab);
+      history.replaceState(null, "", location.pathname + location.search);   // #lijst niet laten staan: verversen = blijven waar je bent
+      renderSeg(); closeReader(); renderList(); window.scrollTo(0, 0); return;
+    }
+    if (h === "begrippen") { renderGlossaryPage(); return; }
+    if (h === "interesses") { renderInterests(); return; }
+    if (h === "backup") { renderBackup(); return; }
+    if (h === "week" && state.feed.weekly) { renderWeek(); return; }
+    if (h.startsWith("v-") && state.ddById.has(h.slice(2))) { renderDeepdive(state.ddById.get(h.slice(2))); return; }
+    if (h === "feedcontrole") { renderReport(); return; }
+    closeReader();
+    renderList();
+  }
+
+  /* ---- Events ---- */
+  window.addEventListener("hashchange", route);
+  $("#content").addEventListener("click", (e) => {
+    if (!e.target.closest("#fb-send")) return;
+    markSent();
+    setTimeout(renderList, 300);
+  }, true);
+  const openCard = (el) => { state.cameFromList = true; location.hash = el.dataset.dd ? "v-" + el.dataset.dd : "a-" + el.dataset.id; };
+  $("#content").addEventListener("click", (e) => { const el = e.target.closest("[data-id],[data-dd]"); if (el) openCard(el); });
+  $("#content").addEventListener("click", (e) => {
+    const done = e.target.closest("[data-later-done]");
+    if (done) { later.remove(done.dataset.laterDone); renderList(); return; }
+    const pick = e.target.closest("[data-later-pick]");
+    if (pick) { state.chosen = [...(state.chosen || []), pick.dataset.laterPick]; setTimeout(renderList, 300); }
+  });
+  // Jouw week wegvegen (opzij schuiven) of op × tikken
+  function weekGone(bar, dir) {
+    store.set("weekGone", bar.dataset.week);
+    bar.style.transform = `translateX(${dir * 110}%)`; bar.classList.add("gone");
+    setTimeout(() => bar.remove(), 220);
+  }
+  let swipe = null;
+  $("#content").addEventListener("touchstart", (e) => {
+    const bar = e.target.closest("#week-bar"); if (!bar) return;
+    swipe = { bar, x: e.touches[0].clientX, y: e.touches[0].clientY, dx: 0, moved: false };
+  }, { passive: true });
+  $("#content").addEventListener("touchmove", (e) => {
+    if (!swipe) return;
+    swipe.dx = e.touches[0].clientX - swipe.x;
+    if (Math.abs(swipe.dx) > 10 && Math.abs(swipe.dx) > Math.abs(e.touches[0].clientY - swipe.y)) {
+      swipe.moved = true; swipe.bar.style.transition = "none";
+      swipe.bar.style.transform = `translateX(${swipe.dx}px)`; swipe.bar.style.opacity = String(1 - Math.min(Math.abs(swipe.dx) / 300, .7));
+    }
+  }, { passive: true });
+  $("#content").addEventListener("touchend", () => {
+    if (!swipe) return;
+    const { bar, dx, moved } = swipe; swipe = null;
+    bar.style.transition = "";
+    if (moved && Math.abs(dx) > 90) { weekGone(bar, Math.sign(dx)); bar.dataset.swiped = "1"; }
+    else { bar.style.transform = ""; bar.style.opacity = ""; if (moved) bar.dataset.swiped = "1"; }
+  });
+  $("#content").addEventListener("click", (e) => {
+    const bar = e.target.closest("#week-bar"); if (!bar) return;
+    if (bar.dataset.swiped) { e.preventDefault(); e.stopPropagation(); delete bar.dataset.swiped; return; }   // na vegen niet ook openen
+    if (e.target.closest(".week-x")) { e.preventDefault(); e.stopPropagation(); weekGone(bar, 1); }
+  }, true);
+  $("#content").addEventListener("input", (e) => {
+    if (e.target.id !== "gl-q") return;
+    const q = e.target.value.trim().toLowerCase();
+    document.querySelectorAll(".gl-item").forEach((el) => { el.hidden = !!q && !el.dataset.k.includes(q); });
+  });
+  $("#content").addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.matches(".card")) { e.preventDefault(); openCard(e.target); } });
+  $("#seg-view").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.view = b.dataset.v; store.set("view", state.view); renderSeg(); renderList(); window.scrollTo(0, 0); });
+  $("#seg-dd").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.ddTab = b.dataset.v; store.set("ddTab", state.ddTab); renderSeg(); renderList(); window.scrollTo(0, 0); });
+  $("#seg-sort").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.sort = b.dataset.v; store.set("sort", state.sort); renderSeg(); renderList(); });
+  // Menu (tandwiel): Begrippen en Feedcontrole, onderin als paneel
+  const menu = $("#menu-sheet"), menuBtn = $("#btn-menu");
+  const menuOpen = (on) => { menu.hidden = !on; $("#menu-backdrop").hidden = !on; menuBtn.setAttribute("aria-expanded", String(on)); };
+  menuBtn.addEventListener("click", (e) => { e.stopPropagation(); menuOpen(menu.hidden); });
+  menu.addEventListener("click", (e) => { if (e.target.closest("a")) { state.cameFromList = true; menuOpen(false); } });
+  // Tik buiten het menu: alleen sluiten, niet ook iets eronder openen.
+  document.addEventListener("click", (e) => {
+    if (menu.hidden || e.target.closest("#menu-sheet") || e.target.closest("#btn-menu")) return;
+    e.preventDefault(); e.stopPropagation(); menuOpen(false);
+  }, true);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !menu.hidden) menuOpen(false); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#reader").hidden && !document.querySelector("dialog[open]")) location.hash = ""; });
+
+  load();
+})();
+</script>

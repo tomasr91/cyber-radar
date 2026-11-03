@@ -1,0 +1,6 @@
+# CyberScope — wie mag via GitHub-issues iets insturen
+#
+# De app stuurt duimpjes, keuzes voor verdiepingen en wijzigingen in interesses als GitHub-issue.
+# Alleen issues van de eigenaar van de repository (tomasr91) en van de namen hieronder tellen;
+# issues van anderen worden genegeerd. Zet hier de GitHub-gebruikersnaam van de lezer.
+issue_authors: []

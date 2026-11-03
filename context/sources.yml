@@ -1,0 +1,333 @@
+# CyberScope — nieuwsbronnen
+# verification.status:
+#   verified       = feed zelf gecontroleerd (een run leverde artikelen op)
+#   user_supplied  = voorgesteld, nog niet met een echte run gecontroleerd; mag aan staan
+#   to_verify      = placeholder; staat uit tot het adres is bevestigd
+#
+# region = waar de bron vandaan komt: nl, benelux, eu, na of world. Claude zet per artikel de regio
+# van het nieuws zelf (region in de uitleg); de bronregio telt alleen als die ontbreekt.
+# Voorrang: Nederland, dan Benelux, Europa, Noord-Amerika, rest van de wereld (interests.yml, region_bonus).
+
+schema_version: 2
+updated: "2026-11-03"
+
+definitions:
+  type:
+    official_docs: Officiële adviezen, waarschuwingen en release notes (primaire bron)
+    vendor_blog: Blog of onderzoeksteam van een securityleverancier
+    expert_blog: Onafhankelijke onderzoekers en technische analyses
+    technical_article: Technische artikelen en tutorials
+    independent_news: Nieuwssites over cybersecurity (extra context, technische details checken)
+  trust_level:
+    high: Primaire bron of bewezen betrouwbaar; feiten mogen zonder tweede bron worden overgenomen
+    medium: Betrouwbaar, maar interpretatie of commercieel belang; technische claims checken bij een primaire bron
+    low: Alleen als signaal; nooit als enige bron voor een feit
+  priority:
+    description: >-
+      Hoe zwaar een bron meetelt bij de selectie (1-5). Staat los van trust_level.
+      De onderwerp-prioriteit uit interests.yml blijft leidend.
+  fetch_method:
+    rss: RSS-feed uitlezen (feed_url)
+    atom: Atom-feed uitlezen (feed_url)
+    html: Pagina ophalen en nieuwe items herkennen
+    github_releases: Releases van een GitHub-repository volgen
+    manual: Handmatig toevoegen, niet automatisch ophalen
+  verification_status:
+    verified: Feed zelf gecontroleerd op checked_on
+    user_supplied: Voorgesteld; nog niet met een echte run gecontroleerd
+    to_verify: Placeholder; niet gebruiken voordat het is bevestigd
+
+sources:
+  # ===== Nederland en Benelux (voorrang) =====
+
+  - id: security_nl
+    name: Security.NL
+    url: https://www.security.nl
+    feed_url: https://www.security.nl/rss/headlines.xml
+    type: independent_news
+    topics: [incidents_breaches, vulnerabilities_cve, exploited_vulnerabilities, ransomware, phishing_identity, policy_regulation]
+    priority: 5
+    enabled: true
+    trust_level: medium
+    language: nl
+    region: nl
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: ncsc_nl_advisories
+    name: NCSC-NL beveiligingsadviezen
+    url: https://advisories.ncsc.nl
+    feed_url: https://advisories.ncsc.nl/rss/advisories
+    type: official_docs
+    # Veel adviezen per dag; Claude kiest alleen adviezen met hoge kans en hoge schade, of software die veel organisaties gebruiken.
+    topics: [vulnerabilities_cve, exploited_vulnerabilities, edge_devices]
+    priority: 3
+    enabled: true
+    trust_level: high
+    language: nl
+    region: nl
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: fox_it
+    name: Fox-IT (NCC Group) blog
+    url: https://blog.fox-it.com
+    feed_url: https://blog.fox-it.com/feed/
+    type: expert_blog
+    topics: [threat_intelligence, malware, incident_response, attack_techniques]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: nl
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026). Nederlands onderzoeksteam; technische analyses van aanvallen."}
+
+  - id: divd
+    name: DIVD (Dutch Institute for Vulnerability Disclosure)
+    url: https://www.divd.nl
+    feed_url: https://www.divd.nl/index.xml
+    type: expert_blog
+    topics: [vulnerabilities_cve, exploited_vulnerabilities, vulnerability_management, edge_devices]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: nl
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  # ===== Officiële bronnen =====
+
+  - id: cisa_alerts
+    name: CISA Alerts
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories
+    feed_url: https://www.cisa.gov/cybersecurity-advisories/alerts.xml
+    type: official_docs
+    # Hier staan ook de berichten "CISA Adds ... to Known Exploited Vulnerabilities Catalog".
+    topics: [exploited_vulnerabilities, vulnerabilities_cve, edge_devices]
+    priority: 5
+    enabled: false
+    trust_level: high
+    language: en
+    region: na
+    fetch_method: rss
+    verification: {status: to_verify, checked_on: "2026-11-03", note: "HTTP 403 vanaf GitHub Actions (eerste run 3-11-2026). CISA blokkeert waarschijnlijk geautomatiseerde verzoeken. Claude raadpleegt de KEV-lijst wel zelf bij het uitleggen."}
+
+  - id: cisa_advisories
+    name: CISA Cybersecurity Advisories
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories
+    feed_url: https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml
+    type: official_docs
+    # Gezamenlijke adviezen (bijv. #StopRansomware) met technieken, IOC's en detectietips.
+    topics: [threat_intelligence, ransomware, siem_detection, attack_techniques]
+    priority: 4
+    enabled: false
+    trust_level: high
+    language: en
+    region: na
+    fetch_method: rss
+    verification: {status: to_verify, checked_on: "2026-11-03", note: "HTTP 403 vanaf GitHub Actions (eerste run 3-11-2026). CISA blokkeert waarschijnlijk geautomatiseerde verzoeken. Claude raadpleegt de KEV-lijst wel zelf bij het uitleggen."}
+
+  - id: msrc_blog
+    name: Microsoft Security Response Center
+    url: https://msrc.microsoft.com/blog
+    feed_url: https://msrc.microsoft.com/blog/feed
+    type: official_docs
+    topics: [vulnerabilities_cve, exploited_vulnerabilities]
+    priority: 4
+    enabled: false
+    trust_level: high
+    language: en
+    region: na
+    fetch_method: rss
+    verification: {status: to_verify, checked_on: "2026-11-03", note: "Feed blijft ongeldige XML geven, ook na herstelpoging. Microsoft-nieuws komt binnen via Microsoft Threat Intelligence, NCSC en het nieuws."}
+
+  # ===== Technisch onderzoek (de leerwaarde) =====
+
+  - id: watchtowr_labs
+    name: watchTowr Labs
+    url: https://labs.watchtowr.com
+    feed_url: https://labs.watchtowr.com/rss/
+    type: expert_blog
+    # Legt per kwetsbaarheid de technische oorzaak heel concreet uit.
+    topics: [vulnerabilities_cve, web_software_security, edge_devices, attack_techniques]
+    priority: 5
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: dfir_report
+    name: The DFIR Report
+    url: https://thedfirreport.com
+    feed_url: https://thedfirreport.com/feed/
+    type: expert_blog
+    # Complete aanvalsketens uit echte inbraken, met wat je in de logs ziet.
+    topics: [attack_techniques, siem_detection, incident_response, ransomware]
+    priority: 5
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: cisco_talos
+    name: Cisco Talos
+    url: https://blog.talosintelligence.com
+    feed_url: https://blog.talosintelligence.com/rss/
+    type: expert_blog
+    topics: [threat_intelligence, malware, vulnerabilities_cve, attack_techniques]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: project_zero
+    name: Google Project Zero
+    url: https://googleprojectzero.blogspot.com
+    feed_url: https://googleprojectzero.blogspot.com/feeds/posts/default
+    type: expert_blog
+    topics: [vulnerabilities_cve, exploited_vulnerabilities, web_software_security]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: atom
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026). Weinig artikelen, veel diepgang."}
+
+  - id: google_threat_intel
+    name: Google Threat Intelligence (Mandiant)
+    url: https://cloud.google.com/blog/topics/threat-intelligence
+    feed_url: https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/
+    type: expert_blog
+    topics: [threat_intelligence, exploited_vulnerabilities, attack_techniques, incident_response]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: microsoft_threat_intel
+    name: Microsoft Threat Intelligence
+    url: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/
+    feed_url: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+    type: vendor_blog
+    topics: [threat_intelligence, phishing_identity, attack_techniques, cloud_attacks]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: unit42
+    name: Unit 42 (Palo Alto Networks)
+    url: https://unit42.paloaltonetworks.com
+    feed_url: https://unit42.paloaltonetworks.com/feed/
+    type: expert_blog
+    topics: [threat_intelligence, malware, attack_techniques, cloud_attacks]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: datadog_security_labs
+    name: Datadog Security Labs
+    url: https://securitylabs.datadoghq.com
+    feed_url: https://securitylabs.datadoghq.com/rss/feed.xml
+    type: expert_blog
+    topics: [cloud_attacks, supply_chain, siem_detection, attack_techniques]
+    priority: 4
+    enabled: true
+    trust_level: high
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: huntress_blog
+    name: Huntress blog
+    url: https://www.huntress.com/blog
+    feed_url: https://www.huntress.com/blog/rss.xml
+    type: vendor_blog
+    # Veel praktijk uit een SOC: wat ze zagen, hoe ze het vonden en indamden.
+    topics: [incident_response, siem_detection, attack_techniques, phishing_identity]
+    priority: 4
+    enabled: true
+    trust_level: medium
+    language: en
+    region: na
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: crowdstrike_blog
+    name: CrowdStrike blog
+    url: https://www.crowdstrike.com/en-us/blog/
+    feed_url: https://www.crowdstrike.com/en-us/blog/feed
+    type: vendor_blog
+    topics: [threat_intelligence, siem_detection, attack_techniques, security_market]
+    priority: 3
+    enabled: true
+    trust_level: medium
+    language: en
+    region: na
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026). Veel marketing; Claude neemt alleen onderzoek over."}
+
+  # ===== Internationaal nieuws (incidenten; daarna de technische bron erbij zoeken) =====
+
+  - id: bleepingcomputer
+    name: BleepingComputer
+    url: https://www.bleepingcomputer.com
+    feed_url: https://www.bleepingcomputer.com/feed/
+    type: independent_news
+    topics: [incidents_breaches, ransomware, vulnerabilities_cve, exploited_vulnerabilities, malware, phishing_identity]
+    priority: 4
+    enabled: true
+    trust_level: medium
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: the_record
+    name: The Record (Recorded Future News)
+    url: https://therecord.media
+    feed_url: https://therecord.media/feed/
+    type: independent_news
+    topics: [incidents_breaches, ransomware, threat_intelligence, policy_regulation]
+    priority: 4
+    enabled: true
+    trust_level: medium
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
+
+  - id: securityweek
+    name: SecurityWeek
+    url: https://www.securityweek.com
+    feed_url: https://www.securityweek.com/feed/
+    type: independent_news
+    topics: [vulnerabilities_cve, incidents_breaches, edge_devices, security_market]
+    priority: 3
+    enabled: true
+    trust_level: medium
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}

@@ -1,0 +1,199 @@
+# CyberScope — onderwerpen voor verdiepingen
+#
+# Een verdieping is een langer stuk (6 tot 10 minuten lezen) over een onderwerp uit het leerpad
+# (profile.md §6). Elke ochtend zet Claude 5 keuzes klaar in de app (tabblad Verdieping). De lezer
+# kiest er één; die schrijft Claude de volgende nacht. Dit bestand is de ideeënlijst waar Claude uit
+# put, naast het nieuws van die week.
+#
+# Zo beheer je dit bestand:
+# - Toevoegen: kopieer een blok, kies een unieke id (kleine letters, koppeltekens).
+# - Hoger op de lijst = vaker als keuze aangeboden.
+# - Niet meer aanbieden: zet enabled op false.
+#
+# Velden:
+#   id          unieke sleutel
+#   title       werktitel (Claude kiest zelf de definitieve kop)
+#   question    de vraag die de verdieping moet beantwoorden
+#   angle       invalshoek: waar moet het op ingaan
+#   topics      onderwerp-id's uit interests.yml (1 tot 3)
+#   level       beginner = bij de basis beginnen (fase 1 en 2 van het leerpad)
+#   phase       fase in het leerpad (1 basis, 2 kwetsbaarheden en aanvallen, 3 aanvalsketens, 4 securitypraktijk)
+#   enabled     true/false
+
+schema_version: 1
+updated: "2026-11-03"
+
+rules:
+  - Begin bij de basis (wat is het, waarom bestaat het, een vergelijking uit het dagelijks leven) en bouw rustig op.
+  - Leg eerst uit hoe iets normaal werkt, dan wat er mis kan gaan.
+  - Koppel aan SIEM, vulnerability management en threat intelligence, en aan wat je een klant zou vragen.
+  - Gebruik een actueel voorbeeld uit het nieuws als dat er is.
+  - Alleen wat nu klopt; controleer namen en werkwijzen bij actuele, betrouwbare bronnen.
+  - Uitleg, geen handleiding: geen werkende exploitcode of aanvalsscripts.
+
+topics:
+  # ===== Fase 1: technische basis =====
+  - id: hoe-werkt-een-website
+    title: "Wat gebeurt er als je een website opent?"
+    question: "Wat doen de browser (client), de webserver en de database als je een webpagina opent, en waar kan een aanvaller ingrijpen?"
+    angle: "Beginnersniveau. Client en server, een HTTP-verzoek en -antwoord (met een echt voorbeeld), server-side code (PHP) en de database erachter. Eindig met de plekken waar aanvallen ontstaan (invoer, inloggen, configuratie)."
+    topics: [web_software_security, attack_techniques]
+    level: beginner
+    phase: 1
+    enabled: true
+
+  - id: http-en-https
+    title: "HTTP en HTTPS - de taal van het web"
+    question: "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?"
+    angle: "Beginnersniveau. Methoden (GET/POST), headers, statuscodes, cookies; wat versleuteling wel en niet beschermt; hoe een regel in een webserverlog eruitziet."
+    topics: [web_software_security, siem_detection]
+    level: beginner
+    phase: 1
+    enabled: true
+
+  - id: dns-en-ip
+    title: "IP-adressen en DNS - hoe computers elkaar vinden"
+    question: "Wat is een IP-adres, wat doet DNS, en waarom kijken securityteams zo graag naar DNS-verkeer?"
+    angle: "Beginnersniveau. Adres en naam, poorten, wat een firewall daarmee doet, en hoe malware DNS gebruikt om contact met de aanvaller te zoeken."
+    topics: [siem_detection, malware]
+    level: beginner
+    phase: 1
+    enabled: true
+
+  - id: authenticatie-en-autorisatie
+    title: "Wie ben je en wat mag je? Authenticatie en autorisatie"
+    question: "Wat is het verschil tussen authenticatie en autorisatie, hoe werken sessies en tokens, en wat gaat er mis bij een authentication bypass?"
+    angle: "Beginnersniveau. Inloggen, MFA, sessiecookies en tokens, rechten. Voorbeelden van fouten (bypass, te ruime rechten) en welke logs dit vastleggen."
+    topics: [phishing_identity, web_software_security, attack_techniques]
+    level: beginner
+    phase: 1
+    enabled: true
+
+  # ===== Fase 2: kwetsbaarheden en aanvallen =====
+  - id: cve-cvss-epss-kev
+    title: "CVE, CVSS, EPSS en KEV - wat zeggen al die afkortingen?"
+    question: "Hoe krijgt een kwetsbaarheid een nummer en een score, en waarom is een hoge CVSS-score niet altijd het meest urgent?"
+    angle: "Beginnersniveau. Wie CVE's uitdeelt, wat CVSS meet (en niet), wat EPSS voorspelt, wat de CISA KEV-lijst is. Een actueel voorbeeld waarbij de scores elkaar tegenspreken. Koppel aan vulnerability management."
+    topics: [vulnerability_management, vulnerabilities_cve, exploited_vulnerabilities]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  - id: sql-injection
+    title: "SQL injection - als een website de verkeerde vraag aan de database stelt"
+    question: "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?"
+    angle: "Beginnersniveau, de zeven stappen uit het profiel (database, query, onveilige invoer, misbruik, gevolgen, voorkomen, detecteren). Leerboekvoorbeeld, een logregel van een poging, en parameterized queries als oplossing."
+    topics: [attack_techniques, web_software_security]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  - id: remote-code-execution
+    title: "Remote Code Execution - een server opdrachten laten uitvoeren"
+    question: "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?"
+    angle: "Beginnersniveau. Onveilige verwerking van invoer (deserialisatie, command injection), de rechten van het proces, wat een aanvaller daarna doet (webshell, extra software), welke processen en verbindingen opvallen."
+    topics: [attack_techniques, vulnerabilities_cve, siem_detection]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  - id: exploit-en-zero-day
+    title: "Van kwetsbaarheid naar exploit - en wat een zero-day is"
+    question: "Wat is het verschil tussen een kwetsbaarheid, een proof of concept en een exploit, en waarom zijn zero-days zo gevaarlijk?"
+    angle: "Beginnersniveau. Hoe onderzoekers en aanvallers fouten vinden, wat responsible disclosure is, waarom de tijd tussen patch en misbruik steeds korter wordt, en wat een Metasploit-module betekent voor het risico."
+    topics: [exploited_vulnerabilities, vulnerabilities_cve, threat_intelligence]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  - id: phishing-technisch
+    title: "Phishing technisch bekeken - van mail tot gestolen sessie"
+    question: "Wat gebeurt er technisch bij een moderne phishingaanval, ook als er MFA aan staat?"
+    angle: "Beginnersniveau. Mail, nep-inlogpagina, adversary-in-the-middle en het stelen van sessietokens, en wat er in de inloglogs van Microsoft 365 of Entra ID opvalt."
+    topics: [phishing_identity, siem_detection]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  - id: privilege-escalation
+    title: "Privilege escalation - van gewone gebruiker naar beheerder"
+    question: "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?"
+    angle: "Fouten in software, verkeerde instellingen en gestolen beheerderswachtwoorden. Welke Windows-events en processen opvallen."
+    topics: [attack_techniques, siem_detection]
+    level: beginner
+    phase: 2
+    enabled: true
+
+  # ===== Fase 3: aanvalsketens =====
+  - id: anatomie-ransomware-aanval
+    title: "Anatomie van een ransomware-aanval, stap voor stap"
+    question: "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?"
+    angle: "Gebruik een echt onderzoek (bijv. The DFIR Report) als rode draad. Per stap: wat doet de aanvaller, welk spoor laat dat na, welke maatregel had geholpen. Koppel aan MITRE ATT&CK."
+    topics: [ransomware, attack_techniques, siem_detection]
+    phase: 3
+    enabled: true
+
+  - id: laterale-beweging
+    title: "Laterale beweging - hoe een aanvaller zich door een netwerk verplaatst"
+    question: "Hoe gaat een aanvaller van één gehackte computer naar de rest van het netwerk, en hoe ziet een SIEM dat?"
+    angle: "Gestolen inloggegevens, beheertools (RDP, PsExec, PowerShell), Active Directory. Welke inlogpatronen en verbindingen opvallen, en waarom segmentatie helpt."
+    topics: [attack_techniques, siem_detection]
+    phase: 3
+    enabled: true
+
+  - id: command-and-control
+    title: "Command and control - hoe malware contact houdt met de aanvaller"
+    question: "Hoe stuurt een aanvaller een besmette computer op afstand aan, en hoe vind je dat verkeer terug?"
+    angle: "Beacons, DNS en HTTPS als dekmantel, bekende tools. Wat netwerkmonitoring en threat intelligence hier doen."
+    topics: [malware, siem_detection, threat_intelligence]
+    phase: 3
+    enabled: true
+
+  - id: edge-devices-als-ingang
+    title: "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn"
+    question: "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?"
+    angle: "Bereikbaar vanaf internet, vaak geen EDR, beheer achterstallig. Recente voorbeelden, en hoe vulnerability management en logging hier helpen."
+    topics: [edge_devices, exploited_vulnerabilities, vulnerability_management]
+    phase: 3
+    enabled: true
+
+  # ===== Fase 4: securitypraktijk =====
+  - id: hoe-werkt-een-siem
+    title: "Hoe werkt een SIEM nu echt?"
+    question: "Welke logs komen in een SIEM, hoe worden ze gecombineerd, hoe ontstaat een alert, en wat doet een analist ermee?"
+    angle: "Logbronnen, normaliseren, correleren, detectieregels, alerts en false positives. Volg één verdachte inlog van logregel tot onderzoek."
+    topics: [siem_detection, incident_response]
+    phase: 4
+    enabled: true
+
+  - id: detectieregel-maken
+    title: "Een detectieregel van dichtbij"
+    question: "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?"
+    angle: "Een eenvoudige regel (bijv. in Sigma-vorm) regel voor regel uitgelegd. Afstemmen op de eigen omgeving, false positives en false negatives."
+    topics: [siem_detection, attack_techniques]
+    phase: 4
+    enabled: true
+
+  - id: vulnerability-management-in-de-praktijk
+    title: "Vulnerability management in de praktijk - van scan tot opgelost"
+    question: "Hoe vindt een organisatie haar kwetsbare systemen, hoe kiest ze wat eerst, en hoe controleer je of iets echt is opgelost?"
+    angle: "Inventaris, scannen (met en zonder inlog), prioriteren met dreiging en bereikbaarheid, patchen, controleren. Wat te doen als er nog geen patch is."
+    topics: [vulnerability_management, exploited_vulnerabilities]
+    phase: 4
+    enabled: true
+
+  - id: threat-intelligence-gebruiken
+    title: "Threat intelligence - van rapport naar actie"
+    question: "Hoe komt informatie over aanvallers tot stand, en hoe gebruikt een organisatie het bij detectie en prioriteren?"
+    angle: "Bronnen, IOC's versus TTP's (de piramide van pijn), koppeling aan de SIEM, en waarom \"wordt actief misbruikt\" de prioriteit verandert."
+    topics: [threat_intelligence, siem_detection, vulnerability_management]
+    phase: 4
+    enabled: true
+
+  - id: incident-response-stappen
+    title: "Incident response - wat gebeurt er na het alarm?"
+    question: "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?"
+    angle: "Voorbereiden, vaststellen, indammen, opruimen, herstellen, lessen trekken. Een recent Nederlands of Europees incident als voorbeeld waar mogelijk."
+    topics: [incident_response, incidents_breaches]
+    phase: 4
+    enabled: true

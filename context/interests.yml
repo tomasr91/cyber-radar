@@ -1,0 +1,337 @@
+# CyberScope — interesses
+# Pas prioriteiten, onderwerpen en zoektermen hier aan; er is geen codewijziging nodig.
+# Prioriteit = hoe zwaar een onderwerp meetelt bij de selectie, niet hoe belangrijk het in het algemeen is.
+
+schema_version: 1
+updated: "2026-11-03"
+
+priority_levels:
+  5:
+    label: kernonderwerp
+    description: Direct relevant voor het leerdoel en het werk met klanten
+    target_share: [0.30, 0.35]
+  4:
+    label: zeer relevant
+    description: Belangrijke onderwerpen die actief gevolgd worden
+    target_share: [0.25, 0.30]
+  3:
+    label: interessant
+    description: Nuttige verbreding
+    target_share: [0.20, 0.25]
+  2:
+    label: verkennend
+    description: Af en toe interessant, maar geen hoofdonderwerp
+    target_share: [0.05, 0.15]
+  1:
+    label: alleen uitzonderlijk
+    description: Alleen tonen bij groot nieuws
+    target_share: [0.00, 0.05]
+
+# Startwaarden voor de selectie; vrij aan te passen.
+scoring:
+  target_share_is_guideline: true      # richtwaarden, geen harde quota
+  related_topic_weight: 0.5            # een gerelateerd onderwerp telt voor de helft mee
+  min_relevance_score: 0.6             # onder deze drempel geen plek in de feed, ook niet bij prioriteit 5
+  max_items_per_topic_per_feed: 3      # houdt de feed gevarieerd
+  max_articles_per_source: 12          # hooguit zoveel artikelen per bron in de app
+  max_articles_per_source_per_day: 4   # hooguit zoveel per bron van dezelfde publicatiedag
+  # Regio (3-11-2026): Nederland eerst, dan Benelux, Europa, Noord-Amerika, rest van de wereld.
+  # Extra punten (van 100) voor waar het nieuws over gaat. Claude zet de regio per artikel
+  # (veld region in de uitleg); anders telt de regio van de bron.
+  region_bonus:
+    nl: 6
+    benelux: 4
+    eu: 2
+    na: 1
+    world: 0
+  other_factors: [recency, trust_level, novelty, diversity, region]
+  exceptional_override:
+    enabled: true
+    applies_to_priorities: [1, 2]
+    rule: >-
+      Een artikel mag de feed in, ook bij prioriteit 1 of 2, als het groot, bevestigd nieuws is:
+      bijvoorbeeld een grote overname of koerswijziging bij een securityleverancier, of een
+      nieuwe wet die veel organisaties direct raakt. De reden wordt bij het artikel vermeld.
+
+# Richtverdeling over de vier interessegebieden (profiel van 3-11-2026).
+# min_articles = ondergrens: staan er minder artikelen uit een gebied in de app, dan vult de radar
+# aan met de best scorende uitgelegde artikelen van de laatste 14 dagen uit dat gebied, ook als die
+# net onder de drempel zaten. Zo bestaat de feed nooit alleen uit grote hacks.
+# Flexibele richtwaarden, geen quota. Een artikel verschijnt maar één keer in de feed.
+interest_areas:
+  - id: kwetsbaarheden
+    label: Nieuwe kwetsbaarheden en softwarefouten
+    target_share: 0.30
+    min_articles: 6
+    topics: [vulnerabilities_cve, exploited_vulnerabilities, edge_devices]
+  - id: techniek
+    label: Hoe aanvallen technisch werken
+    target_share: 0.30
+    min_articles: 6
+    topics: [attack_techniques, web_software_security, phishing_identity, malware, supply_chain]
+  - id: incidenten
+    label: Actuele hacks en incidenten
+    target_share: 0.25
+    min_articles: 5
+    topics: [incidents_breaches, ransomware, cloud_attacks]
+  - id: praktijk
+    label: Detectie en securitypraktijk
+    target_share: 0.15
+    min_articles: 3
+    topics: [siem_detection, vulnerability_management, threat_intelligence, incident_response]
+
+# Filtergroepen in de app. Elk onderwerp hoort bij één groep (feed_group).
+feed_groups:
+  - {id: incidenten, label: "Hacks & incidenten"}
+  - {id: kwetsbaarheden, label: "Kwetsbaarheden"}
+  - {id: aanvallen, label: "Aanvalstechnieken"}
+  - {id: web, label: "Web & software"}
+  - {id: detectie, label: "SIEM & detectie"}
+  - {id: vm, label: "Vulnerability management"}
+  - {id: ti, label: "Threat intelligence"}
+  - {id: overig, label: "Markt & regels"}
+
+# Harde uitsluitingen: artikelen die hier hoofdzakelijk over gaan komen nooit in de feed,
+# ook niet via de uitzonderingsregel.
+# keywords zoeken in de hele tekst; title_patterns zijn reguliere expressies op de titel
+# (hoofdletterongevoelig).
+excluded_topics:
+  - id: funding_rounds
+    name: Investeringsrondes en beursnieuws
+    # Overnames vallen hier bewust niet onder: grote overnames in de securitymarkt mogen via
+    # security_market en de uitzonderingsregel wel door.
+    keywords: [funding round, raises funding, raised funding, Series A, Series B, Series C, Series D, seed round, valuation, IPO, stock price, quarterly earnings]
+  - id: deals_promotions
+    name: Aanbiedingen, webinars en evenementen
+    title_patterns:
+      - '^deal:'
+      - '\b(\d+% off|save \$\d+|black friday|cyber monday)\b'
+      - '\bwebinar\b'
+      - '\bregister (now|today)\b'
+      - '\bpodcast\b'
+  - id: roundups
+    name: Weekoverzichten van andere sites
+    # Een verzameling van tien losse berichten leert niets; de radar maakt zelf de selectie.
+    title_patterns:
+      - '\bweek in review\b'
+      - '\bweekly (recap|roundup|update)\b'
+      - '\bthis week in\b'
+      - '\bweek \d+ (review|recap)\b'
+      - '\bpatch tuesday (round ?up|forecast)\b'
+  - id: ncsc_lower_likelihood
+    name: NCSC-adviezen met lage of middelmatige kans
+    # NCSC zet [kans/schade] in de titel, bijv. [H/H]. Alleen adviezen met een hoge kans op
+    # misbruik (H/...) komen door; de rest is te veel voor een compacte feed (3-11-2026: 8 van
+    # de 15 plekken op de eerste werklijst). Grote kwetsbaarheden komen ook via het nieuws binnen.
+    title_patterns:
+      - '^NCSC-\d{4}-\d+ \[[\d.]+\] \[(L|M)/'
+  - id: awards_marketing
+    name: Prijzen, ranglijsten en marketing
+    title_patterns:
+      - '\bnamed (a )?leader\b'
+      - '\bwins? .*award\b'
+      - '\bmagic quadrant\b'
+
+topics:
+  # ===== Kwetsbaarheden =====
+  - id: vulnerabilities_cve
+    name: Nieuwe kwetsbaarheden (CVE's)
+    description: >-
+      Nieuwe kwetsbaarheden en softwarefouten in software die organisaties gebruiken: Windows,
+      Linux, PHP, webservers, browsers, databases, API's en cloudplatformen. Niet alleen het
+      CVE-nummer en de score: wat gaat er technisch fout, wie loopt risico en hoe los je het op.
+    feed_group: kwetsbaarheden
+    enabled: true
+    priority: 5
+    keywords: [CVE, vulnerability, vulnerabilities, kwetsbaarheid, kwetsbaarheden, security update, security advisory, beveiligingsupdate, patch, remote code execution, RCE, privilege escalation, authentication bypass, SQL injection, buffer overflow, deserialization, path traversal, proof of concept, PoC]
+    related_topics: [exploited_vulnerabilities, vulnerability_management, attack_techniques, web_software_security]
+
+  - id: exploited_vulnerabilities
+    name: Actief misbruikte kwetsbaarheden en zero-days
+    description: >-
+      Kwetsbaarheden die aanvallers nu al misbruiken, zero-days en toevoegingen aan de CISA-lijst
+      van misbruikte kwetsbaarheden (KEV). Juist hier wordt duidelijk waarom iets urgent is.
+    feed_group: kwetsbaarheden
+    enabled: true
+    priority: 5
+    keywords: [zero-day, 0-day, actively exploited, exploited in the wild, actief misbruikt, Known Exploited Vulnerabilities, KEV, mass exploitation, exploit, exploitation]
+    related_topics: [vulnerabilities_cve, threat_intelligence, vulnerability_management, edge_devices]
+
+  - id: edge_devices
+    name: VPN's, firewalls en andere randapparatuur
+    description: >-
+      Kwetsbaarheden in apparaten aan de rand van het netwerk (VPN-servers, firewalls,
+      load balancers, bestandsoverdracht). Vaak bereikbaar vanaf internet en daardoor een
+      favoriete ingang voor aanvallers.
+    feed_group: kwetsbaarheden
+    enabled: true
+    priority: 4
+    keywords: [Fortinet, FortiGate, Ivanti, Citrix NetScaler, NetScaler, Palo Alto Networks, PAN-OS, GlobalProtect, Cisco ASA, SonicWall, VPN, firewall, edge device, MOVEit, managed file transfer]
+    related_topics: [exploited_vulnerabilities, vulnerabilities_cve]
+
+  # ===== Hoe aanvallen werken =====
+  - id: attack_techniques
+    name: Aanvalstechnieken uitgelegd
+    description: >-
+      Hoe een aanval technisch verloopt: remote code execution, SQL injection, cross-site
+      scripting, privilege escalation, credential theft, authentication bypass, laterale
+      beweging, command and control en misbruik van bestaande rechten. Centraal leergebied.
+    learning: true
+    feed_group: aanvallen
+    enabled: true
+    priority: 5
+    keywords: [attack chain, kill chain, initial access, lateral movement, privilege escalation, credential theft, credential dumping, command and control, C2, persistence, defense evasion, living off the land, LOLBins, Mimikatz, Cobalt Strike, post-exploitation, MITRE ATT&CK, TTPs, SQL injection, cross-site scripting, XSS, remote code execution, web shell, webshell]
+    related_topics: [malware, siem_detection, web_software_security, phishing_identity]
+
+  - id: web_software_security
+    name: Webtechnologie en softwarebeveiliging
+    description: >-
+      Hoe websites, webservers, API's, databases, sessies en authenticatie werken, en waar
+      het misgaat. PHP, JavaScript, HTTP, Apache, Nginx, OAuth, cookies en open-sourcecomponenten.
+      Eerst de normale werking, dan de fout.
+    learning: true
+    feed_group: web
+    enabled: true
+    priority: 4
+    keywords: [PHP, JavaScript, Node.js, Apache, Nginx, IIS, web server, webserver, web application, API security, REST API, GraphQL, OAuth, JWT, session hijacking, cookie, CSRF, SSRF, deserialization, WordPress, browser vulnerability, Chrome zero-day, OWASP]
+    related_topics: [attack_techniques, vulnerabilities_cve, supply_chain]
+
+  - id: phishing_identity
+    name: Phishing, identiteit en accounts
+    description: >-
+      Phishing, social engineering en aanvallen op accounts: wachtwoorden stelen, MFA omzeilen,
+      sessietokens kapen, misbruik van Microsoft 365 en Entra ID.
+    feed_group: aanvallen
+    enabled: true
+    priority: 4
+    keywords: [phishing, spear phishing, social engineering, MFA bypass, MFA fatigue, adversary-in-the-middle, AiTM, token theft, session token, business email compromise, BEC, Entra ID, Azure AD, Okta, identity attack, password spraying, credential stuffing, vishing, ClickFix]
+    related_topics: [attack_techniques, malware, cloud_attacks]
+
+  - id: malware
+    name: Malware
+    description: >-
+      Hoe malware werkt: infostealers, loaders, backdoors, remote access trojans en botnets.
+      Hoe het binnenkomt, wat het doet en hoe je het ziet.
+    feed_group: aanvallen
+    enabled: true
+    priority: 4
+    keywords: [malware, infostealer, stealer, loader, backdoor, remote access trojan, RAT, botnet, trojan, wiper, rootkit, dropper, malvertising, Lumma, payload]
+    related_topics: [ransomware, attack_techniques, threat_intelligence]
+
+  - id: supply_chain
+    name: Aanvallen via leveranciers en software
+    description: >-
+      Aanvallen via de toeleveringsketen: besmette open-sourcepakketten (npm, PyPI), gekaapte
+      updates en aanvallen via een leverancier of IT-dienstverlener.
+    feed_group: web
+    enabled: true
+    priority: 4
+    keywords: [supply chain attack, software supply chain, malicious package, npm, PyPI, dependency, typosquatting, compromised update, third-party breach, managed service provider, MSP, GitHub Actions]
+    related_topics: [web_software_security, malware, incidents_breaches]
+
+  # ===== Incidenten =====
+  - id: incidents_breaches
+    name: Hacks, datalekken en incidenten
+    description: >-
+      Cyberaanvallen op organisaties, datalekken en incidenten waarbij systemen uit moeten.
+      Alleen interessant met technische inhoud: hoe kwam de aanvaller binnen, wat is bevestigd
+      en wat nog niet.
+    feed_group: incidenten
+    enabled: true
+    priority: 5
+    keywords: [data breach, datalek, hack, gehackt, hacked, cyberattack, cyber attack, cyberaanval, security incident, compromised, breach, stolen data, gestolen gegevens, systems offline, outage, extortion, afpersing, leak]
+    related_topics: [ransomware, attack_techniques, incident_response]
+
+  - id: ransomware
+    name: Ransomware
+    description: >-
+      Ransomware-aanvallen en -groepen: hoe ze binnenkomen, zich verspreiden, data stelen en
+      versleutelen, en hoe organisaties zich herstellen.
+    feed_group: incidenten
+    enabled: true
+    priority: 5
+    keywords: [ransomware, ransom, double extortion, encryption, encrypted, LockBit, Akira, Qilin, Black Basta, Play ransomware, ransomware gang, ransomwaregroep, data leak site]
+    related_topics: [incidents_breaches, malware, threat_intelligence, incident_response]
+
+  - id: cloud_attacks
+    name: Aanvallen op cloudomgevingen
+    description: >-
+      Aanvallen op en fouten in cloudomgevingen: Azure, AWS, Google Cloud, Microsoft 365,
+      verkeerde instellingen, gelekte sleutels en misbruik van cloudidentiteiten.
+    feed_group: incidenten
+    enabled: true
+    priority: 4
+    keywords: [cloud security, Azure, AWS, Google Cloud, Microsoft 365, misconfiguration, misconfigured, S3 bucket, exposed database, access key, cloud credentials, Kubernetes, container, IAM, SaaS]
+    related_topics: [incidents_breaches, phishing_identity, vulnerabilities_cve]
+
+  # ===== Detectie en praktijk =====
+  - id: siem_detection
+    name: SIEM, logs en detectie
+    description: >-
+      Hoe aanvallen zichtbaar worden: logs, detectieregels, alerts, EDR, netwerkmonitoring en
+      threat hunting. Hoe een securityanalist een melding onderzoekt en hoe false positives
+      ontstaan. Centraal leergebied.
+    learning: true
+    feed_group: detectie
+    enabled: true
+    priority: 5
+    keywords: [SIEM, detection, detectie, detection rule, detection engineering, Sigma rule, YARA, log, logs, logging, event log, Windows event, Sysmon, EDR, XDR, MDR, SOC, alert, false positive, threat hunting, indicators of compromise, IOC, telemetry, KQL, Microsoft Sentinel, Splunk]
+    related_topics: [attack_techniques, incident_response, threat_intelligence]
+
+  - id: vulnerability_management
+    name: Vulnerability management en prioriteren
+    description: >-
+      Kwetsbaarheden vinden, systemen inventariseren, risico's beoordelen en prioriteren, patchen
+      en controleren. CVSS, EPSS en KEV, en waarom een hoge score niet altijd het meest urgent is.
+    learning: true
+    feed_group: vm
+    enabled: true
+    priority: 5
+    keywords: [vulnerability management, vulnerability scanning, CVSS, EPSS, patch management, patching, exposure management, attack surface, asset inventory, prioritization, remediation, risk-based, end of life, unsupported software, mitigation, workaround]
+    related_topics: [vulnerabilities_cve, exploited_vulnerabilities, threat_intelligence]
+
+  - id: threat_intelligence
+    name: Threat intelligence en aanvallersgroepen
+    description: >-
+      Aanvallersgroepen, campagnes, nieuwe technieken en patronen. Vooral: wat betekent deze
+      informatie en hoe gebruikt een organisatie het (bij detectie en prioriteren).
+    feed_group: ti
+    enabled: true
+    priority: 5
+    keywords: [threat intelligence, threat actor, APT, state-sponsored, nation-state, campaign, campagne, attribution, TTP, TTPs, indicators of compromise, IOCs, threat report, Volt Typhoon, Salt Typhoon, Scattered Spider, Lazarus, initial access broker]
+    related_topics: [exploited_vulnerabilities, siem_detection, ransomware, malware]
+
+  - id: incident_response
+    name: Incident response en onderzoek
+    description: >-
+      Hoe een organisatie een incident onderzoekt en afhandelt: forensisch onderzoek, indammen,
+      herstellen en lessen trekken. Inclusief volledige aanvalsketens uit echte onderzoeken.
+    feed_group: detectie
+    enabled: true
+    priority: 4
+    keywords: [incident response, digital forensics, DFIR, forensic, forensisch, containment, eradication, recovery, root cause, post-mortem, playbook, intrusion, investigation]
+    related_topics: [siem_detection, incidents_breaches, ransomware]
+
+  # ===== Markt en regels =====
+  - id: security_market
+    name: Securitymarkt en leveranciers
+    description: >-
+      Groot nieuws over securityleveranciers (zoals Tenable, Qualys, CrowdStrike, Splunk,
+      SentinelOne, Microsoft): grote overnames, koerswijzigingen of productlijnen die stoppen.
+      Alleen bij groot nieuws.
+    feed_group: overig
+    enabled: true
+    priority: 1
+    keywords: [Tenable, Qualys, CrowdStrike, Splunk, SentinelOne, Palo Alto Networks, Microsoft Sentinel, Wiz, acquisition, acquires, overname, layoffs, end of sale]
+    related_topics: [siem_detection, vulnerability_management]
+
+  - id: policy_regulation
+    name: Wetgeving en toezicht
+    description: >-
+      Regels die organisaties verplichten tot betere beveiliging, zoals NIS2 (in Nederland de
+      Cyberbeveiligingswet) en de Cyber Resilience Act. Alleen bij nieuws met directe gevolgen.
+    feed_group: overig
+    enabled: true
+    priority: 2
+    keywords: [NIS2, Cyberbeveiligingswet, Cyber Resilience Act, CRA, DORA, meldplicht, toezichthouder, regulation, compliance]
+    related_topics: [incidents_breaches, vulnerability_management]

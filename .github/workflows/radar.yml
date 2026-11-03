@@ -1,0 +1,179 @@
+# CyberScope: ophalen, feed bouwen en de app publiceren op GitHub Pages.
+#
+# Loopt:
+#  - elke nacht (ophalen van nieuwe artikelen; daarna maakt Claude om 02:22 de uitleg)
+#  - als Claude nieuwe uitleg pusht (data/enrichment/**), of als context/app/pipeline verandert
+#  - als je in de app duimpjes verstuurt (issue "Feedback: ..."): direct verwerken
+#  - handmatig via "Run workflow"
+# Commits van deze workflow zelf starten de workflow niet opnieuw (GitHub-regel voor GITHUB_TOKEN).
+
+name: Radar bijwerken
+
+on:
+  schedule:
+    - cron: "37 0 * * *"   # 01:37 Nederlandse wintertijd (02:37 zomertijd); de Claude-taak volgt om 02:22
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/enrichment/**"
+      - "data/deepdives/**"
+      - "data/deepdive_options.json"
+      - "data/trends.json"
+      - "data/weekly.json"
+      - "data/interest_suggestions.json"
+      - "data/interest_log.json"
+      - "data/runs/**"
+      - "data/run-request"     # de Claude-taak vraagt hiermee om vers ophalen (GitHub-klok is soms uren te laat)
+      - "context/**"
+      - "app/**"
+      - "pipeline/**"
+      - "scripts/make_site.py"
+      - ".github/workflows/radar.yml"
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Bij issues alleen voor feedback (keuzes voor verdiepingen verwerkt de Claude-taak).
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'Feedback:')
+    runs-on: ubuntu-latest
+    steps:
+      # Altijd de nieuwste main: runs lopen na elkaar (concurrency), maar een run die in de wachtrij
+      # stond zou anders bouwen op een oude stand en botsen met de feed van de run ervoor.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installeren
+        run: pip install -r requirements.txt
+
+      - name: Context en uitleg controleren
+        run: |
+          python scripts/validate_context.py
+          python scripts/validate_enrichment.py
+
+      - name: Tests
+        run: python -m unittest discover -s tests -t .
+
+      - name: Feedback verwerken (duimpjes uit de app)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect_feedback.py
+
+      - name: Artikelen ophalen en feed bouwen
+        # --max-enrich 0: de uitleg maakt Claude via de geplande taak, niet de API
+        run: python -m pipeline.build --provider feeds --max-enrich 0
+
+      - name: Feed, archief en werklijst opslaan
+        run: |
+          git config user.name "cyberscope-bot"
+          git config user.email "cyberscope-bot@users.noreply.github.com"
+          git add data/feed.json data/archive.json data/to_enrich.json data/taste.json data/to_tag.json
+          [ -f data/feedback.json ] && git add data/feedback.json
+          [ -f data/retried.json ] && git add data/retried.json
+          [ -f data/interest_requests.json ] && git add data/interest_requests.json
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen."
+          else
+            git commit -m "Feed bijgewerkt $(date -u +%Y-%m-%dT%H:%MZ)"
+            # Gegenereerde bestanden: bij een botsing wint deze (nieuwere) build. Twee pogingen.
+            for i in 1 2; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          fi
+
+      - name: Site maken
+        run: python scripts/make_site.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Controleert de gedeployde site: elke controle is een eigen stap, zodat je per onderdeel ziet of hij slaagt.
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    env:
+      BASE: ${{ needs.deploy.outputs.page_url }}
+    steps:
+      - name: Wachten tot de nieuwe versie online staat
+        run: |
+          want="${GITHUB_SHA:0:8}"
+          for i in $(seq 1 30); do
+            build=$(curl -fsS "${BASE}index.html?nocache=$i" | grep -o 'name="build" content="[^"]*"' | cut -d'"' -f4 || true)
+            echo "poging $i: build=$build"
+            case "$build" in "$want"*) exit 0;; esac
+            sleep 10
+          done
+          echo "Nieuwe versie niet gevonden"; exit 1
+
+      - name: "Controle: manifest bereikbaar en geldig"
+        run: |
+          curl -fsS -D headers.txt "${BASE}manifest.webmanifest" -o manifest.json
+          grep -i '^content-type:' headers.txt
+          python3 - <<'PY'
+          import json
+          m = json.load(open("manifest.json"))
+          assert m["name"] == "CyberScope", m["name"]
+          assert m["short_name"], "short_name ontbreekt"
+          assert m["start_url"] == "./" and m["scope"] == "./", (m["start_url"], m["scope"])
+          assert m["display"] == "standalone", m["display"]
+          sizes = {i["sizes"] for i in m["icons"]}
+          assert {"192x192", "512x512"} <= sizes, sizes
+          print("manifest ok:", m["name"], "/", m["short_name"])
+          PY
+
+      - name: "Controle: iconen 192 en 512 zijn geldige PNG's"
+        run: |
+          for f in icon-192.png icon-512.png icon-maskable-512.png; do curl -fsS "${BASE}icons/$f" -o "$f"; done
+          python3 - <<'PY'
+          import struct
+          for f, size in [("icon-192.png", 192), ("icon-512.png", 512), ("icon-maskable-512.png", 512)]:
+              b = open(f, "rb").read()
+              assert b[:8] == b"\x89PNG\r\n\x1a\n", f + " is geen PNG"
+              w, h = struct.unpack(">II", b[16:24])
+              assert (w, h) == (size, size), (f, w, h)
+              print(f, w, "x", h, "ok")
+          PY
+
+      - name: "Controle: service worker bereikbaar en actueel"
+        run: |
+          curl -fsS -D headers.txt "${BASE}sw.js" -o sw.js
+          grep -iE '^content-type: .*javascript' headers.txt
+          grep -q "const BUILD = \"${GITHUB_SHA:0:8}" sw.js && echo "sw.js hoort bij deze deployment"
+
+      - name: "Controle: HTML verwijst naar manifest en registreert de service worker"
+        run: |
+          curl -fsS "${BASE}" -o index.html
+          grep -q '<link rel="manifest" href="manifest.webmanifest">' index.html
+          grep -q 'register("sw.js", { scope: "./" })' index.html
+          grep -q '<title>CyberScope</title>' index.html
+          echo "html ok"
+
+      - name: "Controle: feed bereikbaar"
+        run: curl -fsS "${BASE}feed.json" | python3 -c "import json,sys; f=json.load(sys.stdin); print(f['mode'], len(f['articles']), 'artikelen')"
