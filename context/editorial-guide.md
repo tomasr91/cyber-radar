@@ -45,7 +45,7 @@ Een artikel is **één doorlopend verhaal**, net als in de Data & AI Radar. Geen
 **Lengte past zich aan:** liever kort en helder dan volledig. Diepere uitleg van een techniek hoort in een verdieping.
 
 ### Kwetsbaarheden: urgentie
-Zet bij een kwetsbaarheid `exploitation`: `actief_misbruikt` (bevestigd door bijv. NCSC, CISA KEV of de leverancier), `poc_openbaar` (aanvalscode is openbaar), `geen_misbruik_bekend` of `onbekend`. De app toont *actief misbruikt* als label. Leg in het verhaal kort uit waarom iets wel of niet urgent is: misbruik, bereikbaar vanaf internet, inlog nodig of niet.
+Leg in het verhaal kort uit waarom iets wel of niet urgent is: misbruik, bereikbaar vanaf internet, inlog nodig of niet.
 
 ### Incidenten: feiten, vermoedens, mogelijkheden
 - Zeg wat **bevestigd** is (door de getroffen organisatie, een officiële instantie of onderzoekers die het zelf zagen).

@@ -45,7 +45,6 @@ Alleen artikelen die Claude heeft uitgelegd komen in de app. Een fout uitlegbest
 ## Wat CyberScope toevoegt aan de Data & AI Radar
 
 - **Artikelen** in dezelfde vorm als de Data & AI Radar (één doorlopend verhaal), met de lijn wat gebeurde · hoe werkt het · hoe zie en voorkom je het · wat betekent het. Plus klantvragen, "Bevestigd", "Nog onbekend of onzeker" en "Onthoud". Diepere uitleg staat in de verdiepingen.
-- **Urgentie bij kwetsbaarheden**: label *actief misbruikt* (of *aanvalscode openbaar*).
 - **Regio-voorrang**: Nederland, dan Benelux, Europa, Noord-Amerika, de rest van de wereld (`scoring.region_bonus` in `interests.yml`).
 - **Leveranciersneutraal**; nieuws over leveranciers alleen bij groot nieuws (`security_market`, prioriteit 1).
 - **Uitleg, geen handleiding**: geen werkende aanvalscode (redactiegids §4).

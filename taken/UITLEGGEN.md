@@ -39,7 +39,7 @@ Net als de Data & AI Radar: een Nederlandse kop, een samenvatting en één doorl
 Diepere uitleg van een techniek hoort in een verdieping, niet in het nieuws. Roept een artikel een "hoe werkt dat eigenlijk?"-vraag op, dan komt die terug als keuze bij Verdieping.
 
 ### Kwetsbaarheden
-- Zet altijd `exploitation` (redactiegids §2). `actief_misbruikt` alleen als een betrouwbare bron het bevestigt (CISA KEV, NCSC, de leverancier, een onderzoeksteam dat het zelf zag); noem die bron in `key_facts`.
+- `actief_misbruikt` alleen als een betrouwbare bron het bevestigt (CISA KEV, NCSC, de leverancier, een onderzoeksteam dat het zelf zag); noem die bron in `key_facts`.
 - Twijfel je of iets actief misbruikt wordt? Kijk dan in de CISA KEV-lijst (https://www.cisa.gov/known-exploited-vulnerabilities-catalog).
 - Leg uit waarom het wel of niet urgent is, verder dan de CVSS-score: misbruik, bereikbaar vanaf internet, inlog nodig of niet, wat de aanvaller daarna kan.
 - Komt er openbare aanvalscode (bijv. een module voor een pentestframework zoals Metasploit)? Noem het en leg uit wat dat betekent voor het risico: misbruik wordt dan voor veel meer mensen eenvoudig.
@@ -166,7 +166,6 @@ Redenen bij 👍:
   "customer_questions": ["Vraag aan een klant?", "..."],
   "takeaway": "De technische les in één of twee zinnen.",
   "region": "nl | benelux | eu | na | world",
-  "exploitation": "actief_misbruikt | poc_openbaar | geen_misbruik_bekend | onbekend",
   "official_docs": [{"label": "Naam", "url": "https://..."}],
   "topics": ["vulnerabilities_cve", "web_software_security"],
   "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.6},
@@ -184,4 +183,4 @@ Redenen bij 👍:
 }
 ```
 
-`exploitation` alleen bij kwetsbaarheden. `showcase` en `terms` alleen als ze iets toevoegen.
+ `showcase` en `terms` alleen als ze iets toevoegen.

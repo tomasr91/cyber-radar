@@ -696,7 +696,7 @@ article.full h1 { font-size: clamp(1.5rem, 5.6vw, 2.05rem); line-height: 1.15; l
     const body = a.processing_status === "enriched" ? a.summary : a.excerpt;
     const read = isRead("a-" + a.id);
     return `<article class="card${a.learning ? " leer" : ""}${read ? " read" : ""}" data-id="${esc(a.id)}" tabindex="0" role="link" aria-label="${esc(a.headline || a.title)}${read ? " (gelezen)" : ""}">
-      <div class="meta"><span class="src">${read ? `<span class="read-tick" title="Gelezen">✓</span>` : ""}${addedAt(a) ? `<span class="card-date">${esc(shortDate(addedAt(a)))}</span>` : ""}${esc(s.name)}</span>${a.article_type === "opinie" ? `<span class="pill opinie">opinie</span>` : ""}${a.exploitation === "actief_misbruikt" ? `<span class="pill actief_misbruikt">actief misbruikt</span>` : ""}${bars(a.relevance_score, a)}</div>
+      <div class="meta"><span class="src">${read ? `<span class="read-tick" title="Gelezen">✓</span>` : ""}${addedAt(a) ? `<span class="card-date">${esc(shortDate(addedAt(a)))}</span>` : ""}${esc(s.name)}</span>${a.article_type === "opinie" ? `<span class="pill opinie">opinie</span>` : ""}${bars(a.relevance_score, a)}</div>
       <h3>${esc(a.headline || a.title)}</h3>
       ${body ? `<p class="sum">${esc(body)}</p>` : ""}
       ${lamp(a)}
@@ -1508,7 +1508,6 @@ article.full h1 { font-size: clamp(1.5rem, 5.6vw, 2.05rem); line-height: 1.15; l
         <p class="orig">Origineel: ${esc(a.title)}</p>
         ${a.article_type === "opinie" && a.author ? `<div class="note" style="margin-top:14px">Dit is een mening van ${esc(a.author)}.</div>` : ""}
         ${a.date_note ? `<div class="note" style="margin-top:14px">${esc(a.date_note)}</div>` : ""}
-        ${a.exploitation && a.exploitation !== "onbekend" ? `<div class="pills">${[a.exploitation].filter((x) => x && x !== "onbekend").map((x) => `<span class="pill ${esc(x)}">${esc(STATUS_LABEL[x] || x)}</span>`).join("")}</div>` : ""}
         ${a.sections?.length ? `<section class="art-sec"><h2>Wat is er gebeurd?</h2></section>` : ""}
         <div class="story">${(a.story || []).map((p) => `<p>${mark(p)}</p>`).join("")}</div>
         ${(a.sections || []).map((x) => `<section class="art-sec"><h2>${esc(x.heading)}</h2><div class="story">${x.paragraphs.map((p) => `<p>${mark(p)}</p>`).join("")}</div></section>`).join("")}

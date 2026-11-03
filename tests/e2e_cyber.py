@@ -104,7 +104,7 @@ with sync_playwright() as p:
     page.wait_for_selector(".card")
     check("titel CyberScope", page.title() == "CyberScope" and "CyberScope" in page.locator("h1").first.inner_text())
     check("tabbladen zonder Leren", page.locator("#seg-view button").all_inner_texts() == ["Actueel", "Verdieping"])
-    check("kaart toont 'actief misbruikt'", page.locator(".card .pill.actief_misbruikt").count() == 1)
+    check("geen labels op de kaart", page.locator(".card .pill.actief_misbruikt").count() == 0)
     accent = page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()")
     check("eigen accentkleur (cyaan)", accent.lower() == "#4cc3e8", accent)
     if SHOTS:
@@ -114,7 +114,7 @@ with sync_playwright() as p:
     txt = page.locator("#reader").inner_text()
     heads = page.locator("#reader .art-sec h2").all_inner_texts()
     check("uitgebreid artikel: vaste koppen", heads == ["Wat is er gebeurd?", "Wat is de technologie?", "Wat gaat er technisch fout?", "Hoe zie je dit?"], str(heads))
-    check("label misbruik, geen patchlabel", "actief misbruikt" in txt and "patch beschikbaar" not in txt)
+    check("geen labels voor misbruik of patch", "actief misbruikt" not in txt and "patch beschikbaar" not in txt)
     check("klantvragen", page.locator("#reader .qs li").count() == 2 and "vragen die je een klant kunt stellen" in txt.lower())
     check("bevestigd en onbekend apart", "Bevestigd" in txt and "Nog onbekend of onzeker" in txt and "Testonbekend" in txt)
     check("onthoud-blok", page.locator("#reader .takeaway").count() == 1 and "Testles" in page.locator("#reader .takeaway").inner_text())
