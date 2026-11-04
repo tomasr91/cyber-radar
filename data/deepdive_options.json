@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "generated_at": "2026-11-04T02:30:00Z",
+  "options": [
+    {
+      "id": "authenticatie-en-autorisatie",
+      "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
+      "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe werken sessies en tokens, en wat gaat er mis bij een authentication bypass?",
+      "why": "Deze week omzeilde een aanvaller MFA bij 79 organisaties met gestolen inlogtokens, en misbruiken ransomwaregroepen een fout in de controle van inlogcookies in de Palo Alto-vpn: wie snapt hoe inloggen werkt, snapt beide.",
+      "topics": ["phishing_identity", "web_software_security", "attack_techniques"],
+      "area": "techniek"
+    },
+    {
+      "id": "cve-cvss-epss-kev",
+      "title": "CVE, CVSS, EPSS en KEV - wat zeggen al die afkortingen?",
+      "question": "Hoe krijgt een kwetsbaarheid een nummer en een score, en waarom is een hoge CVSS-score niet altijd het meest urgent?",
+      "why": "Volgens Cisco Talos is het aantal gepubliceerde kwetsbaarheden dit jaar meer dan verdubbeld, terwijl het aantal echt misbruikte lekken veel minder snel groeit: kiezen wat eerst moet wordt dus belangrijker.",
+      "topics": ["vulnerability_management", "vulnerabilities_cve", "exploited_vulnerabilities"],
+      "area": "praktijk"
+    },
+    {
+      "id": "edge-devices-als-ingang",
+      "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
+      "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
+      "why": "In één week kwamen aanvallen op vpn's van Ivanti en Palo Alto, op Cisco SD-WAN en op BeyondTrust in het nieuws: steeds systemen aan de rand van het netwerk die vanaf internet bereikbaar zijn.",
+      "topics": ["edge_devices", "exploited_vulnerabilities", "vulnerability_management"],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "anatomie-ransomware-aanval",
+      "title": "Anatomie van een ransomware-aanval, stap voor stap",
+      "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
+      "why": "Cisco Talos zag het aandeel ransomware in zijn incidenten in het derde kwartaal stijgen naar 27 procent, vaak begonnen met een telefoontje van een nep-IT-helpdesk.",
+      "topics": ["ransomware", "attack_techniques", "siem_detection"],
+      "area": "incidenten"
+    },
+    {
+      "id": "nep-captcha-zelf-malware-starten",
+      "title": "Nep-CAPTCHA's: hoe aanvallers je zelf malware laten starten",
+      "question": "Hoe overtuigt een nep-CAPTCHA iemand om zelf een opdracht op de computer uit te voeren, wat gebeurt er daarna technisch, en wat ziet een securityteam ervan?",
+      "why": "Deze week leidde een Google-advertentie naar een nagemaakte Amazon-pagina met een nep-CAPTCHA die bezoekers zelf een wachtwoorddief liet starten.",
+      "topics": ["phishing_identity", "malware", "siem_detection"],
+      "area": "techniek"
+    }
+  ],
+  "history": []
+}
