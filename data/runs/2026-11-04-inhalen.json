@@ -1,0 +1,4 @@
+{"task": "inhalen", "started_at": "2026-11-04T04:37:52Z", "finished_at": "2026-11-04T04:38:48Z",
+ "status": "deels", "summary": "Uitleggen kon niet worden ingehaald: de werklijst van gisteren is al helemaal verwerkt en vers ophalen blijft geblokkeerd door een falende test.",
+ "counts": {"ingehaald": 0, "uitgelegd": 0, "overgeslagen": 0},
+ "problems": ["Alle runs van 'Radar bijwerken' vannacht (ook na 03:24 UTC) stoppen bij de stap Tests: test_feed_contract faalt omdat artikel 5ab695849a1f (DIVD) in data/feed.json de relatieve url /newsroom/articles/when-no-if/ heeft. De tests draaien vóór het ophalen, dus er komt geen nieuwe feed en de app wordt niet bijgewerkt.", "Oplossen kan alleen in pipeline/ of data/feed.json (bijv. relatieve links omzetten naar volledige https-links); die bestanden mag deze taak niet aanpassen.", "Alle 15 artikelen van de werklijst van 3 november hebben al een uitleg of overslagbestand, en data/to_tag.json is leeg."]}
