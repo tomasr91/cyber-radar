@@ -38,7 +38,7 @@ SCHEMA_VERSION = 1
 DEFAULT_REPO = "tomasr91/cyber-radar"  # op GitHub Actions komt dit uit GITHUB_REPOSITORY
 PROVIDERS = {"feeds": feeds.collect, "snapshot": snapshot.collect}
 ARCHIVE_DAYS = 60      # hoe lang een artikel in de feed kan blijven nadat het uit een bronfeed is verdwenen
-QUEUE_MAX = 15         # max. aantal artikelen op de werklijst voor Claude
+QUEUE_MAX = 10         # max. aantal artikelen op de werklijst voor Claude (CyberScope: 10, compact en lichter)
 QUEUE_MIN_SCORE = 40   # voorlopige score die een onverwerkt artikel minstens moet hebben
 
 

@@ -4,11 +4,14 @@ Lees eerst `taken/REGELS.md`. Deze taak schrijft per nieuw artikel de uitleg die
 
 ## Stappen
 
-1. **Vers ophalen afdwingen.** Kijk naar `generated_at` in `data/feed.json`. Is die niet van vandaag (UTC), schrijf dan de datum van vandaag (`date -u +%F`) in `data/run-request`, commit alleen dat bestand ("Ophalen aangevraagd <datum>") en push. Wacht daarna tot `data/feed.json` van vandaag is: elke 30 seconden `git pull`, hooguit 10 minuten. Lukt het niet, ga door met de werklijst die er is en zet dat in het taakverslag.
+1. **Vers ophalen afdwingen.** Kijk naar `generated_at` in `data/feed.json`. Is die niet van vandaag (UTC), schrijf dan de datum van vandaag (`date -u +%F`) in `data/run-request`, commit alleen dat bestand ("Ophalen aangevraagd <datum>") en push. Wacht daarna tot `data/feed.json` van vandaag is: elke 30 seconden `git pull`, hooguit 5 minuten. Lukt het niet, ga door met de werklijst die er is en zet dat in het taakverslag.
 2. **Context lezen.** `context/profile.md`, `context/werkcontext.md`, `context/editorial-guide.md` en de onderwerp-id's in `context/interests.yml`. De redactiegids is leidend. Lees ook `data/feedback.json` (zie **Feedback van de lezer**) en `data/taste.json` (zie **Past bij de lezer**).
 3. **Werklijst.** Open `data/to_enrich.json`. Is `items` leeg: schrijf het taakverslag ("niets te verwerken") en stop.
-4. **Kiezen.** Lees de hele werklijst eerst door. Zitten er meerdere artikelen over dezelfde ontwikkeling in (bijv. dezelfde CVE of hetzelfde incident bij drie nieuwssites)? Leg dan **één** uit, het liefst de bron met de meeste technische inhoud of een Nederlandse bron, en sla de andere over met reden "zelfde ontwikkeling als <id>". Gebruik voor alle artikelen over dezelfde ontwikkeling dezelfde `development_key`.
-5. **Per artikel** (in volgorde, **maximaal 15**):
+4. **Eerst schiften, zonder iets te openen.** Lees alleen de titels, bronnen en `excerpt` van de hele werklijst (hooguit 10 artikelen). Sla meteen over, zonder het artikel te openen:
+   - wat duidelijk onder **Niet uitleggen** valt (marketing, kleine update, leveranciersnieuws, onbevestigde claim), met als reden "Overgeslagen op titel en samenvatting: <regel>";
+   - dubbel nieuws: zitten er meerdere artikelen over dezelfde ontwikkeling in (dezelfde CVE of hetzelfde incident), leg dan **één** uit (het liefst een Nederlandse bron of de bron met de meeste technische inhoud) en sla de andere over met reden "zelfde ontwikkeling als <id>". Gebruik dezelfde `development_key`.
+   Twijfel je, open het artikel dan wel.
+5. **Per overgebleven artikel** (in volgorde):
    1. Open de `url` en lees het **volledige artikel**. Nooit alleen op titel of `excerpt`.
    2. Niet te lezen (betaalmuur, fout, geen inhoud)? Schrijf `data/enrichment/skipped/<id>.json` met `{"article_id", "url", "reason", "checked_at"}` en ga door. Begin `reason` dan met "Niet te lezen": zo'n artikel komt na een week nog één keer terug op de werklijst.
    3. Valt het onder **Niet uitleggen**? Ook een `skipped`-bestand, met de regel als `reason`.
