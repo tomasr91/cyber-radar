@@ -1591,7 +1591,15 @@
    "published_raw": "Tue, 03 Nov 2026 16:28:44 -0500",
    "fetched_at": "2026-11-03T21:31:41.029642Z",
    "excerpt": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]"
+  },
+  "bleepingcomputer:221ad226855f": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "published_raw": "Tue, 03 Nov 2026 17:18:50 -0500",
+   "fetched_at": "2026-11-04T05:33:34.270274Z",
+   "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]"
   }
  },
- "updated_at": "2026-11-03T21:58:40.601647Z"
+ "updated_at": "2026-11-04T05:33:27.438806Z"
 }

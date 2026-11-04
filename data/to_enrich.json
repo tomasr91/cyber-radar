@@ -1,228 +1,217 @@
 {
- "generated_at": "2026-11-03T21:58:40.601647Z",
+ "generated_at": "2026-11-04T05:33:27.438806Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "62c945c0e6fb",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-03T21:28:44Z",
-   "excerpt": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence"
-   ]
-  },
-  {
-   "id": "a541865b6172",
-   "title": "Two critical RCEs in PHP core",
-   "url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-10-21T15:10:53Z",
-   "excerpt": "Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset.",
-   "preliminary_score": 78,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "f8af8b71c7c1",
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-10-21T18:23:55Z",
-   "excerpt": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .",
-   "preliminary_score": 78,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "1204de495376",
-   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+   "id": "b9ef27f8e596",
+   "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+   "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
    "source_id": "unit42",
    "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-10-21T14:00:24Z",
-   "excerpt": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .",
-   "preliminary_score": 78,
+   "published_at": "2026-10-16T17:47:54Z",
+   "excerpt": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .",
+   "preliminary_score": 76,
    "preliminary_topics": [
-    "exploited_vulnerabilities",
+    "attack_techniques",
+    "incidents_breaches",
+    "phishing_identity"
+   ]
+  },
+  {
+   "id": "d0e0e442d471",
+   "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+   "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-10-15T22:00:09Z",
+   "excerpt": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
+   "preliminary_score": 76,
+   "preliminary_topics": [
     "attack_techniques",
     "threat_intelligence",
-    "incident_response"
+    "malware"
    ]
   },
   {
-   "id": "3a059de067d0",
-   "title": "PHP2Shell - Critical vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619): detection, analysis, and remediation",
-   "url": "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
-   "source_id": "datadog_security_labs",
-   "source_name": "Datadog Security Labs",
-   "published_at": "2026-10-21T00:00:00Z",
-   "excerpt": "Learn about the two critical vulnerabilities in PHP dubbed PHP2Shell.",
-   "preliminary_score": 78,
+   "id": "93f85041859a",
+   "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
+   "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-10-14T16:00:00Z",
+   "excerpt": "Learn how business email compromise (BEC) attacks work, the warning signs to watch for, and how Huntress stops BEC with 24/7 identity threat detection.",
+   "preliminary_score": 75,
    "preliminary_topics": [
-    "vulnerabilities_cve",
     "siem_detection",
-    "vulnerability_management",
-    "web_software_security"
+    "phishing_identity"
    ]
   },
   {
-   "id": "4d33a21d5cc6",
-   "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-   "url": "https://www.huntress.com/blog/token-replay-spray",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-22T13:00:00Z",
-   "excerpt": "Huntress tracked a 10-week Microsoft 365 campaign pairing AiTM relays with token replay, rogue Entra devices, MFA tampering, and hidden inbox rules.",
-   "preliminary_score": 78,
+   "id": "5c07cdbef377",
+   "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+   "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-10-06T10:00:33Z",
+   "excerpt": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure. The post Blinder Tunnel Campaign Targets Iraqi Infrastructure appeared first on Unit 42 .",
+   "preliminary_score": 74,
    "preliminary_topics": [
+    "attack_techniques",
     "threat_intelligence",
-    "phishing_identity",
-    "cloud_attacks"
+    "malware"
    ]
   },
   {
-   "id": "6852a83cc063",
-   "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
-   "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-21T13:00:00Z",
-   "excerpt": "A Google search for Amazon business led to a ClickFix lure that dropped multiple malicious payloads onto the victim machine, including versions of Lumma Stealer and NetSupport Client RMM.",
-   "preliminary_score": 78,
+   "id": "892b2bea5cd6",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "source_id": "microsoft_threat_intel",
+   "source_name": "Microsoft Threat Intelligence",
+   "published_at": "2026-09-29T15:00:00Z",
+   "excerpt": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .",
+   "preliminary_score": 73,
    "preliminary_topics": [
+    "incidents_breaches",
+    "siem_detection",
     "threat_intelligence",
     "phishing_identity",
     "malware"
    ]
   },
   {
-   "id": "37b85c3ffeef",
-   "title": "There's only so much code: the rise in vulnerability numbers",
-   "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-10-20T15:31:22Z",
-   "excerpt": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? And what does the future look like?",
-   "preliminary_score": 77,
+   "id": "3a7221f54609",
+   "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-09-08T14:00:00Z",
+   "excerpt": "Executive Summary Since the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI), Google Threat Intelligence Group (GTIG) has observed forward leaning adversaries transition from basic prompting to agentic AI workflows and AI-enabled automation. In these operations, human-in-the-loop latency is dramatically reduced, compressing the traditional window for defenders to respond. In Q2 2026, GTIG observed threat actors compromise a cloud resource, then plan, build, and execute an agent-enabled mass credential harvesting campaign in under six hours. We also tracked UNC6780 using multiple tactics to trick AI coding assistants and large language model (LLM) security scanners into its open source software supply chain compromises. Threat actors are also increasingly targeting AI assets. GTIG observed adversaries with wide-ranging motivations target proprietary AI models and source code, exfiltrate application programming interface (API) credentials, and co-opt victim cloud environments to sustain unauthorized AI workloads. This shift underscores that enterprise AI assets—from model weights to cloud compute quotas—are high-value targets for espionage, ",
+   "preliminary_score": 71,
    "preliminary_topics": [
-    "vulnerabilities_cve"
+    "threat_intelligence",
+    "supply_chain"
    ]
   },
   {
-   "id": "0968634953ed",
-   "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
-   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-11-02T14:00:00Z",
+   "excerpt": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as \"LLMJacking.\" Spanning a variety of cloud and LLM providers, these intrusions impacted organizations in North America, South America, and Asia Pacific across the financial services, retail, technology, and transportation sectors. Unlike the gradual resource consumption associated with cryptojacking, LLMJacking can generate large spikes in fraudulent cloud charges in a matter of hours. Across individual incidents, we observed fraudulent charges associated with resource consumption exceeding $100,000 USD in a single day, with cumulative charges at some organizations reaching $1 million USD before access was revoked. Figure 1: Usage chart showing LLMJacking generating a spike in API requests Analyzing the criminal ecosystem behind these frontline compromises, and building upon previous reporting on the growing underground market for LLM credentials, Google Threat Intelligence Group (G",
+   "preliminary_score": 73,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence"
+   ]
+  },
+  {
+   "id": "dffecfa43dde",
+   "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+   "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
    "source_id": "unit42",
    "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-10-20T20:30:42Z",
-   "excerpt": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .",
-   "preliminary_score": 77,
+   "published_at": "2026-11-02T23:00:45Z",
+   "excerpt": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
+   "preliminary_score": 73,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "ransomware",
-    "edge_devices"
+    "incidents_breaches",
+    "threat_intelligence"
    ]
   },
   {
-   "id": "064bd0353dfc",
-   "title": "Introducing pathrunner: An AWS privilege escalation framework",
-   "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
-   "source_id": "datadog_security_labs",
-   "source_name": "Datadog Security Labs",
-   "published_at": "2026-10-20T00:00:00Z",
-   "excerpt": "Introducing pathrunner, a modular, cloud-native offensive security framework that automates the exploitation of AWS IAM privilege escalation paths.",
-   "preliminary_score": 77,
+   "id": "221ad226855f",
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T22:18:50Z",
+   "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+   "preliminary_score": 73,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "attack_techniques",
-    "cloud_attacks"
+    "incidents_breaches",
+    "malware"
    ]
   },
   {
-   "id": "82e9316ac12e",
-   "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
-   "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-21T04:00:00Z",
-   "excerpt": "Two critical PHP RCEs, CVE-2026-109618 and CVE-2026-109619, leaked before the patch. Learn what's known, who's exposed, and how to prepare now.",
-   "preliminary_score": 77,
+   "id": "d28d36f21992",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T14:00:00Z",
+   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "preliminary_score": 72,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "web_software_security"
+    "ransomware"
    ]
   },
   {
-   "id": "1fa3674c266e",
-   "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
-   "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
-   "source_id": "watchtowr_labs",
-   "source_name": "watchTowr Labs",
-   "published_at": "2026-10-09T17:31:14Z",
-   "excerpt": "Before we begin, yes - it's confusing. There are more vulnerabilities with watchTowr IDs in this blog post than there are CVE IDs (assigned by PaperCut), due to PaperCut bundling vulnerabilities and then patch bypasses for those same vulnerabilities into singular CVE IDs. Paper! It still exists. We have",
-   "preliminary_score": 76,
+   "id": "49d3fa00d3ef",
+   "title": "Harvard University data breach exposed info of 851,000 accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T10:53:25Z",
+   "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+   "preliminary_score": 72,
    "preliminary_topics": [
-    "vulnerabilities_cve"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "3b47cd8d755b",
-   "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
-   "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "id": "2767792b4606",
+   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-02T19:00:45Z",
+   "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+   "preliminary_score": 72,
+   "preliminary_topics": [
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "848edcd7f637",
+   "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
+   "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
+   "source_id": "the_record",
+   "source_name": "The Record (Recorded Future News)",
+   "published_at": "2026-11-03T16:42:00Z",
+   "excerpt": "North Korean attackers \"combined a range of techniques, including social engineering by fake recruitment interviews,\" Binance said about the multibillion-dollar crypto heist it discovered in October.",
+   "preliminary_score": 72,
+   "preliminary_topics": [
+    "threat_intelligence",
+    "phishing_identity"
+   ]
+  },
+  {
+   "id": "5b0ac3b976a1",
+   "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
    "source_id": "cisco_talos",
    "source_name": "Cisco Talos",
-   "published_at": "2026-10-15T18:00:00Z",
-   "excerpt": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
-   "preliminary_score": 76,
+   "published_at": "2026-10-31T12:00:00Z",
+   "excerpt": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+   "preliminary_score": 71,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
+    "vulnerability_management",
+    "malware"
    ]
   },
   {
-   "id": "580236cbddf9",
-   "title": "ARMORY CASTLE Exploits BeyondTrust",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
-   "source_id": "google_threat_intel",
-   "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-10-15T14:00:00Z",
-   "excerpt": "Written by: Jayson Frost, Bryce Greathouse, Brian Meyer, John Palmisano, Rajesh Rajeshirke, Steve Rasch, John Wolfram Introduction On October 15, BeyondTrust disclosed a vulnerability, CVE-2026-102764, impacting BeyondTrust Remote Support (formerly Bomgar) appliances. BeyondTrust Remote Support is an enterprise secure remote access solution that enables IT teams to securely access and troubleshoot remote endpoints. The successful exploitation of this vulnerability results in the arbitrary upload of files. During an incident response engagement, Mandiant identified evidence that ARMORY CASTLE, a suspected PRC-nexus espionage threat actor (formerly tracked as UNC5221 ), exploited this vulnerability as a zero-day, in late August 2026. This blog describes how ARMORY CASTLE escalated privileges and established persistent access to compromised BeyondTrust Remote Support appliances following exploitation of CVE-2026-102764, and provides actionable guidance for defenders. Organizations should prepare for potential widespread exploitation following this disclosure, as ARMORY CASTLE and other threat actors have historically conducted broad, opportunistic exploitation once the vulnerability b",
-   "preliminary_score": 76,
+   "id": "da5b67aa3d7a",
+   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-03T14:32:38Z",
+   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
+   "preliminary_score": 71,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "incidents_breaches",
-    "threat_intelligence",
-    "incident_response"
-   ]
-  },
-  {
-   "id": "b06c9cfc80a7",
-   "title": "Investigating Ephemeral Supply Chain Tampering",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
-   "source_id": "google_threat_intel",
-   "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-10-15T11:00:00Z",
-   "excerpt": "Written by: Tyler McLellan Introduction Google Threat Intelligence Group (GTIG) and Mandiant investigated a software supply chain compromise campaign targeting the update infrastructure belonging to AOMEI Technology between April 2026 and July 2026. The threat actor conducted repeated, short-burst configuration tampering against AOMEI origin servers. Each tampering window remained active for only five to ten minutes before reverting to authentic versions. This is the first time that we have encountered a software supply chain compromise that was implemented with these very short windows, effectively evading traditional point-in-time triage and automated file scanning. The campaign delivered a multi-stage payload chain involving the newly tracked CROSSROAD downloader and SHINYROAD backdoor. The threat actor iteratively modified its tradecraft, pivoting its staging infrastructure from cloud providers to dedicated domains and legitimate cloud storage. This evolving staging setup makes it particularly challenging for defenders to establish effective infrastructure-based blocking or network controls. We attribute this activity to a threat cluster we are tracking as UNC7017. Based on ava",
-   "preliminary_score": 76,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "malware",
-    "supply_chain"
+    "incidents_breaches"
    ]
   }
  ]
