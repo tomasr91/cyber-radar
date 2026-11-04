@@ -14,6 +14,7 @@ import json
 import math
 import os
 import sys
+from urllib.parse import urljoin
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -292,7 +293,10 @@ def build(provider_name: str, out_path, max_enrich: int = 15, now=None, conf=Non
     items = items + digests
     invalid_cache = []
     arts = []
+    src_url = {s["id"]: s.get("url") for s in conf.source_list}
     for raw in items:
+        if raw.get("url") and not str(raw["url"]).startswith("http") and src_url.get(raw.get("source_id")):
+            raw = {**raw, "url": urljoin(src_url[raw["source_id"]], raw["url"])}   # relatieve link uit een oude run
         try:
             a = normalize(raw)
         except (KeyError, AttributeError):

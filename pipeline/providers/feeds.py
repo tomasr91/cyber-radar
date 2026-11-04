@@ -8,6 +8,7 @@ import html
 import html.entities
 import re
 import urllib.error
+from urllib.parse import urljoin
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -128,6 +129,8 @@ def collect(config, getter=http_get) -> ProviderResult:
             continue
         try:
             got = parse_feed(getter(url), src["id"], checked_at)
+            for it in got:   # sommige feeds (o.a. DIVD) geven relatieve links: maak ze volledig
+                it["url"] = urljoin(src.get("url") or url, it["url"])
             items.extend(got)
             results.append({"source_id": src["id"], "status": "ok", "items": len(got), "message": f"{len(got)} items via {url}", "checked_at": checked_at})
         except urllib.error.HTTPError as e:
