@@ -1,0 +1,6 @@
+{
+  "article_id": "3a059de067d0",
+  "url": "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
+  "reason": "Zelfde ontwikkeling als 11af3bdb9908 (PHP2Shell, CVE-2026-109618 en CVE-2026-109619); geen nieuwe informatie ten opzichte van die uitleg.",
+  "checked_at": "2026-11-04T01:44:55Z"
+}

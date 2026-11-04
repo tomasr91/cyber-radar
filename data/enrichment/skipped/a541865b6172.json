@@ -1,0 +1,6 @@
+{
+  "article_id": "a541865b6172",
+  "url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+  "reason": "Zelfde ontwikkeling als 11af3bdb9908 (PHP2Shell, CVE-2026-109618 en CVE-2026-109619); dat stuk bevat al nieuwere informatie over misbruik.",
+  "checked_at": "2026-11-04T01:44:55Z"
+}

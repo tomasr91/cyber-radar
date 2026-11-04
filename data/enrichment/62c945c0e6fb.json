@@ -1,0 +1,90 @@
+{
+  "format_version": 2,
+  "article_id": "62c945c0e6fb",
+  "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+  "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
+  "story": [
+    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
+    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
+    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
+    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+  ],
+  "key_facts": [
+    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
+    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
+    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
+    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
+    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
+    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+  ],
+  "limitations": [
+    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
+    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
+    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
+    "Het onderzoek loopt nog."
+  ],
+  "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+  "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+  "region": "na",
+  "official_docs": [
+    {
+      "label": "WorkOS: securitybulletin 30 oktober 2026",
+      "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+    }
+  ],
+  "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity"
+  ],
+  "quality": {
+    "depth": 0.4,
+    "practicality": 0.7,
+    "novelty": 0.5
+  },
+  "development_key": "hack-workos-okt-2026",
+  "soort": "incident",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+  },
+  "showcase": {
+    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
+    "language": "log",
+    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
+  },
+  "terms": [
+    {
+      "term": "single sign-on",
+      "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+    },
+    {
+      "term": "AI-agent",
+      "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+      "term": "penetratietesten",
+      "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+      "term": "user agent",
+      "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    },
+    {
+      "term": "social engineering",
+      "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
+    },
+    {
+      "term": "CRM",
+      "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:44:55Z",
+  "prompt_version": "cyber-taak-v1"
+}

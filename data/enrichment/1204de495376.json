@@ -1,0 +1,83 @@
+{
+  "format_version": 2,
+  "article_id": "1204de495376",
+  "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+  "headline": "Crimineel laat AI-assistent hacks plannen en scripts schrijven",
+  "summary": "Unit 42 volgde een crimineel die met een 'gekraakt' AI-model inbraken plande en tools liet bouwen. Bij een Indiase universiteit haalde hij met een zwak beheerderswachtwoord een database met studentgegevens leeg.",
+  "story": [
+    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een aanvaller met de schuilnaam BUGSTER. Hij is volgens Unit 42 uit op geld en richtte zich vooral op doelwitten in India. Hij gebruikte AI-assistenten om aanvallen te plannen en tools te schrijven. Bevestigd is een inbraak bij een Indiase openbare universiteit. Daar kwam hij binnen met een zwak wachtwoord van een beheerder en haalde hij een MongoDB-database leeg, met onder meer duizenden gegevens van studenten en docenten.",
+    "AI-modellen hebben veiligheidsregels: ze weigeren te helpen bij aanvallen. BUGSTER omzeilde dat met een jailbreak. Hij overschreef de basisinstructies van het model, de system prompt. Hij testte meerdere modellen en schreef zelfs een script dat bijhield welk model weigerde. Uiteindelijk koos hij DeepSeek V4, dat hij via Telegram aanstuurde. Code liet hij maken in de programmeeromgeving Cursor, waarbij een eigen script de ingebouwde controles uitschakelde.",
+    "Bij een andere universiteit liet hij zien hoe eenvoudig verkenning kan zijn. WordPress, een veelgebruikt systeem voor websites, toont bij berichten de naam van de auteur. De directe lijst met gebruikers werd geblokkeerd door een WAF. Maar via de auteursvelden en een lijst met auteurspagina's vond hij toch 13 actieve gebruikers met hun echte naam. Daarna probeerde een zelfgebouwde tool 117 gebruikersnamen met 28 veelgebruikte wachtwoorden: een brute force-aanval. Eén combinatie werd als geldig gemeld. Een andere tool zocht op websites naar uitgelekte geheimen, zoals cloudsleutels in configuratiebestanden.",
+    "Unit 42 noemt de tools eenvoudig. Het effect kwam vooral van basisfouten bij de slachtoffers: zwakke wachtwoorden, een database die bereikbaar was en uitgelekte sleutels. In de logs van een webserver valt zo'n aanval op als een reeks inlogpogingen op dezelfde inlogpagina, vanaf één adres. Plannen voor telefoonfraude via VoIP en het kraken van wifi waren volgens Unit 42 nog in voorbereiding of alleen ingeschat. De les: AI verlaagt de drempel voor minder ervaren criminelen, maar de verdediging blijft de basis."
+  ],
+  "key_facts": [
+    "Unit 42 publiceerde het onderzoek op 21 oktober 2026; de aanvaller gebruikt de naam BUGSTER en is volgens Unit 42 financieel gemotiveerd.",
+    "Bevestigd: een inbraak bij een Indiase openbare universiteit via een beheerdersaccount met een zwak wachtwoord, waarbij een MongoDB-database met gegevens van studenten en docenten werd leeggehaald.",
+    "De aanvaller gebruikte DeepSeek V4 via het Hermes Agent-framework en Telegram, en omzeilde de veiligheidsregels met een aangepaste system prompt; code liet hij schrijven in Cursor.",
+    "Bij een andere Indiase universiteit vond hij 13 actieve WordPress-gebruikers ondanks een WAF-blokkade, en meldde een brute-forcetool met 117 gebruikersnamen en 28 wachtwoorden één geldige inlog.",
+    "VoIP-fraude was volgens Unit 42 nog in de planningsfase; wifi-kraken en het in kaart brengen van cryptobezitters zijn inschattingen van Unit 42."
+  ],
+  "limitations": [
+    "Unit 42 geeft geen data of tijdlijn van de aanvallen.",
+    "Of de geldige WordPress-inlog daarna is gebruikt, staat niet in het stuk.",
+    "Unit 42 is onderdeel van Palo Alto Networks en noemt eigen producten als bescherming."
+  ],
+  "personal_relevance": "Klanten vragen vaak of AI aanvallers 'superkrachten' geeft. Dit voorbeeld laat zien dat AI vooral het werk versnelt, en dat basismaatregelen zoals sterke wachtwoorden en afgeschermde databases nog steeds het verschil maken.",
+  "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "incidents_breaches"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.6,
+    "novelty": 0.7
+  },
+  "development_key": "bugster-ai-cybercrime-okt-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concreet voorbeeld van hoe aanvallers AI inzetten, met herkenbare aanvalsstappen."
+  },
+  "showcase": {
+    "caption": "Zo ziet een brute force-aanval op een WordPress-site eruit in het log van de webserver. Eerst vraagt de aanvaller de lijst met auteurspagina's op. Daarna volgen snel achter elkaar inlogpogingen. Een 200 betekent dat de inlogpagina terugkwam (mislukt), de 302 is een doorverwijzing na een geslaagde inlog.",
+    "language": "log",
+    "code": "203.0.113.25 - - [12/Oct/2026:03:10:02 +0000] \"GET /author-sitemap.xml HTTP/1.1\" 200 1840\n203.0.113.25 - - [12/Oct/2026:03:11:40 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:42 +0000] \"POST /wp-login.php HTTP/1.1\" 302 0",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen tijden; het onderzoek geeft geen logregels."
+  },
+  "terms": [
+    {
+      "term": "jailbreak",
+      "explanation": "Een truc om de veiligheidsregels van een AI-model te omzeilen, zodat het toch helpt bij iets wat het normaal weigert."
+    },
+    {
+      "term": "system prompt",
+      "explanation": "De basisinstructies die een AI-model vóór elk gesprek meekrijgt, bijvoorbeeld welke vragen het mag beantwoorden. Wie die kan overschrijven, kan het gedrag van het model veranderen."
+    },
+    {
+      "term": "WAF",
+      "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+      "term": "brute force",
+      "explanation": "Heel veel combinaties van gebruikersnaam en wachtwoord achter elkaar proberen tot er één werkt. Meestal geautomatiseerd met een script."
+    },
+    {
+      "term": "MongoDB",
+      "explanation": "Een veelgebruikte database die gegevens als documenten opslaat in plaats van in tabellen. Staat hij zonder goede beveiliging open, dan kan iedereen de gegevens uitlezen."
+    },
+    {
+      "term": "VoIP",
+      "explanation": "Voice over IP: bellen via internet in plaats van via het klassieke telefoonnet."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:44:55Z",
+  "prompt_version": "cyber-taak-v1"
+}

@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "article_id": "f8af8b71c7c1",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+  "headline": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI",
+  "summary": "Microsoft koppelt de inbraak bij ConnectWise Cloud Backup aan Storm-0940. Met gestolen identiteiten van ConnectWise-apps en de AI-tool ARTEX probeerde de groep in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten.",
+  "story": [
+    "Microsoft schrijft de inbraak bij ConnectWise Cloud Backup toe aan Storm-0940, een groep die volgens Microsoft aan de Chinese staat gelieerd is. De groep kreeg controle over de identiteiten van meerdere cloudapplicaties van ConnectWise. Daarmee probeerden AI-agenten van het framework ARTEX in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten. Volgens Microsoft zat er geen fout in de eigen systemen.",
+    "Hoe werkt dat normaal? Een back-updienst moet bij de mail en bestanden van klanten kunnen. Daarvoor registreert de leverancier één app die bij veel klanten tegelijk werkt. Elke klant geeft die app eenmalig toestemming. Daarna logt de app zelf in met een eigen sleutel, zonder gebruiker: dat heet app-only. In de klantomgeving bestaat de app als service principal, een soort serviceaccount. Wie de sleutel van zo'n app steelt, krijgt in één keer toegang bij alle klanten, zonder wachtwoord of MFA van een gebruiker. Dat maakt dit een supply chain-aanval: de aanvaller misbruikt vertrouwen dat al bestond.",
+    "In sommige omgevingen ging het verder dan inloggen. Via Microsoft Graph verkenden de agenten de omgeving, voegden ze extra inloggegevens aan apps toe en probeerden ze rechten te veranderen. Een app gaf zichzelf zelfs de rol Global Administrator. In Azure lazen ze in korte tijd geheimen uit meerdere Key Vaults. Microsoft telde meer dan 200 aanmeldingen in minder dan vier minuten. Daarnaast deed dezelfde infrastructuur van 10 tot 14 oktober aan password spraying: 151.000 mislukte pogingen, zonder succes.",
+    "Je ziet dit niet in de gewone aanmeldingen van gebruikers. Je moet kijken naar de aanmeldingen van service principals en naar de auditlogs van Entra: nieuwe sleutels op een app, nieuwe rollen en nieuwe toestemmingen. Koppel die aan wat er daarna via Graph gebeurt. Microsoft adviseert de getroffen apps uit te schakelen, maar niet meteen te verwijderen: eerst bewijs bewaren. Controleer vanaf minstens 15 oktober, en aanmeldingen van service principals zo mogelijk vanaf 1 oktober.",
+    "Voor organisaties is de les breder dan ConnectWise. Elke app van een leverancier met hoge rechten is een sleutel tot je omgeving. Een extra sleutel die een aanvaller aan zo'n app hangt, blijft werken als achterdeur, ook nadat de oorspronkelijke fout is opgelost. Weet dus welke apps welke rechten hebben, en geef ze niet meer dan nodig (least privilege)."
+  ],
+  "key_facts": [
+    "Microsoft publiceerde de analyse op 21 oktober 2026 en schrijft de ConnectWise-inbraak toe aan Storm-0940, volgens Microsoft gelieerd aan de Chinese staat en actief sinds 2021.",
+    "Het getroffen product is ConnectWise Cloud Backup; ConnectWise publiceerde op 16 oktober 2026 een eerste advies.",
+    "Met gestolen app-identiteiten probeerden ARTEX-agenten in te loggen bij meer dan 2.250 tenants; meer dan 200 aanmeldingen in minder dan vier minuten met vier app-sleutels.",
+    "In sommige omgevingen volgden verkenning via Microsoft Graph, extra inloggegevens op apps, rolwijzigingen (waaronder een app die zichzelf Global Administrator maakte) en het uitlezen van Azure Key Vaults.",
+    "Van 10 tot 14 oktober 2026: password spraying op 327 accounts bij acht organisaties, meer dan 151.000 mislukte pogingen en geen geslaagde aanmelding.",
+    "Microsoft zag meerdere gevallen waarin het minder dan drie uur duurde van eerste doelwit tot beheerdersrechten, maar de meeste pogingen mislukten."
+  ],
+  "limitations": [
+    "De toeschrijving aan Storm-0940 en aan de Chinese staat is een inschatting van Microsoft.",
+    "Hoe de aanvaller de app-identiteiten van ConnectWise in handen kreeg, staat niet in het stuk.",
+    "Een geslaagde aanmelding betekent volgens Microsoft niet automatisch dat er gegevens zijn ingezien of gestolen.",
+    "Microsoft noemt eigen beveiligingsproducten als oplossing; het stuk is ook reclame."
+  ],
+  "personal_relevance": "Veel klanten hebben apps van leveranciers met brede rechten in Microsoft 365. Een goede vraag: welke externe apps hebben bij jullie rechten op mail of de hele omgeving, en monitoren jullie wat die apps doen?",
+  "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "supply_chain",
+    "cloud_attacks",
+    "threat_intelligence",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.8
+  },
+  "development_key": "storm-0940-connectwise-okt-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
+  },
+  "showcase": {
+    "caption": "Een eenvoudige zoekopdracht in de auditlogs van Entra. Regel 1 kiest de auditlogs. Regel 2 kijkt vanaf 15 oktober. Regel 3 zoekt naar nieuwe sleutels op een app, nieuwe rollen en nieuwe app-rechten. Regel 4 houdt alleen wijzigingen over die door een app zijn gedaan, niet door een mens. Regel 5 toont wanneer, wat, wie en waarop.",
+    "language": "kql",
+    "code": "AuditLogs\n| where TimeGenerated > datetime(2026-10-15)\n| where OperationName in (\"Add service principal credentials\", \"Add member to role\", \"Add app role assignment to service principal\")\n| where isnotempty(InitiatedBy.app.displayName)\n| project TimeGenerated, OperationName, InitiatedBy, TargetResources",
+    "note": "Nagebouwd voorbeeld. Microsoft publiceert zelf uitgebreidere zoekopdrachten in het oorspronkelijke stuk."
+  },
+  "terms": [
+    {
+      "term": "app-only",
+      "explanation": "Een manier van inloggen waarbij een applicatie zelf inlogt met een eigen sleutel of certificaat, zonder dat er een gebruiker bij is. Er is dus ook geen MFA van een gebruiker."
+    },
+    {
+      "term": "service principal",
+      "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+      "term": "supply chain",
+      "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+      "term": "Microsoft Graph",
+      "explanation": "De centrale toegangsweg (API) tot gegevens in Microsoft 365, zoals mail, bestanden, gebruikers en groepen. Apps en beheertools gebruiken het, aanvallers ook."
+    },
+    {
+      "term": "Key Vaults",
+      "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+      "term": "password spraying",
+      "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:44:55Z",
+  "prompt_version": "cyber-taak-v1"
+}
