@@ -1,0 +1,94 @@
+{
+  "format_version": 2,
+  "article_id": "0968634953ed",
+  "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+  "headline": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto",
+  "summary": "Qilin en Inc misbruiken CVE-2026-0257 in GlobalProtect, de vpn van Palo Alto-firewalls. Door een fout in de controle van inlogcookies kunnen ze zonder wachtwoord of MFA een vpn-verbinding opzetten. De patch is er al sinds mei.",
+  "story": [
+    "Unit 42 meldt in een update van 19 en 20 oktober dat de ransomwaregroepen Qilin en Inc een lek in GlobalProtect misbruiken. GlobalProtect is de vpn van firewalls van Palo Alto Networks. Het lek, CVE-2026-0257, is sinds mei 2026 gepatcht en staat sinds 13 mei op de KEV-lijst. Op 29 mei verscheen een openbaar proof of concept. Sindsdien kan iedereen het lek veel makkelijker misbruiken.",
+    "Hoe werkt het normaal? Een medewerker logt met wachtwoord en MFA in op GlobalProtect. Om niet steeds opnieuw te hoeven inloggen, kan de beheerder 'authentication override' aanzetten. De medewerker krijgt dan een cookie: een klein bestandje dat later als inlogbewijs geldt. De firewall hoort te controleren of dat cookie echt is en niet is aangepast. Volgens Palo Alto Networks deed hij dat niet goed. De fix voegt daarom een strenge HMAC-controle toe. Gevolg: een aanvaller zonder account kan een vpn-verbinding opzetten en zo ook MFA omzeilen. Alleen firewalls met deze cookies aan en een bepaalde certificaatinstelling zijn kwetsbaar.",
+    "Na binnenkomst zag Unit 42 een bekend patroon. De aanvallers verkennen het netwerk met RMM-tools, doen aan laterale beweging via RDP en SMB, verzamelen wachtwoorden, stelen gegevens en zetten ransomware in. In één geval gingen ze van de vpn naar vCenter, het beheersysteem van virtuele servers. Ze zetten beveiliging op de ESXi-servers uit en lazen de virtuele schijf van een domeincontroller offline uit om wachtwoorden te stelen. Zo omzeil je EDR die binnen de virtuele machine draait.",
+    "Hoe zie je het? Zoek in de GlobalProtect-logs naar geslaagde verbindingen met vreemde apparaatnamen of hardware-id's. Het openbare proof of concept gebruikt vaste waarden, zoals de naam \"DESKTOP-GP01\" en het id 00:11:22:33:44:55, met een leeg domein. Patch, of gebruik een apart certificaat alleen voor deze cookies, of zet authentication override uit. Controleer ook of de beheerinterface niet onbedoeld via poort 4443 of 3879 op internet staat.",
+    "Dit is een les in prioriteren. Het lek was al vijf maanden bekend, stond op de KEV-lijst en had een openbaar proof of concept. Een vpn staat per definitie open naar internet. Dat zijn drie redenen om zo'n lek bovenaan de lijst te zetten, ook al is de CVSS-score 'maar' 7,8."
+  ],
+  "key_facts": [
+    "CVE-2026-0257 is een authenticatie-omzeiling in het portal en de gateway van GlobalProtect in PAN-OS; gepubliceerd op 13 mei 2026, CVSS 4.0-score 7,8 (Palo Alto Networks).",
+    "Het lek speelt alleen als authentication override-cookies in gebruik zijn met een bepaalde certificaatconfiguratie; Panorama en Cloud NGFW zijn niet getroffen.",
+    "CISA zette het lek op 13 mei 2026 op de KEV-lijst; een proof of concept verscheen op 29 mei 2026.",
+    "Unit 42 (update 19 oktober 2026): Spikey Scorpius (Qilin) en Tarnished Scorpius (Inc) misbruiken het lek voor toegang, gevolgd door RMM-tools, RDP en SMB, wachtwoorddiefstal, datadiefstal en ransomware.",
+    "In één geval gingen aanvallers door naar vCenter, schakelden ze beveiliging op ESXi uit en lazen ze de virtuele schijf van een domeincontroller offline uit; ook werd Veeam-lek CVE-2023-27532 gebruikt.",
+    "Unit 42 (update 20 oktober 2026): de beheerinterface kan door een configuratiefout via poort 4443 en 3879 vanaf internet bereikbaar zijn."
+  ],
+  "limitations": [
+    "Hoeveel organisaties zijn getroffen en hoeveel firewalls nog kwetsbaar zijn, staat niet in het stuk.",
+    "Palo Alto Networks legt niet in detail uit welke certificaatinstelling het lek mogelijk maakt.",
+    "ReliaQuest koppelt het misbruik ook aan Settra-ransomware; Unit 42 bevestigt dat niet.",
+    "Unit 42 hoort bij de leverancier van het kwetsbare product."
+  ],
+  "personal_relevance": "Een goed voorbeeld voor klantgesprekken over prioriteren: een lek met een middelhoge score, maar op de KEV-lijst, met openbare aanvalscode en in een systeem aan de rand van het netwerk. Vraag klanten hoe snel zulke lekken bij hen gepatcht worden.",
+  "takeaway": "Een inlogcookie werkt als een toegangspas; controleert de server niet of die echt is, dan kan een aanvaller er zelf een maken. Bij edge-apparaten zoals vpn's wegen misbruik en bereikbaarheid zwaarder dan de CVSS-score.",
+  "region": "world",
+  "official_docs": [
+    {
+      "label": "Palo Alto Networks: advies CVE-2026-0257",
+      "url": "https://security.paloaltonetworks.com/CVE-2026-0257"
+    }
+  ],
+  "topics": [
+    "exploited_vulnerabilities",
+    "edge_devices",
+    "ransomware",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.75,
+    "practicality": 0.9,
+    "novelty": 0.6
+  },
+  "development_key": "cve-2026-0257-pan-os-globalprotect",
+  "soort": "kwetsbaarheid",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; actief misbruikt lek in een vpn met een duidelijke les over prioriteren."
+  },
+  "showcase": {
+    "caption": "Zo kan een verdachte vpn-verbinding eruitzien in een vereenvoudigd GlobalProtect-log. Let op de vaste waarden van het openbare proof of concept: de apparaatnaam, het hardware-id en het lege domein.",
+    "language": "log",
+    "code": "2026/10/12 02:14:33 globalprotect gateway-connected user=j.jansen src=203.0.113.44 host_id=00:11:22:33:44:55 machine=DESKTOP-GP01 os=\"Microsoft Windows 10 Pro 64-bit\" domain=\"\" status=success",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde veldnamen. De apparaatnaam, het id, het besturingssysteem en het lege domein komen uit het stuk van Unit 42."
+  },
+  "terms": [
+    {
+      "term": "proof of concept",
+      "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+      "term": "cookie",
+      "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+      "term": "HMAC",
+      "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+      "term": "laterale beweging",
+      "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+      "term": "vCenter",
+      "explanation": "Het centrale beheersysteem van VMware waarmee je alle virtuele servers op ESXi-hosts beheert. Wie het beheerst, heeft vaak toegang tot het hele serverpark."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:47:36Z",
+  "prompt_version": "cyber-taak-v1"
+}

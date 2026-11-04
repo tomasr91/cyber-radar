@@ -1,0 +1,86 @@
+{
+  "format_version": 2,
+  "article_id": "6852a83cc063",
+  "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+  "headline": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando",
+  "summary": "Een advertentie in Google leidde naar een nagemaakte Amazon-pagina met een nep-CAPTCHA. Wie de instructies volgde, startte zelf een keten die eindigde in een wachtwoorddief en software voor overname op afstand.",
+  "story": [
+    "Huntress beschrijft een campagne die begint bij Google. Een gesponsord zoekresultaat voor \"amazon business\" leidde naar een nagemaakte Amazon-inlogpagina op Google Sites. Na het invullen van een e-mailadres verscheen een nep-CAPTCHA. Minstens drie klanten van Huntress zijn de afgelopen maanden getroffen. Google heeft de advertentie inmiddels verwijderd.",
+    "Dit heet ClickFix. Een klik op \"I'm not a robot\" kopieert stilletjes een opdracht naar het klembord. Daarna vraagt de pagina om het Uitvoeren-venster van Windows te openen, te plakken en op Enter te drukken. Het slachtoffer start de aanval dus zelf. Dat omzeilt beveiliging die vooral let op gedownloade bestanden. De opdracht was opgevuld met spaties en streepjes, zodat in het venster alleen een onschuldige zin zichtbaar was. Ze gebruikte finger.exe: een oud Windows-hulpprogramma dat via poort 79 informatie over een gebruiker op een andere computer opvraagt. De server van de aanvaller antwoordde met tekst die in werkelijkheid een script was, en dat script werd uitgevoerd.",
+    "Daarna volgde een lange keten. Het script haalde een legitieme Python-versie van GitHub op, vermomd als pdf, en startte een verborgen loader. Die laadde de Doina-loader in het geheugen. Vervolgens kwam een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde: een infostealer die wachtwoorden, browsergegevens en cryptowallets steelt. Ook werd een illegale kopie van NetSupport geïnstalleerd, een RMM-programma voor overname op afstand. De server voegde bij elke download willekeurige bytes toe. Zo had elk bestand een andere hash, en heb je weinig aan een lijst met bekende hashes.",
+    "Hoe zie je het? Huntress raadt aan te alarmeren op het gebruik van finger.exe en op uitgaand verkeer via poort 79. Dat komt in de meeste netwerken bijna nooit voor. Verkeer via poort 725 kan op NetSupport wijzen. Je kunt het Uitvoeren-venster blokkeren voor gebruikers die het niet nodig hebben, al stopt dat varianten via PowerShell niet. En de belangrijkste les voor gebruikers: geen echte CAPTCHA vraagt je om tekst in een opdrachtvenster te plakken."
+  ],
+  "key_facts": [
+    "Huntress publiceerde het onderzoek op 21 oktober 2026; minstens drie Huntress-klanten zijn de afgelopen maanden getroffen.",
+    "De keten begon met een gesponsord Google-resultaat voor \"amazon business\" en een nagemaakte Amazon-pagina op Google Sites; Google heeft de advertentie verwijderd.",
+    "De ClickFix-opdracht gebruikte finger.exe; finger werkt standaard via TCP-poort 79.",
+    "Geïnstalleerde onderdelen: een Python-loader, de Doina-loader, een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde, en een illegale kopie van NetSupport Client die via TCP-poort 725 communiceerde.",
+    "De server voegde willekeurige null-bytes toe, waardoor elke download een unieke hash had.",
+    "Huntress: ClickFix was dit jaar goed voor ongeveer 2,2 procent van de detectiesignalen in zijn EDR-dienst."
+  ],
+  "limitations": [
+    "Huntress beschrijft niet hoe de malware zich na een herstart handhaaft.",
+    "Dat de eindlading Lumma Stealer is, noemt Huntress 'vermoedelijk'.",
+    "De macOS-variant van de aanval kon niet worden onderzocht, omdat de lading offline was.",
+    "Een deel van de aanbevelingen verwijst naar een product van Huntress."
+  ],
+  "personal_relevance": "ClickFix komt in veel incidenten terug. Met dit voorbeeld kun je klanten uitleggen waarom detectie op ongewone ingebouwde Windows-programma's en ongewone poorten waardevol is, naast bewustwording bij gebruikers.",
+  "takeaway": "Bij ClickFix voert het slachtoffer zelf de aanval uit, vaak met een ingebouwd Windows-programma. Detectie werkt daarom beter op gedrag (welk programma maakt welke verbinding) dan op bekende bestanden.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "phishing_identity",
+    "malware",
+    "attack_techniques",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
+  "development_key": "clickfix-finger-amazon-okt-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen met heldere detectiesignalen."
+  },
+  "showcase": {
+    "caption": "Een eenvoudige Sigma-regel die alarm slaat als finger.exe wordt gestart. Regel 1 tot 4 geven naam en ernst. Logsource zegt dat het om het starten van processen op Windows gaat. Bij selection staat waarop gezocht wordt: een programma waarvan het pad eindigt op finger.exe. Condition zegt dat dat genoeg is voor een melding.",
+    "language": "sigma",
+    "code": "title: Start van finger.exe\nstatus: experimental\ndescription: Finger wordt bijna nooit legitiem gebruikt en komt voor in ClickFix-aanvallen\nlevel: high\nlogsource:\n  product: windows\n  category: process_creation\ndetection:\n  selection:\n    Image|endswith: '\\finger.exe'\n  condition: selection",
+    "note": "Nagebouwd voorbeeld op basis van het advies van Huntress om op finger.exe te alarmeren; het stuk geeft zelf geen detectieregel."
+  },
+  "terms": [
+    {
+      "term": "CAPTCHA",
+      "explanation": "Een controle op websites die moet aantonen dat er een mens achter de computer zit, bijvoorbeeld een vinkje 'I'm not a robot' of het herkennen van plaatjes."
+    },
+    {
+      "term": "ClickFix",
+      "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+      "term": "poort",
+      "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites."
+    },
+    {
+      "term": "loader",
+      "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend."
+    },
+    {
+      "term": "infostealer",
+      "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+    },
+    {
+      "term": "RMM",
+      "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:47:36Z",
+  "prompt_version": "cyber-taak-v1"
+}

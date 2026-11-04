@@ -1,0 +1,78 @@
+{
+  "format_version": 2,
+  "article_id": "37b85c3ffeef",
+  "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+  "headline": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt",
+  "summary": "Het aantal gepubliceerde kwetsbaarheden is dit jaar meer dan verdubbeld, volgens Cisco Talos vooral door AI die oude code doorzoekt. Het aantal lekken dat echt wordt misbruikt, groeit veel minder snel.",
+  "story": [
+    "Microsoft publiceerde bij Patch Tuesday in september 975 kwetsbaarheden en in oktober 1.415. Vóór juni waren het er gemiddeld zo'n 100 per maand. Wereldwijd verschenen dit jaar 105 procent meer CVE-nummers dan vorig jaar. Cisco Talos ziet de oorzaak vooral bij AI-modellen die sinds ongeveer april gericht worden ingezet om kwetsbaarheden te vinden. Die werken zich door oude code van grote, veelgebruikte producten.",
+    "Waarom vindt AI zoveel? Een menselijke onderzoeker leest code met aannames over wat 'wel goed zal zitten'. Een AI-model kan veel code snel doorlopen en slaat die aannames over. Talos denkt dat de piek tijdelijk is: er is maar zoveel oude code. Het vergelijkt dit met format string-fouten, een soort fout die in 2000 werd ontdekt, rond 2005 piekte en daarna afnam. Talos zegt er wel bij dat niemand de toekomst kent.",
+    "Het belangrijkste punt: ontdekken is niet hetzelfde als misbruiken. Van de 975 Microsoft-adviezen in september werden er volgens Talos 3 al misbruikt. De KEV-lijst groeide dit jaar 37 procent, veel minder dan het aantal CVE's. In een ander stuk wijst Talos erop dat ongeveer een derde van de lekken op de KEV-lijst uit 2025 of eerder stamt. Oude, ongepatchte lekken blijven dus een groot probleem. Tegelijk gebruiken aanvallers AI om nieuwe patches sneller te analyseren, waardoor de tijd tussen patch en misbruik korter kan worden.",
+    "Voor vulnerability management betekent dit: je kunt niet alles tegelijk patchen, dus prioriteren wordt belangrijker. Talos raadt aan voorrang te geven aan wat in jouw omgeving echt misbruikt kan worden, en tussentijds te beschermen met IPS-regels en detectie op afwijkend gedrag. Voor ontwikkelaars: laat nieuwe code door AI controleren, minstens zo goed als de modellen die aanvallers gebruiken."
+  ],
+  "key_facts": [
+    "Microsoft Patch Tuesday bevatte in september 2026 975 en in oktober 2026 1.415 kwetsbaarheden; vóór juni gemiddeld ongeveer 100 per maand (Talos, 20 oktober 2026).",
+    "Het aantal gepubliceerde CVE's steeg 105 procent ten opzichte van vorig jaar; de KEV-lijst groeide 37 procent.",
+    "Van de 975 Microsoft-adviezen in september werden er 3 al in het wild misbruikt.",
+    "Talos schrijft de stijging vooral toe aan AI-modellen die sinds ongeveer april voor het vinden van kwetsbaarheden worden gebruikt, vooral in oude code.",
+    "Ongeveer een derde (33 procent) van de KEV-vermeldingen in 2026 betreft CVE's uit 2025 of eerder (Talos Q3 Vulnerability Pulse, 15 oktober 2026)."
+  ],
+  "limitations": [
+    "Dat de stijging tijdelijk is, is een verwachting van Talos, geen vaststaand feit.",
+    "De KEV-lijst telt unieke kwetsbaarheden, niet hoe vaak ze worden misbruikt.",
+    "Talos noemt eigen Cisco-producten als tussentijdse bescherming."
+  ],
+  "personal_relevance": "Klanten met vulnerability management zien hun lijsten exploderen. Dit stuk helpt het gesprek te voeren over prioriteren op misbruik en bereikbaarheid in plaats van op aantallen en scores.",
+  "takeaway": "Meer gevonden lekken betekent niet evenveel meer risico: slechts een klein deel wordt echt misbruikt. Prioriteren op bewezen misbruik (zoals de KEV-lijst) en op wat in je eigen omgeving bereikbaar is, wordt daardoor belangrijker.",
+  "region": "world",
+  "official_docs": [
+    {
+      "label": "Cisco Talos: The Q3 Vulnerability Pulse",
+      "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/"
+    }
+  ],
+  "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.9,
+    "novelty": 0.7
+  },
+  "development_key": "cve-stijging-ai-okt-2026",
+  "soort": "achtergrond",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; gaat over prioriteren in vulnerability management, de kern van je werkcontext."
+  },
+  "terms": [
+    {
+      "term": "Patch Tuesday",
+      "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+      "term": "CVE-nummers",
+      "explanation": "Unieke nummers voor openbaar bekende kwetsbaarheden, zoals CVE-2026-0257. Zo weet iedereen over welk lek het gaat."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "format string",
+      "explanation": "Een soort programmeerfout waarbij invoer van een gebruiker als opmaakinstructie wordt gelezen. Daardoor kan een aanvaller geheugen uitlezen of soms code laten uitvoeren."
+    },
+    {
+      "term": "IPS",
+      "explanation": "Intrusion prevention system: een netwerkfilter dat bekende aanvalspatronen in het verkeer herkent en blokkeert, ook voordat een lek is gepatcht."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:47:36Z",
+  "prompt_version": "cyber-taak-v1"
+}

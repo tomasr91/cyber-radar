@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "article_id": "4d33a21d5cc6",
+  "url": "https://www.huntress.com/blog/token-replay-spray",
+  "headline": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties",
+  "summary": "Huntress volgde tien weken een campagne tegen Microsoft 365. De aanvaller stal tokens die al na MFA waren uitgegeven, gebruikte ze op grote schaal opnieuw en bouwde daarna stille achterdeuren in.",
+  "story": [
+    "Huntress volgde van 14 juli tot 22 september 2026 een campagne tegen Microsoft 365-accounts. Huntress reageerde op incidenten bij 79 organisaties en telde minstens 497 geslaagde aanmeldingen, tegenover ruim 200.000 mislukte pogingen. De aanvaller raadde geen wachtwoorden. Hij gebruikte gestolen tokens opnieuw.",
+    "Hoe werkt inloggen normaal? Je geeft je wachtwoord en bevestigt met MFA. Daarna geeft Microsoft je een token: een digitaal toegangsbewijs, zodat je niet bij elke klik opnieuw hoeft in te loggen. Bij adversary-in-the-middle (AiTM) zet de aanvaller een nep-inlogpagina tussen jou en Microsoft. Die stuurt alles door, ook de MFA-vraag. Jij logt dus echt in, maar het token komt ook bij de aanvaller terecht. Omdat dat token al ná MFA is uitgegeven, hoeft hij MFA niet meer te passeren. Huntress zag ook tokens uit device code phishing. Binnen vier tot twaalf minuten na de diefstal gebruikten servers bij een hostingbedrijf de tokens opnieuw.",
+    "Daarna bouwde de aanvaller stille achterdeuren. Hij registreerde nep-apparaten in Entra, 48 in totaal, met namen als \"DESKTOP-\" plus acht tekens. Windows gebruikt standaard zeven. Bij 19 organisaties wiste hij de MFA-methoden van het slachtoffer en registreerde hij een eigen authenticator. Ook maakte hij verborgen inbox-regels met namen als \".\" of \"sss\". Die verplaatsten mail over salaris, bank of bonus naar weinig bekeken mappen. Een nieuw wachtwoord alleen haalt die apparaten en MFA-methoden niet weg.",
+    "Waar zie je het? In de aanmeldlogs: aanmeldingen vanaf hostingadressen met de user agent \"node\" of alleen \"Mozilla/5.0\", plotseling een ander besturingssysteem in dezelfde sessie, en MFA-methoden die binnen minuten worden gewist en opnieuw geregistreerd. Huntress raadt aan te reageren op geldige inloggegevens, niet op het aantal pogingen. Foutcode AADSTS53003 betekent bijvoorbeeld dat het inloggen zelf lukte, maar dat Conditional Access het blokkeerde. Opruimen betekent: sessies intrekken, wachtwoord resetten én apparaten, MFA-methoden en inbox-regels controleren.",
+    "Voor organisaties is de les dat MFA niet het eindpunt is. Een aanvaller met een geldig token is gewoon ingelogd. Wie na een incident alleen het wachtwoord reset, laat de achterdeuren staan."
+  ],
+  "key_facts": [
+    "Huntress volgde de campagne van 14 juli tot 22 september 2026 en reageerde op incidenten bij 79 organisaties.",
+    "Minstens 497 geslaagde aanmeldingen tegenover meer dan 200.000 mislukte pogingen.",
+    "Tokens kwamen uit AiTM-relays, device code phishing en social engineering; de tijd tussen diefstal en hergebruik was 12 minuten (21 juli) en 4 minuten (22 september).",
+    "48 nep-apparaten in Entra met de naam \"DESKTOP-\" plus acht hexadecimale tekens; bij 19 organisaties werden MFA-methoden gewist en vervangen.",
+    "Verborgen inbox-regels met korte namen verplaatsten of verwijderden mail, onder meer over salaris, bank en bonus.",
+    "Huntress: een wachtwoordreset alleen verwijdert geregistreerde apparaten en MFA-methoden van de aanvaller niet."
+  ],
+  "limitations": [
+    "Huntress noemt geen sectoren van de slachtoffers.",
+    "De cijfers over fase 3 verschillen binnen het stuk (303 aanmeldingen bij 29 organisaties, elders 232 bij 28).",
+    "Wie achter de campagne zit, is niet bevestigd; de link met een Duits hostingbedrijf is context, geen toeschrijving.",
+    "Huntress verkoopt zelf detectie en respons voor identiteiten."
+  ],
+  "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen accountovername. Dit stuk helpt uitleggen waarom detectie op aanmeldgedrag en goed opruimen na een incident net zo belangrijk zijn.",
+  "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "phishing_identity",
+    "cloud_attacks",
+    "siem_detection",
+    "incident_response"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.9,
+    "novelty": 0.7
+  },
+  "development_key": "m365-token-replay-huntress-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
+  },
+  "showcase": {
+    "caption": "Een vereenvoudigde weergave van drie aanmeldingen van één gebruiker. De eerste is de echte inlog. Vier minuten later volgt een aanmelding vanaf een hostingadres met user agent \"node\". Daarna wordt een nieuw apparaat geregistreerd met een naam van acht tekens na DESKTOP-.",
+    "language": "log",
+    "code": "09:12:04 user=a.devries ip=198.51.100.23 (thuisprovider) app=OfficeHome ua=\"Chrome/Windows\" result=success mfa=ok\n09:16:11 user=a.devries ip=203.0.113.77 (hosting) app=\"Microsoft Office\" ua=\"node\" request=OAuth2:Token result=success\n09:17:30 user=a.devries ip=203.0.113.77 (hosting) resource=\"Device Registration Service\" device=DESKTOP-4F9A0C2E result=success",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en vereenvoudigde veldnamen. De waarden (user agent, verzoektype, apparaatnaam) volgen de patronen uit het onderzoek."
+  },
+  "terms": [
+    {
+      "term": "token",
+      "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+      "term": "MFA",
+      "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+      "term": "adversary-in-the-middle",
+      "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
+    },
+    {
+      "term": "device code phishing",
+      "explanation": "Misbruik van de inlogmethode voor apparaten zonder toetsenbord: het slachtoffer voert een code van de aanvaller in op een echte Microsoft-pagina en geeft zo toegang."
+    },
+    {
+      "term": "Entra",
+      "explanation": "Microsoft Entra ID, voorheen Azure AD: de dienst die bijhoudt wie mag inloggen op Microsoft 365 en welke apparaten bij een organisatie horen."
+    },
+    {
+      "term": "Conditional Access",
+      "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:47:36Z",
+  "prompt_version": "cyber-taak-v1"
+}
