@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T05:33:27.438806Z",
+ "generated_at": "2026-11-04T05:38:04.805396Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -145,73 +145,6 @@
    "preliminary_score": 72,
    "preliminary_topics": [
     "ransomware"
-   ]
-  },
-  {
-   "id": "49d3fa00d3ef",
-   "title": "Harvard University data breach exposed info of 851,000 accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-03T10:53:25Z",
-   "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
-   "preliminary_score": 72,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "2767792b4606",
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-02T19:00:45Z",
-   "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-   "preliminary_score": 72,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "848edcd7f637",
-   "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
-   "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-   "source_id": "the_record",
-   "source_name": "The Record (Recorded Future News)",
-   "published_at": "2026-11-03T16:42:00Z",
-   "excerpt": "North Korean attackers \"combined a range of techniques, including social engineering by fake recruitment interviews,\" Binance said about the multibillion-dollar crypto heist it discovered in October.",
-   "preliminary_score": 72,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "5b0ac3b976a1",
-   "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-10-31T12:00:00Z",
-   "excerpt": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
-   "preliminary_score": 71,
-   "preliminary_topics": [
-    "vulnerability_management",
-    "malware"
-   ]
-  },
-  {
-   "id": "da5b67aa3d7a",
-   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-03T14:32:38Z",
-   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
-   "preliminary_score": 71,
-   "preliminary_topics": [
-    "incidents_breaches"
    ]
   }
  ]
