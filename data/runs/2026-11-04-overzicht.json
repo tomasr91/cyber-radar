@@ -1,0 +1,3 @@
+{"task": "overzicht", "started_at": "2026-11-04T03:22:49Z", "finished_at": "2026-11-04T03:24:21Z",
+ "status": "ok", "summary": "2 trends bijgewerkt (AI-agenten bij inbraken en misbruikte vpn- en randapparaten); geen verzoeken voor de interesses en geen stukken zonder begrippen.",
+ "counts": {"trends": 2, "interesses_aangepast": 0, "begrippen_aangevuld": 0}, "problems": ["data/feed.json is van 3 november, omdat het vers ophalen vannacht mislukte; de trends gebruiken ook de 10 uitlegbestanden van vannacht, die in de app verschijnen zodra de feed weer wordt gebouwd."]}
