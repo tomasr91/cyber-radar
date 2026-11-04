@@ -1,0 +1,12 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-04T01:22:35Z",
+  "finished_at": "2026-11-04T01:50:30Z",
+  "status": "deels",
+  "summary": "10 artikelen uitgelegd en 5 overgeslagen, op basis van de werklijst van gisteren omdat vers ophalen mislukte.",
+  "counts": {"uitgelegd": 10, "overgeslagen": 5},
+  "problems": [
+    "Vers ophalen aangevraagd, maar de workflow 'Radar bijwerken' stopte bij de stap Tests: test_feed_contract faalt omdat artikel 5ab695849a1f (DIVD) in data/feed.json een relatieve url heeft (/newsroom/articles/when-no-if/). Dit zit in de pipeline of feed en valt buiten wat deze taak mag aanpassen.",
+    "Daardoor is de werklijst van 3 november gebruikt; nieuwe artikelen van vannacht zijn niet opgehaald."
+  ]
+}
