@@ -1,0 +1,84 @@
+{
+  "format_version": 2,
+  "article_id": "1fa3674c266e",
+  "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+  "headline": "Printsoftware PaperCut: patches voor misbruikte lekken telkens omzeild",
+  "summary": "Na misbruik van lekken in PaperCut NG vond watchTowr steeds nieuwe manieren om de patches te omzeilen. Samen gaven ze een aanvaller zonder inlog volledige controle over de server. Versie 26.0.5 lost de laatste fout op.",
+  "story": [
+    "PaperCut is software om printen te beheren. Scholen, ziekenhuizen, overheden en bedrijven gebruiken het. Op 27 augustus meldde PaperCut dat versie 26.0.3 in het wild werd misbruikt. Volgens watchTowr ging het om een authenticatie-omzeiling (CVE-2026-81578) en een lek waarmee een ingelogde gebruiker opdrachten kon uitvoeren (CVE-2026-82078). Onderzoekers van watchTowr bekeken de patches en vonden steeds nieuwe manieren om ze te omzeilen. Pas versie 26.0.5 van 10 september dicht de laatste fout.",
+    "Hoe werkt het? Een webapplicatie hoort bij elke beheerpagina te controleren of je bent ingelogd. PaperCut gebruikt het framework Apache Tapestry 3. Volgens watchTowr controleerde PaperCut alleen de pagina die in het verzoek werd genoemd. Via een openbare pagina kon je zo formulieren van beveiligde pagina's bereiken. De patches voegden controles toe, maar vergaten de pagina's van de installatiewizard. Daarmee kon een aanvaller de installatie opnieuw doorlopen en een eigen wachtwoord voor de beheerder instellen.",
+    "Als beheerder kon hij daarna verder. Bij de functie Scan-to-Fax werd een naam die de gebruiker opgaf niet gecontroleerd. Met path traversal kon die naam naar elk programma op de server wijzen. Samen met een aanpasbare instelling leidde dat tot het uitvoeren van opdrachten op de server. De hele keten werkte dus zonder inlog: RCE vóór authenticatie. De les van watchTowr: wie alleen het gemelde symptoom repareert en niet de oorzaak, krijgt dezelfde fout terug.",
+    "Hoe zie je het? PaperCut deelde aanwijzingen in de vorm van stukjes uit de logs, plus tijdelijke maatregelen. Let vooral op activiteit rond de installatiewizard en de Scan-to-Fax-instellingen, en op een beheerderswachtwoord dat onverwacht verandert. watchTowr maakte een gratis controletool die test of een server kwetsbaar is voor de authenticatie-omzeiling. Update naar 26.0.5 of later en controleer of je build alle fixes bevat. watchTowr zag het misbruik ook in zijn eigen honeypots.",
+    "PaperCut was al eerder doelwit: lekken uit 2023 werden misbruikt, onder meer door ransomwaregroepen. Printservers worden vaak vergeten in patchrondes, terwijl ze in het netwerk van bijna elke school en elk ziekenhuis staan."
+  ],
+  "key_facts": [
+    "PaperCut meldde op 27 augustus 2026 misbruik in het wild van versie 26.0.3; watchTowr noemt CVE-2026-81578 (authenticatie-omzeiling) en CVE-2026-82078 (RCE na inloggen).",
+    "watchTowr vond patch-omzeilingen WT-2026-0141 en WT-2026-0142 (opgelost in 26.0.4-PO build 76508, 28 augustus), WT-2026-0143 (build 76530, 1 september) en WT-2026-0144/CVE-2026-82077 (versie 26.0.5, 10 september).",
+    "WT-2026-0143 maakte het mogelijk de installatiewizard opnieuw te doorlopen en het beheerderswachtwoord te wijzigen; CVE-2026-82077 zit in Scan-to-Fax en leidt tot het uitvoeren van opdrachten op het besturingssysteem.",
+    "Samen vormden ze een keten voor het uitvoeren van code zonder inlog op 26.0.4-PO build 76508.",
+    "watchTowr zag misbruik in het wild in zijn honeypotnetwerk; eerdere PaperCut-lekken (CVE-2023-27350, CVE-2023-27351) werden ook misbruikt.",
+    "Publicatie watchTowr: 9 oktober 2026."
+  ],
+  "limitations": [
+    "Of versie 26.0.5 ook de fix voor WT-2026-0143 bevat, staat niet in het stuk.",
+    "Het stuk noemt één CVE-nummer op twee manieren (81578 en 81579).",
+    "Of de patch-omzeilingen zelf in het wild zijn misbruikt, is niet duidelijk.",
+    "watchTowr verkoopt zelf diensten voor het vinden van kwetsbaarheden."
+  ],
+  "personal_relevance": "Printbeheer staat zelden bovenaan bij vulnerability management. Dit is een goed voorbeeld om met klanten te bespreken of ook 'saaie' interne software met een webinterface in hun scans en patchrondes zit.",
+  "takeaway": "Een patch die alleen het gemelde symptoom repareert, laat de oorzaak vaak staan; aanvallers en onderzoekers zoeken dan de volgende ingang. Een gepatcht systeem is dus pas veilig als de onderliggende fout echt is opgelost.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "web_software_security",
+    "vulnerabilities_cve"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.7,
+    "novelty": 0.6
+  },
+  "development_key": "cve-2026-81578-papercut",
+  "soort": "kwetsbaarheid",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een webkwetsbaarheid stap voor stap uitgelegd, met een les over patches."
+  },
+  "showcase": {
+    "caption": "Zo ziet path traversal er in leerboekvorm uit. Bij het eerste verzoek vraagt de gebruiker een gewoon bestand op. Bij het tweede verwijst de bestandsnaam met ../ steeds een map omhoog, tot buiten de map waar de applicatie had moeten blijven.",
+    "language": "http",
+    "code": "GET /download?file=rapport.pdf HTTP/1.1\nHost: www.example.com\n\nGET /download?file=../../../etc/hostname HTTP/1.1\nHost: www.example.com",
+    "note": "Algemeen leerboekvoorbeeld, niet de PaperCut-aanval zelf; watchTowr beschrijft de techniek in Scan-to-Fax alleen in woorden."
+  },
+  "terms": [
+    {
+      "term": "authenticatie-omzeiling",
+      "explanation": "Een fout waardoor iemand bij een beveiligd deel van een systeem kan komen zonder in te loggen (authentication bypass)."
+    },
+    {
+      "term": "framework",
+      "explanation": "Een kant-en-klaar raamwerk van code waarop ontwikkelaars hun applicatie bouwen. Het regelt standaardzaken, zoals het tonen van pagina's en formulieren."
+    },
+    {
+      "term": "path traversal",
+      "explanation": "Een fout waarbij een aanvaller met tekens als ../ uit de toegestane map breekt en zo andere bestanden of programma's op de server kan aanwijzen."
+    },
+    {
+      "term": "RCE",
+      "explanation": "Remote code execution: een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem."
+    },
+    {
+      "term": "honeypots",
+      "explanation": "Lokservers die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:49:51Z",
+  "prompt_version": "cyber-taak-v1"
+}

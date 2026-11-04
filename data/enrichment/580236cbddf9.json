@@ -1,0 +1,89 @@
+{
+  "format_version": 2,
+  "article_id": "580236cbddf9",
+  "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+  "headline": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust",
+  "summary": "Een lek in BeyondTrust Remote Support laat een aanvaller zonder inlog bestanden uploaden en het apparaat overnemen. Mandiant zag dat de groep ARMORY CASTLE het eind augustus al als zero-day misbruikte, en daarna alle opgeslagen wachtwoorden stal.",
+  "story": [
+    "Op 15 oktober maakte BeyondTrust het lek CVE-2026-102764 bekend in Remote Support, vroeger Bomgar. Alle ondersteunde versies tot en met 26.2.3 zijn kwetsbaar. Een aanvaller zonder inlog kan bestanden op het apparaat zetten en zo het hele apparaat overnemen. Mandiant ontdekte bij een incidentonderzoek dat de groep ARMORY CASTLE het lek eind augustus al als zero-day misbruikte. Google denkt dat de groep aan China gelieerd is. De SaaS-versie is op 9 oktober gepatcht; wie het zelf host, moet patch BT26-05 installeren.",
+    "Waarom is dit ernstig? Met Remote Support neemt een helpdesk computers op afstand over. Het apparaat bewaart daarvoor wachtwoorden en heeft toegang tot veel andere systemen: het is een sleutelbos. Door het lek kon de aanvaller een webshell plaatsen, elf minuten na zijn eerste verzoek. Die webshell gaf de foutmelding 404 als het juiste geheime veld ontbrak. Zo leek hij voor scanners niet te bestaan. Daarna maakte de aanvaller zichzelf root met een kopie van de shell waarop het SUID-kenmerk stond.",
+    "Vervolgens dumpte hij de wachtwoordkluis met het ingebouwde hulpprogramma bt-secrets en wiste hij de bijbehorende logs. Een script zorgde voor persistentie: na elke herstart kreeg hij zijn rechten terug. Met een gestolen beheeraccount zette hij zijn rechten op 'Jump Items' van No Access naar Administrator. Zo kon hij sessies starten naar achterliggende systemen en documenten wegsluizen. Een eigen tunnel maakte zijn toegang via internet bereikbaar.",
+    "Hoe zie je het? De aanvaller wiste steeds de logs op het apparaat zelf. Stuur daarom syslog direct naar je SIEM, en zie een plotselinge stilte in die stroom als mogelijk wissen. Alarmeer op het verhogen van rechten naar Administrator, nieuwe API-accounts, en inloggen buiten kantoortijd of vanaf vpn-diensten. Google adviseert: eerst patchen. Is een apparaat verdacht? Bewaar bewijs en bouw het opnieuw op in plaats van het schoon te maken. Wissel wachtwoorden pas daarna, anders ziet de aanvaller de nieuwe ook.",
+    "Google verwacht na de bekendmaking breder misbruik, net als bij eerdere zero-days van deze groep. Elk apparaat dat met een kwetsbare versie op internet stond, behandel je als mogelijk gecompromitteerd tot het is onderzocht."
+  ],
+  "key_facts": [
+    "BeyondTrust maakte CVE-2026-102764 op 15 oktober 2026 bekend; het treft alle ondersteunde versies van Remote Support tot en met 26.2.3 en is zonder inlog te misbruiken.",
+    "De SaaS-versie is op 9 oktober 2026 gepatcht; zelfgehoste installaties hebben patch BT26-05 nodig.",
+    "Mandiant zag dat ARMORY CASTLE (voorheen UNC5221, door Google vermoedelijk aan China gelinkt) het lek eind augustus 2026 als zero-day misbruikte.",
+    "Na misbruik: de SAWFLY-webshell, root-rechten via een SUID-kopie van /bin/sh, het dumpen van de wachtwoordkluis met bt-secrets, persistentie via een opstartscript, rechtenverhoging van Jump Items naar Administrator en de tunnel BARECLAW.",
+    "Mandiant stelde vast dat de aanvaller tijdens het hele incident logs verwijderde.",
+    "Google verwacht breder misbruik na de bekendmaking."
+  ],
+  "limitations": [
+    "Welke organisaties en sectoren getroffen zijn, staat niet in het stuk.",
+    "Het type programmeerfout en de CVSS-score worden niet genoemd.",
+    "Of BeyondTrust Privileged Remote Access ook kwetsbaar is, staat niet in het stuk.",
+    "De toeschrijving aan China is een inschatting van Google."
+  ],
+  "personal_relevance": "Tools voor beheer op afstand zitten bij veel klanten en hebben brede toegang. Een goede vraag aan klanten: gaan de logs van zulke apparaten direct naar de SIEM, en wordt een wijziging van beheerrechten gemeld?",
+  "takeaway": "Een apparaat dat wachtwoorden voor veel systemen beheert, is voor een aanvaller een sleutelbos. Omdat aanvallers lokale logs wissen, moet je logs direct naar je SIEM sturen en een plotselinge stilte zelf als signaal zien.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "edge_devices",
+    "threat_intelligence",
+    "incident_response"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.85,
+    "novelty": 0.7
+  },
+  "development_key": "cve-2026-102764-beyondtrust",
+  "soort": "onderzoek",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een zero-day met de complete aanvalsketen en concrete detectietips."
+  },
+  "showcase": {
+    "caption": "Zo kan een verdachte rechtenwijziging eruitzien in de syslog van het apparaat. Een beheeraccount krijgt ineens de rol Administrator op Jump Items, midden in de nacht. Dat is het soort gebeurtenis waarop Google adviseert te alarmeren.",
+    "language": "json",
+    "code": "{\"time\": \"2026-09-02T23:41:12Z\", \"event\": \"user_changed\", \"actor\": \"admin\", \"source_ip\": \"203.0.113.80\",\n \"target\": \"support-team\", \"field\": \"jump_item_role\", \"old\": \"No Access\", \"new\": \"Administrator\"}",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld met een voorbeeldadres. Het type gebeurtenis (user_changed) en de rollen komen uit het stuk van Google; de echte logregels staan daar."
+  },
+  "terms": [
+    {
+      "term": "zero-day",
+      "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+      "term": "webshell",
+      "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "SUID",
+      "explanation": "Een kenmerk op een Linux-programma waardoor het draait met de rechten van de eigenaar. Is de eigenaar root, dan krijgt iedereen die het start rootrechten."
+    },
+    {
+      "term": "persistentie",
+      "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+      "term": "syslog",
+      "explanation": "Een standaard manier om logberichten van apparaten en servers naar een centrale plek te sturen, zoals een SIEM."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:49:51Z",
+  "prompt_version": "cyber-taak-v1"
+}

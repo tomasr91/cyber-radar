@@ -1,0 +1,86 @@
+{
+  "format_version": 2,
+  "article_id": "b06c9cfc80a7",
+  "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+  "headline": "Updateserver van AOMEI telkens een paar minuten besmet",
+  "summary": "Aanvallers pasten de updateserver van AOMEI steeds maar vijf tot tien minuten aan. Alleen computers die precies dan een update zochten, kregen malware. Daarna zag alles er weer normaal uit, wat onderzoek lastig maakt.",
+  "story": [
+    "Google Threat Intelligence en Mandiant onderzochten een aanval op de updateservers van AOMEI, maker van onder meer de back-upsoftware Backupper en het beheerprogramma AnyViewer. De aanvallen liepen van april tot juli 2026. Google volgt de groep als UNC7017. Getroffen waren organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland. Het onderzoekslab van ManageEngine zag het eind mei als eerste.",
+    "Hoe werkt een update normaal? Het programma haalt via HTTPS een configuratiebestand op bij de maker. Daarin staan het nieuwste versienummer, een MD5-controlegetal en een downloadlink. Is er een nieuwere versie, dan downloadt het programma die en controleert het het MD5-getal. De aanvaller paste dat bestand op de server van AOMEI aan: een andere downloadlink en een MD5 die bij zijn eigen pakket paste. Telkens maar vijf tot tien minuten, daarna stond het origineel er weer. Het zwakke punt: het programma vertrouwde een controlegetal uit hetzelfde onbeveiligde bestand, en controleerde geen digitale handtekening.",
+    "Wie in zo'n venster een update zocht, kreeg een keten van malware. Eerst de downloader CROSSROAD, die ook het lokale configuratiebestand terugzette. Daarna de backdoor SHINYROAD, geladen via DLL-sideloading in een aangepaste versie van het beheerprogramma Radmin. Later gebruikte de groep ook ADAPTAGENT van het framework Adaptix C2. Voor persistentie maakte de malware geplande taken aan met namen als RadminComponentRuntime en NitroRuntime.",
+    "Google noemt dit de 'triage trap'. Een analist die na een melding de downloadlink controleert, ziet een schoon bestand en denkt aan vals alarm. Bewaar daarom het lokale configuratiebestand en koppel proxy- en firewalllogs aan het exacte tijdstip van de melding. Let op niet-ondertekende programma's die door een updater worden gestart, op de genoemde geplande taken en op uitgaand SMB- of WebDAV-verkeer naar internet. En let op: de server van AOMEI opschonen maakt computers die al besmet zijn niet schoon.",
+    "Volgens Google is dit een goedkopere en stillere vorm van een supply chain-aanval dan het besmetten van de bouwstraat, zoals bij SolarWinds. Er blijft namelijk geen kwaadaardig bestand op de server van de leverancier achter. Voor softwaremakers is de les: onderteken ook configuratiebestanden en controleer handtekeningen, niet alleen HTTPS."
+  ],
+  "key_facts": [
+    "Google Threat Intelligence Group en Mandiant publiceerden het onderzoek op 15 oktober 2026; de activiteit liep van april tot juli 2026 en wordt toegeschreven aan UNC7017.",
+    "Waargenomen vensters: 28 mei (10 minuten), 16 juli (6 minuten) en 20 juli (5 minuten); waarschijnlijk waren er meer.",
+    "Het configuratiebestand bevat een versie, een MD5-hash en een downloadlink; de aanvaller paste link en hash aan en dwong op 16 juli updates af met meer dan 35.000 extra secties in een meldingenbestand.",
+    "Malware: CROSSROAD (downloader), SHINYROAD (backdoor via een aangepaste Radmin met DLL-sideloading) en ADAPTAGENT (Adaptix C2); geplande taken RadminComponentRuntime en NitroRuntime.",
+    "Getroffen organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland.",
+    "Mandiant waarschuwde AOMEI op 17 juli 2026; AOMEI meldde op 29 juli maatregelen te hebben genomen."
+  ],
+  "limitations": [
+    "Hoe de aanvaller toegang kreeg tot de servers van AOMEI, staat niet in het stuk.",
+    "Google noemt geen land of bekende groep achter UNC7017.",
+    "Omdat iedereen die in een venster updatete geraakt kon worden, is het werkelijke aantal slachtoffers waarschijnlijk groter dan bekend."
+  ],
+  "personal_relevance": "Dit is een sterk voorbeeld voor gesprekken over supply chain-risico en over waarom detectie op gedrag (welk programma start wat) belangrijk blijft, ook bij vertrouwde software. Het laat ook zien waarom snel logs veiligstellen telt bij een melding.",
+  "takeaway": "Een update is alleen te vertrouwen als de software de digitale handtekening controleert; HTTPS en een controlegetal uit hetzelfde bestand zijn niet genoeg. En een aanval die maar minuten duurt, kun je achteraf alleen terugvinden in je eigen logs.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "supply_chain",
+    "malware",
+    "threat_intelligence",
+    "incident_response"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.8,
+    "novelty": 0.9
+  },
+  "development_key": "aomei-supply-chain-unc7017-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met een heldere uitleg van hoe updates werken."
+  },
+  "showcase": {
+    "caption": "Zo'n updatebestand ziet er ongeveer zo uit. Boven de normale versie, onder de aangepaste versie tijdens een aanvalsvenster: een hoger versienummer, een andere downloadlink en een MD5 die bij het pakket van de aanvaller past. Het programma ziet geen verschil, want het controleert alleen of de MD5 klopt.",
+    "language": "text",
+    "code": "; normaal\nversion=7.4.1\nmd5=9e107d9d372bb6826bd81d3542a419d6\nurl=https://update.example.com/backupper_7.4.1.zip\n\n; tijdens het venster van vijf minuten\nversion=7.4.2\nmd5=e4d909c290d0fb1ca068ffaddf22cbd0\nurl=https://storage.example.net/u/backupper_7.4.2.zip",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld met verzonnen waarden en voorbeelddomeinen. Volgens Google bevat het echte bestand een versie, een MD5-hash en een downloadlink."
+  },
+  "terms": [
+    {
+      "term": "MD5",
+      "explanation": "Een oude methode om een 'vingerafdruk' (hash) van een bestand te maken. Het laat zien of een bestand onderweg veranderd is, maar bewijst niet wie het gemaakt heeft."
+    },
+    {
+      "term": "digitale handtekening",
+      "explanation": "Een cryptografisch bewijs dat een bestand echt van een bepaalde maker komt en niet is aangepast. Alleen de maker heeft de sleutel om te ondertekenen."
+    },
+    {
+      "term": "backdoor",
+      "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
+    },
+    {
+      "term": "DLL-sideloading",
+      "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+      "term": "geplande taken",
+      "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+      "term": "supply chain",
+      "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-04T01:49:51Z",
+  "prompt_version": "cyber-taak-v1"
+}
