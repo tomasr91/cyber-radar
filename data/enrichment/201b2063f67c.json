@@ -1,0 +1,69 @@
+{
+  "format_version": 2,
+  "article_id": "201b2063f67c",
+  "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+  "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
+  "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
+  "story": [
+    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
+    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
+    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
+    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
+  ],
+  "key_facts": [
+    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
+    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
+    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
+    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
+    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
+  ],
+  "limitations": [
+    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
+    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
+    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
+    "mSeven reageerde niet op vragen van BleepingComputer."
+  ],
+  "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
+  "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+  "region": "na",
+  "official_docs": [],
+  "topics": [
+    "incidents_breaches",
+    "phishing_identity"
+  ],
+  "quality": {
+    "depth": 0.45,
+    "practicality": 0.7,
+    "novelty": 0.5
+  },
+  "development_key": "hack-msecure-nov-2026",
+  "soort": "incident",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
+  },
+  "terms": [
+    {
+      "term": "passkeys",
+      "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
+    },
+    {
+      "term": "AES-256",
+      "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
+    },
+    {
+      "term": "zero-knowledge",
+      "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
+    },
+    {
+      "term": "offline kraken",
+      "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-05T01:41:39Z",
+  "prompt_version": "cyber-taak-v1"
+}

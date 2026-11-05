@@ -1,0 +1,83 @@
+{
+  "format_version": 2,
+  "article_id": "5c07cdbef377",
+  "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+  "headline": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio",
+  "summary": "Unit 42 beschrijft een Iraans-gelieerde spionagecampagne tegen vitale infrastructuur in Irak. Het doelwit kreeg een nep-sollicitatie bij Dubai Airports, met een programmeertest die bij het openen al malware startte.",
+  "story": [
+    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een spionagecampagne tegen vitale infrastructuur in Irak. De onderzoekers schrijven die met hoge zekerheid toe aan een groep die samenwerkt met de Iraanse staat. Ze noemen haar CL-STA-1178. Het doelwit was waarschijnlijk een softwareontwikkelaar. De campagne begon in maart 2026.",
+    "De lokker was een nep-sollicitatie bij de IT-afdeling van Dubai Airports. Eerst kreeg het doelwit een nep-vacaturesite met een vragenlijst. Die deed niets kwaadaardigs en diende alleen om vertrouwen te winnen. In april volgde een 'programmeertest': een Visual Studio-project met een fout die het doelwit moest oplossen. Unit 42 heeft geen aanwijzing voor een inbraak bij Dubai Airports zelf.",
+    "Hoe werkt de besmetting? Een Visual Studio-project heeft een projectbestand met de bouwinstructies voor MSBuild. Zulke instructies mogen opdrachten uitvoeren. De aanvaller paste één bouwstap aan, zodat er al iets draaide bij het openen van het project, nog vóór het bouwen. Die stap kopieerde bestanden en startte een echt Microsoft-programma onder de naam RuntimeBroker.exe. Via DLL-sideloading laadde dat programma een kwaadaardige DLL. Een configuratiebestand zette daarbij ETW uit.",
+    "Daarna haalt de malware opdrachten op uit een GitHub-repository, via de gewone GitHub-API. Voor een netwerk lijkt dat op normaal ontwikkelaarsverkeer. Valt dat kanaal weg, dan zoekt de malware versleutelde reservegegevens in verborgen commentaar bij GitHub-issues. Voor verdere toegang laadde de aanvaller de open-source tunneltool Chisel. Die bouwt van binnenuit een verbinding naar buiten, waardoor de aanvaller het interne netwerk kan bereiken.",
+    "Waar zie je het? Unit 42 raadt aan te letten op Visual Studio of MSBuild die onverwachte processen start. Ook Microsoft-programma's met een andere naam in gebruikersmappen en configuratiebestanden die ETW uitzetten zijn signalen. Ook veel GitHub-verkeer vanaf pc's van niet-ontwikkelaars is een signaal. De les voor organisaties: ontwikkelaars zijn een doelwit, en een programmeertest van een onbekende open je in een afgeschermde omgeving."
+  ],
+  "key_facts": [
+    "Unit 42 schrijft de activiteit met hoge zekerheid toe aan een Iraans-gelieerde groep, die het CL-STA-1178 noemt.",
+    "De infrastructuur werd vanaf november 2025 getest; in maart 2026 werd een doelwit in de Iraakse vitale infrastructuur benaderd.",
+    "Lokmiddel: nep-werving namens de IT-afdeling van Dubai Airports, in april 2026 gevolgd door een C#-programmeertest ('Flight Management System').",
+    "Het projectbestand FlightManager.csproj overschreef de bouwstap GetFrameworkPaths; een hernoemd Microsoft-programma (RuntimeBroker.exe) laadde via DLL-sideloading de loader ShelbyLoader V2; het configuratiebestand zette ETW uit.",
+    "De malware gebruikt de GitHub-API voor opdrachten, met versleutelde reservegegevens in verborgen commentaar bij GitHub-issues; de loader Blackwood start de tunneltool Chisel.",
+    "GitHub verwijderde de infrastructuur; Unit 42 heeft geen aanwijzing voor een inbraak bij Dubai Airports."
+  ],
+  "limitations": [
+    "Overlap met de bekende Iraanse groepen Screening Serpens en Agent Serpens is volgens Unit 42 alleen laag zeker; er is geen toeschrijving aan een specifieke groep.",
+    "Dat het doelwit een softwareontwikkelaar was, is een inschatting van Unit 42.",
+    "Unit 42 zegt dat een eigen product van Palo Alto Networks de keten detecteerde en blokkeerde; dat is niet onafhankelijk bevestigd.",
+    "Wat de aanvaller eventueel buitmaakte, staat niet in het stuk."
+  ],
+  "personal_relevance": "Ontwikkelaars hebben vaak ruime rechten en toegang tot code en servers. Dit voorbeeld helpt klanten uitleggen waarom werkplekken van ontwikkelaars extra aandacht verdienen in detectie en beleid.",
+  "takeaway": "Een softwareproject is geen onschuldig document: bouwinstructies kunnen opdrachten uitvoeren zodra je het project opent. En malware die via een bekende dienst als GitHub communiceert, valt in het netwerkverkeer nauwelijks op.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "attack_techniques",
+    "malware",
+    "threat_intelligence",
+    "phishing_identity"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.7,
+    "novelty": 0.75
+  },
+  "development_key": "blinder-tunnel-cl-sta-1178-2026",
+  "date_note": "Gepubliceerd op 6 oktober 2026; de campagne speelde in maart en april 2026.",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuwe besmettingstechniek stap voor stap uitgelegd past bij je leerdoelen."
+  },
+  "showcase": {
+    "caption": "Zo kan het eruitzien in de procesgegevens van een EDR. Het echte RuntimeBroker.exe staat in C:\\Windows\\System32, niet in een gebruikersmap. Het wordt ook niet door Visual Studio (devenv.exe) gestart en praat niet met GitHub.",
+    "language": "log",
+    "code": "10:02:11 process_start parent=devenv.exe child=RuntimeBroker.exe path=C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\RuntimeBrokers\\\n10:02:12 image_load process=RuntimeBroker.exe dll=RuntimeBroker.dll path=C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\RuntimeBrokers\\\n10:02:12 registry_set key=HKCU\\...\\CurrentVersion\\Run value=MicrosoftRuntime\n10:07:12 network process=RuntimeBroker.exe dest=api.github.com:443",
+    "note": "Nagebouwd voorbeeld met vereenvoudigde velden. Map, DLL-naam en Run-waarde komen uit het onderzoek; de logregels zelf niet."
+  },
+  "terms": [
+    {
+      "term": "MSBuild",
+      "explanation": "Het programma van Microsoft dat software bouwt volgens de instructies in een projectbestand. Visual Studio gebruikt het op de achtergrond."
+    },
+    {
+      "term": "DLL-sideloading",
+      "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+      "term": "ETW",
+      "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
+    },
+    {
+      "term": "GitHub-API",
+      "explanation": "De programmeerkoppeling waarmee software automatisch bestanden en issues op GitHub kan lezen en schrijven, zonder website."
+    },
+    {
+      "term": "tunneltool",
+      "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
+    }
+  ],
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-05T01:41:39Z",
+  "prompt_version": "cyber-taak-v1"
+}

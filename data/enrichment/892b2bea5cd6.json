@@ -1,0 +1,83 @@
+{
+  "format_version": 2,
+  "article_id": "892b2bea5cd6",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+  "headline": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur",
+  "summary": "Microsoft zag de Russische groep Star Blizzard sinds januari 2026 op grote schaal phishen vanaf gehackte websites. Een nieuwe keten, RedFlick, installeert met één dubbelklik de achterdeur CosmicPulse via geplande taken.",
+  "story": [
+    "Microsoft Threat Intelligence volgt sinds januari 2026 een nieuwe werkwijze van de groep Star Blizzard. Volgens de Amerikaanse CISA valt die groep onder de Russische inlichtingendienst FSB. Microsoft telde minstens 13 grote phishingcampagnes. Ze raakten meer dan 100 organisaties, vooral in de VS en het VK: denktanks, ngo's, overheden en organisaties die Oekraïne steunen.",
+    "De eerste mail heeft meestal geen bijlage. Hij lijkt te komen van een bekende uit de politiek, wetenschap of diplomatie. Sinds maart sturen de aanvallers die mails vanaf accounts op gehackte WordPress- en cPanel-websites, niet meer vanaf gratis mailadressen. Antwoordt het doelwit, dan volgt een zip-bestand met een wachtwoord. Dat wachtwoord staat als plaatje in de mail. Zo kan een mailscanner het niet lezen en het archief niet openen.",
+    "In het archief zit een LNK-bestand dat eruitziet als een pdf. Eén dubbelklik start onzichtbaar een script. Dat opent een nep-pdf om het slachtoffer gerust te stellen en haalt intussen een installatiepakket op. Dat pakket maakt geplande taken aan met namen die op Windows-onderdelen lijken, zoals \"System Health Monitor\". Die taken starten via het Windows-programma control.exe een downloader die zich voordoet als onderdeel van het Configuratiescherm. Aan het eind staat de achterdeur CosmicPulse, geschreven in Python. Microsoft noemt deze keten RedFlick. Eerdere ketens met ClickFix vroegen meerdere handelingen van het slachtoffer, RedFlick maar één.",
+    "Waar zie je het? De aanvallers gebruiken vooral gewone Windows-programma's, dus zoek je naar vreemde combinaties. Microsoft geeft zoekopdrachten voor EDR-gegevens: conhost.exe die curl start, ssh.exe met de optie PermitLocalCommand, en geplande taken met de nepnamen. Microsoft raadt ook aan om uitgaand SSH-verkeer naar onbekende netwerken te beperken en phishingbestendige MFA te gebruiken.",
+    "Voor organisaties is de les dat een bekende afzender of een vertrouwd domein niets bewijst. De afzender kan een gehackte website zijn. En een archief met een wachtwoord verdient extra argwaan, juist omdat scanners er niet in kunnen kijken."
+  ],
+  "key_facts": [
+    "Microsoft volgt sinds januari 2026 de nieuwe werkwijze van Star Blizzard: minstens 13 grote campagnes, meer dan 100 geraakte organisaties, vooral in de VS en het VK.",
+    "De Amerikaanse CISA plaatst Star Blizzard onder Centre 18 van de Russische FSB; Microsoft neemt die toeschrijving over.",
+    "Sinds maart 2026 komen de phishingmails van accounts op gehackte cPanel- en WordPress-sites; het wachtwoord van het archief staat als afbeelding in de mail.",
+    "RedFlick: een LNK-bestand vermomd als pdf, een MSI-pakket, geplande taken en control.exe die een downloader als Configuratiescherm-onderdeel (CPL) start; eindstation is de Python-achterdeur CosmicPulse (ook YESROBOT genoemd).",
+    "In april 2026 maakte het pakket drie taken aan (Internet Quality Test Connection, Network Configuration Manager, System Health Monitor); in juli zat de volgende stap verstopt in een pdf.",
+    "Microsoft publiceert zoekopdrachten op conhost.exe die curl start, ssh.exe met PermitLocalCommand en de drie taaknamen."
+  ],
+  "limitations": [
+    "De toeschrijving aan de FSB komt van CISA; Microsoft doet geen eigen toeschrijving.",
+    "Microsoft kon de vervolgstap van de taak 'Internet Quality Test Connection' niet bemachtigen.",
+    "Microsoft noemt geen geraakte organisaties en zegt niet hoe vaak een besmetting slaagde.",
+    "Microsoft beveelt in het stuk vooral eigen beveiligingsproducten aan."
+  ],
+  "personal_relevance": "Een goed voorbeeld voor klanten die vertrouwen op mailfilters: deze aanval omzeilt scanners met een wachtwoord als plaatje. Detectie op het eindpunt, op ongewone combinaties van Windows-programma's, vangt wat het mailfilter mist.",
+  "takeaway": "Aanvallers bouwen hun keten steeds vaker uit gewone Windows-onderdelen: snelkoppelingen, installatiepakketten, geplande taken en control.exe. Je vindt ze dan niet op een bekend bestand, maar op een ongewone volgorde van normale programma's.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "phishing_identity",
+    "malware",
+    "threat_intelligence",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.75,
+    "novelty": 0.65
+  },
+  "development_key": "star-blizzard-redflick-2026",
+  "date_note": "Gepubliceerd op 29 september 2026; de campagnes liepen van januari tot augustus 2026.",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met detectietips past bij je leerdoelen."
+  },
+  "showcase": {
+    "caption": "Zo zoek je naar één stap uit de keten van juli: conhost.exe die curl start om een bestand op te halen. Regel 1 kiest de tabel met gestarte processen, regel 2 de laatste zeven dagen. Regel 3 en 4 zoeken de combinatie ouder- en kindproces. Regel 5 toont wanneer, waar, wie en welke opdracht.",
+    "language": "kql",
+    "code": "DeviceProcessEvents\n| where Timestamp > ago(7d)\n| where InitiatingProcessFileName =~ \"conhost.exe\"\n| where FileName =~ \"curl.exe\"\n| project Timestamp, DeviceName, AccountName, ProcessCommandLine",
+    "note": "Vereenvoudigde versie van de zoekopdracht in het stuk van Microsoft. Hij kan ook legitiem gebruik van curl vinden."
+  },
+  "terms": [
+    {
+      "term": "LNK-bestand",
+      "explanation": "Een Windows-snelkoppeling. Die kan een opdracht starten en een willekeurig pictogram tonen, bijvoorbeeld dat van een pdf."
+    },
+    {
+      "term": "geplande taken",
+      "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+      "term": "ClickFix",
+      "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+      "term": "phishingbestendige MFA",
+      "explanation": "Een tweede inlogstap die een nep-inlogpagina niet kan doorgeven, zoals een passkey of hardwaresleutel die controleert op welke website je inlogt."
+    }
+  ],
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-05T01:41:39Z",
+  "prompt_version": "cyber-taak-v1"
+}

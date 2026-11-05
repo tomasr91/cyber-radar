@@ -1,0 +1,89 @@
+{
+  "format_version": 2,
+  "article_id": "d0e0e442d471",
+  "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+  "headline": "Spionage op Linux-servers van overheden, met AI-achtige scripts",
+  "summary": "Unit 42 beschrijft een groep die Linux-webservers, databases en mailservers van overheden binnendrong via webshells. De scripts lijken door AI geschreven; dat is een inschatting, geen bewijs.",
+  "story": [
+    "Unit 42 beschrijft een groep die het CL-UNK-1211 noemt. Die viel van oktober 2025 tot april 2026 Linux-webservers, databases en mailservers aan van overheden en staatsgelieerde organisaties. Landen noemt Unit 42 niet. Ook is niet vastgesteld of het om een staat of om criminelen gaat.",
+    "De groep werkte via een webshell op Linux-webservers. Hoe die er kwam, is niet bevestigd. De aanvallers hadden wel een eigen scanner voor het lek React2Shell (CVE-2025-55182). Daarna werden ze root via het oude lek PwnKit (CVE-2021-4034). Om binnen te blijven pasten ze de PHP-instelling auto_prepend_file aan. Die laat PHP vóór elke pagina eerst een ander bestand uitvoeren, hier de webshell. Ook plaatsten ze een eigen SSH-sleutel en een RAT in Go, SysGoRAT.",
+    "Opvallend was de wachtwoorddiefstal. In .bashrc, een bestand dat bij elke nieuwe shell wordt ingelezen, zetten ze een nep-versie van sudo. Die vroeg om het wachtwoord, schreef het weg en gaf het door aan de echte sudo. De beheerder merkte dus niets. Via een interne MSSQL-server sprongen ze door naar een tweede databaseserver in een ander netwerkdeel. Ook doorzochten ze mailboxen, onder meer op wachtwoordherstelmails van sociale media.",
+    "Waar komt AI in beeld? De scripts bevatten uitleg in gesprekstoon, stap voor stap, alsof iemand het aan de bediener uitlegt. Unit 42 schat in dat een taalmodel de code schreef of dat een AI-agent hem uitvoerde. Dat is een inschatting, geen bewijs. Sommige scripts bevatten ook fouten en werkten niet.",
+    "Waar zie je het? Unit 42 raadt aan te letten op het PHP-proces van de webserver (php-fpm) dat een shell of netcat start. Ook wijzigingen in auto_prepend_file, gewiste shellgeschiedenis en pogingen om beveiligingssoftware te stoppen zijn signalen. Beperk uitgaand verkeer, zodat een reverse shell niet naar buiten kan. De les: Linux-servers verdienen even goede monitoring als Windows-pc's."
+  ],
+  "key_facts": [
+    "Unit 42 volgde CL-UNK-1211 van oktober 2025 tot april 2026; doelwitten waren Linux-webservers, (MS)SQL-databases en mailservers van overheden en staatsgelieerde organisaties.",
+    "De groep had een eigen scanner voor CVE-2025-55182 (React2Shell); Unit 42 bevestigt niet dat dit lek de eerste toegang gaf.",
+    "Voor rootrechten gebruikte de groep PwnKit (CVE-2021-4034).",
+    "Persistentie via auto_prepend_file in PHP-configuraties, een SSH-sleutel in authorized_keys en de Go-RAT SysGoRAT (via systemd, cron, de Run-sleutel of een geplande taak).",
+    "Wachtwoorden werden gestolen met een nep-sudo-alias in .bashrc en met code in een inlogpagina; via xp_cmdshell op MSSQL sprong de groep door naar een tweede SQL-server.",
+    "Unit 42 schat in dat scripts door een taalmodel zijn geschreven of door een AI-agent zijn uitgevoerd, vanwege uitleg in gesprekstoon in de code."
+  ],
+  "limitations": [
+    "Welke landen geraakt zijn, noemt Unit 42 niet.",
+    "Of het om een staat of om criminelen gaat, is niet vastgesteld.",
+    "Hoe de eerste webshell op de servers kwam, is niet bevestigd.",
+    "Het AI-gebruik is een inschatting op basis van de stijl van de code.",
+    "Hoeveel gegevens er werkelijk zijn buitgemaakt, is onbekend; Unit 42 spreekt van 'aanwijzingen'.",
+    "Unit 42 hoort bij Palo Alto Networks en meldt dat een eigen product pogingen om beveiliging uit te schakelen tegenhield."
+  ],
+  "personal_relevance": "Veel klanten monitoren Windows goed, maar Linux-servers en databases minder. Dit stuk geeft concrete signalen om het gesprek over Linux-zichtbaarheid aan te gaan.",
+  "takeaway": "Een webshell kan zich verstoppen in een instelling die bij elke pagina meedraait, zoals auto_prepend_file. Zoek daarom ook naar gewijzigde configuraties en naar een webserverproces dat ineens een shell start, niet alleen naar verdachte bestanden.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "attack_techniques",
+    "malware",
+    "web_software_security",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.85,
+    "practicality": 0.75,
+    "novelty": 0.65
+  },
+  "development_key": "cl-unk-1211-linux-overheid-2026",
+  "date_note": "Gepubliceerd op 15 oktober 2026; de activiteit liep van oktober 2025 tot april 2026.",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een volledige aanvalsketen op Linux met detectiesignalen past bij je leerdoelen."
+  },
+  "showcase": {
+    "caption": "Zo kan het eruitzien in de procesgegevens van een Linux-server. Regel 1: een PHP-instelling verandert. Regel 2 en 3: het webserverproces (gebruiker www-data) start een shell en netcat. Regel 4: iemand wist de shellgeschiedenis. Elk apart kan onschuldig zijn; samen is het een sterk signaal.",
+    "language": "log",
+    "code": "02:58:40 file_change path=/etc/php/8.1/fpm/php.ini setting=auto_prepend_file=/usr/lib/php/<nepbestand>.php\n03:14:07 process_start user=www-data parent=php-fpm8.1 child=/bin/sh cmd=\"sh -c id\"\n03:14:09 process_start user=www-data parent=sh child=nc dest=203.0.113.10:443\n03:20:51 file_change user=root path=/root/.bash_history action=truncate",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde velden; de patronen volgen het onderzoek."
+  },
+  "terms": [
+    {
+      "term": "webshell",
+      "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "RAT",
+      "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+      "term": "sudo",
+      "explanation": "Het Linux-commando waarmee een gebruiker één opdracht met beheerdersrechten uitvoert, na het invoeren van zijn wachtwoord."
+    },
+    {
+      "term": "AI-agent",
+      "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+      "term": "reverse shell",
+      "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
+    }
+  ],
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-05T01:41:39Z",
+  "prompt_version": "cyber-taak-v1"
+}
