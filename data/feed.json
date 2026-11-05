@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T01:42:53.860007Z",
+ "generated_at": "2026-11-05T02:54:22.347630Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-05T01:42:22Z",
- "last_successful_update": "2026-11-05T01:42:53.860007Z",
+ "last_successful_update": "2026-11-05T02:54:22.347630Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T01:42:53.918732Z"
+   "checked_at": "2026-11-05T02:54:22.408299Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T01:42:54.704556Z"
+   "checked_at": "2026-11-05T02:54:23.129031Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T01:42:55.668226Z"
+   "checked_at": "2026-11-05T02:54:24.159572Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T01:42:55.854265Z"
+   "checked_at": "2026-11-05T02:54:24.380244Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T01:42:57.125392Z"
+   "checked_at": "2026-11-05T02:54:25.555413Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T01:42:57.353272Z"
+   "checked_at": "2026-11-05T02:54:25.727358Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T01:42:57.462828Z"
+   "checked_at": "2026-11-05T02:54:25.929256Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T01:42:57.512798Z"
+   "checked_at": "2026-11-05T02:54:26.145914Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T01:42:57.967702Z"
+   "checked_at": "2026-11-05T02:54:26.584540Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T01:42:59.971755Z"
+   "checked_at": "2026-11-05T02:54:28.163597Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T01:42:59.998073Z"
+   "checked_at": "2026-11-05T02:54:28.374339Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T01:43:00.031332Z"
+   "checked_at": "2026-11-05T02:54:28.444827Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T01:43:00.075144Z"
+   "checked_at": "2026-11-05T02:54:28.517825Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T01:43:00.270721Z"
+   "checked_at": "2026-11-05T02:54:28.814195Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T01:43:00.339000Z"
+   "checked_at": "2026-11-05T02:54:29.272796Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T01:43:00.442907Z"
+   "checked_at": "2026-11-05T02:54:29.471670Z"
   },
   {
    "id": "securityweek",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T01:43:00.702598Z"
+   "checked_at": "2026-11-05T02:54:29.833432Z"
   }
  ],
  "daily_top": [
@@ -1433,7 +1433,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -1500,85 +1500,6 @@
    ],
    "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
    "region": "world"
-  },
-  {
-   "id": "201b2063f67c",
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T16:00:18Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
-   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
-   "limitations": [
-    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
-    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
-    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
-    "mSeven reageerde niet op vragen van BleepingComputer."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "aanvallen"
-   ],
-   "relevance_score": 89,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.98,
-    "source": 0.68,
-    "quality": 0.55,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
-   "story": [
-    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
-    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
-    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
-    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
-   ],
-   "key_facts": [
-    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
-    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
-    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
-    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
-    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "passkeys",
-     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
-    },
-    {
-     "term": "AES-256",
-     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
-    },
-    {
-     "term": "zero-knowledge",
-     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
-    },
-    {
-     "term": "offline kraken",
-     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
-   },
-   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
-   "region": "na"
   },
   {
    "id": "f8af8b71c7c1",
@@ -1805,7 +1726,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -1972,6 +1893,85 @@
    "region": "na"
   },
   {
+   "id": "201b2063f67c",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T16:00:18Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
+   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
+   "limitations": [
+    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
+    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
+    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
+    "mSeven reageerde niet op vragen van BleepingComputer."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.55,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
+   "story": [
+    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
+    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
+    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
+    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
+   ],
+   "key_facts": [
+    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
+    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
+    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
+    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
+    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "passkeys",
+     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
+    },
+    {
+     "term": "AES-256",
+     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
+    },
+    {
+     "term": "zero-knowledge",
+     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
+    },
+    {
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
+   },
+   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+   "region": "na"
+  },
+  {
    "id": "b06c9cfc80a7",
    "title": "Investigating Ephemeral Supply Chain Tampering",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
@@ -2100,7 +2100,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.47,
+    "recency": 0.46,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -2395,7 +2395,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.66,
+    "recency": 0.65,
     "source": 0.68,
     "quality": 0.65,
     "fit": 0.05
@@ -3135,39 +3135,277 @@
    "region": "world"
   }
  ],
- "deepdives": [],
+ "deepdives": [
+  {
+   "id": "cve-cvss-epss-kev",
+   "plan_id": "cve-cvss-epss-kev",
+   "headline": "CVE, CVSS, EPSS en KEV: vier vragen over één lek",
+   "summary": "Een CVE-nummer zegt welk lek het is, een CVSS-score hoe ernstig het op papier is, EPSS hoe groot de kans op misbruik is en de KEV-lijst of het al gebeurt. Wie snapt welke vraag elke afkorting beantwoordt, snapt waarom een 7,8 soms eerder moet dan een 9,8.",
+   "sections": [
+    {
+     "heading": "Waarom al die afkortingen?",
+     "paragraphs": [
+      "Elke dag verschijnen er meer dan honderd nieuwe kwetsbaarheden. Een securityteam kan ze niet allemaal tegelijk oplossen. Het moet kiezen. Daarvoor zijn vier hulpmiddelen ontstaan, elk met een eigen afkorting.",
+      "Je kunt ze zien als vier vragen over één lek. CVE: welk lek is het? CVSS: hoe erg is het als het misgaat? EPSS: hoe groot is de kans dat iemand het binnenkort misbruikt? KEV: wordt het al misbruikt?",
+      "Een vergelijking uit het verkeer helpt. Het CVE-nummer is het kenteken: zo weet iedereen over welke auto het gaat. CVSS zegt hoe zwaar een ongeluk met die auto kan zijn. EPSS is de voorspelling hoe druk het op de weg wordt. En de KEV-lijst is het politiebericht dat er al een ongeluk is gebeurd.",
+      "Het belangrijkste punt van dit stuk: deze vier vragen hebben verschillende antwoorden. Een lek kan op papier heel ernstig zijn en toch bijna nooit worden aangevallen. En andersom."
+     ]
+    },
+    {
+     "heading": "CVE: een uniek nummer voor elk lek",
+     "paragraphs": [
+      "CVE staat voor Common Vulnerabilities and Exposures. Een CVE-nummer ziet eruit als CVE-2026-0257: het jaar en een volgnummer. Het nummer zelf zegt niets over ernst. Het zorgt er alleen voor dat leveranciers, scanners en onderzoekers over hetzelfde lek praten.",
+      "Wie deelt die nummers uit? Dat doen organisaties die een CNA zijn. Vaak is dat de maker van de software zelf, voor zijn eigen producten. Elke CNA heeft een eigen werkgebied. Voor software zonder eigen CNA is er een 'CNA of Last Resort' met een breder werkgebied.",
+      "Bij elk nummer hoort een CVE-record. Volgens de regels van het CVE-programma staan daarin minstens: welk product en welke versies getroffen zijn, het soort fout, een beschrijving en een openbare bron. Het soort fout wordt bij voorkeur aangeduid met een CWE-nummer, een vaste lijst van fouttypen. Een score is niet verplicht.",
+      "Veel mensen kennen ook de NVD, de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 doet NIST dat niet meer voor elk lek. Het aantal ingediende CVE's steeg tussen 2020 en 2025 met 263 procent. NIST vult nu vooral lekken aan die op de KEV-lijst staan of in veelgebruikte en belangrijke software zitten. Voor de rest geldt de score van de CNA."
+     ]
+    },
+    {
+     "heading": "CVSS: hoe ernstig is het lek op papier?",
+     "paragraphs": [
+      "CVSS is een vaste rekenmethode van de organisatie FIRST. De uitkomst is een CVSS-score van 0 tot 10. Een score van 7,0 tot 8,9 heet 'hoog', 9,0 tot 10,0 'kritiek'. De huidige versie is CVSS 4.0.",
+      "De score komt uit een reeks vragen over het lek. Kan de aanvaller het via het netwerk doen, of moet hij fysiek bij het apparaat? Heeft hij een account nodig? Moet een gebruiker ergens op klikken? En wat zijn de gevolgen voor vertrouwelijkheid, integriteit en beschikbaarheid? De antwoorden staan in een korte code, de vector. Die zie je in het voorbeeld hieronder.",
+      "CVSS 4.0 kent vier groepen. De basisgroep beschrijft het lek zelf en verandert niet. De dreigingsgroep zegt of er al een exploit is. De omgevingsgroep past de score aan op jouw organisatie. De aanvullende groep geeft extra informatie, zoals of een aanval te automatiseren is, maar verandert de score niet. Een score met alleen de basis heet CVSS-B; met dreiging en omgeving erbij CVSS-BTE.",
+      "Hier zit de valkuil. Databases zoals de NVD publiceren meestal alleen de basisscore. En FIRST zegt zelf dat die basisscore ernst meet, geen risico. Je moet hem niet in je eentje gebruiken om risico te bepalen. Pas met dreiging en omgeving erbij kom je volgens FIRST 'veel dichter bij risico'."
+     ]
+    },
+    {
+     "heading": "EPSS: hoe groot is de kans op misbruik?",
+     "paragraphs": [
+      "EPSS staat voor Exploit Prediction Scoring System, ook van FIRST. Het is een model dat leert van echte aanvalsgegevens. Het geeft voor elk CVE een kans tussen 0 en 1 dat er in de komende 30 dagen misbruik wordt waargenomen. Die kans wordt elke dag opnieuw berekend.",
+      "Waar haalt het model dat vandaan? Partners delen gegevens over waargenomen aanvallen. Daarnaast kijkt het model naar signalen zoals een openbare exploit, discussies online en het aantal verwijzingen naar het lek. Ook de losse CVSS-kenmerken tellen mee, maar de CVSS-score zelf niet.",
+      "EPSS geeft twee getallen: de kans en het percentiel. Het percentiel zegt hoeveel procent van alle lekken een lagere kans heeft. Dat is nodig, want de meeste kansen zijn klein. Volgens FIRST wordt maar ongeveer 5 procent van alle kwetsbaarheden ooit echt misbruikt. Een kans van 10 procent klinkt laag, maar staat op ongeveer het 88e percentiel: hoger dan bijna negen op de tien lekken.",
+      "EPSS heeft ook grenzen. Het kent jouw netwerk niet. Het weet niet of je het product gebruikt, of het vanaf internet bereikbaar is of hoe belangrijk het systeem is. En het is een voorspelling, geen bewijs. Is er direct bewijs van misbruik, dan gaat dat volgens FIRST altijd voor."
+     ]
+    },
+    {
+     "heading": "KEV: het gebeurt al",
+     "paragraphs": [
+      "De KEV-lijst is de catalogus van de Amerikaanse overheidsdienst CISA met kwetsbaarheden die aantoonbaar worden misbruikt. Een lek komt er alleen op als het aan drie eisen voldoet. Het heeft een CVE-nummer. Er is betrouwbaar bewijs dat een aanvaller het echt heeft misbruikt op een systeem. En er is een duidelijke oplossing, zoals een update.",
+      "Let op die tweede eis. Een scan, onderzoek of alleen een proof of concept is niet genoeg. Het moet echt gebeurd zijn bij een slachtoffer. Daarom is de KEV-lijst kort vergeleken met het totaal aantal CVE's.",
+      "Amerikaanse federale diensten moeten KEV-lekken binnen een vaste termijn oplossen, volgens de richtlijn BOD 22-01. Voor andere organisaties is dat niet verplicht. CISA raadt wel iedereen aan de lijst te gebruiken bij het prioriteren. FIRST is daar duidelijk over: staat een lek op de KEV-lijst, behandel het dan als actief misbruikt, wat de EPSS-score ook is."
+     ]
+    },
+    {
+     "heading": "Een voorbeeld: het vpn-lek met 'maar' een 7,8",
+     "paragraphs": [
+      "Neem CVE-2026-0257, een lek in GlobalProtect, de vpn van firewalls van Palo Alto Networks. Een aanvaller kan daarmee zonder account een vpn-verbinding opzetten. Dat werkt alleen bij een bepaalde instelling. Palo Alto bracht op 13 mei 2026 een oplossing uit. De CVSS-score was 7,8. Volgens Infosecurity Magazine noemde Palo Alto het eerst 'medium' en verhoogde het dat naar 'hoog' na meerdere aanvalspogingen.",
+      "Op papier is 7,8 minder ernstig dan een lek met 9,8. Toch zei het hele plaatje iets anders. Het lek werd vanaf 18 mei misbruikt en CISA zette het op de KEV-lijst. Eind mei verscheen een openbaar proof of concept. Een vpn staat bovendien altijd open naar internet. In oktober meldde Unit 42 van Palo Alto Networks dat ransomwaregroepen het lek gebruikten om binnen te komen.",
+      "Dit past in een groter beeld. FIRST schreef in juni 2026 dat het aantal CVE's dit jaar ruim 46 procent hoger uitkomt dan voorspeld. Maar filter je op de KEV-lijst of op een EPSS-kans boven 10 procent, dan blijft het werk ongeveer gelijk. Meer lekken betekent dus niet evenveel meer spoed. Kiezen wordt wel belangrijker."
+     ]
+    },
+    {
+     "heading": "Samen gebruiken, en wat het voor klanten betekent",
+     "paragraphs": [
+      "Een goede volgorde is: eerst KEV, dan EPSS, dan CVSS, en alles bekeken in je eigen omgeving. FIRST noemt drie vragen voor die laatste stap. Is het lek echt aanwezig? Is het bereikbaar, bijvoorbeeld vanaf internet? En hoe erg is het als juist dat systeem wordt geraakt? Waar een hoge EPSS-kans samenvalt met drie keer 'ja', levert patchen het meeste op.",
+      "Wat je beter niet doet: de scores met elkaar vermenigvuldigen tot één 'risicoscore'. FIRST waarschuwt daar uitdrukkelijk voor. De getallen meten verschillende dingen, en de uitkomst betekent niets.",
+      "EPSS en de KEV-lijst zijn gratis te downloaden. Daardoor kunnen vulnerability management-tools ze naast de CVSS-score tonen. Ook een SIEM kan ze aan meldingen toevoegen; een onderzoeker van SANS ISC liet in april 2026 zien hoe dat werkt. Een analist ziet dan meteen of een aangevallen lek op de KEV-lijst staat. Vraagt een klant waarom een 'kritiek' lek niet bovenaan staat? Dan is dit de uitleg. Ernst is iets anders dan kans, en kans is iets anders dan bewijs."
+     ]
+    }
+   ],
+   "experiment": "Zoek CVE-2026-0257 op in de KEV-catalogus op de website van CISA, en daarna op de EPSS-pagina van FIRST. Vergelijk de datum waarop het lek op de KEV-lijst kwam met de EPSS-kans en het percentiel. Doe hetzelfde met een willekeurig recent lek uit het nieuws en kijk hoe groot het verschil is.",
+   "limitations": [
+    "Dit stuk behandelt alleen lekken met een CVE-nummer; fouten in eigen software of verkeerde instellingen krijgen vaak geen nummer en vallen buiten EPSS en KEV.",
+    "Naast de KEV-lijst van CISA bestaan andere lijsten van misbruikte lekken, en ook Europese en Nederlandse adviezen (zoals van het NCSC) met een eigen beoordeling; die komen hier niet aan bod.",
+    "Over het beste drempelgetal voor EPSS zijn experts het niet eens; FIRST zegt zelf dat elke organisatie dat moet afstemmen en dat elke methode fouten maakt.",
+    "Hoe het CVE-programma en de NVD op lange termijn worden gefinancierd en ingericht, is in beweging; de regels kunnen veranderen."
+   ],
+   "further_reading": [
+    {
+     "label": "Known Exploited Vulnerabilities Catalog (CISA)",
+     "url": "https://cisa.gov/known-exploited-vulnerabilities",
+     "note": "De officiële uitleg van de KEV-lijst, met de drie eisen om erop te komen."
+    },
+    {
+     "label": "Using EPSS (FIRST)",
+     "url": "https://www.first.org/epss/using-epss",
+     "note": "Praktische uitleg hoe je EPSS naast CVSS en KEV gebruikt, en waarom je de scores niet moet vermenigvuldigen."
+    },
+    {
+     "label": "Understanding EPSS Probabilities and Percentiles (FIRST)",
+     "url": "https://www.first.org/epss/articles/prob_percentile_bins",
+     "note": "Helder stuk over het verschil tussen de kans en het percentiel."
+    },
+    {
+     "label": "CVSS v4.0 User Guide (FIRST, versie november 2025)",
+     "url": "https://www.first.org/cvss/v4.0/user-guide",
+     "note": "De handleiding bij CVSS 4.0, met de vier groepen en de waarschuwing dat ernst geen risico is."
+    },
+    {
+     "label": "The 2026 Vulnerability Forecast Update (FIRST, juni 2026)",
+     "url": "https://www.first.org/blog/20260615-vulnerability-forecast-update",
+     "note": "Laat zien dat er veel meer CVE's komen, maar dat het werk aan echt misbruikte lekken ongeveer gelijk blijft."
+    },
+    {
+     "label": "CNA Operational Rules 4.1.0 (CVE-programma, mei 2025)",
+     "url": "https://www.cve.org/Resources/Roles/Cnas/CNA_Rules_v4.1.0.pdf",
+     "note": "De regels voor wie CVE-nummers uitdeelt en wat er in een CVE-record moet staan."
+    },
+    {
+     "label": "NIST admits defeat on NVD backlog (Help Net Security, april 2026)",
+     "url": "https://www.helpnetsecurity.com/2026/04/16/nist-national-vulnerability-database-nvd-enrichment/",
+     "note": "Wat er sinds april 2026 verandert aan de NVD en welke lekken nog worden aangevuld."
+    },
+    {
+     "label": "Palo Alto Warns High-Severity Bug Is Being Actively Exploited (Infosecurity Magazine, juni 2026)",
+     "url": "https://www.infosecurity-magazine.com/news/palo-alto-highseverity-bug/",
+     "note": "Het voorbeeld uit dit stuk: een 7,8 die toch voorrang verdiende."
+    }
+   ],
+   "currency_check": "Gecontroleerd op 5 november 2026. De bronnen komen uit mei 2025 (CVE-regels 4.1.0) tot juni 2026: de CVSS 4.0-handleiding (november 2025), de EPSS-pagina's en de KEV-pagina zoals ze nu online staan, de NVD-wijziging van april 2026 en de FIRST-prognose van juni 2026. De ransomwaremelding van Unit 42 (oktober 2026) komt uit het eerdere CyberScope-artikel over dit lek.",
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+   ],
+   "written_at": "2026-11-05T02:55:00Z",
+   "processed_by": "Claude (geplande taak)",
+   "quiz": [
+    {
+     "question": "Een lek heeft een CVSS-score van 9,8 maar een EPSS-kans van 0,2 procent en staat niet op de KEV-lijst. Wat zegt dat?",
+     "options": [
+      "Het lek is technisch ernstig, maar er is weinig kans op misbruik op korte termijn en geen bewijs dat het al gebeurt.",
+      "Het lek wordt al op grote schaal misbruikt, anders zou de score niet zo hoog zijn.",
+      "De EPSS-kans is fout, want een lek met 9,8 heeft altijd een hoge kans op misbruik."
+     ],
+     "answer": 0,
+     "explanation": "CVSS meet ernst, EPSS kans en KEV bewijs. Ze kunnen elkaar tegenspreken; het lek kan wel ernstig zijn, maar het is (nog) niet het meest urgent."
+    },
+    {
+     "question": "Waarom komt een lek niet op de KEV-lijst als er alleen een openbaar proof of concept is?",
+     "options": [
+      "Omdat de KEV-lijst alleen lekken met een CVSS-score van 9,0 of hoger opneemt.",
+      "Omdat er pas een oplossing moet zijn voordat iemand een proof of concept mag publiceren.",
+      "Omdat CISA betrouwbaar bewijs eist dat een aanvaller het lek echt heeft misbruikt bij een slachtoffer."
+     ],
+     "answer": 2,
+     "explanation": "Scans, onderzoek en een proof of concept tellen niet. De KEV-lijst gaat over echt waargenomen misbruik, plus een CVE-nummer en een duidelijke oplossing."
+    },
+    {
+     "question": "Wat kan EPSS niet voor je bepalen?",
+     "options": [
+      "Hoe groot de kans is dat een lek in de komende 30 dagen wordt misbruikt.",
+      "Of het lek in jouw netwerk zit, vanaf internet bereikbaar is en een belangrijk systeem raakt.",
+      "Hoe een lek scoort ten opzichte van alle andere lekken.",
+      "Of de kans op misbruik sinds gisteren is veranderd."
+     ],
+     "answer": 1,
+     "explanation": "EPSS kijkt naar alle organisaties samen en kent jouw omgeving niet. Aanwezigheid, bereikbaarheid en belang moet je zelf toevoegen."
+    }
+   ],
+   "showcase": {
+    "caption": "Bovenaan een CVSS 4.0-vector, deel voor deel uitgelegd: zo is te lezen waarom een lek hoog scoort. Daaronder een nagebouwde prioriteitenlijst. Let op lek B: niet de hoogste CVSS-score, wel als eerste aan de beurt, omdat het al wordt misbruikt en vanaf internet bereikbaar is.",
+    "language": "text",
+    "code": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n\nAV:N   aanval via het netwerk (bijv. internet)\nAC:L   weinig moeite: geen beveiliging te omzeilen\nAT:N   geen bijzondere voorwaarden nodig\nPR:N   geen account nodig\nUI:N   niemand hoeft iets te doen of aan te klikken\nVC:H   grote gevolgen voor vertrouwelijkheid\nVI:H   grote gevolgen voor integriteit\nVA:H   grote gevolgen voor beschikbaarheid\nSC/SI/SA:N  geen gevolgen voor andere systemen",
+    "result": {
+     "columns": [
+      "Lek",
+      "CVSS",
+      "EPSS (kans)",
+      "Op KEV-lijst",
+      "Vanaf internet",
+      "Voorrang"
+     ],
+     "rows": [
+      [
+       "A: intern beheerprogramma",
+       "9,3",
+       "0,2%",
+       "nee",
+       "nee",
+       "3"
+      ],
+      [
+       "B: vpn-server",
+       "7,8",
+       "60%",
+       "ja",
+       "ja",
+       "1"
+      ],
+      [
+       "C: printserver",
+       "8,7",
+       "15%",
+       "nee",
+       "nee",
+       "2"
+      ],
+      [
+       "D: app op laptops",
+       "5,3",
+       "0,1%",
+       "nee",
+       "nee",
+       "4 (gewone patchronde)"
+      ]
+     ]
+    },
+    "note": "De vector volgt de notatie uit de CVSS 4.0-handleiding van FIRST. De tabel is nagebouwd: de lekken en scores zijn verzonnen om het principe te laten zien."
+   },
+   "terms": [
+    {
+     "term": "CNA",
+     "explanation": "CVE Numbering Authority: een organisatie die CVE-nummers mag uitdelen en CVE-records publiceert, vaak de maker van de software zelf."
+    },
+    {
+     "term": "NVD",
+     "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
+    },
+    {
+     "term": "CWE",
+     "explanation": "Common Weakness Enumeration: een vaste lijst van soorten fouten in software, zoals SQL injection of path traversal. Een CVE zegt welk lek het is, een CWE wat voor soort fout."
+    },
+    {
+     "term": "CVSS-score",
+     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    },
+    {
+     "term": "vector",
+     "explanation": "De korte code achter een CVSS-score, zoals AV:N/PR:N. Elk stukje is het antwoord op één vraag over het lek, bijvoorbeeld of er een account nodig is."
+    },
+    {
+     "term": "EPSS",
+     "explanation": "Exploit Prediction Scoring System van FIRST: een model dat elke dag per CVE de kans berekent dat er in de komende 30 dagen misbruik wordt gezien."
+    },
+    {
+     "term": "percentiel",
+     "explanation": "Zegt hoeveel procent van alle lekken lager scoort. Op het 88e percentiel scoren 88 van de 100 lekken lager."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
+   ],
+   "customer_questions": [
+    "Gebruiken jullie bij het prioriteren alleen de CVSS-score, of ook EPSS en de KEV-lijst?",
+    "Hoe snel lossen jullie een lek op dat op de KEV-lijst komt, en geldt dat ook voor systemen die vanaf internet bereikbaar zijn?",
+    "Weten jullie welke van jullie systemen vanaf internet bereikbaar zijn, zodat je die bij het kiezen zwaarder kunt laten wegen?"
+   ],
+   "takeaway": "CVSS zegt hoe erg een lek kan zijn, EPSS hoe waarschijnlijk misbruik is en de KEV-lijst dat het al gebeurt. Begin bij bewijs van misbruik, kijk dan naar kans en bereikbaarheid in je eigen omgeving, en gebruik de CVSS-score als één van de signalen, niet als het enige.",
+   "reading_minutes": 8
+  }
+ ],
  "deepdive_options": {
-  "generated_at": "2026-11-04T02:30:00Z",
+  "generated_at": "2026-11-05T03:00:00Z",
   "options": [
    {
-    "id": "authenticatie-en-autorisatie",
-    "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
-    "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe werken sessies en tokens, en wat gaat er mis bij een authentication bypass?",
-    "why": "Deze week omzeilde een aanvaller MFA bij 79 organisaties met gestolen inlogtokens, en misbruiken ransomwaregroepen een fout in de controle van inlogcookies in de Palo Alto-vpn: wie snapt hoe inloggen werkt, snapt beide.",
+    "id": "remote-code-execution",
+    "title": "Remote Code Execution - een server opdrachten laten uitvoeren",
+    "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?",
+    "why": "PHP2Shell in PHP zelf en de lekkenketen in PaperCut laten deze weken zien hoe een webverzoek zonder inlog kan eindigen in opdrachten op de server.",
     "topics": [
-     "phishing_identity",
-     "web_software_security",
-     "attack_techniques"
+     "attack_techniques",
+     "vulnerabilities_cve",
+     "siem_detection"
     ],
     "area": "techniek"
-   },
-   {
-    "id": "cve-cvss-epss-kev",
-    "title": "CVE, CVSS, EPSS en KEV - wat zeggen al die afkortingen?",
-    "question": "Hoe krijgt een kwetsbaarheid een nummer en een score, en waarom is een hoge CVSS-score niet altijd het meest urgent?",
-    "why": "Volgens Cisco Talos is het aantal gepubliceerde kwetsbaarheden dit jaar meer dan verdubbeld, terwijl het aantal echt misbruikte lekken veel minder snel groeit: kiezen wat eerst moet wordt dus belangrijker.",
-    "topics": [
-     "vulnerability_management",
-     "vulnerabilities_cve",
-     "exploited_vulnerabilities"
-    ],
-    "area": "praktijk"
    },
    {
     "id": "edge-devices-als-ingang",
     "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
     "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
-    "why": "In één week kwamen aanvallen op vpn's van Ivanti en Palo Alto, op Cisco SD-WAN en op BeyondTrust in het nieuws: steeds systemen aan de rand van het netwerk die vanaf internet bereikbaar zijn.",
+    "why": "Trend van deze weken: lekken in vpn- en netwerkapparaten worden volop misbruikt, en op 3 november bleken bijgewerkte Ivanti-vpn's opnieuw kwetsbaar voor twee zero-days.",
     "topics": [
      "edge_devices",
      "exploited_vulnerabilities",
@@ -3176,28 +3414,39 @@
     "area": "kwetsbaarheden"
    },
    {
+    "id": "ai-agenten-bij-inbraken",
+    "title": "AI-agenten bij inbraken: wat doen ze, en waarom vallen ze zo op?",
+    "question": "Hoe laat een aanvaller een AI-framework zelf inloggen, verkennen en rechten verhogen, en welke sporen laat dat achter in logs?",
+    "why": "Trend van deze weken: Google zag aanvallers met frameworks als ARTEX binnen minuten tot uren diep in een netwerk komen, met opvallend veel verzoeken en sporen.",
+    "topics": [
+     "attack_techniques",
+     "threat_intelligence",
+     "siem_detection"
+    ],
+    "area": "techniek"
+   },
+   {
+    "id": "incident-response-stappen",
+    "title": "Incident response - wat gebeurt er na het alarm?",
+    "question": "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?",
+    "why": "DIVD beschreef open hoe het een inbraak via zero-days in Zammad binnen 19 minuten zag en daarna indamde: een zeldzaam Nederlands voorbeeld van incident response van binnenuit.",
+    "topics": [
+     "incident_response",
+     "incidents_breaches"
+    ],
+    "area": "praktijk"
+   },
+   {
     "id": "anatomie-ransomware-aanval",
     "title": "Anatomie van een ransomware-aanval, stap voor stap",
     "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
-    "why": "Cisco Talos zag het aandeel ransomware in zijn incidenten in het derde kwartaal stijgen naar 27 procent, vaak begonnen met een telefoontje van een nep-IT-helpdesk.",
+    "why": "Unit 42 beschreef in oktober hoe ransomwaregroepen via een vpn-lek binnenkwamen en via RMM-tools, RDP en vCenter doorliepen tot de versleuteling.",
     "topics": [
      "ransomware",
      "attack_techniques",
      "siem_detection"
     ],
     "area": "incidenten"
-   },
-   {
-    "id": "nep-captcha-zelf-malware-starten",
-    "title": "Nep-CAPTCHA's: hoe aanvallers je zelf malware laten starten",
-    "question": "Hoe overtuigt een nep-CAPTCHA iemand om zelf een opdracht op de computer uit te voeren, wat gebeurt er daarna technisch, en wat ziet een securityteam ervan?",
-    "why": "Deze week leidde een Google-advertentie naar een nagemaakte Amazon-pagina met een nep-CAPTCHA die bezoekers zelf een wachtwoorddief liet starten.",
-    "topics": [
-     "phishing_identity",
-     "malware",
-     "siem_detection"
-    ],
-    "area": "techniek"
    }
   ]
  },
@@ -3474,6 +3723,17 @@
    ]
   },
   {
+   "term": "CNA",
+   "explanation": "CVE Numbering Authority: een organisatie die CVE-nummers mag uitdelen en CVE-records publiceert, vaak de maker van de software zelf.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
    "term": "Conditional Access",
    "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat.",
    "refs": [
@@ -3538,9 +3798,25 @@
    "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt.",
    "refs": [
     {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    },
+    {
      "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "CWE",
+   "explanation": "Common Weakness Enumeration: een vaste lijst van soorten fouten in software, zoals SQL injection of path traversal. Een CVE zegt welk lek het is, een CWE wat voor soort fout.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -3616,6 +3892,17 @@
      "kind": "a",
      "id": "4d33a21d5cc6",
      "title": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties"
+    }
+   ]
+  },
+  {
+   "term": "EPSS",
+   "explanation": "Exploit Prediction Scoring System van FIRST: een model dat elke dag per CVE de kans berekent dat er in de komende 30 dagen misbruik wordt gezien.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -3820,6 +4107,11 @@
    "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen.",
    "refs": [
     {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    },
+    {
      "kind": "a",
      "id": "37b85c3ffeef",
      "title": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt"
@@ -3990,6 +4282,17 @@
    ]
   },
   {
+   "term": "NVD",
+   "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
    "term": "offline kraken",
    "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer.",
    "refs": [
@@ -4073,6 +4376,17 @@
      "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "percentiel",
+   "explanation": "Zegt hoeveel procent van alle lekken lager scoort. Op het 88e percentiel scoren 88 van de 100 lekken lager.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -4480,6 +4794,17 @@
    ]
   },
   {
+   "term": "vector",
+   "explanation": "De korte code achter een CVSS-score, zoals AV:N/PR:N. Elk stukje is het antwoord op één vraag over het lek, bijvoorbeeld of er een account nodig is.",
+   "refs": [
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
    "term": "vishing",
    "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk.",
    "refs": [
@@ -4838,8 +5163,8 @@
    "divd": 1,
    "cisco_talos": 3,
    "microsoft_threat_intel": 3,
-   "bleepingcomputer": 3,
    "huntress_blog": 3,
+   "bleepingcomputer": 3,
    "watchtowr_labs": 1
   },
   "date_flags": [
@@ -4904,10 +5229,18 @@
     "excluded_by": []
    },
    {
+    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
+    "relevance_score": 88,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4917,19 +5250,11 @@
     "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
-    "relevance_score": 88,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
@@ -5000,14 +5325,6 @@
     "excluded_by": []
    },
    {
-    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
@@ -5021,6 +5338,14 @@
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -5314,14 +5639,6 @@
     "excluded_by": []
    },
    {
-    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
@@ -5375,6 +5692,14 @@
     "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
     "source_id": "google_threat_intel",
     "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
     "relevance_score": 72,
     "decision": "included",
     "excluded_by": []
