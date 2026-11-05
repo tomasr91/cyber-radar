@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T04:38:58.802405Z",
+ "generated_at": "2026-11-05T07:19:06.666441Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-05T01:42:22Z",
- "last_successful_update": "2026-11-05T04:38:58.802405Z",
+ "last_successful_update": "2026-11-05T07:19:06.666441Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T04:38:58.861632Z"
+   "checked_at": "2026-11-05T07:19:06.701110Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T04:38:59.352724Z"
+   "checked_at": "2026-11-05T07:19:07.664474Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T04:38:59.924521Z"
+   "checked_at": "2026-11-05T07:19:08.682331Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T04:39:00.050053Z"
+   "checked_at": "2026-11-05T07:19:08.818909Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T04:39:00.843027Z"
+   "checked_at": "2026-11-05T07:19:10.433065Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T04:39:00.978332Z"
+   "checked_at": "2026-11-05T07:19:10.537411Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T04:39:01.050573Z"
+   "checked_at": "2026-11-05T07:19:10.634033Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T04:39:01.117955Z"
+   "checked_at": "2026-11-05T07:19:10.713254Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T04:39:01.430766Z"
+   "checked_at": "2026-11-05T07:19:11.088241Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T04:39:03.175462Z"
+   "checked_at": "2026-11-05T07:19:12.847256Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T04:39:03.272332Z"
+   "checked_at": "2026-11-05T07:19:12.982699Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T04:39:03.454852Z"
+   "checked_at": "2026-11-05T07:19:13.069122Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T04:39:03.565922Z"
+   "checked_at": "2026-11-05T07:19:13.107602Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T04:39:03.684572Z"
+   "checked_at": "2026-11-05T07:19:13.317576Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T04:39:03.755940Z"
+   "checked_at": "2026-11-05T07:19:13.416223Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T04:39:03.812067Z"
+   "checked_at": "2026-11-05T07:19:13.480777Z"
   },
   {
    "id": "securityweek",
@@ -367,14 +367,14 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T04:39:03.964287Z"
+   "checked_at": "2026-11-05T07:19:13.757362Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
-  "63028db311b2",
   "11af3bdb9908",
   "8b5f34b85bf1",
+  "63028db311b2",
   "d2cce75fefaf"
  ],
  "articles": [
@@ -413,10 +413,10 @@
     "kwetsbaarheden",
     "aanvallen"
    ],
-   "relevance_score": 95,
+   "relevance_score": 94,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.87,
+    "recency": 0.86,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -537,98 +537,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "63028db311b2",
-   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
-   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
-   "limitations": [
-    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
-    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
-    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "incidenten"
-   ],
-   "relevance_score": 94,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.88,
-    "source": 0.8,
-    "quality": 0.82,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
-   "story": [
-    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
-    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
-    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
-    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
-    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
-   ],
-   "key_facts": [
-    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
-    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
-    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
-    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
-    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
-    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
-    "language": "log",
-    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
-   },
-   "terms": [
-    {
-     "term": "LLMJacking",
-     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
-    },
-    {
-     "term": "API",
-     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
-    },
-    {
-     "term": "serviceaccounts",
-     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
-    },
-    {
-     "term": "AI-gateway",
-     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
-   },
-   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
-   "region": "world"
-  },
-  {
    "id": "11af3bdb9908",
    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
@@ -685,7 +593,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -842,7 +750,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.76,
+    "recency": 0.75,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -952,6 +860,98 @@
     "Zien jullie uitgaand verkeer naar diensten als webhook.site?"
    ],
    "takeaway": "AI-agenten versnellen vooral wat na de eerste toegang komt: verkennen, rechten verhogen, gegevens verzamelen. Dat maakt de reactietijd belangrijker dan ooit, maar ook detectie op snelheid en volume kansrijker.",
+   "region": "world"
+  },
+  {
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
+   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
+   "limitations": [
+    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
+    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
+    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.87,
+    "source": 0.8,
+    "quality": 0.82,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
+   "story": [
+    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
+    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
+    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
+    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
+    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
+   ],
+   "key_facts": [
+    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
+    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
+    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
+    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
+    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
+    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
+    "language": "log",
+    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
+   },
+   "terms": [
+    {
+     "term": "LLMJacking",
+     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
+    },
+    {
+     "term": "API",
+     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
+    },
+    {
+     "term": "serviceaccounts",
+     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
+    },
+    {
+     "term": "AI-gateway",
+     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
+   },
+   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
    "region": "world"
   },
   {
@@ -1143,7 +1143,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1291,7 +1291,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -1791,108 +1791,6 @@
    "region": "world"
   },
   {
-   "id": "62c945c0e6fb",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-03T21:28:44Z",
-   "fetched_at": "2026-11-03T21:31:41.029642Z",
-   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
-   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
-   "limitations": [
-    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
-    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
-    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
-    "Het onderzoek loopt nog."
-   ],
-   "official_docs": [
-    {
-     "label": "WorkOS: securitybulletin 30 oktober 2026",
-     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
-    }
-   ],
-   "topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.94,
-    "source": 0.68,
-    "quality": 0.53,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
-   "story": [
-    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
-    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
-    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
-    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
-   ],
-   "key_facts": [
-    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
-    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
-    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
-    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
-    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
-    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
-    "language": "log",
-    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
-   },
-   "terms": [
-    {
-     "term": "single sign-on",
-     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
-    },
-    {
-     "term": "AI-agent",
-     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
-    },
-    {
-     "term": "penetratietesten",
-     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
-    },
-    {
-     "term": "user agent",
-     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
-    },
-    {
-     "term": "social engineering",
-     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
-    },
-    {
-     "term": "CRM",
-     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
-   },
-   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
-   "region": "na"
-  },
-  {
    "id": "201b2063f67c",
    "title": "mSecure password manager hack prompts password reset warnings",
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
@@ -2261,6 +2159,108 @@
    "region": "world",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "62c945c0e6fb",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-03T21:28:44Z",
+   "fetched_at": "2026-11-03T21:31:41.029642Z",
+   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
+   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "limitations": [
+    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
+    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
+    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
+    "Het onderzoek loopt nog."
+   ],
+   "official_docs": [
+    {
+     "label": "WorkOS: securitybulletin 30 oktober 2026",
+     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+    }
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.53,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "story": [
+    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
+    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
+    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
+    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+   ],
+   "key_facts": [
+    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
+    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
+    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
+    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
+    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
+    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
+    "language": "log",
+    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
+   },
+   "terms": [
+    {
+     "term": "single sign-on",
+     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "penetratietesten",
+     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    },
+    {
+     "term": "social engineering",
+     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
+    },
+    {
+     "term": "CRM",
+     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+   },
+   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "region": "na"
   },
   {
    "id": "580236cbddf9",
@@ -2675,7 +2675,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.48,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -2774,7 +2774,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.37,
+    "recency": 0.36,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -2970,7 +2970,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.99,
+    "recency": 0.98,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -5113,6 +5113,25 @@
  "runs": {
   "date": "2026-11-05",
   "tasks": {
+   "inhalen": {
+    "status": "ok",
+    "summary": "niets in te halen",
+    "finished_at": "2026-11-05T04:38:41Z",
+    "problems": [],
+    "counts": {
+     "ingehaald": 0
+    }
+   },
+   "verdiepen": {
+    "status": "ok",
+    "summary": "Verdieping over CVE, CVSS, EPSS en KEV geschreven; 5 nieuwe keuzes klaargezet.",
+    "finished_at": "2026-11-05T02:54:12Z",
+    "problems": [],
+    "counts": {
+     "verdiepingen": 1,
+     "keuzes": 5
+    }
+   },
    "uitleggen": {
     "status": "ok",
     "summary": "Vers opgehaald; 6 artikelen uitgelegd (5 van de werklijst en het LLMJacking-stuk van gisteren), 5 overgeslagen, waarvan 2 zonder openen.",
@@ -5129,15 +5148,6 @@
      "niet_te_lezen": 2
     }
    },
-   "inhalen": {
-    "status": "ok",
-    "summary": "niets in te halen",
-    "finished_at": "2026-11-05T04:38:41Z",
-    "problems": [],
-    "counts": {
-     "ingehaald": 0
-    }
-   },
    "overzicht": {
     "status": "ok",
     "summary": "3 trends: AI-agenten bij inbraken en misbruikte vpn- en randapparaten bijgewerkt, nieuw: MFA omzeild met gestolen sessies; geen verzoeken voor de interesses en geen stukken zonder begrippen.",
@@ -5147,16 +5157,6 @@
      "trends": 3,
      "interesses_aangepast": 0,
      "begrippen_aangevuld": 0
-    }
-   },
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Verdieping over CVE, CVSS, EPSS en KEV geschreven; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-05T02:54:12Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 1,
-     "keuzes": 5
     }
    }
   }
@@ -5197,16 +5197,16 @@
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
-   "detectie": 3,
    "aanvallen": 7,
+   "detectie": 3,
    "incidenten": 4,
    "ti": 4,
    "vm": 1
   },
   "per_source": {
    "security_nl": 1,
-   "google_threat_intel": 5,
    "unit42": 5,
+   "google_threat_intel": 5,
    "divd": 1,
    "cisco_talos": 3,
    "microsoft_threat_intel": 3,
@@ -5364,14 +5364,6 @@
     ]
    },
    {
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
@@ -5385,6 +5377,14 @@
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -5704,14 +5704,6 @@
     ]
    },
    {
-    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
     "source_id": "project_zero",
     "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
@@ -5779,6 +5771,14 @@
     "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
+    "source_id": "the_record",
+    "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
     "relevance_score": 72,
     "decision": "included",
     "excluded_by": []
