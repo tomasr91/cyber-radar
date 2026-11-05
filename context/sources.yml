@@ -331,7 +331,7 @@ sources:
     language: en
     region: world
     fetch_method: rss
-    verification: {status: user_supplied, checked_on: "2026-11-05", note: "Op verzoek toegevoegd; wordt bij de volgende run gecontroleerd."}
+    verification: {status: verified, checked_on: "2026-11-05", note: "Op verzoek toegevoegd; werkt (run 5-11-2026, 30 items)."}
 
   - id: securityweek
     name: SecurityWeek
