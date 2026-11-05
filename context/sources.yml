@@ -318,6 +318,21 @@ sources:
     fetch_method: rss
     verification: {status: verified, checked_on: "2026-11-03", note: "Werkt (eerste run 3-11-2026)."}
 
+  - id: the_hacker_news
+    name: The Hacker News
+    url: https://thehackernews.com
+    feed_url: https://feeds.feedburner.com/TheHackersNews
+    type: independent_news
+    # Op verzoek toegevoegd (5-11-2026). Brengt veel nieuws snel; technische details checkt Claude bij de bron.
+    topics: [vulnerabilities_cve, exploited_vulnerabilities, malware, threat_intelligence, incidents_breaches, supply_chain]
+    priority: 4
+    enabled: true
+    trust_level: medium
+    language: en
+    region: world
+    fetch_method: rss
+    verification: {status: user_supplied, checked_on: "2026-11-05", note: "Op verzoek toegevoegd; wordt bij de volgende run gecontroleerd."}
+
   - id: securityweek
     name: SecurityWeek
     url: https://www.securityweek.com
