@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T06:56:13.367580Z",
+ "generated_at": "2026-11-05T01:23:13.271718Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-04T01:49:51Z",
- "last_successful_update": "2026-11-04T06:56:13.367580Z",
+ "last_successful_update": "2026-11-05T01:23:13.271718Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-04T06:56:13.395247Z"
+   "checked_at": "2026-11-05T01:23:13.301553Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-04T06:56:14.032802Z"
+   "checked_at": "2026-11-05T01:23:14.078036Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-04T06:56:14.821393Z"
+   "checked_at": "2026-11-05T01:23:14.902423Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-04T06:56:15.062516Z"
+   "checked_at": "2026-11-05T01:23:15.081914Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-04T06:56:16.142796Z"
+   "checked_at": "2026-11-05T01:23:16.071039Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-04T06:56:16.340847Z"
+   "checked_at": "2026-11-05T01:23:16.294917Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-04T06:56:16.455837Z"
+   "checked_at": "2026-11-05T01:23:16.443991Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-04T06:56:16.604854Z"
+   "checked_at": "2026-11-05T01:23:16.568810Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-04T06:56:17.116467Z"
+   "checked_at": "2026-11-05T01:23:17.109026Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-04T06:56:18.620086Z"
+   "checked_at": "2026-11-05T01:23:18.966640Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-04T06:56:18.775407Z"
+   "checked_at": "2026-11-05T01:23:19.208946Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-04T06:56:18.877014Z"
+   "checked_at": "2026-11-05T01:23:19.406186Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-04T06:56:19.071464Z"
+   "checked_at": "2026-11-05T01:23:19.617616Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-04T06:56:19.322950Z"
+   "checked_at": "2026-11-05T01:23:19.908583Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-04T06:56:19.443323Z"
+   "checked_at": "2026-11-05T01:23:20.052203Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-04T06:56:19.563662Z"
+   "checked_at": "2026-11-05T01:23:20.200148Z"
   },
   {
    "id": "securityweek",
@@ -367,15 +367,15 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-04T06:56:19.796485Z"
+   "checked_at": "2026-11-05T01:23:20.491689Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
   "11af3bdb9908",
   "8b5f34b85bf1",
-  "30b15a7c5706",
-  "d2cce75fefaf"
+  "d2cce75fefaf",
+  "30b15a7c5706"
  ],
  "articles": [
   {
@@ -416,7 +416,7 @@
    "relevance_score": 95,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.91,
+    "recency": 0.87,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -590,10 +590,10 @@
     "detectie",
     "web"
    ],
-   "relevance_score": 94,
+   "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.76,
+    "recency": 0.73,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -747,10 +747,10 @@
     "detectie",
     "incidenten"
    ],
-   "relevance_score": 94,
+   "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.79,
+    "recency": 0.76,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -863,149 +863,6 @@
    "region": "world"
   },
   {
-   "id": "30b15a7c5706",
-   "title": "Shutting the Door on the XCPE Botnet",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
-   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
-   "limitations": [
-    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
-    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
-    "Een reactie van Videostrong staat niet in de bron.",
-    "De precieze datum van de actie en de rechtbank worden niet genoemd."
-   ],
-   "official_docs": [
-    {
-     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
-     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
-    }
-   ],
-   "topics": [
-    "threat_intelligence",
-    "supply_chain",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 91,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.92,
-    "source": 0.8,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:37:00Z",
-   "reading_minutes": 5,
-   "format_version": 2,
-   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
-   "story": [
-    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
-    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
-   ],
-   "key_facts": [
-    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
-    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
-    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
-    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
-    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
-    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "botnet",
-     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
-    },
-    {
-     "term": "firmware",
-     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "residential proxy",
-     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
-    },
-    {
-     "term": "C2",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "IOC's",
-     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
-   },
-   "sections": [
-    {
-     "heading": "Wat is de technologie?",
-     "paragraphs": [
-      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
-      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
-     ]
-    },
-    {
-     "heading": "Wat gaat er technisch fout?",
-     "paragraphs": [
-      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
-      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
-     ]
-    },
-    {
-     "heading": "Hoe kan een aanvaller dit misbruiken?",
-     "paragraphs": [
-      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
-      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
-      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
-     ]
-    },
-    {
-     "heading": "Wat is de mogelijke impact?",
-     "paragraphs": [
-      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
-      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
-     ]
-    },
-    {
-     "heading": "Hoe zie je dit?",
-     "paragraphs": [
-      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
-      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
-     ]
-    },
-    {
-     "heading": "Hoe voorkom je dit?",
-     "paragraphs": [
-      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
-      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
-     ]
-    }
-   ],
-   "customer_questions": [
-    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
-    "Staan die apparaten in een apart netwerksegment?",
-    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
-   ],
-   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
-   "region": "world"
-  },
-  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -1046,7 +903,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.14,
+    "recency": 0.13,
     "source": 0.8,
     "quality": 0.78,
     "region": 0.06,
@@ -1194,7 +1051,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.7,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1309,6 +1166,149 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
+   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
+   "limitations": [
+    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
+    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
+    "Een reactie van Videostrong staat niet in de bron.",
+    "De precieze datum van de actie en de rechtbank worden niet genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
+   ],
+   "topics": [
+    "threat_intelligence",
+    "supply_chain",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.8,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:37:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
+   "story": [
+    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
+    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
+   ],
+   "key_facts": [
+    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
+    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
+    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
+    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
+    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
+    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "botnet",
+     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
+    },
+    {
+     "term": "firmware",
+     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+     "term": "residential proxy",
+     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
+    },
+    {
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
+    "Staan die apparaten in een apart netwerksegment?",
+    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
+   ],
+   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
+   "region": "world"
+  },
+  {
    "id": "875e59480304",
    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
@@ -1338,10 +1338,10 @@
     "ti",
     "aanvallen"
    ],
-   "relevance_score": 90,
+   "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.94,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -1436,10 +1436,10 @@
     "web",
     "incidenten"
    ],
-   "relevance_score": 89,
+   "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.51,
+    "recency": 0.49,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -1509,103 +1509,6 @@
    "region": "world"
   },
   {
-   "id": "b06c9cfc80a7",
-   "title": "Investigating Ephemeral Supply Chain Tampering",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-10-15T11:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Aanvallers pasten de updateserver van AOMEI steeds maar vijf tot tien minuten aan. Alleen computers die precies dan een update zochten, kregen malware. Daarna zag alles er weer normaal uit, wat onderzoek lastig maakt.",
-   "personal_relevance": "Dit is een sterk voorbeeld voor gesprekken over supply chain-risico en over waarom detectie op gedrag (welk programma start wat) belangrijk blijft, ook bij vertrouwde software. Het laat ook zien waarom snel logs veiligstellen telt bij een melding.",
-   "limitations": [
-    "Hoe de aanvaller toegang kreeg tot de servers van AOMEI, staat niet in het stuk.",
-    "Google noemt geen land of bekende groep achter UNC7017.",
-    "Omdat iedereen die in een venster updatete geraakt kon worden, is het werkelijke aantal slachtoffers waarschijnlijk groter dan bekend."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "supply_chain",
-    "malware",
-    "incident_response"
-   ],
-   "groups": [
-    "ti",
-    "web",
-    "aanvallen",
-    "detectie"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.37,
-    "source": 0.8,
-    "quality": 0.85,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:49:51Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Updateserver van AOMEI telkens een paar minuten besmet",
-   "story": [
-    "Google Threat Intelligence en Mandiant onderzochten een aanval op de updateservers van AOMEI, maker van onder meer de back-upsoftware Backupper en het beheerprogramma AnyViewer. De aanvallen liepen van april tot juli 2026. Google volgt de groep als UNC7017. Getroffen waren organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland. Het onderzoekslab van ManageEngine zag het eind mei als eerste.",
-    "Hoe werkt een update normaal? Het programma haalt via HTTPS een configuratiebestand op bij de maker. Daarin staan het nieuwste versienummer, een MD5-controlegetal en een downloadlink. Is er een nieuwere versie, dan downloadt het programma die en controleert het het MD5-getal. De aanvaller paste dat bestand op de server van AOMEI aan: een andere downloadlink en een MD5 die bij zijn eigen pakket paste. Telkens maar vijf tot tien minuten, daarna stond het origineel er weer. Het zwakke punt: het programma vertrouwde een controlegetal uit hetzelfde onbeveiligde bestand, en controleerde geen digitale handtekening.",
-    "Wie in zo'n venster een update zocht, kreeg een keten van malware. Eerst de downloader CROSSROAD, die ook het lokale configuratiebestand terugzette. Daarna de backdoor SHINYROAD, geladen via DLL-sideloading in een aangepaste versie van het beheerprogramma Radmin. Later gebruikte de groep ook ADAPTAGENT van het framework Adaptix C2. Voor persistentie maakte de malware geplande taken aan met namen als RadminComponentRuntime en NitroRuntime.",
-    "Google noemt dit de 'triage trap'. Een analist die na een melding de downloadlink controleert, ziet een schoon bestand en denkt aan vals alarm. Bewaar daarom het lokale configuratiebestand en koppel proxy- en firewalllogs aan het exacte tijdstip van de melding. Let op niet-ondertekende programma's die door een updater worden gestart, op de genoemde geplande taken en op uitgaand SMB- of WebDAV-verkeer naar internet. En let op: de server van AOMEI opschonen maakt computers die al besmet zijn niet schoon.",
-    "Volgens Google is dit een goedkopere en stillere vorm van een supply chain-aanval dan het besmetten van de bouwstraat, zoals bij SolarWinds. Er blijft namelijk geen kwaadaardig bestand op de server van de leverancier achter. Voor softwaremakers is de les: onderteken ook configuratiebestanden en controleer handtekeningen, niet alleen HTTPS."
-   ],
-   "key_facts": [
-    "Google Threat Intelligence Group en Mandiant publiceerden het onderzoek op 15 oktober 2026; de activiteit liep van april tot juli 2026 en wordt toegeschreven aan UNC7017.",
-    "Waargenomen vensters: 28 mei (10 minuten), 16 juli (6 minuten) en 20 juli (5 minuten); waarschijnlijk waren er meer.",
-    "Het configuratiebestand bevat een versie, een MD5-hash en een downloadlink; de aanvaller paste link en hash aan en dwong op 16 juli updates af met meer dan 35.000 extra secties in een meldingenbestand.",
-    "Malware: CROSSROAD (downloader), SHINYROAD (backdoor via een aangepaste Radmin met DLL-sideloading) en ADAPTAGENT (Adaptix C2); geplande taken RadminComponentRuntime en NitroRuntime.",
-    "Getroffen organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland.",
-    "Mandiant waarschuwde AOMEI op 17 juli 2026; AOMEI meldde op 29 juli maatregelen te hebben genomen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo'n updatebestand ziet er ongeveer zo uit. Boven de normale versie, onder de aangepaste versie tijdens een aanvalsvenster: een hoger versienummer, een andere downloadlink en een MD5 die bij het pakket van de aanvaller past. Het programma ziet geen verschil, want het controleert alleen of de MD5 klopt.",
-    "language": "text",
-    "code": "; normaal\nversion=7.4.1\nmd5=9e107d9d372bb6826bd81d3542a419d6\nurl=https://update.example.com/backupper_7.4.1.zip\n\n; tijdens het venster van vijf minuten\nversion=7.4.2\nmd5=e4d909c290d0fb1ca068ffaddf22cbd0\nurl=https://storage.example.net/u/backupper_7.4.2.zip",
-    "note": "Nagebouwd en vereenvoudigd voorbeeld met verzonnen waarden en voorbeelddomeinen. Volgens Google bevat het echte bestand een versie, een MD5-hash en een downloadlink."
-   },
-   "terms": [
-    {
-     "term": "MD5",
-     "explanation": "Een oude methode om een 'vingerafdruk' (hash) van een bestand te maken. Het laat zien of een bestand onderweg veranderd is, maar bewijst niet wie het gemaakt heeft."
-    },
-    {
-     "term": "digitale handtekening",
-     "explanation": "Een cryptografisch bewijs dat een bestand echt van een bepaalde maker komt en niet is aangepast. Alleen de maker heeft de sleutel om te ondertekenen."
-    },
-    {
-     "term": "backdoor",
-     "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
-    },
-    {
-     "term": "DLL-sideloading",
-     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
-    },
-    {
-     "term": "geplande taken",
-     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met een heldere uitleg van hoe updates werken."
-   },
-   "takeaway": "Een update is alleen te vertrouwen als de software de digitale handtekening controleert; HTTPS en een controlegetal uit hetzelfde bestand zijn niet genoeg. En een aanval die maar minuten duurt, kun je achteraf alleen terugvinden in je eigen logs.",
-   "region": "world"
-  },
-  {
    "id": "4d33a21d5cc6",
    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
    "url": "https://www.huntress.com/blog/token-replay-spray",
@@ -1634,7 +1537,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.53,
+    "recency": 0.51,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -1731,7 +1634,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.73,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -1829,7 +1732,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -1898,37 +1801,37 @@
    "region": "na"
   },
   {
-   "id": "580236cbddf9",
-   "title": "ARMORY CASTLE Exploits BeyondTrust",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+   "id": "b06c9cfc80a7",
+   "title": "Investigating Ephemeral Supply Chain Tampering",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
    "source_id": "google_threat_intel",
-   "published_at": "2026-10-15T14:00:00Z",
+   "published_at": "2026-10-15T11:00:00Z",
    "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Een lek in BeyondTrust Remote Support laat een aanvaller zonder inlog bestanden uploaden en het apparaat overnemen. Mandiant zag dat de groep ARMORY CASTLE het eind augustus al als zero-day misbruikte, en daarna alle opgeslagen wachtwoorden stal.",
-   "personal_relevance": "Tools voor beheer op afstand zitten bij veel klanten en hebben brede toegang. Een goede vraag aan klanten: gaan de logs van zulke apparaten direct naar de SIEM, en wordt een wijziging van beheerrechten gemeld?",
+   "summary": "Aanvallers pasten de updateserver van AOMEI steeds maar vijf tot tien minuten aan. Alleen computers die precies dan een update zochten, kregen malware. Daarna zag alles er weer normaal uit, wat onderzoek lastig maakt.",
+   "personal_relevance": "Dit is een sterk voorbeeld voor gesprekken over supply chain-risico en over waarom detectie op gedrag (welk programma start wat) belangrijk blijft, ook bij vertrouwde software. Het laat ook zien waarom snel logs veiligstellen telt bij een melding.",
    "limitations": [
-    "Welke organisaties en sectoren getroffen zijn, staat niet in het stuk.",
-    "Het type programmeerfout en de CVSS-score worden niet genoemd.",
-    "Of BeyondTrust Privileged Remote Access ook kwetsbaar is, staat niet in het stuk.",
-    "De toeschrijving aan China is een inschatting van Google."
+    "Hoe de aanvaller toegang kreeg tot de servers van AOMEI, staat niet in het stuk.",
+    "Google noemt geen land of bekende groep achter UNC7017.",
+    "Omdat iedereen die in een venster updatete geraakt kon worden, is het werkelijke aantal slachtoffers waarschijnlijk groter dan bekend."
    ],
    "topics": [
-    "exploited_vulnerabilities",
     "threat_intelligence",
-    "edge_devices",
+    "supply_chain",
+    "malware",
     "incident_response"
    ],
    "groups": [
-    "kwetsbaarheden",
     "ti",
+    "web",
+    "aanvallen",
     "detectie"
    ],
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.38,
+    "recency": 0.36,
     "source": 0.8,
-    "quality": 0.8,
+    "quality": 0.85,
     "fit": 0.1
    },
    "decision": "included",
@@ -1937,64 +1840,62 @@
    "processed_at": "2026-11-04T01:49:51Z",
    "reading_minutes": 4,
    "format_version": 2,
-   "headline": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust",
+   "headline": "Updateserver van AOMEI telkens een paar minuten besmet",
    "story": [
-    "Op 15 oktober maakte BeyondTrust het lek CVE-2026-102764 bekend in Remote Support, vroeger Bomgar. Alle ondersteunde versies tot en met 26.2.3 zijn kwetsbaar. Een aanvaller zonder inlog kan bestanden op het apparaat zetten en zo het hele apparaat overnemen. Mandiant ontdekte bij een incidentonderzoek dat de groep ARMORY CASTLE het lek eind augustus al als zero-day misbruikte. Google denkt dat de groep aan China gelieerd is. De SaaS-versie is op 9 oktober gepatcht; wie het zelf host, moet patch BT26-05 installeren.",
-    "Waarom is dit ernstig? Met Remote Support neemt een helpdesk computers op afstand over. Het apparaat bewaart daarvoor wachtwoorden en heeft toegang tot veel andere systemen: het is een sleutelbos. Door het lek kon de aanvaller een webshell plaatsen, elf minuten na zijn eerste verzoek. Die webshell gaf de foutmelding 404 als het juiste geheime veld ontbrak. Zo leek hij voor scanners niet te bestaan. Daarna maakte de aanvaller zichzelf root met een kopie van de shell waarop het SUID-kenmerk stond.",
-    "Vervolgens dumpte hij de wachtwoordkluis met het ingebouwde hulpprogramma bt-secrets en wiste hij de bijbehorende logs. Een script zorgde voor persistentie: na elke herstart kreeg hij zijn rechten terug. Met een gestolen beheeraccount zette hij zijn rechten op 'Jump Items' van No Access naar Administrator. Zo kon hij sessies starten naar achterliggende systemen en documenten wegsluizen. Een eigen tunnel maakte zijn toegang via internet bereikbaar.",
-    "Hoe zie je het? De aanvaller wiste steeds de logs op het apparaat zelf. Stuur daarom syslog direct naar je SIEM, en zie een plotselinge stilte in die stroom als mogelijk wissen. Alarmeer op het verhogen van rechten naar Administrator, nieuwe API-accounts, en inloggen buiten kantoortijd of vanaf vpn-diensten. Google adviseert: eerst patchen. Is een apparaat verdacht? Bewaar bewijs en bouw het opnieuw op in plaats van het schoon te maken. Wissel wachtwoorden pas daarna, anders ziet de aanvaller de nieuwe ook.",
-    "Google verwacht na de bekendmaking breder misbruik, net als bij eerdere zero-days van deze groep. Elk apparaat dat met een kwetsbare versie op internet stond, behandel je als mogelijk gecompromitteerd tot het is onderzocht."
+    "Google Threat Intelligence en Mandiant onderzochten een aanval op de updateservers van AOMEI, maker van onder meer de back-upsoftware Backupper en het beheerprogramma AnyViewer. De aanvallen liepen van april tot juli 2026. Google volgt de groep als UNC7017. Getroffen waren organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland. Het onderzoekslab van ManageEngine zag het eind mei als eerste.",
+    "Hoe werkt een update normaal? Het programma haalt via HTTPS een configuratiebestand op bij de maker. Daarin staan het nieuwste versienummer, een MD5-controlegetal en een downloadlink. Is er een nieuwere versie, dan downloadt het programma die en controleert het het MD5-getal. De aanvaller paste dat bestand op de server van AOMEI aan: een andere downloadlink en een MD5 die bij zijn eigen pakket paste. Telkens maar vijf tot tien minuten, daarna stond het origineel er weer. Het zwakke punt: het programma vertrouwde een controlegetal uit hetzelfde onbeveiligde bestand, en controleerde geen digitale handtekening.",
+    "Wie in zo'n venster een update zocht, kreeg een keten van malware. Eerst de downloader CROSSROAD, die ook het lokale configuratiebestand terugzette. Daarna de backdoor SHINYROAD, geladen via DLL-sideloading in een aangepaste versie van het beheerprogramma Radmin. Later gebruikte de groep ook ADAPTAGENT van het framework Adaptix C2. Voor persistentie maakte de malware geplande taken aan met namen als RadminComponentRuntime en NitroRuntime.",
+    "Google noemt dit de 'triage trap'. Een analist die na een melding de downloadlink controleert, ziet een schoon bestand en denkt aan vals alarm. Bewaar daarom het lokale configuratiebestand en koppel proxy- en firewalllogs aan het exacte tijdstip van de melding. Let op niet-ondertekende programma's die door een updater worden gestart, op de genoemde geplande taken en op uitgaand SMB- of WebDAV-verkeer naar internet. En let op: de server van AOMEI opschonen maakt computers die al besmet zijn niet schoon.",
+    "Volgens Google is dit een goedkopere en stillere vorm van een supply chain-aanval dan het besmetten van de bouwstraat, zoals bij SolarWinds. Er blijft namelijk geen kwaadaardig bestand op de server van de leverancier achter. Voor softwaremakers is de les: onderteken ook configuratiebestanden en controleer handtekeningen, niet alleen HTTPS."
    ],
    "key_facts": [
-    "BeyondTrust maakte CVE-2026-102764 op 15 oktober 2026 bekend; het treft alle ondersteunde versies van Remote Support tot en met 26.2.3 en is zonder inlog te misbruiken.",
-    "De SaaS-versie is op 9 oktober 2026 gepatcht; zelfgehoste installaties hebben patch BT26-05 nodig.",
-    "Mandiant zag dat ARMORY CASTLE (voorheen UNC5221, door Google vermoedelijk aan China gelinkt) het lek eind augustus 2026 als zero-day misbruikte.",
-    "Na misbruik: de SAWFLY-webshell, root-rechten via een SUID-kopie van /bin/sh, het dumpen van de wachtwoordkluis met bt-secrets, persistentie via een opstartscript, rechtenverhoging van Jump Items naar Administrator en de tunnel BARECLAW.",
-    "Mandiant stelde vast dat de aanvaller tijdens het hele incident logs verwijderde.",
-    "Google verwacht breder misbruik na de bekendmaking."
+    "Google Threat Intelligence Group en Mandiant publiceerden het onderzoek op 15 oktober 2026; de activiteit liep van april tot juli 2026 en wordt toegeschreven aan UNC7017.",
+    "Waargenomen vensters: 28 mei (10 minuten), 16 juli (6 minuten) en 20 juli (5 minuten); waarschijnlijk waren er meer.",
+    "Het configuratiebestand bevat een versie, een MD5-hash en een downloadlink; de aanvaller paste link en hash aan en dwong op 16 juli updates af met meer dan 35.000 extra secties in een meldingenbestand.",
+    "Malware: CROSSROAD (downloader), SHINYROAD (backdoor via een aangepaste Radmin met DLL-sideloading) en ADAPTAGENT (Adaptix C2); geplande taken RadminComponentRuntime en NitroRuntime.",
+    "Getroffen organisaties in IT-dienstverlening, telecom en hoger onderwijs in elf landen, waaronder Spanje, Portugal en Zwitserland.",
+    "Mandiant waarschuwde AOMEI op 17 juli 2026; AOMEI meldde op 29 juli maatregelen te hebben genomen."
    ],
    "article_type": "nieuws",
    "showcase": {
-    "caption": "Zo kan een verdachte rechtenwijziging eruitzien in de syslog van het apparaat. Een beheeraccount krijgt ineens de rol Administrator op Jump Items, midden in de nacht. Dat is het soort gebeurtenis waarop Google adviseert te alarmeren.",
-    "language": "json",
-    "code": "{\"time\": \"2026-09-02T23:41:12Z\", \"event\": \"user_changed\", \"actor\": \"admin\", \"source_ip\": \"203.0.113.80\",\n \"target\": \"support-team\", \"field\": \"jump_item_role\", \"old\": \"No Access\", \"new\": \"Administrator\"}",
-    "note": "Nagebouwd en vereenvoudigd voorbeeld met een voorbeeldadres. Het type gebeurtenis (user_changed) en de rollen komen uit het stuk van Google; de echte logregels staan daar."
+    "caption": "Zo'n updatebestand ziet er ongeveer zo uit. Boven de normale versie, onder de aangepaste versie tijdens een aanvalsvenster: een hoger versienummer, een andere downloadlink en een MD5 die bij het pakket van de aanvaller past. Het programma ziet geen verschil, want het controleert alleen of de MD5 klopt.",
+    "language": "text",
+    "code": "; normaal\nversion=7.4.1\nmd5=9e107d9d372bb6826bd81d3542a419d6\nurl=https://update.example.com/backupper_7.4.1.zip\n\n; tijdens het venster van vijf minuten\nversion=7.4.2\nmd5=e4d909c290d0fb1ca068ffaddf22cbd0\nurl=https://storage.example.net/u/backupper_7.4.2.zip",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld met verzonnen waarden en voorbeelddomeinen. Volgens Google bevat het echte bestand een versie, een MD5-hash en een downloadlink."
    },
    "terms": [
     {
-     "term": "zero-day",
-     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+     "term": "MD5",
+     "explanation": "Een oude methode om een 'vingerafdruk' (hash) van een bestand te maken. Het laat zien of een bestand onderweg veranderd is, maar bewijst niet wie het gemaakt heeft."
     },
     {
-     "term": "webshell",
-     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+     "term": "digitale handtekening",
+     "explanation": "Een cryptografisch bewijs dat een bestand echt van een bepaalde maker komt en niet is aangepast. Alleen de maker heeft de sleutel om te ondertekenen."
     },
     {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+     "term": "backdoor",
+     "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
     },
     {
-     "term": "SUID",
-     "explanation": "Een kenmerk op een Linux-programma waardoor het draait met de rechten van de eigenaar. Is de eigenaar root, dan krijgt iedereen die het start rootrechten."
+     "term": "DLL-sideloading",
+     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
     },
     {
-     "term": "persistentie",
-     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+     "term": "geplande taken",
+     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
     },
     {
-     "term": "syslog",
-     "explanation": "Een standaard manier om logberichten van apparaten en servers naar een centrale plek te sturen, zoals een SIEM."
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
     }
    ],
    "soort": "onderzoek",
    "fit": {
     "score": 0.6,
-    "why": "Nog geen duimpjes; een zero-day met de complete aanvalsketen en concrete detectietips."
+    "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met een heldere uitleg van hoe updates werken."
    },
-   "takeaway": "Een apparaat dat wachtwoorden voor veel systemen beheert, is voor een aanvaller een sleutelbos. Omdat aanvallers lokale logs wissen, moet je logs direct naar je SIEM sturen en een plotselinge stilte zelf als signaal zien.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
+   "takeaway": "Een update is alleen te vertrouwen als de software de digitale handtekening controleert; HTTPS en een controlegetal uit hetzelfde bestand zijn niet genoeg. En een aanval die maar minuten duurt, kun je achteraf alleen terugvinden in je eigen logs.",
+   "region": "world"
   },
   {
    "id": "37b85c3ffeef",
@@ -2028,7 +1929,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
+    "recency": 0.47,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -2120,7 +2021,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.47,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -2191,6 +2092,203 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "580236cbddf9",
+   "title": "ARMORY CASTLE Exploits BeyondTrust",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-10-15T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Een lek in BeyondTrust Remote Support laat een aanvaller zonder inlog bestanden uploaden en het apparaat overnemen. Mandiant zag dat de groep ARMORY CASTLE het eind augustus al als zero-day misbruikte, en daarna alle opgeslagen wachtwoorden stal.",
+   "personal_relevance": "Tools voor beheer op afstand zitten bij veel klanten en hebben brede toegang. Een goede vraag aan klanten: gaan de logs van zulke apparaten direct naar de SIEM, en wordt een wijziging van beheerrechten gemeld?",
+   "limitations": [
+    "Welke organisaties en sectoren getroffen zijn, staat niet in het stuk.",
+    "Het type programmeerfout en de CVSS-score worden niet genoemd.",
+    "Of BeyondTrust Privileged Remote Access ook kwetsbaar is, staat niet in het stuk.",
+    "De toeschrijving aan China is een inschatting van Google."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "threat_intelligence",
+    "edge_devices",
+    "incident_response"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "ti",
+    "detectie"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.36,
+    "source": 0.8,
+    "quality": 0.8,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:49:51Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust",
+   "story": [
+    "Op 15 oktober maakte BeyondTrust het lek CVE-2026-102764 bekend in Remote Support, vroeger Bomgar. Alle ondersteunde versies tot en met 26.2.3 zijn kwetsbaar. Een aanvaller zonder inlog kan bestanden op het apparaat zetten en zo het hele apparaat overnemen. Mandiant ontdekte bij een incidentonderzoek dat de groep ARMORY CASTLE het lek eind augustus al als zero-day misbruikte. Google denkt dat de groep aan China gelieerd is. De SaaS-versie is op 9 oktober gepatcht; wie het zelf host, moet patch BT26-05 installeren.",
+    "Waarom is dit ernstig? Met Remote Support neemt een helpdesk computers op afstand over. Het apparaat bewaart daarvoor wachtwoorden en heeft toegang tot veel andere systemen: het is een sleutelbos. Door het lek kon de aanvaller een webshell plaatsen, elf minuten na zijn eerste verzoek. Die webshell gaf de foutmelding 404 als het juiste geheime veld ontbrak. Zo leek hij voor scanners niet te bestaan. Daarna maakte de aanvaller zichzelf root met een kopie van de shell waarop het SUID-kenmerk stond.",
+    "Vervolgens dumpte hij de wachtwoordkluis met het ingebouwde hulpprogramma bt-secrets en wiste hij de bijbehorende logs. Een script zorgde voor persistentie: na elke herstart kreeg hij zijn rechten terug. Met een gestolen beheeraccount zette hij zijn rechten op 'Jump Items' van No Access naar Administrator. Zo kon hij sessies starten naar achterliggende systemen en documenten wegsluizen. Een eigen tunnel maakte zijn toegang via internet bereikbaar.",
+    "Hoe zie je het? De aanvaller wiste steeds de logs op het apparaat zelf. Stuur daarom syslog direct naar je SIEM, en zie een plotselinge stilte in die stroom als mogelijk wissen. Alarmeer op het verhogen van rechten naar Administrator, nieuwe API-accounts, en inloggen buiten kantoortijd of vanaf vpn-diensten. Google adviseert: eerst patchen. Is een apparaat verdacht? Bewaar bewijs en bouw het opnieuw op in plaats van het schoon te maken. Wissel wachtwoorden pas daarna, anders ziet de aanvaller de nieuwe ook.",
+    "Google verwacht na de bekendmaking breder misbruik, net als bij eerdere zero-days van deze groep. Elk apparaat dat met een kwetsbare versie op internet stond, behandel je als mogelijk gecompromitteerd tot het is onderzocht."
+   ],
+   "key_facts": [
+    "BeyondTrust maakte CVE-2026-102764 op 15 oktober 2026 bekend; het treft alle ondersteunde versies van Remote Support tot en met 26.2.3 en is zonder inlog te misbruiken.",
+    "De SaaS-versie is op 9 oktober 2026 gepatcht; zelfgehoste installaties hebben patch BT26-05 nodig.",
+    "Mandiant zag dat ARMORY CASTLE (voorheen UNC5221, door Google vermoedelijk aan China gelinkt) het lek eind augustus 2026 als zero-day misbruikte.",
+    "Na misbruik: de SAWFLY-webshell, root-rechten via een SUID-kopie van /bin/sh, het dumpen van de wachtwoordkluis met bt-secrets, persistentie via een opstartscript, rechtenverhoging van Jump Items naar Administrator en de tunnel BARECLAW.",
+    "Mandiant stelde vast dat de aanvaller tijdens het hele incident logs verwijderde.",
+    "Google verwacht breder misbruik na de bekendmaking."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verdachte rechtenwijziging eruitzien in de syslog van het apparaat. Een beheeraccount krijgt ineens de rol Administrator op Jump Items, midden in de nacht. Dat is het soort gebeurtenis waarop Google adviseert te alarmeren.",
+    "language": "json",
+    "code": "{\"time\": \"2026-09-02T23:41:12Z\", \"event\": \"user_changed\", \"actor\": \"admin\", \"source_ip\": \"203.0.113.80\",\n \"target\": \"support-team\", \"field\": \"jump_item_role\", \"old\": \"No Access\", \"new\": \"Administrator\"}",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld met een voorbeeldadres. Het type gebeurtenis (user_changed) en de rollen komen uit het stuk van Google; de echte logregels staan daar."
+   },
+   "terms": [
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "SUID",
+     "explanation": "Een kenmerk op een Linux-programma waardoor het draait met de rechten van de eigenaar. Is de eigenaar root, dan krijgt iedereen die het start rootrechten."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "syslog",
+     "explanation": "Een standaard manier om logberichten van apparaten en servers naar een centrale plek te sturen, zoals een SIEM."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een zero-day met de complete aanvalsketen en concrete detectietips."
+   },
+   "takeaway": "Een apparaat dat wachtwoorden voor veel systemen beheert, is voor een aanvaller een sleutelbos. Omdat aanvallers lokale logs wissen, moet je logs direct naar je SIEM sturen en een plotselinge stilte zelf als signaal zien.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "1c4ce65b251a",
+   "title": "Camera Management Software Compromise Leads to Malware Deployment",
+   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-27T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Huntress zag in september en oktober een paar inbraken die begonnen bij software voor het beheren van beveiligingscamera's. Daarna verstopte de aanvaller zijn malware achter een echt Microsoft-programma.",
+   "personal_relevance": "Camerasystemen en andere 'facilitaire' software vallen vaak buiten het zicht van IT en security. Een goed voorbeeld om te vragen of zulke systemen in de scope van vulnerability management en monitoring zitten.",
+   "limitations": [
+    "Hoe de camerasoftware werd overgenomen, is onbekend; het is niet bevestigd dat het om een kwetsbaarheid of om gestolen wachtwoorden gaat.",
+    "Het aantal getroffen organisaties en sectoren wordt niet genoemd.",
+    "Wat de aanvaller uiteindelijk wilde, en wie het was, is onbekend."
+   ],
+   "official_docs": [
+    {
+     "label": "Huntress: Camera Management Software Compromise",
+     "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    }
+   ],
+   "topics": [
+    "attack_techniques",
+    "incidents_breaches",
+    "siem_detection",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "incidenten",
+    "detectie"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.66,
+    "source": 0.68,
+    "quality": 0.65,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:48:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand",
+   "story": [
+    "Het beveiligingsbedrijf Huntress onderzocht in september en oktober een handvol incidenten bij verschillende klanten. Volgens Huntress begonnen ze allemaal bij een gehackt systeem voor camerabeheer (CMS.exe). Hoe de aanvallers dat systeem overnamen, is onbekend: Huntress vond geen logs van de applicatie en noemt geen kwetsbaarheid.",
+    "Vanuit de camerasoftware startte de aanvaller een programma dat een reverse shell opende: een verbinding van binnen naar buiten waarmee hij opdrachten kon geven. Daarna gebruikte hij DLL-sideloading. Hij zette een echt programma van Microsoft (WpcMon.exe) in een gebruikersmap, met daarnaast twee nagemaakte DLL-bestanden. Windows laadt dan die nep-DLL's, zodat de malware meelift op een vertrouwd programma.",
+    "Om terug te komen na een herstart, zette de aanvaller WpcMon.exe in de Run-sleutel van het register. De nep-DLL's maakten daarna regelmatig contact met één server van de aanvaller.",
+    "Huntress adviseert camerabeheersoftware in kaart te brengen en de toegang ertoe te beperken, en met applicatiecontrole te voorkomen dat programma's en DLL's uit gebruikersmappen draaien. Het signaal om op te letten: een Windows-programma dat normaal in system32 staat, maar ineens vanuit een gebruikersprofiel draait."
+   ],
+   "key_facts": [
+    "Huntress zag in september en oktober 2026 een handvol incidenten bij meerdere klanten die begonnen bij camerabeheersoftware (publicatie 27 oktober 2026).",
+    "De maker van de software kon Huntress niet met zekerheid vaststellen; teksten in het programma wijzen naar een Koreaans bedrijf.",
+    "De aanvaller plaatste het echte Microsoft-programma WpcMon.exe met twee aangepaste DLL's in een gebruikersmap (DLL-sideloading).",
+    "Persistentie verliep via een Run-sleutel in het register; de DLL's maakten contact met één commandoserver.",
+    "Huntress noemt geen CVE en kon de oorzaak van de eerste inbraak niet vaststellen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan de verdachte procesketen eruitzien in een overzicht van processen. Let op regel 3: WpcMon.exe hoort in C:\\Windows\\System32, niet in een gebruikersprofiel.",
+    "language": "text",
+    "code": "Ouderproces                                  > Kindproces\nC:\\Program Files (x86)\\CMS\\CMS.exe            > ...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe\n...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe > C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\WpcMon\\WpcMon.exe",
+    "note": "Nagebouwd voorbeeld op basis van de paden in het artikel van Huntress; het echte overzicht staat daar."
+   },
+   "terms": [
+    {
+     "term": "reverse shell",
+     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
+    },
+    {
+     "term": "DLL-sideloading",
+     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+     "term": "Run-sleutel",
+     "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
+    },
+    {
+     "term": "applicatiecontrole",
+     "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen met een duidelijk detectiesignaal."
+   },
+   "customer_questions": [
+    "Wie beheert bij jullie de software voor camera's en toegangscontrole, en valt die onder dezelfde patch- en scanprocessen?",
+    "Is die software bereikbaar vanaf internet?",
+    "Zou jullie EDR of SIEM het melden als een Windows-programma vanuit een gebruikersmap draait in plaats van uit system32?"
+   ],
+   "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
+   "region": "world"
+  },
+  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -2214,10 +2312,10 @@
     "kwetsbaarheden",
     "web"
    ],
-   "relevance_score": 86,
+   "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.28,
+    "recency": 0.27,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -2284,104 +2382,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "1c4ce65b251a",
-   "title": "Camera Management Software Compromise Leads to Malware Deployment",
-   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
-   "source_id": "huntress_blog",
-   "published_at": "2026-10-27T13:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.290040Z",
-   "summary": "Huntress zag in september en oktober een paar inbraken die begonnen bij software voor het beheren van beveiligingscamera's. Daarna verstopte de aanvaller zijn malware achter een echt Microsoft-programma.",
-   "personal_relevance": "Camerasystemen en andere 'facilitaire' software vallen vaak buiten het zicht van IT en security. Een goed voorbeeld om te vragen of zulke systemen in de scope van vulnerability management en monitoring zitten.",
-   "limitations": [
-    "Hoe de camerasoftware werd overgenomen, is onbekend; het is niet bevestigd dat het om een kwetsbaarheid of om gestolen wachtwoorden gaat.",
-    "Het aantal getroffen organisaties en sectoren wordt niet genoemd.",
-    "Wat de aanvaller uiteindelijk wilde, en wie het was, is onbekend."
-   ],
-   "official_docs": [
-    {
-     "label": "Huntress: Camera Management Software Compromise",
-     "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware"
-    }
-   ],
-   "topics": [
-    "attack_techniques",
-    "incidents_breaches",
-    "siem_detection",
-    "malware"
-   ],
-   "groups": [
-    "aanvallen",
-    "incidenten",
-    "detectie"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.68,
-    "source": 0.68,
-    "quality": 0.65,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:48:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand",
-   "story": [
-    "Het beveiligingsbedrijf Huntress onderzocht in september en oktober een handvol incidenten bij verschillende klanten. Volgens Huntress begonnen ze allemaal bij een gehackt systeem voor camerabeheer (CMS.exe). Hoe de aanvallers dat systeem overnamen, is onbekend: Huntress vond geen logs van de applicatie en noemt geen kwetsbaarheid.",
-    "Vanuit de camerasoftware startte de aanvaller een programma dat een reverse shell opende: een verbinding van binnen naar buiten waarmee hij opdrachten kon geven. Daarna gebruikte hij DLL-sideloading. Hij zette een echt programma van Microsoft (WpcMon.exe) in een gebruikersmap, met daarnaast twee nagemaakte DLL-bestanden. Windows laadt dan die nep-DLL's, zodat de malware meelift op een vertrouwd programma.",
-    "Om terug te komen na een herstart, zette de aanvaller WpcMon.exe in de Run-sleutel van het register. De nep-DLL's maakten daarna regelmatig contact met één server van de aanvaller.",
-    "Huntress adviseert camerabeheersoftware in kaart te brengen en de toegang ertoe te beperken, en met applicatiecontrole te voorkomen dat programma's en DLL's uit gebruikersmappen draaien. Het signaal om op te letten: een Windows-programma dat normaal in system32 staat, maar ineens vanuit een gebruikersprofiel draait."
-   ],
-   "key_facts": [
-    "Huntress zag in september en oktober 2026 een handvol incidenten bij meerdere klanten die begonnen bij camerabeheersoftware (publicatie 27 oktober 2026).",
-    "De maker van de software kon Huntress niet met zekerheid vaststellen; teksten in het programma wijzen naar een Koreaans bedrijf.",
-    "De aanvaller plaatste het echte Microsoft-programma WpcMon.exe met twee aangepaste DLL's in een gebruikersmap (DLL-sideloading).",
-    "Persistentie verliep via een Run-sleutel in het register; de DLL's maakten contact met één commandoserver.",
-    "Huntress noemt geen CVE en kon de oorzaak van de eerste inbraak niet vaststellen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan de verdachte procesketen eruitzien in een overzicht van processen. Let op regel 3: WpcMon.exe hoort in C:\\Windows\\System32, niet in een gebruikersprofiel.",
-    "language": "text",
-    "code": "Ouderproces                                  > Kindproces\nC:\\Program Files (x86)\\CMS\\CMS.exe            > ...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe\n...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe > C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\WpcMon\\WpcMon.exe",
-    "note": "Nagebouwd voorbeeld op basis van de paden in het artikel van Huntress; het echte overzicht staat daar."
-   },
-   "terms": [
-    {
-     "term": "reverse shell",
-     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
-    },
-    {
-     "term": "DLL-sideloading",
-     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
-    },
-    {
-     "term": "Run-sleutel",
-     "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
-    },
-    {
-     "term": "applicatiecontrole",
-     "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een concrete aanvalsketen met een duidelijk detectiesignaal."
-   },
-   "customer_questions": [
-    "Wie beheert bij jullie de software voor camera's en toegangscontrole, en valt die onder dezelfde patch- en scanprocessen?",
-    "Is die software bereikbaar vanaf internet?",
-    "Zou jullie EDR of SIEM het melden als een Windows-programma vanuit een gebruikersmap draait in plaats van uit system32?"
-   ],
-   "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
-   "region": "world"
-  },
-  {
    "id": "6852a83cc063",
    "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
    "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
@@ -2409,7 +2409,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.51,
+    "recency": 0.49,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -2504,7 +2504,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.51,
+    "recency": 0.49,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -4007,14 +4007,14 @@
  ],
  "quality_report": {
   "fetched_items": 290,
-  "unique_after_dedupe": 199,
+  "unique_after_dedupe": 245,
   "merged_duplicates": 1,
   "shown": 19,
   "decisions": {
-   "included": 86,
-   "below_threshold": 50,
-   "no_topic": 41,
-   "excluded": 22
+   "included": 105,
+   "below_threshold": 62,
+   "no_topic": 54,
+   "excluded": 24
   },
   "processing": {
    "enriched": 19
@@ -4023,8 +4023,8 @@
   "per_group": {
    "kwetsbaarheden": 6,
    "aanvallen": 4,
-   "ti": 3,
    "incidenten": 3,
+   "ti": 3,
    "detectie": 2,
    "vm": 1
   },
@@ -4067,13 +4067,20 @@
     "from": "2026-11-03T08:00:00Z",
     "to": "2026-11-03T08:00:00Z",
     "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
+    "source_id": "securityweek",
+    "items": 5,
+    "from": "2026-11-04T08:27:05Z",
+    "to": "2026-11-04T10:54:48Z",
+    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
    }
   ],
   "enrichment": {
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 117
+   "skipped_no_key": 148
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -4086,6 +4093,34 @@
   "max_per_source": 12,
   "not_shown": [
    {
+    "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+    "relevance_score": 91,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
@@ -4097,7 +4132,7 @@
     "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
-    "relevance_score": 88,
+    "relevance_score": 87,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4107,7 +4142,7 @@
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
-    "relevance_score": 86,
+    "relevance_score": 85,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4117,7 +4152,7 @@
     "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
-    "relevance_score": 86,
+    "relevance_score": 85,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4127,7 +4162,7 @@
     "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
-    "relevance_score": 85,
+    "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4137,7 +4172,7 @@
     "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
-    "relevance_score": 85,
+    "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4147,16 +4182,6 @@
     "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
-    "relevance_score": 85,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
     "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
@@ -4164,17 +4189,51 @@
     ]
    },
    {
-    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
-    "relevance_score": 83,
+    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+    "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "mSecure password manager hack prompts password reset warnings",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
+    "relevance_score": 83,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -4208,10 +4267,18 @@
     ]
    },
    {
+    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4221,7 +4288,7 @@
     "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4231,7 +4298,7 @@
     "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
    },
@@ -4239,7 +4306,7 @@
     "title": "NCSC-2026-0442 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0442",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4249,7 +4316,7 @@
     "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -4259,7 +4326,7 @@
     "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
    },
@@ -4267,7 +4334,15 @@
     "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-    "relevance_score": 82,
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
+    "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
    },
@@ -4275,7 +4350,7 @@
     "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
-    "relevance_score": 80,
+    "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
    },
@@ -4283,7 +4358,7 @@
     "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
     "source_id": "crowdstrike_blog",
     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
-    "relevance_score": 80,
+    "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
    },
@@ -4291,7 +4366,7 @@
     "title": "Two critical RCEs in PHP core",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-    "relevance_score": 78,
+    "relevance_score": 77,
     "decision": "included",
     "excluded_by": []
    },
@@ -4328,22 +4403,6 @@
     "excluded_by": []
    },
    {
-    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
-    "relevance_score": 76,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-    "relevance_score": 76,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
@@ -4360,9 +4419,9 @@
     "excluded_by": []
    },
    {
-    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
-    "source_id": "watchtowr_labs",
-    "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
@@ -4376,6 +4435,14 @@
     "excluded_by": []
    },
    {
+    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
@@ -4384,20 +4451,18 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0461 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0461",
-    "relevance_score": 75,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
     "source_id": "huntress_blog",
     "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
     "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+    "relevance_score": 74,
     "decision": "included",
     "excluded_by": []
    },
@@ -4418,20 +4483,14 @@
     "excluded_by": []
    },
    {
-    "title": "How to fix a bug in a fix",
-    "source_id": "project_zero",
-    "url": "https://projectzero.google/2026/10/emergency-patching.html",
+    "title": "NCSC-2026-0461 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0461",
     "relevance_score": 74,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
-    "relevance_score": 74,
-    "decision": "included",
-    "excluded_by": []
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "NCSC-2026-0453 [1.00] [M/H] Kwetsbaarheid in Google Brotli-decoder",
@@ -4444,9 +4503,9 @@
     ]
    },
    {
-    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+    "title": "How to fix a bug in a fix",
+    "source_id": "project_zero",
+    "url": "https://projectzero.google/2026/10/emergency-patching.html",
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
@@ -4460,25 +4519,9 @@
     "excluded_by": []
    },
    {
-    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
     "source_id": "microsoft_threat_intel",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
@@ -4492,17 +4535,17 @@
     "excluded_by": []
    },
    {
-    "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
+    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
     "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
+    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder",
-    "source_id": "datadog_security_labs",
-    "url": "https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/",
+    "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
@@ -4518,26 +4561,18 @@
     ]
    },
    {
-    "title": "Threat Hunting: What It Is, How It Works, & Why It Matters",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/what-is-threat-hunting",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+    "title": "Vercel rolls out new protection against stolen session cookie attacks",
     "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+    "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
     "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-    "source_id": "project_zero",
-    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-    "relevance_score": 72,
+    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+    "relevance_score": 73,
     "decision": "included",
     "excluded_by": []
    },
@@ -4550,49 +4585,25 @@
     "excluded_by": []
    },
    {
+    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
     "source_id": "google_threat_intel",
     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Barracuda warns of critical flaws allowing root access to devices",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Harvard University data breach exposed info of 851,000 accounts",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
     "relevance_score": 72,
     "decision": "included",
     "excluded_by": []

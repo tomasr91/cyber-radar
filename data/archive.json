@@ -1599,7 +1599,375 @@
    "published_raw": "Tue, 03 Nov 2026 17:18:50 -0500",
    "fetched_at": "2026-11-04T05:33:34.270274Z",
    "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]"
+  },
+  "security_nl:838b6527fb49": {
+   "source_id": "security_nl",
+   "title": "Incident wachtwoordmanager mSecure raakt alleen cloudgebruikers",
+   "url": "https://www.security.nl/posting/960416/Incident+wachtwoordmanager+mSecure+raakt+alleen+cloudgebruikers?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 16:14:18 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Aanvallers zijn erin geslaagd om bij wachtwoordmanager mSecure een database met gegevens van klanten te stelen, wat gebruikers ..."
+  },
+  "security_nl:ce55129e00e3": {
+   "source_id": "security_nl",
+   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 15:18:43 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Er zit een kritieke kwetsbaarheid in SonicWall Global Management System (GMS), maar er zal geen patch verschijnen om het ..."
+  },
+  "security_nl:d53023f974e6": {
+   "source_id": "security_nl",
+   "title": "Franse bank getroffen door cyberaanval: '118 miljoen euro gestolen'",
+   "url": "https://www.security.nl/posting/960395/Franse+bank+getroffen+door+cyberaanval%3A+%27118+miljoen+euro+gestolen%27?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 14:51:00 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "De Franse bank Crédit Mutuel Arkéa is getroffen door een cyberaanval, waardoor aanvallers frauduleuze transacties konden ..."
+  },
+  "security_nl:91da536348eb": {
+   "source_id": "security_nl",
+   "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
+   "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 14:18:01 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Een kwetsbaarheid in de APT package manager van Debian maakt het mogelijk voor aanvallers, die zich in een man-in-the-middle ..."
+  },
+  "security_nl:99ae59f9da70": {
+   "source_id": "security_nl",
+   "title": "Koelsystemen Franse nationale bloedbank doelwit van cyberaanval",
+   "url": "https://www.security.nl/posting/960372/Koelsystemen+Franse+nationale+bloedbank+doelwit+van+cyberaanval?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 13:42:21 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Koelsystemen van de Franse nationale bloedbank zijn het doelwit van een cyberaanval geworden, waarbij aanvallers de temperatuur ..."
+  },
+  "security_nl:bbc4562b2539": {
+   "source_id": "security_nl",
+   "title": "Minister: goed voorstelbaar dat hack vertrouwen in bevolkingsonderzoek aantast",
+   "url": "https://www.security.nl/posting/960360/Minister%3A+goed+voorstelbaar+dat+hack+vertrouwen+in+bevolkingsonderzoek+aantast?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 12:32:40 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Het is goed voorstelbaar dat de hack van Clinical Diagnostics het vertrouwen in het bevolkingsonderzoek baarmoederhalskanker ..."
+  },
+  "security_nl:2eeacadd97cd": {
+   "source_id": "security_nl",
+   "title": "Cookies en wifi-wachtwoorden van kwetsbare iPhones en Androidtelefoons gestolen",
+   "url": "https://www.security.nl/posting/960348/Cookies+en+wifi-wachtwoorden+van+kwetsbare+iPhones+en+Androidtelefoons+gestolen?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 11:58:30 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Aanvallers maken gebruik van bekende beveiligingslekken om cookies, wifi-wachtwoorden en 'full device data' van kwetsbare ..."
+  },
+  "security_nl:2b8bde73c7b5": {
+   "source_id": "security_nl",
+   "title": "Op wie kun je gederfde inkomsten door het preventief offline halen van een website verhalen?",
+   "url": "https://www.security.nl/posting/960346/Op+wie+kun+je+gederfde+inkomsten+door+het+preventief+offline+halen+van+een+website+verhalen%3F?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 11:30:00 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Juridische vraag: Wie is aansprakelijk voor gederfde inkomsten na het dringende advies om een webshop die PHP gebruikt offline ..."
+  },
+  "security_nl:597fe570c591": {
+   "source_id": "security_nl",
+   "title": "Aerdts: leeftijdsverificatie geen waterdicht systeem, te omzeilen met vpn",
+   "url": "https://www.security.nl/posting/960339/Aerdts%3A+leeftijdsverificatie+geen+waterdicht+systeem%2C+te+omzeilen+met+vpn?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 11:12:55 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Online leeftijdsverificatie is geen waterdicht systeem en kan worden omzeild met een vpn, zo stelt staatsecretaris Aerdts voor ..."
+  },
+  "security_nl:22fd768e597c": {
+   "source_id": "security_nl",
+   "title": "Ahold Delhaize loopt door cyberaanval tot 250 miljoen euro aan omzet mis",
+   "url": "https://www.security.nl/posting/960337/Ahold+Delhaize+loopt+door+cyberaanval+tot+250+miljoen+euro+aan+omzet+mis?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 10:49:00 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Door de cyberaanval waar Ahold Delhaize in oktober mee te maken kreeg loopt het moederbedrijf van Albert Heijn in het vierde ..."
+  },
+  "security_nl:53f060600d2f": {
+   "source_id": "security_nl",
+   "title": "Kabinet komt nog niet met nieuwe wetgeving om camerabrillen te verbieden",
+   "url": "https://www.security.nl/posting/960332/Kabinet+komt+nog+niet+met+nieuwe+wetgeving+om+camerabrillen+te+verbieden?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 10:27:20 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Het kabinet komt vooralsnog niet met nieuwe wetgeving om camerabrillen te verbieden. Er zal eerst worden gewacht op de uitkomst ..."
+  },
+  "security_nl:6b8fec726ac3": {
+   "source_id": "security_nl",
+   "title": "Google publiceert patch voor tweehonderd beveiligingslekken in Chrome",
+   "url": "https://www.security.nl/posting/960329/Google+publiceert+patch+voor+tweehonderd+beveiligingslekken+in+Chrome?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 10:10:00 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Google heeft patches voor Chrome gepubliceerd die ruim tweehonderd beveiligingslekken in de browser verhelpen, waaronder zeven ..."
+  },
+  "security_nl:1c830698b90e": {
+   "source_id": "security_nl",
+   "title": "'Aanvaller zoekt op internet naar Linux-servers met kritiek TCP-lek'",
+   "url": "https://www.security.nl/posting/960326/%27Aanvaller+zoekt+op+internet+naar+Linux-servers+met+kritiek+TCP-lek%27?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 10:00:54 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "Een aanvaller lijkt het gehele internet af te scannen op zoek naar Linux-servers met een kritieke TCP-kwetsbaarheid. Dat meldt ..."
+  },
+  "security_nl:bff677ae7782": {
+   "source_id": "security_nl",
+   "title": "Binance: aanvallers kwamen binnen via nepsollicitatie en supplychain-aanval",
+   "url": "https://www.security.nl/posting/960316/Binance%3A+aanvallers+kwamen+binnen+via+nepsollicitatie+en+supplychain-aanval?channel=rss",
+   "published_raw": "Wed, 04 Nov 2026 09:39:00 +0100",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "excerpt": "De aanvallers die bij Binance 5,6 miljard euro aan cryptovaluta wisten te stelen kwamen binnen via een nepsollicitatie en ..."
+  },
+  "ncsc_nl_advisories:fee38b69f63b": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
+   "published_raw": "Wed, 04 Nov 2026 09:45:39 +0000",
+   "fetched_at": "2026-11-05T01:23:14.078036Z",
+   "excerpt": "WordPress heeft een kwetsbaarheid verholpen in WordPress Core versies 4.7 tot en met 7.1.3. De kwetsbaarheid maakt misbruik mogelijk van een TOCTOU-racecondition (Time-of-Check to Time-of-Use) tijdens volledige WordPress Core-upgrades. Hierdoor kan een niet-geauthenticeerde aanvaller op afstand code uitvoeren op de server door het korte upgradevenster te misbruiken waarin de stagingdirectories via het web toegankelijk zijn.\n\nVoor succesvolle exploitatie moet de aanvaller erin slagen om tijdens dit beperkte upgradevenster de racecondition te benutten.\n\nCISA heeft bevestigd dat CVE-2026-119977 actief wordt misbruikt en heeft de kwetsbaarheid op 3 november 2026 toegevoegd aan de Known Exploited Vulnerabilities (KEV)-catalogus."
+  },
+  "ncsc_nl_advisories:67cb236d4b68": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+   "published_raw": "Wed, 04 Nov 2026 09:41:25 +0000",
+   "fetched_at": "2026-11-05T01:23:14.078036Z",
+   "excerpt": "Barracuda heeft kwetsbaarheden verholpen in Barracuda Email Security Gateway. Barracuda heeft twee kwetsbaarheden vastgesteld in verschillende Barracuda-producten: een kwetsbaarheid voor het omzeilen van autorisatiecontroles (CVE-2026-116606) en een kwetsbaarheid voor command injection (CVE-2026-111560). \n\nDe eerste kwetsbaarheid betreft een pre-authentication authorization bypass in Barracuda Email Security Gateway (ESG). De tweede kwetsbaarheid betreft command injection en treft naast ESG ook de Load Balancer Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF) en Web Security Gateway (WSG).\n\nVolgens Barracuda is voor succesvolle exploitatie toegang tot de administratieve interface van een kwetsbaar product vereist. Wanneer beide kwetsbaarheden in combinatie worden misbruikt, kan een aanvaller autorisatiecontroles omzeilen en roottoegang tot het apparaat verkrijgen."
+  },
+  "crowdstrike_blog:e5b37ce3d796": {
+   "source_id": "crowdstrike_blog",
+   "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/",
+   "published_raw": "Nov 04, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-05T01:23:19.908583Z",
+   "excerpt": ""
+  },
+  "crowdstrike_blog:4f7eb44c3d6a": {
+   "source_id": "crowdstrike_blog",
+   "title": "CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/",
+   "published_raw": "Nov 04, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-05T01:23:19.908583Z",
+   "excerpt": ""
+  },
+  "crowdstrike_blog:411fa245bfe8": {
+   "source_id": "crowdstrike_blog",
+   "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/",
+   "published_raw": "Nov 04, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-05T01:23:19.908583Z",
+   "excerpt": ""
+  },
+  "crowdstrike_blog:7233b66ac54d": {
+   "source_id": "crowdstrike_blog",
+   "title": "New Falcon Cloud Security Innovations Secure the Cloud AI Runs On",
+   "url": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/",
+   "published_raw": "Nov 04, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-05T01:23:19.908583Z",
+   "excerpt": ""
+  },
+  "bleepingcomputer:94ac3c3bdec2": {
+   "source_id": "bleepingcomputer",
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "published_raw": "Wed, 04 Nov 2026 16:31:18 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]"
+  },
+  "bleepingcomputer:f4f1ad10a87b": {
+   "source_id": "bleepingcomputer",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "published_raw": "Wed, 04 Nov 2026 15:58:19 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]"
+  },
+  "bleepingcomputer:987ba3712202": {
+   "source_id": "bleepingcomputer",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "published_raw": "Wed, 04 Nov 2026 14:05:19 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]"
+  },
+  "bleepingcomputer:6347f0773f90": {
+   "source_id": "bleepingcomputer",
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "published_raw": "Wed, 04 Nov 2026 13:02:56 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]"
+  },
+  "bleepingcomputer:b7494c226c5f": {
+   "source_id": "bleepingcomputer",
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "published_raw": "Wed, 04 Nov 2026 11:58:46 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]"
+  },
+  "bleepingcomputer:201b2063f67c": {
+   "source_id": "bleepingcomputer",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "published_raw": "Wed, 04 Nov 2026 11:00:18 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]"
+  },
+  "bleepingcomputer:7f254f8f8057": {
+   "source_id": "bleepingcomputer",
+   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "published_raw": "Wed, 04 Nov 2026 10:00:10 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]"
+  },
+  "bleepingcomputer:3d7cce11fe59": {
+   "source_id": "bleepingcomputer",
+   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+   "published_raw": "Wed, 04 Nov 2026 09:42:25 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]"
+  },
+  "bleepingcomputer:2008c5edc986": {
+   "source_id": "bleepingcomputer",
+   "title": "US charges two Canadians accused of hacking US universities",
+   "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+   "published_raw": "Wed, 04 Nov 2026 08:13:20 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]"
+  },
+  "bleepingcomputer:0914d818aa9e": {
+   "source_id": "bleepingcomputer",
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "published_raw": "Wed, 04 Nov 2026 07:11:05 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]"
+  },
+  "bleepingcomputer:30cffd020de4": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+   "published_raw": "Wed, 04 Nov 2026 04:39:54 -0500",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "excerpt": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]"
+  },
+  "the_record:71b12d48491a": {
+   "source_id": "the_record",
+   "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+   "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+   "published_raw": "Wed, 04 Nov 2026 21:30:00 GMT",
+   "fetched_at": "2026-11-05T01:23:20.200148Z",
+   "excerpt": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight reservation, ticketing and check-in platforms."
+  },
+  "the_record:ede1220cf0eb": {
+   "source_id": "the_record",
+   "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
+   "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
+   "published_raw": "Wed, 04 Nov 2026 19:17:00 GMT",
+   "fetched_at": "2026-11-05T01:23:20.200148Z",
+   "excerpt": "The Department of Justice said it identified two suspects in a case that dates back to 2016 and involved illicit cryptomining on the computers of U.S. educational institutions."
+  },
+  "the_record:462ec96575da": {
+   "source_id": "the_record",
+   "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+   "published_raw": "Wed, 04 Nov 2026 18:58:00 GMT",
+   "fetched_at": "2026-11-05T01:23:20.200148Z",
+   "excerpt": "Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier."
+  },
+  "the_record:7881f7cab76d": {
+   "source_id": "the_record",
+   "title": "Ukrainian news outlet Kyiv Independent hit by suspected Russian cyberattack",
+   "url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
+   "published_raw": "Wed, 04 Nov 2026 16:15:00 GMT",
+   "fetched_at": "2026-11-05T01:23:20.200148Z",
+   "excerpt": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets."
+  },
+  "the_record:4448a4360ec1": {
+   "source_id": "the_record",
+   "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
+   "url": "https://therecord.media/russia-cyberattack-beget-cloud",
+   "published_raw": "Wed, 04 Nov 2026 14:00:00 GMT",
+   "fetched_at": "2026-11-05T01:23:20.200148Z",
+   "excerpt": "A major Russian web hosting provider is struggling to restore its services after a cyberattack destroyed data across its cloud infrastructure and disrupted hundreds of websites."
+  },
+  "securityweek:baa6100295db": {
+   "source_id": "securityweek",
+   "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+   "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+   "published_raw": "Wed, 04 Nov 2026 14:34:44 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/\">Sysdig Adds Runtime Security and Governance for AI Agents</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:846296070f81": {
+   "source_id": "securityweek",
+   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+   "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+   "published_raw": "Wed, 04 Nov 2026 14:24:54 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.</p>\n<p>The post <a href=\"https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/\">Barracuda ESG Authentication Bypass Flaw Opens Path to Root</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:5523454b2797": {
+   "source_id": "securityweek",
+   "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+   "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+   "published_raw": "Wed, 04 Nov 2026 14:09:20 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>The company will invest in agentic data security capabilities and expand its go-to-market organization.</p>\n<p>The post <a href=\"https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/\">Agentic Data Security Firm Sentra Raises $150 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:27546a6916bd": {
+   "source_id": "securityweek",
+   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+   "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+   "published_raw": "Wed, 04 Nov 2026 12:43:20 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/\">AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:5ded485f8780": {
+   "source_id": "securityweek",
+   "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+   "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+   "published_raw": "Wed, 04 Nov 2026 12:27:58 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency.</p>\n<p>The post <a href=\"https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/\">Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:aa3c1849f977": {
+   "source_id": "securityweek",
+   "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+   "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+   "published_raw": "Wed, 04 Nov 2026 10:54:48 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions.</p>\n<p>The post <a href=\"https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/\">Malicious cPGuard Updates Served in OpsShield Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:211bbf568c57": {
+   "source_id": "securityweek",
+   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+   "published_raw": "Wed, 04 Nov 2026 10:38:46 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/\">Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:842bc764ab47": {
+   "source_id": "securityweek",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "published_raw": "Wed, 04 Nov 2026 10:36:32 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers.</p>\n<p>The post <a href=\"https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/\">Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:bff53d5f4130": {
+   "source_id": "securityweek",
+   "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
+   "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
+   "published_raw": "Wed, 04 Nov 2026 09:23:22 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US.</p>\n<p>The post <a href=\"https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/\">North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:1ac188488fb9": {
+   "source_id": "securityweek",
+   "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+   "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+   "published_raw": "Wed, 04 Nov 2026 08:27:05 +0000",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "excerpt": "<p>A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.</p>\n<p>The post <a href=\"https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/\">Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-04T06:56:13.367580Z"
+ "updated_at": "2026-11-05T01:23:13.271718Z"
 }

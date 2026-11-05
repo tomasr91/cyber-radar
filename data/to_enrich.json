@@ -1,7 +1,36 @@
 {
- "generated_at": "2026-11-04T06:56:13.367580Z",
+ "generated_at": "2026-11-05T01:23:13.271718Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "b7494c226c5f",
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T16:58:46Z",
+   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "malware",
+    "supply_chain"
+   ]
+  },
+  {
+   "id": "201b2063f67c",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T16:00:18Z",
+   "excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "ransomware"
+   ]
+  },
   {
    "id": "b9ef27f8e596",
    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
@@ -54,7 +83,7 @@
    "source_name": "Unit 42 (Palo Alto Networks)",
    "published_at": "2026-10-06T10:00:33Z",
    "excerpt": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure. The post Blinder Tunnel Campaign Targets Iraqi Infrastructure appeared first on Unit 42 .",
-   "preliminary_score": 74,
+   "preliminary_score": 73,
    "preliminary_topics": [
     "attack_techniques",
     "threat_intelligence",
@@ -69,7 +98,7 @@
    "source_name": "Microsoft Threat Intelligence",
    "published_at": "2026-09-29T15:00:00Z",
    "excerpt": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .",
-   "preliminary_score": 73,
+   "preliminary_score": 72,
    "preliminary_topics": [
     "incidents_breaches",
     "siem_detection",
@@ -93,20 +122,6 @@
    ]
   },
   {
-   "id": "63028db311b2",
-   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-   "source_id": "google_threat_intel",
-   "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-11-02T14:00:00Z",
-   "excerpt": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic known as \"LLMJacking.\" Spanning a variety of cloud and LLM providers, these intrusions impacted organizations in North America, South America, and Asia Pacific across the financial services, retail, technology, and transportation sectors. Unlike the gradual resource consumption associated with cryptojacking, LLMJacking can generate large spikes in fraudulent cloud charges in a matter of hours. Across individual incidents, we observed fraudulent charges associated with resource consumption exceeding $100,000 USD in a single day, with cumulative charges at some organizations reaching $1 million USD before access was revoked. Figure 1: Usage chart showing LLMJacking generating a spike in API requests Analyzing the criminal ecosystem behind these frontline compromises, and building upon previous reporting on the growing underground market for LLM credentials, Google Threat Intelligence Group (G",
-   "preliminary_score": 73,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence"
-   ]
-  },
-  {
    "id": "dffecfa43dde",
    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
    "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
@@ -121,30 +136,17 @@
    ]
   },
   {
-   "id": "221ad226855f",
-   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "id": "94ac3c3bdec2",
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-03T22:18:50Z",
-   "excerpt": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+   "published_at": "2026-11-04T21:31:18Z",
+   "excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
    "preliminary_score": 73,
    "preliminary_topics": [
-    "incidents_breaches",
+    "web_software_security",
     "malware"
-   ]
-  },
-  {
-   "id": "d28d36f21992",
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-03T14:00:00Z",
-   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-   "preliminary_score": 72,
-   "preliminary_topics": [
-    "ransomware"
    ]
   }
  ]
