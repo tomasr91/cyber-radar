@@ -1,0 +1,3 @@
+{"task": "verdiepen", "started_at": "2026-11-05T02:22:59Z", "finished_at": "2026-11-05T02:54:12Z",
+ "status": "ok", "summary": "Verdieping over CVE, CVSS, EPSS en KEV geschreven; 5 nieuwe keuzes klaargezet.",
+ "counts": {"verdiepingen": 1, "keuzes": 5}, "problems": []}
