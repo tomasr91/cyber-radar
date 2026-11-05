@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T01:23:13.271718Z",
+ "generated_at": "2026-11-05T01:42:06.594168Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-04T01:49:51Z",
- "last_successful_update": "2026-11-05T01:23:13.271718Z",
+ "last_article_added_at": "2026-11-05T01:41:39Z",
+ "last_successful_update": "2026-11-05T01:42:06.594168Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T01:23:13.301553Z"
+   "checked_at": "2026-11-05T01:42:06.641728Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T01:23:14.078036Z"
+   "checked_at": "2026-11-05T01:42:07.176583Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T01:23:14.902423Z"
+   "checked_at": "2026-11-05T01:42:07.737547Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T01:23:15.081914Z"
+   "checked_at": "2026-11-05T01:42:07.842135Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T01:23:16.071039Z"
+   "checked_at": "2026-11-05T01:42:08.646411Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T01:23:16.294917Z"
+   "checked_at": "2026-11-05T01:42:08.777431Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T01:23:16.443991Z"
+   "checked_at": "2026-11-05T01:42:08.857538Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T01:23:16.568810Z"
+   "checked_at": "2026-11-05T01:42:08.934665Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T01:23:17.109026Z"
+   "checked_at": "2026-11-05T01:42:09.099632Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T01:23:18.966640Z"
+   "checked_at": "2026-11-05T01:42:11.200456Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T01:23:19.208946Z"
+   "checked_at": "2026-11-05T01:42:11.687282Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T01:23:19.406186Z"
+   "checked_at": "2026-11-05T01:42:11.735625Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T01:23:19.617616Z"
+   "checked_at": "2026-11-05T01:42:11.944662Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T01:23:19.908583Z"
+   "checked_at": "2026-11-05T01:42:12.062625Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T01:23:20.052203Z"
+   "checked_at": "2026-11-05T01:42:12.110802Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T01:23:20.200148Z"
+   "checked_at": "2026-11-05T01:42:12.192616Z"
   },
   {
    "id": "securityweek",
@@ -367,15 +367,15 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T01:23:20.491689Z"
+   "checked_at": "2026-11-05T01:42:12.315188Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
+  "63028db311b2",
   "11af3bdb9908",
   "8b5f34b85bf1",
-  "d2cce75fefaf",
-  "30b15a7c5706"
+  "d2cce75fefaf"
  ],
  "articles": [
   {
@@ -535,6 +535,98 @@
    "region": "world",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
+   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
+   "limitations": [
+    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
+    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
+    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 94,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.8,
+    "quality": 0.82,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
+   "story": [
+    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
+    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
+    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
+    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
+    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
+   ],
+   "key_facts": [
+    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
+    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
+    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
+    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
+    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
+    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
+    "language": "log",
+    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
+   },
+   "terms": [
+    {
+     "term": "LLMJacking",
+     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
+    },
+    {
+     "term": "API",
+     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
+    },
+    {
+     "term": "serviceaccounts",
+     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
+    },
+    {
+     "term": "AI-gateway",
+     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
+   },
+   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
+   "region": "world"
   },
   {
    "id": "11af3bdb9908",
@@ -1408,6 +1500,85 @@
    ],
    "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
    "region": "world"
+  },
+  {
+   "id": "201b2063f67c",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T16:00:18Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
+   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
+   "limitations": [
+    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
+    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
+    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
+    "mSeven reageerde niet op vragen van BleepingComputer."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.55,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
+   "story": [
+    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
+    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
+    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
+    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
+   ],
+   "key_facts": [
+    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
+    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
+    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
+    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
+    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "passkeys",
+     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
+    },
+    {
+     "term": "AES-256",
+     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
+    },
+    {
+     "term": "zero-knowledge",
+     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
+    },
+    {
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
+   },
+   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+   "region": "na"
   },
   {
    "id": "f8af8b71c7c1",
@@ -2382,6 +2553,107 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "d0e0e442d471",
+   "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+   "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+   "source_id": "unit42",
+   "published_at": "2026-10-15T22:00:09Z",
+   "date_note": "Gepubliceerd op 15 oktober 2026; de activiteit liep van oktober 2025 tot april 2026.",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Unit 42 beschrijft een groep die Linux-webservers, databases en mailservers van overheden binnendrong via webshells. De scripts lijken door AI geschreven; dat is een inschatting, geen bewijs.",
+   "personal_relevance": "Veel klanten monitoren Windows goed, maar Linux-servers en databases minder. Dit stuk geeft concrete signalen om het gesprek over Linux-zichtbaarheid aan te gaan.",
+   "limitations": [
+    "Welke landen geraakt zijn, noemt Unit 42 niet.",
+    "Of het om een staat of om criminelen gaat, is niet vastgesteld.",
+    "Hoe de eerste webshell op de servers kwam, is niet bevestigd.",
+    "Het AI-gebruik is een inschatting op basis van de stijl van de code.",
+    "Hoeveel gegevens er werkelijk zijn buitgemaakt, is onbekend; Unit 42 spreekt van 'aanwijzingen'.",
+    "Unit 42 hoort bij Palo Alto Networks en meldt dat een eigen product pogingen om beveiliging uit te schakelen tegenhield."
+   ],
+   "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "malware",
+    "web_software_security"
+   ],
+   "groups": [
+    "aanvallen",
+    "ti",
+    "web"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.37,
+    "source": 0.8,
+    "quality": 0.75,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Spionage op Linux-servers van overheden, met AI-achtige scripts",
+   "story": [
+    "Unit 42 beschrijft een groep die het CL-UNK-1211 noemt. Die viel van oktober 2025 tot april 2026 Linux-webservers, databases en mailservers aan van overheden en staatsgelieerde organisaties. Landen noemt Unit 42 niet. Ook is niet vastgesteld of het om een staat of om criminelen gaat.",
+    "De groep werkte via een webshell op Linux-webservers. Hoe die er kwam, is niet bevestigd. De aanvallers hadden wel een eigen scanner voor het lek React2Shell (CVE-2025-55182). Daarna werden ze root via het oude lek PwnKit (CVE-2021-4034). Om binnen te blijven pasten ze de PHP-instelling auto_prepend_file aan. Die laat PHP vóór elke pagina eerst een ander bestand uitvoeren, hier de webshell. Ook plaatsten ze een eigen SSH-sleutel en een RAT in Go, SysGoRAT.",
+    "Opvallend was de wachtwoorddiefstal. In .bashrc, een bestand dat bij elke nieuwe shell wordt ingelezen, zetten ze een nep-versie van sudo. Die vroeg om het wachtwoord, schreef het weg en gaf het door aan de echte sudo. De beheerder merkte dus niets. Via een interne MSSQL-server sprongen ze door naar een tweede databaseserver in een ander netwerkdeel. Ook doorzochten ze mailboxen, onder meer op wachtwoordherstelmails van sociale media.",
+    "Waar komt AI in beeld? De scripts bevatten uitleg in gesprekstoon, stap voor stap, alsof iemand het aan de bediener uitlegt. Unit 42 schat in dat een taalmodel de code schreef of dat een AI-agent hem uitvoerde. Dat is een inschatting, geen bewijs. Sommige scripts bevatten ook fouten en werkten niet.",
+    "Waar zie je het? Unit 42 raadt aan te letten op het PHP-proces van de webserver (php-fpm) dat een shell of netcat start. Ook wijzigingen in auto_prepend_file, gewiste shellgeschiedenis en pogingen om beveiligingssoftware te stoppen zijn signalen. Beperk uitgaand verkeer, zodat een reverse shell niet naar buiten kan. De les: Linux-servers verdienen even goede monitoring als Windows-pc's."
+   ],
+   "key_facts": [
+    "Unit 42 volgde CL-UNK-1211 van oktober 2025 tot april 2026; doelwitten waren Linux-webservers, (MS)SQL-databases en mailservers van overheden en staatsgelieerde organisaties.",
+    "De groep had een eigen scanner voor CVE-2025-55182 (React2Shell); Unit 42 bevestigt niet dat dit lek de eerste toegang gaf.",
+    "Voor rootrechten gebruikte de groep PwnKit (CVE-2021-4034).",
+    "Persistentie via auto_prepend_file in PHP-configuraties, een SSH-sleutel in authorized_keys en de Go-RAT SysGoRAT (via systemd, cron, de Run-sleutel of een geplande taak).",
+    "Wachtwoorden werden gestolen met een nep-sudo-alias in .bashrc en met code in een inlogpagina; via xp_cmdshell op MSSQL sprong de groep door naar een tweede SQL-server.",
+    "Unit 42 schat in dat scripts door een taalmodel zijn geschreven of door een AI-agent zijn uitgevoerd, vanwege uitleg in gesprekstoon in de code."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan het eruitzien in de procesgegevens van een Linux-server. Regel 1: een PHP-instelling verandert. Regel 2 en 3: het webserverproces (gebruiker www-data) start een shell en netcat. Regel 4: iemand wist de shellgeschiedenis. Elk apart kan onschuldig zijn; samen is het een sterk signaal.",
+    "language": "log",
+    "code": "02:58:40 file_change path=/etc/php/8.1/fpm/php.ini setting=auto_prepend_file=/usr/lib/php/<nepbestand>.php\n03:14:07 process_start user=www-data parent=php-fpm8.1 child=/bin/sh cmd=\"sh -c id\"\n03:14:09 process_start user=www-data parent=sh child=nc dest=203.0.113.10:443\n03:20:51 file_change user=root path=/root/.bash_history action=truncate",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde velden; de patronen volgen het onderzoek."
+   },
+   "terms": [
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+     "term": "sudo",
+     "explanation": "Het Linux-commando waarmee een gebruiker één opdracht met beheerdersrechten uitvoert, na het invoeren van zijn wachtwoord."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "reverse shell",
+     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een volledige aanvalsketen op Linux met detectiesignalen past bij je leerdoelen."
+   },
+   "takeaway": "Een webshell kan zich verstoppen in een instelling die bij elke pagina meedraait, zoals auto_prepend_file. Zoek daarom ook naar gewijzigde configuraties en naar een webserverproces dat ineens een shell start, niet alleen naar verdachte bestanden.",
+   "region": "world"
+  },
+  {
    "id": "6852a83cc063",
    "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
    "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
@@ -2570,6 +2842,195 @@
    },
    "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
    "region": "world"
+  },
+  {
+   "id": "5c07cdbef377",
+   "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+   "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+   "source_id": "unit42",
+   "published_at": "2026-10-06T10:00:33Z",
+   "date_note": "Gepubliceerd op 6 oktober 2026; de campagne speelde in maart en april 2026.",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Unit 42 beschrijft een Iraans-gelieerde spionagecampagne tegen vitale infrastructuur in Irak. Het doelwit kreeg een nep-sollicitatie bij Dubai Airports, met een programmeertest die bij het openen al malware startte.",
+   "personal_relevance": "Ontwikkelaars hebben vaak ruime rechten en toegang tot code en servers. Dit voorbeeld helpt klanten uitleggen waarom werkplekken van ontwikkelaars extra aandacht verdienen in detectie en beleid.",
+   "limitations": [
+    "Overlap met de bekende Iraanse groepen Screening Serpens en Agent Serpens is volgens Unit 42 alleen laag zeker; er is geen toeschrijving aan een specifieke groep.",
+    "Dat het doelwit een softwareontwikkelaar was, is een inschatting van Unit 42.",
+    "Unit 42 zegt dat een eigen product van Palo Alto Networks de keten detecteerde en blokkeerde; dat is niet onafhankelijk bevestigd.",
+    "Wat de aanvaller eventueel buitmaakte, staat niet in het stuk."
+   ],
+   "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "malware",
+    "phishing_identity"
+   ],
+   "groups": [
+    "aanvallen",
+    "ti"
+   ],
+   "relevance_score": 83,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.23,
+    "source": 0.8,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio",
+   "story": [
+    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een spionagecampagne tegen vitale infrastructuur in Irak. De onderzoekers schrijven die met hoge zekerheid toe aan een groep die samenwerkt met de Iraanse staat. Ze noemen haar CL-STA-1178. Het doelwit was waarschijnlijk een softwareontwikkelaar. De campagne begon in maart 2026.",
+    "De lokker was een nep-sollicitatie bij de IT-afdeling van Dubai Airports. Eerst kreeg het doelwit een nep-vacaturesite met een vragenlijst. Die deed niets kwaadaardigs en diende alleen om vertrouwen te winnen. In april volgde een 'programmeertest': een Visual Studio-project met een fout die het doelwit moest oplossen. Unit 42 heeft geen aanwijzing voor een inbraak bij Dubai Airports zelf.",
+    "Hoe werkt de besmetting? Een Visual Studio-project heeft een projectbestand met de bouwinstructies voor MSBuild. Zulke instructies mogen opdrachten uitvoeren. De aanvaller paste één bouwstap aan, zodat er al iets draaide bij het openen van het project, nog vóór het bouwen. Die stap kopieerde bestanden en startte een echt Microsoft-programma onder de naam RuntimeBroker.exe. Via DLL-sideloading laadde dat programma een kwaadaardige DLL. Een configuratiebestand zette daarbij ETW uit.",
+    "Daarna haalt de malware opdrachten op uit een GitHub-repository, via de gewone GitHub-API. Voor een netwerk lijkt dat op normaal ontwikkelaarsverkeer. Valt dat kanaal weg, dan zoekt de malware versleutelde reservegegevens in verborgen commentaar bij GitHub-issues. Voor verdere toegang laadde de aanvaller de open-source tunneltool Chisel. Die bouwt van binnenuit een verbinding naar buiten, waardoor de aanvaller het interne netwerk kan bereiken.",
+    "Waar zie je het? Unit 42 raadt aan te letten op Visual Studio of MSBuild die onverwachte processen start. Ook Microsoft-programma's met een andere naam in gebruikersmappen en configuratiebestanden die ETW uitzetten zijn signalen. Ook veel GitHub-verkeer vanaf pc's van niet-ontwikkelaars is een signaal. De les voor organisaties: ontwikkelaars zijn een doelwit, en een programmeertest van een onbekende open je in een afgeschermde omgeving."
+   ],
+   "key_facts": [
+    "Unit 42 schrijft de activiteit met hoge zekerheid toe aan een Iraans-gelieerde groep, die het CL-STA-1178 noemt.",
+    "De infrastructuur werd vanaf november 2025 getest; in maart 2026 werd een doelwit in de Iraakse vitale infrastructuur benaderd.",
+    "Lokmiddel: nep-werving namens de IT-afdeling van Dubai Airports, in april 2026 gevolgd door een C#-programmeertest ('Flight Management System').",
+    "Het projectbestand FlightManager.csproj overschreef de bouwstap GetFrameworkPaths; een hernoemd Microsoft-programma (RuntimeBroker.exe) laadde via DLL-sideloading de loader ShelbyLoader V2; het configuratiebestand zette ETW uit.",
+    "De malware gebruikt de GitHub-API voor opdrachten, met versleutelde reservegegevens in verborgen commentaar bij GitHub-issues; de loader Blackwood start de tunneltool Chisel.",
+    "GitHub verwijderde de infrastructuur; Unit 42 heeft geen aanwijzing voor een inbraak bij Dubai Airports."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan het eruitzien in de procesgegevens van een EDR. Het echte RuntimeBroker.exe staat in C:\\Windows\\System32, niet in een gebruikersmap. Het wordt ook niet door Visual Studio (devenv.exe) gestart en praat niet met GitHub.",
+    "language": "log",
+    "code": "10:02:11 process_start parent=devenv.exe child=RuntimeBroker.exe path=C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\RuntimeBrokers\\\n10:02:12 image_load process=RuntimeBroker.exe dll=RuntimeBroker.dll path=C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\RuntimeBrokers\\\n10:02:12 registry_set key=HKCU\\...\\CurrentVersion\\Run value=MicrosoftRuntime\n10:07:12 network process=RuntimeBroker.exe dest=api.github.com:443",
+    "note": "Nagebouwd voorbeeld met vereenvoudigde velden. Map, DLL-naam en Run-waarde komen uit het onderzoek; de logregels zelf niet."
+   },
+   "terms": [
+    {
+     "term": "MSBuild",
+     "explanation": "Het programma van Microsoft dat software bouwt volgens de instructies in een projectbestand. Visual Studio gebruikt het op de achtergrond."
+    },
+    {
+     "term": "DLL-sideloading",
+     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+     "term": "ETW",
+     "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
+    },
+    {
+     "term": "GitHub-API",
+     "explanation": "De programmeerkoppeling waarmee software automatisch bestanden en issues op GitHub kan lezen en schrijven, zonder website."
+    },
+    {
+     "term": "tunneltool",
+     "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuwe besmettingstechniek stap voor stap uitgelegd past bij je leerdoelen."
+   },
+   "takeaway": "Een softwareproject is geen onschuldig document: bouwinstructies kunnen opdrachten uitvoeren zodra je het project opent. En malware die via een bekende dienst als GitHub communiceert, valt in het netwerkverkeer nauwelijks op.",
+   "region": "world"
+  },
+  {
+   "id": "892b2bea5cd6",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-09-29T15:00:00Z",
+   "date_note": "Gepubliceerd op 29 september 2026; de campagnes liepen van januari tot augustus 2026.",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft zag de Russische groep Star Blizzard sinds januari 2026 op grote schaal phishen vanaf gehackte websites. Een nieuwe keten, RedFlick, installeert met één dubbelklik de achterdeur CosmicPulse via geplande taken.",
+   "personal_relevance": "Een goed voorbeeld voor klanten die vertrouwen op mailfilters: deze aanval omzeilt scanners met een wachtwoord als plaatje. Detectie op het eindpunt, op ongewone combinaties van Windows-programma's, vangt wat het mailfilter mist.",
+   "limitations": [
+    "De toeschrijving aan de FSB komt van CISA; Microsoft doet geen eigen toeschrijving.",
+    "Microsoft kon de vervolgstap van de taak 'Internet Quality Test Connection' niet bemachtigen.",
+    "Microsoft noemt geen geraakte organisaties en zegt niet hoe vaak een besmetting slaagde.",
+    "Microsoft beveelt in het stuk vooral eigen beveiligingsproducten aan."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "siem_detection",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 81,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.16,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur",
+   "story": [
+    "Microsoft Threat Intelligence volgt sinds januari 2026 een nieuwe werkwijze van de groep Star Blizzard. Volgens de Amerikaanse CISA valt die groep onder de Russische inlichtingendienst FSB. Microsoft telde minstens 13 grote phishingcampagnes. Ze raakten meer dan 100 organisaties, vooral in de VS en het VK: denktanks, ngo's, overheden en organisaties die Oekraïne steunen.",
+    "De eerste mail heeft meestal geen bijlage. Hij lijkt te komen van een bekende uit de politiek, wetenschap of diplomatie. Sinds maart sturen de aanvallers die mails vanaf accounts op gehackte WordPress- en cPanel-websites, niet meer vanaf gratis mailadressen. Antwoordt het doelwit, dan volgt een zip-bestand met een wachtwoord. Dat wachtwoord staat als plaatje in de mail. Zo kan een mailscanner het niet lezen en het archief niet openen.",
+    "In het archief zit een LNK-bestand dat eruitziet als een pdf. Eén dubbelklik start onzichtbaar een script. Dat opent een nep-pdf om het slachtoffer gerust te stellen en haalt intussen een installatiepakket op. Dat pakket maakt geplande taken aan met namen die op Windows-onderdelen lijken, zoals \"System Health Monitor\". Die taken starten via het Windows-programma control.exe een downloader die zich voordoet als onderdeel van het Configuratiescherm. Aan het eind staat de achterdeur CosmicPulse, geschreven in Python. Microsoft noemt deze keten RedFlick. Eerdere ketens met ClickFix vroegen meerdere handelingen van het slachtoffer, RedFlick maar één.",
+    "Waar zie je het? De aanvallers gebruiken vooral gewone Windows-programma's, dus zoek je naar vreemde combinaties. Microsoft geeft zoekopdrachten voor EDR-gegevens: conhost.exe die curl start, ssh.exe met de optie PermitLocalCommand, en geplande taken met de nepnamen. Microsoft raadt ook aan om uitgaand SSH-verkeer naar onbekende netwerken te beperken en phishingbestendige MFA te gebruiken.",
+    "Voor organisaties is de les dat een bekende afzender of een vertrouwd domein niets bewijst. De afzender kan een gehackte website zijn. En een archief met een wachtwoord verdient extra argwaan, juist omdat scanners er niet in kunnen kijken."
+   ],
+   "key_facts": [
+    "Microsoft volgt sinds januari 2026 de nieuwe werkwijze van Star Blizzard: minstens 13 grote campagnes, meer dan 100 geraakte organisaties, vooral in de VS en het VK.",
+    "De Amerikaanse CISA plaatst Star Blizzard onder Centre 18 van de Russische FSB; Microsoft neemt die toeschrijving over.",
+    "Sinds maart 2026 komen de phishingmails van accounts op gehackte cPanel- en WordPress-sites; het wachtwoord van het archief staat als afbeelding in de mail.",
+    "RedFlick: een LNK-bestand vermomd als pdf, een MSI-pakket, geplande taken en control.exe die een downloader als Configuratiescherm-onderdeel (CPL) start; eindstation is de Python-achterdeur CosmicPulse (ook YESROBOT genoemd).",
+    "In april 2026 maakte het pakket drie taken aan (Internet Quality Test Connection, Network Configuration Manager, System Health Monitor); in juli zat de volgende stap verstopt in een pdf.",
+    "Microsoft publiceert zoekopdrachten op conhost.exe die curl start, ssh.exe met PermitLocalCommand en de drie taaknamen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo zoek je naar één stap uit de keten van juli: conhost.exe die curl start om een bestand op te halen. Regel 1 kiest de tabel met gestarte processen, regel 2 de laatste zeven dagen. Regel 3 en 4 zoeken de combinatie ouder- en kindproces. Regel 5 toont wanneer, waar, wie en welke opdracht.",
+    "language": "kql",
+    "code": "DeviceProcessEvents\n| where Timestamp > ago(7d)\n| where InitiatingProcessFileName =~ \"conhost.exe\"\n| where FileName =~ \"curl.exe\"\n| project Timestamp, DeviceName, AccountName, ProcessCommandLine",
+    "note": "Vereenvoudigde versie van de zoekopdracht in het stuk van Microsoft. Hij kan ook legitiem gebruik van curl vinden."
+   },
+   "terms": [
+    {
+     "term": "LNK-bestand",
+     "explanation": "Een Windows-snelkoppeling. Die kan een opdracht starten en een willekeurig pictogram tonen, bijvoorbeeld dat van een pdf."
+    },
+    {
+     "term": "geplande taken",
+     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+     "term": "ClickFix",
+     "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "phishingbestendige MFA",
+     "explanation": "Een tweede inlogstap die een nep-inlogpagina niet kan doorgeven, zoals een passkey of hardwaresleutel die controleert op welke website je inlogt."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met detectietips past bij je leerdoelen."
+   },
+   "takeaway": "Aanvallers bouwen hun keten steeds vaker uit gewone Windows-onderdelen: snelkoppelingen, installatiepakketten, geplande taken en control.exe. Je vindt ze dan niet op een bekend bestand, maar op een ongewone volgorde van normale programma's.",
+   "region": "world"
   }
  ],
  "deepdives": [],
@@ -2709,9 +3170,25 @@
    ]
   },
   {
+   "term": "AES-256",
+   "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "201b2063f67c",
+     "title": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten"
+    }
+   ]
+  },
+  {
    "term": "AI-agent",
    "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
+    },
     {
      "kind": "a",
      "id": "62c945c0e6fb",
@@ -2721,6 +3198,28 @@
      "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "AI-gateway",
+   "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63028db311b2",
+     "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
+    }
+   ]
+  },
+  {
+   "term": "API",
+   "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63028db311b2",
+     "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
     }
    ]
   },
@@ -2754,6 +3253,17 @@
      "kind": "a",
      "id": "7b72d51a9df2",
      "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
+    }
+   ]
+  },
+  {
+   "term": "auditlogs",
+   "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63028db311b2",
+     "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
     }
    ]
   },
@@ -2849,6 +3359,11 @@
    "term": "ClickFix",
    "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "892b2bea5cd6",
+     "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    },
     {
      "kind": "a",
      "id": "6852a83cc063",
@@ -2950,6 +3465,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "5c07cdbef377",
+     "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
+    },
+    {
+     "kind": "a",
      "id": "b06c9cfc80a7",
      "title": "Updateserver van AOMEI telkens een paar minuten besmet"
     },
@@ -2964,6 +3484,11 @@
    "term": "EDR",
    "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "892b2bea5cd6",
+     "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    },
     {
      "kind": "a",
      "id": "0968634953ed",
@@ -2984,6 +3509,17 @@
      "kind": "a",
      "id": "4d33a21d5cc6",
      "title": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties"
+    }
+   ]
+  },
+  {
+   "term": "ETW",
+   "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5c07cdbef377",
+     "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
     }
    ]
   },
@@ -3037,6 +3573,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "892b2bea5cd6",
+     "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    },
+    {
+     "kind": "a",
      "id": "b06c9cfc80a7",
      "title": "Updateserver van AOMEI telkens een paar minuten besmet"
     },
@@ -3044,6 +3585,17 @@
      "kind": "a",
      "id": "875e59480304",
      "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "GitHub-API",
+   "explanation": "De programmeerkoppeling waarmee software automatisch bestanden en issues op GitHub kan lezen en schrijven, zonder website.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5c07cdbef377",
+     "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
     }
    ]
   },
@@ -3206,6 +3758,28 @@
    ]
   },
   {
+   "term": "LLMJacking",
+   "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63028db311b2",
+     "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
+    }
+   ]
+  },
+  {
+   "term": "LNK-bestand",
+   "explanation": "Een Windows-snelkoppeling. Die kan een opdracht starten en een willekeurig pictogram tonen, bijvoorbeeld dat van een pdf.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "892b2bea5cd6",
+     "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    }
+   ]
+  },
+  {
    "term": "loader",
    "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend.",
    "refs": [
@@ -3266,6 +3840,17 @@
    ]
   },
   {
+   "term": "MSBuild",
+   "explanation": "Het programma van Microsoft dat software bouwt volgens de instructies in een projectbestand. Visual Studio gebruikt het op de achtergrond.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5c07cdbef377",
+     "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
+    }
+   ]
+  },
+  {
    "term": "netwerksegmentatie",
    "explanation": "Een netwerk opdelen in afgeschermde delen, zodat een aanvaller in het ene deel niet zomaar bij het andere kan.",
    "refs": [
@@ -3284,6 +3869,28 @@
      "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "offline kraken",
+   "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "201b2063f67c",
+     "title": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten"
+    }
+   ]
+  },
+  {
+   "term": "passkeys",
+   "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "201b2063f67c",
+     "title": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten"
     }
    ]
   },
@@ -3364,6 +3971,17 @@
    ]
   },
   {
+   "term": "phishingbestendige MFA",
+   "explanation": "Een tweede inlogstap die een nep-inlogpagina niet kan doorgeven, zoals een passkey of hardwaresleutel die controleert op welke website je inlogt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "892b2bea5cd6",
+     "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    }
+   ]
+  },
+  {
    "term": "poort",
    "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites.",
    "refs": [
@@ -3398,6 +4016,17 @@
      "kind": "a",
      "id": "875e59480304",
      "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "RAT",
+   "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     }
    ]
   },
@@ -3440,6 +4069,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
+    },
+    {
+     "kind": "a",
      "id": "1c4ce65b251a",
      "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
     }
@@ -3465,6 +4099,11 @@
    "term": "root",
    "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
+    },
     {
      "kind": "a",
      "id": "580236cbddf9",
@@ -3516,6 +4155,17 @@
    ]
   },
   {
+   "term": "serviceaccounts",
+   "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63028db311b2",
+     "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
+    }
+   ]
+  },
+  {
    "term": "sessie",
    "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou.",
    "refs": [
@@ -3545,6 +4195,17 @@
      "kind": "a",
      "id": "62c945c0e6fb",
      "title": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem"
+    }
+   ]
+  },
+  {
+   "term": "sudo",
+   "explanation": "Het Linux-commando waarmee een gebruiker één opdracht met beheerdersrechten uitvoert, na het invoeren van zijn wachtwoord.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     }
    ]
   },
@@ -3636,6 +4297,17 @@
    ]
   },
   {
+   "term": "tunneltool",
+   "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5c07cdbef377",
+     "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
+    }
+   ]
+  },
+  {
    "term": "use-after-free",
    "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen.",
    "refs": [
@@ -3707,6 +4379,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
+    },
+    {
+     "kind": "a",
      "id": "580236cbddf9",
      "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
     },
@@ -3752,6 +4429,17 @@
      "kind": "a",
      "id": "d2cce75fefaf",
      "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
+   "term": "zero-knowledge",
+   "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "201b2063f67c",
+     "title": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten"
     }
    ]
   }
@@ -4009,7 +4697,7 @@
   "fetched_items": 290,
   "unique_after_dedupe": 245,
   "merged_duplicates": 1,
-  "shown": 19,
+  "shown": 24,
   "decisions": {
    "included": 105,
    "below_threshold": 62,
@@ -4017,26 +4705,26 @@
    "excluded": 24
   },
   "processing": {
-   "enriched": 19
+   "enriched": 24
   },
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
-   "aanvallen": 4,
-   "incidenten": 3,
-   "ti": 3,
-   "detectie": 2,
+   "detectie": 3,
+   "aanvallen": 6,
+   "incidenten": 4,
+   "ti": 4,
    "vm": 1
   },
   "per_source": {
    "security_nl": 1,
-   "unit42": 3,
-   "google_threat_intel": 4,
+   "google_threat_intel": 5,
+   "unit42": 5,
    "divd": 1,
    "cisco_talos": 3,
-   "microsoft_threat_intel": 2,
+   "microsoft_threat_intel": 3,
+   "bleepingcomputer": 2,
    "huntress_blog": 3,
-   "bleepingcomputer": 1,
    "watchtowr_labs": 1
   },
   "date_flags": [
@@ -4080,7 +4768,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 148
+   "skipped_no_key": 143
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -4200,14 +4888,6 @@
     "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "mSecure password manager hack prompts password reset warnings",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -4411,14 +5091,6 @@
     "excluded_by": []
    },
    {
-    "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-    "relevance_score": 76,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -4535,14 +5207,6 @@
     "excluded_by": []
    },
    {
-    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
@@ -4585,14 +5249,6 @@
     "excluded_by": []
    },
    {
-    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
     "source_id": "google_threat_intel",
     "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
@@ -4604,6 +5260,38 @@
     "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
     "source_id": "google_threat_intel",
     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
+    "source_id": "google_threat_intel",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder",
+    "source_id": "datadog_security_labs",
+    "url": "https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Threat Hunting: What It Is, How It Works, & Why It Matters",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/what-is-threat-hunting",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Barracuda warns of critical flaws allowing root access to devices",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
     "relevance_score": 72,
     "decision": "included",
     "excluded_by": []

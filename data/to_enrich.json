@@ -1,152 +1,138 @@
 {
- "generated_at": "2026-11-05T01:23:13.271718Z",
+ "generated_at": "2026-11-05T01:42:06.594168Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "b7494c226c5f",
-   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "id": "987ba3712202",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T16:58:46Z",
-   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-   "preliminary_score": 84,
+   "published_at": "2026-11-04T19:05:19Z",
+   "excerpt": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+   "preliminary_score": 73,
    "preliminary_topics": [
-    "incidents_breaches",
-    "malware",
-    "supply_chain"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "201b2063f67c",
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "id": "d28d36f21992",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T16:00:18Z",
-   "excerpt": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-   "preliminary_score": 84,
+   "published_at": "2026-11-03T14:00:00Z",
+   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "preliminary_score": 72,
    "preliminary_topics": [
-    "incidents_breaches",
     "ransomware"
    ]
   },
   {
-   "id": "b9ef27f8e596",
-   "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
-   "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-10-16T17:47:54Z",
-   "excerpt": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .",
-   "preliminary_score": 76,
-   "preliminary_topics": [
-    "attack_techniques",
-    "incidents_breaches",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "d0e0e442d471",
-   "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-   "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-10-15T22:00:09Z",
-   "excerpt": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
-   "preliminary_score": 76,
-   "preliminary_topics": [
-    "attack_techniques",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "93f85041859a",
-   "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
-   "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-14T16:00:00Z",
-   "excerpt": "Learn how business email compromise (BEC) attacks work, the warning signs to watch for, and how Huntress stops BEC with 24/7 identity threat detection.",
-   "preliminary_score": 75,
-   "preliminary_topics": [
-    "siem_detection",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "5c07cdbef377",
-   "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
-   "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-10-06T10:00:33Z",
-   "excerpt": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure. The post Blinder Tunnel Campaign Targets Iraqi Infrastructure appeared first on Unit 42 .",
-   "preliminary_score": 73,
-   "preliminary_topics": [
-    "attack_techniques",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "892b2bea5cd6",
-   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-09-29T15:00:00Z",
-   "excerpt": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .",
+   "id": "49d3fa00d3ef",
+   "title": "Harvard University data breach exposed info of 851,000 accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T10:53:25Z",
+   "excerpt": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
    "preliminary_score": 72,
    "preliminary_topics": [
-    "incidents_breaches",
-    "siem_detection",
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "3a7221f54609",
-   "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
-   "source_id": "google_threat_intel",
-   "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-09-08T14:00:00Z",
-   "excerpt": "Executive Summary Since the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI), Google Threat Intelligence Group (GTIG) has observed forward leaning adversaries transition from basic prompting to agentic AI workflows and AI-enabled automation. In these operations, human-in-the-loop latency is dramatically reduced, compressing the traditional window for defenders to respond. In Q2 2026, GTIG observed threat actors compromise a cloud resource, then plan, build, and execute an agent-enabled mass credential harvesting campaign in under six hours. We also tracked UNC6780 using multiple tactics to trick AI coding assistants and large language model (LLM) security scanners into its open source software supply chain compromises. Threat actors are also increasingly targeting AI assets. GTIG observed adversaries with wide-ranging motivations target proprietary AI models and source code, exfiltrate application programming interface (API) credentials, and co-opt victim cloud environments to sustain unauthorized AI workloads. This shift underscores that enterprise AI assets—from model weights to cloud compute quotas—are high-value targets for espionage, ",
+   "id": "2767792b4606",
+   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-02T19:00:45Z",
+   "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
    "preliminary_score": 71,
    "preliminary_topics": [
-    "threat_intelligence",
-    "supply_chain"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "dffecfa43dde",
-   "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-   "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-11-02T23:00:45Z",
-   "excerpt": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
-   "preliminary_score": 73,
+   "id": "842bc764ab47",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-04T10:36:32Z",
+   "excerpt": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers. The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist appeared first on SecurityWeek .",
+   "preliminary_score": 71,
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence"
    ]
   },
   {
-   "id": "94ac3c3bdec2",
-   "title": "Vercel rolls out new protection against stolen session cookie attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T21:31:18Z",
-   "excerpt": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-   "preliminary_score": 73,
+   "id": "da5b67aa3d7a",
+   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-03T14:32:38Z",
+   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
+   "preliminary_score": 70,
    "preliminary_topics": [
-    "web_software_security",
-    "malware"
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "db0f58d20e74",
+   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+   "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-02T14:44:18Z",
+   "excerpt": "The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website. The post Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk appeared first on SecurityWeek .",
+   "preliminary_score": 69,
+   "preliminary_topics": [
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "3141a1ccfc4c",
+   "title": "Introducing ITDR Lookback: Find Out Who Was in Your Microsoft 365 Tenant Before You Were",
+   "url": "https://www.huntress.com/blog/managed-itdr-lookback-feature",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-10-20T13:00:00Z",
+   "excerpt": "Attackers may be in your tenant before you connect it. Huntress Managed ITDR Lookback reviews 180 days of Microsoft 365 logins & our SOC acts on active incidents.",
+   "preliminary_score": 66,
+   "preliminary_topics": [
+    "siem_detection",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "bf6b2f591ccd",
+   "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
+   "url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-10-16T23:00:00Z",
+   "excerpt": "ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.",
+   "preliminary_score": 65,
+   "preliminary_topics": [
+    "siem_detection",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "d53023f974e6",
+   "title": "Franse bank getroffen door cyberaanval: '118 miljoen euro gestolen'",
+   "url": "https://www.security.nl/posting/960395/Franse+bank+getroffen+door+cyberaanval%3A+%27118+miljoen+euro+gestolen%27?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-04T13:51:00Z",
+   "excerpt": "De Franse bank Crédit Mutuel Arkéa is getroffen door een cyberaanval, waardoor aanvallers frauduleuze transacties konden ...",
+   "preliminary_score": 64,
+   "preliminary_topics": [
+    "incidents_breaches"
    ]
   }
  ]
