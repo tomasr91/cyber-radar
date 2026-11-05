@@ -1,13 +1,78 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-04T02:30:00Z",
+  "generated_at": "2026-11-05T03:00:00Z",
   "options": [
+    {
+      "id": "remote-code-execution",
+      "title": "Remote Code Execution - een server opdrachten laten uitvoeren",
+      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?",
+      "why": "PHP2Shell in PHP zelf en de lekkenketen in PaperCut laten deze weken zien hoe een webverzoek zonder inlog kan eindigen in opdrachten op de server.",
+      "topics": [
+        "attack_techniques",
+        "vulnerabilities_cve",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "edge-devices-als-ingang",
+      "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
+      "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
+      "why": "Trend van deze weken: lekken in vpn- en netwerkapparaten worden volop misbruikt, en op 3 november bleken bijgewerkte Ivanti-vpn's opnieuw kwetsbaar voor twee zero-days.",
+      "topics": [
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "vulnerability_management"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "ai-agenten-bij-inbraken",
+      "title": "AI-agenten bij inbraken: wat doen ze, en waarom vallen ze zo op?",
+      "question": "Hoe laat een aanvaller een AI-framework zelf inloggen, verkennen en rechten verhogen, en welke sporen laat dat achter in logs?",
+      "why": "Trend van deze weken: Google zag aanvallers met frameworks als ARTEX binnen minuten tot uren diep in een netwerk komen, met opvallend veel verzoeken en sporen.",
+      "topics": [
+        "attack_techniques",
+        "threat_intelligence",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "incident-response-stappen",
+      "title": "Incident response - wat gebeurt er na het alarm?",
+      "question": "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?",
+      "why": "DIVD beschreef open hoe het een inbraak via zero-days in Zammad binnen 19 minuten zag en daarna indamde: een zeldzaam Nederlands voorbeeld van incident response van binnenuit.",
+      "topics": [
+        "incident_response",
+        "incidents_breaches"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "anatomie-ransomware-aanval",
+      "title": "Anatomie van een ransomware-aanval, stap voor stap",
+      "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
+      "why": "Unit 42 beschreef in oktober hoe ransomwaregroepen via een vpn-lek binnenkwamen en via RMM-tools, RDP en vCenter doorliepen tot de versleuteling.",
+      "topics": [
+        "ransomware",
+        "attack_techniques",
+        "siem_detection"
+      ],
+      "area": "incidenten"
+    }
+  ],
+  "history": [
     {
       "id": "authenticatie-en-autorisatie",
       "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
       "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe werken sessies en tokens, en wat gaat er mis bij een authentication bypass?",
       "why": "Deze week omzeilde een aanvaller MFA bij 79 organisaties met gestolen inlogtokens, en misbruiken ransomwaregroepen een fout in de controle van inlogcookies in de Palo Alto-vpn: wie snapt hoe inloggen werkt, snapt beide.",
-      "topics": ["phishing_identity", "web_software_security", "attack_techniques"],
+      "topics": [
+        "phishing_identity",
+        "web_software_security",
+        "attack_techniques"
+      ],
       "area": "techniek"
     },
     {
@@ -15,7 +80,11 @@
       "title": "CVE, CVSS, EPSS en KEV - wat zeggen al die afkortingen?",
       "question": "Hoe krijgt een kwetsbaarheid een nummer en een score, en waarom is een hoge CVSS-score niet altijd het meest urgent?",
       "why": "Volgens Cisco Talos is het aantal gepubliceerde kwetsbaarheden dit jaar meer dan verdubbeld, terwijl het aantal echt misbruikte lekken veel minder snel groeit: kiezen wat eerst moet wordt dus belangrijker.",
-      "topics": ["vulnerability_management", "vulnerabilities_cve", "exploited_vulnerabilities"],
+      "topics": [
+        "vulnerability_management",
+        "vulnerabilities_cve",
+        "exploited_vulnerabilities"
+      ],
       "area": "praktijk"
     },
     {
@@ -23,7 +92,11 @@
       "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
       "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
       "why": "In één week kwamen aanvallen op vpn's van Ivanti en Palo Alto, op Cisco SD-WAN en op BeyondTrust in het nieuws: steeds systemen aan de rand van het netwerk die vanaf internet bereikbaar zijn.",
-      "topics": ["edge_devices", "exploited_vulnerabilities", "vulnerability_management"],
+      "topics": [
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "vulnerability_management"
+      ],
       "area": "kwetsbaarheden"
     },
     {
@@ -31,7 +104,11 @@
       "title": "Anatomie van een ransomware-aanval, stap voor stap",
       "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
       "why": "Cisco Talos zag het aandeel ransomware in zijn incidenten in het derde kwartaal stijgen naar 27 procent, vaak begonnen met een telefoontje van een nep-IT-helpdesk.",
-      "topics": ["ransomware", "attack_techniques", "siem_detection"],
+      "topics": [
+        "ransomware",
+        "attack_techniques",
+        "siem_detection"
+      ],
       "area": "incidenten"
     },
     {
@@ -39,9 +116,12 @@
       "title": "Nep-CAPTCHA's: hoe aanvallers je zelf malware laten starten",
       "question": "Hoe overtuigt een nep-CAPTCHA iemand om zelf een opdracht op de computer uit te voeren, wat gebeurt er daarna technisch, en wat ziet een securityteam ervan?",
       "why": "Deze week leidde een Google-advertentie naar een nagemaakte Amazon-pagina met een nep-CAPTCHA die bezoekers zelf een wachtwoorddief liet starten.",
-      "topics": ["phishing_identity", "malware", "siem_detection"],
+      "topics": [
+        "phishing_identity",
+        "malware",
+        "siem_detection"
+      ],
       "area": "techniek"
     }
-  ],
-  "history": []
+  ]
 }
