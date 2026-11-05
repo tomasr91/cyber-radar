@@ -1,0 +1,18 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-05T01:22:44Z",
+  "finished_at": "2026-11-05T01:42:36Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 6 artikelen uitgelegd (5 van de werklijst en het LLMJacking-stuk van gisteren), 5 overgeslagen, waarvan 2 zonder openen.",
+  "counts": {
+    "uitgelegd": 6,
+    "overgeslagen": 5,
+    "overgeslagen_zonder_openen": 2,
+    "niet_te_lezen": 2
+  },
+  "problems": [
+    "Het artikel van BleepingComputer over de NIKKE-launcher gaf een serverfout (komt over een week terug).",
+    "Het AI Threat Tracker-rapport van Google kon niet worden verwerkt (komt over een week terug).",
+    "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "format_version": 2,
+  "article_id": "94ac3c3bdec2",
+  "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+  "headline": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies",
+  "summary": "Vercel voert Device Bound Session Credentials (DBSC) in. Daarmee wordt een gestolen sessiecookie snel waardeloos, omdat alleen het echte apparaat hem kan vernieuwen.",
+  "story": [
+    "Het ontwikkelplatform Vercel voert stap voor stap Device Bound Session Credentials (DBSC) in voor het inloggen op vercel.com. Dat meldde technisch directeur Malte Ubl. DBSC moet gestolen sessiecookies onbruikbaar maken. Het werkt nu in Chrome op Windows en macOS. Vercel had in april zelf een inbraak waarbij een deel van de klanten werd geraakt.",
+    "Hoe werkt inloggen op een website normaal? Na je wachtwoord en MFA geeft de site je browser een cookie als bewijs dat je bent ingelogd. Een infostealer is malware die zulke cookies van je pc kopieert. De aanvaller zet ze in zijn eigen browser en is dan ingelogd als jou, zonder wachtwoord of MFA. Volgens Google is dat met software alleen niet goed te voorkomen: malware op je pc kan de bestanden en het geheugen van de browser lezen.",
+    "DBSC koppelt de sessie aan je apparaat. Bij het inloggen maakt de browser een sleutelpaar. Het geheime deel blijft in de beveiligingschip van je computer: de TPM op Windows of de Secure Enclave op een Mac. Het kan daar niet uit, ook niet door malware. De site geeft alleen cookies uit die snel verlopen. Voor een nieuwe moet de browser met de geheime sleutel bewijzen dat hij het echte apparaat is. Een gestolen cookie verloopt dus snel, en de dief kan hem niet vernieuwen.",
+    "Er zijn grenzen. Een website moet DBSC zelf inbouwen, anders helpt het niet. Apparaten zonder beveiligingschip vallen er nog buiten. En of DBSC beschermt tegen malware die meekijkt terwijl je op je eigen pc bent ingelogd, beschrijft Google niet. DBSC is een open standaard bij het W3C, ontwikkeld door Google samen met Microsoft.",
+    "Voor organisaties is dit een ontwikkeling om te volgen. Gestolen sessies zijn een belangrijke manier om MFA te omzeilen. Wie webapplicaties bouwt of inkoopt, kan vragen of ze DBSC ondersteunen. In de logs blijft het signaal hetzelfde: een sessie die ineens vanaf een ander apparaat of adres wordt gebruikt."
+  ],
+  "key_facts": [
+    "Vercel voert DBSC geleidelijk in voor logins op vercel.com; technisch directeur Malte Ubl maakte dat bekend op X.",
+    "Volgens BleepingComputer werkt DBSC nu in Chrome op Windows en macOS; de uitrol gaat geleidelijk vanwege randgevallen met OAuth-apps.",
+    "De geheime sleutel staat in de TPM (Windows) of de Secure Enclave (macOS) en kan volgens Google niet van het apparaat worden gehaald.",
+    "Volgens Google geeft de server alleen kortlevende sessiecookies uit nadat de browser bewijst dat hij de geheime sleutel heeft.",
+    "Google kondigde DBSC aan in april 2024; het is een open W3C-standaard, ontwikkeld met Microsoft, en publiek beschikbaar in Chrome 146 voor Windows.",
+    "Vercel voert voor zijn eigen opdrachtregeltool (Vercel CLI) een vergelijkbare techniek in, DPoP."
+  ],
+  "limitations": [
+    "BleepingComputer meldt dat DBSC al in Chrome op macOS werkt; Google schreef dat ondersteuning voor macOS in een volgende Chrome-versie komt.",
+    "Google meldt een flinke daling van sessiediefstal bij beschermde sessies, maar noemt geen cijfers.",
+    "Hoe DBSC omgaat met malware die op het apparaat zelf handelt tijdens een actieve sessie, beschrijft Google niet.",
+    "Het artikel bevat ook een productaankondiging van Vercel (Security Review); die is hier weggelaten."
+  ],
+  "personal_relevance": "Klanten die worstelen met accountovername na MFA vragen vaak wat er nog helpt. DBSC is een concreet antwoord om te noemen, met als kanttekening dat elke applicatie het zelf moet ondersteunen.",
+  "takeaway": "Een sessiecookie is een toegangsbewijs dat wie het kopieert kan gebruiken. DBSC maakt dat bewijs kortlevend en laat het alleen vernieuwen door een sleutel die de beveiligingschip van je apparaat nooit verlaat.",
+  "region": "world",
+  "official_docs": [
+    {
+      "label": "Google: Protecting cookies with Device Bound Session Credentials",
+      "url": "https://blog.google/security/protecting-cookies-with-device-bound-session-credentials/"
+    }
+  ],
+  "topics": [
+    "phishing_identity",
+    "web_software_security",
+    "malware"
+  ],
+  "quality": {
+    "depth": 0.65,
+    "practicality": 0.75,
+    "novelty": 0.7
+  },
+  "development_key": "dbsc-vercel-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "achtergrond",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; sluit aan bij het eerdere stuk over gestolen inlogtokens en legt een nieuwe verdediging uit."
+  },
+  "showcase": {
+    "caption": "Zo werkt het vernieuwen van een sessie met DBSC, sterk vereenvoudigd. De browser stuurt het bijna verlopen cookie mee met een bewijs dat met de geheime sleutel uit de beveiligingschip is ondertekend. Alleen dan krijgt hij een nieuw cookie dat weer maar kort geldig is.",
+    "language": "http",
+    "code": "POST /sessie/vernieuwen HTTP/1.1\nHost: example.com\nCookie: sessie=kortlevend-oud\n<bewijs: ondertekend met de geheime sleutel uit de TPM>\n\nHTTP/1.1 200 OK\nSet-Cookie: sessie=kortlevend-nieuw; Max-Age=600; Secure; HttpOnly",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld; pad en vorm van het bewijs zijn verzonnen. De echte velden staan in de DBSC-specificatie."
+  },
+  "terms": [
+    {
+      "term": "cookie",
+      "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+      "term": "infostealer",
+      "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+    },
+    {
+      "term": "MFA",
+      "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+      "term": "sleutelpaar",
+      "explanation": "Twee bij elkaar horende sleutels: een geheime om mee te ondertekenen en een openbare waarmee een ander kan controleren dat de handtekening echt is."
+    },
+    {
+      "term": "TPM",
+      "explanation": "Trusted Platform Module: een beveiligingschip in de computer die sleutels bewaart en gebruikt, zonder ze ooit naar buiten te geven."
+    },
+    {
+      "term": "W3C",
+      "explanation": "Het internationale consortium dat de standaarden voor het web vastlegt, zodat browsers en websites op dezelfde manier werken."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-05T01:42:22Z",
+  "prompt_version": "cyber-taak-v1"
+}
