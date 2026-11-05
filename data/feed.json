@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T07:19:06.666441Z",
+ "generated_at": "2026-11-05T18:27:18.530819Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-05T01:42:22Z",
- "last_successful_update": "2026-11-05T07:19:06.666441Z",
+ "last_successful_update": "2026-11-05T18:27:18.530819Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T07:19:06.701110Z"
+   "checked_at": "2026-11-05T18:27:18.591404Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T07:19:07.664474Z"
+   "checked_at": "2026-11-05T18:27:19.216215Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T07:19:08.682331Z"
+   "checked_at": "2026-11-05T18:27:20.326539Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T07:19:08.818909Z"
+   "checked_at": "2026-11-05T18:27:20.521617Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T07:19:10.433065Z"
+   "checked_at": "2026-11-05T18:27:21.508476Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T07:19:10.537411Z"
+   "checked_at": "2026-11-05T18:27:21.694077Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T07:19:10.634033Z"
+   "checked_at": "2026-11-05T18:27:21.841043Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T07:19:10.713254Z"
+   "checked_at": "2026-11-05T18:27:22.063074Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T07:19:11.088241Z"
+   "checked_at": "2026-11-05T18:27:22.527859Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T07:19:12.847256Z"
+   "checked_at": "2026-11-05T18:27:24.403690Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T07:19:12.982699Z"
+   "checked_at": "2026-11-05T18:27:24.547831Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T07:19:13.069122Z"
+   "checked_at": "2026-11-05T18:27:24.661351Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T07:19:13.107602Z"
+   "checked_at": "2026-11-05T18:27:24.878289Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T07:19:13.317576Z"
+   "checked_at": "2026-11-05T18:27:25.161788Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T07:19:13.416223Z"
+   "checked_at": "2026-11-05T18:27:25.333201Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,21 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T07:19:13.480777Z"
+   "checked_at": "2026-11-05T18:27:25.503525Z"
+  },
+  {
+   "id": "the_hacker_news",
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com",
+   "type": "independent_news",
+   "trust_level": "medium",
+   "priority": 4,
+   "region": "world",
+   "fetch_method": "rss",
+   "status": "ok",
+   "items": 30,
+   "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
+   "checked_at": "2026-11-05T18:27:30.712169Z"
   },
   {
    "id": "securityweek",
@@ -367,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T07:19:13.757362Z"
+   "checked_at": "2026-11-05T18:27:30.992161Z"
   }
  ],
  "daily_top": [
@@ -416,7 +430,7 @@
    "relevance_score": 94,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.86,
+    "recency": 0.84,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -593,7 +607,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.71,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -750,7 +764,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.74,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -889,7 +903,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.87,
+    "recency": 0.85,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -1108,6 +1122,149 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
+   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
+   "limitations": [
+    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
+    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
+    "Een reactie van Videostrong staat niet in de bron.",
+    "De precieze datum van de actie en de rechtbank worden niet genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
+   ],
+   "topics": [
+    "threat_intelligence",
+    "supply_chain",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.85,
+    "source": 0.8,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:37:00Z",
+   "reading_minutes": 5,
+   "format_version": 2,
+   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
+   "story": [
+    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
+    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
+   ],
+   "key_facts": [
+    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
+    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
+    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
+    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
+    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
+    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "botnet",
+     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
+    },
+    {
+     "term": "firmware",
+     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+     "term": "residential proxy",
+     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
+    },
+    {
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
+   },
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
+    "Staan die apparaten in een apart netwerksegment?",
+    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
+   ],
+   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
+   "region": "world"
+  },
+  {
    "id": "7b72d51a9df2",
    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -1140,10 +1297,10 @@
     "ti",
     "aanvallen"
    ],
-   "relevance_score": 90,
+   "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.68,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1258,149 +1415,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "30b15a7c5706",
-   "title": "Shutting the Door on the XCPE Botnet",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
-   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
-   "limitations": [
-    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
-    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
-    "Een reactie van Videostrong staat niet in de bron.",
-    "De precieze datum van de actie en de rechtbank worden niet genoemd."
-   ],
-   "official_docs": [
-    {
-     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
-     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
-    }
-   ],
-   "topics": [
-    "threat_intelligence",
-    "supply_chain",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 90,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.87,
-    "source": 0.8,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:37:00Z",
-   "reading_minutes": 5,
-   "format_version": 2,
-   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
-   "story": [
-    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
-    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
-   ],
-   "key_facts": [
-    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
-    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
-    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
-    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
-    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
-    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "botnet",
-     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
-    },
-    {
-     "term": "firmware",
-     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "residential proxy",
-     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
-    },
-    {
-     "term": "C2",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "IOC's",
-     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
-   },
-   "sections": [
-    {
-     "heading": "Wat is de technologie?",
-     "paragraphs": [
-      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
-      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
-     ]
-    },
-    {
-     "heading": "Wat gaat er technisch fout?",
-     "paragraphs": [
-      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
-      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
-     ]
-    },
-    {
-     "heading": "Hoe kan een aanvaller dit misbruiken?",
-     "paragraphs": [
-      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
-      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
-      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
-     ]
-    },
-    {
-     "heading": "Wat is de mogelijke impact?",
-     "paragraphs": [
-      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
-      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
-     ]
-    },
-    {
-     "heading": "Hoe zie je dit?",
-     "paragraphs": [
-      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
-      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
-     ]
-    },
-    {
-     "heading": "Hoe voorkom je dit?",
-     "paragraphs": [
-      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
-      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
-     ]
-    }
-   ],
-   "customer_questions": [
-    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
-    "Staan die apparaten in een apart netwerksegment?",
-    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
-   ],
-   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
-   "region": "world"
-  },
-  {
    "id": "875e59480304",
    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
@@ -1433,7 +1447,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.9,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -1531,7 +1545,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.48,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -1629,7 +1643,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.51,
+    "recency": 0.49,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -1726,7 +1740,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.7,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -1816,7 +1830,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.95,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -1898,7 +1912,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -1967,95 +1981,6 @@
    "region": "world"
   },
   {
-   "id": "37b85c3ffeef",
-   "title": "There's only so much code: the rise in vulnerability numbers",
-   "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
-   "source_id": "cisco_talos",
-   "published_at": "2026-10-20T15:31:22Z",
-   "fetched_at": "2026-11-03T21:07:37.824805Z",
-   "summary": "Het aantal gepubliceerde kwetsbaarheden is dit jaar meer dan verdubbeld, volgens Cisco Talos vooral door AI die oude code doorzoekt. Het aantal lekken dat echt wordt misbruikt, groeit veel minder snel.",
-   "personal_relevance": "Klanten met vulnerability management zien hun lijsten exploderen. Dit stuk helpt het gesprek te voeren over prioriteren op misbruik en bereikbaarheid in plaats van op aantallen en scores.",
-   "limitations": [
-    "Dat de stijging tijdelijk is, is een verwachting van Talos, geen vaststaand feit.",
-    "De KEV-lijst telt unieke kwetsbaarheden, niet hoe vaak ze worden misbruikt.",
-    "Talos noemt eigen Cisco-producten als tussentijdse bescherming."
-   ],
-   "official_docs": [
-    {
-     "label": "Cisco Talos: The Q3 Vulnerability Pulse",
-     "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/"
-    }
-   ],
-   "topics": [
-    "vulnerability_management",
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
-   ],
-   "groups": [
-    "vm",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.46,
-    "source": 0.8,
-    "quality": 0.73,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt",
-   "story": [
-    "Microsoft publiceerde bij Patch Tuesday in september 975 kwetsbaarheden en in oktober 1.415. Vóór juni waren het er gemiddeld zo'n 100 per maand. Wereldwijd verschenen dit jaar 105 procent meer CVE-nummers dan vorig jaar. Cisco Talos ziet de oorzaak vooral bij AI-modellen die sinds ongeveer april gericht worden ingezet om kwetsbaarheden te vinden. Die werken zich door oude code van grote, veelgebruikte producten.",
-    "Waarom vindt AI zoveel? Een menselijke onderzoeker leest code met aannames over wat 'wel goed zal zitten'. Een AI-model kan veel code snel doorlopen en slaat die aannames over. Talos denkt dat de piek tijdelijk is: er is maar zoveel oude code. Het vergelijkt dit met format string-fouten, een soort fout die in 2000 werd ontdekt, rond 2005 piekte en daarna afnam. Talos zegt er wel bij dat niemand de toekomst kent.",
-    "Het belangrijkste punt: ontdekken is niet hetzelfde als misbruiken. Van de 975 Microsoft-adviezen in september werden er volgens Talos 3 al misbruikt. De KEV-lijst groeide dit jaar 37 procent, veel minder dan het aantal CVE's. In een ander stuk wijst Talos erop dat ongeveer een derde van de lekken op de KEV-lijst uit 2025 of eerder stamt. Oude, ongepatchte lekken blijven dus een groot probleem. Tegelijk gebruiken aanvallers AI om nieuwe patches sneller te analyseren, waardoor de tijd tussen patch en misbruik korter kan worden.",
-    "Voor vulnerability management betekent dit: je kunt niet alles tegelijk patchen, dus prioriteren wordt belangrijker. Talos raadt aan voorrang te geven aan wat in jouw omgeving echt misbruikt kan worden, en tussentijds te beschermen met IPS-regels en detectie op afwijkend gedrag. Voor ontwikkelaars: laat nieuwe code door AI controleren, minstens zo goed als de modellen die aanvallers gebruiken."
-   ],
-   "key_facts": [
-    "Microsoft Patch Tuesday bevatte in september 2026 975 en in oktober 2026 1.415 kwetsbaarheden; vóór juni gemiddeld ongeveer 100 per maand (Talos, 20 oktober 2026).",
-    "Het aantal gepubliceerde CVE's steeg 105 procent ten opzichte van vorig jaar; de KEV-lijst groeide 37 procent.",
-    "Van de 975 Microsoft-adviezen in september werden er 3 al in het wild misbruikt.",
-    "Talos schrijft de stijging vooral toe aan AI-modellen die sinds ongeveer april voor het vinden van kwetsbaarheden worden gebruikt, vooral in oude code.",
-    "Ongeveer een derde (33 procent) van de KEV-vermeldingen in 2026 betreft CVE's uit 2025 of eerder (Talos Q3 Vulnerability Pulse, 15 oktober 2026)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "Patch Tuesday",
-     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
-    },
-    {
-     "term": "CVE-nummers",
-     "explanation": "Unieke nummers voor openbaar bekende kwetsbaarheden, zoals CVE-2026-0257. Zo weet iedereen over welk lek het gaat."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    },
-    {
-     "term": "format string",
-     "explanation": "Een soort programmeerfout waarbij invoer van een gebruiker als opmaakinstructie wordt gelezen. Daardoor kan een aanvaller geheugen uitlezen of soms code laten uitvoeren."
-    },
-    {
-     "term": "IPS",
-     "explanation": "Intrusion prevention system: een netwerkfilter dat bekende aanvalspatronen in het verkeer herkent en blokkeert, ook voordat een lek is gepatcht."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "achtergrond",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; gaat over prioriteren in vulnerability management, de kern van je werkcontext."
-   },
-   "takeaway": "Meer gevonden lekken betekent niet evenveel meer risico: slechts een klein deel wordt echt misbruikt. Prioriteren op bewezen misbruik (zoals de KEV-lijst) en op wat in je eigen omgeving bereikbaar is, wordt daardoor belangrijker.",
-   "region": "world"
-  },
-  {
    "id": "0968634953ed",
    "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
    "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
@@ -2090,7 +2015,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.47,
+    "recency": 0.45,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -2194,7 +2119,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.91,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -2291,7 +2216,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -2362,101 +2287,92 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "1c4ce65b251a",
-   "title": "Camera Management Software Compromise Leads to Malware Deployment",
-   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
-   "source_id": "huntress_blog",
-   "published_at": "2026-10-27T13:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.290040Z",
-   "summary": "Huntress zag in september en oktober een paar inbraken die begonnen bij software voor het beheren van beveiligingscamera's. Daarna verstopte de aanvaller zijn malware achter een echt Microsoft-programma.",
-   "personal_relevance": "Camerasystemen en andere 'facilitaire' software vallen vaak buiten het zicht van IT en security. Een goed voorbeeld om te vragen of zulke systemen in de scope van vulnerability management en monitoring zitten.",
+   "id": "37b85c3ffeef",
+   "title": "There's only so much code: the rise in vulnerability numbers",
+   "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+   "source_id": "cisco_talos",
+   "published_at": "2026-10-20T15:31:22Z",
+   "fetched_at": "2026-11-03T21:07:37.824805Z",
+   "summary": "Het aantal gepubliceerde kwetsbaarheden is dit jaar meer dan verdubbeld, volgens Cisco Talos vooral door AI die oude code doorzoekt. Het aantal lekken dat echt wordt misbruikt, groeit veel minder snel.",
+   "personal_relevance": "Klanten met vulnerability management zien hun lijsten exploderen. Dit stuk helpt het gesprek te voeren over prioriteren op misbruik en bereikbaarheid in plaats van op aantallen en scores.",
    "limitations": [
-    "Hoe de camerasoftware werd overgenomen, is onbekend; het is niet bevestigd dat het om een kwetsbaarheid of om gestolen wachtwoorden gaat.",
-    "Het aantal getroffen organisaties en sectoren wordt niet genoemd.",
-    "Wat de aanvaller uiteindelijk wilde, en wie het was, is onbekend."
+    "Dat de stijging tijdelijk is, is een verwachting van Talos, geen vaststaand feit.",
+    "De KEV-lijst telt unieke kwetsbaarheden, niet hoe vaak ze worden misbruikt.",
+    "Talos noemt eigen Cisco-producten als tussentijdse bescherming."
    ],
    "official_docs": [
     {
-     "label": "Huntress: Camera Management Software Compromise",
-     "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+     "label": "Cisco Talos: The Q3 Vulnerability Pulse",
+     "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/"
     }
    ],
    "topics": [
-    "attack_techniques",
-    "incidents_breaches",
-    "siem_detection",
-    "malware"
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
    ],
    "groups": [
-    "aanvallen",
-    "incidenten",
-    "detectie"
+    "vm",
+    "kwetsbaarheden"
    ],
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.65,
-    "source": 0.68,
-    "quality": 0.65,
-    "fit": 0.05
+    "recency": 0.45,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.1
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:48:00Z",
+   "processed_at": "2026-11-04T01:47:36Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand",
+   "headline": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt",
    "story": [
-    "Het beveiligingsbedrijf Huntress onderzocht in september en oktober een handvol incidenten bij verschillende klanten. Volgens Huntress begonnen ze allemaal bij een gehackt systeem voor camerabeheer (CMS.exe). Hoe de aanvallers dat systeem overnamen, is onbekend: Huntress vond geen logs van de applicatie en noemt geen kwetsbaarheid.",
-    "Vanuit de camerasoftware startte de aanvaller een programma dat een reverse shell opende: een verbinding van binnen naar buiten waarmee hij opdrachten kon geven. Daarna gebruikte hij DLL-sideloading. Hij zette een echt programma van Microsoft (WpcMon.exe) in een gebruikersmap, met daarnaast twee nagemaakte DLL-bestanden. Windows laadt dan die nep-DLL's, zodat de malware meelift op een vertrouwd programma.",
-    "Om terug te komen na een herstart, zette de aanvaller WpcMon.exe in de Run-sleutel van het register. De nep-DLL's maakten daarna regelmatig contact met één server van de aanvaller.",
-    "Huntress adviseert camerabeheersoftware in kaart te brengen en de toegang ertoe te beperken, en met applicatiecontrole te voorkomen dat programma's en DLL's uit gebruikersmappen draaien. Het signaal om op te letten: een Windows-programma dat normaal in system32 staat, maar ineens vanuit een gebruikersprofiel draait."
+    "Microsoft publiceerde bij Patch Tuesday in september 975 kwetsbaarheden en in oktober 1.415. Vóór juni waren het er gemiddeld zo'n 100 per maand. Wereldwijd verschenen dit jaar 105 procent meer CVE-nummers dan vorig jaar. Cisco Talos ziet de oorzaak vooral bij AI-modellen die sinds ongeveer april gericht worden ingezet om kwetsbaarheden te vinden. Die werken zich door oude code van grote, veelgebruikte producten.",
+    "Waarom vindt AI zoveel? Een menselijke onderzoeker leest code met aannames over wat 'wel goed zal zitten'. Een AI-model kan veel code snel doorlopen en slaat die aannames over. Talos denkt dat de piek tijdelijk is: er is maar zoveel oude code. Het vergelijkt dit met format string-fouten, een soort fout die in 2000 werd ontdekt, rond 2005 piekte en daarna afnam. Talos zegt er wel bij dat niemand de toekomst kent.",
+    "Het belangrijkste punt: ontdekken is niet hetzelfde als misbruiken. Van de 975 Microsoft-adviezen in september werden er volgens Talos 3 al misbruikt. De KEV-lijst groeide dit jaar 37 procent, veel minder dan het aantal CVE's. In een ander stuk wijst Talos erop dat ongeveer een derde van de lekken op de KEV-lijst uit 2025 of eerder stamt. Oude, ongepatchte lekken blijven dus een groot probleem. Tegelijk gebruiken aanvallers AI om nieuwe patches sneller te analyseren, waardoor de tijd tussen patch en misbruik korter kan worden.",
+    "Voor vulnerability management betekent dit: je kunt niet alles tegelijk patchen, dus prioriteren wordt belangrijker. Talos raadt aan voorrang te geven aan wat in jouw omgeving echt misbruikt kan worden, en tussentijds te beschermen met IPS-regels en detectie op afwijkend gedrag. Voor ontwikkelaars: laat nieuwe code door AI controleren, minstens zo goed als de modellen die aanvallers gebruiken."
    ],
    "key_facts": [
-    "Huntress zag in september en oktober 2026 een handvol incidenten bij meerdere klanten die begonnen bij camerabeheersoftware (publicatie 27 oktober 2026).",
-    "De maker van de software kon Huntress niet met zekerheid vaststellen; teksten in het programma wijzen naar een Koreaans bedrijf.",
-    "De aanvaller plaatste het echte Microsoft-programma WpcMon.exe met twee aangepaste DLL's in een gebruikersmap (DLL-sideloading).",
-    "Persistentie verliep via een Run-sleutel in het register; de DLL's maakten contact met één commandoserver.",
-    "Huntress noemt geen CVE en kon de oorzaak van de eerste inbraak niet vaststellen."
+    "Microsoft Patch Tuesday bevatte in september 2026 975 en in oktober 2026 1.415 kwetsbaarheden; vóór juni gemiddeld ongeveer 100 per maand (Talos, 20 oktober 2026).",
+    "Het aantal gepubliceerde CVE's steeg 105 procent ten opzichte van vorig jaar; de KEV-lijst groeide 37 procent.",
+    "Van de 975 Microsoft-adviezen in september werden er 3 al in het wild misbruikt.",
+    "Talos schrijft de stijging vooral toe aan AI-modellen die sinds ongeveer april voor het vinden van kwetsbaarheden worden gebruikt, vooral in oude code.",
+    "Ongeveer een derde (33 procent) van de KEV-vermeldingen in 2026 betreft CVE's uit 2025 of eerder (Talos Q3 Vulnerability Pulse, 15 oktober 2026)."
    ],
    "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan de verdachte procesketen eruitzien in een overzicht van processen. Let op regel 3: WpcMon.exe hoort in C:\\Windows\\System32, niet in een gebruikersprofiel.",
-    "language": "text",
-    "code": "Ouderproces                                  > Kindproces\nC:\\Program Files (x86)\\CMS\\CMS.exe            > ...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe\n...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe > C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\WpcMon\\WpcMon.exe",
-    "note": "Nagebouwd voorbeeld op basis van de paden in het artikel van Huntress; het echte overzicht staat daar."
-   },
    "terms": [
     {
-     "term": "reverse shell",
-     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
+     "term": "Patch Tuesday",
+     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
     },
     {
-     "term": "DLL-sideloading",
-     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+     "term": "CVE-nummers",
+     "explanation": "Unieke nummers voor openbaar bekende kwetsbaarheden, zoals CVE-2026-0257. Zo weet iedereen over welk lek het gaat."
     },
     {
-     "term": "Run-sleutel",
-     "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
     },
     {
-     "term": "applicatiecontrole",
-     "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd."
+     "term": "format string",
+     "explanation": "Een soort programmeerfout waarbij invoer van een gebruiker als opmaakinstructie wordt gelezen. Daardoor kan een aanvaller geheugen uitlezen of soms code laten uitvoeren."
+    },
+    {
+     "term": "IPS",
+     "explanation": "Intrusion prevention system: een netwerkfilter dat bekende aanvalspatronen in het verkeer herkent en blokkeert, ook voordat een lek is gepatcht."
     }
    ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "achtergrond",
    "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een concrete aanvalsketen met een duidelijk detectiesignaal."
+    "score": 0.6,
+    "why": "Nog geen duimpjes; gaat over prioriteren in vulnerability management, de kern van je werkcontext."
    },
-   "customer_questions": [
-    "Wie beheert bij jullie de software voor camera's en toegangscontrole, en valt die onder dezelfde patch- en scanprocessen?",
-    "Is die software bereikbaar vanaf internet?",
-    "Zou jullie EDR of SIEM het melden als een Windows-programma vanuit een gebruikersmap draait in plaats van uit system32?"
-   ],
-   "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
+   "takeaway": "Meer gevonden lekken betekent niet evenveel meer risico: slechts een klein deel wordt echt misbruikt. Prioriteren op bewezen misbruik (zoals de KEV-lijst) en op wat in je eigen omgeving bereikbaar is, wordt daardoor belangrijker.",
    "region": "world"
   },
   {
@@ -2486,7 +2402,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.27,
+    "recency": 0.26,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -2580,7 +2496,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
+    "recency": 0.47,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -2649,97 +2565,101 @@
    "region": "world"
   },
   {
-   "id": "1204de495376",
-   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-   "source_id": "unit42",
-   "published_at": "2026-10-21T14:00:24Z",
-   "fetched_at": "2026-11-03T21:07:40.082335Z",
-   "summary": "Unit 42 volgde een crimineel die met een 'gekraakt' AI-model inbraken plande en tools liet bouwen. Bij een Indiase universiteit haalde hij met een zwak beheerderswachtwoord een database met studentgegevens leeg.",
-   "personal_relevance": "Klanten vragen vaak of AI aanvallers 'superkrachten' geeft. Dit voorbeeld laat zien dat AI vooral het werk versnelt, en dat basismaatregelen zoals sterke wachtwoorden en afgeschermde databases nog steeds het verschil maken.",
+   "id": "1c4ce65b251a",
+   "title": "Camera Management Software Compromise Leads to Malware Deployment",
+   "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-27T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Huntress zag in september en oktober een paar inbraken die begonnen bij software voor het beheren van beveiligingscamera's. Daarna verstopte de aanvaller zijn malware achter een echt Microsoft-programma.",
+   "personal_relevance": "Camerasystemen en andere 'facilitaire' software vallen vaak buiten het zicht van IT en security. Een goed voorbeeld om te vragen of zulke systemen in de scope van vulnerability management en monitoring zitten.",
    "limitations": [
-    "Unit 42 geeft geen data of tijdlijn van de aanvallen.",
-    "Of de geldige WordPress-inlog daarna is gebruikt, staat niet in het stuk.",
-    "Unit 42 is onderdeel van Palo Alto Networks en noemt eigen producten als bescherming."
+    "Hoe de camerasoftware werd overgenomen, is onbekend; het is niet bevestigd dat het om een kwetsbaarheid of om gestolen wachtwoorden gaat.",
+    "Het aantal getroffen organisaties en sectoren wordt niet genoemd.",
+    "Wat de aanvaller uiteindelijk wilde, en wie het was, is onbekend."
+   ],
+   "official_docs": [
+    {
+     "label": "Huntress: Camera Management Software Compromise",
+     "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    }
    ],
    "topics": [
     "attack_techniques",
-    "threat_intelligence",
-    "incidents_breaches"
+    "incidents_breaches",
+    "siem_detection",
+    "malware"
    ],
    "groups": [
     "aanvallen",
-    "ti",
-    "incidenten"
+    "incidenten",
+    "detectie"
    ],
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
-    "source": 0.8,
-    "quality": 0.67,
+    "recency": 0.63,
+    "source": 0.68,
+    "quality": 0.65,
     "fit": 0.05
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
+   "processed_at": "2026-11-03T21:48:00Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "Crimineel laat AI-assistent hacks plannen en scripts schrijven",
+   "headline": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand",
    "story": [
-    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een aanvaller met de schuilnaam BUGSTER. Hij is volgens Unit 42 uit op geld en richtte zich vooral op doelwitten in India. Hij gebruikte AI-assistenten om aanvallen te plannen en tools te schrijven. Bevestigd is een inbraak bij een Indiase openbare universiteit. Daar kwam hij binnen met een zwak wachtwoord van een beheerder en haalde hij een MongoDB-database leeg, met onder meer duizenden gegevens van studenten en docenten.",
-    "AI-modellen hebben veiligheidsregels: ze weigeren te helpen bij aanvallen. BUGSTER omzeilde dat met een jailbreak. Hij overschreef de basisinstructies van het model, de system prompt. Hij testte meerdere modellen en schreef zelfs een script dat bijhield welk model weigerde. Uiteindelijk koos hij DeepSeek V4, dat hij via Telegram aanstuurde. Code liet hij maken in de programmeeromgeving Cursor, waarbij een eigen script de ingebouwde controles uitschakelde.",
-    "Bij een andere universiteit liet hij zien hoe eenvoudig verkenning kan zijn. WordPress, een veelgebruikt systeem voor websites, toont bij berichten de naam van de auteur. De directe lijst met gebruikers werd geblokkeerd door een WAF. Maar via de auteursvelden en een lijst met auteurspagina's vond hij toch 13 actieve gebruikers met hun echte naam. Daarna probeerde een zelfgebouwde tool 117 gebruikersnamen met 28 veelgebruikte wachtwoorden: een brute force-aanval. Eén combinatie werd als geldig gemeld. Een andere tool zocht op websites naar uitgelekte geheimen, zoals cloudsleutels in configuratiebestanden.",
-    "Unit 42 noemt de tools eenvoudig. Het effect kwam vooral van basisfouten bij de slachtoffers: zwakke wachtwoorden, een database die bereikbaar was en uitgelekte sleutels. In de logs van een webserver valt zo'n aanval op als een reeks inlogpogingen op dezelfde inlogpagina, vanaf één adres. Plannen voor telefoonfraude via VoIP en het kraken van wifi waren volgens Unit 42 nog in voorbereiding of alleen ingeschat. De les: AI verlaagt de drempel voor minder ervaren criminelen, maar de verdediging blijft de basis."
+    "Het beveiligingsbedrijf Huntress onderzocht in september en oktober een handvol incidenten bij verschillende klanten. Volgens Huntress begonnen ze allemaal bij een gehackt systeem voor camerabeheer (CMS.exe). Hoe de aanvallers dat systeem overnamen, is onbekend: Huntress vond geen logs van de applicatie en noemt geen kwetsbaarheid.",
+    "Vanuit de camerasoftware startte de aanvaller een programma dat een reverse shell opende: een verbinding van binnen naar buiten waarmee hij opdrachten kon geven. Daarna gebruikte hij DLL-sideloading. Hij zette een echt programma van Microsoft (WpcMon.exe) in een gebruikersmap, met daarnaast twee nagemaakte DLL-bestanden. Windows laadt dan die nep-DLL's, zodat de malware meelift op een vertrouwd programma.",
+    "Om terug te komen na een herstart, zette de aanvaller WpcMon.exe in de Run-sleutel van het register. De nep-DLL's maakten daarna regelmatig contact met één server van de aanvaller.",
+    "Huntress adviseert camerabeheersoftware in kaart te brengen en de toegang ertoe te beperken, en met applicatiecontrole te voorkomen dat programma's en DLL's uit gebruikersmappen draaien. Het signaal om op te letten: een Windows-programma dat normaal in system32 staat, maar ineens vanuit een gebruikersprofiel draait."
    ],
    "key_facts": [
-    "Unit 42 publiceerde het onderzoek op 21 oktober 2026; de aanvaller gebruikt de naam BUGSTER en is volgens Unit 42 financieel gemotiveerd.",
-    "Bevestigd: een inbraak bij een Indiase openbare universiteit via een beheerdersaccount met een zwak wachtwoord, waarbij een MongoDB-database met gegevens van studenten en docenten werd leeggehaald.",
-    "De aanvaller gebruikte DeepSeek V4 via het Hermes Agent-framework en Telegram, en omzeilde de veiligheidsregels met een aangepaste system prompt; code liet hij schrijven in Cursor.",
-    "Bij een andere Indiase universiteit vond hij 13 actieve WordPress-gebruikers ondanks een WAF-blokkade, en meldde een brute-forcetool met 117 gebruikersnamen en 28 wachtwoorden één geldige inlog.",
-    "VoIP-fraude was volgens Unit 42 nog in de planningsfase; wifi-kraken en het in kaart brengen van cryptobezitters zijn inschattingen van Unit 42."
+    "Huntress zag in september en oktober 2026 een handvol incidenten bij meerdere klanten die begonnen bij camerabeheersoftware (publicatie 27 oktober 2026).",
+    "De maker van de software kon Huntress niet met zekerheid vaststellen; teksten in het programma wijzen naar een Koreaans bedrijf.",
+    "De aanvaller plaatste het echte Microsoft-programma WpcMon.exe met twee aangepaste DLL's in een gebruikersmap (DLL-sideloading).",
+    "Persistentie verliep via een Run-sleutel in het register; de DLL's maakten contact met één commandoserver.",
+    "Huntress noemt geen CVE en kon de oorzaak van de eerste inbraak niet vaststellen."
    ],
    "article_type": "nieuws",
    "showcase": {
-    "caption": "Zo ziet een brute force-aanval op een WordPress-site eruit in het log van de webserver. Eerst vraagt de aanvaller de lijst met auteurspagina's op. Daarna volgen snel achter elkaar inlogpogingen. Een 200 betekent dat de inlogpagina terugkwam (mislukt), de 302 is een doorverwijzing na een geslaagde inlog.",
-    "language": "log",
-    "code": "203.0.113.25 - - [12/Oct/2026:03:10:02 +0000] \"GET /author-sitemap.xml HTTP/1.1\" 200 1840\n203.0.113.25 - - [12/Oct/2026:03:11:40 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:42 +0000] \"POST /wp-login.php HTTP/1.1\" 302 0",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen tijden; het onderzoek geeft geen logregels."
+    "caption": "Zo kan de verdachte procesketen eruitzien in een overzicht van processen. Let op regel 3: WpcMon.exe hoort in C:\\Windows\\System32, niet in een gebruikersprofiel.",
+    "language": "text",
+    "code": "Ouderproces                                  > Kindproces\nC:\\Program Files (x86)\\CMS\\CMS.exe            > ...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe\n...\\AppData\\Roaming\\CMS\\RemoteSetup\\rs.win32.exe > C:\\Users\\<gebruiker>\\AppData\\Local\\Microsoft\\WpcMon\\WpcMon.exe",
+    "note": "Nagebouwd voorbeeld op basis van de paden in het artikel van Huntress; het echte overzicht staat daar."
    },
    "terms": [
     {
-     "term": "jailbreak",
-     "explanation": "Een truc om de veiligheidsregels van een AI-model te omzeilen, zodat het toch helpt bij iets wat het normaal weigert."
+     "term": "reverse shell",
+     "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren."
     },
     {
-     "term": "system prompt",
-     "explanation": "De basisinstructies die een AI-model vóór elk gesprek meekrijgt, bijvoorbeeld welke vragen het mag beantwoorden. Wie die kan overschrijven, kan het gedrag van het model veranderen."
+     "term": "DLL-sideloading",
+     "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
     },
     {
-     "term": "WAF",
-     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+     "term": "Run-sleutel",
+     "explanation": "Een plek in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
     },
     {
-     "term": "brute force",
-     "explanation": "Heel veel combinaties van gebruikersnaam en wachtwoord achter elkaar proberen tot er één werkt. Meestal geautomatiseerd met een script."
-    },
-    {
-     "term": "MongoDB",
-     "explanation": "Een veelgebruikte database die gegevens als documenten opslaat in plaats van in tabellen. Staat hij zonder goede beveiliging open, dan kan iedereen de gegevens uitlezen."
-    },
-    {
-     "term": "VoIP",
-     "explanation": "Voice over IP: bellen via internet in plaats van via het klassieke telefoonnet."
+     "term": "applicatiecontrole",
+     "explanation": "Beleid dat bepaalt welke programma's en bestanden op een computer mogen draaien; alles wat niet is toegestaan, wordt geblokkeerd."
     }
    ],
    "learning": "Aanvalstechnieken uitgelegd",
    "soort": "onderzoek",
    "fit": {
     "score": 0.55,
-    "why": "Nog geen duimpjes; een concreet voorbeeld van hoe aanvallers AI inzetten, met herkenbare aanvalsstappen."
+    "why": "Nog geen duimpjes; een concrete aanvalsketen met een duidelijk detectiesignaal."
    },
-   "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
+   "customer_questions": [
+    "Wie beheert bij jullie de software voor camera's en toegangscontrole, en valt die onder dezelfde patch- en scanprocessen?",
+    "Is die software bereikbaar vanaf internet?",
+    "Zou jullie EDR of SIEM het melden als een Windows-programma vanuit een gebruikersmap draait in plaats van uit system32?"
+   ],
+   "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
    "region": "world"
   },
   {
@@ -2844,6 +2764,100 @@
    "region": "world"
   },
   {
+   "id": "1204de495376",
+   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+   "source_id": "unit42",
+   "published_at": "2026-10-21T14:00:24Z",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Unit 42 volgde een crimineel die met een 'gekraakt' AI-model inbraken plande en tools liet bouwen. Bij een Indiase universiteit haalde hij met een zwak beheerderswachtwoord een database met studentgegevens leeg.",
+   "personal_relevance": "Klanten vragen vaak of AI aanvallers 'superkrachten' geeft. Dit voorbeeld laat zien dat AI vooral het werk versnelt, en dat basismaatregelen zoals sterke wachtwoorden en afgeschermde databases nog steeds het verschil maken.",
+   "limitations": [
+    "Unit 42 geeft geen data of tijdlijn van de aanvallen.",
+    "Of de geldige WordPress-inlog daarna is gebruikt, staat niet in het stuk.",
+    "Unit 42 is onderdeel van Palo Alto Networks en noemt eigen producten als bescherming."
+   ],
+   "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "incidents_breaches"
+   ],
+   "groups": [
+    "aanvallen",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.47,
+    "source": 0.8,
+    "quality": 0.67,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Crimineel laat AI-assistent hacks plannen en scripts schrijven",
+   "story": [
+    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een aanvaller met de schuilnaam BUGSTER. Hij is volgens Unit 42 uit op geld en richtte zich vooral op doelwitten in India. Hij gebruikte AI-assistenten om aanvallen te plannen en tools te schrijven. Bevestigd is een inbraak bij een Indiase openbare universiteit. Daar kwam hij binnen met een zwak wachtwoord van een beheerder en haalde hij een MongoDB-database leeg, met onder meer duizenden gegevens van studenten en docenten.",
+    "AI-modellen hebben veiligheidsregels: ze weigeren te helpen bij aanvallen. BUGSTER omzeilde dat met een jailbreak. Hij overschreef de basisinstructies van het model, de system prompt. Hij testte meerdere modellen en schreef zelfs een script dat bijhield welk model weigerde. Uiteindelijk koos hij DeepSeek V4, dat hij via Telegram aanstuurde. Code liet hij maken in de programmeeromgeving Cursor, waarbij een eigen script de ingebouwde controles uitschakelde.",
+    "Bij een andere universiteit liet hij zien hoe eenvoudig verkenning kan zijn. WordPress, een veelgebruikt systeem voor websites, toont bij berichten de naam van de auteur. De directe lijst met gebruikers werd geblokkeerd door een WAF. Maar via de auteursvelden en een lijst met auteurspagina's vond hij toch 13 actieve gebruikers met hun echte naam. Daarna probeerde een zelfgebouwde tool 117 gebruikersnamen met 28 veelgebruikte wachtwoorden: een brute force-aanval. Eén combinatie werd als geldig gemeld. Een andere tool zocht op websites naar uitgelekte geheimen, zoals cloudsleutels in configuratiebestanden.",
+    "Unit 42 noemt de tools eenvoudig. Het effect kwam vooral van basisfouten bij de slachtoffers: zwakke wachtwoorden, een database die bereikbaar was en uitgelekte sleutels. In de logs van een webserver valt zo'n aanval op als een reeks inlogpogingen op dezelfde inlogpagina, vanaf één adres. Plannen voor telefoonfraude via VoIP en het kraken van wifi waren volgens Unit 42 nog in voorbereiding of alleen ingeschat. De les: AI verlaagt de drempel voor minder ervaren criminelen, maar de verdediging blijft de basis."
+   ],
+   "key_facts": [
+    "Unit 42 publiceerde het onderzoek op 21 oktober 2026; de aanvaller gebruikt de naam BUGSTER en is volgens Unit 42 financieel gemotiveerd.",
+    "Bevestigd: een inbraak bij een Indiase openbare universiteit via een beheerdersaccount met een zwak wachtwoord, waarbij een MongoDB-database met gegevens van studenten en docenten werd leeggehaald.",
+    "De aanvaller gebruikte DeepSeek V4 via het Hermes Agent-framework en Telegram, en omzeilde de veiligheidsregels met een aangepaste system prompt; code liet hij schrijven in Cursor.",
+    "Bij een andere Indiase universiteit vond hij 13 actieve WordPress-gebruikers ondanks een WAF-blokkade, en meldde een brute-forcetool met 117 gebruikersnamen en 28 wachtwoorden één geldige inlog.",
+    "VoIP-fraude was volgens Unit 42 nog in de planningsfase; wifi-kraken en het in kaart brengen van cryptobezitters zijn inschattingen van Unit 42."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een brute force-aanval op een WordPress-site eruit in het log van de webserver. Eerst vraagt de aanvaller de lijst met auteurspagina's op. Daarna volgen snel achter elkaar inlogpogingen. Een 200 betekent dat de inlogpagina terugkwam (mislukt), de 302 is een doorverwijzing na een geslaagde inlog.",
+    "language": "log",
+    "code": "203.0.113.25 - - [12/Oct/2026:03:10:02 +0000] \"GET /author-sitemap.xml HTTP/1.1\" 200 1840\n203.0.113.25 - - [12/Oct/2026:03:11:40 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:42 +0000] \"POST /wp-login.php HTTP/1.1\" 302 0",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen tijden; het onderzoek geeft geen logregels."
+   },
+   "terms": [
+    {
+     "term": "jailbreak",
+     "explanation": "Een truc om de veiligheidsregels van een AI-model te omzeilen, zodat het toch helpt bij iets wat het normaal weigert."
+    },
+    {
+     "term": "system prompt",
+     "explanation": "De basisinstructies die een AI-model vóór elk gesprek meekrijgt, bijvoorbeeld welke vragen het mag beantwoorden. Wie die kan overschrijven, kan het gedrag van het model veranderen."
+    },
+    {
+     "term": "WAF",
+     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+     "term": "brute force",
+     "explanation": "Heel veel combinaties van gebruikersnaam en wachtwoord achter elkaar proberen tot er één werkt. Meestal geautomatiseerd met een script."
+    },
+    {
+     "term": "MongoDB",
+     "explanation": "Een veelgebruikte database die gegevens als documenten opslaat in plaats van in tabellen. Staat hij zonder goede beveiliging open, dan kan iedereen de gegevens uitlezen."
+    },
+    {
+     "term": "VoIP",
+     "explanation": "Voice over IP: bellen via internet in plaats van via het klassieke telefoonnet."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concreet voorbeeld van hoe aanvallers AI inzetten, met herkenbare aanvalsstappen."
+   },
+   "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
+   "region": "world"
+  },
+  {
    "id": "5c07cdbef377",
    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
@@ -2872,7 +2886,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.23,
+    "recency": 0.22,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -2970,7 +2984,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.98,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -5113,25 +5127,6 @@
  "runs": {
   "date": "2026-11-05",
   "tasks": {
-   "inhalen": {
-    "status": "ok",
-    "summary": "niets in te halen",
-    "finished_at": "2026-11-05T04:38:41Z",
-    "problems": [],
-    "counts": {
-     "ingehaald": 0
-    }
-   },
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Verdieping over CVE, CVSS, EPSS en KEV geschreven; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-05T02:54:12Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 1,
-     "keuzes": 5
-    }
-   },
    "uitleggen": {
     "status": "ok",
     "summary": "Vers opgehaald; 6 artikelen uitgelegd (5 van de werklijst en het LLMJacking-stuk van gisteren), 5 overgeslagen, waarvan 2 zonder openen.",
@@ -5148,6 +5143,15 @@
      "niet_te_lezen": 2
     }
    },
+   "inhalen": {
+    "status": "ok",
+    "summary": "niets in te halen",
+    "finished_at": "2026-11-05T04:38:41Z",
+    "problems": [],
+    "counts": {
+     "ingehaald": 0
+    }
+   },
    "overzicht": {
     "status": "ok",
     "summary": "3 trends: AI-agenten bij inbraken en misbruikte vpn- en randapparaten bijgewerkt, nieuw: MFA omzeild met gestolen sessies; geen verzoeken voor de interesses en geen stukken zonder begrippen.",
@@ -5157,6 +5161,16 @@
      "trends": 3,
      "interesses_aangepast": 0,
      "begrippen_aangevuld": 0
+    }
+   },
+   "verdiepen": {
+    "status": "ok",
+    "summary": "Verdieping over CVE, CVSS, EPSS en KEV geschreven; 5 nieuwe keuzes klaargezet.",
+    "finished_at": "2026-11-05T02:54:12Z",
+    "problems": [],
+    "counts": {
+     "verdiepingen": 1,
+     "keuzes": 5
     }
    }
   }
@@ -5181,15 +5195,15 @@
   "tomasr91"
  ],
  "quality_report": {
-  "fetched_items": 290,
-  "unique_after_dedupe": 245,
+  "fetched_items": 320,
+  "unique_after_dedupe": 306,
   "merged_duplicates": 1,
   "shown": 25,
   "decisions": {
-   "included": 105,
-   "below_threshold": 62,
-   "no_topic": 54,
-   "excluded": 24
+   "included": 138,
+   "below_threshold": 74,
+   "no_topic": 68,
+   "excluded": 26
   },
   "processing": {
    "enriched": 25
@@ -5237,6 +5251,13 @@
     "message": "9 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
    },
    {
+    "source_id": "the_hacker_news",
+    "items": 5,
+    "from": "2026-11-03T15:16:32Z",
+    "to": "2026-11-03T18:16:19Z",
+    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
     "source_id": "crowdstrike_blog",
     "items": 5,
     "from": "2026-11-03T08:00:00Z",
@@ -5255,7 +5276,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 142
+   "skipped_no_key": 187
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5276,12 +5297,14 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+    "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
-    "relevance_score": 88,
-    "decision": "included",
-    "excluded_by": []
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
@@ -5302,6 +5325,14 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
+    "relevance_score": 87,
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
@@ -5364,6 +5395,22 @@
     ]
    },
    {
+    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
@@ -5372,14 +5419,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
@@ -5406,10 +5445,146 @@
     "excluded_by": []
    },
    {
+    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -5419,7 +5594,7 @@
     "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
    },
@@ -5427,19 +5602,11 @@
     "title": "NCSC-2026-0447 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab door GitLab Inc.",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0447",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
@@ -5490,6 +5657,16 @@
     ]
    },
    {
+    "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
+    "relevance_score": 81,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
@@ -5509,6 +5686,22 @@
     "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960531/Ubuntu+dicht+APT-kwetsbaarheid+waardoor+aanvaller+root+kan+worden?channel=rss",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Zyxel dicht lek waardoor duizend netwerkswitches wereldwijd werden gehackt",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960466/Zyxel+dicht+lek+waardoor+duizend+netwerkswitches+wereldwijd+werden+gehackt?channel=rss",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
@@ -5606,180 +5799,6 @@
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
     "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
-    "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
-    "source_id": "watchtowr_labs",
-    "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
-    "relevance_score": 74,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
-    "source_id": "watchtowr_labs",
-    "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
-    "relevance_score": 74,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
-    "source_id": "watchtowr_labs",
-    "url": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
-    "relevance_score": 74,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0461 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0461",
-    "relevance_score": 74,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0453 [1.00] [M/H] Kwetsbaarheid in Google Brotli-decoder",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0453",
-    "relevance_score": 74,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "How to fix a bug in a fix",
-    "source_id": "project_zero",
-    "url": "https://projectzero.google/2026/10/emergency-patching.html",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0456 [1.00] [M/H] Kwetsbaarheden verholpen in Apple iOS en iPadOS",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0456",
-    "relevance_score": 73,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-    "source_id": "project_zero",
-    "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
-    "source_id": "google_threat_intel",
-    "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder",
-    "source_id": "datadog_security_labs",
-    "url": "https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Threat Hunting: What It Is, How It Works, & Why It Matters",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/what-is-threat-hunting",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Barracuda warns of critical flaws allowing root access to devices",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-    "relevance_score": 72,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility",
-    "source_id": "the_record",
-    "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-    "relevance_score": 72,
     "decision": "included",
     "excluded_by": []
    }

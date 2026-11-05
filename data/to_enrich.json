@@ -1,18 +1,45 @@
 {
- "generated_at": "2026-11-05T07:19:06.666441Z",
+ "generated_at": "2026-11-05T18:27:18.530819Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "d28d36f21992",
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "id": "8afc2fab5966",
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-03T18:16:19Z",
+   "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence"
+   ]
+  },
+  {
+   "id": "a702aadca31b",
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-05T12:58:32Z",
+   "excerpt": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "5853e49f7990",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-03T14:00:00Z",
-   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-   "preliminary_score": 72,
+   "published_at": "2026-11-05T16:12:46Z",
+   "excerpt": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+   "preliminary_score": 73,
    "preliminary_topics": [
-    "ransomware"
+    "incidents_breaches"
    ]
   },
   {
@@ -26,6 +53,32 @@
    "preliminary_score": 72,
    "preliminary_topics": [
     "incidents_breaches"
+   ]
+  },
+  {
+   "id": "350327fdd7cd",
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "source_id": "the_record",
+   "source_name": "The Record (Recorded Future News)",
+   "published_at": "2026-11-05T00:00:00Z",
+   "excerpt": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack.",
+   "preliminary_score": 72,
+   "preliminary_topics": [
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "d28d36f21992",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-03T14:00:00Z",
+   "excerpt": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "preliminary_score": 71,
+   "preliminary_topics": [
+    "ransomware"
    ]
   },
   {
@@ -79,60 +132,6 @@
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence"
-   ]
-  },
-  {
-   "id": "db0f58d20e74",
-   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-   "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-02T14:44:18Z",
-   "excerpt": "The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website. The post Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk appeared first on SecurityWeek .",
-   "preliminary_score": 69,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "3141a1ccfc4c",
-   "title": "Introducing ITDR Lookback: Find Out Who Was in Your Microsoft 365 Tenant Before You Were",
-   "url": "https://www.huntress.com/blog/managed-itdr-lookback-feature",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-20T13:00:00Z",
-   "excerpt": "Attackers may be in your tenant before you connect it. Huntress Managed ITDR Lookback reviews 180 days of Microsoft 365 logins & our SOC acts on active incidents.",
-   "preliminary_score": 66,
-   "preliminary_topics": [
-    "siem_detection",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "bf6b2f591ccd",
-   "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
-   "url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-10-16T23:00:00Z",
-   "excerpt": "ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.",
-   "preliminary_score": 65,
-   "preliminary_topics": [
-    "siem_detection",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "4962a3abb6aa",
-   "title": "Koelsystemen Duitse supermarkten getroffen door cyberaanval",
-   "url": "https://www.security.nl/posting/960235/Koelsystemen+Duitse+supermarkten+getroffen+door+cyberaanval?channel=rss",
-   "source_id": "security_nl",
-   "source_name": "Security.NL",
-   "published_at": "2026-11-03T14:18:41Z",
-   "excerpt": "Koelsystemen van meerdere Duitse supermarkten zijn getroffen door een cyberaanval, waarbij de temperatuur werd verhoogd. ...",
-   "preliminary_score": 63,
-   "preliminary_topics": [
-    "incidents_breaches"
    ]
   }
  ]

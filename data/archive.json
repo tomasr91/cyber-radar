@@ -1967,7 +1967,495 @@
    "published_raw": "Wed, 04 Nov 2026 08:27:05 +0000",
    "fetched_at": "2026-11-05T01:23:20.491689Z",
    "excerpt": "<p>A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.</p>\n<p>The post <a href=\"https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/\">Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "security_nl:2db467843754": {
+   "source_id": "security_nl",
+   "title": "Certificaatautoriteit DigiCert lekt id-bewijzen en gegevens van klanten",
+   "url": "https://www.security.nl/posting/960537/Certificaatautoriteit+DigiCert+lekt+id-bewijzen+en+gegevens+van+klanten?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 17:24:44 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Certificaatautoriteit DigiCert heeft identiteitsbewijzen en persoonlijke informatie van klanten gelekt. Dat heeft het bedrijf ..."
+  },
+  "security_nl:2cd728a5343b": {
+   "source_id": "security_nl",
+   "title": "OpenSSH waarschuwt voor kritiek lek waardoor authenticatie is te omzeilen",
+   "url": "https://www.security.nl/posting/960523/OpenSSH+waarschuwt+voor+kritiek+lek+waardoor+authenticatie+is+te+omzeilen?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 16:30:00 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "De makers van OpenSSH waarschuwen voor een kritieke kwetsbaarheid waardoor de authenticatie op bepaalde systemen is te ..."
+  },
+  "security_nl:694d3617d023": {
+   "source_id": "security_nl",
+   "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
+   "url": "https://www.security.nl/posting/960531/Ubuntu+dicht+APT-kwetsbaarheid+waardoor+aanvaller+root+kan+worden?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 16:20:00 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Ubuntu heeft updates uitgebracht voor een kwetsbaarheid in de APT package manager waardoor een aanvaller via een ..."
+  },
+  "security_nl:1869027fbd24": {
+   "source_id": "security_nl",
+   "title": "HomeBrew hekelt Google over malafide advertenties gebruikt bij Binance-hack",
+   "url": "https://www.security.nl/posting/960517/HomeBrew+hekelt+Google+over+malafide+advertenties+gebruikt+bij+Binance-hack?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 14:20:28 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "De makers van HomeBrew hebben uitgehaald naar Google, omdat het bedrijf niets doet tegen malafide advertenties, zoals gebruikt ..."
+  },
+  "security_nl:4c360ebb4cb1": {
+   "source_id": "security_nl",
+   "title": "Kamervragen over aanval op koelsystemen Franse bloedbank",
+   "url": "https://www.security.nl/posting/960510/Kamervragen+over+aanval+op+koelsystemen+Franse+bloedbank?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 13:29:00 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "In de Tweede Kamer zijn vragen gesteld aan minister Hermans van Volksgezondheid over de aanval op koelsystemen van de Franse ..."
+  },
+  "security_nl:2e06fe89d163": {
+   "source_id": "security_nl",
+   "title": "Chainalysis lekt wachtwoordhashes en persoonsgegevens van alle klanten",
+   "url": "https://www.security.nl/posting/960488/Chainalysis+lekt+wachtwoordhashes+en+persoonsgegevens+van+alle+klanten?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 12:34:39 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Blockchainanalysebedrijf Chainalysis heeft van alle klanten wachtwoordhashes, gebruikersnamen, live tokens en persoonsgegevens ..."
+  },
+  "security_nl:39878ea2e1a1": {
+   "source_id": "security_nl",
+   "title": "Politici en DuckDuckGo kritisch op Googles AI-beleid voor scholen",
+   "url": "https://www.security.nl/posting/960482/Politici+en+DuckDuckGo+kritisch+op+Googles+AI-beleid+voor+scholen?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 11:41:43 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Amerikaanse politici en zoekmachine DuckDuckGo hebben uitgehaald naar Google, omdat het techbedrijf scholen zou willen ..."
+  },
+  "security_nl:d23477db14fb": {
+   "source_id": "security_nl",
+   "title": "DreamHost meldt diefstal van webmail- en ftp-wachtwoorden bij aanval",
+   "url": "https://www.security.nl/posting/960474/DreamHost+meldt+diefstal+van+webmail-+en+ftp-wachtwoorden+bij+aanval?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 10:52:00 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Bij een aanval op hostingprovider DreamHost zijn ftp- en webmail-wachtwoorden van klanten gestolen. Op 23 oktober meldde ..."
+  },
+  "security_nl:357816635e1d": {
+   "source_id": "security_nl",
+   "title": "Beveiligingslek in Microsoft Paint maakt remote code execution mogelijk",
+   "url": "https://www.security.nl/posting/960470/Beveiligingslek+in+Microsoft+Paint+maakt+remote+code+execution+mogelijk?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 10:35:15 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Een beveiligingslek in Microsoft Paint maakt remote code execution mogelijk. Microsoft kondigde vorige maand een update aan, ..."
+  },
+  "security_nl:cb9bbf2c0952": {
+   "source_id": "security_nl",
+   "title": "Zyxel dicht lek waardoor duizend netwerkswitches wereldwijd werden gehackt",
+   "url": "https://www.security.nl/posting/960466/Zyxel+dicht+lek+waardoor+duizend+netwerkswitches+wereldwijd+werden+gehackt?channel=rss",
+   "published_raw": "Thu, 05 Nov 2026 09:40:00 +0100",
+   "fetched_at": "2026-11-05T18:27:18.591404Z",
+   "excerpt": "Zyxel heeft een update uitgebracht voor een kwetsbaarheid waardoor wereldwijd duizend netwerkswitches van de GS1900-serie ..."
+  },
+  "ncsc_nl_advisories:fdd87b2e38d6": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
+   "published_raw": "Thu, 05 Nov 2026 14:25:02 +0000",
+   "fetched_at": "2026-11-05T18:27:19.216215Z",
+   "excerpt": "Zyxel heeft een kwetsbaarheid verholpen in de firmware van de Zyxel GS1900-24E netwerk switch, specifiek in versie 2.90(AAHK.2)C0 en eerder. De kwetsbaarheid betreft een out-of-bounds write in het CGI-programma van de management-interface van het apparaat. Een niet-geauthenticeerde aanvaller met toegang tot de management-interface kan via speciaal vervaardigde HTTP-verzoeken commando's uitvoeren op het systeem. De fout ontstaat door onjuiste bounds checking in de CGI-component, wat kan leiden tot het uitvoeren van commando's. Volgens openbare nieuwsberichten zou de kwetsbaarheid actief als zero-day zijn misbruikt. Het NCSC heeft dit nog niet onafhankelijk kunnen verifiëren.\n\nHet is goed gebruik om managementinterfaces in een apart netwerk onder te brengen en deze niet rechtstreeks vanaf het internet bereikbaar te maken."
+  },
+  "ncsc_nl_advisories:261ad0779782": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
+   "published_raw": "Thu, 05 Nov 2026 12:26:42 +0000",
+   "fetched_at": "2026-11-05T18:27:19.216215Z",
+   "excerpt": "Google heeft kwetsbaarheden verholpen in Android.\n\nSamsung heeft de voor Samsung Mobile relevante kwetsbaarheden verholpen in hun producten. De ernstige kwetsbaarheden betreffen onder andere mogelijkheden voor het uitvoeren van willekeurige code op afstand (Remote Code Execution) en het verkrijgen van verhoogde systeemrechten (Privilege Escalation). Hierdoor kunnen aanvallers ongeautoriseerde toegang krijgen tot systeemonderdelen en de controle over het apparaat verkrijgen. Er zijn op dit moment geen berichten bekend over actief misbruik van deze kwetsbaarheden."
+  },
+  "microsoft_threat_intel:ae7b9ae3c82f": {
+   "source_id": "microsoft_threat_intel",
+   "title": "Email threat landscape: Q3 2026 trends and insights",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+   "published_raw": "Thu, 05 Nov 2026 16:00:00 +0000",
+   "fetched_at": "2026-11-05T18:27:24.403690Z",
+   "excerpt": "<p>Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/\">Email threat landscape: Q3 2026 trends and insights</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "crowdstrike_blog:09bd122a7bfa": {
+   "source_id": "crowdstrike_blog",
+   "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
+   "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
+   "published_raw": "Nov 05, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-05T18:27:25.161788Z",
+   "excerpt": ""
+  },
+  "bleepingcomputer:5977cc9f965b": {
+   "source_id": "bleepingcomputer",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "published_raw": "Thu, 05 Nov 2026 12:45:29 -0500",
+   "fetched_at": "2026-11-05T18:27:25.333201Z",
+   "excerpt": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]"
+  },
+  "bleepingcomputer:9dc905a90c35": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "published_raw": "Thu, 05 Nov 2026 11:24:26 -0500",
+   "fetched_at": "2026-11-05T18:27:25.333201Z",
+   "excerpt": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]"
+  },
+  "bleepingcomputer:5853e49f7990": {
+   "source_id": "bleepingcomputer",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "published_raw": "Thu, 05 Nov 2026 11:12:46 -0500",
+   "fetched_at": "2026-11-05T18:27:25.333201Z",
+   "excerpt": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]"
+  },
+  "bleepingcomputer:c9328f3234f4": {
+   "source_id": "bleepingcomputer",
+   "title": "Closing the Identity Gap at the Service Desk",
+   "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "published_raw": "Thu, 05 Nov 2026 10:00:10 -0500",
+   "fetched_at": "2026-11-05T18:27:25.333201Z",
+   "excerpt": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]"
+  },
+  "bleepingcomputer:f67df6b6c95c": {
+   "source_id": "bleepingcomputer",
+   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "published_raw": "Thu, 05 Nov 2026 04:18:29 -0500",
+   "fetched_at": "2026-11-05T18:27:25.333201Z",
+   "excerpt": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]"
+  },
+  "the_record:44c256844f1e": {
+   "source_id": "the_record",
+   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+   "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+   "published_raw": "Thu, 05 Nov 2026 17:00:00 GMT",
+   "fetched_at": "2026-11-05T18:27:25.503525Z",
+   "excerpt": "Russian state-linked hackers targeted users in Ukraine, the United States and Europe in a campaign to steal sensitive information from iPhone and Android devices, researchers found."
+  },
+  "the_record:350327fdd7cd": {
+   "source_id": "the_record",
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "published_raw": "Thu, 05 Nov 2026 00:00:00 GMT",
+   "fetched_at": "2026-11-05T18:27:25.503525Z",
+   "excerpt": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack."
+  },
+  "the_record:260025e601bb": {
+   "source_id": "the_record",
+   "title": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
+   "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+   "published_raw": "Thu, 05 Nov 2026 00:00:00 GMT",
+   "fetched_at": "2026-11-05T18:27:25.503525Z",
+   "excerpt": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations."
+  },
+  "the_hacker_news:59043a855535": {
+   "source_id": "the_hacker_news",
+   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "published_raw": "Thu, 05 Nov 2026 20:11:10 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a"
+  },
+  "the_hacker_news:5d4d03269391": {
+   "source_id": "the_hacker_news",
+   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+   "published_raw": "Thu, 05 Nov 2026 17:55:00 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates"
+  },
+  "the_hacker_news:25c3eda20cfe": {
+   "source_id": "the_hacker_news",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "published_raw": "Thu, 05 Nov 2026 17:38:54 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
+  },
+  "the_hacker_news:1981b067cd83": {
+   "source_id": "the_hacker_news",
+   "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+   "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+   "published_raw": "Thu, 05 Nov 2026 15:36:19 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five"
+  },
+  "the_hacker_news:96a1ace9f58c": {
+   "source_id": "the_hacker_news",
+   "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+   "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+   "published_raw": "Thu, 05 Nov 2026 14:43:28 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\"\n\nWhen users choose this option,"
+  },
+  "the_hacker_news:4f9bb7c1ff8e": {
+   "source_id": "the_hacker_news",
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "published_raw": "Thu, 05 Nov 2026 14:12:03 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools"
+  },
+  "the_hacker_news:a665869d02d2": {
+   "source_id": "the_hacker_news",
+   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "published_raw": "Thu, 05 Nov 2026 12:36:33 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.\n\nThe earlier fix is the 2.90"
+  },
+  "the_hacker_news:2a5b7d5a686a": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "published_raw": "Thu, 05 Nov 2026 10:47:04 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with"
+  },
+  "the_hacker_news:3632eace057e": {
+   "source_id": "the_hacker_news",
+   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "published_raw": "Wed, 04 Nov 2026 22:30:46 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and"
+  },
+  "the_hacker_news:1b9b96d402ef": {
+   "source_id": "the_hacker_news",
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "published_raw": "Wed, 04 Nov 2026 22:30:38 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,"
+  },
+  "the_hacker_news:78de6ffe4e2d": {
+   "source_id": "the_hacker_news",
+   "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+   "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+   "published_raw": "Wed, 04 Nov 2026 21:36:43 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration"
+  },
+  "the_hacker_news:5e99d13bfbb2": {
+   "source_id": "the_hacker_news",
+   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "published_raw": "Wed, 04 Nov 2026 19:57:52 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and"
+  },
+  "the_hacker_news:d013e25bf406": {
+   "source_id": "the_hacker_news",
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "published_raw": "Wed, 04 Nov 2026 17:37:04 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store"
+  },
+  "the_hacker_news:de8bbdd0e39a": {
+   "source_id": "the_hacker_news",
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "published_raw": "Wed, 04 Nov 2026 17:16:27 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,"
+  },
+  "the_hacker_news:ecf2013fdfbb": {
+   "source_id": "the_hacker_news",
+   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+   "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+   "published_raw": "Wed, 04 Nov 2026 17:04:20 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation"
+  },
+  "the_hacker_news:8384c224e801": {
+   "source_id": "the_hacker_news",
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "published_raw": "Wed, 04 Nov 2026 16:54:31 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).\n\nThe campaign, observed starting July 1, 2026, is assessed to have targeted organizations and"
+  },
+  "the_hacker_news:40a5a2749a72": {
+   "source_id": "the_hacker_news",
+   "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+   "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+   "published_raw": "Wed, 04 Nov 2026 13:47:11 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.\n\nThe Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the"
+  },
+  "the_hacker_news:32c90d2f0958": {
+   "source_id": "the_hacker_news",
+   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "published_raw": "Wed, 04 Nov 2026 13:16:15 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.\n\nAs of November 4, Google's bulletin did not report"
+  },
+  "the_hacker_news:349817163ae5": {
+   "source_id": "the_hacker_news",
+   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "published_raw": "Wed, 04 Nov 2026 11:13:11 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code"
+  },
+  "the_hacker_news:9ca07b46843b": {
+   "source_id": "the_hacker_news",
+   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+   "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "published_raw": "Wed, 04 Nov 2026 00:16:38 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.\n\nThe warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but"
+  },
+  "the_hacker_news:8afc2fab5966": {
+   "source_id": "the_hacker_news",
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "published_raw": "Tue, 03 Nov 2026 23:46:19 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week.\n\n\"An external attacker gained unauthorized access to part of"
+  },
+  "the_hacker_news:19a35a6714f9": {
+   "source_id": "the_hacker_news",
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "published_raw": "Tue, 03 Nov 2026 22:25:58 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.\n\n\"It was not a single isolated breach or a simple phishing incident,\""
+  },
+  "the_hacker_news:bc96c130a163": {
+   "source_id": "the_hacker_news",
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "published_raw": "Tue, 03 Nov 2026 21:29:19 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)"
+  },
+  "the_hacker_news:310fe7a6e4c3": {
+   "source_id": "the_hacker_news",
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "published_raw": "Tue, 03 Nov 2026 21:11:53 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code"
+  },
+  "the_hacker_news:63d055e30b47": {
+   "source_id": "the_hacker_news",
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "published_raw": "Tue, 03 Nov 2026 20:46:32 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. In a later disclosure, OPSSHIELD said about 2,950 customer servers ran the script,"
+  },
+  "the_hacker_news:77f64f32faf5": {
+   "source_id": "the_hacker_news",
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "published_raw": "Tue, 03 Nov 2026 16:53:53 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\n\nThe flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can"
+  },
+  "the_hacker_news:20c9c9965d29": {
+   "source_id": "the_hacker_news",
+   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+   "published_raw": "Tue, 03 Nov 2026 16:48:20 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues"
+  },
+  "the_hacker_news:3ce297811edf": {
+   "source_id": "the_hacker_news",
+   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "published_raw": "Tue, 03 Nov 2026 16:30:45 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.\n\n\"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher"
+  },
+  "the_hacker_news:07d9937fab38": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "published_raw": "Tue, 03 Nov 2026 14:01:48 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.\n\n\"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server"
+  },
+  "the_hacker_news:d108c8cad61e": {
+   "source_id": "the_hacker_news",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "published_raw": "Tue, 03 Nov 2026 13:13:07 +0530",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.\n\n\"These attacks aim to encrypt data and extort ransom,\" it said in a statement"
+  },
+  "securityweek:c3cd435ab23e": {
+   "source_id": "securityweek",
+   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+   "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+   "published_raw": "Thu, 05 Nov 2026 17:32:37 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/\">AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:371a04c9d1e9": {
+   "source_id": "securityweek",
+   "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+   "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+   "published_raw": "Thu, 05 Nov 2026 13:22:12 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit.</p>\n<p>The post <a href=\"https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/\">Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:a702aadca31b": {
+   "source_id": "securityweek",
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+   "published_raw": "Thu, 05 Nov 2026 12:58:32 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.</p>\n<p>The post <a href=\"https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/\">Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:fac858716141": {
+   "source_id": "securityweek",
+   "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+   "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+   "published_raw": "Thu, 05 Nov 2026 12:33:49 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/\">Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:1cffacdbcbc6": {
+   "source_id": "securityweek",
+   "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+   "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+   "published_raw": "Thu, 05 Nov 2026 11:15:00 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.</p>\n<p>The post <a href=\"https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/\">The Agent Smith Dilemma: Governing Agentic Identities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:ebf5d655fd2a": {
+   "source_id": "securityweek",
+   "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+   "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+   "published_raw": "Thu, 05 Nov 2026 11:00:00 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/\">CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:7e9b91d71c26": {
+   "source_id": "securityweek",
+   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+   "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+   "published_raw": "Thu, 05 Nov 2026 10:56:41 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.</p>\n<p>The post <a href=\"https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/\">Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:020b1bc4673d": {
+   "source_id": "securityweek",
+   "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+   "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+   "published_raw": "Thu, 05 Nov 2026 10:37:13 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.</p>\n<p>The post <a href=\"https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/\">Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:573e98113573": {
+   "source_id": "securityweek",
+   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+   "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+   "published_raw": "Thu, 05 Nov 2026 10:02:00 +0000",
+   "fetched_at": "2026-11-05T18:27:30.992161Z",
+   "excerpt": "<p>OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/\">OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-05T07:19:06.666441Z"
+ "updated_at": "2026-11-05T18:27:18.530819Z"
 }
