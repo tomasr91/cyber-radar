@@ -1,0 +1,11 @@
+{
+ "task": "inhalen",
+ "started_at": "2026-11-05T04:38:25Z",
+ "finished_at": "2026-11-05T04:38:41Z",
+ "status": "ok",
+ "summary": "niets in te halen",
+ "counts": {
+  "ingehaald": 0
+ },
+ "problems": []
+}
