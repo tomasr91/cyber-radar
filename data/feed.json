@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T01:42:06.594168Z",
+ "generated_at": "2026-11-05T01:42:53.860007Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-05T01:41:39Z",
- "last_successful_update": "2026-11-05T01:42:06.594168Z",
+ "last_article_added_at": "2026-11-05T01:42:22Z",
+ "last_successful_update": "2026-11-05T01:42:53.860007Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T01:42:06.641728Z"
+   "checked_at": "2026-11-05T01:42:53.918732Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T01:42:07.176583Z"
+   "checked_at": "2026-11-05T01:42:54.704556Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T01:42:07.737547Z"
+   "checked_at": "2026-11-05T01:42:55.668226Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T01:42:07.842135Z"
+   "checked_at": "2026-11-05T01:42:55.854265Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T01:42:08.646411Z"
+   "checked_at": "2026-11-05T01:42:57.125392Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T01:42:08.777431Z"
+   "checked_at": "2026-11-05T01:42:57.353272Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T01:42:08.857538Z"
+   "checked_at": "2026-11-05T01:42:57.462828Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T01:42:08.934665Z"
+   "checked_at": "2026-11-05T01:42:57.512798Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T01:42:09.099632Z"
+   "checked_at": "2026-11-05T01:42:57.967702Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T01:42:11.200456Z"
+   "checked_at": "2026-11-05T01:42:59.971755Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T01:42:11.687282Z"
+   "checked_at": "2026-11-05T01:42:59.998073Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T01:42:11.735625Z"
+   "checked_at": "2026-11-05T01:43:00.031332Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T01:42:11.944662Z"
+   "checked_at": "2026-11-05T01:43:00.075144Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T01:42:12.062625Z"
+   "checked_at": "2026-11-05T01:43:00.270721Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T01:42:12.110802Z"
+   "checked_at": "2026-11-05T01:43:00.339000Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T01:42:12.192616Z"
+   "checked_at": "2026-11-05T01:43:00.442907Z"
   },
   {
    "id": "securityweek",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T01:42:12.315188Z"
+   "checked_at": "2026-11-05T01:43:00.702598Z"
   }
  ],
  "daily_top": [
@@ -2938,6 +2938,108 @@
    "region": "world"
   },
   {
+   "id": "94ac3c3bdec2",
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T21:31:18Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "Vercel voert Device Bound Session Credentials (DBSC) in. Daarmee wordt een gestolen sessiecookie snel waardeloos, omdat alleen het echte apparaat hem kan vernieuwen.",
+   "personal_relevance": "Klanten die worstelen met accountovername na MFA vragen vaak wat er nog helpt. DBSC is een concreet antwoord om te noemen, met als kanttekening dat elke applicatie het zelf moet ondersteunen.",
+   "limitations": [
+    "BleepingComputer meldt dat DBSC al in Chrome op macOS werkt; Google schreef dat ondersteuning voor macOS in een volgende Chrome-versie komt.",
+    "Google meldt een flinke daling van sessiediefstal bij beschermde sessies, maar noemt geen cijfers.",
+    "Hoe DBSC omgaat met malware die op het apparaat zelf handelt tijdens een actieve sessie, beschrijft Google niet.",
+    "Het artikel bevat ook een productaankondiging van Vercel (Security Review); die is hier weggelaten."
+   ],
+   "official_docs": [
+    {
+     "label": "Google: Protecting cookies with Device Bound Session Credentials",
+     "url": "https://blog.google/security/protecting-cookies-with-device-bound-session-credentials/"
+    }
+   ],
+   "topics": [
+    "phishing_identity",
+    "web_software_security",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "web"
+   ],
+   "relevance_score": 83,
+   "score_parts": {
+    "topic": 0.85,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:42:22Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies",
+   "story": [
+    "Het ontwikkelplatform Vercel voert stap voor stap Device Bound Session Credentials (DBSC) in voor het inloggen op vercel.com. Dat meldde technisch directeur Malte Ubl. DBSC moet gestolen sessiecookies onbruikbaar maken. Het werkt nu in Chrome op Windows en macOS. Vercel had in april zelf een inbraak waarbij een deel van de klanten werd geraakt.",
+    "Hoe werkt inloggen op een website normaal? Na je wachtwoord en MFA geeft de site je browser een cookie als bewijs dat je bent ingelogd. Een infostealer is malware die zulke cookies van je pc kopieert. De aanvaller zet ze in zijn eigen browser en is dan ingelogd als jou, zonder wachtwoord of MFA. Volgens Google is dat met software alleen niet goed te voorkomen: malware op je pc kan de bestanden en het geheugen van de browser lezen.",
+    "DBSC koppelt de sessie aan je apparaat. Bij het inloggen maakt de browser een sleutelpaar. Het geheime deel blijft in de beveiligingschip van je computer: de TPM op Windows of de Secure Enclave op een Mac. Het kan daar niet uit, ook niet door malware. De site geeft alleen cookies uit die snel verlopen. Voor een nieuwe moet de browser met de geheime sleutel bewijzen dat hij het echte apparaat is. Een gestolen cookie verloopt dus snel, en de dief kan hem niet vernieuwen.",
+    "Er zijn grenzen. Een website moet DBSC zelf inbouwen, anders helpt het niet. Apparaten zonder beveiligingschip vallen er nog buiten. En of DBSC beschermt tegen malware die meekijkt terwijl je op je eigen pc bent ingelogd, beschrijft Google niet. DBSC is een open standaard bij het W3C, ontwikkeld door Google samen met Microsoft.",
+    "Voor organisaties is dit een ontwikkeling om te volgen. Gestolen sessies zijn een belangrijke manier om MFA te omzeilen. Wie webapplicaties bouwt of inkoopt, kan vragen of ze DBSC ondersteunen. In de logs blijft het signaal hetzelfde: een sessie die ineens vanaf een ander apparaat of adres wordt gebruikt."
+   ],
+   "key_facts": [
+    "Vercel voert DBSC geleidelijk in voor logins op vercel.com; technisch directeur Malte Ubl maakte dat bekend op X.",
+    "Volgens BleepingComputer werkt DBSC nu in Chrome op Windows en macOS; de uitrol gaat geleidelijk vanwege randgevallen met OAuth-apps.",
+    "De geheime sleutel staat in de TPM (Windows) of de Secure Enclave (macOS) en kan volgens Google niet van het apparaat worden gehaald.",
+    "Volgens Google geeft de server alleen kortlevende sessiecookies uit nadat de browser bewijst dat hij de geheime sleutel heeft.",
+    "Google kondigde DBSC aan in april 2024; het is een open W3C-standaard, ontwikkeld met Microsoft, en publiek beschikbaar in Chrome 146 voor Windows.",
+    "Vercel voert voor zijn eigen opdrachtregeltool (Vercel CLI) een vergelijkbare techniek in, DPoP."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt het vernieuwen van een sessie met DBSC, sterk vereenvoudigd. De browser stuurt het bijna verlopen cookie mee met een bewijs dat met de geheime sleutel uit de beveiligingschip is ondertekend. Alleen dan krijgt hij een nieuw cookie dat weer maar kort geldig is.",
+    "language": "http",
+    "code": "POST /sessie/vernieuwen HTTP/1.1\nHost: example.com\nCookie: sessie=kortlevend-oud\n<bewijs: ondertekend met de geheime sleutel uit de TPM>\n\nHTTP/1.1 200 OK\nSet-Cookie: sessie=kortlevend-nieuw; Max-Age=600; Secure; HttpOnly",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld; pad en vorm van het bewijs zijn verzonnen. De echte velden staan in de DBSC-specificatie."
+   },
+   "terms": [
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "infostealer",
+     "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "sleutelpaar",
+     "explanation": "Twee bij elkaar horende sleutels: een geheime om mee te ondertekenen en een openbare waarmee een ander kan controleren dat de handtekening echt is."
+    },
+    {
+     "term": "TPM",
+     "explanation": "Trusted Platform Module: een beveiligingschip in de computer die sleutels bewaart en gebruikt, zonder ze ooit naar buiten te geven."
+    },
+    {
+     "term": "W3C",
+     "explanation": "Het internationale consortium dat de standaarden voor het web vastlegt, zodat browsers en websites op dezelfde manier werken."
+    }
+   ],
+   "learning": "Webtechnologie en softwarebeveiliging",
+   "soort": "achtergrond",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; sluit aan bij het eerdere stuk over gestolen inlogtokens en legt een nieuwe verdediging uit."
+   },
+   "takeaway": "Een sessiecookie is een toegangsbewijs dat wie het kopieert kan gebruiken. DBSC maakt dat bewijs kortlevend en laat het alleen vernieuwen door een sleutel die de beveiligingschip van je apparaat nooit verlaat.",
+   "region": "world"
+  },
+  {
    "id": "892b2bea5cd6",
    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
@@ -3388,6 +3490,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    },
+    {
+     "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
     }
@@ -3632,6 +3739,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    },
+    {
+     "kind": "a",
      "id": "6852a83cc063",
      "title": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando"
     }
@@ -3805,6 +3917,11 @@
    "term": "MFA",
    "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    },
     {
      "kind": "a",
      "id": "4d33a21d5cc6",
@@ -4188,6 +4305,17 @@
    ]
   },
   {
+   "term": "sleutelpaar",
+   "explanation": "Twee bij elkaar horende sleutels: een geheime om mee te ondertekenen en een openbare waarmee een ander kan controleren dat de handtekening echt is.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    }
+   ]
+  },
+  {
    "term": "social engineering",
    "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega.",
    "refs": [
@@ -4297,6 +4425,17 @@
    ]
   },
   {
+   "term": "TPM",
+   "explanation": "Trusted Platform Module: een beveiligingschip in de computer die sleutels bewaart en gebruikt, zonder ze ooit naar buiten te geven.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    }
+   ]
+  },
+  {
    "term": "tunneltool",
    "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken.",
    "refs": [
@@ -4359,6 +4498,17 @@
      "kind": "a",
      "id": "1204de495376",
      "title": "Crimineel laat AI-assistent hacks plannen en scripts schrijven"
+    }
+   ]
+  },
+  {
+   "term": "W3C",
+   "explanation": "Het internationale consortium dat de standaarden voor het web vastlegt, zodat browsers en websites op dezelfde manier werken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "94ac3c3bdec2",
+     "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
     }
    ]
   },
@@ -4619,57 +4769,22 @@
  "interest_suggestions": [],
  "interest_log": [],
  "runs": {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "tasks": {
    "uitleggen": {
-    "status": "deels",
-    "summary": "10 artikelen uitgelegd en 5 overgeslagen, op basis van de werklijst van gisteren omdat vers ophalen mislukte.",
-    "finished_at": "2026-11-04T01:50:30Z",
-    "problems": [
-     "Vers ophalen aangevraagd, maar de workflow 'Radar bijwerken' stopte bij de stap Tests: test_feed_contract faalt omdat artikel 5ab695849a1f (DIVD) in data/feed.json een relatieve url heeft (/newsroom/articles/when-no-if/). Dit zit in de pipeline of feed en valt buiten wat deze taak mag aanpassen.",
-     "Daardoor is de werklijst van 3 november gebruikt; nieuwe artikelen van vannacht zijn niet opgehaald."
-    ],
-    "counts": {
-     "uitgelegd": 10,
-     "overgeslagen": 5
-    }
-   },
-   "verdiepen": {
     "status": "ok",
-    "summary": "Geen verdieping geschreven omdat er gisteren niets was gekozen; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-04T02:24:10Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 0,
-     "keuzes": 5
-    }
-   },
-   "inhalen": {
-    "status": "deels",
-    "summary": "Uitleggen kon niet worden ingehaald: de werklijst van gisteren is al helemaal verwerkt en vers ophalen blijft geblokkeerd door een falende test.",
-    "finished_at": "2026-11-04T04:38:48Z",
+    "summary": "Vers opgehaald; 6 artikelen uitgelegd (5 van de werklijst en het LLMJacking-stuk van gisteren), 5 overgeslagen, waarvan 2 zonder openen.",
+    "finished_at": "2026-11-05T01:42:36Z",
     "problems": [
-     "Alle runs van 'Radar bijwerken' vannacht (ook na 03:24 UTC) stoppen bij de stap Tests: test_feed_contract faalt omdat artikel 5ab695849a1f (DIVD) in data/feed.json de relatieve url /newsroom/articles/when-no-if/ heeft. De tests draaien vóór het ophalen, dus er komt geen nieuwe feed en de app wordt niet bijgewerkt.",
-     "Oplossen kan alleen in pipeline/ of data/feed.json (bijv. relatieve links omzetten naar volledige https-links); die bestanden mag deze taak niet aanpassen.",
-     "Alle 15 artikelen van de werklijst van 3 november hebben al een uitleg of overslagbestand, en data/to_tag.json is leeg."
+     "Het artikel van BleepingComputer over de NIKKE-launcher gaf een serverfout (komt over een week terug).",
+     "Het AI Threat Tracker-rapport van Google kon niet worden verwerkt (komt over een week terug).",
+     "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden."
     ],
     "counts": {
-     "ingehaald": 0,
-     "uitgelegd": 0,
-     "overgeslagen": 0
-    }
-   },
-   "overzicht": {
-    "status": "ok",
-    "summary": "2 trends bijgewerkt (AI-agenten bij inbraken en misbruikte vpn- en randapparaten); geen verzoeken voor de interesses en geen stukken zonder begrippen.",
-    "finished_at": "2026-11-04T03:24:21Z",
-    "problems": [
-     "data/feed.json is van 3 november, omdat het vers ophalen vannacht mislukte; de trends gebruiken ook de 10 uitlegbestanden van vannacht, die in de app verschijnen zodra de feed weer wordt gebouwd."
-    ],
-    "counts": {
-     "trends": 2,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
+     "uitgelegd": 6,
+     "overgeslagen": 5,
+     "overgeslagen_zonder_openen": 2,
+     "niet_te_lezen": 2
     }
    }
   }
@@ -4697,7 +4812,7 @@
   "fetched_items": 290,
   "unique_after_dedupe": 245,
   "merged_duplicates": 1,
-  "shown": 24,
+  "shown": 25,
   "decisions": {
    "included": 105,
    "below_threshold": 62,
@@ -4705,13 +4820,13 @@
    "excluded": 24
   },
   "processing": {
-   "enriched": 24
+   "enriched": 25
   },
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
    "detectie": 3,
-   "aanvallen": 6,
+   "aanvallen": 7,
    "incidenten": 4,
    "ti": 4,
    "vm": 1
@@ -4723,7 +4838,7 @@
    "divd": 1,
    "cisco_talos": 3,
    "microsoft_threat_intel": 3,
-   "bleepingcomputer": 2,
+   "bleepingcomputer": 3,
    "huntress_blog": 3,
    "watchtowr_labs": 1
   },
@@ -4768,7 +4883,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 143
+   "skipped_no_key": 142
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5225,14 +5340,6 @@
     ]
    },
    {
-    "title": "Vercel rolls out new protection against stolen session cookie attacks",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-    "relevance_score": 73,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -5292,6 +5399,14 @@
     "title": "Barracuda warns of critical flaws allowing root access to devices",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+    "relevance_score": 72,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
     "relevance_score": 72,
     "decision": "included",
     "excluded_by": []
