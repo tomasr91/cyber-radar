@@ -2575,7 +2575,23 @@
    "published_raw": "Fri, 06 Nov 2026 03:03:29 +0000",
    "fetched_at": "2026-11-06T03:24:14.202233Z",
    "excerpt": "<p>The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. </p>\n<p>The post <a href=\"https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/\">3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "the_hacker_news:ed60ea7fa412": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "published_raw": "Fri, 06 Nov 2026 11:28:54 +0530",
+   "fetched_at": "2026-11-06T07:19:04.207644Z",
+   "excerpt": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server."
+  },
+  "the_hacker_news:a382c3d13c65": {
+   "source_id": "the_hacker_news",
+   "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+   "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+   "published_raw": "Fri, 06 Nov 2026 11:09:10 +0530",
+   "fetched_at": "2026-11-06T07:19:04.207644Z",
+   "excerpt": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a"
   }
  },
- "updated_at": "2026-11-06T04:38:25.115026Z"
+ "updated_at": "2026-11-06T07:18:56.849236Z"
 }

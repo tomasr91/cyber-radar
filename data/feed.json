@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T04:38:25.115026Z",
+ "generated_at": "2026-11-06T07:18:56.849236Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-06T04:38:25.115026Z",
+ "last_successful_update": "2026-11-06T07:18:56.849236Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T04:38:25.162042Z"
+   "checked_at": "2026-11-06T07:18:56.882081Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T04:38:25.968711Z"
+   "checked_at": "2026-11-06T07:18:57.622502Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T04:38:26.938344Z"
+   "checked_at": "2026-11-06T07:18:59.030300Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T04:38:27.343249Z"
+   "checked_at": "2026-11-06T07:18:59.270455Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T04:38:28.746822Z"
+   "checked_at": "2026-11-06T07:19:00.380899Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T04:38:28.879856Z"
+   "checked_at": "2026-11-06T07:19:00.478086Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T04:38:29.001143Z"
+   "checked_at": "2026-11-06T07:19:00.610617Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T04:38:29.152354Z"
+   "checked_at": "2026-11-06T07:19:00.773992Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T04:38:29.573328Z"
+   "checked_at": "2026-11-06T07:19:01.119281Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T04:38:31.179283Z"
+   "checked_at": "2026-11-06T07:19:02.701213Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T04:38:31.300380Z"
+   "checked_at": "2026-11-06T07:19:03.063432Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T04:38:31.403169Z"
+   "checked_at": "2026-11-06T07:19:03.191504Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T04:38:31.629524Z"
+   "checked_at": "2026-11-06T07:19:03.280105Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T04:38:31.876623Z"
+   "checked_at": "2026-11-06T07:19:03.602911Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T04:38:31.997293Z"
+   "checked_at": "2026-11-06T07:19:03.759973Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T04:38:32.082547Z"
+   "checked_at": "2026-11-06T07:19:03.931332Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T04:38:32.362737Z"
+   "checked_at": "2026-11-06T07:19:04.207644Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T04:38:32.597529Z"
+   "checked_at": "2026-11-06T07:19:04.348152Z"
   }
  ],
  "daily_top": [
@@ -430,7 +430,7 @@
    "relevance_score": 94,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.83,
+    "recency": 0.82,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -755,7 +755,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -1122,149 +1122,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "30b15a7c5706",
-   "title": "Shutting the Door on the XCPE Botnet",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
-   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
-   "limitations": [
-    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
-    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
-    "Een reactie van Videostrong staat niet in de bron.",
-    "De precieze datum van de actie en de rechtbank worden niet genoemd."
-   ],
-   "official_docs": [
-    {
-     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
-     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
-    }
-   ],
-   "topics": [
-    "threat_intelligence",
-    "supply_chain",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 90,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.84,
-    "source": 0.8,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:37:00Z",
-   "reading_minutes": 5,
-   "format_version": 2,
-   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
-   "story": [
-    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
-    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
-   ],
-   "key_facts": [
-    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
-    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
-    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
-    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
-    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
-    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "botnet",
-     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
-    },
-    {
-     "term": "firmware",
-     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "residential proxy",
-     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
-    },
-    {
-     "term": "C2",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "IOC's",
-     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
-   },
-   "sections": [
-    {
-     "heading": "Wat is de technologie?",
-     "paragraphs": [
-      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
-      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
-     ]
-    },
-    {
-     "heading": "Wat gaat er technisch fout?",
-     "paragraphs": [
-      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
-      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
-     ]
-    },
-    {
-     "heading": "Hoe kan een aanvaller dit misbruiken?",
-     "paragraphs": [
-      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
-      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
-      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
-     ]
-    },
-    {
-     "heading": "Wat is de mogelijke impact?",
-     "paragraphs": [
-      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
-      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
-     ]
-    },
-    {
-     "heading": "Hoe zie je dit?",
-     "paragraphs": [
-      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
-      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
-     ]
-    },
-    {
-     "heading": "Hoe voorkom je dit?",
-     "paragraphs": [
-      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
-      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
-     ]
-    }
-   ],
-   "customer_questions": [
-    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
-    "Staan die apparaten in een apart netwerksegment?",
-    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
-   ],
-   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
-   "region": "world"
-  },
-  {
    "id": "7b72d51a9df2",
    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -1415,101 +1272,146 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "842bc764ab47",
-   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-   "source_id": "securityweek",
-   "published_at": "2026-11-04T10:36:32Z",
-   "fetched_at": "2026-11-05T01:23:20.491689Z",
-   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
-   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
+   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
    "limitations": [
-    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
-    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
-    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
-    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
+    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
+    "Een reactie van Videostrong staat niet in de bron.",
+    "De precieze datum van de actie en de rechtbank worden niet genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
    ],
    "topics": [
-    "incidents_breaches",
     "threat_intelligence",
-    "phishing_identity",
+    "supply_chain",
     "malware"
    ],
    "groups": [
-    "incidenten",
     "ti",
+    "web",
     "aanvallen"
    ],
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.92,
-    "source": 0.51,
-    "quality": 0.73,
+    "recency": 0.83,
+    "source": 0.8,
+    "quality": 0.7,
     "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 4,
+   "processed_at": "2026-11-03T21:37:00Z",
+   "reading_minutes": 5,
    "format_version": 2,
-   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
    "story": [
-    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
-    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
-    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
-    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
-    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
+    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
    ],
    "key_facts": [
-    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
-    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
-    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
-    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
-    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
-    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
-    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
+    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
+    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
+    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
+    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
+    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
    ],
    "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
-    "language": "log",
-    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
-   },
    "terms": [
     {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+     "term": "botnet",
+     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
     },
     {
-     "term": "zero-day",
-     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+     "term": "firmware",
+     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
     },
     {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
     },
     {
-     "term": "containers",
-     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+     "term": "residential proxy",
+     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
     },
     {
-     "term": "hot wallet",
-     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
     },
     {
-     "term": "smart contract",
-     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
     }
    ],
-   "soort": "incident",
+   "soort": "onderzoek",
    "fit": {
     "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
    },
-   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
+    "Staan die apparaten in een apart netwerksegment?",
+    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
+   ],
+   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
    "region": "world"
   },
   {
@@ -1542,7 +1444,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.47,
+    "recency": 0.46,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -1644,7 +1546,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -1713,6 +1615,104 @@
    "region": "world"
   },
   {
+   "id": "842bc764ab47",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-04T10:36:32Z",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+   "limitations": [
+    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
+    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
+    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
+    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.91,
+    "source": 0.51,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+   "story": [
+    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
+    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
+    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
+    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
+    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+   ],
+   "key_facts": [
+    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
+    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
+    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
+    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
+    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
+    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
+    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
+    "language": "log",
+    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
+   },
+   "terms": [
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "containers",
+     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+    },
+    {
+     "term": "hot wallet",
+     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+    },
+    {
+     "term": "smart contract",
+     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+   },
+   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
+   "region": "world"
+  },
+  {
    "id": "201b2063f67c",
    "title": "mSecure password manager hack prompts password reset warnings",
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
@@ -1738,7 +1738,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -2116,7 +2116,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.45,
+    "recency": 0.44,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -2312,7 +2312,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.68,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -3275,7 +3275,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -3374,7 +3374,7 @@
    "relevance_score": 81,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.16,
+    "recency": 0.15,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -5639,11 +5639,11 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 321,
+  "unique_after_dedupe": 323,
   "merged_duplicates": 1,
   "shown": 28,
   "decisions": {
-   "included": 141,
+   "included": 143,
    "below_threshold": 78,
    "no_topic": 76,
    "excluded": 26
@@ -5666,8 +5666,8 @@
    "google_threat_intel": 5,
    "divd": 1,
    "cisco_talos": 3,
-   "securityweek": 1,
    "microsoft_threat_intel": 3,
+   "securityweek": 1,
    "bleepingcomputer": 4,
    "the_record": 1,
    "huntress_blog": 3,
@@ -5721,7 +5721,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 191
+   "skipped_no_key": 193
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5742,16 +5742,6 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
@@ -5765,6 +5755,16 @@
     "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
     "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
@@ -5846,6 +5846,14 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
@@ -6235,14 +6243,6 @@
     "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-    "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []

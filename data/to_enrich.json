@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T04:38:25.115026Z",
+ "generated_at": "2026-11-06T07:18:56.849236Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -29,6 +29,21 @@
     "incidents_breaches",
     "threat_intelligence",
     "web_software_security"
+   ]
+  },
+  {
+   "id": "ed60ea7fa412",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-06T05:58:54Z",
+   "excerpt": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "siem_detection",
+    "web_software_security",
+    "malware"
    ]
   },
   {
@@ -134,22 +149,6 @@
     "vulnerabilities_cve",
     "vulnerability_management",
     "edge_devices"
-   ]
-  },
-  {
-   "id": "5e99d13bfbb2",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T14:27:52Z",
-   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "web_software_security",
-    "supply_chain"
    ]
   }
  ]
