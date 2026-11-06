@@ -1,0 +1,17 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-06T01:23:01Z",
+  "finished_at": "2026-11-06T01:34:50Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 3 artikelen uitgelegd (Binance, Chainalysis, DreamHost), 7 overgeslagen, waarvan 3 zonder openen en 2 niet te lezen.",
+  "counts": {
+    "uitgelegd": 3,
+    "overgeslagen": 7,
+    "overgeslagen_zonder_openen": 3,
+    "niet_te_lezen": 2
+  },
+  "problems": [
+    "Twee artikelen van BleepingComputer (DigiCert-datalek en 3AM-ransomware bij een Britse scholengroep) gaven steeds een foutmelding; ze komen over een week terug.",
+    "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden."
+  ]
+}
