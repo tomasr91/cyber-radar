@@ -1,0 +1,6 @@
+{
+  "article_id": "8afc2fab5966",
+  "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+  "reason": "Zelfde ontwikkeling als de AI-ondersteunde ARTEX-campagne (uitgelegd in 8b5f34b85bf1 en 62c945c0e6fb). Chainstack geeft zelf geen details over de aanval: alleen dat de aanvaller op 26 oktober via een component van een derde partij in een ontwikkelomgeving binnenkwam en daarna delen van productie bereikte. Te weinig nieuwe technische inhoud.",
+  "checked_at": "2026-11-06T01:34:27Z"
+}

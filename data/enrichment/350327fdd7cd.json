@@ -1,0 +1,85 @@
+{
+ "format_version": 2,
+ "article_id": "350327fdd7cd",
+ "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+ "headline": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens",
+ "summary": "Het blockchain-analysebedrijf Chainalysis meldt nu dat van alle gebruikers namen, wachtwoord-hashes en actieve tokens zijn blootgesteld. Iedereen moet zijn wachtwoord resetten en API-sleutels vervangen.",
+ "story": [
+  "Chainalysis maakt software waarmee opsporingsdiensten en bedrijven geldstromen op blockchains volgen. Volgens de website heeft het meer dan 1.500 klanten, ook in de opsporings- en veiligheidssector. Op 30 oktober meldde het bedrijf een inbraak, maar zonder bewijs dat inloggegevens waren ingezien. Op woensdagavond 4 november kwam een update: van alle gebruikers zijn namen, gebruikersnamen, wachtwoord-hashes en actieve tokens blootgesteld.",
+  "Een goede dienst bewaart je wachtwoord niet zelf, maar een hash: een soort vingerafdruk waaruit je het wachtwoord niet direct terugrekent. Bij het inloggen maakt de dienst opnieuw de hash en vergelijkt die. Met gestolen hashes kan een aanvaller wel gaan offline kraken: miljoenen wachtwoorden proberen tot er één dezelfde hash geeft. Hoe snel dat gaat, hangt af van de methode, en die noemt Chainalysis niet. Een actief token is nog gevaarlijker: daarmee ben je al ingelogd, zonder wachtwoord.",
+  "Voor een deel van de klanten spreekt Chainalysis van een on-path attack. Daarbij zit een aanvaller tussen de gebruiker en de dienst en kan hij het verkeer onderscheppen. Hoe dat hier gebeurde, is niet bekend. Het bedrijf zegt ook dat een externe partij 'offensive agentic techniques' gebruikte, maar legt niet uit wat dat betekent. Het zegt niet dat een AI-agent de inbraak zelfstandig uitvoerde.",
+  "Chainalysis haalde de inlogpagina en meerdere producten offline, waaronder het onderzoeksprogramma Reactor en de screeningdienst KYT. In KYT was verdachte toegang tot sommige accounts te zien. Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels vervangen. Het bedrijf raadt aan de inlogpagina zelf te openen en niet via een link in een resetmail. Dat is verstandig, want na zo'n lek volgen vaak phishingmails die op zo'n resetmail lijken.",
+  "Voor organisaties die zulke diensten gebruiken, gaat het om meer dan wachtwoorden. Ook API-sleutels die in eigen systemen zijn ingebouwd, moeten worden vervangen. In een SIEM kun je zoeken naar inlogpogingen of API-gebruik vanaf onbekende adressen sinds eind oktober. Chainalysis wil sommige diensten weer opstarten met een allowlist: alleen vertrouwde IP-adressen mogen dan verbinden."
+ ],
+ "key_facts": [
+  "Chainalysis meldde op 30 oktober 2026 een inbraak en zei toen geen bewijs te hebben dat authenticatiegegevens of sessietokens waren benaderd.",
+  "In een update op woensdagavond 4 november 2026 meldde Chainalysis dat van alle gebruikers namen, gebruikersnamen, wachtwoord-hashes en actieve tokens zijn blootgesteld.",
+  "Chainalysis heeft volgens de eigen website meer dan 1.500 klanten, onder meer in de opsporings- en veiligheidssector.",
+  "Chainalysis noemt 'offensive agentic techniques' en voor een deel van de klanten een on-path attack, die volgens het bedrijf is ingeperkt.",
+  "KYT, andere adresscreeningproducten en de inlogpagina gingen offline; Reactor en Data Solutions waren al eerder offline gehaald.",
+  "Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels roteren; KYT en Address Screening zouden terugkomen met een allowlist van vertrouwde IP-adressen."
+ ],
+ "limitations": [
+  "Hoe de wachtwoorden gehasht waren en wat 'live tokens' precies zijn, heeft Chainalysis niet gezegd.",
+  "Wat 'offensive agentic techniques' inhoudt en hoe de on-path attack werkte, is niet uitgelegd.",
+  "Niet bevestigd is of de onderschepping, het lek van hashes en tokens en de verdachte accounttoegang door dezelfde aanvaller zijn gedaan.",
+  "Een aanvaller is niet geïdentificeerd; de bron legt geen verband met andere AI-ondersteunde inbraken van de afgelopen weken."
+ ],
+ "personal_relevance": "Na zo'n melding vragen klanten vaak wat ze nu moeten doen. Dit artikel helpt uitleggen waarom ook tokens en API-sleutels vervangen moeten worden, en niet alleen wachtwoorden.",
+ "takeaway": "Een gelekte wachtwoord-hash is pas gevaarlijk na offline kraken, maar een gelekt actief token geeft direct toegang. Daarom moeten na een lek ook sessies, tokens en API-sleutels ongeldig worden gemaakt.",
+ "region": "na",
+ "official_docs": [],
+ "topics": [
+  "incidents_breaches",
+  "phishing_identity"
+ ],
+ "quality": {
+  "depth": 0.5,
+  "practicality": 0.7,
+  "novelty": 0.5
+ },
+ "development_key": "hack-chainalysis-okt-2026",
+ "soort": "incident",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; een incident met een duidelijke les over hashes en tokens."
+ },
+ "showcase": {
+  "caption": "Zo werkt het opslaan van een wachtwoord als hash. De dienst bewaart alleen de laatste regel; bij het inloggen rekent hij opnieuw en vergelijkt. Een aanvaller met die regel moet raden welk wachtwoord dezelfde uitkomst geeft.",
+  "language": "text",
+  "code": "Wachtwoord bij aanmelden:  Zomer2026!\nWat de dienst opslaat:     $argon2id$v=19$m=65536,t=3,p=4$<salt>$<hash>\n\nBij inloggen:   hash(ingevoerd wachtwoord + salt) == opgeslagen hash ?  -> ja: binnen\nNa een lek:     aanvaller probeert offline lijsten met wachtwoorden tot de uitkomst gelijk is\nActief token:   geen raden nodig, het token zelf is het toegangsbewijs",
+  "note": "Nagebouwd voorbeeld. Chainalysis zegt niet welke hashmethode het gebruikte; Argon2id is hier alleen als voorbeeld van een moderne, trage methode gekozen."
+ },
+ "terms": [
+  {
+   "term": "hash",
+   "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+  },
+  {
+   "term": "offline kraken",
+   "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+  },
+  {
+   "term": "token",
+   "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+  },
+  {
+   "term": "on-path attack",
+   "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd."
+  },
+  {
+   "term": "API-sleutels",
+   "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+  },
+  {
+   "term": "allowlist",
+   "explanation": "Een lijst van wat expliciet is toegestaan, bijvoorbeeld bepaalde IP-adressen. Alles wat niet op de lijst staat, wordt geweigerd."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-06T01:34:10Z",
+ "prompt_version": "cyber-taak-v1"
+}

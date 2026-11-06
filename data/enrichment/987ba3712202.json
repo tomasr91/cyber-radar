@@ -1,0 +1,86 @@
+{
+ "format_version": 2,
+ "article_id": "987ba3712202",
+ "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+ "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
+ "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
+ "story": [
+  "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
+  "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
+  "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
+  "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
+  "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
+ ],
+ "key_facts": [
+  "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
+  "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
+  "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
+  "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
+  "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
+  "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
+ ],
+ "limitations": [
+  "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
+  "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
+  "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
+  "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
+ ],
+ "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
+ "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
+ "region": "na",
+ "official_docs": [],
+ "topics": [
+  "incidents_breaches",
+  "web_software_security",
+  "phishing_identity"
+ ],
+ "quality": {
+  "depth": 0.5,
+  "practicality": 0.7,
+  "novelty": 0.5
+ },
+ "development_key": "hack-dreamhost-file-manager-okt-2026",
+ "soort": "incident",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
+ },
+ "showcase": {
+  "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
+  "language": "log",
+  "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
+  "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
+ },
+ "terms": [
+  {
+   "term": "domeinregistrar",
+   "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
+  },
+  {
+   "term": "FTP",
+   "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
+  },
+  {
+   "term": "SFTP",
+   "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
+  },
+  {
+   "term": "webshell",
+   "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+  },
+  {
+   "term": "sessie",
+   "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+  },
+  {
+   "term": "webmail-doorstuurregels",
+   "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-06T01:34:10Z",
+ "prompt_version": "cyber-taak-v1"
+}

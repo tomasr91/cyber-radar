@@ -1,0 +1,88 @@
+{
+ "format_version": 2,
+ "article_id": "842bc764ab47",
+ "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+ "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+ "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
+ "story": [
+  "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
+  "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
+  "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
+  "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
+  "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+ ],
+ "key_facts": [
+  "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
+  "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
+  "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
+  "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
+  "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
+  "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
+  "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+ ],
+ "limitations": [
+  "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
+  "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
+  "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
+  "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+ ],
+ "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+ "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
+ "region": "world",
+ "official_docs": [],
+ "topics": [
+  "incidents_breaches",
+  "phishing_identity",
+  "threat_intelligence",
+  "malware"
+ ],
+ "quality": {
+  "depth": 0.7,
+  "practicality": 0.8,
+  "novelty": 0.7
+ },
+ "development_key": "hack-binance-tradertraitor-okt-2026",
+ "soort": "incident",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+ },
+ "showcase": {
+  "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
+  "language": "log",
+  "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
+  "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
+ },
+ "terms": [
+  {
+   "term": "EDR",
+   "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+  },
+  {
+   "term": "zero-day",
+   "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+  },
+  {
+   "term": "token",
+   "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+  },
+  {
+   "term": "containers",
+   "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+  },
+  {
+   "term": "hot wallet",
+   "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+  },
+  {
+   "term": "smart contract",
+   "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-06T01:34:10Z",
+ "prompt_version": "cyber-taak-v1"
+}
