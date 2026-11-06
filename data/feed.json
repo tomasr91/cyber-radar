@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T03:24:56.325473Z",
+ "generated_at": "2026-11-06T04:38:25.115026Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-06T03:24:56.325473Z",
+ "last_successful_update": "2026-11-06T04:38:25.115026Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T03:24:56.379874Z"
+   "checked_at": "2026-11-06T04:38:25.162042Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T03:24:57.040723Z"
+   "checked_at": "2026-11-06T04:38:25.968711Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T03:24:57.939120Z"
+   "checked_at": "2026-11-06T04:38:26.938344Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T03:24:58.162146Z"
+   "checked_at": "2026-11-06T04:38:27.343249Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T03:24:59.607030Z"
+   "checked_at": "2026-11-06T04:38:28.746822Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T03:24:59.852859Z"
+   "checked_at": "2026-11-06T04:38:28.879856Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T03:25:00.001613Z"
+   "checked_at": "2026-11-06T04:38:29.001143Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T03:25:00.218589Z"
+   "checked_at": "2026-11-06T04:38:29.152354Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T03:25:00.640147Z"
+   "checked_at": "2026-11-06T04:38:29.573328Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T03:25:02.325195Z"
+   "checked_at": "2026-11-06T04:38:31.179283Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T03:25:02.543519Z"
+   "checked_at": "2026-11-06T04:38:31.300380Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T03:25:02.704821Z"
+   "checked_at": "2026-11-06T04:38:31.403169Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T03:25:02.885201Z"
+   "checked_at": "2026-11-06T04:38:31.629524Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T03:25:03.181875Z"
+   "checked_at": "2026-11-06T04:38:31.876623Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T03:25:03.653050Z"
+   "checked_at": "2026-11-06T04:38:31.997293Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T03:25:03.831459Z"
+   "checked_at": "2026-11-06T04:38:32.082547Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T03:25:04.280890Z"
+   "checked_at": "2026-11-06T04:38:32.362737Z"
   },
   {
    "id": "securityweek",
@@ -381,14 +381,14 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T03:25:04.495414Z"
+   "checked_at": "2026-11-06T04:38:32.597529Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
   "11af3bdb9908",
-  "8b5f34b85bf1",
   "63028db311b2",
+  "8b5f34b85bf1",
   "d2cce75fefaf"
  ],
  "articles": [
@@ -729,6 +729,98 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
+   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
+   "limitations": [
+    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
+    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
+    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.84,
+    "source": 0.8,
+    "quality": 0.82,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
+   "story": [
+    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
+    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
+    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
+    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
+    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
+   ],
+   "key_facts": [
+    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
+    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
+    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
+    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
+    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
+    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
+    "language": "log",
+    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
+   },
+   "terms": [
+    {
+     "term": "LLMJacking",
+     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
+    },
+    {
+     "term": "API",
+     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
+    },
+    {
+     "term": "serviceaccounts",
+     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
+    },
+    {
+     "term": "AI-gateway",
+     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
+   },
+   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
+   "region": "world"
+  },
+  {
    "id": "8b5f34b85bf1",
    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
@@ -761,7 +853,7 @@
     "detectie",
     "incidenten"
    ],
-   "relevance_score": 93,
+   "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
     "recency": 0.72,
@@ -874,98 +966,6 @@
     "Zien jullie uitgaand verkeer naar diensten als webhook.site?"
    ],
    "takeaway": "AI-agenten versnellen vooral wat na de eerste toegang komt: verkennen, rechten verhogen, gegevens verzamelen. Dat maakt de reactietijd belangrijker dan ooit, maar ook detectie op snelheid en volume kansrijker.",
-   "region": "world"
-  },
-  {
-   "id": "63028db311b2",
-   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
-   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
-   "limitations": [
-    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
-    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
-    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "incidenten"
-   ],
-   "relevance_score": 93,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.84,
-    "source": 0.8,
-    "quality": 0.82,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
-   "story": [
-    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
-    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
-    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
-    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
-    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
-   ],
-   "key_facts": [
-    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
-    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
-    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
-    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
-    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
-    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
-    "language": "log",
-    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
-   },
-   "terms": [
-    {
-     "term": "LLMJacking",
-     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
-    },
-    {
-     "term": "API",
-     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
-    },
-    {
-     "term": "serviceaccounts",
-     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
-    },
-    {
-     "term": "AI-gateway",
-     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
-   },
-   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
    "region": "world"
   },
   {
@@ -1819,7 +1819,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -1915,7 +1915,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.95,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -2215,7 +2215,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.48,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -5582,6 +5582,15 @@
      "begrippen_aangevuld": 0
     }
    },
+   "inhalen": {
+    "status": "ok",
+    "summary": "niets in te halen",
+    "finished_at": "2026-11-06T04:38:05Z",
+    "problems": [],
+    "counts": {
+     "ingehaald": 0
+    }
+   },
    "uitleggen": {
     "status": "ok",
     "summary": "Vers opgehaald; 3 artikelen uitgelegd (Binance, Chainalysis, DreamHost), 7 overgeslagen, waarvan 3 zonder openen en 2 niet te lezen.",
@@ -5645,8 +5654,8 @@
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
-   "aanvallen": 7,
    "detectie": 3,
+   "aanvallen": 7,
    "incidenten": 7,
    "ti": 4,
    "vm": 1
@@ -5929,17 +5938,17 @@
     "excluded_by": []
    },
    {
-    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "relevance_score": 83,
+    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
