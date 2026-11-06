@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T01:35:34.838251Z",
+ "generated_at": "2026-11-06T02:24:01.076648Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-06T01:35:34.838251Z",
+ "last_successful_update": "2026-11-06T02:24:01.076648Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T01:35:34.869199Z"
+   "checked_at": "2026-11-06T02:24:01.108743Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T01:35:35.644304Z"
+   "checked_at": "2026-11-06T02:24:01.750756Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T01:35:36.375380Z"
+   "checked_at": "2026-11-06T02:24:02.509873Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T01:35:36.794519Z"
+   "checked_at": "2026-11-06T02:24:02.734299Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T01:35:37.882164Z"
+   "checked_at": "2026-11-06T02:24:03.812209Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T01:35:38.212470Z"
+   "checked_at": "2026-11-06T02:24:03.981249Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T01:35:38.353793Z"
+   "checked_at": "2026-11-06T02:24:04.172362Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T01:35:38.464850Z"
+   "checked_at": "2026-11-06T02:24:04.283853Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T01:35:39.123081Z"
+   "checked_at": "2026-11-06T02:24:04.850790Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T01:35:40.607825Z"
+   "checked_at": "2026-11-06T02:24:06.733795Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T01:35:40.937022Z"
+   "checked_at": "2026-11-06T02:24:07.497768Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T01:35:41.207591Z"
+   "checked_at": "2026-11-06T02:24:07.667996Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T01:35:41.406189Z"
+   "checked_at": "2026-11-06T02:24:07.878232Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T01:35:41.672094Z"
+   "checked_at": "2026-11-06T02:24:08.148568Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T01:35:42.000290Z"
+   "checked_at": "2026-11-06T02:24:08.267814Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T01:35:42.088709Z"
+   "checked_at": "2026-11-06T02:24:08.420949Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T01:35:42.333669Z"
+   "checked_at": "2026-11-06T02:24:08.980551Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T01:35:42.609648Z"
+   "checked_at": "2026-11-06T02:24:09.253059Z"
   }
  ],
  "daily_top": [
@@ -607,7 +607,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -764,7 +764,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -2507,7 +2507,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.35,
+    "recency": 0.34,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -3692,66 +3692,64 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-05T03:00:00Z",
+  "generated_at": "2026-11-06T02:40:00Z",
   "options": [
    {
-    "id": "remote-code-execution",
-    "title": "Remote Code Execution - een server opdrachten laten uitvoeren",
-    "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?",
-    "why": "PHP2Shell in PHP zelf en de lekkenketen in PaperCut laten deze weken zien hoe een webverzoek zonder inlog kan eindigen in opdrachten op de server.",
+    "id": "hoe-werkt-een-website",
+    "title": "Wat gebeurt er als je een website opent?",
+    "question": "Wat doen de browser (client), de webserver en de database als je een webpagina opent, en waar kan een aanvaller ingrijpen?",
+    "why": "Bij webhoster DreamHost zaten aanvallers maandenlang in de webgebaseerde File Manager en stalen ze FTP-wachtwoorden: wie weet hoe een webapplicatie op een server werkt, ziet waar zo'n aanval kan beginnen.",
     "topics": [
-     "attack_techniques",
-     "vulnerabilities_cve",
+     "web_software_security",
+     "attack_techniques"
+    ],
+    "area": "techniek"
+   },
+   {
+    "id": "phishing-technisch",
+    "title": "Phishing technisch bekeken - van mail tot gestolen sessie",
+    "question": "Wat gebeurt er technisch bij een moderne phishingaanval, ook als er MFA aan staat?",
+    "why": "Trend van deze weken: aanvallers omzeilen MFA met sessietokens uit nep-inlogpagina's en device code phishing, en Vercel koppelt inlogsessies nu aan het apparaat om gestolen cookies waardeloos te maken.",
+    "topics": [
+     "phishing_identity",
      "siem_detection"
     ],
     "area": "techniek"
    },
    {
-    "id": "edge-devices-als-ingang",
-    "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
-    "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
-    "why": "Trend van deze weken: lekken in vpn- en netwerkapparaten worden volop misbruikt, en op 3 november bleken bijgewerkte Ivanti-vpn's opnieuw kwetsbaar voor twee zero-days.",
+    "id": "exploit-en-zero-day",
+    "title": "Van kwetsbaarheid naar exploit - en wat een zero-day is",
+    "question": "Wat is het verschil tussen een kwetsbaarheid, een proof of concept en een exploit, en waarom zijn zero-days zo gevaarlijk?",
+    "why": "Bij Ivanti combineerden aanvallers drie zero-days om bijgewerkte vpn-servers over te nemen, en bij Binance zag de endpointbeveiliging een zero-day in een nep-programmeeropdracht niet.",
     "topics": [
-     "edge_devices",
      "exploited_vulnerabilities",
-     "vulnerability_management"
+     "vulnerabilities_cve",
+     "threat_intelligence"
     ],
     "area": "kwetsbaarheden"
    },
    {
-    "id": "ai-agenten-bij-inbraken",
-    "title": "AI-agenten bij inbraken: wat doen ze, en waarom vallen ze zo op?",
-    "question": "Hoe laat een aanvaller een AI-framework zelf inloggen, verkennen en rechten verhogen, en welke sporen laat dat achter in logs?",
-    "why": "Trend van deze weken: Google zag aanvallers met frameworks als ARTEX binnen minuten tot uren diep in een netwerk komen, met opvallend veel verzoeken en sporen.",
+    "id": "llmjacking-gestolen-cloudsleutels",
+    "title": "LLMJacking: hoe gestolen cloudsleutels een AI-rekening van een miljoen opleveren",
+    "question": "Wat zijn cloud- en API-sleutels, hoe komen aanvallers eraan, hoe misbruiken ze er AI-diensten mee, en wat zie je daarvan terug in de cloudlogs?",
+    "why": "Mandiant zag dit jaar meerdere LLMJacking-incidenten met kosten tot 1 miljoen dollar, en bij Google Cloud staan de logs voor modelverzoeken standaard uit.",
     "topics": [
-     "attack_techniques",
-     "threat_intelligence",
-     "siem_detection"
-    ],
-    "area": "techniek"
-   },
-   {
-    "id": "incident-response-stappen",
-    "title": "Incident response - wat gebeurt er na het alarm?",
-    "question": "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?",
-    "why": "DIVD beschreef open hoe het een inbraak via zero-days in Zammad binnen 19 minuten zag en daarna indamde: een zeldzaam Nederlands voorbeeld van incident response van binnenuit.",
-    "topics": [
-     "incident_response",
-     "incidents_breaches"
-    ],
-    "area": "praktijk"
-   },
-   {
-    "id": "anatomie-ransomware-aanval",
-    "title": "Anatomie van een ransomware-aanval, stap voor stap",
-    "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
-    "why": "Unit 42 beschreef in oktober hoe ransomwaregroepen via een vpn-lek binnenkwamen en via RMM-tools, RDP en vCenter doorliepen tot de versleuteling.",
-    "topics": [
-     "ransomware",
-     "attack_techniques",
-     "siem_detection"
+     "cloud_attacks",
+     "siem_detection",
+     "phishing_identity"
     ],
     "area": "incidenten"
+   },
+   {
+    "id": "hoe-werkt-een-siem",
+    "title": "Hoe werkt een SIEM nu echt?",
+    "question": "Welke logs komen in een SIEM, hoe worden ze gecombineerd, hoe ontstaat een alert, en wat doet een analist ermee?",
+    "why": "Huntress vond in één Microsoft 365-campagne minstens 497 geslaagde aanmeldingen tussen meer dan 200.000 mislukte pogingen: precies het werk van een SIEM, de paar echte uit de stapel halen.",
+    "topics": [
+     "siem_detection",
+     "incident_response"
+    ],
+    "area": "praktijk"
    }
   ]
  },
@@ -5588,6 +5586,16 @@
      "overgeslagen_zonder_openen": 3,
      "niet_te_lezen": 2
     }
+   },
+   "verdiepen": {
+    "status": "ok",
+    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
+    "finished_at": "2026-11-06T02:23:52Z",
+    "problems": [],
+    "counts": {
+     "verdiepingen": 0,
+     "keuzes": 5
+    }
    }
   }
  },
@@ -5756,7 +5764,7 @@
     "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
-    "relevance_score": 87,
+    "relevance_score": 86,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -5919,17 +5927,17 @@
     "excluded_by": []
    },
    {
-    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-    "relevance_score": 83,
+    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
