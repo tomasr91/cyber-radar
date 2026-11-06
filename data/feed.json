@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T01:23:31.355926Z",
+ "generated_at": "2026-11-06T01:34:48.088780Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-05T01:42:22Z",
- "last_successful_update": "2026-11-06T01:23:31.355926Z",
+ "last_article_added_at": "2026-11-06T01:34:10Z",
+ "last_successful_update": "2026-11-06T01:34:48.088780Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T01:23:31.426794Z"
+   "checked_at": "2026-11-06T01:34:48.130163Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T01:23:32.217807Z"
+   "checked_at": "2026-11-06T01:34:48.720406Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T01:23:33.222653Z"
+   "checked_at": "2026-11-06T01:34:49.628655Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T01:23:33.351639Z"
+   "checked_at": "2026-11-06T01:34:49.794237Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T01:23:34.841521Z"
+   "checked_at": "2026-11-06T01:34:50.895230Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T01:23:34.893279Z"
+   "checked_at": "2026-11-06T01:34:51.108056Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T01:23:34.992093Z"
+   "checked_at": "2026-11-06T01:34:51.195728Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T01:23:35.103575Z"
+   "checked_at": "2026-11-06T01:34:51.275850Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T01:23:35.880146Z"
+   "checked_at": "2026-11-06T01:34:51.937541Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T01:23:37.390589Z"
+   "checked_at": "2026-11-06T01:34:53.112133Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T01:23:37.439555Z"
+   "checked_at": "2026-11-06T01:34:53.557178Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T01:23:37.508151Z"
+   "checked_at": "2026-11-06T01:34:53.668746Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T01:23:37.547136Z"
+   "checked_at": "2026-11-06T01:34:53.853696Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T01:23:37.777092Z"
+   "checked_at": "2026-11-06T01:34:54.054878Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T01:23:37.855303Z"
+   "checked_at": "2026-11-06T01:34:54.148743Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T01:23:37.957188Z"
+   "checked_at": "2026-11-06T01:34:54.238495Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T01:23:38.223147Z"
+   "checked_at": "2026-11-06T01:34:54.494787Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T01:23:38.459743Z"
+   "checked_at": "2026-11-06T01:34:54.768276Z"
   }
  ],
  "daily_top": [
@@ -1415,6 +1415,104 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "842bc764ab47",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-04T10:36:32Z",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+   "limitations": [
+    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
+    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
+    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
+    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.92,
+    "source": 0.51,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+   "story": [
+    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
+    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
+    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
+    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
+    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+   ],
+   "key_facts": [
+    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
+    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
+    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
+    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
+    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
+    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
+    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
+    "language": "log",
+    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
+   },
+   "terms": [
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "containers",
+     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+    },
+    {
+     "term": "hot wallet",
+     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+    },
+    {
+     "term": "smart contract",
+     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+   },
+   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
+   "region": "world"
+  },
+  {
    "id": "f8af8b71c7c1",
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -1691,6 +1789,199 @@
     "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
    },
    "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+   "region": "na"
+  },
+  {
+   "id": "987ba3712202",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T19:05:19Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
+   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
+   "limitations": [
+    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
+    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
+    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
+    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "web_software_security",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.94,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
+   "story": [
+    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
+    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
+    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
+    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
+    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
+   ],
+   "key_facts": [
+    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
+    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
+    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
+    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
+    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
+    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
+    "language": "log",
+    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
+   },
+   "terms": [
+    {
+     "term": "domeinregistrar",
+     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
+    },
+    {
+     "term": "FTP",
+     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
+    },
+    {
+     "term": "SFTP",
+     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "webmail-doorstuurregels",
+     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
+    }
+   ],
+   "learning": "Webtechnologie en softwarebeveiliging",
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
+   },
+   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
+   "region": "na"
+  },
+  {
+   "id": "350327fdd7cd",
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "source_id": "the_record",
+   "published_at": "2026-11-05T00:00:00Z",
+   "fetched_at": "2026-11-05T18:27:25.503525Z",
+   "summary": "Het blockchain-analysebedrijf Chainalysis meldt nu dat van alle gebruikers namen, wachtwoord-hashes en actieve tokens zijn blootgesteld. Iedereen moet zijn wachtwoord resetten en API-sleutels vervangen.",
+   "personal_relevance": "Na zo'n melding vragen klanten vaak wat ze nu moeten doen. Dit artikel helpt uitleggen waarom ook tokens en API-sleutels vervangen moeten worden, en niet alleen wachtwoorden.",
+   "limitations": [
+    "Hoe de wachtwoorden gehasht waren en wat 'live tokens' precies zijn, heeft Chainalysis niet gezegd.",
+    "Wat 'offensive agentic techniques' inhoudt en hoe de on-path attack werkte, is niet uitgelegd.",
+    "Niet bevestigd is of de onderschepping, het lek van hashes en tokens en de verdachte accounttoegang door dezelfde aanvaller zijn gedaan.",
+    "Een aanvaller is niet geïdentificeerd; de bron legt geen verband met andere AI-ondersteunde inbraken van de afgelopen weken."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.95,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens",
+   "story": [
+    "Chainalysis maakt software waarmee opsporingsdiensten en bedrijven geldstromen op blockchains volgen. Volgens de website heeft het meer dan 1.500 klanten, ook in de opsporings- en veiligheidssector. Op 30 oktober meldde het bedrijf een inbraak, maar zonder bewijs dat inloggegevens waren ingezien. Op woensdagavond 4 november kwam een update: van alle gebruikers zijn namen, gebruikersnamen, wachtwoord-hashes en actieve tokens blootgesteld.",
+    "Een goede dienst bewaart je wachtwoord niet zelf, maar een hash: een soort vingerafdruk waaruit je het wachtwoord niet direct terugrekent. Bij het inloggen maakt de dienst opnieuw de hash en vergelijkt die. Met gestolen hashes kan een aanvaller wel gaan offline kraken: miljoenen wachtwoorden proberen tot er één dezelfde hash geeft. Hoe snel dat gaat, hangt af van de methode, en die noemt Chainalysis niet. Een actief token is nog gevaarlijker: daarmee ben je al ingelogd, zonder wachtwoord.",
+    "Voor een deel van de klanten spreekt Chainalysis van een on-path attack. Daarbij zit een aanvaller tussen de gebruiker en de dienst en kan hij het verkeer onderscheppen. Hoe dat hier gebeurde, is niet bekend. Het bedrijf zegt ook dat een externe partij 'offensive agentic techniques' gebruikte, maar legt niet uit wat dat betekent. Het zegt niet dat een AI-agent de inbraak zelfstandig uitvoerde.",
+    "Chainalysis haalde de inlogpagina en meerdere producten offline, waaronder het onderzoeksprogramma Reactor en de screeningdienst KYT. In KYT was verdachte toegang tot sommige accounts te zien. Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels vervangen. Het bedrijf raadt aan de inlogpagina zelf te openen en niet via een link in een resetmail. Dat is verstandig, want na zo'n lek volgen vaak phishingmails die op zo'n resetmail lijken.",
+    "Voor organisaties die zulke diensten gebruiken, gaat het om meer dan wachtwoorden. Ook API-sleutels die in eigen systemen zijn ingebouwd, moeten worden vervangen. In een SIEM kun je zoeken naar inlogpogingen of API-gebruik vanaf onbekende adressen sinds eind oktober. Chainalysis wil sommige diensten weer opstarten met een allowlist: alleen vertrouwde IP-adressen mogen dan verbinden."
+   ],
+   "key_facts": [
+    "Chainalysis meldde op 30 oktober 2026 een inbraak en zei toen geen bewijs te hebben dat authenticatiegegevens of sessietokens waren benaderd.",
+    "In een update op woensdagavond 4 november 2026 meldde Chainalysis dat van alle gebruikers namen, gebruikersnamen, wachtwoord-hashes en actieve tokens zijn blootgesteld.",
+    "Chainalysis heeft volgens de eigen website meer dan 1.500 klanten, onder meer in de opsporings- en veiligheidssector.",
+    "Chainalysis noemt 'offensive agentic techniques' en voor een deel van de klanten een on-path attack, die volgens het bedrijf is ingeperkt.",
+    "KYT, andere adresscreeningproducten en de inlogpagina gingen offline; Reactor en Data Solutions waren al eerder offline gehaald.",
+    "Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels roteren; KYT en Address Screening zouden terugkomen met een allowlist van vertrouwde IP-adressen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt het opslaan van een wachtwoord als hash. De dienst bewaart alleen de laatste regel; bij het inloggen rekent hij opnieuw en vergelijkt. Een aanvaller met die regel moet raden welk wachtwoord dezelfde uitkomst geeft.",
+    "language": "text",
+    "code": "Wachtwoord bij aanmelden:  Zomer2026!\nWat de dienst opslaat:     $argon2id$v=19$m=65536,t=3,p=4$<salt>$<hash>\n\nBij inloggen:   hash(ingevoerd wachtwoord + salt) == opgeslagen hash ?  -> ja: binnen\nNa een lek:     aanvaller probeert offline lijsten met wachtwoorden tot de uitkomst gelijk is\nActief token:   geen raden nodig, het token zelf is het toegangsbewijs",
+    "note": "Nagebouwd voorbeeld. Chainalysis zegt niet welke hashmethode het gebruikte; Argon2id is hier alleen als voorbeeld van een moderne, trage methode gekozen."
+   },
+   "terms": [
+    {
+     "term": "hash",
+     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "on-path attack",
+     "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd."
+    },
+    {
+     "term": "API-sleutels",
+     "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+    },
+    {
+     "term": "allowlist",
+     "explanation": "Een lijst van wat expliciet is toegestaan, bijvoorbeeld bepaalde IP-adressen. Alles wat niet op de lijst staat, wordt geweigerd."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een duidelijke les over hashes en tokens."
+   },
+   "takeaway": "Een gelekte wachtwoord-hash is pas gevaarlijk na offline kraken, maar een gelekt actief token geeft direct toegang. Daarom moeten na een lek ook sessies, tokens en API-sleutels ongeldig worden gemaakt.",
    "region": "na"
   },
   {
@@ -3595,6 +3886,17 @@
    ]
   },
   {
+   "term": "allowlist",
+   "explanation": "Een lijst van wat expliciet is toegestaan, bijvoorbeeld bepaalde IP-adressen. Alles wat niet op de lijst staat, wordt geweigerd.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
+    }
+   ]
+  },
+  {
    "term": "API",
    "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen.",
    "refs": [
@@ -3602,6 +3904,17 @@
      "kind": "a",
      "id": "63028db311b2",
      "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
+    }
+   ]
+  },
+  {
+   "term": "API-sleutels",
+   "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
     }
    ]
   },
@@ -3776,6 +4089,17 @@
    ]
   },
   {
+   "term": "containers",
+   "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    }
+   ]
+  },
+  {
    "term": "cookie",
    "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd.",
    "refs": [
@@ -3895,9 +4219,25 @@
    ]
   },
   {
+   "term": "domeinregistrar",
+   "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
+    }
+   ]
+  },
+  {
    "term": "EDR",
    "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    },
     {
      "kind": "a",
      "id": "892b2bea5cd6",
@@ -3982,6 +4322,17 @@
    ]
   },
   {
+   "term": "FTP",
+   "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
+    }
+   ]
+  },
+  {
    "term": "geheugenbeschadiging",
    "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller.",
    "refs": [
@@ -4025,6 +4376,17 @@
    ]
   },
   {
+   "term": "hash",
+   "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
+    }
+   ]
+  },
+  {
    "term": "HMAC",
    "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast.",
    "refs": [
@@ -4048,6 +4410,17 @@
      "kind": "a",
      "id": "11af3bdb9908",
      "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "hot wallet",
+   "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
     }
    ]
   },
@@ -4329,8 +4702,24 @@
    "refs": [
     {
      "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
+    },
+    {
+     "kind": "a",
      "id": "201b2063f67c",
      "title": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten"
+    }
+   ]
+  },
+  {
+   "term": "on-path attack",
+   "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
     }
    ]
   },
@@ -4633,8 +5022,24 @@
    "refs": [
     {
      "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
+    },
+    {
+     "kind": "a",
      "id": "d2cce75fefaf",
      "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
+   "term": "SFTP",
+   "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
     }
    ]
   },
@@ -4657,6 +5062,17 @@
      "kind": "a",
      "id": "94ac3c3bdec2",
      "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    }
+   ]
+  },
+  {
+   "term": "smart contract",
+   "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
     }
    ]
   },
@@ -4762,6 +5178,16 @@
    "term": "token",
    "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    },
+    {
+     "kind": "a",
+     "id": "350327fdd7cd",
+     "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
+    },
     {
      "kind": "a",
      "id": "4d33a21d5cc6",
@@ -4880,9 +5306,25 @@
    ]
   },
   {
+   "term": "webmail-doorstuurregels",
+   "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
+    }
+   ]
+  },
+  {
    "term": "webshell",
    "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "987ba3712202",
+     "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
+    },
     {
      "kind": "a",
      "id": "d0e0e442d471",
@@ -4915,6 +5357,11 @@
    "term": "zero-day",
    "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "842bc764ab47",
+     "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    },
     {
      "kind": "a",
      "id": "580236cbddf9",
@@ -5198,7 +5645,7 @@
   "fetched_items": 320,
   "unique_after_dedupe": 320,
   "merged_duplicates": 1,
-  "shown": 25,
+  "shown": 28,
   "decisions": {
    "included": 141,
    "below_threshold": 78,
@@ -5206,14 +5653,14 @@
    "excluded": 26
   },
   "processing": {
-   "enriched": 25
+   "enriched": 28
   },
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
    "aanvallen": 7,
    "detectie": 3,
-   "incidenten": 4,
+   "incidenten": 7,
    "ti": 4,
    "vm": 1
   },
@@ -5223,8 +5670,10 @@
    "google_threat_intel": 5,
    "divd": 1,
    "cisco_talos": 3,
+   "securityweek": 1,
    "microsoft_threat_intel": 3,
-   "bleepingcomputer": 3,
+   "bleepingcomputer": 4,
+   "the_record": 1,
    "huntress_blog": 3,
    "watchtowr_labs": 1
   },
@@ -5258,17 +5707,17 @@
     "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
    },
    {
-    "source_id": "crowdstrike_blog",
-    "items": 5,
-    "from": "2026-11-03T08:00:00Z",
-    "to": "2026-11-03T08:00:00Z",
-    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
-   },
-   {
     "source_id": "securityweek",
     "items": 5,
     "from": "2026-11-04T08:27:05Z",
     "to": "2026-11-04T10:54:48Z",
+    "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
+   },
+   {
+    "source_id": "crowdstrike_blog",
+    "items": 5,
+    "from": "2026-11-03T08:00:00Z",
+    "to": "2026-11-03T08:00:00Z",
     "message": "5 items binnen 3 uur gedateerd; mogelijk een herpublicatie, controleer de datum bij de bron."
    }
   ],
@@ -5276,7 +5725,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 194
+   "skipped_no_key": 191
   },
   "queue_size": 10,
   "invalid_enrichment": [],
