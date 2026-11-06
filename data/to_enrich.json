@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:29:09.559990Z",
+ "generated_at": "2026-11-06T01:23:31.355926Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -108,19 +108,6 @@
    ]
   },
   {
-   "id": "da5b67aa3d7a",
-   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-03T14:32:38Z",
-   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
-   "preliminary_score": 70,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
    "id": "842bc764ab47",
    "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
    "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
@@ -132,6 +119,19 @@
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence"
+   ]
+  },
+  {
+   "id": "da5b67aa3d7a",
+   "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-03T14:32:38Z",
+   "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek .",
+   "preliminary_score": 69,
+   "preliminary_topics": [
+    "incidents_breaches"
    ]
   }
  ]

@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T18:29:09.559990Z",
+ "generated_at": "2026-11-06T01:23:31.355926Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-05T01:42:22Z",
- "last_successful_update": "2026-11-05T18:29:09.559990Z",
+ "last_successful_update": "2026-11-06T01:23:31.355926Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-05T18:29:09.620568Z"
+   "checked_at": "2026-11-06T01:23:31.426794Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-05T18:29:10.087889Z"
+   "checked_at": "2026-11-06T01:23:32.217807Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-05T18:29:10.701661Z"
+   "checked_at": "2026-11-06T01:23:33.222653Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-05T18:29:10.792097Z"
+   "checked_at": "2026-11-06T01:23:33.351639Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-05T18:29:11.592990Z"
+   "checked_at": "2026-11-06T01:23:34.841521Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-05T18:29:11.624625Z"
+   "checked_at": "2026-11-06T01:23:34.893279Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-05T18:29:11.758693Z"
+   "checked_at": "2026-11-06T01:23:34.992093Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-05T18:29:11.859017Z"
+   "checked_at": "2026-11-06T01:23:35.103575Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-05T18:29:12.108699Z"
+   "checked_at": "2026-11-06T01:23:35.880146Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-05T18:29:13.536498Z"
+   "checked_at": "2026-11-06T01:23:37.390589Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-05T18:29:13.735852Z"
+   "checked_at": "2026-11-06T01:23:37.439555Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-05T18:29:13.810899Z"
+   "checked_at": "2026-11-06T01:23:37.508151Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-05T18:29:13.980852Z"
+   "checked_at": "2026-11-06T01:23:37.547136Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-05T18:29:14.099270Z"
+   "checked_at": "2026-11-06T01:23:37.777092Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-05T18:29:14.234413Z"
+   "checked_at": "2026-11-06T01:23:37.855303Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-05T18:29:14.305267Z"
+   "checked_at": "2026-11-06T01:23:37.957188Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-05T18:29:14.412928Z"
+   "checked_at": "2026-11-06T01:23:38.223147Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-05T18:29:14.545874Z"
+   "checked_at": "2026-11-06T01:23:38.459743Z"
   }
  ],
  "daily_top": [
@@ -430,7 +430,7 @@
    "relevance_score": 94,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -607,7 +607,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.71,
+    "recency": 0.7,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -764,7 +764,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.74,
+    "recency": 0.73,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -903,7 +903,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -1009,7 +1009,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.13,
+    "recency": 0.12,
     "source": 0.8,
     "quality": 0.78,
     "region": 0.06,
@@ -1155,7 +1155,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -1300,7 +1300,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.68,
+    "recency": 0.67,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1415,107 +1415,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "875e59480304",
-   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
-   "source_id": "microsoft_threat_intel",
-   "published_at": "2026-11-03T17:32:47Z",
-   "fetched_at": "2026-11-03T21:07:39.907698Z",
-   "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
-   "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
-   "limitations": [
-    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
-    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
-    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
-   ],
-   "official_docs": [
-    {
-     "label": "Microsoft Threat Intelligence: fake-download campaign",
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
-    }
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "malware"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 89,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.9,
-    "source": 0.8,
-    "quality": 0.6,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:46:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
-   "story": [
-    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
-    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
-    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
-    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
-   ],
-   "key_facts": [
-    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
-    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
-    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
-    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
-    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
-    "language": "kql",
-    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
-    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
-   },
-   "terms": [
-    {
-     "term": "resource hijacking",
-     "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
-    },
-    {
-     "term": "adware",
-     "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
-    },
-    {
-     "term": "geplande taken",
-     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
-    },
-    {
-     "term": "SYSTEM-rechten",
-     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
-    },
-    {
-     "term": "PUA",
-     "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
-   },
-   "customer_questions": [
-    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
-    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
-    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
-   ],
-   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
-   "region": "world"
-  },
-  {
    "id": "f8af8b71c7c1",
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -1545,7 +1444,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
+    "recency": 0.47,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -1615,193 +1514,104 @@
    "region": "world"
   },
   {
-   "id": "4d33a21d5cc6",
-   "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-   "url": "https://www.huntress.com/blog/token-replay-spray",
-   "source_id": "huntress_blog",
-   "published_at": "2026-10-22T13:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.290040Z",
-   "summary": "Huntress volgde tien weken een campagne tegen Microsoft 365. De aanvaller stal tokens die al na MFA waren uitgegeven, gebruikte ze op grote schaal opnieuw en bouwde daarna stille achterdeuren in.",
-   "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen accountovername. Dit stuk helpt uitleggen waarom detectie op aanmeldgedrag en goed opruimen na een incident net zo belangrijk zijn.",
+   "id": "875e59480304",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-11-03T17:32:47Z",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
+   "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
    "limitations": [
-    "Huntress noemt geen sectoren van de slachtoffers.",
-    "De cijfers over fase 3 verschillen binnen het stuk (303 aanmeldingen bij 29 organisaties, elders 232 bij 28).",
-    "Wie achter de campagne zit, is niet bevestigd; de link met een Duits hostingbedrijf is context, geen toeschrijving.",
-    "Huntress verkoopt zelf detectie en respons voor identiteiten."
+    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
+    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
+    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
    ],
-   "topics": [
-    "siem_detection",
-    "phishing_identity",
-    "cloud_attacks",
-    "incident_response"
-   ],
-   "groups": [
-    "detectie",
-    "aanvallen",
-    "incidenten"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.49,
-    "source": 0.68,
-    "quality": 0.82,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties",
-   "story": [
-    "Huntress volgde van 14 juli tot 22 september 2026 een campagne tegen Microsoft 365-accounts. Huntress reageerde op incidenten bij 79 organisaties en telde minstens 497 geslaagde aanmeldingen, tegenover ruim 200.000 mislukte pogingen. De aanvaller raadde geen wachtwoorden. Hij gebruikte gestolen tokens opnieuw.",
-    "Hoe werkt inloggen normaal? Je geeft je wachtwoord en bevestigt met MFA. Daarna geeft Microsoft je een token: een digitaal toegangsbewijs, zodat je niet bij elke klik opnieuw hoeft in te loggen. Bij adversary-in-the-middle (AiTM) zet de aanvaller een nep-inlogpagina tussen jou en Microsoft. Die stuurt alles door, ook de MFA-vraag. Jij logt dus echt in, maar het token komt ook bij de aanvaller terecht. Omdat dat token al ná MFA is uitgegeven, hoeft hij MFA niet meer te passeren. Huntress zag ook tokens uit device code phishing. Binnen vier tot twaalf minuten na de diefstal gebruikten servers bij een hostingbedrijf de tokens opnieuw.",
-    "Daarna bouwde de aanvaller stille achterdeuren. Hij registreerde nep-apparaten in Entra, 48 in totaal, met namen als \"DESKTOP-\" plus acht tekens. Windows gebruikt standaard zeven. Bij 19 organisaties wiste hij de MFA-methoden van het slachtoffer en registreerde hij een eigen authenticator. Ook maakte hij verborgen inbox-regels met namen als \".\" of \"sss\". Die verplaatsten mail over salaris, bank of bonus naar weinig bekeken mappen. Een nieuw wachtwoord alleen haalt die apparaten en MFA-methoden niet weg.",
-    "Waar zie je het? In de aanmeldlogs: aanmeldingen vanaf hostingadressen met de user agent \"node\" of alleen \"Mozilla/5.0\", plotseling een ander besturingssysteem in dezelfde sessie, en MFA-methoden die binnen minuten worden gewist en opnieuw geregistreerd. Huntress raadt aan te reageren op geldige inloggegevens, niet op het aantal pogingen. Foutcode AADSTS53003 betekent bijvoorbeeld dat het inloggen zelf lukte, maar dat Conditional Access het blokkeerde. Opruimen betekent: sessies intrekken, wachtwoord resetten én apparaten, MFA-methoden en inbox-regels controleren.",
-    "Voor organisaties is de les dat MFA niet het eindpunt is. Een aanvaller met een geldig token is gewoon ingelogd. Wie na een incident alleen het wachtwoord reset, laat de achterdeuren staan."
-   ],
-   "key_facts": [
-    "Huntress volgde de campagne van 14 juli tot 22 september 2026 en reageerde op incidenten bij 79 organisaties.",
-    "Minstens 497 geslaagde aanmeldingen tegenover meer dan 200.000 mislukte pogingen.",
-    "Tokens kwamen uit AiTM-relays, device code phishing en social engineering; de tijd tussen diefstal en hergebruik was 12 minuten (21 juli) en 4 minuten (22 september).",
-    "48 nep-apparaten in Entra met de naam \"DESKTOP-\" plus acht hexadecimale tekens; bij 19 organisaties werden MFA-methoden gewist en vervangen.",
-    "Verborgen inbox-regels met korte namen verplaatsten of verwijderden mail, onder meer over salaris, bank en bonus.",
-    "Huntress: een wachtwoordreset alleen verwijdert geregistreerde apparaten en MFA-methoden van de aanvaller niet."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een vereenvoudigde weergave van drie aanmeldingen van één gebruiker. De eerste is de echte inlog. Vier minuten later volgt een aanmelding vanaf een hostingadres met user agent \"node\". Daarna wordt een nieuw apparaat geregistreerd met een naam van acht tekens na DESKTOP-.",
-    "language": "log",
-    "code": "09:12:04 user=a.devries ip=198.51.100.23 (thuisprovider) app=OfficeHome ua=\"Chrome/Windows\" result=success mfa=ok\n09:16:11 user=a.devries ip=203.0.113.77 (hosting) app=\"Microsoft Office\" ua=\"node\" request=OAuth2:Token result=success\n09:17:30 user=a.devries ip=203.0.113.77 (hosting) resource=\"Device Registration Service\" device=DESKTOP-4F9A0C2E result=success",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen en vereenvoudigde veldnamen. De waarden (user agent, verzoektype, apparaatnaam) volgen de patronen uit het onderzoek."
-   },
-   "terms": [
+   "official_docs": [
     {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "MFA",
-     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
-    },
-    {
-     "term": "adversary-in-the-middle",
-     "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
-    },
-    {
-     "term": "device code phishing",
-     "explanation": "Misbruik van de inlogmethode voor apparaten zonder toetsenbord: het slachtoffer voert een code van de aanvaller in op een echte Microsoft-pagina en geeft zo toegang."
-    },
-    {
-     "term": "Entra",
-     "explanation": "Microsoft Entra ID, voorheen Azure AD: de dienst die bijhoudt wie mag inloggen op Microsoft 365 en welke apparaten bij een organisatie horen."
-    },
-    {
-     "term": "Conditional Access",
-     "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat."
+     "label": "Microsoft Threat Intelligence: fake-download campaign",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
     }
    ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
-   },
-   "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
-   "region": "world"
-  },
-  {
-   "id": "08252db330fb",
-   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-   "source_id": "cisco_talos",
-   "published_at": "2026-10-29T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:37.824805Z",
-   "summary": "In het derde kwartaal was phishing nog steeds de belangrijkste ingang bij incidenten die Cisco Talos onderzocht, vaak via telefoontjes van een nep-helpdesk. Het aandeel ransomware steeg naar 27 procent.",
-   "personal_relevance": "Dit soort kwartaalcijfers zijn handig om een klantgesprek mee te openen: waar komen aanvallers nu binnen, en is dat bij jullie afgedekt? Vooral het punt 'onvoldoende logging' raakt direct aan SIEM en MDR.",
-   "limitations": [
-    "De cijfers gaan alleen over zaken van het eigen incident-responseteam van Talos, niet over alle aanvallen.",
-    "Wat de bellers precies zeiden, staat niet in het rapport; ook niet of Microsoft Teams werd gebruikt.",
-    "Talos geeft geen specifieke detectieregels voor vishing."
-   ],
    "topics": [
-    "ransomware",
     "siem_detection",
-    "phishing_identity",
-    "incident_response"
+    "threat_intelligence",
+    "malware"
    ],
    "groups": [
-    "incidenten",
     "detectie",
+    "ti",
     "aanvallen"
    ],
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.89,
     "source": 0.8,
-    "quality": 0.65,
-    "fit": 0.05
+    "quality": 0.6,
+    "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:44:00Z",
+   "processed_at": "2026-11-03T21:46:00Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe",
+   "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
    "story": [
-    "Cisco Talos publiceert elk kwartaal wat zijn incident-responseteam tegenkwam. In het derde kwartaal van 2026 was phishing de vaakst gebruikte ingang (37 procent), op de voet gevolgd door het misbruiken van systemen die open naar internet staan (33 procent), zoals beveiligingsgateways en beheerschermen. Ransomware en de voorbereiding daarop waren samen goed voor 27 procent van de zaken; in de vier kwartalen daarvoor was dat steeds hooguit 20 procent.",
-    "Opvallend is vishing: phishing via de telefoon. Aanvallers deden zich voor als de IT-helpdesk en lieten slachtoffers een programma voor beheer op afstand (RMM) starten, zoals Microsoft Quick Assist. Daarmee kregen ze een legitieme ingang, die minder snel alarm geeft dan malware. Bij een zaak met de nieuwe ransomware VYPR volgden daarna PowerShell, extra beheertools en het dagenlang wegsluizen van gegevens.",
-    "Bij de zwakke plekken die Talos vond, stond onvoldoende logging bovenaan (meer dan 40 procent), gevolgd door ontbrekende of zwakke MFA en slecht beheer van wachtwoorden en sleutels (elk 33 procent). Aanvallers schakelden EDR het vaakst uit met kwetsbare drivers (BYOVD) of een kwaadaardig beleid voor Windows Defender Application Control.",
-    "Talos adviseert MFA die niet te phishen is, zoals hardwaresleutels. Belangrijk tegen de nep-helpdesk: laat het registreren van een nieuw MFA-apparaat verlopen via de helpdesk met controle van de identiteit, niet via zelfbediening. En bewaar logs minstens 90 dagen centraal, buiten het apparaat zelf."
+    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
+    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
+    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
+    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
    ],
    "key_facts": [
-    "Phishing was de belangrijkste eerste ingang (37 procent, vorig kwartaal meer dan 50 procent), gevolgd door misbruik van systemen aan internet (33 procent) (Talos, 29 oktober 2026).",
-    "Ransomware en pre-ransomware waren 27 procent van de zaken; in elk van de vier vorige kwartalen hooguit 20 procent.",
-    "Financiële sector en openbaar bestuur waren samen het vaakst doelwit (elk 18 procent).",
-    "Onvoldoende logging kwam voor in meer dan 40 procent van de zaken; ontbrekende of zwakke MFA in 33 procent.",
-    "In een zaak met de nieuwe ransomware VYPR werd het slachtoffer overgehaald een Microsoft Quick Assist-sessie te starten.",
-    "Talos noemt de ransomwarefamilies The Gentlemen, Qilin, Rhysida, Interlock en het nieuwe VYPR."
+    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
+    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
+    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
+    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
+    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
    ],
    "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
+    "language": "kql",
+    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
+    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
+   },
    "terms": [
     {
-     "term": "vishing",
-     "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."
+     "term": "resource hijacking",
+     "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
     },
     {
-     "term": "RMM",
-     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+     "term": "adware",
+     "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
     },
     {
-     "term": "MFA",
-     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+     "term": "geplande taken",
+     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
     },
     {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+     "term": "SYSTEM-rechten",
+     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
     },
     {
-     "term": "BYOVD",
-     "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."
+     "term": "PUA",
+     "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
     }
    ],
    "learning": "SIEM, logs en detectie",
    "soort": "onderzoek",
    "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
    },
    "customer_questions": [
-    "Hoe controleert jullie helpdesk wie er belt voordat er een MFA-apparaat of wachtwoord wordt gereset?",
-    "Welke tools voor beheer op afstand zijn bij jullie toegestaan, en zou je merken als iemand Quick Assist start?",
-    "Hoe lang bewaren jullie logs, en staan ze buiten de systemen zelf?",
-    "Zou jullie monitoring alarm slaan als EDR op een machine wordt uitgeschakeld?"
+    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
+    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
+    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
    ],
-   "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
+   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
    "region": "world"
   },
   {
@@ -1830,7 +1640,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.95,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -1912,7 +1722,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.35,
+    "recency": 0.34,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -2086,6 +1896,196 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "4d33a21d5cc6",
+   "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+   "url": "https://www.huntress.com/blog/token-replay-spray",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-22T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Huntress volgde tien weken een campagne tegen Microsoft 365. De aanvaller stal tokens die al na MFA waren uitgegeven, gebruikte ze op grote schaal opnieuw en bouwde daarna stille achterdeuren in.",
+   "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen accountovername. Dit stuk helpt uitleggen waarom detectie op aanmeldgedrag en goed opruimen na een incident net zo belangrijk zijn.",
+   "limitations": [
+    "Huntress noemt geen sectoren van de slachtoffers.",
+    "De cijfers over fase 3 verschillen binnen het stuk (303 aanmeldingen bij 29 organisaties, elders 232 bij 28).",
+    "Wie achter de campagne zit, is niet bevestigd; de link met een Duits hostingbedrijf is context, geen toeschrijving.",
+    "Huntress verkoopt zelf detectie en respons voor identiteiten."
+   ],
+   "topics": [
+    "siem_detection",
+    "phishing_identity",
+    "cloud_attacks",
+    "incident_response"
+   ],
+   "groups": [
+    "detectie",
+    "aanvallen",
+    "incidenten"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.49,
+    "source": 0.68,
+    "quality": 0.82,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:47:36Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties",
+   "story": [
+    "Huntress volgde van 14 juli tot 22 september 2026 een campagne tegen Microsoft 365-accounts. Huntress reageerde op incidenten bij 79 organisaties en telde minstens 497 geslaagde aanmeldingen, tegenover ruim 200.000 mislukte pogingen. De aanvaller raadde geen wachtwoorden. Hij gebruikte gestolen tokens opnieuw.",
+    "Hoe werkt inloggen normaal? Je geeft je wachtwoord en bevestigt met MFA. Daarna geeft Microsoft je een token: een digitaal toegangsbewijs, zodat je niet bij elke klik opnieuw hoeft in te loggen. Bij adversary-in-the-middle (AiTM) zet de aanvaller een nep-inlogpagina tussen jou en Microsoft. Die stuurt alles door, ook de MFA-vraag. Jij logt dus echt in, maar het token komt ook bij de aanvaller terecht. Omdat dat token al ná MFA is uitgegeven, hoeft hij MFA niet meer te passeren. Huntress zag ook tokens uit device code phishing. Binnen vier tot twaalf minuten na de diefstal gebruikten servers bij een hostingbedrijf de tokens opnieuw.",
+    "Daarna bouwde de aanvaller stille achterdeuren. Hij registreerde nep-apparaten in Entra, 48 in totaal, met namen als \"DESKTOP-\" plus acht tekens. Windows gebruikt standaard zeven. Bij 19 organisaties wiste hij de MFA-methoden van het slachtoffer en registreerde hij een eigen authenticator. Ook maakte hij verborgen inbox-regels met namen als \".\" of \"sss\". Die verplaatsten mail over salaris, bank of bonus naar weinig bekeken mappen. Een nieuw wachtwoord alleen haalt die apparaten en MFA-methoden niet weg.",
+    "Waar zie je het? In de aanmeldlogs: aanmeldingen vanaf hostingadressen met de user agent \"node\" of alleen \"Mozilla/5.0\", plotseling een ander besturingssysteem in dezelfde sessie, en MFA-methoden die binnen minuten worden gewist en opnieuw geregistreerd. Huntress raadt aan te reageren op geldige inloggegevens, niet op het aantal pogingen. Foutcode AADSTS53003 betekent bijvoorbeeld dat het inloggen zelf lukte, maar dat Conditional Access het blokkeerde. Opruimen betekent: sessies intrekken, wachtwoord resetten én apparaten, MFA-methoden en inbox-regels controleren.",
+    "Voor organisaties is de les dat MFA niet het eindpunt is. Een aanvaller met een geldig token is gewoon ingelogd. Wie na een incident alleen het wachtwoord reset, laat de achterdeuren staan."
+   ],
+   "key_facts": [
+    "Huntress volgde de campagne van 14 juli tot 22 september 2026 en reageerde op incidenten bij 79 organisaties.",
+    "Minstens 497 geslaagde aanmeldingen tegenover meer dan 200.000 mislukte pogingen.",
+    "Tokens kwamen uit AiTM-relays, device code phishing en social engineering; de tijd tussen diefstal en hergebruik was 12 minuten (21 juli) en 4 minuten (22 september).",
+    "48 nep-apparaten in Entra met de naam \"DESKTOP-\" plus acht hexadecimale tekens; bij 19 organisaties werden MFA-methoden gewist en vervangen.",
+    "Verborgen inbox-regels met korte namen verplaatsten of verwijderden mail, onder meer over salaris, bank en bonus.",
+    "Huntress: een wachtwoordreset alleen verwijdert geregistreerde apparaten en MFA-methoden van de aanvaller niet."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een vereenvoudigde weergave van drie aanmeldingen van één gebruiker. De eerste is de echte inlog. Vier minuten later volgt een aanmelding vanaf een hostingadres met user agent \"node\". Daarna wordt een nieuw apparaat geregistreerd met een naam van acht tekens na DESKTOP-.",
+    "language": "log",
+    "code": "09:12:04 user=a.devries ip=198.51.100.23 (thuisprovider) app=OfficeHome ua=\"Chrome/Windows\" result=success mfa=ok\n09:16:11 user=a.devries ip=203.0.113.77 (hosting) app=\"Microsoft Office\" ua=\"node\" request=OAuth2:Token result=success\n09:17:30 user=a.devries ip=203.0.113.77 (hosting) resource=\"Device Registration Service\" device=DESKTOP-4F9A0C2E result=success",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en vereenvoudigde veldnamen. De waarden (user agent, verzoektype, apparaatnaam) volgen de patronen uit het onderzoek."
+   },
+   "terms": [
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "adversary-in-the-middle",
+     "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
+    },
+    {
+     "term": "device code phishing",
+     "explanation": "Misbruik van de inlogmethode voor apparaten zonder toetsenbord: het slachtoffer voert een code van de aanvaller in op een echte Microsoft-pagina en geeft zo toegang."
+    },
+    {
+     "term": "Entra",
+     "explanation": "Microsoft Entra ID, voorheen Azure AD: de dienst die bijhoudt wie mag inloggen op Microsoft 365 en welke apparaten bij een organisatie horen."
+    },
+    {
+     "term": "Conditional Access",
+     "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
+   },
+   "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
+   "region": "world"
+  },
+  {
+   "id": "08252db330fb",
+   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+   "source_id": "cisco_talos",
+   "published_at": "2026-10-29T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:37.824805Z",
+   "summary": "In het derde kwartaal was phishing nog steeds de belangrijkste ingang bij incidenten die Cisco Talos onderzocht, vaak via telefoontjes van een nep-helpdesk. Het aandeel ransomware steeg naar 27 procent.",
+   "personal_relevance": "Dit soort kwartaalcijfers zijn handig om een klantgesprek mee te openen: waar komen aanvallers nu binnen, en is dat bij jullie afgedekt? Vooral het punt 'onvoldoende logging' raakt direct aan SIEM en MDR.",
+   "limitations": [
+    "De cijfers gaan alleen over zaken van het eigen incident-responseteam van Talos, niet over alle aanvallen.",
+    "Wat de bellers precies zeiden, staat niet in het rapport; ook niet of Microsoft Teams werd gebruikt.",
+    "Talos geeft geen specifieke detectieregels voor vishing."
+   ],
+   "topics": [
+    "ransomware",
+    "siem_detection",
+    "phishing_identity",
+    "incident_response"
+   ],
+   "groups": [
+    "incidenten",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.69,
+    "source": 0.8,
+    "quality": 0.65,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:44:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe",
+   "story": [
+    "Cisco Talos publiceert elk kwartaal wat zijn incident-responseteam tegenkwam. In het derde kwartaal van 2026 was phishing de vaakst gebruikte ingang (37 procent), op de voet gevolgd door het misbruiken van systemen die open naar internet staan (33 procent), zoals beveiligingsgateways en beheerschermen. Ransomware en de voorbereiding daarop waren samen goed voor 27 procent van de zaken; in de vier kwartalen daarvoor was dat steeds hooguit 20 procent.",
+    "Opvallend is vishing: phishing via de telefoon. Aanvallers deden zich voor als de IT-helpdesk en lieten slachtoffers een programma voor beheer op afstand (RMM) starten, zoals Microsoft Quick Assist. Daarmee kregen ze een legitieme ingang, die minder snel alarm geeft dan malware. Bij een zaak met de nieuwe ransomware VYPR volgden daarna PowerShell, extra beheertools en het dagenlang wegsluizen van gegevens.",
+    "Bij de zwakke plekken die Talos vond, stond onvoldoende logging bovenaan (meer dan 40 procent), gevolgd door ontbrekende of zwakke MFA en slecht beheer van wachtwoorden en sleutels (elk 33 procent). Aanvallers schakelden EDR het vaakst uit met kwetsbare drivers (BYOVD) of een kwaadaardig beleid voor Windows Defender Application Control.",
+    "Talos adviseert MFA die niet te phishen is, zoals hardwaresleutels. Belangrijk tegen de nep-helpdesk: laat het registreren van een nieuw MFA-apparaat verlopen via de helpdesk met controle van de identiteit, niet via zelfbediening. En bewaar logs minstens 90 dagen centraal, buiten het apparaat zelf."
+   ],
+   "key_facts": [
+    "Phishing was de belangrijkste eerste ingang (37 procent, vorig kwartaal meer dan 50 procent), gevolgd door misbruik van systemen aan internet (33 procent) (Talos, 29 oktober 2026).",
+    "Ransomware en pre-ransomware waren 27 procent van de zaken; in elk van de vier vorige kwartalen hooguit 20 procent.",
+    "Financiële sector en openbaar bestuur waren samen het vaakst doelwit (elk 18 procent).",
+    "Onvoldoende logging kwam voor in meer dan 40 procent van de zaken; ontbrekende of zwakke MFA in 33 procent.",
+    "In een zaak met de nieuwe ransomware VYPR werd het slachtoffer overgehaald een Microsoft Quick Assist-sessie te starten.",
+    "Talos noemt de ransomwarefamilies The Gentlemen, Qilin, Rhysida, Interlock en het nieuwe VYPR."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "vishing",
+     "explanation": "Phishing via de telefoon (voice phishing): de aanvaller belt en doet zich bijvoorbeeld voor als de IT-helpdesk."
+    },
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "BYOVD",
+     "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische cijfers over hoe aanvallen beginnen, bruikbaar voor klantgesprekken."
+   },
+   "customer_questions": [
+    "Hoe controleert jullie helpdesk wie er belt voordat er een MFA-apparaat of wachtwoord wordt gereset?",
+    "Welke tools voor beheer op afstand zijn bij jullie toegestaan, en zou je merken als iemand Quick Assist start?",
+    "Hoe lang bewaren jullie logs, en staan ze buiten de systemen zelf?",
+    "Zou jullie monitoring alarm slaan als EDR op een machine wordt uitgeschakeld?"
+   ],
+   "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
+   "region": "world"
+  },
+  {
    "id": "62c945c0e6fb",
    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
    "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
@@ -2119,7 +2119,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.91,
+    "recency": 0.9,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -2318,7 +2318,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.45,
+    "recency": 0.44,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -2469,102 +2469,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "6852a83cc063",
-   "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
-   "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
-   "source_id": "huntress_blog",
-   "published_at": "2026-10-21T13:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.290040Z",
-   "summary": "Een advertentie in Google leidde naar een nagemaakte Amazon-pagina met een nep-CAPTCHA. Wie de instructies volgde, startte zelf een keten die eindigde in een wachtwoorddief en software voor overname op afstand.",
-   "personal_relevance": "ClickFix komt in veel incidenten terug. Met dit voorbeeld kun je klanten uitleggen waarom detectie op ongewone ingebouwde Windows-programma's en ongewone poorten waardevol is, naast bewustwording bij gebruikers.",
-   "limitations": [
-    "Huntress beschrijft niet hoe de malware zich na een herstart handhaaft.",
-    "Dat de eindlading Lumma Stealer is, noemt Huntress 'vermoedelijk'.",
-    "De macOS-variant van de aanval kon niet worden onderzocht, omdat de lading offline was.",
-    "Een deel van de aanbevelingen verwijst naar een product van Huntress."
-   ],
-   "topics": [
-    "attack_techniques",
-    "siem_detection",
-    "phishing_identity",
-    "malware"
-   ],
-   "groups": [
-    "aanvallen",
-    "detectie"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.47,
-    "source": 0.68,
-    "quality": 0.73,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando",
-   "story": [
-    "Huntress beschrijft een campagne die begint bij Google. Een gesponsord zoekresultaat voor \"amazon business\" leidde naar een nagemaakte Amazon-inlogpagina op Google Sites. Na het invullen van een e-mailadres verscheen een nep-CAPTCHA. Minstens drie klanten van Huntress zijn de afgelopen maanden getroffen. Google heeft de advertentie inmiddels verwijderd.",
-    "Dit heet ClickFix. Een klik op \"I'm not a robot\" kopieert stilletjes een opdracht naar het klembord. Daarna vraagt de pagina om het Uitvoeren-venster van Windows te openen, te plakken en op Enter te drukken. Het slachtoffer start de aanval dus zelf. Dat omzeilt beveiliging die vooral let op gedownloade bestanden. De opdracht was opgevuld met spaties en streepjes, zodat in het venster alleen een onschuldige zin zichtbaar was. Ze gebruikte finger.exe: een oud Windows-hulpprogramma dat via poort 79 informatie over een gebruiker op een andere computer opvraagt. De server van de aanvaller antwoordde met tekst die in werkelijkheid een script was, en dat script werd uitgevoerd.",
-    "Daarna volgde een lange keten. Het script haalde een legitieme Python-versie van GitHub op, vermomd als pdf, en startte een verborgen loader. Die laadde de Doina-loader in het geheugen. Vervolgens kwam een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde: een infostealer die wachtwoorden, browsergegevens en cryptowallets steelt. Ook werd een illegale kopie van NetSupport geïnstalleerd, een RMM-programma voor overname op afstand. De server voegde bij elke download willekeurige bytes toe. Zo had elk bestand een andere hash, en heb je weinig aan een lijst met bekende hashes.",
-    "Hoe zie je het? Huntress raadt aan te alarmeren op het gebruik van finger.exe en op uitgaand verkeer via poort 79. Dat komt in de meeste netwerken bijna nooit voor. Verkeer via poort 725 kan op NetSupport wijzen. Je kunt het Uitvoeren-venster blokkeren voor gebruikers die het niet nodig hebben, al stopt dat varianten via PowerShell niet. En de belangrijkste les voor gebruikers: geen echte CAPTCHA vraagt je om tekst in een opdrachtvenster te plakken."
-   ],
-   "key_facts": [
-    "Huntress publiceerde het onderzoek op 21 oktober 2026; minstens drie Huntress-klanten zijn de afgelopen maanden getroffen.",
-    "De keten begon met een gesponsord Google-resultaat voor \"amazon business\" en een nagemaakte Amazon-pagina op Google Sites; Google heeft de advertentie verwijderd.",
-    "De ClickFix-opdracht gebruikte finger.exe; finger werkt standaard via TCP-poort 79.",
-    "Geïnstalleerde onderdelen: een Python-loader, de Doina-loader, een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde, en een illegale kopie van NetSupport Client die via TCP-poort 725 communiceerde.",
-    "De server voegde willekeurige null-bytes toe, waardoor elke download een unieke hash had.",
-    "Huntress: ClickFix was dit jaar goed voor ongeveer 2,2 procent van de detectiesignalen in zijn EDR-dienst."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een eenvoudige Sigma-regel die alarm slaat als finger.exe wordt gestart. Regel 1 tot 4 geven naam en ernst. Logsource zegt dat het om het starten van processen op Windows gaat. Bij selection staat waarop gezocht wordt: een programma waarvan het pad eindigt op finger.exe. Condition zegt dat dat genoeg is voor een melding.",
-    "language": "sigma",
-    "code": "title: Start van finger.exe\nstatus: experimental\ndescription: Finger wordt bijna nooit legitiem gebruikt en komt voor in ClickFix-aanvallen\nlevel: high\nlogsource:\n  product: windows\n  category: process_creation\ndetection:\n  selection:\n    Image|endswith: '\\finger.exe'\n  condition: selection",
-    "note": "Nagebouwd voorbeeld op basis van het advies van Huntress om op finger.exe te alarmeren; het stuk geeft zelf geen detectieregel."
-   },
-   "terms": [
-    {
-     "term": "CAPTCHA",
-     "explanation": "Een controle op websites die moet aantonen dat er een mens achter de computer zit, bijvoorbeeld een vinkje 'I'm not a robot' of het herkennen van plaatjes."
-    },
-    {
-     "term": "ClickFix",
-     "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
-    },
-    {
-     "term": "poort",
-     "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites."
-    },
-    {
-     "term": "loader",
-     "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend."
-    },
-    {
-     "term": "infostealer",
-     "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
-    },
-    {
-     "term": "RMM",
-     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een concrete aanvalsketen met heldere detectiesignalen."
-   },
-   "takeaway": "Bij ClickFix voert het slachtoffer zelf de aanval uit, vaak met een ingebouwd Windows-programma. Detectie werkt daarom beter op gedrag (welk programma maakt welke verbinding) dan op bekende bestanden.",
-   "region": "world"
-  },
-  {
    "id": "1c4ce65b251a",
    "title": "Camera Management Software Compromise Leads to Malware Deployment",
    "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
@@ -2598,7 +2502,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.63,
+    "recency": 0.62,
     "source": 0.68,
     "quality": 0.65,
     "fit": 0.05
@@ -2694,7 +2598,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -2764,6 +2668,102 @@
    "region": "world"
   },
   {
+   "id": "6852a83cc063",
+   "title": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
+   "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-21T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Een advertentie in Google leidde naar een nagemaakte Amazon-pagina met een nep-CAPTCHA. Wie de instructies volgde, startte zelf een keten die eindigde in een wachtwoorddief en software voor overname op afstand.",
+   "personal_relevance": "ClickFix komt in veel incidenten terug. Met dit voorbeeld kun je klanten uitleggen waarom detectie op ongewone ingebouwde Windows-programma's en ongewone poorten waardevol is, naast bewustwording bij gebruikers.",
+   "limitations": [
+    "Huntress beschrijft niet hoe de malware zich na een herstart handhaaft.",
+    "Dat de eindlading Lumma Stealer is, noemt Huntress 'vermoedelijk'.",
+    "De macOS-variant van de aanval kon niet worden onderzocht, omdat de lading offline was.",
+    "Een deel van de aanbevelingen verwijst naar een product van Huntress."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.46,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:47:36Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando",
+   "story": [
+    "Huntress beschrijft een campagne die begint bij Google. Een gesponsord zoekresultaat voor \"amazon business\" leidde naar een nagemaakte Amazon-inlogpagina op Google Sites. Na het invullen van een e-mailadres verscheen een nep-CAPTCHA. Minstens drie klanten van Huntress zijn de afgelopen maanden getroffen. Google heeft de advertentie inmiddels verwijderd.",
+    "Dit heet ClickFix. Een klik op \"I'm not a robot\" kopieert stilletjes een opdracht naar het klembord. Daarna vraagt de pagina om het Uitvoeren-venster van Windows te openen, te plakken en op Enter te drukken. Het slachtoffer start de aanval dus zelf. Dat omzeilt beveiliging die vooral let op gedownloade bestanden. De opdracht was opgevuld met spaties en streepjes, zodat in het venster alleen een onschuldige zin zichtbaar was. Ze gebruikte finger.exe: een oud Windows-hulpprogramma dat via poort 79 informatie over een gebruiker op een andere computer opvraagt. De server van de aanvaller antwoordde met tekst die in werkelijkheid een script was, en dat script werd uitgevoerd.",
+    "Daarna volgde een lange keten. Het script haalde een legitieme Python-versie van GitHub op, vermomd als pdf, en startte een verborgen loader. Die laadde de Doina-loader in het geheugen. Vervolgens kwam een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde: een infostealer die wachtwoorden, browsergegevens en cryptowallets steelt. Ook werd een illegale kopie van NetSupport geïnstalleerd, een RMM-programma voor overname op afstand. De server voegde bij elke download willekeurige bytes toe. Zo had elk bestand een andere hash, en heb je weinig aan een lijst met bekende hashes.",
+    "Hoe zie je het? Huntress raadt aan te alarmeren op het gebruik van finger.exe en op uitgaand verkeer via poort 79. Dat komt in de meeste netwerken bijna nooit voor. Verkeer via poort 725 kan op NetSupport wijzen. Je kunt het Uitvoeren-venster blokkeren voor gebruikers die het niet nodig hebben, al stopt dat varianten via PowerShell niet. En de belangrijkste les voor gebruikers: geen echte CAPTCHA vraagt je om tekst in een opdrachtvenster te plakken."
+   ],
+   "key_facts": [
+    "Huntress publiceerde het onderzoek op 21 oktober 2026; minstens drie Huntress-klanten zijn de afgelopen maanden getroffen.",
+    "De keten begon met een gesponsord Google-resultaat voor \"amazon business\" en een nagemaakte Amazon-pagina op Google Sites; Google heeft de advertentie verwijderd.",
+    "De ClickFix-opdracht gebruikte finger.exe; finger werkt standaard via TCP-poort 79.",
+    "Geïnstalleerde onderdelen: een Python-loader, de Doina-loader, een Node.js-pakket dat volgens Huntress vermoedelijk Lumma Stealer laadde, en een illegale kopie van NetSupport Client die via TCP-poort 725 communiceerde.",
+    "De server voegde willekeurige null-bytes toe, waardoor elke download een unieke hash had.",
+    "Huntress: ClickFix was dit jaar goed voor ongeveer 2,2 procent van de detectiesignalen in zijn EDR-dienst."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige Sigma-regel die alarm slaat als finger.exe wordt gestart. Regel 1 tot 4 geven naam en ernst. Logsource zegt dat het om het starten van processen op Windows gaat. Bij selection staat waarop gezocht wordt: een programma waarvan het pad eindigt op finger.exe. Condition zegt dat dat genoeg is voor een melding.",
+    "language": "sigma",
+    "code": "title: Start van finger.exe\nstatus: experimental\ndescription: Finger wordt bijna nooit legitiem gebruikt en komt voor in ClickFix-aanvallen\nlevel: high\nlogsource:\n  product: windows\n  category: process_creation\ndetection:\n  selection:\n    Image|endswith: '\\finger.exe'\n  condition: selection",
+    "note": "Nagebouwd voorbeeld op basis van het advies van Huntress om op finger.exe te alarmeren; het stuk geeft zelf geen detectieregel."
+   },
+   "terms": [
+    {
+     "term": "CAPTCHA",
+     "explanation": "Een controle op websites die moet aantonen dat er een mens achter de computer zit, bijvoorbeeld een vinkje 'I'm not a robot' of het herkennen van plaatjes."
+    },
+    {
+     "term": "ClickFix",
+     "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+     "term": "poort",
+     "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites."
+    },
+    {
+     "term": "loader",
+     "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend."
+    },
+    {
+     "term": "infostealer",
+     "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+    },
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen met heldere detectiesignalen."
+   },
+   "takeaway": "Bij ClickFix voert het slachtoffer zelf de aanval uit, vaak met een ingebouwd Windows-programma. Detectie werkt daarom beter op gedrag (welk programma maakt welke verbinding) dan op bekende bestanden.",
+   "region": "world"
+  },
+  {
    "id": "1204de495376",
    "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
    "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
@@ -2790,7 +2790,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.47,
+    "recency": 0.46,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -2984,7 +2984,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.96,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -5196,13 +5196,13 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 306,
+  "unique_after_dedupe": 320,
   "merged_duplicates": 1,
   "shown": 25,
   "decisions": {
-   "included": 138,
-   "below_threshold": 74,
-   "no_topic": 68,
+   "included": 141,
+   "below_threshold": 78,
+   "no_topic": 75,
    "excluded": 26
   },
   "processing": {
@@ -5224,8 +5224,8 @@
    "divd": 1,
    "cisco_talos": 3,
    "microsoft_threat_intel": 3,
-   "huntress_blog": 3,
    "bleepingcomputer": 3,
+   "huntress_blog": 3,
    "watchtowr_labs": 1
   },
   "date_flags": [
@@ -5276,7 +5276,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 187
+   "skipped_no_key": 194
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5292,7 +5292,7 @@
     "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
-    "relevance_score": 91,
+    "relevance_score": 90,
     "decision": "included",
     "excluded_by": []
    },
@@ -5345,6 +5345,14 @@
     ]
    },
    {
+    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "relevance_score": 85,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
@@ -5395,22 +5403,6 @@
     ]
    },
    {
-    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
@@ -5440,6 +5432,22 @@
     "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -5497,14 +5505,6 @@
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
     "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
-    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
@@ -5657,14 +5657,12 @@
     ]
    },
    {
-    "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
+    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
     "relevance_score": 81,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
@@ -5675,20 +5673,14 @@
     "excluded_by": []
    },
    {
-    "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-    "relevance_score": 81,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
+    "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
     "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
@@ -5707,9 +5699,25 @@
     "excluded_by": []
    },
    {
+    "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
+    "relevance_score": 79,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
     "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
@@ -5739,22 +5747,6 @@
     "excluded_by": []
    },
    {
-    "title": "Introducing pathrunner: An AWS privilege escalation framework",
-    "source_id": "datadog_security_labs",
-    "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
-    "relevance_score": 77,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
-    "relevance_score": 77,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
     "source_id": "huntress_blog",
     "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
@@ -5763,9 +5755,25 @@
     "excluded_by": []
    },
    {
-    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Introducing pathrunner: An AWS privilege escalation framework",
+    "source_id": "datadog_security_labs",
+    "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
     "relevance_score": 76,
     "decision": "included",
     "excluded_by": []
@@ -5790,14 +5798,6 @@
     "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
     "source_id": "microsoft_threat_intel",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-    "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
-    "source_id": "unit42",
-    "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []

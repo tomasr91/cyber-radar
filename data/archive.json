@@ -2455,7 +2455,119 @@
    "published_raw": "Thu, 05 Nov 2026 10:02:00 +0000",
    "fetched_at": "2026-11-05T18:27:30.992161Z",
    "excerpt": "<p>OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/\">OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "watchtowr_labs:2e711d3789ca": {
+   "source_id": "watchtowr_labs",
+   "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+   "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "published_raw": "Thu, 05 Nov 2026 21:19:58 GMT",
+   "fetched_at": "2026-11-06T01:23:34.841521Z",
+   "excerpt": "<p>Yes, that&apos;s right! Today we&apos;re at the aquarium.</p><p><strong>Welcome back to yet another watchTowr Labs blog post. You can begin preparing your comments now.</strong></p><figure class=\"kg-card kg-video-card kg-width-regular\" data-kg-thumbnail=\"https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/media/2026/11/barracuda_thumb.jpg\" data-kg-custom-thumbnail>\n            <div class=\"kg-video-container\">\n                <video src=\"https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/media/2026/11/barracuda.mp4\" poster=\"https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/media/2026/11/barracuda_thumb.jpg\" width=\"3840\" height=\"2160\" playsinline preload=\"metadata\" controls></video>\n                \n                \n            </div>\n            \n        </figure><h3 id=\"what-is-a-barracuda-and-why-must-we\">What Is A Barracuda, And Why? Must We?</h3><p>Barracuda&#x2019;s Email Security Gateway solution (ESG) is <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;ref=labs.watchtowr.com\">no stranger to love</a>, for</p>"
+  },
+  "cisco_talos:7cc7abc12731": {
+   "source_id": "cisco_talos",
+   "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+   "url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+   "published_raw": "Thu, 05 Nov 2026 19:00:00 GMT",
+   "fetched_at": "2026-11-06T01:23:34.992093Z",
+   "excerpt": "Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side."
+  },
+  "microsoft_threat_intel:9fcf62b29cf8": {
+   "source_id": "microsoft_threat_intel",
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "published_raw": "Thu, 05 Nov 2026 23:46:50 +0000",
+   "fetched_at": "2026-11-06T01:23:37.390589Z",
+   "excerpt": "<p>Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/\">Threat actors use agentic AI tooling to find and abuse exposed secrets</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "huntress_blog:5389ed94f21f": {
+   "source_id": "huntress_blog",
+   "title": "Defense Drill Interventions",
+   "url": "https://www.huntress.com/blog/defense-drill-interventions",
+   "published_raw": "2026-11-05T15:00:00Z",
+   "fetched_at": "2026-11-06T01:23:37.547136Z",
+   "excerpt": "Defense Drill Interventions pair Managed EDR with just-in-time SAT training, so users learn the moment they fall for ClickFix."
+  },
+  "bleepingcomputer:e736f19a654e": {
+   "source_id": "bleepingcomputer",
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "published_raw": "Thu, 05 Nov 2026 19:56:44 -0500",
+   "fetched_at": "2026-11-06T01:23:37.855303Z",
+   "excerpt": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]"
+  },
+  "bleepingcomputer:d4ae1adfd166": {
+   "source_id": "bleepingcomputer",
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "published_raw": "Thu, 05 Nov 2026 16:30:30 -0500",
+   "fetched_at": "2026-11-06T01:23:37.855303Z",
+   "excerpt": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]"
+  },
+  "bleepingcomputer:2f83bfb8be82": {
+   "source_id": "bleepingcomputer",
+   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+   "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+   "published_raw": "Thu, 05 Nov 2026 15:15:08 -0500",
+   "fetched_at": "2026-11-06T01:23:37.855303Z",
+   "excerpt": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]"
+  },
+  "bleepingcomputer:7dc2db70b4d9": {
+   "source_id": "bleepingcomputer",
+   "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "published_raw": "Thu, 05 Nov 2026 14:24:26 -0500",
+   "fetched_at": "2026-11-06T01:23:37.855303Z",
+   "excerpt": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]"
+  },
+  "the_record:3189ce2b4e22": {
+   "source_id": "the_record",
+   "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+   "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+   "published_raw": "Thu, 05 Nov 2026 22:08:00 GMT",
+   "fetched_at": "2026-11-06T01:23:37.957188Z",
+   "excerpt": "The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack."
+  },
+  "the_record:835e42a20ded": {
+   "source_id": "the_record",
+   "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+   "url": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+   "published_raw": "Thu, 05 Nov 2026 20:48:00 GMT",
+   "fetched_at": "2026-11-06T01:23:37.957188Z",
+   "excerpt": "Google, Meta and TikTok each filed suit in federal court against an incoming California law that blocks platforms from deploying features considered “psychologically exploitative.”"
+  },
+  "the_record:8b7832becd89": {
+   "source_id": "the_record",
+   "title": "US issues more sanctions against Prince Group scam center affiliates",
+   "url": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+   "published_raw": "Thu, 05 Nov 2026 20:11:00 GMT",
+   "fetched_at": "2026-11-06T01:23:37.957188Z",
+   "excerpt": "The sanctions target four people and 41 companies linked to the Prince Group — a Cambodian company accused of running a billion-dollar scam operation."
+  },
+  "the_record:dd3956422471": {
+   "source_id": "the_record",
+   "title": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
+   "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+   "published_raw": "Thu, 05 Nov 2026 19:15:00 GMT",
+   "fetched_at": "2026-11-06T01:23:37.957188Z",
+   "excerpt": "The U.S. government on Thursday called on critical infrastructure operators to safeguard their cooling systems following hacks that have caused chaos in European supermarkets in recent weeks."
+  },
+  "the_hacker_news:3fe484f436f5": {
+   "source_id": "the_hacker_news",
+   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "published_raw": "Thu, 05 Nov 2026 22:12:46 +0530",
+   "fetched_at": "2026-11-06T01:23:38.223147Z",
+   "excerpt": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every"
+  },
+  "the_hacker_news:306be99284dc": {
+   "source_id": "the_hacker_news",
+   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+   "published_raw": "Thu, 05 Nov 2026 22:12:32 +0530",
+   "fetched_at": "2026-11-06T01:23:38.223147Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,"
   }
  },
- "updated_at": "2026-11-05T18:29:09.559990Z"
+ "updated_at": "2026-11-06T01:23:31.355926Z"
 }
