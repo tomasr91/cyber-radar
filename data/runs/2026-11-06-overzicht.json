@@ -1,0 +1,13 @@
+{
+ "task": "overzicht",
+ "started_at": "2026-11-06T03:22:41Z",
+ "finished_at": "2026-11-06T03:24:04Z",
+ "status": "ok",
+ "summary": "3 trends bijgewerkt (AI-agenten bij inbraken, misbruikte vpn- en randapparaten, MFA omzeild met gestolen sessies); geen verzoeken voor de interesses en geen stukken zonder begrippen.",
+ "counts": {
+  "trends": 3,
+  "interesses_aangepast": 0,
+  "begrippen_aangevuld": 0
+ },
+ "problems": []
+}
