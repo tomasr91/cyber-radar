@@ -1,65 +1,63 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-05T03:00:00Z",
+  "generated_at": "2026-11-06T02:40:00Z",
   "options": [
     {
-      "id": "remote-code-execution",
-      "title": "Remote Code Execution - een server opdrachten laten uitvoeren",
-      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?",
-      "why": "PHP2Shell in PHP zelf en de lekkenketen in PaperCut laten deze weken zien hoe een webverzoek zonder inlog kan eindigen in opdrachten op de server.",
+      "id": "hoe-werkt-een-website",
+      "title": "Wat gebeurt er als je een website opent?",
+      "question": "Wat doen de browser (client), de webserver en de database als je een webpagina opent, en waar kan een aanvaller ingrijpen?",
+      "why": "Bij webhoster DreamHost zaten aanvallers maandenlang in de webgebaseerde File Manager en stalen ze FTP-wachtwoorden: wie weet hoe een webapplicatie op een server werkt, ziet waar zo'n aanval kan beginnen.",
       "topics": [
-        "attack_techniques",
-        "vulnerabilities_cve",
+        "web_software_security",
+        "attack_techniques"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "phishing-technisch",
+      "title": "Phishing technisch bekeken - van mail tot gestolen sessie",
+      "question": "Wat gebeurt er technisch bij een moderne phishingaanval, ook als er MFA aan staat?",
+      "why": "Trend van deze weken: aanvallers omzeilen MFA met sessietokens uit nep-inlogpagina's en device code phishing, en Vercel koppelt inlogsessies nu aan het apparaat om gestolen cookies waardeloos te maken.",
+      "topics": [
+        "phishing_identity",
         "siem_detection"
       ],
       "area": "techniek"
     },
     {
-      "id": "edge-devices-als-ingang",
-      "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
-      "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
-      "why": "Trend van deze weken: lekken in vpn- en netwerkapparaten worden volop misbruikt, en op 3 november bleken bijgewerkte Ivanti-vpn's opnieuw kwetsbaar voor twee zero-days.",
+      "id": "exploit-en-zero-day",
+      "title": "Van kwetsbaarheid naar exploit - en wat een zero-day is",
+      "question": "Wat is het verschil tussen een kwetsbaarheid, een proof of concept en een exploit, en waarom zijn zero-days zo gevaarlijk?",
+      "why": "Bij Ivanti combineerden aanvallers drie zero-days om bijgewerkte vpn-servers over te nemen, en bij Binance zag de endpointbeveiliging een zero-day in een nep-programmeeropdracht niet.",
       "topics": [
-        "edge_devices",
         "exploited_vulnerabilities",
-        "vulnerability_management"
+        "vulnerabilities_cve",
+        "threat_intelligence"
       ],
       "area": "kwetsbaarheden"
     },
     {
-      "id": "ai-agenten-bij-inbraken",
-      "title": "AI-agenten bij inbraken: wat doen ze, en waarom vallen ze zo op?",
-      "question": "Hoe laat een aanvaller een AI-framework zelf inloggen, verkennen en rechten verhogen, en welke sporen laat dat achter in logs?",
-      "why": "Trend van deze weken: Google zag aanvallers met frameworks als ARTEX binnen minuten tot uren diep in een netwerk komen, met opvallend veel verzoeken en sporen.",
+      "id": "llmjacking-gestolen-cloudsleutels",
+      "title": "LLMJacking: hoe gestolen cloudsleutels een AI-rekening van een miljoen opleveren",
+      "question": "Wat zijn cloud- en API-sleutels, hoe komen aanvallers eraan, hoe misbruiken ze er AI-diensten mee, en wat zie je daarvan terug in de cloudlogs?",
+      "why": "Mandiant zag dit jaar meerdere LLMJacking-incidenten met kosten tot 1 miljoen dollar, en bij Google Cloud staan de logs voor modelverzoeken standaard uit.",
       "topics": [
-        "attack_techniques",
-        "threat_intelligence",
-        "siem_detection"
-      ],
-      "area": "techniek"
-    },
-    {
-      "id": "incident-response-stappen",
-      "title": "Incident response - wat gebeurt er na het alarm?",
-      "question": "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?",
-      "why": "DIVD beschreef open hoe het een inbraak via zero-days in Zammad binnen 19 minuten zag en daarna indamde: een zeldzaam Nederlands voorbeeld van incident response van binnenuit.",
-      "topics": [
-        "incident_response",
-        "incidents_breaches"
-      ],
-      "area": "praktijk"
-    },
-    {
-      "id": "anatomie-ransomware-aanval",
-      "title": "Anatomie van een ransomware-aanval, stap voor stap",
-      "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
-      "why": "Unit 42 beschreef in oktober hoe ransomwaregroepen via een vpn-lek binnenkwamen en via RMM-tools, RDP en vCenter doorliepen tot de versleuteling.",
-      "topics": [
-        "ransomware",
-        "attack_techniques",
-        "siem_detection"
+        "cloud_attacks",
+        "siem_detection",
+        "phishing_identity"
       ],
       "area": "incidenten"
+    },
+    {
+      "id": "hoe-werkt-een-siem",
+      "title": "Hoe werkt een SIEM nu echt?",
+      "question": "Welke logs komen in een SIEM, hoe worden ze gecombineerd, hoe ontstaat een alert, en wat doet een analist ermee?",
+      "why": "Huntress vond in één Microsoft 365-campagne minstens 497 geslaagde aanmeldingen tussen meer dan 200.000 mislukte pogingen: precies het werk van een SIEM, de paar echte uit de stapel halen.",
+      "topics": [
+        "siem_detection",
+        "incident_response"
+      ],
+      "area": "praktijk"
     }
   ],
   "history": [
@@ -122,6 +120,65 @@
         "siem_detection"
       ],
       "area": "techniek"
+    },
+    {
+      "id": "remote-code-execution",
+      "title": "Remote Code Execution - een server opdrachten laten uitvoeren",
+      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert, en wat ziet een securityteam dan?",
+      "why": "PHP2Shell in PHP zelf en de lekkenketen in PaperCut laten deze weken zien hoe een webverzoek zonder inlog kan eindigen in opdrachten op de server.",
+      "topics": [
+        "attack_techniques",
+        "vulnerabilities_cve",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "edge-devices-als-ingang",
+      "title": "Waarom VPN's en firewalls de favoriete ingang van aanvallers zijn",
+      "question": "Waarom misbruiken aanvallers zo vaak kwetsbaarheden in apparaten aan de rand van het netwerk, en wat moet een organisatie daarmee?",
+      "why": "Trend van deze weken: lekken in vpn- en netwerkapparaten worden volop misbruikt, en op 3 november bleken bijgewerkte Ivanti-vpn's opnieuw kwetsbaar voor twee zero-days.",
+      "topics": [
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "vulnerability_management"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "ai-agenten-bij-inbraken",
+      "title": "AI-agenten bij inbraken: wat doen ze, en waarom vallen ze zo op?",
+      "question": "Hoe laat een aanvaller een AI-framework zelf inloggen, verkennen en rechten verhogen, en welke sporen laat dat achter in logs?",
+      "why": "Trend van deze weken: Google zag aanvallers met frameworks als ARTEX binnen minuten tot uren diep in een netwerk komen, met opvallend veel verzoeken en sporen.",
+      "topics": [
+        "attack_techniques",
+        "threat_intelligence",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "incident-response-stappen",
+      "title": "Incident response - wat gebeurt er na het alarm?",
+      "question": "Welke stappen doorloopt een organisatie bij een echt incident, en welke beslissingen zijn lastig?",
+      "why": "DIVD beschreef open hoe het een inbraak via zero-days in Zammad binnen 19 minuten zag en daarna indamde: een zeldzaam Nederlands voorbeeld van incident response van binnenuit.",
+      "topics": [
+        "incident_response",
+        "incidents_breaches"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "anatomie-ransomware-aanval",
+      "title": "Anatomie van een ransomware-aanval, stap voor stap",
+      "question": "Welke stappen doorloopt een ransomwaregroep van eerste toegang tot versleuteling, en waar had een securityteam het kunnen zien?",
+      "why": "Unit 42 beschreef in oktober hoe ransomwaregroepen via een vpn-lek binnenkwamen en via RMM-tools, RDP en vCenter doorliepen tot de versleuteling.",
+      "topics": [
+        "ransomware",
+        "attack_techniques",
+        "siem_detection"
+      ],
+      "area": "incidenten"
     }
   ]
 }
