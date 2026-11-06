@@ -2567,7 +2567,15 @@
    "published_raw": "Thu, 05 Nov 2026 22:12:32 +0530",
    "fetched_at": "2026-11-06T01:23:38.223147Z",
    "excerpt": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,"
+  },
+  "securityweek:eb4cef79cf67": {
+   "source_id": "securityweek",
+   "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+   "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+   "published_raw": "Fri, 06 Nov 2026 03:03:29 +0000",
+   "fetched_at": "2026-11-06T03:24:14.202233Z",
+   "excerpt": "<p>The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. </p>\n<p>The post <a href=\"https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/\">3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-06T02:24:50.364683Z"
+ "updated_at": "2026-11-06T03:24:08.934049Z"
 }

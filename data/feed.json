@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T02:24:50.364683Z",
+ "generated_at": "2026-11-06T03:24:08.934049Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-06T02:24:50.364683Z",
+ "last_successful_update": "2026-11-06T03:24:08.934049Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T02:24:50.407330Z"
+   "checked_at": "2026-11-06T03:24:08.999546Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T02:24:51.005940Z"
+   "checked_at": "2026-11-06T03:24:09.463260Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T02:24:51.748086Z"
+   "checked_at": "2026-11-06T03:24:10.039108Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T02:24:51.923194Z"
+   "checked_at": "2026-11-06T03:24:10.197554Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T02:24:53.135569Z"
+   "checked_at": "2026-11-06T03:24:11.002891Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T02:24:53.290865Z"
+   "checked_at": "2026-11-06T03:24:11.132853Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T02:24:53.415483Z"
+   "checked_at": "2026-11-06T03:24:11.214938Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T02:24:53.557047Z"
+   "checked_at": "2026-11-06T03:24:11.286351Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T02:24:53.970672Z"
+   "checked_at": "2026-11-06T03:24:11.747290Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T02:24:55.777920Z"
+   "checked_at": "2026-11-06T03:24:13.341989Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T02:24:56.076690Z"
+   "checked_at": "2026-11-06T03:24:13.622833Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T02:24:57.091749Z"
+   "checked_at": "2026-11-06T03:24:13.658189Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T02:24:57.299675Z"
+   "checked_at": "2026-11-06T03:24:13.787346Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T02:24:57.501913Z"
+   "checked_at": "2026-11-06T03:24:13.897756Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T02:24:57.642603Z"
+   "checked_at": "2026-11-06T03:24:13.949440Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T02:24:57.749325Z"
+   "checked_at": "2026-11-06T03:24:13.985522Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T02:24:57.991551Z"
+   "checked_at": "2026-11-06T03:24:14.082301Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T02:24:58.228080Z"
+   "checked_at": "2026-11-06T03:24:14.202233Z"
   }
  ],
  "daily_top": [
@@ -1300,7 +1300,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.67,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -2410,7 +2410,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -3757,7 +3757,7 @@
   {
    "id": "ai-agenten-voeren-inbraken-uit",
    "title": "Aanvallers laten AI-agenten als ARTEX een groot deel van de inbraak doen",
-   "summary": "Google, Microsoft en WorkOS zagen aanvallers die open-source AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Unit 42 beschreef een crimineel die met een gekraakt AI-model aanvallen plande en tools liet schrijven, en schat bij een spionagegroep op Linux-servers in dat de scripts door AI zijn geschreven, al is dat niet bewezen. Het komt nu op omdat zulke frameworks sinds eind augustus in echte incidenten opduiken: snel, maar met veel sporen, zoals honderden aanmeldingen of herkenbare user agents.",
+   "summary": "Google, Microsoft en WorkOS zagen aanvallers die open-source AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Unit 42 beschreef een crimineel die met een gekraakt AI-model aanvallen plande en tools liet schrijven, en Chainalysis noemde begin november 'offensive agentic techniques' bij een inbraak, zonder uit te leggen wat dat inhoudt. Het komt nu op omdat zulke frameworks sinds eind augustus in echte incidenten opduiken: snel, maar met veel sporen, zoals honderden aanmeldingen of herkenbare user agents.",
    "topics": [
     "attack_techniques",
     "threat_intelligence",
@@ -3768,14 +3768,14 @@
     "f8af8b71c7c1",
     "62c945c0e6fb",
     "1204de495376",
-    "d0e0e442d471"
+    "350327fdd7cd"
    ],
-   "generated_at": "2026-11-05T03:24:27Z"
+   "generated_at": "2026-11-06T03:23:47Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
    "title": "Lekken in vpn- en netwerkapparaten aan de rand van het netwerk volop misbruikt",
-   "summary": "Onderzoekers beschreven in oktober aanvallen via lekken in vpn-servers van Ivanti en Palo Alto, Cisco SD-WAN-controllers en BeyondTrust Remote Support. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog, om daarna wachtwoorden of sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: lekken uit februari en mei worden nog misbruikt, en bij Ivanti bleken bijgewerkte versies opnieuw kwetsbaar.",
+   "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en Palo Alto en in Cisco SD-WAN-controllers. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog, om daarna wachtwoorden of sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: het Palo Alto-lek uit mei wordt nog door ransomwaregroepen misbruikt, en bij Ivanti bleken bijgewerkte versies opnieuw kwetsbaar.",
    "topics": [
     "edge_devices",
     "exploited_vulnerabilities"
@@ -3783,10 +3783,9 @@
    "article_ids": [
     "df100ad46108",
     "0968634953ed",
-    "7b72d51a9df2",
-    "580236cbddf9"
+    "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-05T03:24:27Z"
+   "generated_at": "2026-11-06T03:23:47Z"
   },
   {
    "id": "mfa-omzeild-met-gestolen-sessies",
@@ -3802,7 +3801,7 @@
     "08252db330fb",
     "94ac3c3bdec2"
    ],
-   "generated_at": "2026-11-05T03:24:27Z"
+   "generated_at": "2026-11-06T03:23:47Z"
   }
  ],
  "weekly": null,
@@ -5620,13 +5619,13 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 320,
+  "unique_after_dedupe": 321,
   "merged_duplicates": 1,
   "shown": 28,
   "decisions": {
    "included": 141,
    "below_threshold": 78,
-   "no_topic": 75,
+   "no_topic": 76,
    "excluded": 26
   },
   "processing": {
@@ -6221,9 +6220,9 @@
     "excluded_by": []
    },
    {
-    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
