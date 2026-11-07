@@ -2975,7 +2975,15 @@
    "published_raw": "Fri, 06 Nov 2026 09:33:51 +0000",
    "fetched_at": "2026-11-07T01:23:05.719507Z",
    "excerpt": "<p>After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/\">OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "microsoft_threat_intel:0e357ff8418d": {
+   "source_id": "microsoft_threat_intel",
+   "title": "ARTEX abuse expands as cybercriminals target financial sector",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+   "published_raw": "Sat, 07 Nov 2026 02:44:34 +0000",
+   "fetched_at": "2026-11-07T03:25:13.224890Z",
+   "excerpt": "<p>In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/\">ARTEX abuse expands as cybercriminals target financial sector</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
   }
  },
- "updated_at": "2026-11-07T03:24:20.523321Z"
+ "updated_at": "2026-11-07T03:25:07.883128Z"
 }
