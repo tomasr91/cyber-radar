@@ -2591,7 +2591,391 @@
    "published_raw": "Fri, 06 Nov 2026 11:09:10 +0530",
    "fetched_at": "2026-11-06T07:19:04.207644Z",
    "excerpt": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a"
+  },
+  "security_nl:7a9316fb2302": {
+   "source_id": "security_nl",
+   "title": "Overheid: digitale weerbaarheid Nederland blijft achter bij cyberdreiging",
+   "url": "https://www.security.nl/posting/960681/Overheid%3A+digitale+weerbaarheid+Nederland+blijft+achter+bij+cyberdreiging?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 17:16:33 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "De digitale weerbaarheid van Nederland blijft structureel achter bij de cyberdreiging, wat komt omdat veel bedrijven de ..."
+  },
+  "security_nl:729af34c68fa": {
+   "source_id": "security_nl",
+   "title": "VS klaagt drietal aan voor diefstal van 129 miljoen dollar via 'AI-directeur'",
+   "url": "https://www.security.nl/posting/960668/VS+klaagt+drietal+aan+voor+diefstal+van+129+miljoen+dollar+via+%27AI-directeur%27?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 16:11:46 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "De Amerikaanse autoriteiten hebben drie mannen aangeklaagd voor het stelen van 129 miljoen dollar van bedrijven, waarbij ..."
+  },
+  "security_nl:3a0882b07c32": {
+   "source_id": "security_nl",
+   "title": "QNAP waarschuwt Plex-gebruikers voor Plex2Shell: 'Meteen patchen'",
+   "url": "https://www.security.nl/posting/960654/QNAP+waarschuwt+Plex-gebruikers+voor+Plex2Shell%3A+%27Meteen+patchen%27?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 15:15:17 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "NAS-fabrikant QNAP waarschuwt gebruikers die Plex Media Server op hun NAS-systeem draaien voor Plex2Shell en roept op om de ..."
+  },
+  "security_nl:b51270d83c90": {
+   "source_id": "security_nl",
+   "title": "Gebruikers keyboard-app Sogou via DNS hijacking besmet met malware",
+   "url": "https://www.security.nl/posting/960642/Gebruikers+keyboard-app+Sogou+via+DNS+hijacking+besmet+met+malware?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 14:39:06 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Gebruikers van de Chinese keyboard-app Sogou zijn weer het doelwit van malware-aanvallen geworden. Dit keer gebeurde dat via ..."
+  },
+  "security_nl:41d161578e3c": {
+   "source_id": "security_nl",
+   "title": "Misbruik OpenSSH-lek gemeld: 'Voorlopig botnets en cryptominers'",
+   "url": "https://www.security.nl/posting/960618/Misbruik+OpenSSH-lek+gemeld%3A+%27Voorlopig+botnets+en+cryptominers%27?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 13:28:58 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Aanvallers maken misbruik van de '*SSHole' kwetsbaarheid in OpenSSH, zo melden verschillende cybersecuritybedrijven. Via het ..."
+  },
+  "security_nl:b9d6c822e624": {
+   "source_id": "security_nl",
+   "title": "Nieuwe maatstaf voor 'grof nalatig’ handelen bankklant bij niet-toegestane betaling",
+   "url": "https://www.security.nl/posting/960622/Nieuwe+maatstaf+voor+%27grof+nalatig%E2%80%99+handelen+bankklant+bij+niet-toegestane+betaling?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 13:00:00 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Het financiële klachteninstituut Kifid is met een nieuwe maatstaf gekomen om duidelijk te maken wanneer er sprake is van 'grof ..."
+  },
+  "security_nl:76b7192945a1": {
+   "source_id": "security_nl",
+   "title": "AI-agent Claude Code deelde e-mailadres gebruikers met websites",
+   "url": "https://www.security.nl/posting/960604/AI-agent+Claude+Code+deelde+e-mailadres+gebruikers+met+websites?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 11:41:00 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "AI-agent Claude Code deelde zonder toestemming het e-mailadres van gebruikers met allerlei websites, die hierdoor spam ..."
+  },
+  "security_nl:c8c6f75751f7": {
+   "source_id": "security_nl",
+   "title": "Belgische overheid wijst burgers op beveiligen van online privékoelkast",
+   "url": "https://www.security.nl/posting/960592/Belgische+overheid+wijst+burgers+op+beveiligen+van+online+priv%C3%A9koelkast?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 10:49:07 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "De Belgische overheid roept burgers op om hun online privékoelkast te beveiligen en na te denken of het nodig is het apparaat ..."
+  },
+  "security_nl:803fb677b82c": {
+   "source_id": "security_nl",
+   "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
+   "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 10:38:58 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Aanvallers vallen op grote schaal WordPress-sites aan via een kwetsbaarheid die zich voordoet tijdens het installeren van ..."
+  },
+  "security_nl:2e11f01c5d42": {
+   "source_id": "security_nl",
+   "title": "Microsoft: groot aantal lekken betekent niet dat Windows minder veilig is",
+   "url": "https://www.security.nl/posting/960583/Microsoft%3A+groot+aantal+lekken+betekent+niet+dat+Windows+minder+veilig+is?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 10:10:00 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Vorige maand kwam Microsoft met patches voor meer dan 1100 beveiligingslekken in Windows waar een CVE-nummer aan was toegekend. ..."
+  },
+  "security_nl:fb80012b42c3": {
+   "source_id": "security_nl",
+   "title": "FBI waarschuwt supermarkten: 'Haal koelsystemen nu van het internet'",
+   "url": "https://www.security.nl/posting/960578/FBI+waarschuwt+supermarkten%3A+%27Haal+koelsystemen+nu+van+het+internet%27?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 09:43:00 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "De FBI waarschuwt supermarkten en andere bedrijven die van koelsystemen gebruikmaken om de installaties meteen van het internet ..."
+  },
+  "security_nl:ac583aa19162": {
+   "source_id": "security_nl",
+   "title": "Apple gaat via iCloud gedeelde foto's en bestanden controleren",
+   "url": "https://www.security.nl/posting/960574/Apple+gaat+via+iCloud+gedeelde+foto%27s+en+bestanden+controleren?channel=rss",
+   "published_raw": "Fri, 06 Nov 2026 09:14:00 +0100",
+   "fetched_at": "2026-11-07T01:22:57.909015Z",
+   "excerpt": "Apple gaat foto's en andere bestanden controleren die mensen via iCloud delen, zo heeft het techbedrijf aangekondigd. Daarbij ..."
+  },
+  "ncsc_nl_advisories:c326e52c604c": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0470 [1.00] [M/H] Kwetsbaarheid verholpen in Windows Paint van Microsoft",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0470",
+   "published_raw": "Fri, 06 Nov 2026 08:10:35 +0000",
+   "fetched_at": "2026-11-07T01:22:58.849471Z",
+   "excerpt": "Microsoft heeft een kwetsbaarheid verholpen in Windows Paint. De kwetsbaarheid betreft een out-of-bounds read in Microsoft Windows Paint (CWE-125), waardoor een aanvaller onder specifieke omstandigheden willekeurige code kan uitvoeren op het getroffen systeem."
+  },
+  "ncsc_nl_advisories:89b519808f75": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0469 [1.00] [M/H] Kwetsbaarheid verholpen in OpenSSH door OpenSSH Project",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0469",
+   "published_raw": "Fri, 06 Nov 2026 07:54:37 +0000",
+   "fetched_at": "2026-11-07T01:22:58.849471Z",
+   "excerpt": "Het OpenSSH project heeft een kwetsbaarheid verholpen in sshd van OpenSSH versies ouder dan 10.6p2. De kwetsbaarheid treft Linux systemen die gebruikmaken van musl libc en waarop PAM niet wordt gebruikt. De kwetsbaarheid betreft een bypass van de SSH-wachtwoordauthenticatie bij gebruik van wachtwoorden met een lengte van 257 tot 1024 bytes. De oorzaak ligt in de interactie tussen de authenticatieafhandeling van OpenSSH (sshd) en de implementatie van crypt() in musl libc, in omgevingen waarin PAM niet wordt gebruikt. Hierdoor kan een aanvaller onder specifieke omstandigheden de wachtwoordverificatie omzeilen en mogelijk ongeautoriseerde toegang tot het systeem verkrijgen.\n\nMisbruik vereist dat aan meerdere voorwaarden wordt voldaan:\n\n- Het systeem draait Linux met musl libc, zoals Alpine Linux.\n- OpenSSH draait zonder PAM.\n- PasswordAuthentication is ingeschakeld.\n- Er is een account aanwezig met een * als password hash en minimaal één ander account met een geldige SHA-256 of SHA-512 password hash.\n\nDe kwetsbaarheid is daarmee beperkt tot specifieke configuraties. Reguliere Debian en Ubuntu installaties, die gebruikmaken van glibc, vallen buiten het beschreven toepassingsgebied.\n\nVanuit securityoogpunt wordt geadviseerd SSH-beheerdiensten niet rechtstreeks aan het internet bloot te stellen. Beperk de toegang waar mogelijk tot vertrouwde netwerken en schakel wachtwoordauthenticatie uit wanneer deze niet noodzakelijk is."
+  },
+  "unit42:360f618c2f94": {
+   "source_id": "unit42",
+   "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System",
+   "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+   "published_raw": "Fri, 06 Nov 2026 21:15:09 +0000",
+   "fetched_at": "2026-11-07T01:23:04.574824Z",
+   "excerpt": "<p>Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/\">Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>"
+  },
+  "huntress_blog:ac21020d2275": {
+   "source_id": "huntress_blog",
+   "title": "Brute Force Sentry for Managed SIEM | Huntress",
+   "url": "https://www.huntress.com/blog/brute-force-sentry",
+   "published_raw": "2026-11-06T21:00:00Z",
+   "fetched_at": "2026-11-07T01:23:04.722822Z",
+   "excerpt": "Huntress Managed SIEM's Brute Force Sentry turns the brute force attacks our SOC sees in the field into detections that fire earlier, with the evidence and hardening guidance partners need to close the gap."
+  },
+  "huntress_blog:a2f288b26c0f": {
+   "source_id": "huntress_blog",
+   "title": "Adversary Infrastructure New Huntress ITDR Feature",
+   "url": "https://www.huntress.com/blog/itdr-adversary-infrastructure",
+   "published_raw": "2026-11-05T05:00:00Z",
+   "fetched_at": "2026-11-07T01:23:04.722822Z",
+   "excerpt": "Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection."
+  },
+  "bleepingcomputer:ff63fc905db0": {
+   "source_id": "bleepingcomputer",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "published_raw": "Fri, 06 Nov 2026 19:00:55 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]"
+  },
+  "bleepingcomputer:9d995ed0edec": {
+   "source_id": "bleepingcomputer",
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "published_raw": "Fri, 06 Nov 2026 17:27:25 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]"
+  },
+  "bleepingcomputer:a0b0bc2c9ffa": {
+   "source_id": "bleepingcomputer",
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "published_raw": "Fri, 06 Nov 2026 15:24:19 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]"
+  },
+  "bleepingcomputer:e3df59173f27": {
+   "source_id": "bleepingcomputer",
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "published_raw": "Fri, 06 Nov 2026 13:46:52 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]"
+  },
+  "bleepingcomputer:bfcfca07d1ea": {
+   "source_id": "bleepingcomputer",
+   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+   "published_raw": "Fri, 06 Nov 2026 12:04:23 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]"
+  },
+  "bleepingcomputer:822a8988774e": {
+   "source_id": "bleepingcomputer",
+   "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+   "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+   "published_raw": "Fri, 06 Nov 2026 10:25:31 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]"
+  },
+  "bleepingcomputer:61f003d9bff4": {
+   "source_id": "bleepingcomputer",
+   "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+   "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+   "published_raw": "Fri, 06 Nov 2026 10:00:10 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]"
+  },
+  "bleepingcomputer:455fb4d64db9": {
+   "source_id": "bleepingcomputer",
+   "title": "Chainalysis says breach exposed credentials for all customers",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+   "published_raw": "Fri, 06 Nov 2026 09:17:07 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]"
+  },
+  "bleepingcomputer:1db6cddcf641": {
+   "source_id": "bleepingcomputer",
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "published_raw": "Fri, 06 Nov 2026 07:37:22 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]"
+  },
+  "bleepingcomputer:197757f56a66": {
+   "source_id": "bleepingcomputer",
+   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+   "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+   "published_raw": "Fri, 06 Nov 2026 04:22:28 -0500",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "excerpt": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]"
+  },
+  "the_record:ea6b9d64cfe5": {
+   "source_id": "the_record",
+   "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
+   "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+   "published_raw": "Fri, 06 Nov 2026 19:06:00 GMT",
+   "fetched_at": "2026-11-07T01:23:05.279463Z",
+   "excerpt": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies."
+  },
+  "the_record:c5532d0fb1f0": {
+   "source_id": "the_record",
+   "title": "Certificate authority DigiCert reports data breach involving business customer info",
+   "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+   "published_raw": "Fri, 06 Nov 2026 18:56:00 GMT",
+   "fetched_at": "2026-11-07T01:23:05.279463Z",
+   "excerpt": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account."
+  },
+  "the_record:88525575b645": {
+   "source_id": "the_record",
+   "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+   "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+   "published_raw": "Fri, 06 Nov 2026 16:53:00 GMT",
+   "fetched_at": "2026-11-07T01:23:05.279463Z",
+   "excerpt": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts."
+  },
+  "the_record:e34ca10a5a26": {
+   "source_id": "the_record",
+   "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+   "url": "https://therecord.media/ceo-spoofing-scammers-charged",
+   "published_raw": "Fri, 06 Nov 2026 14:30:00 GMT",
+   "fetched_at": "2026-11-07T01:23:05.279463Z",
+   "excerpt": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations."
+  },
+  "the_record:0da6cf00fb54": {
+   "source_id": "the_record",
+   "title": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+   "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+   "published_raw": "Fri, 06 Nov 2026 00:00:00 GMT",
+   "fetched_at": "2026-11-07T01:23:05.279463Z",
+   "excerpt": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into “rabbit holes” of content about sadness, self-harm and body image."
+  },
+  "the_hacker_news:9fe769e3c933": {
+   "source_id": "the_hacker_news",
+   "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+   "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+   "published_raw": "Fri, 06 Nov 2026 21:38:38 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the"
+  },
+  "the_hacker_news:a40dff3d749a": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "published_raw": "Fri, 06 Nov 2026 20:51:49 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,"
+  },
+  "the_hacker_news:17e04fbcf2b3": {
+   "source_id": "the_hacker_news",
+   "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+   "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+   "published_raw": "Fri, 06 Nov 2026 20:28:32 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
+  },
+  "the_hacker_news:649e0d8b078e": {
+   "source_id": "the_hacker_news",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "published_raw": "Fri, 06 Nov 2026 17:36:43 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates"
+  },
+  "the_hacker_news:cea41b0360f6": {
+   "source_id": "the_hacker_news",
+   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "published_raw": "Fri, 06 Nov 2026 17:36:35 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this"
+  },
+  "the_hacker_news:6625b8a777d1": {
+   "source_id": "the_hacker_news",
+   "title": "The Flood is Coming And The Pipes Were Already Full",
+   "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+   "published_raw": "Fri, 06 Nov 2026 17:00:00 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his"
+  },
+  "the_hacker_news:6facdf5f94df": {
+   "source_id": "the_hacker_news",
+   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+   "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+   "published_raw": "Fri, 06 Nov 2026 13:34:49 +0530",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed"
+  },
+  "securityweek:13ca7084bed2": {
+   "source_id": "securityweek",
+   "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+   "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+   "published_raw": "Fri, 06 Nov 2026 18:28:41 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.</p>\n<p>The post <a href=\"https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/\">Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:26ad458e1da2": {
+   "source_id": "securityweek",
+   "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+   "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+   "published_raw": "Fri, 06 Nov 2026 14:40:09 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/\">In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:5b3d825daf19": {
+   "source_id": "securityweek",
+   "title": "DigiCert Data Breach Impacts Business Customer Information",
+   "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+   "published_raw": "Fri, 06 Nov 2026 14:00:07 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses.</p>\n<p>The post <a href=\"https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/\">DigiCert Data Breach Impacts Business Customer Information</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:e6c233abba1a": {
+   "source_id": "securityweek",
+   "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+   "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+   "published_raw": "Fri, 06 Nov 2026 13:19:52 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/\">OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:f18545ce271a": {
+   "source_id": "securityweek",
+   "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+   "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+   "published_raw": "Fri, 06 Nov 2026 13:02:26 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/\">US Agencies Urge Organizations to Harden Refrigeration Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:1dfeaa4682cf": {
+   "source_id": "securityweek",
+   "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+   "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+   "published_raw": "Fri, 06 Nov 2026 12:47:55 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook.</p>\n<p>The post <a href=\"https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/\">Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:af8df139a111": {
+   "source_id": "securityweek",
+   "title": "Researchers Find Residential Proxies on White House Network",
+   "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+   "published_raw": "Fri, 06 Nov 2026 12:16:13 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time.</p>\n<p>The post <a href=\"https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/\">Researchers Find Residential Proxies on White House Network</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:5b03e96d880f": {
+   "source_id": "securityweek",
+   "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+   "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+   "published_raw": "Fri, 06 Nov 2026 12:07:42 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.</p>\n<p>The post <a href=\"https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/\">OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:5f64f8de08da": {
+   "source_id": "securityweek",
+   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+   "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+   "published_raw": "Fri, 06 Nov 2026 09:33:51 +0000",
+   "fetched_at": "2026-11-07T01:23:05.719507Z",
+   "excerpt": "<p>After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/\">OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-06T07:18:56.849236Z"
+ "updated_at": "2026-11-07T01:22:57.866917Z"
 }

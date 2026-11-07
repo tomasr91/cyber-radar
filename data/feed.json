@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T07:18:56.849236Z",
+ "generated_at": "2026-11-07T01:22:57.866917Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-06T07:18:56.849236Z",
+ "last_successful_update": "2026-11-07T01:22:57.866917Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-06T07:18:56.882081Z"
+   "checked_at": "2026-11-07T01:22:57.909015Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-06T07:18:57.622502Z"
+   "checked_at": "2026-11-07T01:22:58.849471Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-06T07:18:59.030300Z"
+   "checked_at": "2026-11-07T01:22:59.749778Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-06T07:18:59.270455Z"
+   "checked_at": "2026-11-07T01:22:59.979445Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-06T07:19:00.380899Z"
+   "checked_at": "2026-11-07T01:23:01.393243Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-06T07:19:00.478086Z"
+   "checked_at": "2026-11-07T01:23:01.481147Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-06T07:19:00.610617Z"
+   "checked_at": "2026-11-07T01:23:01.623986Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-06T07:19:00.773992Z"
+   "checked_at": "2026-11-07T01:23:01.777222Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-06T07:19:01.119281Z"
+   "checked_at": "2026-11-07T01:23:02.294971Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-06T07:19:02.701213Z"
+   "checked_at": "2026-11-07T01:23:03.996065Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-06T07:19:03.063432Z"
+   "checked_at": "2026-11-07T01:23:04.574824Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-06T07:19:03.191504Z"
+   "checked_at": "2026-11-07T01:23:04.662496Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-06T07:19:03.280105Z"
+   "checked_at": "2026-11-07T01:23:04.722822Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-06T07:19:03.602911Z"
+   "checked_at": "2026-11-07T01:23:05.005204Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-06T07:19:03.759973Z"
+   "checked_at": "2026-11-07T01:23:05.079011Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-06T07:19:03.931332Z"
+   "checked_at": "2026-11-07T01:23:05.279463Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-06T07:19:04.207644Z"
+   "checked_at": "2026-11-07T01:23:05.552825Z"
   },
   {
    "id": "securityweek",
@@ -381,14 +381,14 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-06T07:19:04.348152Z"
+   "checked_at": "2026-11-07T01:23:05.719507Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
   "11af3bdb9908",
-  "63028db311b2",
   "8b5f34b85bf1",
+  "63028db311b2",
   "d2cce75fefaf"
  ],
  "articles": [
@@ -427,10 +427,10 @@
     "kwetsbaarheden",
     "aanvallen"
    ],
-   "relevance_score": 94,
+   "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.82,
+    "recency": 0.79,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -604,10 +604,10 @@
     "detectie",
     "web"
    ],
-   "relevance_score": 93,
+   "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -729,98 +729,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "63028db311b2",
-   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
-   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
-   "limitations": [
-    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
-    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
-    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "incidenten"
-   ],
-   "relevance_score": 93,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.83,
-    "source": 0.8,
-    "quality": 0.82,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
-   "story": [
-    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
-    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
-    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
-    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
-    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
-   ],
-   "key_facts": [
-    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
-    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
-    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
-    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
-    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
-    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
-    "language": "log",
-    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
-   },
-   "terms": [
-    {
-     "term": "LLMJacking",
-     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
-    },
-    {
-     "term": "API",
-     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
-    },
-    {
-     "term": "serviceaccounts",
-     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
-    },
-    {
-     "term": "AI-gateway",
-     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
-   },
-   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
-   "region": "world"
-  },
-  {
    "id": "8b5f34b85bf1",
    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
@@ -856,7 +764,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.69,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -969,6 +877,98 @@
    "region": "world"
   },
   {
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
+   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
+   "limitations": [
+    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
+    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
+    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.8,
+    "source": 0.8,
+    "quality": 0.82,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-05T01:41:39Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
+   "story": [
+    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
+    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
+    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
+    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
+    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
+   ],
+   "key_facts": [
+    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
+    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
+    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
+    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
+    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
+    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
+    "language": "log",
+    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
+   },
+   "terms": [
+    {
+     "term": "LLMJacking",
+     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
+    },
+    {
+     "term": "API",
+     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
+    },
+    {
+     "term": "serviceaccounts",
+     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
+    },
+    {
+     "term": "AI-gateway",
+     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
+   },
+   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
+   "region": "world"
+  },
+  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -1006,7 +1006,7 @@
     "aanvallen",
     "detectie"
    ],
-   "relevance_score": 90,
+   "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
     "recency": 0.12,
@@ -1157,7 +1157,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.66,
+    "recency": 0.64,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1305,7 +1305,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.83,
+    "recency": 0.8,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -1444,7 +1444,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.46,
+    "recency": 0.45,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -1546,7 +1546,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.85,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -1643,7 +1643,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.91,
+    "recency": 0.88,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -1713,85 +1713,6 @@
    "region": "world"
   },
   {
-   "id": "201b2063f67c",
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T16:00:18Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
-   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
-   "limitations": [
-    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
-    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
-    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
-    "mSeven reageerde niet op vragen van BleepingComputer."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "aanvallen"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.92,
-    "source": 0.68,
-    "quality": 0.55,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
-   "story": [
-    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
-    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
-    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
-    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
-   ],
-   "key_facts": [
-    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
-    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
-    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
-    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
-    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "passkeys",
-     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
-    },
-    {
-     "term": "AES-256",
-     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
-    },
-    {
-     "term": "zero-knowledge",
-     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
-    },
-    {
-     "term": "offline kraken",
-     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
-   },
-   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
-   "region": "na"
-  },
-  {
    "id": "987ba3712202",
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -1819,7 +1740,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -1915,7 +1836,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.9,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -2013,7 +1934,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.34,
+    "recency": 0.33,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -2082,111 +2003,6 @@
    "region": "world"
   },
   {
-   "id": "0968634953ed",
-   "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
-   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-   "source_id": "unit42",
-   "published_at": "2026-10-20T20:30:42Z",
-   "fetched_at": "2026-11-03T21:07:40.082335Z",
-   "summary": "Qilin en Inc misbruiken CVE-2026-0257 in GlobalProtect, de vpn van Palo Alto-firewalls. Door een fout in de controle van inlogcookies kunnen ze zonder wachtwoord of MFA een vpn-verbinding opzetten. De patch is er al sinds mei.",
-   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over prioriteren: een lek met een middelhoge score, maar op de KEV-lijst, met openbare aanvalscode en in een systeem aan de rand van het netwerk. Vraag klanten hoe snel zulke lekken bij hen gepatcht worden.",
-   "limitations": [
-    "Hoeveel organisaties zijn getroffen en hoeveel firewalls nog kwetsbaar zijn, staat niet in het stuk.",
-    "Palo Alto Networks legt niet in detail uit welke certificaatinstelling het lek mogelijk maakt.",
-    "ReliaQuest koppelt het misbruik ook aan Settra-ransomware; Unit 42 bevestigt dat niet.",
-    "Unit 42 hoort bij de leverancier van het kwetsbare product."
-   ],
-   "official_docs": [
-    {
-     "label": "Palo Alto Networks: advies CVE-2026-0257",
-     "url": "https://security.paloaltonetworks.com/CVE-2026-0257"
-    }
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "ransomware",
-    "vulnerability_management",
-    "edge_devices"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "incidenten",
-    "vm"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.44,
-    "source": 0.8,
-    "quality": 0.75,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto",
-   "story": [
-    "Unit 42 meldt in een update van 19 en 20 oktober dat de ransomwaregroepen Qilin en Inc een lek in GlobalProtect misbruiken. GlobalProtect is de vpn van firewalls van Palo Alto Networks. Het lek, CVE-2026-0257, is sinds mei 2026 gepatcht en staat sinds 13 mei op de KEV-lijst. Op 29 mei verscheen een openbaar proof of concept. Sindsdien kan iedereen het lek veel makkelijker misbruiken.",
-    "Hoe werkt het normaal? Een medewerker logt met wachtwoord en MFA in op GlobalProtect. Om niet steeds opnieuw te hoeven inloggen, kan de beheerder 'authentication override' aanzetten. De medewerker krijgt dan een cookie: een klein bestandje dat later als inlogbewijs geldt. De firewall hoort te controleren of dat cookie echt is en niet is aangepast. Volgens Palo Alto Networks deed hij dat niet goed. De fix voegt daarom een strenge HMAC-controle toe. Gevolg: een aanvaller zonder account kan een vpn-verbinding opzetten en zo ook MFA omzeilen. Alleen firewalls met deze cookies aan en een bepaalde certificaatinstelling zijn kwetsbaar.",
-    "Na binnenkomst zag Unit 42 een bekend patroon. De aanvallers verkennen het netwerk met RMM-tools, doen aan laterale beweging via RDP en SMB, verzamelen wachtwoorden, stelen gegevens en zetten ransomware in. In één geval gingen ze van de vpn naar vCenter, het beheersysteem van virtuele servers. Ze zetten beveiliging op de ESXi-servers uit en lazen de virtuele schijf van een domeincontroller offline uit om wachtwoorden te stelen. Zo omzeil je EDR die binnen de virtuele machine draait.",
-    "Hoe zie je het? Zoek in de GlobalProtect-logs naar geslaagde verbindingen met vreemde apparaatnamen of hardware-id's. Het openbare proof of concept gebruikt vaste waarden, zoals de naam \"DESKTOP-GP01\" en het id 00:11:22:33:44:55, met een leeg domein. Patch, of gebruik een apart certificaat alleen voor deze cookies, of zet authentication override uit. Controleer ook of de beheerinterface niet onbedoeld via poort 4443 of 3879 op internet staat.",
-    "Dit is een les in prioriteren. Het lek was al vijf maanden bekend, stond op de KEV-lijst en had een openbaar proof of concept. Een vpn staat per definitie open naar internet. Dat zijn drie redenen om zo'n lek bovenaan de lijst te zetten, ook al is de CVSS-score 'maar' 7,8."
-   ],
-   "key_facts": [
-    "CVE-2026-0257 is een authenticatie-omzeiling in het portal en de gateway van GlobalProtect in PAN-OS; gepubliceerd op 13 mei 2026, CVSS 4.0-score 7,8 (Palo Alto Networks).",
-    "Het lek speelt alleen als authentication override-cookies in gebruik zijn met een bepaalde certificaatconfiguratie; Panorama en Cloud NGFW zijn niet getroffen.",
-    "CISA zette het lek op 13 mei 2026 op de KEV-lijst; een proof of concept verscheen op 29 mei 2026.",
-    "Unit 42 (update 19 oktober 2026): Spikey Scorpius (Qilin) en Tarnished Scorpius (Inc) misbruiken het lek voor toegang, gevolgd door RMM-tools, RDP en SMB, wachtwoorddiefstal, datadiefstal en ransomware.",
-    "In één geval gingen aanvallers door naar vCenter, schakelden ze beveiliging op ESXi uit en lazen ze de virtuele schijf van een domeincontroller offline uit; ook werd Veeam-lek CVE-2023-27532 gebruikt.",
-    "Unit 42 (update 20 oktober 2026): de beheerinterface kan door een configuratiefout via poort 4443 en 3879 vanaf internet bereikbaar zijn."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verdachte vpn-verbinding eruitzien in een vereenvoudigd GlobalProtect-log. Let op de vaste waarden van het openbare proof of concept: de apparaatnaam, het hardware-id en het lege domein.",
-    "language": "log",
-    "code": "2026/10/12 02:14:33 globalprotect gateway-connected user=j.jansen src=203.0.113.44 host_id=00:11:22:33:44:55 machine=DESKTOP-GP01 os=\"Microsoft Windows 10 Pro 64-bit\" domain=\"\" status=success",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde veldnamen. De apparaatnaam, het id, het besturingssysteem en het lege domein komen uit het stuk van Unit 42."
-   },
-   "terms": [
-    {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
-    },
-    {
-     "term": "cookie",
-     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
-    },
-    {
-     "term": "HMAC",
-     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
-    },
-    {
-     "term": "laterale beweging",
-     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
-    },
-    {
-     "term": "vCenter",
-     "explanation": "Het centrale beheersysteem van VMware waarmee je alle virtuele servers op ESXi-hosts beheert. Wie het beheerst, heeft vaak toegang tot het hele serverpark."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; actief misbruikt lek in een vpn met een duidelijke les over prioriteren."
-   },
-   "takeaway": "Een inlogcookie werkt als een toegangspas; controleert de server niet of die echt is, dan kan een aanvaller er zelf een maken. Bij edge-apparaten zoals vpn's wegen misbruik en bereikbaarheid zwaarder dan de CVSS-score.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
-  },
-  {
    "id": "4d33a21d5cc6",
    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
    "url": "https://www.huntress.com/blog/token-replay-spray",
@@ -2215,7 +2031,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
+    "recency": 0.46,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -2312,7 +2128,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.68,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -2377,34 +2193,26 @@
    "region": "world"
   },
   {
-   "id": "62c945c0e6fb",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "id": "201b2063f67c",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
    "source_id": "bleepingcomputer",
-   "published_at": "2026-11-03T21:28:44Z",
-   "fetched_at": "2026-11-03T21:31:41.029642Z",
-   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
-   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "published_at": "2026-11-04T16:00:18Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
+   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
    "limitations": [
-    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
-    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
-    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
-    "Het onderzoek loopt nog."
-   ],
-   "official_docs": [
-    {
-     "label": "WorkOS: securitybulletin 30 oktober 2026",
-     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
-    }
+    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
+    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
+    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
+    "mSeven reageerde niet op vragen van BleepingComputer."
    ],
    "topics": [
     "incidents_breaches",
-    "threat_intelligence",
     "phishing_identity"
    ],
    "groups": [
     "incidenten",
-    "ti",
     "aanvallen"
    ],
    "relevance_score": 87,
@@ -2412,70 +2220,55 @@
     "topic": 1.0,
     "recency": 0.89,
     "source": 0.68,
-    "quality": 0.53,
+    "quality": 0.55,
     "region": 0.01,
     "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
+   "processed_at": "2026-11-05T01:41:39Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
    "story": [
-    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
-    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
-    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
-    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
+    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
+    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
+    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
    ],
    "key_facts": [
-    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
-    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
-    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
-    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
-    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
-    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
+    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
+    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
+    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
+    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
    ],
    "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
-    "language": "log",
-    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
-   },
    "terms": [
     {
-     "term": "single sign-on",
-     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+     "term": "passkeys",
+     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
     },
     {
-     "term": "AI-agent",
-     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+     "term": "AES-256",
+     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
     },
     {
-     "term": "penetratietesten",
-     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+     "term": "zero-knowledge",
+     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
     },
     {
-     "term": "user agent",
-     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
-    },
-    {
-     "term": "social engineering",
-     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
-    },
-    {
-     "term": "CRM",
-     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
     }
    ],
    "soort": "incident",
    "fit": {
     "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
    },
-   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
    "region": "na"
   },
   {
@@ -2507,7 +2300,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.34,
+    "recency": 0.33,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -2609,7 +2402,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.44,
+    "recency": 0.42,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -2667,6 +2460,213 @@
    "region": "world"
   },
   {
+   "id": "0968634953ed",
+   "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
+   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "source_id": "unit42",
+   "published_at": "2026-10-20T20:30:42Z",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Qilin en Inc misbruiken CVE-2026-0257 in GlobalProtect, de vpn van Palo Alto-firewalls. Door een fout in de controle van inlogcookies kunnen ze zonder wachtwoord of MFA een vpn-verbinding opzetten. De patch is er al sinds mei.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over prioriteren: een lek met een middelhoge score, maar op de KEV-lijst, met openbare aanvalscode en in een systeem aan de rand van het netwerk. Vraag klanten hoe snel zulke lekken bij hen gepatcht worden.",
+   "limitations": [
+    "Hoeveel organisaties zijn getroffen en hoeveel firewalls nog kwetsbaar zijn, staat niet in het stuk.",
+    "Palo Alto Networks legt niet in detail uit welke certificaatinstelling het lek mogelijk maakt.",
+    "ReliaQuest koppelt het misbruik ook aan Settra-ransomware; Unit 42 bevestigt dat niet.",
+    "Unit 42 hoort bij de leverancier van het kwetsbare product."
+   ],
+   "official_docs": [
+    {
+     "label": "Palo Alto Networks: advies CVE-2026-0257",
+     "url": "https://security.paloaltonetworks.com/CVE-2026-0257"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "ransomware",
+    "vulnerability_management",
+    "edge_devices"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "incidenten",
+    "vm"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.43,
+    "source": 0.8,
+    "quality": 0.75,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:47:36Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto",
+   "story": [
+    "Unit 42 meldt in een update van 19 en 20 oktober dat de ransomwaregroepen Qilin en Inc een lek in GlobalProtect misbruiken. GlobalProtect is de vpn van firewalls van Palo Alto Networks. Het lek, CVE-2026-0257, is sinds mei 2026 gepatcht en staat sinds 13 mei op de KEV-lijst. Op 29 mei verscheen een openbaar proof of concept. Sindsdien kan iedereen het lek veel makkelijker misbruiken.",
+    "Hoe werkt het normaal? Een medewerker logt met wachtwoord en MFA in op GlobalProtect. Om niet steeds opnieuw te hoeven inloggen, kan de beheerder 'authentication override' aanzetten. De medewerker krijgt dan een cookie: een klein bestandje dat later als inlogbewijs geldt. De firewall hoort te controleren of dat cookie echt is en niet is aangepast. Volgens Palo Alto Networks deed hij dat niet goed. De fix voegt daarom een strenge HMAC-controle toe. Gevolg: een aanvaller zonder account kan een vpn-verbinding opzetten en zo ook MFA omzeilen. Alleen firewalls met deze cookies aan en een bepaalde certificaatinstelling zijn kwetsbaar.",
+    "Na binnenkomst zag Unit 42 een bekend patroon. De aanvallers verkennen het netwerk met RMM-tools, doen aan laterale beweging via RDP en SMB, verzamelen wachtwoorden, stelen gegevens en zetten ransomware in. In één geval gingen ze van de vpn naar vCenter, het beheersysteem van virtuele servers. Ze zetten beveiliging op de ESXi-servers uit en lazen de virtuele schijf van een domeincontroller offline uit om wachtwoorden te stelen. Zo omzeil je EDR die binnen de virtuele machine draait.",
+    "Hoe zie je het? Zoek in de GlobalProtect-logs naar geslaagde verbindingen met vreemde apparaatnamen of hardware-id's. Het openbare proof of concept gebruikt vaste waarden, zoals de naam \"DESKTOP-GP01\" en het id 00:11:22:33:44:55, met een leeg domein. Patch, of gebruik een apart certificaat alleen voor deze cookies, of zet authentication override uit. Controleer ook of de beheerinterface niet onbedoeld via poort 4443 of 3879 op internet staat.",
+    "Dit is een les in prioriteren. Het lek was al vijf maanden bekend, stond op de KEV-lijst en had een openbaar proof of concept. Een vpn staat per definitie open naar internet. Dat zijn drie redenen om zo'n lek bovenaan de lijst te zetten, ook al is de CVSS-score 'maar' 7,8."
+   ],
+   "key_facts": [
+    "CVE-2026-0257 is een authenticatie-omzeiling in het portal en de gateway van GlobalProtect in PAN-OS; gepubliceerd op 13 mei 2026, CVSS 4.0-score 7,8 (Palo Alto Networks).",
+    "Het lek speelt alleen als authentication override-cookies in gebruik zijn met een bepaalde certificaatconfiguratie; Panorama en Cloud NGFW zijn niet getroffen.",
+    "CISA zette het lek op 13 mei 2026 op de KEV-lijst; een proof of concept verscheen op 29 mei 2026.",
+    "Unit 42 (update 19 oktober 2026): Spikey Scorpius (Qilin) en Tarnished Scorpius (Inc) misbruiken het lek voor toegang, gevolgd door RMM-tools, RDP en SMB, wachtwoorddiefstal, datadiefstal en ransomware.",
+    "In één geval gingen aanvallers door naar vCenter, schakelden ze beveiliging op ESXi uit en lazen ze de virtuele schijf van een domeincontroller offline uit; ook werd Veeam-lek CVE-2023-27532 gebruikt.",
+    "Unit 42 (update 20 oktober 2026): de beheerinterface kan door een configuratiefout via poort 4443 en 3879 vanaf internet bereikbaar zijn."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verdachte vpn-verbinding eruitzien in een vereenvoudigd GlobalProtect-log. Let op de vaste waarden van het openbare proof of concept: de apparaatnaam, het hardware-id en het lege domein.",
+    "language": "log",
+    "code": "2026/10/12 02:14:33 globalprotect gateway-connected user=j.jansen src=203.0.113.44 host_id=00:11:22:33:44:55 machine=DESKTOP-GP01 os=\"Microsoft Windows 10 Pro 64-bit\" domain=\"\" status=success",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde veldnamen. De apparaatnaam, het id, het besturingssysteem en het lege domein komen uit het stuk van Unit 42."
+   },
+   "terms": [
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "HMAC",
+     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+     "term": "laterale beweging",
+     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+     "term": "vCenter",
+     "explanation": "Het centrale beheersysteem van VMware waarmee je alle virtuele servers op ESXi-hosts beheert. Wie het beheerst, heeft vaak toegang tot het hele serverpark."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; actief misbruikt lek in een vpn met een duidelijke les over prioriteren."
+   },
+   "takeaway": "Een inlogcookie werkt als een toegangspas; controleert de server niet of die echt is, dan kan een aanvaller er zelf een maken. Bij edge-apparaten zoals vpn's wegen misbruik en bereikbaarheid zwaarder dan de CVSS-score.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "62c945c0e6fb",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-03T21:28:44Z",
+   "fetched_at": "2026-11-03T21:31:41.029642Z",
+   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
+   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "limitations": [
+    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
+    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
+    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
+    "Het onderzoek loopt nog."
+   ],
+   "official_docs": [
+    {
+     "label": "WorkOS: securitybulletin 30 oktober 2026",
+     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+    }
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.86,
+    "source": 0.68,
+    "quality": 0.53,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "story": [
+    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
+    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
+    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
+    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+   ],
+   "key_facts": [
+    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
+    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
+    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
+    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
+    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
+    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
+    "language": "log",
+    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
+   },
+   "terms": [
+    {
+     "term": "single sign-on",
+     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "penetratietesten",
+     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    },
+    {
+     "term": "social engineering",
+     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
+    },
+    {
+     "term": "CRM",
+     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+   },
+   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "region": "na"
+  },
+  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -2693,7 +2693,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.26,
+    "recency": 0.25,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -2793,7 +2793,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.62,
+    "recency": 0.59,
     "source": 0.68,
     "quality": 0.65,
     "fit": 0.05
@@ -2889,7 +2889,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.35,
+    "recency": 0.33,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -2986,7 +2986,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.46,
+    "recency": 0.44,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -3081,7 +3081,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.46,
+    "recency": 0.44,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -3174,10 +3174,10 @@
     "aanvallen",
     "ti"
    ],
-   "relevance_score": 83,
+   "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.22,
+    "recency": 0.21,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -3272,10 +3272,10 @@
     "aanvallen",
     "web"
    ],
-   "relevance_score": 83,
+   "relevance_score": 82,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.93,
+    "recency": 0.9,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -5639,14 +5639,14 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 323,
+  "unique_after_dedupe": 371,
   "merged_duplicates": 1,
   "shown": 28,
   "decisions": {
-   "included": 143,
-   "below_threshold": 78,
-   "no_topic": 76,
-   "excluded": 26
+   "included": 156,
+   "below_threshold": 94,
+   "no_topic": 93,
+   "excluded": 28
   },
   "processing": {
    "enriched": 28
@@ -5654,8 +5654,8 @@
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 6,
-   "detectie": 3,
    "aanvallen": 7,
+   "detectie": 3,
    "incidenten": 7,
    "ti": 4,
    "vm": 1
@@ -5721,7 +5721,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 193
+   "skipped_no_key": 222
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5742,26 +5742,6 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
-    "relevance_score": 88,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
-    "relevance_score": 88,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
@@ -5772,10 +5752,30 @@
     ]
    },
    {
+    "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
+    "relevance_score": 87,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+    "relevance_score": 87,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
-    "relevance_score": 87,
+    "relevance_score": 86,
     "decision": "included",
     "excluded_by": []
    },
@@ -5793,7 +5793,7 @@
     "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
     "source_id": "microsoft_threat_intel",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-    "relevance_score": 85,
+    "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
@@ -5801,7 +5801,7 @@
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
-    "relevance_score": 85,
+    "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -5811,17 +5811,25 @@
     "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
-    "relevance_score": 85,
+    "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
    },
    {
+    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
-    "relevance_score": 84,
+    "relevance_score": 83,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -5831,7 +5839,7 @@
     "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
-    "relevance_score": 84,
+    "relevance_score": 83,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -5841,24 +5849,6 @@
     "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
-    "relevance_score": 84,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
     "relevance_score": 83,
     "decision": "excluded",
     "excluded_by": [
@@ -5866,25 +5856,9 @@
     ]
    },
    {
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -5914,10 +5888,76 @@
     "excluded_by": []
    },
    {
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0454",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "relevance_score": 83,
+    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
@@ -5925,7 +5965,7 @@
     "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-    "relevance_score": 83,
+    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
@@ -5933,7 +5973,7 @@
     "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "relevance_score": 83,
+    "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
    },
@@ -5941,14 +5981,6 @@
     "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -5981,54 +6013,6 @@
     "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -6118,9 +6102,57 @@
     "excluded_by": []
    },
    {
-    "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
+    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
@@ -6136,17 +6168,9 @@
     ]
    },
    {
-    "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
+    "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
     "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960531/Ubuntu+dicht+APT-kwetsbaarheid+waardoor+aanvaller+root+kan+worden?channel=rss",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Zyxel dicht lek waardoor duizend netwerkswitches wereldwijd werden gehackt",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960466/Zyxel+dicht+lek+waardoor+duizend+netwerkswitches+wereldwijd+werden+gehackt?channel=rss",
+    "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
@@ -6160,14 +6184,6 @@
     "excluded_by": []
    },
    {
-    "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Lek in Debian APT package manager laat aanvaller code als root uitvoeren",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960385/Lek+in+Debian+APT+package+manager+laat+aanvaller+code+als+root+uitvoeren?channel=rss",
@@ -6176,10 +6192,34 @@
     "excluded_by": []
    },
    {
+    "title": "Ubuntu dicht APT-kwetsbaarheid waardoor aanvaller root kan worden",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960531/Ubuntu+dicht+APT-kwetsbaarheid+waardoor+aanvaller+root+kan+worden?channel=rss",
+    "relevance_score": 79,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Zyxel dicht lek waardoor duizend netwerkswitches wereldwijd werden gehackt",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960466/Zyxel+dicht+lek+waardoor+duizend+netwerkswitches+wereldwijd+werden+gehackt?channel=rss",
+    "relevance_score": 79,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Node-RED-servers via kritieke kwetsbaarheid geïnfecteerd met malware",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960224/Node-RED-servers+via+kritieke+kwetsbaarheid+ge%C3%AFnfecteerd+met+malware?channel=rss",
+    "relevance_score": 78,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
     "source_id": "crowdstrike_blog",
     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
-    "relevance_score": 79,
+    "relevance_score": 78,
     "decision": "included",
     "excluded_by": []
    },
@@ -6195,22 +6235,6 @@
     "title": "PHP2Shell - Critical vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619): detection, analysis, and remediation",
     "source_id": "datadog_security_labs",
     "url": "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
-    "relevance_score": 77,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
-    "relevance_score": 77,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
-    "source_id": "watchtowr_labs",
-    "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
     "relevance_score": 76,
     "decision": "included",
     "excluded_by": []
@@ -6220,30 +6244,6 @@
     "source_id": "datadog_security_labs",
     "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
     "relevance_score": 76,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
-    "relevance_score": 76,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
-    "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-    "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
    }
