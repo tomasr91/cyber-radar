@@ -1,0 +1,52 @@
+{
+  "format_version": 2,
+  "article_id": "ce55129e00e3",
+  "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+  "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
+  "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
+  "story": [
+    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
+    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
+    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
+    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
+    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
+  ],
+  "key_facts": [
+    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
+    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
+    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
+    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
+    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
+    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
+  ],
+  "limitations": [
+    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
+    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
+    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
+  ],
+  "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
+  "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
+  "region": "world",
+  "official_docs": [
+    {"label": "CVE-2026-109593 (OpenCVE)", "url": "https://app.opencve.io/cve/CVE-2026-109593"}
+  ],
+  "topics": ["vulnerability_management", "vulnerabilities_cve", "edge_devices"],
+  "quality": {"depth": 0.4, "practicality": 0.7, "novelty": 0.5},
+  "development_key": "cve-2026-109593-sonicwall-gms",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."},
+  "terms": [
+    {"term": "end-of-life", "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."},
+    {"term": "CWE-636", "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."},
+    {"term": "CVSS-score", "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."},
+    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
+    {"term": "EPSS-kans", "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:35:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "article_id": "25c3eda20cfe",
+  "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+  "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
+  "summary": "OpenAI beschrijft een proefopstelling waarin een nog niet uitgebracht AI-model lekken in de Linux-kernel zocht, naspeelde en uitbuitte. Dat leverde 948 werkende exploits voor rechtenverhoging op, voor ruim 1,2 miljoen dollar.",
+  "story": [
+    "OpenAI heeft een proefopstelling beschreven waarin een nog niet uitgebracht AI-model naar lekken in de Linux-kernel zocht. Het systeem bekeek 2.308 mogelijke fouten en speelde er 1.724 na. Het schreef 948 werkende exploits voor rechtenverhoging (local privilege escalation) op een veelgebruikte Linux-distributie. De rekenkosten waren ruim 1,2 miljoen dollar, ongeveer 1.279 dollar per exploit.",
+    "Wat is rechtenverhoging? Op Linux heeft elke gebruiker beperkte rechten. Alleen root, de hoogste beheerder, mag alles. De kernel is het hart van het besturingssysteem en bewaakt die grens. Een fout in de kernel kan een gewone gebruiker toch root maken. Zo'n lek is 'lokaal': de aanvaller moet al op het systeem zijn, bijvoorbeeld via een gestolen account of een lek in een webapplicatie. Het is de stap van een beetje toegang naar volledige controle.",
+    "De opstelling werkte in vijf stappen. AI-agenten kozen code die gewone gebruikers kunnen bereiken en zochten daar fouten. Ze speelden elke fout na in een afgeschermde testomgeving (sandbox) en bekeken of die tot rechtenverhoging leidde. Daarna schreven ze een proof of concept en een reparatie. Tot slot controleerden mensen de exploit, de patch en de ernst, voordat iets naar de beheerders van de kernel gaat. Volgens OpenAI vond het systeem ook minstens tien nieuwe aanvalstechnieken.",
+    "Wat betekent dit voor verdediging? OpenAI zegt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root, tegenover een aanvaller met veel middelen. Kernelupdates zijn dus belangrijker dan het label 'lokaal' doet denken. Detectie draait vooral om gedrag: een proces van een gewone gebruiker dat ineens als root draait, is verdacht. EDR op Linux-servers kan zulk gedrag zien.",
+    "Het past in een bredere trend. Volgens cijfers van Google Threat Intelligence Group in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 in januari naar 10.740 in augustus 2026. Het Britse NCSC verwacht dat AI ook verdedigers sneller kan maken, maar alleen als ze de tools goed inzetten. Of en wanneer deze 948 lekken openbaar worden, staat niet in het artikel."
+  ],
+  "key_facts": [
+    "OpenAI beschreef op 4 november 2026 een pijplijn met een nog niet uitgebracht, op cybersecurity gericht AI-model (The Hacker News, 5 november).",
+    "De pijplijn analyseerde 2.308 mogelijke kernelfouten, speelde er 1.724 na en maakte 948 werkende LPE-exploits voor een veelgebruikte Linux-distributie, plus 291 proof-of-concepts voor informatielekken.",
+    "De totale API-kosten waren 1.213.430 dollar, ongeveer 1.279 dollar per LPE-exploit; de titel van het artikel spreekt van een run van 30 uur.",
+    "Vijf stappen: fouten zoeken, naspelen in een sandbox, beoordelen op misbruikbaarheid met een proof of concept, een patch schrijven en controle door mensen voordat iets naar de beheerders gaat.",
+    "OpenAI noemt minstens tien nieuwe exploitatietechnieken en stelt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root voor een aanvaller met veel middelen.",
+    "Volgens GTIG-cijfers in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 (januari 2026) naar 10.740 (augustus 2026)."
+  ],
+  "limitations": [
+    "De publicatie van OpenAI zelf is niet gelezen; de cijfers komen uit The Hacker News.",
+    "Het model heeft geen naam, en het artikel zegt niet welke Linux-distributie het betreft.",
+    "Of de exploits en patches al bij de kernelbeheerders liggen of openbaar worden, is niet bekend.",
+    "Het systeem werkte niet volledig zelfstandig: mensen controleerden en stuurden bij.",
+    "OpenAI heeft er belang bij de kracht van zijn modellen te laten zien."
+  ],
+  "personal_relevance": "Klanten schuiven 'lokale' kernellekken vaak naar achteren. Dit onderzoek is een goede aanleiding om te bespreken hoe snel zij Linux-kernelupdates uitrollen en of ze rootprocessen op servers in de gaten houden.",
+  "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["attack_techniques", "vulnerabilities_cve", "vulnerability_management"],
+  "quality": {"depth": 0.6, "practicality": 0.6, "novelty": 0.7},
+  "development_key": "openai-linux-lpe-pipeline-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."},
+  "showcase": {
+    "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
+    "language": "log",
+    "code": "type=SYSCALL msg=audit(1794016801.123:4512): arch=c000003e syscall=59 success=yes exit=0 ppid=2210 pid=2245 auid=4294967295 uid=33 gid=33 euid=0 egid=0 comm=\"sh\" exe=\"/usr/bin/dash\" key=\"priv_esc\"",
+    "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
+  },
+  "terms": [
+    {"term": "kernel", "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."},
+    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
+    {"term": "rechtenverhoging", "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."},
+    {"term": "sandbox", "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."},
+    {"term": "proof of concept", "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."},
+    {"term": "EDR", "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:41:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

@@ -1,0 +1,64 @@
+{
+  "format_version": 2,
+  "article_id": "a665869d02d2",
+  "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+  "headline": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3",
+  "summary": "Aanvallers braken in augustus in bij 996 Zyxel GS1900-switches. Onderzoeker Binarly ontdekte dat hun exploit ook werkt op de eerdere patch. Zyxel bracht nu Patch 3 uit voor tien modellen.",
+  "story": [
+    "Zyxel GS1900-switches verbinden computers in kleine en middelgrote netwerken. Rond 17 augustus 2026 haalden aanvallers gegevens weg van 996 van deze switches, meldde GreyNoise. Ze namen configuraties, gehashte rootwachtwoorden en netwerkinformatie mee. Onderzoeker Binarly vond de exploit op een server van de aanvallers. Die blijkt ook te werken op switches met de eerdere patch, 2.90 Patch 2.",
+    "Hoe werkt het lek? Je beheert de switch via een webinterface. Een programma op de switch leest elk webverzoek en zet de onderdelen ervan, de parameters, in een vast stuk geheugen met plek voor 140 stuks. Het controleerde niet hoe groot een parameter was. Een te grote 140e parameter loopt over de rand en overschrijft de teller die bijhoudt hoeveel parameters er zijn. Zo'n buffer overflow laat de aanvaller een functie vervangen door een eigen opdracht, die als root draait. Inloggen is niet nodig.",
+    "Waarom faalde Patch 2? Zyxel voegde een controle op de teller toe. Maar die controle kwam pas nadat de te grote parameter al was gekopieerd. De teller had dan al de waarde van de aanvaller. Patch 3 controleert eerst en beperkt ook de grootte. Het restlek heeft een eigen nummer: CVE-2026-107441. Het eerste lek, CVE-2026-7273, staat sinds 21 september op de KEV-lijst.",
+    "Wat moet je doen? Installeer Patch 3 voor het juiste model; er is geen tijdelijke oplossing. Verstandig is ook om de webinterface alleen bereikbaar te maken vanuit een beheernetwerk, al zegt de bron dat niet expliciet. Let op: 564 van de 996 gehackte switches gebruikten nog het standaardwachtwoord. Of een update een aanvaller die al binnen is ook verwijdert, zeggen Zyxel en Binarly niet.",
+    "Voor vulnerability management is dit een belangrijke les: 'gepatcht' betekent niet altijd 'veilig'. Een scanner die alleen kijkt of Patch 2 erop staat, meldt deze switches ten onrechte als in orde. Volgens GreyNoise hangen de aanvallers samen met Red Heron, een Chineessprekende groep die Acronis volgt."
+  ],
+  "key_facts": [
+    "GreyNoise meldde op 21 september dat aanvallers rond 17 augustus 2026 gegevens weghaalden van 996 GS1900-switches: configuraties, gehashte rootwachtwoorden en netwerkinformatie; 564 switches gebruikten nog standaardinloggegevens.",
+    "CVE-2026-7273 (advies 16 juni, opgelost in 2.90 Patch 2) staat sinds 21 september 2026 in CISA KEV.",
+    "Binarly vond de exploit op 17 september op een server die ook als commandoserver voor de JITTERLY-achterdeur diende, meldde het lek op 29 september bij Zyxel en zag dat de exploit ongewijzigd werkt tegen Patch 2.",
+    "Het nieuwe lek CVE-2026-107441 is een out-of-bounds write in de verwerking van webverzoeken: geen controle op de grootte van parameters, en de controle op het aantal komt pas na het kopiëren. Binarly geeft CVSS 9,8, NVD 8,8.",
+    "Zyxel bracht op 23 oktober 2.90 Patch 3 uit voor tien GS1900-modellen; er is geen workaround. Of CVE-2026-107441 zelf in het wild is misbruikt, zegt Zyxel niet.",
+    "GreyNoise koppelt de aanvallers aan Red Heron, een Chineessprekende groep die Acronis volgt."
+  ],
+  "limitations": [
+    "Niet bekend is welke firmware de gehackte switches hadden en of daar Patch 2 op stond.",
+    "Binarly houdt twee verklaringen open: Patch 2 was een gebrekkige reparatie, of de aanvallers gebruikten een ander lek dan het lek dat CISA noemt.",
+    "Hoe je een al gehackte switch controleert en of een update de aanvaller verwijdert, staat niet in het advies.",
+    "Binarly is een commercieel securitybedrijf en zegt binnenkort een kleinere proof of concept te publiceren; dat kan misbruik makkelijker maken."
+  ],
+  "personal_relevance": "Klanten vertrouwen vaak op 'patch geïnstalleerd' als eindpunt. Dit voorbeeld helpt om te vragen of hun vulnerability management ook bijhoudt wanneer een eerdere patch onvoldoende blijkt, en of netwerkapparatuur op standaardwachtwoorden wordt gecontroleerd.",
+  "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["exploited_vulnerabilities", "edge_devices", "vulnerability_management", "vulnerabilities_cve"],
+  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "development_key": "cve-2026-107441-zyxel-gs1900",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."},
+  "showcase": {
+    "caption": "Zo kan een vulnerability scanner deze switches tonen. Een switch op Patch 2 was na de eerste fix 'in orde', maar is nu weer kwetsbaar. Alleen de Patch 3-firmware (.3) is veilig.",
+    "language": "text",
+    "code": "Zoekopdracht: Zyxel GS1900, firmware 2.90 lager dan Patch 3",
+    "note": "Nagebouwd voorbeeld met verzonnen apparaten. De firmwarenummers van Patch 2 en Patch 3 komen uit het advies van Zyxel; de andere versie is verzonnen.",
+    "result": {
+      "columns": ["Apparaat", "Model", "Firmware", "Status"],
+      "rows": [
+        ["sw-kantoor-01", "GS1900-24", "2.90(AAHL.2)C0", "Kwetsbaar (CVE-2026-107441)"],
+        ["sw-magazijn-02", "GS1900-8HP", "2.90(AAHI.1)C0", "Kwetsbaar (CVE-2026-7273 en CVE-2026-107441)"],
+        ["sw-receptie-03", "GS1900-16", "2.90(AAHJ.3)C0", "Opgelost"]
+      ]
+    }
+  },
+  "terms": [
+    {"term": "switches", "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen."},
+    {"term": "webinterface", "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver."},
+    {"term": "buffer overflow", "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma."},
+    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
+    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:43:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

@@ -1,0 +1,61 @@
+{
+  "format_version": 2,
+  "article_id": "9fcf62b29cf8",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+  "headline": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in",
+  "summary": "Microsoft ziet aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar gelekte geheimen. In één geval ging een agent in vijf minuten van zoeken naar het leeghalen van een Azure Key Vault.",
+  "story": [
+    "Microsoft Threat Intelligence ziet sinds augustus 2026 aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar geheimen. Het gaat om inloggegevens van applicaties, OAuth-geheimen en API-sleutels voor AI-diensten. Ontwikkelaars hadden die in openbare code gezet. Vanaf 28 oktober gebruikten AI-agenten de gevonden sleutels om binnen te komen bij de organisaties erachter. Microsoft noemt geen naam van een aanvallersgroep.",
+    "Hoe werkt dat? Een applicatie die bij Microsoft 365 of Azure wil, heeft daar een eigen identiteit: een service principal. Die logt in met een client secret, een soort wachtwoord voor software. Ontwikkelaars zetten zo'n geheim soms in een configuratiebestand of script, om snel iets werkend te krijgen. Staat die code openbaar op GitHub, dan kan iedereen het lezen. Zoeken naar zulke geheimen is niet nieuw. Nieuw is de snelheid: de agent doorzoekt veel code tegelijk, beoordeelt wat hij vindt en gaat zelf verder met de aanval.",
+    "Wat deden de agenten daarna? Ze logden in als de app en zochten naar functies die nog meer geheimen teruggeven, zoals opslagsleutels en connection strings. Ze downloadden bestanden uit SharePoint en OneDrive en lazen mail. Ze haalden geheimen uit Key Vaults en voerden met Run Command scripts uit op virtuele servers. Mislukte een verzoek, dan paste de agent het binnen 28 tot 80 seconden aan. In één geval zat er vijf minuten tussen zoeken op GitHub en het leeghalen van een Key Vault.",
+    "Je ziet dit in de aanmeldingen van service principals in Entra, niet bij die van gewone gebruikers. Microsoft wijst op twee foutcodes: AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim). Die betekenen dat iemand een sleutel van jouw app probeert. Een mislukte poging gevolgd door een gelukte is urgent. Verdacht is ook één adres dat bij drie of meer service principals inlogt, of één app die in korte tijd toegang vraagt tot veel verschillende diensten.",
+    "De les: een geheim dat ooit openbaar stond, moet je als gestolen beschouwen. Ook als je het verwijdert, staat het nog in de geschiedenis van de code en in kopieën. Microsoft adviseert zulke geheimen meteen te vervangen en apps te laten inloggen met managed identities, zonder geheim. Zet ook secret scanning aan met push protection. Die houdt een geheim tegen voordat het online komt."
+  ],
+  "key_facts": [
+    "Microsoft Threat Intelligence publiceerde de analyse op 5 november 2026; de zoekactiviteit op GitHub zag Microsoft vanaf augustus 2026.",
+    "Het agentische aanvalsframework ARTEX zocht in openbare GitHub-repositories naar inloggegevens, OAuth client secrets van applicaties en API-sleutels voor AI-diensten.",
+    "Vanaf 28 oktober 2026 logden agenten met gelekte applicatiegegevens in bij Entra ID-omgevingen; de aanmeldingen kwamen vooral van twee IP-adressen, waarvan één een Tor-exitnode.",
+    "Vervolgacties: credentials opvragen (opslagsleutels, connection strings), bestanden uit SharePoint en OneDrive downloaden, mail lezen, Key Vault-geheimen stelen, Azure DevOps doorzoeken en scripts draaien via Azure Run Command.",
+    "Mislukte verzoeken werden binnen ongeveer 28 tot 80 seconden aangepast en opnieuw geprobeerd; in één geval duurde het vijf minuten van zoeken op GitHub tot het leeghalen van Azure Key Vault.",
+    "Microsoft noemt de foutcodes AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim) als teken dat iemand een sleutel van je app gebruikt."
+  ],
+  "limitations": [
+    "Microsoft noemt geen aanvallersgroep en geen aantal getroffen organisaties.",
+    "Microsoft vermoedt dat de aanvaller gestolen AI-resources wilde gebruiken voor verdere activiteit; dat is niet bevestigd.",
+    "Microsoft is zelf leverancier van de cloud en van beveiligingsproducten; een deel van de adviezen verwijst naar eigen producten.",
+    "Of dezelfde aanvallers achter eerdere ARTEX-campagnes zitten, zoals bij ConnectWise, staat niet in het stuk."
+  ],
+  "personal_relevance": "Veel klanten hebben apps met geheimen in Entra en code op GitHub. Vragen die je kunt stellen: monitoren jullie aanmeldingen van service principals, en scannen jullie code op geheimen voordat die online komt?",
+  "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["cloud_attacks", "attack_techniques", "siem_detection", "threat_intelligence"],
+  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.6},
+  "development_key": "artex-github-secrets-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."},
+  "showcase": {
+    "caption": "Zo zoek je in Microsoft Sentinel naar adressen die met een ongeldig of verlopen geheim proberen in te loggen als een app. Regel 1 kiest de aanmeldingen van service principals, regel 3 filtert op de twee foutcodes, regel 4 telt per adres het aantal pogingen en verschillende apps.",
+    "language": "kql",
+    "code": "AADServicePrincipalSignInLogs\n| where TimeGenerated > ago(30d)\n| where ResultType in (\"7000215\", \"7000222\")\n| summarize Pogingen = count(), Apps = dcount(AppId) by IPAddress\n| order by Pogingen desc",
+    "note": "Nagebouwd voorbeeld. Microsoft noemt de foutcodes en andere tabellen (zoals EntraIdSpnSignInEvents); controleer de tabel- en kolomnamen in je eigen omgeving.",
+    "result": {
+      "columns": ["IPAddress", "Pogingen", "Apps"],
+      "rows": [["203.0.113.10", "41", "6"], ["198.51.100.7", "2", "1"]]
+    }
+  },
+  "terms": [
+    {"term": "service principal", "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."},
+    {"term": "client secret", "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."},
+    {"term": "Key Vaults", "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."},
+    {"term": "Run Command", "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."},
+    {"term": "managed identities", "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."},
+    {"term": "secret scanning", "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:37:00Z",
+  "prompt_version": "cyber-taak-v1"
+}
