@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T01:37:05.407675Z",
+ "generated_at": "2026-11-07T02:24:55.701988Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-07T01:35:00Z",
- "last_successful_update": "2026-11-07T01:37:05.407675Z",
+ "last_successful_update": "2026-11-07T02:24:55.701988Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T01:37:05.469786Z"
+   "checked_at": "2026-11-07T02:24:55.763556Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T01:37:05.965668Z"
+   "checked_at": "2026-11-07T02:24:56.251108Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T01:37:06.550761Z"
+   "checked_at": "2026-11-07T02:24:56.874109Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T01:37:06.659509Z"
+   "checked_at": "2026-11-07T02:24:56.985295Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T01:37:07.468337Z"
+   "checked_at": "2026-11-07T02:24:57.807202Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T01:37:07.588370Z"
+   "checked_at": "2026-11-07T02:24:58.005472Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T01:37:07.659388Z"
+   "checked_at": "2026-11-07T02:24:58.084680Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T01:37:07.753259Z"
+   "checked_at": "2026-11-07T02:24:58.200278Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T01:37:08.148426Z"
+   "checked_at": "2026-11-07T02:24:58.461197Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T01:37:09.700298Z"
+   "checked_at": "2026-11-07T02:24:59.981135Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T01:37:09.756881Z"
+   "checked_at": "2026-11-07T02:25:00.075703Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T01:37:09.800892Z"
+   "checked_at": "2026-11-07T02:25:00.142965Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T01:37:09.971333Z"
+   "checked_at": "2026-11-07T02:25:00.296325Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T01:37:10.111369Z"
+   "checked_at": "2026-11-07T02:25:00.440058Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T01:37:10.208092Z"
+   "checked_at": "2026-11-07T02:25:00.754534Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T01:37:10.248222Z"
+   "checked_at": "2026-11-07T02:25:00.843364Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T01:37:10.399641Z"
+   "checked_at": "2026-11-07T02:25:00.989270Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T01:37:10.681245Z"
+   "checked_at": "2026-11-07T02:25:01.323694Z"
   }
  ],
  "daily_top": [
@@ -1206,7 +1206,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.92,
+    "recency": 0.91,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -1586,7 +1586,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.64,
+    "recency": 0.63,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -2564,7 +2564,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -4512,64 +4512,65 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-06T02:40:00Z",
+  "generated_at": "2026-11-07T02:40:00Z",
   "options": [
    {
-    "id": "hoe-werkt-een-website",
-    "title": "Wat gebeurt er als je een website opent?",
-    "question": "Wat doen de browser (client), de webserver en de database als je een webpagina opent, en waar kan een aanvaller ingrijpen?",
-    "why": "Bij webhoster DreamHost zaten aanvallers maandenlang in de webgebaseerde File Manager en stalen ze FTP-wachtwoorden: wie weet hoe een webapplicatie op een server werkt, ziet waar zo'n aanval kan beginnen.",
+    "id": "privilege-escalation",
+    "title": "Privilege escalation - van gewone gebruiker naar beheerder",
+    "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
+    "why": "Deze week vond een AI-model van OpenAI 948 manieren om op Linux root te worden, en kregen aanvallers via het OpenSSH-lek SSHole binnen uren rootrechten op een lokserver: tijd om te snappen wat 'root worden' eigenlijk betekent.",
     "topics": [
-     "web_software_security",
-     "attack_techniques"
-    ],
-    "area": "techniek"
-   },
-   {
-    "id": "phishing-technisch",
-    "title": "Phishing technisch bekeken - van mail tot gestolen sessie",
-    "question": "Wat gebeurt er technisch bij een moderne phishingaanval, ook als er MFA aan staat?",
-    "why": "Trend van deze weken: aanvallers omzeilen MFA met sessietokens uit nep-inlogpagina's en device code phishing, en Vercel koppelt inlogsessies nu aan het apparaat om gestolen cookies waardeloos te maken.",
-    "topics": [
-     "phishing_identity",
+     "attack_techniques",
      "siem_detection"
     ],
     "area": "techniek"
    },
    {
-    "id": "exploit-en-zero-day",
-    "title": "Van kwetsbaarheid naar exploit - en wat een zero-day is",
-    "question": "Wat is het verschil tussen een kwetsbaarheid, een proof of concept en een exploit, en waarom zijn zero-days zo gevaarlijk?",
-    "why": "Bij Ivanti combineerden aanvallers drie zero-days om bijgewerkte vpn-servers over te nemen, en bij Binance zag de endpointbeveiliging een zero-day in een nep-programmeeropdracht niet.",
+    "id": "gestolen-sessietokens-en-mfa",
+    "title": "Gestolen sessietokens: hoe aanvallers MFA overslaan en wat ertegen helpt",
+    "question": "Wat is een sessietoken, waarom kan een aanvaller met een gestolen token inloggen zonder MFA, en hoe helpen maatregelen als apparaatgebonden sessies (DBSC) en MFA die niet te phishen is?",
+    "why": "Dit is een trend: Huntress zag een aanvaller bij 79 organisaties inloggen met tokens die al na MFA waren uitgegeven, en Vercel koppelt sessies nu aan het apparaat zodat een gestolen cookie waardeloos wordt.",
+    "topics": [
+     "phishing_identity",
+     "cloud_attacks",
+     "siem_detection"
+    ],
+    "area": "techniek"
+   },
+   {
+    "id": "gepatcht-en-toch-kwetsbaar",
+    "title": "Gepatcht en toch kwetsbaar: waarom een patch soms niet genoeg is",
+    "question": "Hoe kan een lek na een patch nog steeds misbruikt worden (een onvolledige fix, een update die niet aankomt, een systeem dat al besmet was), en hoe controleer je of een systeem echt veilig is?",
+    "why": "De eerste patch voor het misbruikte lek in Zyxel-switches hield de exploit niet tegen, bijgewerkte Ivanti-vpn's bleken opnieuw kwetsbaar en de fix voor Paint komt niet via Windows Update.",
     "topics": [
      "exploited_vulnerabilities",
-     "vulnerabilities_cve",
-     "threat_intelligence"
+     "vulnerability_management",
+     "edge_devices"
     ],
     "area": "kwetsbaarheden"
    },
    {
-    "id": "llmjacking-gestolen-cloudsleutels",
-    "title": "LLMJacking: hoe gestolen cloudsleutels een AI-rekening van een miljoen opleveren",
-    "question": "Wat zijn cloud- en API-sleutels, hoe komen aanvallers eraan, hoe misbruiken ze er AI-diensten mee, en wat zie je daarvan terug in de cloudlogs?",
-    "why": "Mandiant zag dit jaar meerdere LLMJacking-incidenten met kosten tot 1 miljoen dollar, en bij Google Cloud staan de logs voor modelverzoeken standaard uit.",
+    "id": "achterdeur-op-webserver-vinden",
+    "title": "Achterdeuren op webservers: wat ze zijn en hoe je ze vindt als de log zwijgt",
+    "question": "Wat is een webshell of achterdeur op een webserver, waarom zie je die niet altijd terug in de toegangslog, en welke andere sporen (bestanden, processen, netwerkverkeer) gebruikt een securityteam om hem toch te vinden?",
+    "why": "Onderzoekers vonden deze week een nagebouwde webserver in Control Web Panel die verborgen opdrachten uitvoert zonder dat die in de toegangslog komen.",
     "topics": [
-     "cloud_attacks",
      "siem_detection",
+     "malware",
+     "web_software_security"
+    ],
+    "area": "praktijk"
+   },
+   {
+    "id": "leverancier-gehackt-wat-nu",
+    "title": "Wachtwoordmanager of webhoster gehackt: wat betekent dat voor de klant?",
+    "question": "Wat kan een aanvaller met gegevens die bij een dienstverlener zijn gestolen (een versleutelde wachtwoordkluis, FTP-wachtwoorden, webmailsessies), en waarom vraagt de leverancier dan om alles te resetten?",
+    "why": "Deze week vroeg wachtwoordmanager mSecure klanten alle wachtwoorden te wijzigen na diefstal van een versleutelde database, en stalen aanvallers bij DreamHost maandenlang FTP-wachtwoorden van klanten.",
+    "topics": [
+     "incidents_breaches",
      "phishing_identity"
     ],
     "area": "incidenten"
-   },
-   {
-    "id": "hoe-werkt-een-siem",
-    "title": "Hoe werkt een SIEM nu echt?",
-    "question": "Welke logs komen in een SIEM, hoe worden ze gecombineerd, hoe ontstaat een alert, en wat doet een analist ermee?",
-    "why": "Huntress vond in één Microsoft 365-campagne minstens 497 geslaagde aanmeldingen tussen meer dan 200.000 mislukte pogingen: precies het werk van een SIEM, de paar echte uit de stapel halen.",
-    "topics": [
-     "siem_detection",
-     "incident_response"
-    ],
-    "area": "praktijk"
    }
   ]
  },
