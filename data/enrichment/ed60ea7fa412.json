@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "article_id": "ed60ea7fa412",
+  "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+  "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
+  "summary": "Onderzoekers vonden een nagebouwde versie van de webserver van Control Web Panel die verborgen opdrachten uitvoert. Die verzoeken komen niet in de toegangslog. De aanvaller moet wel eerst root zijn.",
+  "story": [
+    "Control Web Panel (CWP) is een gratis beheerpaneel voor Linux-servers die websites hosten. Onderzoekers van XLab, onderdeel van het Chinese securitybedrijf QiAnXin, vonden een achterdeur in de webserver van dat paneel, cwpsrv. Ze noemen hem cwpdoor. Op 29 juni vingen ze een installatiescript op dat zich voordeed als update. Op 30 september dook een kopie op bij VirusTotal, geüpload vanuit Brazilië. Volgens XLab wijst dat erop dat er echte slachtoffers zijn.",
+    "Eerst de normale werking. Een webserver ontvangt verzoeken van browsers, stuurt pagina's terug en schrijft elk verzoek in een toegangslog. Het script vervangt cwpsrv door een nagebouwde versie met extra code. Die gedraagt zich normaal, tot er een verzoek binnenkomt met speciale headers met een geldige tijd en handtekening. Dan voert de server de meegestuurde opdracht uit, met volledige controle over de server. Zulke verzoeken verschijnen niet in de toegangslog.",
+    "Om het programma te vervangen, moet de aanvaller al root zijn. Dit is dus geen eerste inbraak, maar een manier om binnen te blijven (persistentie). Hoe de aanvallers root kregen, weten de onderzoekers niet. Het script zet de oorspronkelijke datum van het bestand terug, zodat een directorylijst geen wijziging toont. Bij controle herkende geen van de 63 virusscanners op VirusTotal het bestand.",
+    "Hoe vind je het dan? Niet in de toegangslog, dus kijk naar andere sporen. XLab noemt er drie: een Unix-socket met de naam van een integriteitsmodule, onverwachte hulpprocessen onder cwpsrv, en de namen van de speciale headers als tekst in het programmabestand. Herstel betekent: het originele programma terugzetten, CWP bijwerken, alle wachtwoorden van het paneel wijzigen en de hele server als gehackt behandelen. In dezelfde upload zat ook Ebury, een bekende achterdeur in OpenSSH die wachtwoorden steelt.",
+    "De les voor detectie is breder dan CWP. Een gehackte server kan liegen over zijn eigen logs, en bestandsdatums zijn geen bewijs. Daarom helpt het om bronnen te combineren: netwerkverkeer naar het paneel, processen op de server en een vergelijking van programmabestanden met een bekende goede versie. Een SIEM die al die bronnen samenbrengt, ziet meer dan één logbestand."
+  ],
+  "key_facts": [
+    "XLab (QiAnXin) meldde begin november 2026 een achterdeur, cwpdoor, in cwpsrv, de webserver van Control Web Panel.",
+    "XLab ving op 29 juni een installatiescript op dat zich voordeed als versie-update; het vervangt cwpsrv en werkt alleen voor cwpsrv 1.15.10 en 1.24.0.",
+    "De nagebouwde server voert een opdracht uit bij een verzoek met een geldige tijd en handtekening in headers die beginnen met X-Ngx-Integrity; die verzoeken komen niet in de toegangslog.",
+    "Installatie vereist root; het script herstelt de oorspronkelijke tijdstempels en het bestand had 0 van 63 detecties op VirusTotal.",
+    "Op 30 september werd vanuit Brazilië een archief met de achterdeur naar VirusTotal geüpload; daarin zat ook Ebury.",
+    "XLab adviseert te controleren op de Unix-socket van de achterdeur, onverwachte hulpprocessen van cwpsrv en de headernamen in het programmabestand, en daarna het origineel terug te zetten, CWP bij te werken en wachtwoorden te wijzigen."
+  ],
+  "limitations": [
+    "Hoe de aanvallers root kregen, is niet bekend.",
+    "Hoeveel servers besmet zijn en wie erachter zit, is niet bekend.",
+    "Of cwpdoor en Ebury bij dezelfde aanvaller horen, weet XLab niet.",
+    "Hoe de achterdeur precies voorkomt dat verzoeken in de toegangslog komen, beschrijft het artikel niet.",
+    "Het rapport van XLab zelf is niet gelezen; de details komen uit The Hacker News."
+  ],
+  "personal_relevance": "Hostingklanten en MSP's vertrouwen vaak op webserverlogs om misbruik te zien. Dit voorbeeld helpt om te vragen welke andere bronnen hun SIEM of MDR gebruikt als een server zijn eigen logs niet meer betrouwbaar bijhoudt.",
+  "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["siem_detection", "malware", "web_software_security"],
+  "quality": {"depth": 0.7, "practicality": 0.7, "novelty": 0.7},
+  "development_key": "cwpdoor-control-web-panel-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."},
+  "showcase": {
+    "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
+    "language": "bash",
+    "code": "$ ss -xlp | grep cwpsrv\nu_str LISTEN 0 128 /tmp/.voorbeeld-integrity.sock 41234 * 0 users:((\"cwpsrv\",pid=1187,fd=9))",
+    "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
+  },
+  "terms": [
+    {"term": "achterdeur", "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."},
+    {"term": "toegangslog", "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."},
+    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
+    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
+    {"term": "Unix-socket", "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."},
+    {"term": "VirusTotal", "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:50:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

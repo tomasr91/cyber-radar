@@ -1,0 +1,61 @@
+{
+  "format_version": 2,
+  "article_id": "649e0d8b078e",
+  "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+  "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
+  "summary": "Microsoft heeft een lek in Paint gedicht waarmee code kan worden uitgevoerd. De fix komt alleen via de Microsoft Store, en de officiële versienummers spreken elkaar tegen. Dat kan scanners in de war brengen.",
+  "story": [
+    "Microsoft heeft een kwetsbaarheid in Paint gedicht, CVE-2026-83844. Het is een out-of-bounds read die tot remote code execution kan leiden. Microsoft noemt de ernst 'Important', met een CVSS-score van 8,1. Bij publicatie op 13 oktober werd het lek volgens Microsoft niet misbruikt en was het niet openbaar. De fix zit in Paint-versie 11.2609.401.0, en die komt alleen via de Microsoft Store.",
+    "Waarom is dat bijzonder? Klassieke Windows-onderdelen krijgen hun updates via Windows Update, op Patch Tuesday. Paint is tegenwoordig een Store-app. Zo'n app wordt per gebruiker geïnstalleerd en apart bijgewerkt. Windows kan daarnaast een voorbereide kopie bewaren voor nieuwe gebruikers. Wie alleen naar Windows Update kijkt, mist deze fix dus. Wie alleen het account van de ingelogde gebruiker controleert, mist oudere kopieën bij andere gebruikers.",
+    "Wat is een out-of-bounds read? Een programma leest gegevens buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie prijsgeven en is soms een opstap om code uit te voeren. Volgens het advies stuurt een aanvaller 'een speciaal gemaakt pakket naar een getroffen dienst via het netwerk'. Welke dienst dat bij Paint is, en of het om bestanden zoals afbeeldingen gaat, zegt het artikel niet. Microsoft zegt wel dat een aanval diepe kennis van het doelsysteem vraagt.",
+    "Er is nog een probleem voor vulnerability management. Het CVE-record en NVD noemen Paint alleen kwetsbaar onder versie 11.2605.91.0. Een scanner die daarop vertrouwt, keurt versies vanaf 11.2605.91.0 goed. Microsoft noemt in zijn advies juist 11.2609.401.0 als versie met de fix. Wie zeker wil zijn, houdt het hoogste nummer aan. Met PowerShell vraag je de versie voor alle gebruikers op, en met beheertools zoals Intune dwing je de Store-update af.",
+    "Voor organisaties is de les dat niet elke patch dezelfde route volgt. Store-apps en andere programma's met een eigen updater vallen buiten het maandelijkse patchritme. Is de Store in je omgeving uitgeschakeld, dan is onduidelijk hoe deze fix binnenkomt; het artikel zegt daar niets over. Een workaround is er niet. Wie Paint niet nodig heeft, kan het volgens een onderzoeker verwijderen, maar dat is niet getest."
+  ],
+  "key_facts": [
+    "CVE-2026-83844 is een out-of-bounds read in Windows Paint die tot remote code execution kan leiden; Microsoft geeft 'Important' en CVSS 8,1 (advies van 13 oktober 2026).",
+    "Volgens Microsoft was het lek bij publicatie niet misbruikt en niet openbaar; het stond niet in CISA KEV toen The Hacker News keek.",
+    "De fix (Paint 11.2609.401.0) komt alleen via een update in de Microsoft Store, niet via Windows Update.",
+    "Het CVE-record en NVD noemen Paint alleen kwetsbaar onder 11.2605.91.0; Microsofts advies noemt 11.2609.401.0 als versie met de fix, zonder uitleg over het verschil.",
+    "Paint wordt per gebruiker geïnstalleerd en Windows kan een voorbereide kopie voor nieuwe gebruikers bewaren; het artikel geeft PowerShell-opdrachten om alle kopieën te controleren.",
+    "The Hacker News zag 11.2609.401.0 op 6 november als nieuwste Store-versie in alle tien gecontroleerde landen; eerder die week was dat nog 11.2605.81.0, zonder fix."
+  ],
+  "limitations": [
+    "Welke dienst het 'netwerkpakket' ontvangt en of de aanval via bestanden loopt, is niet bekend.",
+    "Waarom de fix alleen via de Store komt en waarom het fixnummer veranderde, legt Microsoft niet uit.",
+    "Hoe snel de Store-update op grote schaal aankomt, is niet bekend; één testmachine kreeg hem automatisch.",
+    "Hoe systemen met een uitgeschakelde Store de fix krijgen, staat niet in het artikel."
+  ],
+  "personal_relevance": "Dit is een praktisch voorbeeld voor klantgesprekken over vulnerability management: dekt de scanner ook Store-apps, per gebruiker, en welke versie geldt als 'opgelost' als bronnen elkaar tegenspreken?",
+  "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["vulnerability_management", "vulnerabilities_cve"],
+  "quality": {"depth": 0.5, "practicality": 0.8, "novelty": 0.6},
+  "development_key": "cve-2026-83844-paint",
+  "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."},
+  "showcase": {
+    "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
+    "language": "powershell",
+    "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
+    "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
+    "result": {
+      "columns": ["Version", "Users"],
+      "rows": [["11.2609.401.0", "VOORBEELD\\anna"], ["11.2605.81.0", "VOORBEELD\\piet"]]
+    }
+  },
+  "terms": [
+    {"term": "out-of-bounds read", "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."},
+    {"term": "remote code execution", "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."},
+    {"term": "Patch Tuesday", "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."},
+    {"term": "Store-app", "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."},
+    {"term": "NVD", "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."},
+    {"term": "Intune", "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:56:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

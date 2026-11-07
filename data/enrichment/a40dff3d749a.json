@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "article_id": "a40dff3d749a",
+  "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
+  "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
+  "story": [
+    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
+    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
+    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
+    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
+    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
+  ],
+  "key_facts": [
+    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
+    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
+    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
+    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
+    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
+    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
+  ],
+  "limitations": [
+    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
+    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
+    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
+    "Wie achter de pogingen zit, is niet bekend.",
+    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
+  ],
+  "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
+  "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["exploited_vulnerabilities", "vulnerabilities_cve", "attack_techniques"],
+  "quality": {"depth": 0.8, "practicality": 0.7, "novelty": 0.8},
+  "development_key": "cve-2026-123158-openssh-sshole",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."},
+  "showcase": {
+    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
+    "language": "log",
+    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
+  },
+  "terms": [
+    {"term": "honeypot", "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."},
+    {"term": "hash", "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."},
+    {"term": "musl", "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."},
+    {"term": "PAM", "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."},
+    {"term": "sshd", "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-07T01:53:00Z",
+  "prompt_version": "cyber-taak-v1"
+}
