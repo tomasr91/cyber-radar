@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T01:36:14.403286Z",
+ "generated_at": "2026-11-07T01:37:05.407675Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -130,7 +130,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-03T16:55:58Z",
    "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence",

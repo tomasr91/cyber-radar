@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T01:36:14.403286Z",
+ "generated_at": "2026-11-07T01:37:05.407675Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-07T01:56:00Z",
- "last_successful_update": "2026-11-07T01:36:14.403286Z",
+ "last_article_added_at": "2026-11-07T01:35:00Z",
+ "last_successful_update": "2026-11-07T01:37:05.407675Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T01:36:14.470357Z"
+   "checked_at": "2026-11-07T01:37:05.469786Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T01:36:15.393524Z"
+   "checked_at": "2026-11-07T01:37:05.965668Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T01:36:16.364713Z"
+   "checked_at": "2026-11-07T01:37:06.550761Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T01:36:16.776011Z"
+   "checked_at": "2026-11-07T01:37:06.659509Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T01:36:18.178489Z"
+   "checked_at": "2026-11-07T01:37:07.468337Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T01:36:18.364925Z"
+   "checked_at": "2026-11-07T01:37:07.588370Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T01:36:18.548885Z"
+   "checked_at": "2026-11-07T01:37:07.659388Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T01:36:18.662601Z"
+   "checked_at": "2026-11-07T01:37:07.753259Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T01:36:19.079480Z"
+   "checked_at": "2026-11-07T01:37:08.148426Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T01:36:20.820184Z"
+   "checked_at": "2026-11-07T01:37:09.700298Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T01:36:20.984330Z"
+   "checked_at": "2026-11-07T01:37:09.756881Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T01:36:21.053875Z"
+   "checked_at": "2026-11-07T01:37:09.800892Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T01:36:21.235243Z"
+   "checked_at": "2026-11-07T01:37:09.971333Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T01:36:21.436332Z"
+   "checked_at": "2026-11-07T01:37:10.111369Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T01:36:21.640423Z"
+   "checked_at": "2026-11-07T01:37:10.208092Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T01:36:21.732998Z"
+   "checked_at": "2026-11-07T01:37:10.248222Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T01:36:22.007686Z"
+   "checked_at": "2026-11-07T01:37:10.399641Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T01:36:22.240013Z"
+   "checked_at": "2026-11-07T01:37:10.681245Z"
   }
  ],
  "daily_top": [
@@ -1006,7 +1006,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:37:00Z",
+   "processed_at": "2026-11-07T01:30:00Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in",
@@ -1122,7 +1122,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:53:00Z",
+   "processed_at": "2026-11-07T01:34:40Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
@@ -1214,7 +1214,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:43:00Z",
+   "processed_at": "2026-11-07T01:31:00Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3",
@@ -1336,7 +1336,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:50:00Z",
+   "processed_at": "2026-11-07T01:34:20Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
@@ -1878,7 +1878,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:56:00Z",
+   "processed_at": "2026-11-07T01:35:00Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
@@ -1990,7 +1990,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:39:00Z",
+   "processed_at": "2026-11-07T01:30:20Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
@@ -2572,7 +2572,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:41:00Z",
+   "processed_at": "2026-11-07T01:30:40Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
@@ -2961,7 +2961,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:35:00Z",
+   "processed_at": "2026-11-07T01:29:40Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
@@ -6761,51 +6761,21 @@
  "interest_suggestions": [],
  "interest_log": [],
  "runs": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "tasks": {
-   "overzicht": {
-    "status": "ok",
-    "summary": "3 trends bijgewerkt (AI-agenten bij inbraken, misbruikte vpn- en randapparaten, MFA omzeild met gestolen sessies); geen verzoeken voor de interesses en geen stukken zonder begrippen.",
-    "finished_at": "2026-11-06T03:24:04Z",
-    "problems": [],
-    "counts": {
-     "trends": 3,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
-    }
-   },
-   "inhalen": {
-    "status": "ok",
-    "summary": "niets in te halen",
-    "finished_at": "2026-11-06T04:38:05Z",
-    "problems": [],
-    "counts": {
-     "ingehaald": 0
-    }
-   },
    "uitleggen": {
     "status": "ok",
-    "summary": "Vers opgehaald; 3 artikelen uitgelegd (Binance, Chainalysis, DreamHost), 7 overgeslagen, waarvan 3 zonder openen en 2 niet te lezen.",
-    "finished_at": "2026-11-06T01:34:50Z",
+    "summary": "Vers opgehaald; 8 artikelen uitgelegd (onder meer misbruikte lekken in SonicWall-vpn, Zyxel-switches en OpenSSH), 2 overgeslagen zonder openen.",
+    "finished_at": "2026-11-07T01:36:30Z",
     "problems": [
-     "Twee artikelen van BleepingComputer (DigiCert-datalek en 3AM-ransomware bij een Britse scholengroep) gaven steeds een foutmelding; ze komen over een week terug.",
-     "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden."
+     "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
+     "De adviezen van SonicWall (PSIRT) konden niet worden geopend; de uitleg steunt op Security.NL, BleepingComputer en het CVE-record."
     ],
     "counts": {
-     "uitgelegd": 3,
-     "overgeslagen": 7,
-     "overgeslagen_zonder_openen": 3,
-     "niet_te_lezen": 2
-    }
-   },
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-06T02:23:52Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 0,
-     "keuzes": 5
+     "uitgelegd": 8,
+     "overgeslagen": 2,
+     "overgeslagen_zonder_openen": 2,
+     "niet_te_lezen": 0
     }
    }
   }
@@ -7139,14 +7109,6 @@
     "excluded_by": []
    },
    {
-    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
@@ -7234,6 +7196,14 @@
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
