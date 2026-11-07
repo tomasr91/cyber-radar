@@ -30,14 +30,25 @@
   "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
   "region": "world",
   "official_docs": [],
-  "topics": ["attack_techniques", "vulnerabilities_cve", "vulnerability_management"],
-  "quality": {"depth": 0.6, "practicality": 0.6, "novelty": 0.7},
+  "topics": [
+    "attack_techniques",
+    "vulnerabilities_cve",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.6,
+    "novelty": 0.7
+  },
   "development_key": "openai-linux-lpe-pipeline-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."
+  },
   "showcase": {
     "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
     "language": "log",
@@ -45,14 +56,32 @@
     "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
   },
   "terms": [
-    {"term": "kernel", "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."},
-    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
-    {"term": "rechtenverhoging", "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."},
-    {"term": "sandbox", "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."},
-    {"term": "proof of concept", "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."},
-    {"term": "EDR", "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."}
+    {
+      "term": "kernel",
+      "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "rechtenverhoging",
+      "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+      "term": "sandbox",
+      "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+      "term": "proof of concept",
+      "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:41:00Z",
+  "processed_at": "2026-11-07T01:30:40Z",
   "prompt_version": "cyber-taak-v1"
 }

@@ -29,36 +29,83 @@
   "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
   "region": "world",
   "official_docs": [],
-  "topics": ["exploited_vulnerabilities", "edge_devices", "vulnerability_management", "vulnerabilities_cve"],
-  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "topics": [
+    "exploited_vulnerabilities",
+    "edge_devices",
+    "vulnerability_management",
+    "vulnerabilities_cve"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
   "development_key": "cve-2026-107441-zyxel-gs1900",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
+  },
   "showcase": {
     "caption": "Zo kan een vulnerability scanner deze switches tonen. Een switch op Patch 2 was na de eerste fix 'in orde', maar is nu weer kwetsbaar. Alleen de Patch 3-firmware (.3) is veilig.",
     "language": "text",
     "code": "Zoekopdracht: Zyxel GS1900, firmware 2.90 lager dan Patch 3",
     "note": "Nagebouwd voorbeeld met verzonnen apparaten. De firmwarenummers van Patch 2 en Patch 3 komen uit het advies van Zyxel; de andere versie is verzonnen.",
     "result": {
-      "columns": ["Apparaat", "Model", "Firmware", "Status"],
+      "columns": [
+        "Apparaat",
+        "Model",
+        "Firmware",
+        "Status"
+      ],
       "rows": [
-        ["sw-kantoor-01", "GS1900-24", "2.90(AAHL.2)C0", "Kwetsbaar (CVE-2026-107441)"],
-        ["sw-magazijn-02", "GS1900-8HP", "2.90(AAHI.1)C0", "Kwetsbaar (CVE-2026-7273 en CVE-2026-107441)"],
-        ["sw-receptie-03", "GS1900-16", "2.90(AAHJ.3)C0", "Opgelost"]
+        [
+          "sw-kantoor-01",
+          "GS1900-24",
+          "2.90(AAHL.2)C0",
+          "Kwetsbaar (CVE-2026-107441)"
+        ],
+        [
+          "sw-magazijn-02",
+          "GS1900-8HP",
+          "2.90(AAHI.1)C0",
+          "Kwetsbaar (CVE-2026-7273 en CVE-2026-107441)"
+        ],
+        [
+          "sw-receptie-03",
+          "GS1900-16",
+          "2.90(AAHJ.3)C0",
+          "Opgelost"
+        ]
       ]
     }
   },
   "terms": [
-    {"term": "switches", "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen."},
-    {"term": "webinterface", "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver."},
-    {"term": "buffer overflow", "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma."},
-    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
-    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."}
+    {
+      "term": "switches",
+      "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen."
+    },
+    {
+      "term": "webinterface",
+      "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver."
+    },
+    {
+      "term": "buffer overflow",
+      "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:43:00Z",
+  "processed_at": "2026-11-07T01:31:00Z",
   "prompt_version": "cyber-taak-v1"
 }

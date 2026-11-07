@@ -29,33 +29,73 @@
   "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
   "region": "world",
   "official_docs": [],
-  "topics": ["vulnerability_management", "vulnerabilities_cve"],
-  "quality": {"depth": 0.5, "practicality": 0.8, "novelty": 0.6},
+  "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
   "development_key": "cve-2026-83844-paint",
   "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."
+  },
   "showcase": {
     "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
     "language": "powershell",
     "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
     "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
     "result": {
-      "columns": ["Version", "Users"],
-      "rows": [["11.2609.401.0", "VOORBEELD\\anna"], ["11.2605.81.0", "VOORBEELD\\piet"]]
+      "columns": [
+        "Version",
+        "Users"
+      ],
+      "rows": [
+        [
+          "11.2609.401.0",
+          "VOORBEELD\\anna"
+        ],
+        [
+          "11.2605.81.0",
+          "VOORBEELD\\piet"
+        ]
+      ]
     }
   },
   "terms": [
-    {"term": "out-of-bounds read", "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."},
-    {"term": "remote code execution", "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."},
-    {"term": "Patch Tuesday", "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."},
-    {"term": "Store-app", "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."},
-    {"term": "NVD", "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."},
-    {"term": "Intune", "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."}
+    {
+      "term": "out-of-bounds read",
+      "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."
+    },
+    {
+      "term": "remote code execution",
+      "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+      "term": "Patch Tuesday",
+      "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+      "term": "Store-app",
+      "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."
+    },
+    {
+      "term": "NVD",
+      "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
+    },
+    {
+      "term": "Intune",
+      "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:56:00Z",
+  "processed_at": "2026-11-07T01:35:00Z",
   "prompt_version": "cyber-taak-v1"
 }

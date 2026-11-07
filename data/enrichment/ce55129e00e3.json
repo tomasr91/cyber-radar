@@ -29,24 +29,53 @@
   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
   "region": "world",
   "official_docs": [
-    {"label": "CVE-2026-109593 (OpenCVE)", "url": "https://app.opencve.io/cve/CVE-2026-109593"}
+    {
+      "label": "CVE-2026-109593 (OpenCVE)",
+      "url": "https://app.opencve.io/cve/CVE-2026-109593"
+    }
   ],
-  "topics": ["vulnerability_management", "vulnerabilities_cve", "edge_devices"],
-  "quality": {"depth": 0.4, "practicality": 0.7, "novelty": 0.5},
+  "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "edge_devices"
+  ],
+  "quality": {
+    "depth": 0.4,
+    "practicality": 0.7,
+    "novelty": 0.5
+  },
   "development_key": "cve-2026-109593-sonicwall-gms",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
+  },
   "terms": [
-    {"term": "end-of-life", "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."},
-    {"term": "CWE-636", "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."},
-    {"term": "CVSS-score", "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."},
-    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
-    {"term": "EPSS-kans", "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."}
+    {
+      "term": "end-of-life",
+      "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+    },
+    {
+      "term": "CWE-636",
+      "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
+    },
+    {
+      "term": "CVSS-score",
+      "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "EPSS-kans",
+      "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:35:00Z",
+  "processed_at": "2026-11-07T01:29:40Z",
   "prompt_version": "cyber-taak-v1"
 }

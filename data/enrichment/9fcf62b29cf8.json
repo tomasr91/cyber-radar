@@ -29,33 +29,78 @@
   "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
   "region": "world",
   "official_docs": [],
-  "topics": ["cloud_attacks", "attack_techniques", "siem_detection", "threat_intelligence"],
-  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.6},
+  "topics": [
+    "cloud_attacks",
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
   "development_key": "artex-github-secrets-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."
+  },
   "showcase": {
     "caption": "Zo zoek je in Microsoft Sentinel naar adressen die met een ongeldig of verlopen geheim proberen in te loggen als een app. Regel 1 kiest de aanmeldingen van service principals, regel 3 filtert op de twee foutcodes, regel 4 telt per adres het aantal pogingen en verschillende apps.",
     "language": "kql",
     "code": "AADServicePrincipalSignInLogs\n| where TimeGenerated > ago(30d)\n| where ResultType in (\"7000215\", \"7000222\")\n| summarize Pogingen = count(), Apps = dcount(AppId) by IPAddress\n| order by Pogingen desc",
     "note": "Nagebouwd voorbeeld. Microsoft noemt de foutcodes en andere tabellen (zoals EntraIdSpnSignInEvents); controleer de tabel- en kolomnamen in je eigen omgeving.",
     "result": {
-      "columns": ["IPAddress", "Pogingen", "Apps"],
-      "rows": [["203.0.113.10", "41", "6"], ["198.51.100.7", "2", "1"]]
+      "columns": [
+        "IPAddress",
+        "Pogingen",
+        "Apps"
+      ],
+      "rows": [
+        [
+          "203.0.113.10",
+          "41",
+          "6"
+        ],
+        [
+          "198.51.100.7",
+          "2",
+          "1"
+        ]
+      ]
     }
   },
   "terms": [
-    {"term": "service principal", "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."},
-    {"term": "client secret", "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."},
-    {"term": "Key Vaults", "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."},
-    {"term": "Run Command", "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."},
-    {"term": "managed identities", "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."},
-    {"term": "secret scanning", "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."}
+    {
+      "term": "service principal",
+      "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+      "term": "client secret",
+      "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."
+    },
+    {
+      "term": "Key Vaults",
+      "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+      "term": "Run Command",
+      "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."
+    },
+    {
+      "term": "managed identities",
+      "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."
+    },
+    {
+      "term": "secret scanning",
+      "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:37:00Z",
+  "processed_at": "2026-11-07T01:30:00Z",
   "prompt_version": "cyber-taak-v1"
 }

@@ -30,14 +30,25 @@
   "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
   "region": "world",
   "official_docs": [],
-  "topics": ["siem_detection", "malware", "web_software_security"],
-  "quality": {"depth": 0.7, "practicality": 0.7, "novelty": 0.7},
+  "topics": [
+    "siem_detection",
+    "malware",
+    "web_software_security"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.7,
+    "novelty": 0.7
+  },
   "development_key": "cwpdoor-control-web-panel-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
+  },
   "showcase": {
     "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
     "language": "bash",
@@ -45,14 +56,32 @@
     "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
   },
   "terms": [
-    {"term": "achterdeur", "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."},
-    {"term": "toegangslog", "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."},
-    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
-    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
-    {"term": "Unix-socket", "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."},
-    {"term": "VirusTotal", "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."}
+    {
+      "term": "achterdeur",
+      "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
+    },
+    {
+      "term": "toegangslog",
+      "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "persistentie",
+      "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+      "term": "Unix-socket",
+      "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."
+    },
+    {
+      "term": "VirusTotal",
+      "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:50:00Z",
+  "processed_at": "2026-11-07T01:34:20Z",
   "prompt_version": "cyber-taak-v1"
 }

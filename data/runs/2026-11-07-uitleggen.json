@@ -1,0 +1,17 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-07T01:22:33Z",
+  "finished_at": "2026-11-07T01:36:30Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 8 artikelen uitgelegd (onder meer misbruikte lekken in SonicWall-vpn, Zyxel-switches en OpenSSH), 2 overgeslagen zonder openen.",
+  "counts": {
+    "uitgelegd": 8,
+    "overgeslagen": 2,
+    "overgeslagen_zonder_openen": 2,
+    "niet_te_lezen": 0
+  },
+  "problems": [
+    "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
+    "De adviezen van SonicWall (PSIRT) konden niet worden geopend; de uitleg steunt op Security.NL, BleepingComputer en het CVE-record."
+  ]
+}

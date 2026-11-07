@@ -30,14 +30,25 @@
   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
   "region": "world",
   "official_docs": [],
-  "topics": ["exploited_vulnerabilities", "vulnerabilities_cve", "attack_techniques"],
-  "quality": {"depth": 0.8, "practicality": 0.7, "novelty": 0.8},
+  "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.7,
+    "novelty": 0.8
+  },
   "development_key": "cve-2026-123158-openssh-sshole",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
+  },
   "showcase": {
     "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
     "language": "log",
@@ -45,13 +56,28 @@
     "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
   },
   "terms": [
-    {"term": "honeypot", "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."},
-    {"term": "hash", "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."},
-    {"term": "musl", "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."},
-    {"term": "PAM", "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."},
-    {"term": "sshd", "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."}
+    {
+      "term": "honeypot",
+      "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+      "term": "hash",
+      "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+      "term": "musl",
+      "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
+    },
+    {
+      "term": "PAM",
+      "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
+    },
+    {
+      "term": "sshd",
+      "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:53:00Z",
+  "processed_at": "2026-11-07T01:34:40Z",
   "prompt_version": "cyber-taak-v1"
 }

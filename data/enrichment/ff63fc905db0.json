@@ -28,23 +28,53 @@
   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
   "region": "world",
   "official_docs": [],
-  "topics": ["exploited_vulnerabilities", "edge_devices", "phishing_identity", "vulnerabilities_cve"],
-  "quality": {"depth": 0.5, "practicality": 0.8, "novelty": 0.6},
+  "topics": [
+    "exploited_vulnerabilities",
+    "edge_devices",
+    "phishing_identity",
+    "vulnerabilities_cve"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
   "development_key": "cve-2026-19868-sonicos-sslvpn",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "kwetsbaarheid",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
+  },
   "terms": [
-    {"term": "SSL-VPN", "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."},
-    {"term": "SAML", "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."},
-    {"term": "MFA", "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."},
-    {"term": "lokale accounts", "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."},
-    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
-    {"term": "zero-days", "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."}
+    {
+      "term": "SSL-VPN",
+      "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
+    },
+    {
+      "term": "SAML",
+      "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+      "term": "MFA",
+      "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+      "term": "lokale accounts",
+      "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "zero-days",
+      "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-07T01:39:00Z",
+  "processed_at": "2026-11-07T01:30:20Z",
   "prompt_version": "cyber-taak-v1"
 }
