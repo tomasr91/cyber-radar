@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T01:22:57.866917Z",
+ "generated_at": "2026-11-07T01:34:03.813802Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-06T01:34:10Z",
- "last_successful_update": "2026-11-07T01:22:57.866917Z",
+ "last_article_added_at": "2026-11-07T01:43:00Z",
+ "last_successful_update": "2026-11-07T01:34:03.813802Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T01:22:57.909015Z"
+   "checked_at": "2026-11-07T01:34:03.873866Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T01:22:58.849471Z"
+   "checked_at": "2026-11-07T01:34:04.666006Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T01:22:59.749778Z"
+   "checked_at": "2026-11-07T01:34:05.613219Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T01:22:59.979445Z"
+   "checked_at": "2026-11-07T01:34:05.766196Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T01:23:01.393243Z"
+   "checked_at": "2026-11-07T01:34:07.128644Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T01:23:01.481147Z"
+   "checked_at": "2026-11-07T01:34:07.222206Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T01:23:01.623986Z"
+   "checked_at": "2026-11-07T01:34:07.288022Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T01:23:01.777222Z"
+   "checked_at": "2026-11-07T01:34:07.378756Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T01:23:02.294971Z"
+   "checked_at": "2026-11-07T01:34:07.806528Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T01:23:03.996065Z"
+   "checked_at": "2026-11-07T01:34:09.412668Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T01:23:04.574824Z"
+   "checked_at": "2026-11-07T01:34:09.453135Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T01:23:04.662496Z"
+   "checked_at": "2026-11-07T01:34:09.522072Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T01:23:04.722822Z"
+   "checked_at": "2026-11-07T01:34:09.561059Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T01:23:05.005204Z"
+   "checked_at": "2026-11-07T01:34:09.847115Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T01:23:05.079011Z"
+   "checked_at": "2026-11-07T01:34:09.953928Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T01:23:05.279463Z"
+   "checked_at": "2026-11-07T01:34:10.041671Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T01:23:05.552825Z"
+   "checked_at": "2026-11-07T01:34:10.315900Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T01:23:05.719507Z"
+   "checked_at": "2026-11-07T01:34:10.595822Z"
   }
  ],
  "daily_top": [
@@ -389,7 +389,7 @@
   "11af3bdb9908",
   "8b5f34b85bf1",
   "63028db311b2",
-  "d2cce75fefaf"
+  "9fcf62b29cf8"
  ],
  "articles": [
   {
@@ -969,6 +969,245 @@
    "region": "world"
   },
   {
+   "id": "9fcf62b29cf8",
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-11-05T23:46:50Z",
+   "fetched_at": "2026-11-06T01:23:37.390589Z",
+   "summary": "Microsoft ziet aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar gelekte geheimen. In één geval ging een agent in vijf minuten van zoeken naar het leeghalen van een Azure Key Vault.",
+   "personal_relevance": "Veel klanten hebben apps met geheimen in Entra en code op GitHub. Vragen die je kunt stellen: monitoren jullie aanmeldingen van service principals, en scannen jullie code op geheimen voordat die online komt?",
+   "limitations": [
+    "Microsoft noemt geen aanvallersgroep en geen aantal getroffen organisaties.",
+    "Microsoft vermoedt dat de aanvaller gestolen AI-resources wilde gebruiken voor verdere activiteit; dat is niet bevestigd.",
+    "Microsoft is zelf leverancier van de cloud en van beveiligingsproducten; een deel van de adviezen verwijst naar eigen producten.",
+    "Of dezelfde aanvallers achter eerdere ARTEX-campagnes zitten, zoals bij ConnectWise, staat niet in het stuk."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.95,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:37:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in",
+   "story": [
+    "Microsoft Threat Intelligence ziet sinds augustus 2026 aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar geheimen. Het gaat om inloggegevens van applicaties, OAuth-geheimen en API-sleutels voor AI-diensten. Ontwikkelaars hadden die in openbare code gezet. Vanaf 28 oktober gebruikten AI-agenten de gevonden sleutels om binnen te komen bij de organisaties erachter. Microsoft noemt geen naam van een aanvallersgroep.",
+    "Hoe werkt dat? Een applicatie die bij Microsoft 365 of Azure wil, heeft daar een eigen identiteit: een service principal. Die logt in met een client secret, een soort wachtwoord voor software. Ontwikkelaars zetten zo'n geheim soms in een configuratiebestand of script, om snel iets werkend te krijgen. Staat die code openbaar op GitHub, dan kan iedereen het lezen. Zoeken naar zulke geheimen is niet nieuw. Nieuw is de snelheid: de agent doorzoekt veel code tegelijk, beoordeelt wat hij vindt en gaat zelf verder met de aanval.",
+    "Wat deden de agenten daarna? Ze logden in als de app en zochten naar functies die nog meer geheimen teruggeven, zoals opslagsleutels en connection strings. Ze downloadden bestanden uit SharePoint en OneDrive en lazen mail. Ze haalden geheimen uit Key Vaults en voerden met Run Command scripts uit op virtuele servers. Mislukte een verzoek, dan paste de agent het binnen 28 tot 80 seconden aan. In één geval zat er vijf minuten tussen zoeken op GitHub en het leeghalen van een Key Vault.",
+    "Je ziet dit in de aanmeldingen van service principals in Entra, niet bij die van gewone gebruikers. Microsoft wijst op twee foutcodes: AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim). Die betekenen dat iemand een sleutel van jouw app probeert. Een mislukte poging gevolgd door een gelukte is urgent. Verdacht is ook één adres dat bij drie of meer service principals inlogt, of één app die in korte tijd toegang vraagt tot veel verschillende diensten.",
+    "De les: een geheim dat ooit openbaar stond, moet je als gestolen beschouwen. Ook als je het verwijdert, staat het nog in de geschiedenis van de code en in kopieën. Microsoft adviseert zulke geheimen meteen te vervangen en apps te laten inloggen met managed identities, zonder geheim. Zet ook secret scanning aan met push protection. Die houdt een geheim tegen voordat het online komt."
+   ],
+   "key_facts": [
+    "Microsoft Threat Intelligence publiceerde de analyse op 5 november 2026; de zoekactiviteit op GitHub zag Microsoft vanaf augustus 2026.",
+    "Het agentische aanvalsframework ARTEX zocht in openbare GitHub-repositories naar inloggegevens, OAuth client secrets van applicaties en API-sleutels voor AI-diensten.",
+    "Vanaf 28 oktober 2026 logden agenten met gelekte applicatiegegevens in bij Entra ID-omgevingen; de aanmeldingen kwamen vooral van twee IP-adressen, waarvan één een Tor-exitnode.",
+    "Vervolgacties: credentials opvragen (opslagsleutels, connection strings), bestanden uit SharePoint en OneDrive downloaden, mail lezen, Key Vault-geheimen stelen, Azure DevOps doorzoeken en scripts draaien via Azure Run Command.",
+    "Mislukte verzoeken werden binnen ongeveer 28 tot 80 seconden aangepast en opnieuw geprobeerd; in één geval duurde het vijf minuten van zoeken op GitHub tot het leeghalen van Azure Key Vault.",
+    "Microsoft noemt de foutcodes AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim) als teken dat iemand een sleutel van je app gebruikt."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo zoek je in Microsoft Sentinel naar adressen die met een ongeldig of verlopen geheim proberen in te loggen als een app. Regel 1 kiest de aanmeldingen van service principals, regel 3 filtert op de twee foutcodes, regel 4 telt per adres het aantal pogingen en verschillende apps.",
+    "language": "kql",
+    "code": "AADServicePrincipalSignInLogs\n| where TimeGenerated > ago(30d)\n| where ResultType in (\"7000215\", \"7000222\")\n| summarize Pogingen = count(), Apps = dcount(AppId) by IPAddress\n| order by Pogingen desc",
+    "note": "Nagebouwd voorbeeld. Microsoft noemt de foutcodes en andere tabellen (zoals EntraIdSpnSignInEvents); controleer de tabel- en kolomnamen in je eigen omgeving.",
+    "result": {
+     "columns": [
+      "IPAddress",
+      "Pogingen",
+      "Apps"
+     ],
+     "rows": [
+      [
+       "203.0.113.10",
+       "41",
+       "6"
+      ],
+      [
+       "198.51.100.7",
+       "2",
+       "1"
+      ]
+     ]
+    }
+   },
+   "terms": [
+    {
+     "term": "service principal",
+     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+     "term": "client secret",
+     "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."
+    },
+    {
+     "term": "Key Vaults",
+     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+     "term": "Run Command",
+     "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."
+    },
+    {
+     "term": "managed identities",
+     "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."
+    },
+    {
+     "term": "secret scanning",
+     "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."
+   },
+   "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
+   "region": "world"
+  },
+  {
+   "id": "a665869d02d2",
+   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+   "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-05T07:06:33Z",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "summary": "Aanvallers braken in augustus in bij 996 Zyxel GS1900-switches. Onderzoeker Binarly ontdekte dat hun exploit ook werkt op de eerdere patch. Zyxel bracht nu Patch 3 uit voor tien modellen.",
+   "personal_relevance": "Klanten vertrouwen vaak op 'patch geïnstalleerd' als eindpunt. Dit voorbeeld helpt om te vragen of hun vulnerability management ook bijhoudt wanneer een eerdere patch onvoldoende blijkt, en of netwerkapparatuur op standaardwachtwoorden wordt gecontroleerd.",
+   "limitations": [
+    "Niet bekend is welke firmware de gehackte switches hadden en of daar Patch 2 op stond.",
+    "Binarly houdt twee verklaringen open: Patch 2 was een gebrekkige reparatie, of de aanvallers gebruikten een ander lek dan het lek dat CISA noemt.",
+    "Hoe je een al gehackte switch controleert en of een update de aanvaller verwijdert, staat niet in het advies.",
+    "Binarly is een commercieel securitybedrijf en zegt binnenkort een kleinere proof of concept te publiceren; dat kan misbruik makkelijker maken."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "edge_devices"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.92,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:43:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3",
+   "story": [
+    "Zyxel GS1900-switches verbinden computers in kleine en middelgrote netwerken. Rond 17 augustus 2026 haalden aanvallers gegevens weg van 996 van deze switches, meldde GreyNoise. Ze namen configuraties, gehashte rootwachtwoorden en netwerkinformatie mee. Onderzoeker Binarly vond de exploit op een server van de aanvallers. Die blijkt ook te werken op switches met de eerdere patch, 2.90 Patch 2.",
+    "Hoe werkt het lek? Je beheert de switch via een webinterface. Een programma op de switch leest elk webverzoek en zet de onderdelen ervan, de parameters, in een vast stuk geheugen met plek voor 140 stuks. Het controleerde niet hoe groot een parameter was. Een te grote 140e parameter loopt over de rand en overschrijft de teller die bijhoudt hoeveel parameters er zijn. Zo'n buffer overflow laat de aanvaller een functie vervangen door een eigen opdracht, die als root draait. Inloggen is niet nodig.",
+    "Waarom faalde Patch 2? Zyxel voegde een controle op de teller toe. Maar die controle kwam pas nadat de te grote parameter al was gekopieerd. De teller had dan al de waarde van de aanvaller. Patch 3 controleert eerst en beperkt ook de grootte. Het restlek heeft een eigen nummer: CVE-2026-107441. Het eerste lek, CVE-2026-7273, staat sinds 21 september op de KEV-lijst.",
+    "Wat moet je doen? Installeer Patch 3 voor het juiste model; er is geen tijdelijke oplossing. Verstandig is ook om de webinterface alleen bereikbaar te maken vanuit een beheernetwerk, al zegt de bron dat niet expliciet. Let op: 564 van de 996 gehackte switches gebruikten nog het standaardwachtwoord. Of een update een aanvaller die al binnen is ook verwijdert, zeggen Zyxel en Binarly niet.",
+    "Voor vulnerability management is dit een belangrijke les: 'gepatcht' betekent niet altijd 'veilig'. Een scanner die alleen kijkt of Patch 2 erop staat, meldt deze switches ten onrechte als in orde. Volgens GreyNoise hangen de aanvallers samen met Red Heron, een Chineessprekende groep die Acronis volgt."
+   ],
+   "key_facts": [
+    "GreyNoise meldde op 21 september dat aanvallers rond 17 augustus 2026 gegevens weghaalden van 996 GS1900-switches: configuraties, gehashte rootwachtwoorden en netwerkinformatie; 564 switches gebruikten nog standaardinloggegevens.",
+    "CVE-2026-7273 (advies 16 juni, opgelost in 2.90 Patch 2) staat sinds 21 september 2026 in CISA KEV.",
+    "Binarly vond de exploit op 17 september op een server die ook als commandoserver voor de JITTERLY-achterdeur diende, meldde het lek op 29 september bij Zyxel en zag dat de exploit ongewijzigd werkt tegen Patch 2.",
+    "Het nieuwe lek CVE-2026-107441 is een out-of-bounds write in de verwerking van webverzoeken: geen controle op de grootte van parameters, en de controle op het aantal komt pas na het kopiëren. Binarly geeft CVSS 9,8, NVD 8,8.",
+    "Zyxel bracht op 23 oktober 2.90 Patch 3 uit voor tien GS1900-modellen; er is geen workaround. Of CVE-2026-107441 zelf in het wild is misbruikt, zegt Zyxel niet.",
+    "GreyNoise koppelt de aanvallers aan Red Heron, een Chineessprekende groep die Acronis volgt."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een vulnerability scanner deze switches tonen. Een switch op Patch 2 was na de eerste fix 'in orde', maar is nu weer kwetsbaar. Alleen de Patch 3-firmware (.3) is veilig.",
+    "language": "text",
+    "code": "Zoekopdracht: Zyxel GS1900, firmware 2.90 lager dan Patch 3",
+    "note": "Nagebouwd voorbeeld met verzonnen apparaten. De firmwarenummers van Patch 2 en Patch 3 komen uit het advies van Zyxel; de andere versie is verzonnen.",
+    "result": {
+     "columns": [
+      "Apparaat",
+      "Model",
+      "Firmware",
+      "Status"
+     ],
+     "rows": [
+      [
+       "sw-kantoor-01",
+       "GS1900-24",
+       "2.90(AAHL.2)C0",
+       "Kwetsbaar (CVE-2026-107441)"
+      ],
+      [
+       "sw-magazijn-02",
+       "GS1900-8HP",
+       "2.90(AAHI.1)C0",
+       "Kwetsbaar (CVE-2026-7273 en CVE-2026-107441)"
+      ],
+      [
+       "sw-receptie-03",
+       "GS1900-16",
+       "2.90(AAHJ.3)C0",
+       "Opgelost"
+      ]
+     ]
+    }
+   },
+   "terms": [
+    {
+     "term": "switches",
+     "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen."
+    },
+    {
+     "term": "webinterface",
+     "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver."
+    },
+    {
+     "term": "buffer overflow",
+     "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
+   },
+   "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
+   "region": "world"
+  },
+  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -1412,6 +1651,95 @@
     "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
    ],
    "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
+   "region": "world"
+  },
+  {
+   "id": "ff63fc905db0",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-07T00:00:55Z",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "summary": "SonicWall dicht zeven lekken in SonicOS. Eén ervan, CVE-2026-19868, wordt al misbruikt: wie geldige gegevens voor een andere inlogmethode heeft, komt langs de SAML-controle van de SSL-VPN.",
+   "personal_relevance": "Veel klanten gebruiken SonicWall-vpn's met MFA en voelen zich daardoor veilig. Een goede vraag: gebruiken jullie SAML op de SSL-VPN, staan er nog lokale accounts op de firewall en is de update al geïnstalleerd?",
+   "limitations": [
+    "SonicWall deelt geen details over het misbruik: niet wie, niet hoeveel organisaties en niet hoe de aanvallers aan geldige inloggegevens kwamen.",
+    "Welke 'andere inlogmethode' precies bedoeld wordt, staat niet in het artikel; de technische werking is alleen op hoofdlijnen bekend.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit BleepingComputer."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "edge_devices",
+    "phishing_identity"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 1.0,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:39:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
+   "story": [
+    "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS, de software van zijn firewalls. Eén lek, CVE-2026-19868, wordt al misbruikt. SonicWall onderzocht een melding van mogelijk misbruik en vraagt klanten zo snel mogelijk te updaten. CISA zette het lek op de KEV-lijst. Amerikaanse overheidsdiensten moeten het uiterlijk 20 november oplossen.",
+    "Eerst de normale werking. Via de SSL-VPN van een SonicWall-firewall loggen medewerkers van buiten in op het bedrijfsnetwerk. Veel organisaties laten die inlog via SAML lopen. Dan controleert niet de firewall zelf wie je bent, maar een centrale inlogdienst, vaak met MFA. De firewall vertrouwt op het antwoord van die dienst. Daarnaast kan een firewall nog andere inlogmethodes kennen, zoals lokale accounts.",
+    "Hier gaat het mis. Volgens SonicWall kan een aanvaller met geldige gegevens voor een andere inlogmethode langs de SAML-controle komen. Daarmee omzeilt hij mogelijk ook de MFA die via SAML wordt afgedwongen. Alleen SSL-VPN's die SAML gebruiken zijn kwetsbaar. De aanvaller heeft dus wel al een geldig wachtwoord nodig; dat verklaart de CVSS-score van 7,1. Toch is het ernstig: juist MFA moest een gestolen wachtwoord onschadelijk maken.",
+    "Er is geen tijdelijke oplossing; alleen updaten helpt. Gen7 moet naar 7.3.4-7013 of later, Gen8 naar 8.2.3-8015 of later. Algemene tips voor de logs: zoek naar vpn-inlogs die niet via SAML liepen bij gebruikers die altijd via SAML inloggen, en ruim lokale accounts op de firewall op. Bij de andere zes lekken zitten twee fouten in de beheerinterface (CVSS 8,8) waarmee iemand zonder inlog handelingen kan doen.",
+    "SonicWall-apparaten zijn een geliefd doelwit. Dit jaar werden ook de SMA1000-apparaten van SonicWall meerdere keren via zero-days aangevallen. Voor vulnerability management geldt: een randapparaat dat op internet staat en op de KEV-lijst komt, gaat voor alles. Wie wil weten of hij al geraakt is, kijkt in de logs ook terug naar de tijd vóór de update."
+   ],
+   "key_facts": [
+    "CVE-2026-19868 (CVSS 7,1) is een omzeiling van de SSL-VPN-authenticatie: met geldige gegevens voor een andere inlogmethode kan een aanvaller de SAML-controle omzeilen, mogelijk inclusief via SAML afgedwongen MFA.",
+    "Alleen SSL-VPN-diensten die SAML gebruiken zijn getroffen; Ryan Harris van The Electronic Office meldde het lek.",
+    "SonicWall PSIRT onderzocht een melding van mogelijk misbruik; CISA zette het lek op de KEV-lijst met een deadline van 20 november 2026 voor Amerikaanse federale diensten.",
+    "Getroffen: SonicOS Gen7 7.3.3-7015 en eerder en Gen8 8.2.2-8015 en eerder; opgelost in 7.3.4-7013 en 8.2.3-8015. Er is geen workaround (advies SNWLID-2026-0014).",
+    "De update dicht zeven lekken, waaronder twee fouten in de beheerinterface (CVSS 8,8), buffer overflows vóór de inlog in SSL-VPN en TACACS+ die een storing kunnen veroorzaken, en zwakke wachtwoord-hashing in virtuele appliances.",
+    "Eerder dit jaar werden SonicWall SMA1000-apparaten aangevallen via zero-days (juli en september) en via CVE-2026-102255 (oktober)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SSL-VPN",
+     "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
+    },
+    {
+     "term": "SAML",
+     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "lokale accounts",
+     "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "zero-days",
+     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
+   },
+   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
    "region": "world"
   },
   {
@@ -1906,6 +2234,104 @@
    "region": "na"
   },
   {
+   "id": "25c3eda20cfe",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-05T12:08:54Z",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "summary": "OpenAI beschrijft een proefopstelling waarin een nog niet uitgebracht AI-model lekken in de Linux-kernel zocht, naspeelde en uitbuitte. Dat leverde 948 werkende exploits voor rechtenverhoging op, voor ruim 1,2 miljoen dollar.",
+   "personal_relevance": "Klanten schuiven 'lokale' kernellekken vaak naar achteren. Dit onderzoek is een goede aanleiding om te bespreken hoe snel zij Linux-kernelupdates uitrollen en of ze rootprocessen op servers in de gaten houden.",
+   "limitations": [
+    "De publicatie van OpenAI zelf is niet gelezen; de cijfers komen uit The Hacker News.",
+    "Het model heeft geen naam, en het artikel zegt niet welke Linux-distributie het betreft.",
+    "Of de exploits en patches al bij de kernelbeheerders liggen of openbaar worden, is niet bekend.",
+    "Het systeem werkte niet volledig zelfstandig: mensen controleerden en stuurden bij.",
+    "OpenAI heeft er belang bij de kracht van zijn modellen te laten zien."
+   ],
+   "topics": [
+    "attack_techniques",
+    "vulnerabilities_cve",
+    "vulnerability_management"
+   ],
+   "groups": [
+    "aanvallen",
+    "kwetsbaarheden",
+    "vm"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:41:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
+   "story": [
+    "OpenAI heeft een proefopstelling beschreven waarin een nog niet uitgebracht AI-model naar lekken in de Linux-kernel zocht. Het systeem bekeek 2.308 mogelijke fouten en speelde er 1.724 na. Het schreef 948 werkende exploits voor rechtenverhoging (local privilege escalation) op een veelgebruikte Linux-distributie. De rekenkosten waren ruim 1,2 miljoen dollar, ongeveer 1.279 dollar per exploit.",
+    "Wat is rechtenverhoging? Op Linux heeft elke gebruiker beperkte rechten. Alleen root, de hoogste beheerder, mag alles. De kernel is het hart van het besturingssysteem en bewaakt die grens. Een fout in de kernel kan een gewone gebruiker toch root maken. Zo'n lek is 'lokaal': de aanvaller moet al op het systeem zijn, bijvoorbeeld via een gestolen account of een lek in een webapplicatie. Het is de stap van een beetje toegang naar volledige controle.",
+    "De opstelling werkte in vijf stappen. AI-agenten kozen code die gewone gebruikers kunnen bereiken en zochten daar fouten. Ze speelden elke fout na in een afgeschermde testomgeving (sandbox) en bekeken of die tot rechtenverhoging leidde. Daarna schreven ze een proof of concept en een reparatie. Tot slot controleerden mensen de exploit, de patch en de ernst, voordat iets naar de beheerders van de kernel gaat. Volgens OpenAI vond het systeem ook minstens tien nieuwe aanvalstechnieken.",
+    "Wat betekent dit voor verdediging? OpenAI zegt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root, tegenover een aanvaller met veel middelen. Kernelupdates zijn dus belangrijker dan het label 'lokaal' doet denken. Detectie draait vooral om gedrag: een proces van een gewone gebruiker dat ineens als root draait, is verdacht. EDR op Linux-servers kan zulk gedrag zien.",
+    "Het past in een bredere trend. Volgens cijfers van Google Threat Intelligence Group in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 in januari naar 10.740 in augustus 2026. Het Britse NCSC verwacht dat AI ook verdedigers sneller kan maken, maar alleen als ze de tools goed inzetten. Of en wanneer deze 948 lekken openbaar worden, staat niet in het artikel."
+   ],
+   "key_facts": [
+    "OpenAI beschreef op 4 november 2026 een pijplijn met een nog niet uitgebracht, op cybersecurity gericht AI-model (The Hacker News, 5 november).",
+    "De pijplijn analyseerde 2.308 mogelijke kernelfouten, speelde er 1.724 na en maakte 948 werkende LPE-exploits voor een veelgebruikte Linux-distributie, plus 291 proof-of-concepts voor informatielekken.",
+    "De totale API-kosten waren 1.213.430 dollar, ongeveer 1.279 dollar per LPE-exploit; de titel van het artikel spreekt van een run van 30 uur.",
+    "Vijf stappen: fouten zoeken, naspelen in een sandbox, beoordelen op misbruikbaarheid met een proof of concept, een patch schrijven en controle door mensen voordat iets naar de beheerders gaat.",
+    "OpenAI noemt minstens tien nieuwe exploitatietechnieken en stelt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root voor een aanvaller met veel middelen.",
+    "Volgens GTIG-cijfers in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 (januari 2026) naar 10.740 (augustus 2026)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
+    "language": "log",
+    "code": "type=SYSCALL msg=audit(1794016801.123:4512): arch=c000003e syscall=59 success=yes exit=0 ppid=2210 pid=2245 auid=4294967295 uid=33 gid=33 euid=0 egid=0 comm=\"sh\" exe=\"/usr/bin/dash\" key=\"priv_esc\"",
+    "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
+   },
+   "terms": [
+    {
+     "term": "kernel",
+     "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "rechtenverhoging",
+     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+     "term": "sandbox",
+     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."
+   },
+   "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
+   "region": "world"
+  },
+  {
    "id": "b06c9cfc80a7",
    "title": "Investigating Ephemeral Supply Chain Tampering",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
@@ -2190,6 +2616,98 @@
     "Zou jullie monitoring alarm slaan als EDR op een machine wordt uitgeschakeld?"
    ],
    "takeaway": "Aanvallers gebruiken steeds vaker legitieme middelen, zoals een telefoontje en een normale tool voor beheer op afstand, in plaats van malware. Je verdediging zit dan in procedures (wie mag een MFA-reset aanvragen) en in logs die laten zien wat die tools doen.",
+   "region": "world"
+  },
+  {
+   "id": "ce55129e00e3",
+   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-04T14:18:43Z",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
+   "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
+   "limitations": [
+    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
+    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
+    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
+   ],
+   "official_docs": [
+    {
+     "label": "CVE-2026-109593 (OpenCVE)",
+     "url": "https://app.opencve.io/cve/CVE-2026-109593"
+    }
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "edge_devices"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.85,
+    "quality": 0.53,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:35:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
+   "story": [
+    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
+    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
+    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
+    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
+    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
+   ],
+   "key_facts": [
+    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
+    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
+    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
+    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
+    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
+    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "end-of-life",
+     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+    },
+    {
+     "term": "CWE-636",
+     "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
+    },
+    {
+     "term": "CVSS-score",
+     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "EPSS-kans",
+     "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
+   },
+   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
    "region": "world"
   },
   {
@@ -2598,7 +3116,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.86,
+    "recency": 0.85,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -4004,6 +4522,17 @@
    ]
   },
   {
+   "term": "buffer overflow",
+   "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a665869d02d2",
+     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
+    }
+   ]
+  },
+  {
    "term": "BYOVD",
    "explanation": "Bring Your Own Vulnerable Driver: de aanvaller installeert een bekende, kwetsbare maar geldig ondertekende driver en gebruikt die om beveiligingssoftware uit te schakelen.",
    "refs": [
@@ -4060,6 +4589,17 @@
      "kind": "a",
      "id": "6852a83cc063",
      "title": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando"
+    }
+   ]
+  },
+  {
+   "term": "client secret",
+   "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
     }
    ]
   },
@@ -4150,6 +4690,11 @@
    "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt.",
    "refs": [
     {
+     "kind": "a",
+     "id": "ce55129e00e3",
+     "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
+    },
+    {
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
@@ -4169,6 +4714,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "CWE-636",
+   "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce55129e00e3",
+     "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
     }
    ]
   },
@@ -4232,6 +4788,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    },
+    {
+     "kind": "a",
      "id": "842bc764ab47",
      "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
     },
@@ -4249,6 +4810,17 @@
      "kind": "a",
      "id": "08252db330fb",
      "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
+    }
+   ]
+  },
+  {
+   "term": "end-of-life",
+   "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce55129e00e3",
+     "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
     }
    ]
   },
@@ -4271,6 +4843,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "EPSS-kans",
+   "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce55129e00e3",
+     "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
     }
    ]
   },
@@ -4493,6 +5076,17 @@
    ]
   },
   {
+   "term": "kernel",
+   "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    }
+   ]
+  },
+  {
    "term": "KEV",
    "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen.",
    "refs": [
@@ -4508,6 +5102,21 @@
    "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen.",
    "refs": [
     {
+     "kind": "a",
+     "id": "a665869d02d2",
+     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
+    },
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    },
+    {
+     "kind": "a",
+     "id": "ce55129e00e3",
+     "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
+    },
+    {
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
@@ -4516,11 +5125,6 @@
      "kind": "a",
      "id": "37b85c3ffeef",
      "title": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt"
-    },
-    {
-     "kind": "a",
-     "id": "7b72d51a9df2",
-     "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
     }
    ]
   },
@@ -4528,6 +5132,11 @@
    "term": "Key Vaults",
    "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    },
     {
      "kind": "a",
      "id": "f8af8b71c7c1",
@@ -4596,6 +5205,28 @@
    ]
   },
   {
+   "term": "lokale accounts",
+   "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    }
+   ]
+  },
+  {
+   "term": "managed identities",
+   "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    }
+   ]
+  },
+  {
    "term": "MD5",
    "explanation": "Een oude methode om een 'vingerafdruk' (hash) van een bestand te maken. Het laat zien of een bestand onderweg veranderd is, maar bewijst niet wie het gemaakt heeft.",
    "refs": [
@@ -4610,6 +5241,11 @@
    "term": "MFA",
    "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    },
     {
      "kind": "a",
      "id": "94ac3c3bdec2",
@@ -4846,6 +5482,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    },
+    {
+     "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
     },
@@ -4886,6 +5527,17 @@
      "kind": "a",
      "id": "1fa3674c266e",
      "title": "Printsoftware PaperCut: patches voor misbruikte lekken telkens omzeild"
+    }
+   ]
+  },
+  {
+   "term": "rechtenverhoging",
+   "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation).",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     }
    ]
   },
@@ -4949,6 +5601,16 @@
    "refs": [
     {
      "kind": "a",
+     "id": "a665869d02d2",
+     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
+    },
+    {
+     "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    },
+    {
+     "kind": "a",
      "id": "d0e0e442d471",
      "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     },
@@ -4961,11 +5623,17 @@
      "kind": "a",
      "id": "d2cce75fefaf",
      "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
-    },
+    }
+   ]
+  },
+  {
+   "term": "Run Command",
+   "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen.",
+   "refs": [
     {
      "kind": "a",
-     "id": "df100ad46108",
-     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
     }
    ]
   },
@@ -4981,6 +5649,28 @@
    ]
   },
   {
+   "term": "SAML",
+   "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    }
+   ]
+  },
+  {
+   "term": "sandbox",
+   "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "25c3eda20cfe",
+     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    }
+   ]
+  },
+  {
    "term": "SD-WAN",
    "explanation": "Software-defined WAN: een manier om vestigingen via gewone internetverbindingen tot één beveiligd netwerk te verbinden, centraal aangestuurd door controllers.",
    "refs": [
@@ -4992,9 +5682,25 @@
    ]
   },
   {
+   "term": "secret scanning",
+   "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    }
+   ]
+  },
+  {
    "term": "service principal",
    "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "9fcf62b29cf8",
+     "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    },
     {
      "kind": "a",
      "id": "f8af8b71c7c1",
@@ -5085,6 +5791,17 @@
    ]
   },
   {
+   "term": "SSL-VPN",
+   "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    }
+   ]
+  },
+  {
    "term": "sudo",
    "explanation": "Het Linux-commando waarmee een gebruiker één opdracht met beheerdersrechten uitvoert, na het invoeren van zijn wachtwoord.",
    "refs": [
@@ -5124,6 +5841,17 @@
      "kind": "a",
      "id": "30b15a7c5706",
      "title": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google"
+    }
+   ]
+  },
+  {
+   "term": "switches",
+   "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a665869d02d2",
+     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
     }
    ]
   },
@@ -5303,6 +6031,17 @@
    ]
   },
   {
+   "term": "webinterface",
+   "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a665869d02d2",
+     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
+    }
+   ]
+  },
+  {
    "term": "webmail-doorstuurregels",
    "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen.",
    "refs": [
@@ -5375,6 +6114,11 @@
    "term": "zero-days",
    "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "ff63fc905db0",
+     "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    },
     {
      "kind": "a",
      "id": "d2cce75fefaf",
@@ -5641,7 +6385,7 @@
   "fetched_items": 320,
   "unique_after_dedupe": 371,
   "merged_duplicates": 1,
-  "shown": 28,
+  "shown": 33,
   "decisions": {
    "included": 156,
    "below_threshold": 94,
@@ -5649,26 +6393,27 @@
    "excluded": 28
   },
   "processing": {
-   "enriched": 28
+   "enriched": 33
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 6,
-   "aanvallen": 7,
+   "kwetsbaarheden": 8,
+   "aanvallen": 9,
    "detectie": 3,
    "incidenten": 7,
    "ti": 4,
-   "vm": 1
+   "vm": 2
   },
   "per_source": {
-   "security_nl": 1,
+   "security_nl": 2,
    "unit42": 5,
    "google_threat_intel": 5,
+   "microsoft_threat_intel": 4,
+   "the_hacker_news": 2,
    "divd": 1,
    "cisco_talos": 3,
-   "microsoft_threat_intel": 3,
+   "bleepingcomputer": 5,
    "securityweek": 1,
-   "bleepingcomputer": 4,
    "the_record": 1,
    "huntress_blog": 3,
    "watchtowr_labs": 1
@@ -5721,7 +6466,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 222
+   "skipped_no_key": 217
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -5733,14 +6478,6 @@
   "threshold": 60,
   "max_per_source": 12,
   "not_shown": [
-   {
-    "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
-    "relevance_score": 90,
-    "decision": "included",
-    "excluded_by": []
-   },
    {
     "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "source_id": "ncsc_nl_advisories",
@@ -5790,14 +6527,6 @@
     ]
    },
    {
-    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-    "source_id": "microsoft_threat_intel",
-    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
@@ -5816,14 +6545,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
@@ -5867,22 +6588,6 @@
     "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -6244,6 +6949,46 @@
     "source_id": "datadog_security_labs",
     "url": "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
     "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers gebruikten VMware logging-lek om sporen te verbergen",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/959776/Hackers+gebruikten+VMware+logging-lek+om+sporen+te+verbergen?channel=rss",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619)",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+    "relevance_score": 76,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+    "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
    }
