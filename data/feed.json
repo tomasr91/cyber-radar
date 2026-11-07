@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T03:25:07.883128Z",
+ "generated_at": "2026-11-07T06:30:30.583576Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-07T01:35:00Z",
- "last_successful_update": "2026-11-07T03:25:07.883128Z",
+ "last_successful_update": "2026-11-07T06:30:30.583576Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T03:25:07.914837Z"
+   "checked_at": "2026-11-07T06:30:30.614205Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T03:25:08.550140Z"
+   "checked_at": "2026-11-07T06:30:31.219762Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T03:25:09.396120Z"
+   "checked_at": "2026-11-07T06:30:31.990147Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T03:25:09.586372Z"
+   "checked_at": "2026-11-07T06:30:32.222239Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T03:25:10.683246Z"
+   "checked_at": "2026-11-07T06:30:33.363587Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T03:25:10.878523Z"
+   "checked_at": "2026-11-07T06:30:33.599284Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T03:25:11.014238Z"
+   "checked_at": "2026-11-07T06:30:33.714532Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T03:25:11.199837Z"
+   "checked_at": "2026-11-07T06:30:33.829243Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T03:25:11.601266Z"
+   "checked_at": "2026-11-07T06:30:34.302585Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T03:25:13.224890Z"
+   "checked_at": "2026-11-07T06:30:36.190663Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T03:25:13.415153Z"
+   "checked_at": "2026-11-07T06:30:36.403614Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T03:25:13.560743Z"
+   "checked_at": "2026-11-07T06:30:36.545667Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T03:25:13.792218Z"
+   "checked_at": "2026-11-07T06:30:36.730773Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T03:25:14.020856Z"
+   "checked_at": "2026-11-07T06:30:36.941985Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T03:25:14.190217Z"
+   "checked_at": "2026-11-07T06:30:37.196909Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T03:25:14.336662Z"
+   "checked_at": "2026-11-07T06:30:37.264627Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T03:25:14.551330Z"
+   "checked_at": "2026-11-07T06:30:37.502851Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T03:25:14.777211Z"
+   "checked_at": "2026-11-07T06:30:37.802384Z"
   }
  ],
  "daily_top": [
@@ -430,7 +430,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.79,
+    "recency": 0.78,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -764,7 +764,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.68,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -903,7 +903,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.8,
+    "recency": 0.79,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -1114,7 +1114,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.97,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -1328,7 +1328,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.96,
+    "recency": 0.95,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -1734,7 +1734,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.8,
+    "recency": 0.79,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -1870,7 +1870,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -2368,7 +2368,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -2564,7 +2564,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.33,
+    "recency": 0.32,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -3021,7 +3021,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -7405,14 +7405,6 @@
     "excluded_by": []
    },
    {
-    "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-    "relevance_score": 75,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
     "source_id": "unit42",
     "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
@@ -7433,6 +7425,14 @@
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
     "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+    "source_id": "watchtowr_labs",
+    "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+    "relevance_score": 74,
     "decision": "included",
     "excluded_by": []
    }
