@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T01:34:03.813802Z",
+ "generated_at": "2026-11-07T01:36:14.403286Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-07T01:43:00Z",
- "last_successful_update": "2026-11-07T01:34:03.813802Z",
+ "last_article_added_at": "2026-11-07T01:56:00Z",
+ "last_successful_update": "2026-11-07T01:36:14.403286Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T01:34:03.873866Z"
+   "checked_at": "2026-11-07T01:36:14.470357Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T01:34:04.666006Z"
+   "checked_at": "2026-11-07T01:36:15.393524Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T01:34:05.613219Z"
+   "checked_at": "2026-11-07T01:36:16.364713Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T01:34:05.766196Z"
+   "checked_at": "2026-11-07T01:36:16.776011Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T01:34:07.128644Z"
+   "checked_at": "2026-11-07T01:36:18.178489Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T01:34:07.222206Z"
+   "checked_at": "2026-11-07T01:36:18.364925Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T01:34:07.288022Z"
+   "checked_at": "2026-11-07T01:36:18.548885Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T01:34:07.378756Z"
+   "checked_at": "2026-11-07T01:36:18.662601Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T01:34:07.806528Z"
+   "checked_at": "2026-11-07T01:36:19.079480Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T01:34:09.412668Z"
+   "checked_at": "2026-11-07T01:36:20.820184Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T01:34:09.453135Z"
+   "checked_at": "2026-11-07T01:36:20.984330Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T01:34:09.522072Z"
+   "checked_at": "2026-11-07T01:36:21.053875Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T01:34:09.561059Z"
+   "checked_at": "2026-11-07T01:36:21.235243Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T01:34:09.847115Z"
+   "checked_at": "2026-11-07T01:36:21.436332Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T01:34:09.953928Z"
+   "checked_at": "2026-11-07T01:36:21.640423Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T01:34:10.041671Z"
+   "checked_at": "2026-11-07T01:36:21.732998Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T01:34:10.315900Z"
+   "checked_at": "2026-11-07T01:36:22.007686Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T01:34:10.595822Z"
+   "checked_at": "2026-11-07T01:36:22.240013Z"
   }
  ],
  "daily_top": [
@@ -1087,6 +1087,98 @@
    "region": "world"
   },
   {
+   "id": "a40dff3d749a",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T15:21:49Z",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
+   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
+   "limitations": [
+    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
+    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
+    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
+    "Wie achter de pogingen zit, is niet bekend.",
+    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:53:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
+   "story": [
+    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
+    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
+    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
+    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
+    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
+   ],
+   "key_facts": [
+    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
+    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
+    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
+    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
+    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
+    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
+    "language": "log",
+    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
+   },
+   "terms": [
+    {
+     "term": "honeypot",
+     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+     "term": "hash",
+     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+     "term": "musl",
+     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
+    },
+    {
+     "term": "PAM",
+     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
+    },
+    {
+     "term": "sshd",
+     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
+   },
+   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "region": "world"
+  },
+  {
    "id": "a665869d02d2",
    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
@@ -1205,6 +1297,104 @@
     "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
    },
    "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
+   "region": "world"
+  },
+  {
+   "id": "ed60ea7fa412",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T05:58:54Z",
+   "fetched_at": "2026-11-06T07:19:04.207644Z",
+   "summary": "Onderzoekers vonden een nagebouwde versie van de webserver van Control Web Panel die verborgen opdrachten uitvoert. Die verzoeken komen niet in de toegangslog. De aanvaller moet wel eerst root zijn.",
+   "personal_relevance": "Hostingklanten en MSP's vertrouwen vaak op webserverlogs om misbruik te zien. Dit voorbeeld helpt om te vragen welke andere bronnen hun SIEM of MDR gebruikt als een server zijn eigen logs niet meer betrouwbaar bijhoudt.",
+   "limitations": [
+    "Hoe de aanvallers root kregen, is niet bekend.",
+    "Hoeveel servers besmet zijn en wie erachter zit, is niet bekend.",
+    "Of cwpdoor en Ebury bij dezelfde aanvaller horen, weet XLab niet.",
+    "Hoe de achterdeur precies voorkomt dat verzoeken in de toegangslog komen, beschrijft het artikel niet.",
+    "Het rapport van XLab zelf is niet gelezen; de details komen uit The Hacker News."
+   ],
+   "topics": [
+    "siem_detection",
+    "malware",
+    "web_software_security"
+   ],
+   "groups": [
+    "detectie",
+    "aanvallen",
+    "web"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.96,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:50:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
+   "story": [
+    "Control Web Panel (CWP) is een gratis beheerpaneel voor Linux-servers die websites hosten. Onderzoekers van XLab, onderdeel van het Chinese securitybedrijf QiAnXin, vonden een achterdeur in de webserver van dat paneel, cwpsrv. Ze noemen hem cwpdoor. Op 29 juni vingen ze een installatiescript op dat zich voordeed als update. Op 30 september dook een kopie op bij VirusTotal, geüpload vanuit Brazilië. Volgens XLab wijst dat erop dat er echte slachtoffers zijn.",
+    "Eerst de normale werking. Een webserver ontvangt verzoeken van browsers, stuurt pagina's terug en schrijft elk verzoek in een toegangslog. Het script vervangt cwpsrv door een nagebouwde versie met extra code. Die gedraagt zich normaal, tot er een verzoek binnenkomt met speciale headers met een geldige tijd en handtekening. Dan voert de server de meegestuurde opdracht uit, met volledige controle over de server. Zulke verzoeken verschijnen niet in de toegangslog.",
+    "Om het programma te vervangen, moet de aanvaller al root zijn. Dit is dus geen eerste inbraak, maar een manier om binnen te blijven (persistentie). Hoe de aanvallers root kregen, weten de onderzoekers niet. Het script zet de oorspronkelijke datum van het bestand terug, zodat een directorylijst geen wijziging toont. Bij controle herkende geen van de 63 virusscanners op VirusTotal het bestand.",
+    "Hoe vind je het dan? Niet in de toegangslog, dus kijk naar andere sporen. XLab noemt er drie: een Unix-socket met de naam van een integriteitsmodule, onverwachte hulpprocessen onder cwpsrv, en de namen van de speciale headers als tekst in het programmabestand. Herstel betekent: het originele programma terugzetten, CWP bijwerken, alle wachtwoorden van het paneel wijzigen en de hele server als gehackt behandelen. In dezelfde upload zat ook Ebury, een bekende achterdeur in OpenSSH die wachtwoorden steelt.",
+    "De les voor detectie is breder dan CWP. Een gehackte server kan liegen over zijn eigen logs, en bestandsdatums zijn geen bewijs. Daarom helpt het om bronnen te combineren: netwerkverkeer naar het paneel, processen op de server en een vergelijking van programmabestanden met een bekende goede versie. Een SIEM die al die bronnen samenbrengt, ziet meer dan één logbestand."
+   ],
+   "key_facts": [
+    "XLab (QiAnXin) meldde begin november 2026 een achterdeur, cwpdoor, in cwpsrv, de webserver van Control Web Panel.",
+    "XLab ving op 29 juni een installatiescript op dat zich voordeed als versie-update; het vervangt cwpsrv en werkt alleen voor cwpsrv 1.15.10 en 1.24.0.",
+    "De nagebouwde server voert een opdracht uit bij een verzoek met een geldige tijd en handtekening in headers die beginnen met X-Ngx-Integrity; die verzoeken komen niet in de toegangslog.",
+    "Installatie vereist root; het script herstelt de oorspronkelijke tijdstempels en het bestand had 0 van 63 detecties op VirusTotal.",
+    "Op 30 september werd vanuit Brazilië een archief met de achterdeur naar VirusTotal geüpload; daarin zat ook Ebury.",
+    "XLab adviseert te controleren op de Unix-socket van de achterdeur, onverwachte hulpprocessen van cwpsrv en de headernamen in het programmabestand, en daarna het origineel terug te zetten, CWP bij te werken en wachtwoorden te wijzigen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
+    "language": "bash",
+    "code": "$ ss -xlp | grep cwpsrv\nu_str LISTEN 0 128 /tmp/.voorbeeld-integrity.sock 41234 * 0 users:((\"cwpsrv\",pid=1187,fd=9))",
+    "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
+   },
+   "terms": [
+    {
+     "term": "achterdeur",
+     "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
+    },
+    {
+     "term": "toegangslog",
+     "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "Unix-socket",
+     "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."
+    },
+    {
+     "term": "VirusTotal",
+     "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
+   },
+   "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
    "region": "world"
   },
   {
@@ -1651,6 +1841,118 @@
     "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
    ],
    "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
+   "region": "world"
+  },
+  {
+   "id": "649e0d8b078e",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T12:06:43Z",
+   "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "summary": "Microsoft heeft een lek in Paint gedicht waarmee code kan worden uitgevoerd. De fix komt alleen via de Microsoft Store, en de officiële versienummers spreken elkaar tegen. Dat kan scanners in de war brengen.",
+   "personal_relevance": "Dit is een praktisch voorbeeld voor klantgesprekken over vulnerability management: dekt de scanner ook Store-apps, per gebruiker, en welke versie geldt als 'opgelost' als bronnen elkaar tegenspreken?",
+   "limitations": [
+    "Welke dienst het 'netwerkpakket' ontvangt en of de aanval via bestanden loopt, is niet bekend.",
+    "Waarom de fix alleen via de Store komt en waarom het fixnummer veranderde, legt Microsoft niet uit.",
+    "Hoe snel de Store-update op grote schaal aankomt, is niet bekend; één testmachine kreeg hem automatisch.",
+    "Hoe systemen met een uitgeschakelde Store de fix krijgen, staat niet in het artikel."
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:56:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
+   "story": [
+    "Microsoft heeft een kwetsbaarheid in Paint gedicht, CVE-2026-83844. Het is een out-of-bounds read die tot remote code execution kan leiden. Microsoft noemt de ernst 'Important', met een CVSS-score van 8,1. Bij publicatie op 13 oktober werd het lek volgens Microsoft niet misbruikt en was het niet openbaar. De fix zit in Paint-versie 11.2609.401.0, en die komt alleen via de Microsoft Store.",
+    "Waarom is dat bijzonder? Klassieke Windows-onderdelen krijgen hun updates via Windows Update, op Patch Tuesday. Paint is tegenwoordig een Store-app. Zo'n app wordt per gebruiker geïnstalleerd en apart bijgewerkt. Windows kan daarnaast een voorbereide kopie bewaren voor nieuwe gebruikers. Wie alleen naar Windows Update kijkt, mist deze fix dus. Wie alleen het account van de ingelogde gebruiker controleert, mist oudere kopieën bij andere gebruikers.",
+    "Wat is een out-of-bounds read? Een programma leest gegevens buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie prijsgeven en is soms een opstap om code uit te voeren. Volgens het advies stuurt een aanvaller 'een speciaal gemaakt pakket naar een getroffen dienst via het netwerk'. Welke dienst dat bij Paint is, en of het om bestanden zoals afbeeldingen gaat, zegt het artikel niet. Microsoft zegt wel dat een aanval diepe kennis van het doelsysteem vraagt.",
+    "Er is nog een probleem voor vulnerability management. Het CVE-record en NVD noemen Paint alleen kwetsbaar onder versie 11.2605.91.0. Een scanner die daarop vertrouwt, keurt versies vanaf 11.2605.91.0 goed. Microsoft noemt in zijn advies juist 11.2609.401.0 als versie met de fix. Wie zeker wil zijn, houdt het hoogste nummer aan. Met PowerShell vraag je de versie voor alle gebruikers op, en met beheertools zoals Intune dwing je de Store-update af.",
+    "Voor organisaties is de les dat niet elke patch dezelfde route volgt. Store-apps en andere programma's met een eigen updater vallen buiten het maandelijkse patchritme. Is de Store in je omgeving uitgeschakeld, dan is onduidelijk hoe deze fix binnenkomt; het artikel zegt daar niets over. Een workaround is er niet. Wie Paint niet nodig heeft, kan het volgens een onderzoeker verwijderen, maar dat is niet getest."
+   ],
+   "key_facts": [
+    "CVE-2026-83844 is een out-of-bounds read in Windows Paint die tot remote code execution kan leiden; Microsoft geeft 'Important' en CVSS 8,1 (advies van 13 oktober 2026).",
+    "Volgens Microsoft was het lek bij publicatie niet misbruikt en niet openbaar; het stond niet in CISA KEV toen The Hacker News keek.",
+    "De fix (Paint 11.2609.401.0) komt alleen via een update in de Microsoft Store, niet via Windows Update.",
+    "Het CVE-record en NVD noemen Paint alleen kwetsbaar onder 11.2605.91.0; Microsofts advies noemt 11.2609.401.0 als versie met de fix, zonder uitleg over het verschil.",
+    "Paint wordt per gebruiker geïnstalleerd en Windows kan een voorbereide kopie voor nieuwe gebruikers bewaren; het artikel geeft PowerShell-opdrachten om alle kopieën te controleren.",
+    "The Hacker News zag 11.2609.401.0 op 6 november als nieuwste Store-versie in alle tien gecontroleerde landen; eerder die week was dat nog 11.2605.81.0, zonder fix."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
+    "language": "powershell",
+    "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
+    "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
+    "result": {
+     "columns": [
+      "Version",
+      "Users"
+     ],
+     "rows": [
+      [
+       "11.2609.401.0",
+       "VOORBEELD\\anna"
+      ],
+      [
+       "11.2605.81.0",
+       "VOORBEELD\\piet"
+      ]
+     ]
+    }
+   },
+   "terms": [
+    {
+     "term": "out-of-bounds read",
+     "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."
+    },
+    {
+     "term": "remote code execution",
+     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+     "term": "Patch Tuesday",
+     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+     "term": "Store-app",
+     "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."
+    },
+    {
+     "term": "NVD",
+     "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
+    },
+    {
+     "term": "Intune",
+     "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."
+   },
+   "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
    "region": "world"
   },
   {
@@ -4330,6 +4632,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
+    },
+    {
+     "kind": "a",
      "id": "7b72d51a9df2",
      "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
     }
@@ -4961,6 +5268,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "a40dff3d749a",
+     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
+    },
+    {
+     "kind": "a",
      "id": "350327fdd7cd",
      "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
     }
@@ -4974,6 +5286,17 @@
      "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
+    }
+   ]
+  },
+  {
+   "term": "honeypot",
+   "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a40dff3d749a",
+     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
     }
    ]
   },
@@ -5017,6 +5340,17 @@
      "kind": "a",
      "id": "6852a83cc063",
      "title": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando"
+    }
+   ]
+  },
+  {
+   "term": "Intune",
+   "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
    ]
   },
@@ -5297,6 +5631,17 @@
    ]
   },
   {
+   "term": "musl",
+   "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a40dff3d749a",
+     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
+    }
+   ]
+  },
+  {
    "term": "netwerksegmentatie",
    "explanation": "Een netwerk opdelen in afgeschermde delen, zodat een aanvaller in het ene deel niet zomaar bij het andere kan.",
    "refs": [
@@ -5322,6 +5667,11 @@
    "term": "NVD",
    "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
+    },
     {
      "kind": "v",
      "id": "cve-cvss-epss-kev",
@@ -5357,6 +5707,28 @@
    ]
   },
   {
+   "term": "out-of-bounds read",
+   "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
+    }
+   ]
+  },
+  {
+   "term": "PAM",
+   "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a40dff3d749a",
+     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
+    }
+   ]
+  },
+  {
    "term": "passkeys",
    "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk.",
    "refs": [
@@ -5387,6 +5759,11 @@
    "term": "Patch Tuesday",
    "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
+    },
     {
      "kind": "a",
      "id": "37b85c3ffeef",
@@ -5447,6 +5824,11 @@
    "term": "persistentie",
    "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence).",
    "refs": [
+    {
+     "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
+    },
     {
      "kind": "a",
      "id": "580236cbddf9",
@@ -5542,6 +5924,17 @@
    ]
   },
   {
+   "term": "remote code execution",
+   "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE).",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
+    }
+   ]
+  },
+  {
    "term": "residential proxy",
    "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen.",
    "refs": [
@@ -5601,6 +5994,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
+    },
+    {
+     "kind": "a",
      "id": "a665869d02d2",
      "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
     },
@@ -5618,11 +6016,6 @@
      "kind": "a",
      "id": "580236cbddf9",
      "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
-    },
-    {
-     "kind": "a",
-     "id": "d2cce75fefaf",
-     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
     }
    ]
   },
@@ -5791,6 +6184,17 @@
    ]
   },
   {
+   "term": "sshd",
+   "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "a40dff3d749a",
+     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
+    }
+   ]
+  },
+  {
    "term": "SSL-VPN",
    "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen.",
    "refs": [
@@ -5798,6 +6202,17 @@
      "kind": "a",
      "id": "ff63fc905db0",
      "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    }
+   ]
+  },
+  {
+   "term": "Store-app",
+   "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "649e0d8b078e",
+     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
    ]
   },
@@ -5900,6 +6315,17 @@
    ]
   },
   {
+   "term": "toegangslog",
+   "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
+    }
+   ]
+  },
+  {
    "term": "token",
    "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij.",
    "refs": [
@@ -5939,6 +6365,17 @@
      "kind": "a",
      "id": "5c07cdbef377",
      "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
+    }
+   ]
+  },
+  {
+   "term": "Unix-socket",
+   "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
     }
    ]
   },
@@ -5983,6 +6420,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "VirusTotal",
+   "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ed60ea7fa412",
+     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
     }
    ]
   },
@@ -6385,7 +6833,7 @@
   "fetched_items": 320,
   "unique_after_dedupe": 371,
   "merged_duplicates": 1,
-  "shown": 33,
+  "shown": 36,
   "decisions": {
    "included": 156,
    "below_threshold": 94,
@@ -6393,23 +6841,23 @@
    "excluded": 28
   },
   "processing": {
-   "enriched": 33
+   "enriched": 36
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 8,
+   "kwetsbaarheden": 9,
    "aanvallen": 9,
-   "detectie": 3,
+   "detectie": 4,
    "incidenten": 7,
    "ti": 4,
-   "vm": 2
+   "vm": 3
   },
   "per_source": {
    "security_nl": 2,
    "unit42": 5,
    "google_threat_intel": 5,
    "microsoft_threat_intel": 4,
-   "the_hacker_news": 2,
+   "the_hacker_news": 5,
    "divd": 1,
    "cisco_talos": 3,
    "bleepingcomputer": 5,
@@ -6466,7 +6914,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 217
+   "skipped_no_key": 214
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -6588,30 +7036,6 @@
     "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -6988,6 +7412,30 @@
     "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+    "source_id": "unit42",
+    "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+    "relevance_score": 75,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
