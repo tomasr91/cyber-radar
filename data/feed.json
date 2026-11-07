@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T02:26:19.250719Z",
+ "generated_at": "2026-11-07T03:24:20.523321Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-07T01:35:00Z",
- "last_successful_update": "2026-11-07T02:26:19.250719Z",
+ "last_successful_update": "2026-11-07T03:24:20.523321Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-07T02:26:19.294253Z"
+   "checked_at": "2026-11-07T03:24:20.565590Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-07T02:26:19.919319Z"
+   "checked_at": "2026-11-07T03:24:21.280187Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-07T02:26:20.692439Z"
+   "checked_at": "2026-11-07T03:24:22.166025Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-07T02:26:20.878606Z"
+   "checked_at": "2026-11-07T03:24:22.401780Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-07T02:26:22.037732Z"
+   "checked_at": "2026-11-07T03:24:23.759266Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-07T02:26:22.268555Z"
+   "checked_at": "2026-11-07T03:24:23.847523Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-07T02:26:22.384536Z"
+   "checked_at": "2026-11-07T03:24:23.986993Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-07T02:26:22.522101Z"
+   "checked_at": "2026-11-07T03:24:24.132573Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-07T02:26:22.966273Z"
+   "checked_at": "2026-11-07T03:24:24.604911Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-07T02:26:24.301866Z"
+   "checked_at": "2026-11-07T03:24:26.452470Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-07T02:26:24.436477Z"
+   "checked_at": "2026-11-07T03:24:26.719699Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-07T02:26:24.613906Z"
+   "checked_at": "2026-11-07T03:24:26.805272Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-07T02:26:24.820856Z"
+   "checked_at": "2026-11-07T03:24:26.862556Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-07T02:26:25.044229Z"
+   "checked_at": "2026-11-07T03:24:27.140218Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-07T02:26:25.151047Z"
+   "checked_at": "2026-11-07T03:24:27.558024Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-07T02:26:25.211067Z"
+   "checked_at": "2026-11-07T03:24:27.759312Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-07T02:26:25.465156Z"
+   "checked_at": "2026-11-07T03:24:28.083979Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-07T02:26:25.743098Z"
+   "checked_at": "2026-11-07T03:24:28.251883Z"
   }
  ],
  "daily_top": [
@@ -998,7 +998,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.95,
+    "recency": 0.94,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.0
@@ -1982,7 +1982,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 1.0,
+    "recency": 0.99,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -2074,7 +2074,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.45,
+    "recency": 0.44,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -2176,7 +2176,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -2273,7 +2273,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -2341,104 +2341,6 @@
    },
    "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
    "region": "world"
-  },
-  {
-   "id": "987ba3712202",
-   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T19:05:19Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
-   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
-   "limitations": [
-    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
-    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
-    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
-    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "web_software_security",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.89,
-    "source": 0.68,
-    "quality": 0.57,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
-   "story": [
-    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
-    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
-    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
-    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
-    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
-   ],
-   "key_facts": [
-    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
-    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
-    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
-    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
-    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
-    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
-    "language": "log",
-    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
-   },
-   "terms": [
-    {
-     "term": "domeinregistrar",
-     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
-    },
-    {
-     "term": "FTP",
-     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
-    },
-    {
-     "term": "SFTP",
-     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
-    },
-    {
-     "term": "webshell",
-     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
-    },
-    {
-     "term": "sessie",
-     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
-    },
-    {
-     "term": "webmail-doorstuurregels",
-     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
-    }
-   ],
-   "learning": "Webtechnologie en softwarebeveiliging",
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
-   },
-   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
-   "region": "na"
   },
   {
    "id": "350327fdd7cd",
@@ -2856,7 +2758,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.66,
+    "recency": 0.65,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -3038,7 +2940,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -3089,6 +2991,104 @@
     "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
    },
    "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+   "region": "na"
+  },
+  {
+   "id": "987ba3712202",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T19:05:19Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
+   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
+   "limitations": [
+    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
+    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
+    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
+    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "web_software_security",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.89,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
+   "story": [
+    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
+    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
+    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
+    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
+    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
+   ],
+   "key_facts": [
+    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
+    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
+    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
+    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
+    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
+    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
+    "language": "log",
+    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
+   },
+   "terms": [
+    {
+     "term": "domeinregistrar",
+     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
+    },
+    {
+     "term": "FTP",
+     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
+    },
+    {
+     "term": "SFTP",
+     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "webmail-doorstuurregels",
+     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
+    }
+   ],
+   "learning": "Webtechnologie en softwarebeveiliging",
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
+   },
+   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
    "region": "na"
   },
   {
@@ -3314,7 +3314,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.43,
+    "recency": 0.42,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -3513,7 +3513,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.25,
+    "recency": 0.24,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -4095,7 +4095,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -4578,35 +4578,39 @@
   {
    "id": "ai-agenten-voeren-inbraken-uit",
    "title": "Aanvallers laten AI-agenten als ARTEX een groot deel van de inbraak doen",
-   "summary": "Google, Microsoft en WorkOS zagen aanvallers die open-source AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Unit 42 beschreef een crimineel die met een gekraakt AI-model aanvallen plande en tools liet schrijven, en Chainalysis noemde begin november 'offensive agentic techniques' bij een inbraak, zonder uit te leggen wat dat inhoudt. Het komt nu op omdat zulke frameworks sinds eind augustus in echte incidenten opduiken: snel, maar met veel sporen, zoals honderden aanmeldingen of herkenbare user agents.",
+   "summary": "Google, Microsoft en WorkOS zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Microsoft agenten zag die op GitHub naar gelekte geheimen zochten en daarmee bij Azure binnenkwamen; in één geval zat er vijf minuten tussen zoeken en het leeghalen van een Key Vault. Zulke frameworks duiken sinds eind augustus in echte incidenten op: snel, maar met veel sporen, zoals honderden aanmeldingen of herkenbare user agents.",
    "topics": [
     "attack_techniques",
     "threat_intelligence",
     "cloud_attacks"
    ],
    "article_ids": [
+    "9fcf62b29cf8",
     "8b5f34b85bf1",
     "f8af8b71c7c1",
     "62c945c0e6fb",
     "1204de495376",
     "350327fdd7cd"
    ],
-   "generated_at": "2026-11-06T03:23:47Z"
+   "generated_at": "2026-11-07T03:24:00Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
-   "title": "Lekken in vpn- en netwerkapparaten aan de rand van het netwerk volop misbruikt",
-   "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en Palo Alto en in Cisco SD-WAN-controllers. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog, om daarna wachtwoorden of sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: het Palo Alto-lek uit mei wordt nog door ransomwaregroepen misbruikt, en bij Ivanti bleken bijgewerkte versies opnieuw kwetsbaar.",
+   "title": "Lekken in vpn-servers, firewalls en switches aan de rand van netwerken misbruikt",
+   "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti, Palo Alto en SonicWall, in Cisco SD-WAN-controllers en in Zyxel-switches. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de MFA, om daarna wachtwoorden of sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: bij Ivanti en Zyxel bleken bijgewerkte versies opnieuw kwetsbaar, en het Palo Alto-lek uit mei wordt nog door ransomwaregroepen misbruikt.",
    "topics": [
     "edge_devices",
-    "exploited_vulnerabilities"
+    "exploited_vulnerabilities",
+    "vulnerability_management"
    ],
    "article_ids": [
+    "ff63fc905db0",
+    "a665869d02d2",
     "df100ad46108",
     "0968634953ed",
     "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-06T03:23:47Z"
+   "generated_at": "2026-11-07T03:24:00Z"
   },
   {
    "id": "mfa-omzeild-met-gestolen-sessies",
@@ -4622,7 +4626,7 @@
     "08252db330fb",
     "94ac3c3bdec2"
    ],
-   "generated_at": "2026-11-06T03:23:47Z"
+   "generated_at": "2026-11-07T03:24:00Z"
   }
  ],
  "weekly": null,
@@ -7112,14 +7116,6 @@
     "excluded_by": []
    },
    {
-    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
@@ -7207,6 +7203,14 @@
     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
@@ -7414,9 +7418,9 @@
     "excluded_by": []
    },
    {
-    "title": "Business Email Compromise (BEC) Attacks: How to Stop Them",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/what-is-business-email-compromise-bec",
+    "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
     "relevance_score": 75,
     "decision": "included",
     "excluded_by": []
