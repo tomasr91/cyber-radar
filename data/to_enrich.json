@@ -1,35 +1,19 @@
 {
- "generated_at": "2026-11-07T06:30:30.583576Z",
+ "generated_at": "2026-11-08T06:38:22.853185Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "f4f1ad10a87b",
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T20:58:19Z",
-   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "preliminary_score": 82,
+   "id": "4c35cf097458",
+   "title": "SonicWall waarschuwt voor lek waarmee aanvallers MFA van SSL-VPN omzeilen",
+   "url": "https://www.security.nl/posting/960763/SonicWall+waarschuwt+voor+lek+waarmee+aanvallers+MFA+van+SSL-VPN+omzeilen?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-07T12:05:09Z",
+   "excerpt": "SonicWall waarschuwt voor een kwetsbaarheid in SonicOS, het besturingssysteem dat op de firewalls van het cybersecuritybedrijf ...",
+   "preliminary_score": 91,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "0914d818aa9e",
-   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T12:11:05Z",
-   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "web_software_security"
+    "edge_devices"
    ]
   },
   {
@@ -49,6 +33,36 @@
    ]
   },
   {
+   "id": "f4f1ad10a87b",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T20:58:19Z",
+   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+   "preliminary_score": 81,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "0914d818aa9e",
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T12:11:05Z",
+   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+   "preliminary_score": 81,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "web_software_security"
+   ]
+  },
+  {
    "id": "1b9b96d402ef",
    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
    "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
@@ -56,7 +70,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T17:00:38Z",
    "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "vulnerability_management",
@@ -71,7 +85,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T14:27:52Z",
    "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence",
@@ -87,7 +101,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T11:24:31Z",
    "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "threat_intelligence",
     "malware"
@@ -101,7 +115,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T07:46:15Z",
    "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve"
    ]
@@ -114,7 +128,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T05:43:11Z",
    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
@@ -135,20 +149,6 @@
     "incidents_breaches",
     "threat_intelligence",
     "phishing_identity"
-   ]
-  },
-  {
-   "id": "bc96c130a163",
-   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T15:59:19Z",
-   "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "vulnerability_management"
    ]
   }
  ]
