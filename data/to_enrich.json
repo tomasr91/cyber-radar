@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T06:38:22.853185Z",
+ "generated_at": "2026-11-09T07:06:23.388677Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,26 +10,27 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-07T12:05:09Z",
    "excerpt": "SonicWall waarschuwt voor een kwetsbaarheid in SonicOS, het besturingssysteem dat op de firewalls van het cybersecuritybedrijf ...",
-   "preliminary_score": 91,
+   "preliminary_score": 90,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "edge_devices"
    ]
   },
   {
-   "id": "2a5b7d5a686a",
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "id": "3d5dfb277e1d",
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-05T05:17:04Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-   "preliminary_score": 82,
+   "published_at": "2026-11-09T06:05:24Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "vulnerability_management",
-    "malware"
+    "edge_devices",
+    "phishing_identity"
    ]
   },
   {
@@ -60,6 +61,22 @@
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "web_software_security"
+   ]
+  },
+  {
+   "id": "2a5b7d5a686a",
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-05T05:17:04Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+   "preliminary_score": 81,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management",
+    "malware"
    ]
   },
   {
@@ -121,34 +138,17 @@
    ]
   },
   {
-   "id": "349817163ae5",
-   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T05:43:11Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+   "id": "83a1b9cd5ac4",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-07T10:16:23Z",
+   "excerpt": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
    "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "19a35a6714f9",
-   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T16:55:58Z",
-   "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity"
+    "edge_devices"
    ]
   }
  ]

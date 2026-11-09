@@ -3023,7 +3023,39 @@
    "published_raw": "Sat, 07 Nov 2026 10:16:23 +0000",
    "fetched_at": "2026-11-08T06:38:30.585442Z",
    "excerpt": "<p>CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.</p>\n<p>The post <a href=\"https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/\">SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "bleepingcomputer:4f1cb43783a3": {
+   "source_id": "bleepingcomputer",
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "published_raw": "Sun, 08 Nov 2026 10:43:08 -0500",
+   "fetched_at": "2026-11-09T07:06:29.387007Z",
+   "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]"
+  },
+  "the_hacker_news:df6a1e5a88d8": {
+   "source_id": "the_hacker_news",
+   "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+   "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+   "published_raw": "Mon, 09 Nov 2026 11:45:10 +0530",
+   "fetched_at": "2026-11-09T07:06:29.703743Z",
+   "excerpt": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.\n\n\"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating"
+  },
+  "the_hacker_news:3d5dfb277e1d": {
+   "source_id": "the_hacker_news",
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "published_raw": "Mon, 09 Nov 2026 11:35:24 +0530",
+   "fetched_at": "2026-11-09T07:06:29.703743Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks.\n\nThe vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement"
+  },
+  "securityweek:2976ec112348": {
+   "source_id": "securityweek",
+   "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+   "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+   "published_raw": "Sun, 08 Nov 2026 12:14:00 +0000",
+   "fetched_at": "2026-11-09T07:06:29.950370Z",
+   "excerpt": "<p>Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.</p>\n<p>The post <a href=\"https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/\">Brava Security Emerges From Stealth With $15 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-08T06:38:22.853185Z"
+ "updated_at": "2026-11-09T07:06:23.388677Z"
 }
