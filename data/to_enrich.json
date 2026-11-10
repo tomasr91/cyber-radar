@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T07:06:23.388677Z",
+ "generated_at": "2026-11-10T07:41:46.162069Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -17,6 +17,80 @@
    ]
   },
   {
+   "id": "3e830a9401ea",
+   "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+   "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+   "source_id": "datadog_security_labs",
+   "source_name": "Datadog Security Labs",
+   "published_at": "2026-11-09T00:00:00Z",
+   "excerpt": "We share in-the-wild activity from ARTEX, an AI-native penetration framework, against AWS environments, including CloudWatch log hunting with compromised access keys and abuse of public Cognito user pools.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "siem_detection",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "ed98e46a8b24",
+   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
+   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-11-09T21:00:00Z",
+   "excerpt": "N-able took N-central offline after 33 critical flaws were disclosed, including chains enabling remote code execution and privilege escalation.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "6e1eca169247",
+   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-09T23:52:12Z",
+   "excerpt": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "9844bc61915e",
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-10T06:52:54Z",
+   "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "b579a343e6b6",
+   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+   "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-10T06:31:42Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
+   ]
+  },
+  {
    "id": "3d5dfb277e1d",
    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
@@ -24,7 +98,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-09T06:05:24Z",
    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
@@ -34,14 +108,28 @@
    ]
   },
   {
-   "id": "f4f1ad10a87b",
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "id": "d1c54efab86e",
+   "title": "Binance denies data breach after alleged ShinyHunters claims",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T20:58:19Z",
-   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "preliminary_score": 81,
+   "published_at": "2026-11-09T16:12:39Z",
+   "excerpt": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence"
+   ]
+  },
+  {
+   "id": "7fd412eaca5a",
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-09T16:04:57Z",
+   "excerpt": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
@@ -49,106 +137,19 @@
    ]
   },
   {
-   "id": "0914d818aa9e",
-   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T12:11:05Z",
-   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-   "preliminary_score": 81,
+   "id": "bd73ebc7b854",
+   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-09T17:51:21Z",
+   "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "2a5b7d5a686a",
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-05T05:17:04Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "malware"
-   ]
-  },
-  {
-   "id": "1b9b96d402ef",
-   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T17:00:38Z",
-   "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "vulnerability_management",
-    "edge_devices"
-   ]
-  },
-  {
-   "id": "5e99d13bfbb2",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T14:27:52Z",
-   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 81,
-   "preliminary_topics": [
     "incidents_breaches",
-    "threat_intelligence",
-    "web_software_security",
-    "supply_chain"
-   ]
-  },
-  {
-   "id": "8384c224e801",
-   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T11:24:31Z",
-   "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "32c90d2f0958",
-   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T07:46:15Z",
-   "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve"
-   ]
-  },
-  {
-   "id": "83a1b9cd5ac4",
-   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-07T10:16:23Z",
-   "excerpt": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "edge_devices"
+    "cloud_attacks",
+    "security_market"
    ]
   }
  ]
