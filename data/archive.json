@@ -4007,7 +4007,15 @@
    "published_raw": "Wed, 11 Nov 2026 01:41:17 GMT",
    "fetched_at": "2026-11-11T02:24:28.959437Z",
    "excerpt": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\"\nOut of 60 \"critical\" vulnerabilities, 45 are remote code execution (RCE) vulnerabilities."
+  },
+  "the_hacker_news:cd6455aacef5": {
+   "source_id": "the_hacker_news",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "published_raw": "Wed, 11 Nov 2026 11:34:02 +0530",
+   "fetched_at": "2026-11-11T07:00:36.915552Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity"
   }
  },
- "updated_at": "2026-11-11T04:38:15.588941Z"
+ "updated_at": "2026-11-11T07:00:30.533453Z"
 }

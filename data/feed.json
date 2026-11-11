@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T04:38:15.588941Z",
+ "generated_at": "2026-11-11T07:00:30.533453Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-11T02:12:00Z",
- "last_successful_update": "2026-11-11T04:38:15.588941Z",
+ "last_successful_update": "2026-11-11T07:00:30.533453Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-11T04:38:15.650149Z"
+   "checked_at": "2026-11-11T07:00:30.595381Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-11T04:38:16.442570Z"
+   "checked_at": "2026-11-11T07:00:31.222018Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-11T04:38:17.531684Z"
+   "checked_at": "2026-11-11T07:00:32.032147Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-11T04:38:17.745966Z"
+   "checked_at": "2026-11-11T07:00:32.464362Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-11T04:38:19.051597Z"
+   "checked_at": "2026-11-11T07:00:33.549527Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-11T04:38:19.148505Z"
+   "checked_at": "2026-11-11T07:00:33.707191Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-11T04:38:19.233426Z"
+   "checked_at": "2026-11-11T07:00:33.810698Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-11T04:38:19.336412Z"
+   "checked_at": "2026-11-11T07:00:33.991179Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-11T04:38:19.903343Z"
+   "checked_at": "2026-11-11T07:00:34.413592Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-11T04:38:21.473674Z"
+   "checked_at": "2026-11-11T07:00:35.923368Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-11T04:38:21.543641Z"
+   "checked_at": "2026-11-11T07:00:36.008912Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-11T04:38:21.653652Z"
+   "checked_at": "2026-11-11T07:00:36.173730Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-11T04:38:21.711823Z"
+   "checked_at": "2026-11-11T07:00:36.297841Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-11T04:38:21.920420Z"
+   "checked_at": "2026-11-11T07:00:36.535860Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-11T04:38:22.004739Z"
+   "checked_at": "2026-11-11T07:00:36.596116Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-11T04:38:22.136208Z"
+   "checked_at": "2026-11-11T07:00:36.688273Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-11T04:38:22.381876Z"
+   "checked_at": "2026-11-11T07:00:36.915552Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-11T04:38:22.596897Z"
+   "checked_at": "2026-11-11T07:00:37.180272Z"
   }
  ],
  "daily_top": [
@@ -511,7 +511,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.97,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -608,7 +608,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -834,7 +834,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.65,
+    "recency": 0.64,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -984,7 +984,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -1766,7 +1766,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.8,
+    "recency": 0.79,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -2027,7 +2027,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.74,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -2118,104 +2118,6 @@
     "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
    },
    "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
-   "region": "world"
-  },
-  {
-   "id": "ed60ea7fa412",
-   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T05:58:54Z",
-   "fetched_at": "2026-11-06T07:19:04.207644Z",
-   "summary": "Onderzoekers vonden een nagebouwde versie van de webserver van Control Web Panel die verborgen opdrachten uitvoert. Die verzoeken komen niet in de toegangslog. De aanvaller moet wel eerst root zijn.",
-   "personal_relevance": "Hostingklanten en MSP's vertrouwen vaak op webserverlogs om misbruik te zien. Dit voorbeeld helpt om te vragen welke andere bronnen hun SIEM of MDR gebruikt als een server zijn eigen logs niet meer betrouwbaar bijhoudt.",
-   "limitations": [
-    "Hoe de aanvallers root kregen, is niet bekend.",
-    "Hoeveel servers besmet zijn en wie erachter zit, is niet bekend.",
-    "Of cwpdoor en Ebury bij dezelfde aanvaller horen, weet XLab niet.",
-    "Hoe de achterdeur precies voorkomt dat verzoeken in de toegangslog komen, beschrijft het artikel niet.",
-    "Het rapport van XLab zelf is niet gelezen; de details komen uit The Hacker News."
-   ],
-   "topics": [
-    "siem_detection",
-    "malware",
-    "web_software_security"
-   ],
-   "groups": [
-    "detectie",
-    "aanvallen",
-    "web"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.78,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:34:20Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
-   "story": [
-    "Control Web Panel (CWP) is een gratis beheerpaneel voor Linux-servers die websites hosten. Onderzoekers van XLab, onderdeel van het Chinese securitybedrijf QiAnXin, vonden een achterdeur in de webserver van dat paneel, cwpsrv. Ze noemen hem cwpdoor. Op 29 juni vingen ze een installatiescript op dat zich voordeed als update. Op 30 september dook een kopie op bij VirusTotal, geüpload vanuit Brazilië. Volgens XLab wijst dat erop dat er echte slachtoffers zijn.",
-    "Eerst de normale werking. Een webserver ontvangt verzoeken van browsers, stuurt pagina's terug en schrijft elk verzoek in een toegangslog. Het script vervangt cwpsrv door een nagebouwde versie met extra code. Die gedraagt zich normaal, tot er een verzoek binnenkomt met speciale headers met een geldige tijd en handtekening. Dan voert de server de meegestuurde opdracht uit, met volledige controle over de server. Zulke verzoeken verschijnen niet in de toegangslog.",
-    "Om het programma te vervangen, moet de aanvaller al root zijn. Dit is dus geen eerste inbraak, maar een manier om binnen te blijven (persistentie). Hoe de aanvallers root kregen, weten de onderzoekers niet. Het script zet de oorspronkelijke datum van het bestand terug, zodat een directorylijst geen wijziging toont. Bij controle herkende geen van de 63 virusscanners op VirusTotal het bestand.",
-    "Hoe vind je het dan? Niet in de toegangslog, dus kijk naar andere sporen. XLab noemt er drie: een Unix-socket met de naam van een integriteitsmodule, onverwachte hulpprocessen onder cwpsrv, en de namen van de speciale headers als tekst in het programmabestand. Herstel betekent: het originele programma terugzetten, CWP bijwerken, alle wachtwoorden van het paneel wijzigen en de hele server als gehackt behandelen. In dezelfde upload zat ook Ebury, een bekende achterdeur in OpenSSH die wachtwoorden steelt.",
-    "De les voor detectie is breder dan CWP. Een gehackte server kan liegen over zijn eigen logs, en bestandsdatums zijn geen bewijs. Daarom helpt het om bronnen te combineren: netwerkverkeer naar het paneel, processen op de server en een vergelijking van programmabestanden met een bekende goede versie. Een SIEM die al die bronnen samenbrengt, ziet meer dan één logbestand."
-   ],
-   "key_facts": [
-    "XLab (QiAnXin) meldde begin november 2026 een achterdeur, cwpdoor, in cwpsrv, de webserver van Control Web Panel.",
-    "XLab ving op 29 juni een installatiescript op dat zich voordeed als versie-update; het vervangt cwpsrv en werkt alleen voor cwpsrv 1.15.10 en 1.24.0.",
-    "De nagebouwde server voert een opdracht uit bij een verzoek met een geldige tijd en handtekening in headers die beginnen met X-Ngx-Integrity; die verzoeken komen niet in de toegangslog.",
-    "Installatie vereist root; het script herstelt de oorspronkelijke tijdstempels en het bestand had 0 van 63 detecties op VirusTotal.",
-    "Op 30 september werd vanuit Brazilië een archief met de achterdeur naar VirusTotal geüpload; daarin zat ook Ebury.",
-    "XLab adviseert te controleren op de Unix-socket van de achterdeur, onverwachte hulpprocessen van cwpsrv en de headernamen in het programmabestand, en daarna het origineel terug te zetten, CWP bij te werken en wachtwoorden te wijzigen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
-    "language": "bash",
-    "code": "$ ss -xlp | grep cwpsrv\nu_str LISTEN 0 128 /tmp/.voorbeeld-integrity.sock 41234 * 0 users:((\"cwpsrv\",pid=1187,fd=9))",
-    "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
-   },
-   "terms": [
-    {
-     "term": "achterdeur",
-     "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
-    },
-    {
-     "term": "toegangslog",
-     "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."
-    },
-    {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
-    },
-    {
-     "term": "persistentie",
-     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
-    },
-    {
-     "term": "Unix-socket",
-     "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."
-    },
-    {
-     "term": "VirusTotal",
-     "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
-   },
-   "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
    "region": "world"
   },
   {
@@ -2512,6 +2414,104 @@
    "region": "world"
   },
   {
+   "id": "ed60ea7fa412",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T05:58:54Z",
+   "fetched_at": "2026-11-06T07:19:04.207644Z",
+   "summary": "Onderzoekers vonden een nagebouwde versie van de webserver van Control Web Panel die verborgen opdrachten uitvoert. Die verzoeken komen niet in de toegangslog. De aanvaller moet wel eerst root zijn.",
+   "personal_relevance": "Hostingklanten en MSP's vertrouwen vaak op webserverlogs om misbruik te zien. Dit voorbeeld helpt om te vragen welke andere bronnen hun SIEM of MDR gebruikt als een server zijn eigen logs niet meer betrouwbaar bijhoudt.",
+   "limitations": [
+    "Hoe de aanvallers root kregen, is niet bekend.",
+    "Hoeveel servers besmet zijn en wie erachter zit, is niet bekend.",
+    "Of cwpdoor en Ebury bij dezelfde aanvaller horen, weet XLab niet.",
+    "Hoe de achterdeur precies voorkomt dat verzoeken in de toegangslog komen, beschrijft het artikel niet.",
+    "Het rapport van XLab zelf is niet gelezen; de details komen uit The Hacker News."
+   ],
+   "topics": [
+    "siem_detection",
+    "malware",
+    "web_software_security"
+   ],
+   "groups": [
+    "detectie",
+    "aanvallen",
+    "web"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.78,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:34:20Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
+   "story": [
+    "Control Web Panel (CWP) is een gratis beheerpaneel voor Linux-servers die websites hosten. Onderzoekers van XLab, onderdeel van het Chinese securitybedrijf QiAnXin, vonden een achterdeur in de webserver van dat paneel, cwpsrv. Ze noemen hem cwpdoor. Op 29 juni vingen ze een installatiescript op dat zich voordeed als update. Op 30 september dook een kopie op bij VirusTotal, geüpload vanuit Brazilië. Volgens XLab wijst dat erop dat er echte slachtoffers zijn.",
+    "Eerst de normale werking. Een webserver ontvangt verzoeken van browsers, stuurt pagina's terug en schrijft elk verzoek in een toegangslog. Het script vervangt cwpsrv door een nagebouwde versie met extra code. Die gedraagt zich normaal, tot er een verzoek binnenkomt met speciale headers met een geldige tijd en handtekening. Dan voert de server de meegestuurde opdracht uit, met volledige controle over de server. Zulke verzoeken verschijnen niet in de toegangslog.",
+    "Om het programma te vervangen, moet de aanvaller al root zijn. Dit is dus geen eerste inbraak, maar een manier om binnen te blijven (persistentie). Hoe de aanvallers root kregen, weten de onderzoekers niet. Het script zet de oorspronkelijke datum van het bestand terug, zodat een directorylijst geen wijziging toont. Bij controle herkende geen van de 63 virusscanners op VirusTotal het bestand.",
+    "Hoe vind je het dan? Niet in de toegangslog, dus kijk naar andere sporen. XLab noemt er drie: een Unix-socket met de naam van een integriteitsmodule, onverwachte hulpprocessen onder cwpsrv, en de namen van de speciale headers als tekst in het programmabestand. Herstel betekent: het originele programma terugzetten, CWP bijwerken, alle wachtwoorden van het paneel wijzigen en de hele server als gehackt behandelen. In dezelfde upload zat ook Ebury, een bekende achterdeur in OpenSSH die wachtwoorden steelt.",
+    "De les voor detectie is breder dan CWP. Een gehackte server kan liegen over zijn eigen logs, en bestandsdatums zijn geen bewijs. Daarom helpt het om bronnen te combineren: netwerkverkeer naar het paneel, processen op de server en een vergelijking van programmabestanden met een bekende goede versie. Een SIEM die al die bronnen samenbrengt, ziet meer dan één logbestand."
+   ],
+   "key_facts": [
+    "XLab (QiAnXin) meldde begin november 2026 een achterdeur, cwpdoor, in cwpsrv, de webserver van Control Web Panel.",
+    "XLab ving op 29 juni een installatiescript op dat zich voordeed als versie-update; het vervangt cwpsrv en werkt alleen voor cwpsrv 1.15.10 en 1.24.0.",
+    "De nagebouwde server voert een opdracht uit bij een verzoek met een geldige tijd en handtekening in headers die beginnen met X-Ngx-Integrity; die verzoeken komen niet in de toegangslog.",
+    "Installatie vereist root; het script herstelt de oorspronkelijke tijdstempels en het bestand had 0 van 63 detecties op VirusTotal.",
+    "Op 30 september werd vanuit Brazilië een archief met de achterdeur naar VirusTotal geüpload; daarin zat ook Ebury.",
+    "XLab adviseert te controleren op de Unix-socket van de achterdeur, onverwachte hulpprocessen van cwpsrv en de headernamen in het programmabestand, en daarna het origineel terug te zetten, CWP bij te werken en wachtwoorden te wijzigen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
+    "language": "bash",
+    "code": "$ ss -xlp | grep cwpsrv\nu_str LISTEN 0 128 /tmp/.voorbeeld-integrity.sock 41234 * 0 users:((\"cwpsrv\",pid=1187,fd=9))",
+    "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
+   },
+   "terms": [
+    {
+     "term": "achterdeur",
+     "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
+    },
+    {
+     "term": "toegangslog",
+     "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "Unix-socket",
+     "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."
+    },
+    {
+     "term": "VirusTotal",
+     "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
+   },
+   "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
+   "region": "world"
+  },
+  {
    "id": "ff63fc905db0",
    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -2629,7 +2629,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.27,
+    "recency": 0.26,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -2892,104 +2892,6 @@
     "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
    },
    "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
-   "region": "world"
-  },
-  {
-   "id": "842bc764ab47",
-   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-   "source_id": "securityweek",
-   "published_at": "2026-11-04T10:36:32Z",
-   "fetched_at": "2026-11-05T01:23:20.491689Z",
-   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
-   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
-   "limitations": [
-    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
-    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
-    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
-    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
-   ],
-   "groups": [
-    "incidenten",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.72,
-    "source": 0.51,
-    "quality": 0.73,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
-   "story": [
-    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
-    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
-    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
-    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
-    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
-   ],
-   "key_facts": [
-    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
-    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
-    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
-    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
-    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
-    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
-    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
-    "language": "log",
-    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
-   },
-   "terms": [
-    {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
-    },
-    {
-     "term": "zero-day",
-     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
-    },
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "containers",
-     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
-    },
-    {
-     "term": "hot wallet",
-     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
-    },
-    {
-     "term": "smart contract",
-     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
-   },
-   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
    "region": "world"
   },
   {
@@ -3523,7 +3425,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.54,
+    "recency": 0.53,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -3686,6 +3588,104 @@
     "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
    ],
    "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
+   "region": "world"
+  },
+  {
+   "id": "842bc764ab47",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-04T10:36:32Z",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+   "limitations": [
+    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
+    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
+    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
+    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.71,
+    "source": 0.51,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+   "story": [
+    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
+    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
+    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
+    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
+    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+   ],
+   "key_facts": [
+    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
+    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
+    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
+    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
+    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
+    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
+    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
+    "language": "log",
+    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
+   },
+   "terms": [
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "containers",
+     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+    },
+    {
+     "term": "hot wallet",
+     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+    },
+    {
+     "term": "smart contract",
+     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+   },
+   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
    "region": "world"
   },
   {
@@ -3887,7 +3887,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -3983,7 +3983,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.74,
+    "recency": 0.73,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -4179,7 +4179,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -4855,7 +4855,7 @@
     "aanvallen",
     "web"
    ],
-   "relevance_score": 80,
+   "relevance_score": 79,
    "score_parts": {
     "topic": 0.85,
     "recency": 0.73,
@@ -7845,11 +7845,11 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 500,
+  "unique_after_dedupe": 501,
   "merged_duplicates": 1,
   "shown": 43,
   "decisions": {
-   "included": 203,
+   "included": 204,
    "below_threshold": 133,
    "no_topic": 126,
    "excluded": 38
@@ -7936,7 +7936,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 293
+   "skipped_no_key": 294
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -8093,9 +8093,9 @@
     ]
    },
    {
-    "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -8165,6 +8165,14 @@
     "excluded_by": [
      "roundups"
     ]
+   },
+   {
+    "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
@@ -8289,14 +8297,6 @@
     "excluded_by": []
    },
    {
-    "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
     "source_id": "crowdstrike_blog",
     "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
@@ -8334,6 +8334,14 @@
     "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
@@ -8434,14 +8442,6 @@
     "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []

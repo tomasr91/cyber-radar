@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T04:38:15.588941Z",
+ "generated_at": "2026-11-11T07:00:30.533453Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -14,6 +14,21 @@
    "preliminary_topics": [
     "vulnerabilities_cve",
     "attack_techniques"
+   ]
+  },
+  {
+   "id": "cd6455aacef5",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-11T06:04:02Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
    ]
   },
   {
@@ -133,21 +148,6 @@
     "ransomware",
     "supply_chain",
     "incident_response"
-   ]
-  },
-  {
-   "id": "69936e426e71",
-   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-10T08:51:25Z",
-   "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "web_software_security"
    ]
   }
  ]
