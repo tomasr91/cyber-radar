@@ -1,0 +1,7 @@
+{
+  "article_id": "0974c37f25c4",
+  "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als 9398616ade4d (misbruikte authenticatie-omzeiling VSA-2026-062 in Xen Orchestra); dat artikel citeert het advies met de technische oorzaak.",
+  "development_key": "vsa-2026-062-xen-orchestra",
+  "checked_at": "2026-11-11T01:35:00Z"
+}

@@ -1,0 +1,107 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "3e830a9401ea",
+  "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+  "headline": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS",
+  "summary": "Datadog zag het AI-framework ARTEX in AWS-omgevingen zoeken in logbestanden en zichzelf registreren via openbare inlogpools. Het laat ook zien welke patronen je in CloudTrail terugziet.",
+  "story": [
+    "ARTEX is een aanvalsframework waarin meerdere AI-agenten samen een aanval plannen en uitvoeren. Volgens Datadog koppelde Microsoft ARTEX eerder aan Storm-0940, een groep die met China in verband wordt gebracht. Datadog Security Labs beschrijft nu wat ARTEX in oktober deed in AWS-omgevingen, vooral gericht op financiële gegevens. Nieuw is vooral hoe je het in de logs herkent.",
+    "Elke sessie begon met verzoeken aan S3 zonder inlog: de agent keek wat er openbaar te lezen viel. Daarna twee routes. Had de aanvaller een gelekte langlevende toegangssleutel, dan doorzocht hij de logbestanden in CloudWatch. Eerst op namen van cryptobedrijven en woorden als 'Invoice' en 'Billing', later op wachtwoorden, interne IP-adressen en downloadlinks. Logs blijken dus zelf een bron van geheimen. Had hij geen sleutel, dan maakte de agent zelf een account aan in een openbare Cognito-gebruikerspool. Met de tokens daarvan vroeg hij tijdelijke AWS-sleutels op en probeerde hij allerlei gegevens op te vragen. Dat mislukte, omdat die rol te weinig rechten had.",
+    "Wat zie je in CloudTrail? Een AI-agent probeert veel en faalt vaak. Datadog noemt onder meer: veel AccessDenied-fouten voor één identiteit, veel buckets in korte tijd, verzoeken naar niet-bestaande bestanden vlak voor een reeks gokpogingen, en FilterLogEvents steeds met precies 1000 resultaten. Bij Cognito: een piek in nieuwe registraties, gevolgd door sessies met de naam CognitoIdentityCredentials. Een user agent met 'artex' erin is snel te vinden, maar makkelijk te veranderen. Gedrag is betrouwbaarder.",
+    "Datadog adviseert langlevende sleutels te vervangen en oude op te ruimen, geen geheimen in logs te zetten en openbare Cognito-pools na te lopen op zelfregistratie en rechten. Voor organisaties is de les: een AI-agent maakt geen nieuwe soort fouten, maar vindt bestaande fouten veel sneller."
+  ],
+  "key_facts": [
+    "Datadog Security Labs publiceerde de analyse op 9 november 2026 en zag ARTEX-activiteit in oktober 2026 tegen meerdere AWS-omgevingen, gericht op financiële data.",
+    "ARTEX verscheen in juli 2026 op GitHub en werd op 8 oktober 2026 closed-source, na meer dan 12.000 forks.",
+    "Volgens de tijdlijn van Datadog koppelde Microsoft ARTEX op 21 oktober 2026 aan Storm-0940, een China-gelieerde actor.",
+    "Elke bekeken sessie begon met anonieme S3-verzoeken; met gelekte langlevende sleutels was FilterLogEvents op CloudWatch Logs de meest gebruikte actie, steeds met limit 1000.",
+    "Zonder sleutels registreerde de agent zichzelf via SignUp in openbare Cognito-gebruikerspools, haalde tokens op en zette die om in tijdelijke AWS-credentials; de discovery-aanroepen daarna faalden door te weinig rechten.",
+    "Volgens Datadog zijn veel AccessDenied-fouten, snelle S3-enumeratie, verzoeken naar niet-bestaande objecten en pieken in Cognito-registraties bruikbare detectiesignalen.",
+    "Datadog vond honderden ARTEX-consoles op internet, vaak gehost in Singapore en Hongkong."
+  ],
+  "limitations": [
+    "Wie achter deze sessies zat en hoeveel organisaties zijn geraakt, staat niet in het onderzoek.",
+    "Het gedrag van ARTEX hangt volgens Datadog sterk af van het gebruikte taalmodel; andere sessies kunnen er anders uitzien.",
+    "Datadog is een leverancier van monitoring- en SIEM-software en noemt eigen detectieregels."
+  ],
+  "personal_relevance": "Dit is een concreet voorbeeld voor gesprekken over cloud-detectie: welke CloudTrail-patronen bewaakt de klant, en zitten er geheimen in de applicatielogs die naar de cloud gaan?",
+  "takeaway": "Een AI-agent valt op door zijn gedrag: veel proberen, vaak falen, in hoog tempo. Detectie op gedrag in CloudTrail werkt beter dan zoeken op een naam die de aanvaller zo kan veranderen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "siem_detection",
+    "cloud_attacks",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
+  "development_key": "artex-aws-cloudtrail-nov-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; detectie in de cloud, aansluitend op eerdere ARTEX-stukken."
+  },
+  "showcase": {
+    "caption": "Een eenvoudige zoekopdracht voor een SIEM: welke identiteiten krijgen binnen een uur meer dan 50 keer AccessDenied in CloudTrail? Regel 1 kiest de logtabel, regel 2 filtert op weigeringen, regel 3 telt per identiteit per uur, regel 4 houdt alleen de uitschieters over.",
+    "language": "kql",
+    "code": "AWSCloudTrail\n| where ErrorCode == \"AccessDenied\"\n| summarize Weigeringen = count(), Acties = dcount(EventName) by UserIdentityArn, bin(TimeGenerated, 1h)\n| where Weigeringen > 50",
+    "result": {
+      "columns": [
+        "UserIdentityArn",
+        "Uur",
+        "Weigeringen",
+        "Acties"
+      ],
+      "rows": [
+        [
+          "arn:aws:sts::111122223333:assumed-role/cognito-auth/CognitoIdentityCredentials",
+          "2026-10-26 14:00",
+          "212",
+          "37"
+        ],
+        [
+          "arn:aws:iam::111122223333:user/ci-deploy",
+          "2026-10-26 14:00",
+          "63",
+          "2"
+        ]
+      ]
+    },
+    "note": "Nagebouwd voorbeeld met verzonnen data; de drempel van 50 is een voorbeeld. Een hoog aantal verschillende acties (Acties) past bij een agent die alles probeert."
+  },
+  "terms": [
+    {
+      "term": "AI-agenten",
+      "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+      "term": "langlevende toegangssleutel",
+      "explanation": "Een vaste sleutel voor AWS die niet vanzelf verloopt. Lekt hij uit, dan werkt hij tot iemand hem intrekt."
+    },
+    {
+      "term": "CloudWatch",
+      "explanation": "De dienst van AWS waarin applicaties en servers hun logbestanden en meetwaarden opslaan."
+    },
+    {
+      "term": "Cognito-gebruikerspool",
+      "explanation": "Een AWS-dienst die de accounts van een app beheert. Staat zelfregistratie aan, dan kan iedereen er een account aanmaken."
+    },
+    {
+      "term": "CloudTrail",
+      "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+      "term": "user agent",
+      "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    }
+  ],
+  "processed_at": "2026-11-11T01:57:00Z"
+}

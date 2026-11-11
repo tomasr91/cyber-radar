@@ -1,0 +1,74 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "b958c2272095",
+  "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+  "headline": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken",
+  "summary": "Via een lek in SGLang kreeg een aanvaller toegang tot een server van NEAR AI. Hij kon verzoeken zien die in een afgeschermde omgeving (TEE) liepen en stal gegevens van 18 agenten en ongeveer 100 gebruikers.",
+  "story": [
+    "Een aanvaller misbruikte een lek in SGLang om code uit te voeren op een server van NEAR AI. SGLang is open-source software die AI-modellen laat draaien en verzoeken van gebruikers verwerkt: een inference engine. Volgens NEAR AI kon de aanvaller die dag alle verzoeken op die server zien. Daarna kwam hij verder in de systemen van het bedrijf. Hij stal chatgeschiedenis, instellingen en logs van 18 AI-agenten en namen en e-mailadressen van ongeveer 100 gebruikers.",
+    "Het opvallende: ook verzoeken in de 'confidential mode' waren zichtbaar. Die modus draait in een trusted execution environment (TEE). Dat is een afgeschermd deel van de processor, waar zelfs de beheerder van de server niet in kan kijken. Vergelijk het met een kluis. Maar SGLang draait zelf ín die kluis. NEAR AI zegt het zelf: een TEE beschermt niet tegen een lek in de software die erin draait. Wie die software overneemt, staat dus binnen de kluismuren.",
+    "Hoe het lek technisch werkt, is niet bekend: er is geen CVE-nummer, geen versie en geen oorzaak gepubliceerd. NEAR AI meldde de fout aan het SGLang-project en rolde zelf een fix uit. Daarnaast trok het alle sessies en beheerderswachtwoorden in, verving het tokens en zette het een oud chatsysteem uit. Bij twee klanten stond een API-sleutel in de logs; die zijn ingetrokken.",
+    "Wat betekent dit? Organisaties draaien steeds vaker zelf AI-modellen met software als SGLang. Die servers verwerken gevoelige vragen en staan vaak op internet. Ze horen dus in het vulnerability management, net als een webserver. En geheimen zoals API-sleutels horen niet in logs, want wie een server binnenkomt, leest die logs mee."
+  ],
+  "key_facts": [
+    "Een aanvaller misbruikte een remote code execution-lek in SGLang, een open-source inference engine, en voerde op een zondag code uit op een inference-server van NEAR AI (The Hacker News, 10 november 2026).",
+    "Volgens NEAR AI kon de aanvaller die dag verzoeken op die server zien, ook in confidential mode, die in een TEE draait; NEAR AI: de TEE beschermt niet tegen een lek in de software die erin draait.",
+    "Gestolen of blootgesteld: chatgeschiedenis, instellingen en logs van 18 agenten op een oudere uitrol buiten de TEE, en namen en e-mailadressen van ongeveer 100 gebruikers van Private Chat, bij sommigen ook abonnements- en saldogegevens.",
+    "Twee klanten van NEAR AI Cloud hadden hun API-sleutel in logs staan; beide sleutels zijn ingetrokken.",
+    "NEAR AI trok sessies en beheerderscredentials in, verving agenttokens, haalde Private Chat offline, patchte alle inference-servers en meldde de fout aan het SGLang-project."
+  ],
+  "limitations": [
+    "CVE-nummer, oorzaak en getroffen versies van SGLang zijn niet bekend, net als of het project al een fix uitbracht.",
+    "Hoe de aanvaller van de inference-server naar andere systemen kwam, is niet beschreven.",
+    "De precieze datum en het moment van ontdekking staan niet in het artikel.",
+    "Of gebruikers van wie verzoeken die dag over de server liepen, zijn ingelicht, is niet bevestigd."
+  ],
+  "personal_relevance": "Klanten die zelf AI-modellen draaien, vergeten die servers vaak in hun scans. Een goede vraag: staan jullie AI-servers en hun software in het overzicht van vulnerability management?",
+  "takeaway": "Een TEE beschermt gegevens tegen de beheerder van de server, niet tegen een lek in de software die erin draait. Afscherming helpt alleen zolang de code binnen de afscherming veilig is.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "incidents_breaches",
+    "vulnerabilities_cve",
+    "cloud_attacks"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.6,
+    "novelty": 0.8
+  },
+  "development_key": "sglang-near-ai-nov-2026",
+  "soort": "incident",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; incident met een nieuwe les over afgeschermde AI-servers."
+  },
+  "terms": [
+    {
+      "term": "inference engine",
+      "explanation": "Software die een getraind AI-model laat draaien en vragen van gebruikers verwerkt tot antwoorden."
+    },
+    {
+      "term": "trusted execution environment",
+      "explanation": "Een afgeschermd deel van een processor waar gegevens versleuteld worden verwerkt, zodat ook de beheerder van de server er niet in kan kijken (TEE)."
+    },
+    {
+      "term": "AI-agenten",
+      "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+      "term": "API-sleutel",
+      "explanation": "Een geheime code waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+    },
+    {
+      "term": "tokens",
+      "explanation": "Digitale toegangsbewijzen die je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie er één steelt, is ingelogd als de eigenaar."
+    }
+  ],
+  "processed_at": "2026-11-11T01:59:00Z"
+}

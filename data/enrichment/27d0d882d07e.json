@@ -1,0 +1,86 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "27d0d882d07e",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+  "headline": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen",
+  "summary": "Een aanvaller stal toegang tot het AWS-account van dataplatform Qubole. Omdat klanten dat account vertrouwden, kon hij in hun eigen AWS-omgevingen geheimen en bestanden ophalen.",
+  "story": [
+    "Van 14 tot 26 oktober heeft een aanvaller data gestolen uit de AWS-omgevingen van tientallen bedrijven. Hij gebruikte daarvoor twee gehackte IAM-gebruikers van Qubole, een platform voor het verwerken van grote hoeveelheden data. Wiz onderzocht de aanval, nadat Sentra verdachte activiteit had gemeld. Volgens Sentra werden bij één klant alleen al miljoenen bestanden gestolen. Hoe Qubole zelf werd gehackt, is niet bekend.",
+    "Eerst de normale werking. Wil je een externe dienst toegang geven tot je cloudomgeving, dan geef je hem geen wachtwoord. Je maakt een rol aan met bepaalde rechten en zet in een trust policy welk extern account die rol mag 'aannemen'. De dienst vraagt dan tijdelijke sleutels op via AssumeRole. Dat is veilig, zolang het vertrouwde account veilig is. Hier was dat niet zo: wie het account van Qubole had, mocht de rollen van alle klanten aannemen die Qubole vertrouwden, ook rollen die niet meer werden gebruikt.",
+    "Volgens Wiz deed de aanvaller overal hetzelfde. Eerst de rol aannemen. Dan geheimen ophalen uit Secrets Manager, Parameter Store en de instellingen van Lambda-functies. Gevonden sleutels testte hij met de openbare tool TruffleHog, ook voor Entra ID en Okta. Daarna vroeg hij een lijst van opslagbuckets op, bekeek hij de inhoud en downloadde hij alles wat hij kon bereiken. Volgens Sentra verzamelde hij zo ongeveer 100 wachtwoorden en sleutels per zeven minuten.",
+    "Hoe zie je dit? In CloudTrail, het logboek van AWS, staat elke AssumeRole met het account dat erom vroeg. Getroffen beheerders moeten volgens het advies terugkijken vanaf 1 oktober naar toegang vanuit het Qubole-account, en daarna naar het ophalen van geheimen en S3-bestanden. Daarna: sleutels vervangen, actieve sessies intrekken, ongebruikte koppelingen verwijderen en de rechten van overgebleven rollen beperken.",
+    "Dit is een supply chain-aanval op cloudniveau. Je eigen omgeving kan goed beveiligd zijn, maar een vergeten koppeling met een leverancier blijft een open deur. Een lijst van alle externe accounts die je vertrouwt, is daarom net zo belangrijk als een lijst van je eigen gebruikers."
+  ],
+  "key_facts": [
+    "De aanval liep van 14 tot 26 oktober 2026; de aanvaller gebruikte twee gehackte IAM-gebruikers van Qubole (BleepingComputer, 10 november 2026, op basis van Wiz).",
+    "Hij nam via cross-account-rollen, ook ongebruikte, toegang over in AWS-accounts van klanten die het Qubole-account vertrouwden.",
+    "Wiz beschrijft de volgorde: AssumeRole, geheimen ophalen uit Secrets Manager, SSM Parameter Store en Lambda-omgevingsvariabelen, sleutels valideren met TruffleHog, dan ListBuckets, ListObjects, HeadObject en GetObject.",
+    "Sentra bevestigt tientallen slachtoffers, miljoenen gestolen bestanden bij één klant en een tempo van ongeveer 100 wachtwoorden en sleutels per zeven minuten; Mandiant was bij het onderzoek betrokken.",
+    "Advies: CloudTrail vanaf 1 oktober nakijken op toegang vanuit het Qubole-account, sleutels roteren, sessies intrekken, ongebruikte integraties verwijderen en rechten van rollen beperken."
+  ],
+  "limitations": [
+    "Hoe de IAM-gebruikers van Qubole werden gehackt, is niet bekend.",
+    "Qubole heeft niets openbaar gemaakt en had bij publicatie niet gereageerd.",
+    "Het precieze aantal getroffen klanten is onbekend; Sentra spreekt van tientallen.",
+    "Wiz en Sentra zijn securityleveranciers die cloudbeveiliging verkopen."
+  ],
+  "personal_relevance": "Klanten met AWS hebben vaak koppelingen met tientallen externe diensten. Een goede vraag: hebben jullie een overzicht van alle externe accounts die rollen in jullie cloud mogen aannemen, en worden ongebruikte koppelingen opgeruimd?",
+  "takeaway": "In de cloud geef je een leverancier toegang door zijn account te vertrouwen. Wordt dat account gehackt, dan erft de aanvaller dat vertrouwen bij al zijn klanten tegelijk.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "cloud_attacks",
+    "supply_chain",
+    "incidents_breaches",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
+  "development_key": "qubole-aws-cross-account-okt-2026",
+  "soort": "incident",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; cloudincident met duidelijke aanvalsstappen en logadvies."
+  },
+  "showcase": {
+    "caption": "Zo ziet een AssumeRole er vereenvoudigd uit in CloudTrail. Belangrijk zijn het account dat de rol aanneemt (userIdentity) en de rol die wordt aangenomen. Een SIEM kan alarm slaan als een extern account een rol aanneemt die maanden niet gebruikt is.",
+    "language": "json",
+    "code": "{\n  \"eventTime\": \"2026-10-14T09:12:44Z\",\n  \"eventSource\": \"sts.amazonaws.com\",\n  \"eventName\": \"AssumeRole\",\n  \"userIdentity\": {\"type\": \"AWSAccount\", \"accountId\": \"111122223333\"},\n  \"sourceIPAddress\": \"203.0.113.10\",\n  \"requestParameters\": {\n    \"roleArn\": \"arn:aws:iam::444455556666:role/leverancier-integratie\",\n    \"roleSessionName\": \"sessie-01\"\n  }\n}",
+    "note": "Nagebouwd en ingekort voorbeeld met verzonnen accountnummers en een voorbeeldadres."
+  },
+  "terms": [
+    {
+      "term": "IAM-gebruikers",
+      "explanation": "Accounts in AWS Identity and Access Management. Ze bepalen wie in een AWS-omgeving mag inloggen en wat die persoon of applicatie daar mag doen."
+    },
+    {
+      "term": "trust policy",
+      "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
+    },
+    {
+      "term": "AssumeRole",
+      "explanation": "Een functie van AWS waarmee een account tijdelijke sleutels krijgt voor een rol in een ander account, met alleen de rechten van die rol."
+    },
+    {
+      "term": "CloudTrail",
+      "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+      "term": "opslagbuckets",
+      "explanation": "Mappen in de clouddienst Amazon S3 waarin organisaties bestanden bewaren. Wie leesrechten heeft, kan de inhoud oplijsten en downloaden."
+    },
+    {
+      "term": "supply chain",
+      "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    }
+  ],
+  "processed_at": "2026-11-11T01:54:00Z"
+}
