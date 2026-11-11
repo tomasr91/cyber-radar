@@ -1,12 +1,13 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-07T03:24:00Z",
+  "generated_at": "2026-11-11T03:27:00Z",
   "trends": [
     {
       "id": "ai-agenten-voeren-inbraken-uit",
       "title": "Aanvallers laten AI-agenten als ARTEX een groot deel van de inbraak doen",
-      "summary": "Google, Microsoft en WorkOS zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Microsoft agenten zag die op GitHub naar gelekte geheimen zochten en daarmee bij Azure binnenkwamen; in één geval zat er vijf minuten tussen zoeken en het leeghalen van een Key Vault. Zulke frameworks duiken sinds eind augustus in echte incidenten op: snel, maar met veel sporen, zoals honderden aanmeldingen of herkenbare user agents.",
+      "summary": "Google, Microsoft, WorkOS en nu ook Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Datadog ARTEX in AWS-omgevingen zag zoeken naar geheimen in logbestanden en zichzelf registreren via openbare Cognito-inlogpools; eerder zag Microsoft agenten die op GitHub gelekte sleutels zochten. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents.",
       "article_ids": [
+        "3e830a9401ea",
         "9fcf62b29cf8",
         "8b5f34b85bf1",
         "f8af8b71c7c1",
@@ -22,13 +23,12 @@
     },
     {
       "id": "lekken-vpn-en-randapparaten",
-      "title": "Lekken in vpn-servers, firewalls en switches aan de rand van netwerken misbruikt",
-      "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti, Palo Alto en SonicWall, in Cisco SD-WAN-controllers en in Zyxel-switches. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de MFA, om daarna wachtwoorden of sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: bij Ivanti en Zyxel bleken bijgewerkte versies opnieuw kwetsbaar, en het Palo Alto-lek uit mei wordt nog door ransomwaregroepen misbruikt.",
+      "title": "Lekken in vpn-servers, switches en SD-WAN aan de rand van netwerken misbruikt",
+      "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en SonicWall, in Cisco SD-WAN-controllers en in Zyxel-switches. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de normale inlogcontrole, om daarna sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: bij Ivanti en Zyxel bleken bijgewerkte versies opnieuw kwetsbaar.",
       "article_ids": [
         "ff63fc905db0",
         "a665869d02d2",
         "df100ad46108",
-        "0968634953ed",
         "7b72d51a9df2"
       ],
       "topics": [
