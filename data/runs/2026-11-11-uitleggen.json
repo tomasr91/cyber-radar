@@ -1,0 +1,17 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-11T01:23:06Z",
+  "finished_at": "2026-11-11T01:35:36Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 7 artikelen uitgelegd (onder meer misbruikte lekken in Xen Orchestra en AhsayCBS, Able2Shell in N-central en de Qubole-inbraak in AWS), 3 overgeslagen, waarvan 2 zonder openen.",
+  "counts": {
+    "uitgelegd": 7,
+    "overgeslagen": 3,
+    "overgeslagen_zonder_openen": 2,
+    "niet_te_lezen": 1
+  },
+  "problems": [
+    "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
+    "Het artikel van BleepingComputer over Patch Tuesday van november 2026 gaf twee keer een serverfout en is overgeslagen als niet te lezen."
+  ]
+}
