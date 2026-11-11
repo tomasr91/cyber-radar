@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T01:36:42.133381Z",
+ "generated_at": "2026-11-11T02:24:25.842387Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-11T02:12:00Z",
- "last_successful_update": "2026-11-11T01:36:42.133381Z",
+ "last_successful_update": "2026-11-11T02:24:25.842387Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-11T01:36:42.194299Z"
+   "checked_at": "2026-11-11T02:24:25.872960Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-11T01:36:43.129697Z"
+   "checked_at": "2026-11-11T02:24:26.503410Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-11T01:36:44.257128Z"
+   "checked_at": "2026-11-11T02:24:27.319620Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-11T01:36:44.514645Z"
+   "checked_at": "2026-11-11T02:24:27.520521Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-11T01:36:45.872626Z"
+   "checked_at": "2026-11-11T02:24:28.639807Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-11T01:36:45.969993Z"
+   "checked_at": "2026-11-11T02:24:28.845612Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-11T01:36:46.063025Z"
+   "checked_at": "2026-11-11T02:24:28.959437Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-11T01:36:46.144810Z"
+   "checked_at": "2026-11-11T02:24:29.124935Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-11T01:36:46.666532Z"
+   "checked_at": "2026-11-11T02:24:29.854669Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-11T01:36:47.830725Z"
+   "checked_at": "2026-11-11T02:24:31.351385Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-11T01:36:47.871326Z"
+   "checked_at": "2026-11-11T02:24:31.513832Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-11T01:36:47.940967Z"
+   "checked_at": "2026-11-11T02:24:31.674786Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-11T01:36:48.006727Z"
+   "checked_at": "2026-11-11T02:24:31.822741Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-11T01:36:48.244050Z"
+   "checked_at": "2026-11-11T02:24:32.056705Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-11T01:36:48.322864Z"
+   "checked_at": "2026-11-11T02:24:32.339219Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-11T01:36:48.481401Z"
+   "checked_at": "2026-11-11T02:24:32.487080Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-11T01:36:48.721537Z"
+   "checked_at": "2026-11-11T02:24:32.884808Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-11T01:36:48.941577Z"
+   "checked_at": "2026-11-11T02:24:33.105489Z"
   }
  ],
  "daily_top": [
@@ -1468,92 +1468,6 @@
    "region": "world"
   },
   {
-   "id": "7e413807cc2f",
-   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T15:58:44Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "De groep Blind Eagle stuurt organisaties in Latijns-Amerika mails die lijken op berichten van de rechter. De bijlage bouwt het besmette bestand pas op de computer van het slachtoffer, zodat mailfilters het niet zien.",
-   "personal_relevance": "HTML smuggling is een goed voorbeeld om uit te leggen waarom een mailfilter alleen niet genoeg is. Een vraag aan klanten: ziet jullie EDR het als een browser of mailprogramma een script of PowerShell start?",
-   "limitations": [
-    "Hoeveel organisaties de mails kregen en of er besmettingen zijn, is niet bekend.",
-    "De koppeling aan Blind Eagle en een Braziliaans cluster is een inschatting van Zenox op basis van taal, infrastructuur, tijdzone en slachtoffers."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 90,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.98,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": -0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T02:12:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Nep-dagvaarding bouwt malware pas in de browser in elkaar",
-   "story": [
-    "Onderzoeksbureau Zenox beschrijft een nieuwe campagne van Blind Eagle, een groep die sinds 2018 actief is. De mails zijn in het Spaans en Portugees en lijken op berichten van een rechtbank of het openbaar ministerie. Doelwit zijn vooral juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika. Of de aanvallen gelukt zijn, is niet bekend.",
-    "Normaal controleert een mailfilter bijlagen: een ZIP-bestand met een script erin wordt vaak tegengehouden. Deze aanval omzeilt dat met HTML smuggling. De bijlage is een SVG-afbeelding die zich gedraagt als webpagina. Opent het slachtoffer die, dan bouwt de pagina het ZIP-bestand pas in de browser in elkaar. Het verdachte bestand gaat dus nooit als geheel door het mailfilter. Vergelijk het met een bouwpakket dat pas thuis een gereedschap wordt.",
-    "Daarna volgt een keten van kleine stappen. Een JavaScript-bestand verzamelt systeeminformatie en start een VBScript. Dat schakelt AMSI en ETW uit: twee onderdelen van Windows waarmee beveiligingssoftware scripts kan inspecteren. Ondertussen ziet het slachtoffer een nep-dagvaarding als afleiding. Het script wist het oorspronkelijke bestand en het Mark of the Web, zet zichzelf in de opstartmap en laat PowerShell de RAT in het geheugen starten. Die RAT is volgens Zenox een variant van AsyncRAT en kan onder meer toetsaanslagen en schermbeelden vastleggen.",
-    "Hoe zie je dit? Niet aan de mail, maar aan wat erna gebeurt. Let in de EDR-meldingen op een browser of mailprogramma dat een script start, op scripts die PowerShell aanroepen en op nieuwe items in de opstartmap. Dat een beveiligingsfunctie als AMSI wordt uitgeschakeld, is zelf ook een signaal. Voor organisaties buiten Latijns-Amerika is de les het patroon: lokmiddelen met gezag en tijdsdruk, en bijlagen die pas op de computer gevaarlijk worden."
-   ],
-   "key_facts": [
-    "Zenox deelde het onderzoek met The Hacker News (10 november 2026); het koppelt de campagne aan Blind Eagle (APT-C-36), actief sinds 2018, via een Braziliaans cluster.",
-    "Lokmiddelen in het Portugees en Spaans lijken op berichten van rechtbanken, het openbaar ministerie en tutela-procedures; doelwit zijn juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika.",
-    "De bijlage is een XHTML-bestand dat een SVG-afbeelding is; via HTML smuggling bouwt het lokaal een met ZipCrypto versleuteld ZIP-archief op.",
-    "Een JavaScript-dropper verzamelt systeeminformatie en start een VBScript dat AMSI en ETW omzeilt, een nep-dagvaarding toont, het bronbestand en het Mark of the Web wist en persistentie in de opstartmap zet.",
-    "PowerShell decodeert de RAT en voert die in het geheugen uit; het is een fork van AsyncRAT met DCRat-afkomst, met onder meer keylogging, schermopnames en versleutelde exfiltratie.",
-    "Er is geen bewijs dat de aanvallen tot nu toe succesvol waren."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "HTML smuggling",
-     "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg."
-    },
-    {
-     "term": "AMSI",
-     "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd."
-    },
-    {
-     "term": "ETW",
-     "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
-    },
-    {
-     "term": "Mark of the Web",
-     "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus."
-    },
-    {
-     "term": "RAT",
-     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.45,
-    "why": "Nog geen duimpjes; technisch sterke phishingketen, maar ver van de eigen regio."
-   },
-   "takeaway": "Bij HTML smuggling bestaat het gevaarlijke bestand pas als de browser het in elkaar zet. Het mailfilter ziet dus niets; detectie moet op de computer zelf gebeuren.",
-   "region": "world"
-  },
-  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -1914,6 +1828,92 @@
     "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
    },
    "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "region": "world"
+  },
+  {
+   "id": "7e413807cc2f",
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T15:58:44Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "De groep Blind Eagle stuurt organisaties in Latijns-Amerika mails die lijken op berichten van de rechter. De bijlage bouwt het besmette bestand pas op de computer van het slachtoffer, zodat mailfilters het niet zien.",
+   "personal_relevance": "HTML smuggling is een goed voorbeeld om uit te leggen waarom een mailfilter alleen niet genoeg is. Een vraag aan klanten: ziet jullie EDR het als een browser of mailprogramma een script of PowerShell start?",
+   "limitations": [
+    "Hoeveel organisaties de mails kregen en of er besmettingen zijn, is niet bekend.",
+    "De koppeling aan Blind Eagle en een Braziliaans cluster is een inschatting van Zenox op basis van taal, infrastructuur, tijdzone en slachtoffers."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": -0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T02:12:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-dagvaarding bouwt malware pas in de browser in elkaar",
+   "story": [
+    "Onderzoeksbureau Zenox beschrijft een nieuwe campagne van Blind Eagle, een groep die sinds 2018 actief is. De mails zijn in het Spaans en Portugees en lijken op berichten van een rechtbank of het openbaar ministerie. Doelwit zijn vooral juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika. Of de aanvallen gelukt zijn, is niet bekend.",
+    "Normaal controleert een mailfilter bijlagen: een ZIP-bestand met een script erin wordt vaak tegengehouden. Deze aanval omzeilt dat met HTML smuggling. De bijlage is een SVG-afbeelding die zich gedraagt als webpagina. Opent het slachtoffer die, dan bouwt de pagina het ZIP-bestand pas in de browser in elkaar. Het verdachte bestand gaat dus nooit als geheel door het mailfilter. Vergelijk het met een bouwpakket dat pas thuis een gereedschap wordt.",
+    "Daarna volgt een keten van kleine stappen. Een JavaScript-bestand verzamelt systeeminformatie en start een VBScript. Dat schakelt AMSI en ETW uit: twee onderdelen van Windows waarmee beveiligingssoftware scripts kan inspecteren. Ondertussen ziet het slachtoffer een nep-dagvaarding als afleiding. Het script wist het oorspronkelijke bestand en het Mark of the Web, zet zichzelf in de opstartmap en laat PowerShell de RAT in het geheugen starten. Die RAT is volgens Zenox een variant van AsyncRAT en kan onder meer toetsaanslagen en schermbeelden vastleggen.",
+    "Hoe zie je dit? Niet aan de mail, maar aan wat erna gebeurt. Let in de EDR-meldingen op een browser of mailprogramma dat een script start, op scripts die PowerShell aanroepen en op nieuwe items in de opstartmap. Dat een beveiligingsfunctie als AMSI wordt uitgeschakeld, is zelf ook een signaal. Voor organisaties buiten Latijns-Amerika is de les het patroon: lokmiddelen met gezag en tijdsdruk, en bijlagen die pas op de computer gevaarlijk worden."
+   ],
+   "key_facts": [
+    "Zenox deelde het onderzoek met The Hacker News (10 november 2026); het koppelt de campagne aan Blind Eagle (APT-C-36), actief sinds 2018, via een Braziliaans cluster.",
+    "Lokmiddelen in het Portugees en Spaans lijken op berichten van rechtbanken, het openbaar ministerie en tutela-procedures; doelwit zijn juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika.",
+    "De bijlage is een XHTML-bestand dat een SVG-afbeelding is; via HTML smuggling bouwt het lokaal een met ZipCrypto versleuteld ZIP-archief op.",
+    "Een JavaScript-dropper verzamelt systeeminformatie en start een VBScript dat AMSI en ETW omzeilt, een nep-dagvaarding toont, het bronbestand en het Mark of the Web wist en persistentie in de opstartmap zet.",
+    "PowerShell decodeert de RAT en voert die in het geheugen uit; het is een fork van AsyncRAT met DCRat-afkomst, met onder meer keylogging, schermopnames en versleutelde exfiltratie.",
+    "Er is geen bewijs dat de aanvallen tot nu toe succesvol waren."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "HTML smuggling",
+     "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg."
+    },
+    {
+     "term": "AMSI",
+     "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd."
+    },
+    {
+     "term": "ETW",
+     "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
+    },
+    {
+     "term": "Mark of the Web",
+     "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus."
+    },
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.45,
+    "why": "Nog geen duimpjes; technisch sterke phishingketen, maar ver van de eigen regio."
+   },
+   "takeaway": "Bij HTML smuggling bestaat het gevaarlijke bestand pas als de browser het in elkaar zet. Het mailfilter ziet dus niets; detectie moet op de computer zelf gebeuren.",
    "region": "world"
   },
   {
@@ -3620,7 +3620,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -3721,7 +3721,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -4757,7 +4757,7 @@
     "detectie",
     "aanvallen"
    ],
-   "relevance_score": 81,
+   "relevance_score": 80,
    "score_parts": {
     "topic": 1.0,
     "recency": 0.12,
@@ -5180,65 +5180,67 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-07T02:40:00Z",
+  "generated_at": "2026-11-11T02:40:00Z",
   "options": [
    {
-    "id": "privilege-escalation",
-    "title": "Privilege escalation - van gewone gebruiker naar beheerder",
-    "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
-    "why": "Deze week vond een AI-model van OpenAI 948 manieren om op Linux root te worden, en kregen aanvallers via het OpenSSH-lek SSHole binnen uren rootrechten op een lokserver: tijd om te snappen wat 'root worden' eigenlijk betekent.",
-    "topics": [
-     "attack_techniques",
-     "siem_detection"
-    ],
-    "area": "techniek"
-   },
-   {
-    "id": "gestolen-sessietokens-en-mfa",
-    "title": "Gestolen sessietokens: hoe aanvallers MFA overslaan en wat ertegen helpt",
-    "question": "Wat is een sessietoken, waarom kan een aanvaller met een gestolen token inloggen zonder MFA, en hoe helpen maatregelen als apparaatgebonden sessies (DBSC) en MFA die niet te phishen is?",
-    "why": "Dit is een trend: Huntress zag een aanvaller bij 79 organisaties inloggen met tokens die al na MFA waren uitgegeven, en Vercel koppelt sessies nu aan het apparaat zodat een gestolen cookie waardeloos wordt.",
+    "id": "authenticatie-en-autorisatie",
+    "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
+    "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe onthoudt een website met een cookie of token dat je bent ingelogd, en wat gaat er mis bij een authentication bypass?",
+    "why": "Deze week bleek bij Xen Orchestra een speciaal opgemaakte, lege cookie genoeg om als bestaande gebruiker in te loggen, ook als beheerder; een goed moment om te snappen hoe inloggen en rechten normaal werken.",
     "topics": [
      "phishing_identity",
-     "cloud_attacks",
-     "siem_detection"
+     "web_software_security",
+     "attack_techniques"
     ],
     "area": "techniek"
    },
    {
-    "id": "gepatcht-en-toch-kwetsbaar",
-    "title": "Gepatcht en toch kwetsbaar: waarom een patch soms niet genoeg is",
-    "question": "Hoe kan een lek na een patch nog steeds misbruikt worden (een onvolledige fix, een update die niet aankomt, een systeem dat al besmet was), en hoe controleer je of een systeem echt veilig is?",
-    "why": "De eerste patch voor het misbruikte lek in Zyxel-switches hield de exploit niet tegen, bijgewerkte Ivanti-vpn's bleken opnieuw kwetsbaar en de fix voor Paint komt niet via Windows Update.",
+    "id": "rmm-software-als-doelwit",
+    "title": "Lek in RMM-beheersoftware: waarom het alle klanten van een IT-partner raakt",
+    "question": "Wat is RMM-software, waarom geeft een lek erin een aanvaller macht over duizenden computers tegelijk, en wat verandert er als aanvalscode openbaar wordt voordat de leverancier een patch heeft?",
+    "why": "N-able haalde op 9 november zijn gehoste N-central offline nadat een onderzoeker zonder waarschuwing details en proof of concept-code voor ruim 30 lekken op GitHub zette.",
     "topics": [
-     "exploited_vulnerabilities",
+     "vulnerabilities_cve",
      "vulnerability_management",
-     "edge_devices"
+     "supply_chain"
     ],
     "area": "kwetsbaarheden"
    },
    {
-    "id": "achterdeur-op-webserver-vinden",
-    "title": "Achterdeuren op webservers: wat ze zijn en hoe je ze vindt als de log zwijgt",
-    "question": "Wat is een webshell of achterdeur op een webserver, waarom zie je die niet altijd terug in de toegangslog, en welke andere sporen (bestanden, processen, netwerkverkeer) gebruikt een securityteam om hem toch te vinden?",
-    "why": "Onderzoekers vonden deze week een nagebouwde webserver in Control Web Panel die verborgen opdrachten uitvoert zonder dat die in de toegangslog komen.",
+    "id": "vertrouwde-partner-in-de-cloud",
+    "title": "Als een vertrouwde partner je cloud in kan: rollen en trust policies in AWS",
+    "question": "Hoe geef je een externe dienst toegang tot je cloudomgeving zonder wachtwoord (rollen, trust policies, AssumeRole), en wat gebeurt er als het account van die partner zelf wordt gehackt?",
+    "why": "Via twee gehackte IAM-gebruikers van dataplatform Qubole haalde een aanvaller in oktober geheimen en bestanden weg bij tientallen AWS-klanten die Qubole vertrouwden.",
+    "topics": [
+     "cloud_attacks",
+     "supply_chain",
+     "incidents_breaches"
+    ],
+    "area": "incidenten"
+   },
+   {
+    "id": "ai-agent-in-cloudlogs-herkennen",
+    "title": "Een AI-aanvaller in je cloudlogs herkennen: wat CloudTrail laat zien",
+    "question": "Wat legt een cloudlogboek als AWS CloudTrail vast, waarom laat een AI-agent die veel probeert en vaak faalt herkenbare patronen achter, en waarom is gedrag betrouwbaarder dan een naam in de user agent?",
+    "why": "Dit is een trend: AI-frameworks als ARTEX doen steeds vaker een groot deel van de inbraak, en Datadog beschreef deze week welke patronen ARTEX in CloudTrail achterlaat.",
     "topics": [
      "siem_detection",
-     "malware",
-     "web_software_security"
+     "cloud_attacks",
+     "threat_intelligence"
     ],
     "area": "praktijk"
    },
    {
-    "id": "leverancier-gehackt-wat-nu",
-    "title": "Wachtwoordmanager of webhoster gehackt: wat betekent dat voor de klant?",
-    "question": "Wat kan een aanvaller met gegevens die bij een dienstverlener zijn gestolen (een versleutelde wachtwoordkluis, FTP-wachtwoorden, webmailsessies), en waarom vraagt de leverancier dan om alles te resetten?",
-    "why": "Deze week vroeg wachtwoordmanager mSecure klanten alle wachtwoorden te wijzigen na diefstal van een versleutelde database, en stalen aanvallers bij DreamHost maandenlang FTP-wachtwoorden van klanten.",
+    "id": "html-smuggling",
+    "title": "HTML smuggling: malware die pas in je browser in elkaar wordt gezet",
+    "question": "Hoe kan een bijlage of webpagina een kwaadaardig bestand pas op de computer van het slachtoffer bouwen, waarom ziet een mailfilter dat niet, en waar vindt een securityteam het dan wel?",
+    "why": "De groep Blind Eagle stuurt nep-dagvaardingen met een SVG-bijlage die het besmette ZIP-bestand pas in de browser in elkaar zet, zodat het nooit als geheel door het mailfilter gaat.",
     "topics": [
-     "incidents_breaches",
-     "phishing_identity"
+     "malware",
+     "phishing_identity",
+     "attack_techniques"
     ],
-    "area": "incidenten"
+    "area": "techniek"
    }
   ]
  },
@@ -7789,6 +7791,16 @@
      "overgeslagen_zonder_openen": 2,
      "niet_te_lezen": 1
     }
+   },
+   "verdiepen": {
+    "status": "ok",
+    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
+    "finished_at": "2026-11-11T02:24:13Z",
+    "problems": [],
+    "counts": {
+     "verdiepingen": 0,
+     "keuzes": 5
+    }
    }
   }
  },
@@ -7813,11 +7825,11 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 499,
+  "unique_after_dedupe": 500,
   "merged_duplicates": 1,
   "shown": 43,
   "decisions": {
-   "included": 202,
+   "included": 203,
    "below_threshold": 133,
    "no_topic": 126,
    "excluded": 38
@@ -7904,7 +7916,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 292
+   "skipped_no_key": 293
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -8005,6 +8017,14 @@
     ]
    },
    {
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "relevance_score": 85,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
@@ -8057,22 +8077,6 @@
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
     "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
    },
@@ -8143,6 +8147,14 @@
     ]
    },
    {
+    "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Ransomware recovery is now a client retention metric",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
@@ -8178,14 +8190,6 @@
     "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
-    "source_id": "crowdstrike_blog",
-    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -8241,6 +8245,14 @@
     ]
    },
    {
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
@@ -8260,6 +8272,14 @@
     "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+    "source_id": "crowdstrike_blog",
+    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -8433,14 +8453,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
    }
   ],
   "topics_without_source": []
