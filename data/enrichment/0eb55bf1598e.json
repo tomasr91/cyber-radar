@@ -1,0 +1,83 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "0eb55bf1598e",
+  "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+  "headline": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer",
+  "summary": "Aanvallers misbruikten twee lekken in back-upsoftware AhsayCBS. Huntress vond webshells, cryptominers en een Python-achterdeur die weigert te starten in een testomgeving van onderzoekers.",
+  "story": [
+    "Huntress zag begin oktober een aanval op een server met AhsayCBS, software waarmee organisaties back-ups beheren. De aanvallers combineerden twee lekken, CVE-2026-105133 en CVE-2026-105134. Daarmee kwamen ze zonder inlog binnen en konden ze opdrachten uitvoeren. Ahsay bracht half oktober updates uit.",
+    "Eerst leek het een snelle roof: webshells en een cryptominer. Maar Huntress zag meer: vijf soorten webshells op verschillende plekken, een tweede miner die via een geplande taak elke minuut opnieuw start, uitzonderingen in Microsoft Defender, tunneltools en legitieme software voor beheer op afstand. Eén webshell verstopte versleutelde code in de pixels van PNG-plaatjes en voerde die alleen in het geheugen uit. Zo blijft er weinig op de schijf staan om te vinden.",
+    "Het slimste stuk is de Python-achterdeur. Hij berekent een hash van een uniek nummer van de Windows-computer (de MachineGuid) en zoekt een bestand met die naam naast zich. Alleen als dat klopt, laadt hij zijn eigenlijke code in het geheugen. Die maakt dan contact met de server van de aanvaller. In een sandbox of op de computer van een onderzoeker ontbreekt dat bestand, dus daar doet de achterdeur niets. Het is als een sleutel die alleen in één slot past.",
+    "Waarom back-upservers? Op een gekoppelde Veeam-server zag Huntress een script dat opgeslagen wachtwoorden uit de database van Veeam las en ontsleutelde. Volgens onderzoeker Semon bewaart back-upsoftware wachtwoorden voor hypervisors, opslag en domeinaccounts. Een back-upserver is dus een sleutelbos voor het hele netwerk. Hoeveel wachtwoorden de aanvaller kreeg, is onbekend.",
+    "In de logs en bij EDR vallen zulke aanvallen op door de bijwerkingen: nieuwe JSP-bestanden in webmappen, een geplande taak met SYSTEM-rechten die elke minuut draait, nieuwe uitzonderingen in de virusscanner en onbekende beheersoftware. Voor vulnerability management: back-upsoftware staat vaak niet bovenaan de patchlijst, maar verdient die plek wel."
+  ],
+  "key_facts": [
+    "Huntress zag begin oktober 2026 misbruik van de keten CVE-2026-105133 en CVE-2026-105134 in AhsayCBS om de authenticatie te omzeilen en willekeurige opdrachten uit te voeren (The Hacker News, 10 november 2026).",
+    "Ahsay Backup bracht half oktober 2026 patches uit.",
+    "Huntress vond vijf families JSP-webshells, waaronder een loader die versleutelde code in de pixeldata van PNG-afbeeldingen verbergt en in het geheugen uitvoert.",
+    "Twee XMRig-miners, waarvan één via een geplande taak met SYSTEM-rechten elke minuut herstart; verder Defender-uitzonderingen, de tunneltools GOST en Chisel en AnyDesk, Atera en Splashtop.",
+    "De Python-implant controleert een SHA-256-hash van de MachineGuid tegen een markerbestand en laadt pas dan een x64-DLL in het geheugen die contact maakt met een C2-server.",
+    "Op een gekoppelde Veeam-server las een PowerShell-script, vermoedelijk via WMI gestart, opgeslagen inloggegevens uit de PostgreSQL-database van Veeam en ontsleutelde die met DPAPI."
+  ],
+  "limitations": [
+    "De oorzaak van de twee lekken en de getroffen versies staan niet in het artikel.",
+    "Wie achter de aanval zit en hoeveel organisaties zijn getroffen, is niet bekend.",
+    "Hoeveel inloggegevens via de Veeam-server zijn buitgemaakt, is onbekend.",
+    "Huntress is een securityleverancier en beschrijft één onderzocht incident."
+  ],
+  "personal_relevance": "Back-upservers vallen vaak buiten de aandacht van detectie en patching. Een goede vraag aan klanten: worden back-upservers net zo bewaakt en gepatcht als domeincontrollers, en welke wachtwoorden staan erop opgeslagen?",
+  "takeaway": "Malware die zich aan één computer koppelt, doet niets in een sandbox. Detectie moet dan leunen op gedrag op het echte systeem: nieuwe taken, uitzonderingen in de virusscanner en onbekende verbindingen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "malware",
+    "vulnerabilities_cve",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
+  "development_key": "cve-2026-105133-ahsaycbs",
+  "soort": "onderzoek",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt lek met een volledige aanvalsketen en duidelijke detectiepunten."
+  },
+  "terms": [
+    {
+      "term": "webshells",
+      "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+      "term": "geplande taak",
+      "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien."
+    },
+    {
+      "term": "tunneltools",
+      "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
+    },
+    {
+      "term": "hash",
+      "explanation": "Een vaste 'vingerafdruk' van gegevens, berekend met een wiskundige functie. Dezelfde invoer geeft altijd dezelfde hash, maar je kunt de invoer er niet uit terugrekenen."
+    },
+    {
+      "term": "sandbox",
+      "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+  ],
+  "processed_at": "2026-11-11T02:08:00Z"
+}

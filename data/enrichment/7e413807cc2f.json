@@ -1,0 +1,77 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "7e413807cc2f",
+  "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+  "headline": "Nep-dagvaarding bouwt malware pas in de browser in elkaar",
+  "summary": "De groep Blind Eagle stuurt organisaties in Latijns-Amerika mails die lijken op berichten van de rechter. De bijlage bouwt het besmette bestand pas op de computer van het slachtoffer, zodat mailfilters het niet zien.",
+  "story": [
+    "Onderzoeksbureau Zenox beschrijft een nieuwe campagne van Blind Eagle, een groep die sinds 2018 actief is. De mails zijn in het Spaans en Portugees en lijken op berichten van een rechtbank of het openbaar ministerie. Doelwit zijn vooral juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika. Of de aanvallen gelukt zijn, is niet bekend.",
+    "Normaal controleert een mailfilter bijlagen: een ZIP-bestand met een script erin wordt vaak tegengehouden. Deze aanval omzeilt dat met HTML smuggling. De bijlage is een SVG-afbeelding die zich gedraagt als webpagina. Opent het slachtoffer die, dan bouwt de pagina het ZIP-bestand pas in de browser in elkaar. Het verdachte bestand gaat dus nooit als geheel door het mailfilter. Vergelijk het met een bouwpakket dat pas thuis een gereedschap wordt.",
+    "Daarna volgt een keten van kleine stappen. Een JavaScript-bestand verzamelt systeeminformatie en start een VBScript. Dat schakelt AMSI en ETW uit: twee onderdelen van Windows waarmee beveiligingssoftware scripts kan inspecteren. Ondertussen ziet het slachtoffer een nep-dagvaarding als afleiding. Het script wist het oorspronkelijke bestand en het Mark of the Web, zet zichzelf in de opstartmap en laat PowerShell de RAT in het geheugen starten. Die RAT is volgens Zenox een variant van AsyncRAT en kan onder meer toetsaanslagen en schermbeelden vastleggen.",
+    "Hoe zie je dit? Niet aan de mail, maar aan wat erna gebeurt. Let in de EDR-meldingen op een browser of mailprogramma dat een script start, op scripts die PowerShell aanroepen en op nieuwe items in de opstartmap. Dat een beveiligingsfunctie als AMSI wordt uitgeschakeld, is zelf ook een signaal. Voor organisaties buiten Latijns-Amerika is de les het patroon: lokmiddelen met gezag en tijdsdruk, en bijlagen die pas op de computer gevaarlijk worden."
+  ],
+  "key_facts": [
+    "Zenox deelde het onderzoek met The Hacker News (10 november 2026); het koppelt de campagne aan Blind Eagle (APT-C-36), actief sinds 2018, via een Braziliaans cluster.",
+    "Lokmiddelen in het Portugees en Spaans lijken op berichten van rechtbanken, het openbaar ministerie en tutela-procedures; doelwit zijn juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika.",
+    "De bijlage is een XHTML-bestand dat een SVG-afbeelding is; via HTML smuggling bouwt het lokaal een met ZipCrypto versleuteld ZIP-archief op.",
+    "Een JavaScript-dropper verzamelt systeeminformatie en start een VBScript dat AMSI en ETW omzeilt, een nep-dagvaarding toont, het bronbestand en het Mark of the Web wist en persistentie in de opstartmap zet.",
+    "PowerShell decodeert de RAT en voert die in het geheugen uit; het is een fork van AsyncRAT met DCRat-afkomst, met onder meer keylogging, schermopnames en versleutelde exfiltratie.",
+    "Er is geen bewijs dat de aanvallen tot nu toe succesvol waren."
+  ],
+  "limitations": [
+    "Hoeveel organisaties de mails kregen en of er besmettingen zijn, is niet bekend.",
+    "De koppeling aan Blind Eagle en een Braziliaans cluster is een inschatting van Zenox op basis van taal, infrastructuur, tijdzone en slachtoffers."
+  ],
+  "personal_relevance": "HTML smuggling is een goed voorbeeld om uit te leggen waarom een mailfilter alleen niet genoeg is. Een vraag aan klanten: ziet jullie EDR het als een browser of mailprogramma een script of PowerShell start?",
+  "takeaway": "Bij HTML smuggling bestaat het gevaarlijke bestand pas als de browser het in elkaar zet. Het mailfilter ziet dus niets; detectie moet op de computer zelf gebeuren.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "phishing_identity",
+    "malware",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.7,
+    "novelty": 0.6
+  },
+  "development_key": "blind-eagle-gerechtelijke-lokmail-nov-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.45,
+    "why": "Nog geen duimpjes; technisch sterke phishingketen, maar ver van de eigen regio."
+  },
+  "terms": [
+    {
+      "term": "HTML smuggling",
+      "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg."
+    },
+    {
+      "term": "AMSI",
+      "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd."
+    },
+    {
+      "term": "ETW",
+      "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
+    },
+    {
+      "term": "Mark of the Web",
+      "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus."
+    },
+    {
+      "term": "RAT",
+      "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+  ],
+  "processed_at": "2026-11-11T02:12:00Z"
+}
