@@ -1,0 +1,13 @@
+{
+  "task": "overzicht",
+  "started_at": "2026-11-11T03:22:58Z",
+  "finished_at": "2026-11-11T03:23:56Z",
+  "status": "ok",
+  "summary": "3 trends bijgewerkt (AI-agenten aangevuld met Datadog over ARTEX in AWS, randapparaten zonder het te oude Palo Alto-artikel), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (woensdag).",
+  "counts": {
+    "trends": 3,
+    "interesses_aangepast": 0,
+    "begrippen_aangevuld": 0
+  },
+  "problems": []
+}
