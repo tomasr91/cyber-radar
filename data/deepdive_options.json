@@ -1,64 +1,66 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-07T02:40:00Z",
+  "generated_at": "2026-11-11T02:40:00Z",
   "options": [
     {
-      "id": "privilege-escalation",
-      "title": "Privilege escalation - van gewone gebruiker naar beheerder",
-      "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
-      "why": "Deze week vond een AI-model van OpenAI 948 manieren om op Linux root te worden, en kregen aanvallers via het OpenSSH-lek SSHole binnen uren rootrechten op een lokserver: tijd om te snappen wat 'root worden' eigenlijk betekent.",
-      "topics": [
-        "attack_techniques",
-        "siem_detection"
-      ],
-      "area": "techniek"
-    },
-    {
-      "id": "gestolen-sessietokens-en-mfa",
-      "title": "Gestolen sessietokens: hoe aanvallers MFA overslaan en wat ertegen helpt",
-      "question": "Wat is een sessietoken, waarom kan een aanvaller met een gestolen token inloggen zonder MFA, en hoe helpen maatregelen als apparaatgebonden sessies (DBSC) en MFA die niet te phishen is?",
-      "why": "Dit is een trend: Huntress zag een aanvaller bij 79 organisaties inloggen met tokens die al na MFA waren uitgegeven, en Vercel koppelt sessies nu aan het apparaat zodat een gestolen cookie waardeloos wordt.",
+      "id": "authenticatie-en-autorisatie",
+      "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
+      "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe onthoudt een website met een cookie of token dat je bent ingelogd, en wat gaat er mis bij een authentication bypass?",
+      "why": "Deze week bleek bij Xen Orchestra een speciaal opgemaakte, lege cookie genoeg om als bestaande gebruiker in te loggen, ook als beheerder; een goed moment om te snappen hoe inloggen en rechten normaal werken.",
       "topics": [
         "phishing_identity",
-        "cloud_attacks",
-        "siem_detection"
+        "web_software_security",
+        "attack_techniques"
       ],
       "area": "techniek"
     },
     {
-      "id": "gepatcht-en-toch-kwetsbaar",
-      "title": "Gepatcht en toch kwetsbaar: waarom een patch soms niet genoeg is",
-      "question": "Hoe kan een lek na een patch nog steeds misbruikt worden (een onvolledige fix, een update die niet aankomt, een systeem dat al besmet was), en hoe controleer je of een systeem echt veilig is?",
-      "why": "De eerste patch voor het misbruikte lek in Zyxel-switches hield de exploit niet tegen, bijgewerkte Ivanti-vpn's bleken opnieuw kwetsbaar en de fix voor Paint komt niet via Windows Update.",
+      "id": "rmm-software-als-doelwit",
+      "title": "Lek in RMM-beheersoftware: waarom het alle klanten van een IT-partner raakt",
+      "question": "Wat is RMM-software, waarom geeft een lek erin een aanvaller macht over duizenden computers tegelijk, en wat verandert er als aanvalscode openbaar wordt voordat de leverancier een patch heeft?",
+      "why": "N-able haalde op 9 november zijn gehoste N-central offline nadat een onderzoeker zonder waarschuwing details en proof of concept-code voor ruim 30 lekken op GitHub zette.",
       "topics": [
-        "exploited_vulnerabilities",
+        "vulnerabilities_cve",
         "vulnerability_management",
-        "edge_devices"
+        "supply_chain"
       ],
       "area": "kwetsbaarheden"
     },
     {
-      "id": "achterdeur-op-webserver-vinden",
-      "title": "Achterdeuren op webservers: wat ze zijn en hoe je ze vindt als de log zwijgt",
-      "question": "Wat is een webshell of achterdeur op een webserver, waarom zie je die niet altijd terug in de toegangslog, en welke andere sporen (bestanden, processen, netwerkverkeer) gebruikt een securityteam om hem toch te vinden?",
-      "why": "Onderzoekers vonden deze week een nagebouwde webserver in Control Web Panel die verborgen opdrachten uitvoert zonder dat die in de toegangslog komen.",
+      "id": "vertrouwde-partner-in-de-cloud",
+      "title": "Als een vertrouwde partner je cloud in kan: rollen en trust policies in AWS",
+      "question": "Hoe geef je een externe dienst toegang tot je cloudomgeving zonder wachtwoord (rollen, trust policies, AssumeRole), en wat gebeurt er als het account van die partner zelf wordt gehackt?",
+      "why": "Via twee gehackte IAM-gebruikers van dataplatform Qubole haalde een aanvaller in oktober geheimen en bestanden weg bij tientallen AWS-klanten die Qubole vertrouwden.",
+      "topics": [
+        "cloud_attacks",
+        "supply_chain",
+        "incidents_breaches"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "ai-agent-in-cloudlogs-herkennen",
+      "title": "Een AI-aanvaller in je cloudlogs herkennen: wat CloudTrail laat zien",
+      "question": "Wat legt een cloudlogboek als AWS CloudTrail vast, waarom laat een AI-agent die veel probeert en vaak faalt herkenbare patronen achter, en waarom is gedrag betrouwbaarder dan een naam in de user agent?",
+      "why": "Dit is een trend: AI-frameworks als ARTEX doen steeds vaker een groot deel van de inbraak, en Datadog beschreef deze week welke patronen ARTEX in CloudTrail achterlaat.",
       "topics": [
         "siem_detection",
-        "malware",
-        "web_software_security"
+        "cloud_attacks",
+        "threat_intelligence"
       ],
       "area": "praktijk"
     },
     {
-      "id": "leverancier-gehackt-wat-nu",
-      "title": "Wachtwoordmanager of webhoster gehackt: wat betekent dat voor de klant?",
-      "question": "Wat kan een aanvaller met gegevens die bij een dienstverlener zijn gestolen (een versleutelde wachtwoordkluis, FTP-wachtwoorden, webmailsessies), en waarom vraagt de leverancier dan om alles te resetten?",
-      "why": "Deze week vroeg wachtwoordmanager mSecure klanten alle wachtwoorden te wijzigen na diefstal van een versleutelde database, en stalen aanvallers bij DreamHost maandenlang FTP-wachtwoorden van klanten.",
+      "id": "html-smuggling",
+      "title": "HTML smuggling: malware die pas in je browser in elkaar wordt gezet",
+      "question": "Hoe kan een bijlage of webpagina een kwaadaardig bestand pas op de computer van het slachtoffer bouwen, waarom ziet een mailfilter dat niet, en waar vindt een securityteam het dan wel?",
+      "why": "De groep Blind Eagle stuurt nep-dagvaardingen met een SVG-bijlage die het besmette ZIP-bestand pas in de browser in elkaar zet, zodat het nooit als geheel door het mailfilter gaat.",
       "topics": [
-        "incidents_breaches",
-        "phishing_identity"
+        "malware",
+        "phishing_identity",
+        "attack_techniques"
       ],
-      "area": "incidenten"
+      "area": "techniek"
     }
   ],
   "history": [
@@ -237,6 +239,64 @@
         "incident_response"
       ],
       "area": "praktijk"
+    },
+    {
+      "id": "privilege-escalation",
+      "title": "Privilege escalation - van gewone gebruiker naar beheerder",
+      "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
+      "why": "Deze week vond een AI-model van OpenAI 948 manieren om op Linux root te worden, en kregen aanvallers via het OpenSSH-lek SSHole binnen uren rootrechten op een lokserver: tijd om te snappen wat 'root worden' eigenlijk betekent.",
+      "topics": [
+        "attack_techniques",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "gestolen-sessietokens-en-mfa",
+      "title": "Gestolen sessietokens: hoe aanvallers MFA overslaan en wat ertegen helpt",
+      "question": "Wat is een sessietoken, waarom kan een aanvaller met een gestolen token inloggen zonder MFA, en hoe helpen maatregelen als apparaatgebonden sessies (DBSC) en MFA die niet te phishen is?",
+      "why": "Dit is een trend: Huntress zag een aanvaller bij 79 organisaties inloggen met tokens die al na MFA waren uitgegeven, en Vercel koppelt sessies nu aan het apparaat zodat een gestolen cookie waardeloos wordt.",
+      "topics": [
+        "phishing_identity",
+        "cloud_attacks",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "gepatcht-en-toch-kwetsbaar",
+      "title": "Gepatcht en toch kwetsbaar: waarom een patch soms niet genoeg is",
+      "question": "Hoe kan een lek na een patch nog steeds misbruikt worden (een onvolledige fix, een update die niet aankomt, een systeem dat al besmet was), en hoe controleer je of een systeem echt veilig is?",
+      "why": "De eerste patch voor het misbruikte lek in Zyxel-switches hield de exploit niet tegen, bijgewerkte Ivanti-vpn's bleken opnieuw kwetsbaar en de fix voor Paint komt niet via Windows Update.",
+      "topics": [
+        "exploited_vulnerabilities",
+        "vulnerability_management",
+        "edge_devices"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "achterdeur-op-webserver-vinden",
+      "title": "Achterdeuren op webservers: wat ze zijn en hoe je ze vindt als de log zwijgt",
+      "question": "Wat is een webshell of achterdeur op een webserver, waarom zie je die niet altijd terug in de toegangslog, en welke andere sporen (bestanden, processen, netwerkverkeer) gebruikt een securityteam om hem toch te vinden?",
+      "why": "Onderzoekers vonden deze week een nagebouwde webserver in Control Web Panel die verborgen opdrachten uitvoert zonder dat die in de toegangslog komen.",
+      "topics": [
+        "siem_detection",
+        "malware",
+        "web_software_security"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "leverancier-gehackt-wat-nu",
+      "title": "Wachtwoordmanager of webhoster gehackt: wat betekent dat voor de klant?",
+      "question": "Wat kan een aanvaller met gegevens die bij een dienstverlener zijn gestolen (een versleutelde wachtwoordkluis, FTP-wachtwoorden, webmailsessies), en waarom vraagt de leverancier dan om alles te resetten?",
+      "why": "Deze week vroeg wachtwoordmanager mSecure klanten alle wachtwoorden te wijzigen na diefstal van een versleutelde database, en stalen aanvallers bij DreamHost maandenlang FTP-wachtwoorden van klanten.",
+      "topics": [
+        "incidents_breaches",
+        "phishing_identity"
+      ],
+      "area": "incidenten"
     }
   ]
 }
