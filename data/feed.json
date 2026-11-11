@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T01:23:29.430972Z",
+ "generated_at": "2026-11-11T01:34:43.457028Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-07T01:35:00Z",
- "last_successful_update": "2026-11-11T01:23:29.430972Z",
+ "last_article_added_at": "2026-11-11T01:59:00Z",
+ "last_successful_update": "2026-11-11T01:34:43.457028Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-11T01:23:29.480426Z"
+   "checked_at": "2026-11-11T01:34:43.499953Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-11T01:23:30.089176Z"
+   "checked_at": "2026-11-11T01:34:44.279667Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-11T01:23:30.942904Z"
+   "checked_at": "2026-11-11T01:34:45.344197Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-11T01:23:31.213609Z"
+   "checked_at": "2026-11-11T01:34:45.654329Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-11T01:23:32.268637Z"
+   "checked_at": "2026-11-11T01:34:47.034162Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-11T01:23:32.520210Z"
+   "checked_at": "2026-11-11T01:34:47.279199Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-11T01:23:32.719358Z"
+   "checked_at": "2026-11-11T01:34:47.397152Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-11T01:23:32.959461Z"
+   "checked_at": "2026-11-11T01:34:47.550896Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-11T01:23:33.663140Z"
+   "checked_at": "2026-11-11T01:34:47.969681Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-11T01:23:35.562261Z"
+   "checked_at": "2026-11-11T01:34:49.620815Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-11T01:23:36.297558Z"
+   "checked_at": "2026-11-11T01:34:49.800166Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-11T01:23:36.602654Z"
+   "checked_at": "2026-11-11T01:34:49.884223Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-11T01:23:36.813856Z"
+   "checked_at": "2026-11-11T01:34:50.112450Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-11T01:23:37.162425Z"
+   "checked_at": "2026-11-11T01:34:50.496175Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-11T01:23:37.468553Z"
+   "checked_at": "2026-11-11T01:34:50.773368Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-11T01:23:37.579671Z"
+   "checked_at": "2026-11-11T01:34:50.993188Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-11T01:23:37.843162Z"
+   "checked_at": "2026-11-11T01:34:51.279844Z"
   },
   {
    "id": "securityweek",
@@ -381,17 +381,328 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-11T01:23:38.173614Z"
+   "checked_at": "2026-11-11T01:34:51.715196Z"
   }
  ],
  "daily_top": [
+  "9398616ade4d",
+  "3e830a9401ea",
+  "27d0d882d07e",
   "df100ad46108",
-  "11af3bdb9908",
-  "8b5f34b85bf1",
-  "63028db311b2",
-  "d2cce75fefaf"
+  "8b5f34b85bf1"
  ],
  "articles": [
+  {
+   "id": "9398616ade4d",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T18:12:21Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Een fout in de beheersoftware Xen Orchestra laat een aanvaller zonder wachtwoord inloggen als een bestaande gebruiker, ook als beheerder. Vates ziet het lek al misbruikt worden.",
+   "personal_relevance": "Klanten met XCP-ng en Xen Orchestra zien dit lek mogelijk niet in een scan die op CVE-nummers zoekt. Een goede vraag: staat de beheerinterface van jullie virtualisatie op internet, en hoe vinden jullie lekken die nog geen CVE hebben?",
+   "limitations": [
+    "Niet bekend is sinds wanneer het lek wordt misbruikt, wie de aanvaller is en hoeveel servers zijn getroffen.",
+    "Er is nog geen CVE-nummer; daardoor ontbreekt een CVSS-score en staat het lek niet in de KEV-lijst.",
+    "De technische uitleg komt uit het citaat van het advies in The Hacker News; het advies van Vates zelf is niet geopend."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "web"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:50:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten",
+   "story": [
+    "Vates, de Franse maker van Xen Orchestra, waarschuwt voor een kritiek lek dat al wordt aangevallen. Xen Orchestra is een webinterface waarmee beheerders hun XCP-ng-servers beheren. Daarop draaien virtuele machines. Het lek heeft nog geen CVE-nummer en heet bij Vates VSA-2026-062. Volgens Vates misbruikt één aanvaller het. Wanneer dat begon, is niet bekend.",
+    "Eerst de normale werking. Na het inloggen krijgt je browser een cookie met een token. Bij elk volgend verzoek stuurt de browser dat token mee. De server zoekt het token op in zijn lijst met geldige tokens en weet zo wie je bent. Hier gaat het mis. Xen Orchestra zet een speciaal opgemaakte cookie niet om in tekst, maar in een leeg object. Dat lege object gaat zonder controle naar de zoekfunctie. Een zoekopdracht zonder voorwaarden geeft gewoon het eerste token uit de lijst terug. Vergelijk het met een portier die je vraagt om 'de sleutel die past bij…' en dan niets zegt: hij geeft je de eerste sleutel van het bord.",
+    "Is dat token nog geldig, dan is de aanvaller ingelogd als de eigenaar ervan. Volgens Vates kan hij zich zo als beheerder voordoen. Daarna kan hij code uitvoeren op de beheerde servers en uiteindelijk een XCP-ng-server overnemen met root-rechten. Dat maakt dit gevaarlijk: wie de hypervisor beheerst, beheerst alle virtuele machines erop.",
+    "Updaten helpt: Xen Orchestra 6.9.1 of 6.10.0, of xo-server 5.211.2 of 5.213.1. Vates adviseert de beheerinterface niet op internet te zetten en de lege token-cookie te blokkeren in een WAF of reverse proxy. In de logs van de webserver zie je de aanval aan verzoeken met die lege token-waarde; het precieze patroon staat in het advies. Kijk ook naar onverwachte virtuele machines, vreemde instellingen voor de seriële console en verdachte bestanden in cron-mappen. Bij twijfel: alle wachtwoorden en geheimen vervangen.",
+    "Voor vulnerability management is dit een typisch geval waarin de CVSS-score niet het hele verhaal vertelt: er is nog geen CVE, dus scanners die op CVE-nummers leunen, zien het mogelijk niet. Beheerinterfaces van virtualisatie zijn een geliefd doelwit, omdat één inbraak direct veel systemen raakt."
+   ],
+   "key_facts": [
+    "Vates VMS meldt een kritieke authenticatie-omzeiling in Xen Orchestra, bijgehouden als VSA-2026-062; er is nog geen CVE-nummer (The Hacker News, 10 november 2026).",
+    "Vates ziet actief misbruik door één aanvaller; wanneer het begon en of het een zero-day was, is onbekend.",
+    "Oorzaak volgens Vates: de REST-cookie authenticationToken wordt bij een speciale waarde omgezet in een leeg object, dat zonder typecontrole naar de tokenzoeker gaat; die geeft het eerste token terug.",
+    "Gevolg: inloggen als de eigenaar van een niet-verlopen token, ook als beheerder, met daarna code-uitvoering op beheerde pools en overname van een XCP-ng-node als root.",
+    "Opgelost in Xen Orchestra 6.9.1 en 6.10.0 en in xo-server 5.211.2 en 5.213.1; gevonden door Filip Magic en Christoffer Olsen van TDC NET Security.",
+    "Advies: niet op internet zetten, de lege token-cookie blokkeren in WAF of reverse proxy, logs controleren op die cookie, op onverwachte VM's en op bestanden in cron-mappen, en bij compromittering alle geheimen roteren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt de fout in leerboekvorm. Bovenaan de kwetsbare versie: de cookiewaarde gaat ongecontroleerd naar de zoekfunctie. Is die waarde een leeg object, dan zoekt de database zonder voorwaarden en geeft hij het eerste token. Onderaan de veilige versie: eerst controleren dat het tekst is en dan alleen op dat ene id zoeken.",
+    "language": "python",
+    "code": "# Kwetsbaar (vereenvoudigd)\nwaarde = cookies[\"authenticationToken\"]   # kan tekst zijn, maar ook een object\ntoken = tokens.find_one(waarde)          # leeg object = geen voorwaarden = eerste token\n\n# Veilig\nwaarde = cookies[\"authenticationToken\"]\nif not isinstance(waarde, str):\n    weiger_verzoek()\ntoken = tokens.find_one({\"id\": waarde})\nif token is None or token.verlopen():\n    weiger_verzoek()",
+    "note": "Nagebouwd voorbeeld om het principe te laten zien; dit is niet de echte code van Xen Orchestra. Het precieze cookiepatroon staat in het advies van Vates."
+   },
+   "terms": [
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "virtuele machines",
+     "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien."
+    },
+    {
+     "term": "hypervisor",
+     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
+    },
+    {
+     "term": "WAF",
+     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+     "term": "reverse proxy",
+     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt weblek met een duidelijke technische oorzaak, zoals eerdere inloglekken."
+   },
+   "takeaway": "Software die invoer niet op type controleert, kan een lege zoekopdracht uitvoeren die 'alles' teruggeeft. Bij inloggen betekent dat: iemand anders zijn sessie.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "3e830a9401ea",
+   "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+   "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+   "source_id": "datadog_security_labs",
+   "published_at": "2026-11-09T00:00:00Z",
+   "fetched_at": "2026-11-10T07:41:51.020238Z",
+   "summary": "Datadog zag het AI-framework ARTEX in AWS-omgevingen zoeken in logbestanden en zichzelf registreren via openbare inlogpools. Het laat ook zien welke patronen je in CloudTrail terugziet.",
+   "personal_relevance": "Dit is een concreet voorbeeld voor gesprekken over cloud-detectie: welke CloudTrail-patronen bewaakt de klant, en zitten er geheimen in de applicatielogs die naar de cloud gaan?",
+   "limitations": [
+    "Wie achter deze sessies zat en hoeveel organisaties zijn geraakt, staat niet in het onderzoek.",
+    "Het gedrag van ARTEX hangt volgens Datadog sterk af van het gebruikte taalmodel; andere sessies kunnen er anders uitzien.",
+    "Datadog is een leverancier van monitoring- en SIEM-software en noemt eigen detectieregels."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.9,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:57:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS",
+   "story": [
+    "ARTEX is een aanvalsframework waarin meerdere AI-agenten samen een aanval plannen en uitvoeren. Volgens Datadog koppelde Microsoft ARTEX eerder aan Storm-0940, een groep die met China in verband wordt gebracht. Datadog Security Labs beschrijft nu wat ARTEX in oktober deed in AWS-omgevingen, vooral gericht op financiële gegevens. Nieuw is vooral hoe je het in de logs herkent.",
+    "Elke sessie begon met verzoeken aan S3 zonder inlog: de agent keek wat er openbaar te lezen viel. Daarna twee routes. Had de aanvaller een gelekte langlevende toegangssleutel, dan doorzocht hij de logbestanden in CloudWatch. Eerst op namen van cryptobedrijven en woorden als 'Invoice' en 'Billing', later op wachtwoorden, interne IP-adressen en downloadlinks. Logs blijken dus zelf een bron van geheimen. Had hij geen sleutel, dan maakte de agent zelf een account aan in een openbare Cognito-gebruikerspool. Met de tokens daarvan vroeg hij tijdelijke AWS-sleutels op en probeerde hij allerlei gegevens op te vragen. Dat mislukte, omdat die rol te weinig rechten had.",
+    "Wat zie je in CloudTrail? Een AI-agent probeert veel en faalt vaak. Datadog noemt onder meer: veel AccessDenied-fouten voor één identiteit, veel buckets in korte tijd, verzoeken naar niet-bestaande bestanden vlak voor een reeks gokpogingen, en FilterLogEvents steeds met precies 1000 resultaten. Bij Cognito: een piek in nieuwe registraties, gevolgd door sessies met de naam CognitoIdentityCredentials. Een user agent met 'artex' erin is snel te vinden, maar makkelijk te veranderen. Gedrag is betrouwbaarder.",
+    "Datadog adviseert langlevende sleutels te vervangen en oude op te ruimen, geen geheimen in logs te zetten en openbare Cognito-pools na te lopen op zelfregistratie en rechten. Voor organisaties is de les: een AI-agent maakt geen nieuwe soort fouten, maar vindt bestaande fouten veel sneller."
+   ],
+   "key_facts": [
+    "Datadog Security Labs publiceerde de analyse op 9 november 2026 en zag ARTEX-activiteit in oktober 2026 tegen meerdere AWS-omgevingen, gericht op financiële data.",
+    "ARTEX verscheen in juli 2026 op GitHub en werd op 8 oktober 2026 closed-source, na meer dan 12.000 forks.",
+    "Volgens de tijdlijn van Datadog koppelde Microsoft ARTEX op 21 oktober 2026 aan Storm-0940, een China-gelieerde actor.",
+    "Elke bekeken sessie begon met anonieme S3-verzoeken; met gelekte langlevende sleutels was FilterLogEvents op CloudWatch Logs de meest gebruikte actie, steeds met limit 1000.",
+    "Zonder sleutels registreerde de agent zichzelf via SignUp in openbare Cognito-gebruikerspools, haalde tokens op en zette die om in tijdelijke AWS-credentials; de discovery-aanroepen daarna faalden door te weinig rechten.",
+    "Volgens Datadog zijn veel AccessDenied-fouten, snelle S3-enumeratie, verzoeken naar niet-bestaande objecten en pieken in Cognito-registraties bruikbare detectiesignalen.",
+    "Datadog vond honderden ARTEX-consoles op internet, vaak gehost in Singapore en Hongkong."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige zoekopdracht voor een SIEM: welke identiteiten krijgen binnen een uur meer dan 50 keer AccessDenied in CloudTrail? Regel 1 kiest de logtabel, regel 2 filtert op weigeringen, regel 3 telt per identiteit per uur, regel 4 houdt alleen de uitschieters over.",
+    "language": "kql",
+    "code": "AWSCloudTrail\n| where ErrorCode == \"AccessDenied\"\n| summarize Weigeringen = count(), Acties = dcount(EventName) by UserIdentityArn, bin(TimeGenerated, 1h)\n| where Weigeringen > 50",
+    "result": {
+     "columns": [
+      "UserIdentityArn",
+      "Uur",
+      "Weigeringen",
+      "Acties"
+     ],
+     "rows": [
+      [
+       "arn:aws:sts::111122223333:assumed-role/cognito-auth/CognitoIdentityCredentials",
+       "2026-10-26 14:00",
+       "212",
+       "37"
+      ],
+      [
+       "arn:aws:iam::111122223333:user/ci-deploy",
+       "2026-10-26 14:00",
+       "63",
+       "2"
+      ]
+     ]
+    },
+    "note": "Nagebouwd voorbeeld met verzonnen data; de drempel van 50 is een voorbeeld. Een hoog aantal verschillende acties (Acties) past bij een agent die alles probeert."
+   },
+   "terms": [
+    {
+     "term": "AI-agenten",
+     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+     "term": "langlevende toegangssleutel",
+     "explanation": "Een vaste sleutel voor AWS die niet vanzelf verloopt. Lekt hij uit, dan werkt hij tot iemand hem intrekt."
+    },
+    {
+     "term": "CloudWatch",
+     "explanation": "De dienst van AWS waarin applicaties en servers hun logbestanden en meetwaarden opslaan."
+    },
+    {
+     "term": "Cognito-gebruikerspool",
+     "explanation": "Een AWS-dienst die de accounts van een app beheert. Staat zelfregistratie aan, dan kan iedereen er een account aanmaken."
+    },
+    {
+     "term": "CloudTrail",
+     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; detectie in de cloud, aansluitend op eerdere ARTEX-stukken."
+   },
+   "takeaway": "Een AI-agent valt op door zijn gedrag: veel proberen, vaak falen, in hoog tempo. Detectie op gedrag in CloudTrail werkt beter dan zoeken op een naam die de aanvaller zo kan veranderen.",
+   "region": "world"
+  },
+  {
+   "id": "27d0d882d07e",
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-10T19:31:11Z",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "summary": "Een aanvaller stal toegang tot het AWS-account van dataplatform Qubole. Omdat klanten dat account vertrouwden, kon hij in hun eigen AWS-omgevingen geheimen en bestanden ophalen.",
+   "personal_relevance": "Klanten met AWS hebben vaak koppelingen met tientallen externe diensten. Een goede vraag: hebben jullie een overzicht van alle externe accounts die rollen in jullie cloud mogen aannemen, en worden ongebruikte koppelingen opgeruimd?",
+   "limitations": [
+    "Hoe de IAM-gebruikers van Qubole werden gehackt, is niet bekend.",
+    "Qubole heeft niets openbaar gemaakt en had bij publicatie niet gereageerd.",
+    "Het precieze aantal getroffen klanten is onbekend; Sentra spreekt van tientallen.",
+    "Wiz en Sentra zijn securityleveranciers die cloudbeveiliging verkopen."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "siem_detection",
+    "cloud_attacks",
+    "supply_chain"
+   ],
+   "groups": [
+    "incidenten",
+    "detectie",
+    "web"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:54:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen",
+   "story": [
+    "Van 14 tot 26 oktober heeft een aanvaller data gestolen uit de AWS-omgevingen van tientallen bedrijven. Hij gebruikte daarvoor twee gehackte IAM-gebruikers van Qubole, een platform voor het verwerken van grote hoeveelheden data. Wiz onderzocht de aanval, nadat Sentra verdachte activiteit had gemeld. Volgens Sentra werden bij één klant alleen al miljoenen bestanden gestolen. Hoe Qubole zelf werd gehackt, is niet bekend.",
+    "Eerst de normale werking. Wil je een externe dienst toegang geven tot je cloudomgeving, dan geef je hem geen wachtwoord. Je maakt een rol aan met bepaalde rechten en zet in een trust policy welk extern account die rol mag 'aannemen'. De dienst vraagt dan tijdelijke sleutels op via AssumeRole. Dat is veilig, zolang het vertrouwde account veilig is. Hier was dat niet zo: wie het account van Qubole had, mocht de rollen van alle klanten aannemen die Qubole vertrouwden, ook rollen die niet meer werden gebruikt.",
+    "Volgens Wiz deed de aanvaller overal hetzelfde. Eerst de rol aannemen. Dan geheimen ophalen uit Secrets Manager, Parameter Store en de instellingen van Lambda-functies. Gevonden sleutels testte hij met de openbare tool TruffleHog, ook voor Entra ID en Okta. Daarna vroeg hij een lijst van opslagbuckets op, bekeek hij de inhoud en downloadde hij alles wat hij kon bereiken. Volgens Sentra verzamelde hij zo ongeveer 100 wachtwoorden en sleutels per zeven minuten.",
+    "Hoe zie je dit? In CloudTrail, het logboek van AWS, staat elke AssumeRole met het account dat erom vroeg. Getroffen beheerders moeten volgens het advies terugkijken vanaf 1 oktober naar toegang vanuit het Qubole-account, en daarna naar het ophalen van geheimen en S3-bestanden. Daarna: sleutels vervangen, actieve sessies intrekken, ongebruikte koppelingen verwijderen en de rechten van overgebleven rollen beperken.",
+    "Dit is een supply chain-aanval op cloudniveau. Je eigen omgeving kan goed beveiligd zijn, maar een vergeten koppeling met een leverancier blijft een open deur. Een lijst van alle externe accounts die je vertrouwt, is daarom net zo belangrijk als een lijst van je eigen gebruikers."
+   ],
+   "key_facts": [
+    "De aanval liep van 14 tot 26 oktober 2026; de aanvaller gebruikte twee gehackte IAM-gebruikers van Qubole (BleepingComputer, 10 november 2026, op basis van Wiz).",
+    "Hij nam via cross-account-rollen, ook ongebruikte, toegang over in AWS-accounts van klanten die het Qubole-account vertrouwden.",
+    "Wiz beschrijft de volgorde: AssumeRole, geheimen ophalen uit Secrets Manager, SSM Parameter Store en Lambda-omgevingsvariabelen, sleutels valideren met TruffleHog, dan ListBuckets, ListObjects, HeadObject en GetObject.",
+    "Sentra bevestigt tientallen slachtoffers, miljoenen gestolen bestanden bij één klant en een tempo van ongeveer 100 wachtwoorden en sleutels per zeven minuten; Mandiant was bij het onderzoek betrokken.",
+    "Advies: CloudTrail vanaf 1 oktober nakijken op toegang vanuit het Qubole-account, sleutels roteren, sessies intrekken, ongebruikte integraties verwijderen en rechten van rollen beperken."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een AssumeRole er vereenvoudigd uit in CloudTrail. Belangrijk zijn het account dat de rol aanneemt (userIdentity) en de rol die wordt aangenomen. Een SIEM kan alarm slaan als een extern account een rol aanneemt die maanden niet gebruikt is.",
+    "language": "json",
+    "code": "{\n  \"eventTime\": \"2026-10-14T09:12:44Z\",\n  \"eventSource\": \"sts.amazonaws.com\",\n  \"eventName\": \"AssumeRole\",\n  \"userIdentity\": {\"type\": \"AWSAccount\", \"accountId\": \"111122223333\"},\n  \"sourceIPAddress\": \"203.0.113.10\",\n  \"requestParameters\": {\n    \"roleArn\": \"arn:aws:iam::444455556666:role/leverancier-integratie\",\n    \"roleSessionName\": \"sessie-01\"\n  }\n}",
+    "note": "Nagebouwd en ingekort voorbeeld met verzonnen accountnummers en een voorbeeldadres."
+   },
+   "terms": [
+    {
+     "term": "IAM-gebruikers",
+     "explanation": "Accounts in AWS Identity and Access Management. Ze bepalen wie in een AWS-omgeving mag inloggen en wat die persoon of applicatie daar mag doen."
+    },
+    {
+     "term": "trust policy",
+     "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
+    },
+    {
+     "term": "AssumeRole",
+     "explanation": "Een functie van AWS waarmee een account tijdelijke sleutels krijgt voor een rol in een ander account, met alleen de rechten van die rol."
+    },
+    {
+     "term": "CloudTrail",
+     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+     "term": "opslagbuckets",
+     "explanation": "Mappen in de clouddienst Amazon S3 waarin organisaties bestanden bewaren. Wie leesrechten heeft, kan de inhoud oplijsten en downloaden."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "incident",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; cloudincident met duidelijke aanvalsstappen en logadvies."
+   },
+   "takeaway": "In de cloud geef je een leverancier toegang door zijn account te vertrouwen. Wordt dat account gehackt, dan erft de aanvaller dat vertrouwen bij al zijn klanten tegelijk.",
+   "region": "world"
+  },
   {
    "id": "df100ad46108",
    "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
@@ -549,6 +860,101 @@
    "region": "world",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "ed98e46a8b24",
+   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
+   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+   "source_id": "huntress_blog",
+   "published_at": "2026-11-09T21:00:00Z",
+   "fetched_at": "2026-11-10T07:41:51.099464Z",
+   "summary": "Een onderzoeker zette aanvalsketens voor de beheersoftware N-central openbaar op GitHub, zonder N-able vooraf te waarschuwen. N-able haalde de clouddienst offline en vraagt klanten hun eigen servers ook uit te zetten.",
+   "personal_relevance": "Veel klanten werken met een IT-dienstverlener die RMM-software gebruikt. Een goede vraag: welke beheertools heeft jullie dienstverlener op jullie systemen, en zien jullie het in de logs als daarmee onverwacht scripts worden uitgerold?",
+   "limitations": [
+    "Er zijn nog geen CVE-nummers en geen hotfixversie; N-able verhoogt bij live hotfixes niet altijd het versienummer.",
+    "BleepingComputer heeft niet alle lekken zelf geverifieerd; de bronnen verschillen in het aantal lekken en ketens.",
+    "Of de eerdere meldingen van de onderzoeker inderdaad onbeantwoord bleven, is niet bevestigd; N-able reageerde daar niet op.",
+    "Huntress is een securityleverancier die zelf klanten met N-central bedient."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "supply_chain",
+    "incident_response"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "web",
+    "detectie"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.94,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:52:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "N-able haalt N-central offline na publicatie van ruim 30 lekken",
+   "story": [
+    "N-able heeft op 9 november zijn gehoste N-central-omgeving offline gehaald. N-central is RMM-software: IT-dienstverleners beheren er de computers van al hun klanten mee. Aanleiding: een onafhankelijke onderzoeker publiceerde op GitHub details en proof of concept-code voor ruim 30 kritieke lekken, samen 'Able2Shell' genoemd. Volgens Huntress zijn het 33 lekken in vier ketens. Drie leiden tot remote code execution, één tot root-rechten. N-able zag tot 9 november geen misbruik.",
+    "Hoe zo'n keten werkt: geen enkel lek is op zichzelf genoeg, maar achter elkaar wel. Volgens BleepingComputer begint de belangrijkste keten met een XXE-lek in de importfunctie, zonder inlog. XXE betekent dat de server een XML-bestand leest en daarbij ook 'externe' verwijzingen in dat bestand volgt. Zo kan een aanvaller de server laten verwijzen naar dingen die hij niet hoort te zien. Via die stap kan hij een sessie stelen, een wachtwoord resetten of een beheerdersaccount aanmaken, en daarna opdrachten uitvoeren.",
+    "Waarom is dit zo gevaarlijk? Een RMM-server heeft per definitie macht over duizenden computers bij veel klanten. Wie de RMM-server overneemt, kan via de normale beheerfuncties scripts en software uitrollen naar al die computers. Bij eerdere aanvallen op N-central deden aanvallers precies dat. En openbare aanvalscode betekent dat niet alleen ervaren aanvallers het kunnen proberen, maar iedereen.",
+    "Huntress adviseert eigen servers offline te halen tot N-able een veilige hotfix heeft. Controleer vanaf 8 november de inlogactiviteit en de auditlogs. Let op onverwachte sessies op afstand, nieuw uitgerolde scripts en nieuwe beheerdersaccounts. Bij verdachte activiteit moet je ook de netwerken onderzoeken die vanuit N-central worden beheerd.",
+    "N-central kreeg dit jaar al eerder kritieke lekken, waaronder een misbruikte zero-day in september. De onderzoeker zegt dat hij publiceerde omdat N-able eerdere meldingen maandenlang niet oploste; N-able noemt de publicatie onverantwoord. Wie gelijk heeft, is niet vast te stellen. Voor organisaties is de les dat beheersoftware van een dienstverlener deel is van hun eigen aanvalsoppervlak."
+   ],
+   "key_facts": [
+    "N-able haalde de gehoste N-central-omgeving op 9 november 2026 offline en vroeg klanten met eigen servers die tijdelijk offline te halen.",
+    "Volgens Huntress gaat het om 33 kritieke lekken in vier 'Able2Shell'-ketens: drie leiden tot remote code execution, één tot rechtenverhoging naar root. BleepingComputer spreekt van 'meer dan 30'.",
+    "Getest op N-central Appliance 2026.4.0.31; eerdere versies zijn waarschijnlijk ook kwetsbaar. Een hotfix is in de maak, zonder datum.",
+    "N-able zag tot 9 november 15:15 UTC geen actief misbruik; er staan wel proof of concept-exploits op GitHub.",
+    "Volgens BleepingComputer is de kritiekste keten een XXE-lek zonder inlog in de importfunctie, waarmee een aanvaller een sessie steelt, een wachtwoord reset of een beheerdersaccount aanmaakt en opdrachten uitvoert.",
+    "Eerder in 2026: CVE-2026-18556 en de onvolledige fix CVE-2026-18577 (augustus) en de misbruikte zero-day CVE-2026-86218 met CVSS 10,0 (september)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "remote code execution",
+     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+     "term": "XXE",
+     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    },
+    {
+     "term": "aanvalsoppervlak",
+     "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; lekken in beheersoftware met directe gevolgen voor klantgesprekken."
+   },
+   "takeaway": "Een RMM-server is een sleutelbos voor alle beheerde computers. Wie hem overneemt, gebruikt gewone beheerfuncties als aanvalswapen, dus bewaak juist wat er via die tool wordt uitgerold.",
+   "region": "world",
+   "exploitation": "poc_openbaar",
+   "patch_status": "geen_patch"
   },
   {
    "id": "11af3bdb9908",
@@ -1329,6 +1735,89 @@
     "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
    },
    "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "region": "world"
+  },
+  {
+   "id": "b958c2272095",
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T19:19:39Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Via een lek in SGLang kreeg een aanvaller toegang tot een server van NEAR AI. Hij kon verzoeken zien die in een afgeschermde omgeving (TEE) liepen en stal gegevens van 18 agenten en ongeveer 100 gebruikers.",
+   "personal_relevance": "Klanten die zelf AI-modellen draaien, vergeten die servers vaak in hun scans. Een goede vraag: staan jullie AI-servers en hun software in het overzicht van vulnerability management?",
+   "limitations": [
+    "CVE-nummer, oorzaak en getroffen versies van SGLang zijn niet bekend, net als of het project al een fix uitbracht.",
+    "Hoe de aanvaller van de inference-server naar andere systemen kwam, is niet beschreven.",
+    "De precieze datum en het moment van ontdekking staan niet in het artikel.",
+    "Of gebruikers van wie verzoeken die dag over de server liepen, zijn ingelicht, is niet bevestigd."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "vulnerabilities_cve",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "incidenten",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:59:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken",
+   "story": [
+    "Een aanvaller misbruikte een lek in SGLang om code uit te voeren op een server van NEAR AI. SGLang is open-source software die AI-modellen laat draaien en verzoeken van gebruikers verwerkt: een inference engine. Volgens NEAR AI kon de aanvaller die dag alle verzoeken op die server zien. Daarna kwam hij verder in de systemen van het bedrijf. Hij stal chatgeschiedenis, instellingen en logs van 18 AI-agenten en namen en e-mailadressen van ongeveer 100 gebruikers.",
+    "Het opvallende: ook verzoeken in de 'confidential mode' waren zichtbaar. Die modus draait in een trusted execution environment (TEE). Dat is een afgeschermd deel van de processor, waar zelfs de beheerder van de server niet in kan kijken. Vergelijk het met een kluis. Maar SGLang draait zelf ín die kluis. NEAR AI zegt het zelf: een TEE beschermt niet tegen een lek in de software die erin draait. Wie die software overneemt, staat dus binnen de kluismuren.",
+    "Hoe het lek technisch werkt, is niet bekend: er is geen CVE-nummer, geen versie en geen oorzaak gepubliceerd. NEAR AI meldde de fout aan het SGLang-project en rolde zelf een fix uit. Daarnaast trok het alle sessies en beheerderswachtwoorden in, verving het tokens en zette het een oud chatsysteem uit. Bij twee klanten stond een API-sleutel in de logs; die zijn ingetrokken.",
+    "Wat betekent dit? Organisaties draaien steeds vaker zelf AI-modellen met software als SGLang. Die servers verwerken gevoelige vragen en staan vaak op internet. Ze horen dus in het vulnerability management, net als een webserver. En geheimen zoals API-sleutels horen niet in logs, want wie een server binnenkomt, leest die logs mee."
+   ],
+   "key_facts": [
+    "Een aanvaller misbruikte een remote code execution-lek in SGLang, een open-source inference engine, en voerde op een zondag code uit op een inference-server van NEAR AI (The Hacker News, 10 november 2026).",
+    "Volgens NEAR AI kon de aanvaller die dag verzoeken op die server zien, ook in confidential mode, die in een TEE draait; NEAR AI: de TEE beschermt niet tegen een lek in de software die erin draait.",
+    "Gestolen of blootgesteld: chatgeschiedenis, instellingen en logs van 18 agenten op een oudere uitrol buiten de TEE, en namen en e-mailadressen van ongeveer 100 gebruikers van Private Chat, bij sommigen ook abonnements- en saldogegevens.",
+    "Twee klanten van NEAR AI Cloud hadden hun API-sleutel in logs staan; beide sleutels zijn ingetrokken.",
+    "NEAR AI trok sessies en beheerderscredentials in, verving agenttokens, haalde Private Chat offline, patchte alle inference-servers en meldde de fout aan het SGLang-project."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "inference engine",
+     "explanation": "Software die een getraind AI-model laat draaien en vragen van gebruikers verwerkt tot antwoorden."
+    },
+    {
+     "term": "trusted execution environment",
+     "explanation": "Een afgeschermd deel van een processor waar gegevens versleuteld worden verwerkt, zodat ook de beheerder van de server er niet in kan kijken (TEE)."
+    },
+    {
+     "term": "AI-agenten",
+     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+     "term": "API-sleutel",
+     "explanation": "Een geheime code waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+    },
+    {
+     "term": "tokens",
+     "explanation": "Digitale toegangsbewijzen die je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie er één steelt, is ingelogd als de eigenaar."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; incident met een nieuwe les over afgeschermde AI-servers."
+   },
+   "takeaway": "Een TEE beschermt gegevens tegen de beheerder van de server, niet tegen een lek in de software die erin draait. Afscherming helpt alleen zolang de code binnen de afscherming veilig is.",
    "region": "world"
   },
   {
@@ -4632,6 +5121,17 @@
  "weekly": null,
  "glossary": [
   {
+   "term": "aanvalsoppervlak",
+   "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
+    }
+   ]
+  },
+  {
    "term": "achterdeur",
    "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om.",
    "refs": [
@@ -4702,6 +5202,22 @@
    ]
   },
   {
+   "term": "AI-agenten",
+   "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "b958c2272095",
+     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
+    },
+    {
+     "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
+    }
+   ]
+  },
+  {
    "term": "AI-gateway",
    "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert.",
    "refs": [
@@ -4731,6 +5247,17 @@
      "kind": "a",
      "id": "63028db311b2",
      "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
+    }
+   ]
+  },
+  {
+   "term": "API-sleutel",
+   "explanation": "Een geheime code waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "b958c2272095",
+     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
     }
    ]
   },
@@ -4779,9 +5306,25 @@
    ]
   },
   {
+   "term": "AssumeRole",
+   "explanation": "Een functie van AWS waarmee een account tijdelijke sleutels krijgt voor een rol in een ander account, met alleen de rechten van die rol.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    }
+   ]
+  },
+  {
    "term": "auditlogs",
    "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
+    },
     {
      "kind": "a",
      "id": "63028db311b2",
@@ -4916,6 +5459,33 @@
    ]
   },
   {
+   "term": "CloudTrail",
+   "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
+    },
+    {
+     "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    }
+   ]
+  },
+  {
+   "term": "CloudWatch",
+   "explanation": "De dienst van AWS waarin applicaties en servers hun logbestanden en meetwaarden opslaan.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
+    }
+   ]
+  },
+  {
    "term": "CNA",
    "explanation": "CVE Numbering Authority: een organisatie die CVE-nummers mag uitdelen en CVE-records publiceert, vaak de maker van de software zelf.",
    "refs": [
@@ -4923,6 +5493,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "Cognito-gebruikerspool",
+   "explanation": "Een AWS-dienst die de accounts van een app beheert. Staat zelfregistratie aan, dan kan iedereen er een account aanmaken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
     }
    ]
   },
@@ -4952,6 +5533,11 @@
    "term": "cookie",
    "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
+    },
     {
      "kind": "a",
      "id": "94ac3c3bdec2",
@@ -5333,6 +5919,39 @@
    ]
   },
   {
+   "term": "hypervisor",
+   "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
+    }
+   ]
+  },
+  {
+   "term": "IAM-gebruikers",
+   "explanation": "Accounts in AWS Identity and Access Management. Ze bepalen wie in een AWS-omgeving mag inloggen en wat die persoon of applicatie daar mag doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    }
+   ]
+  },
+  {
+   "term": "inference engine",
+   "explanation": "Software die een getraind AI-model laat draaien en vragen van gebruikers verwerkt tot antwoorden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "b958c2272095",
+     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
+    }
+   ]
+  },
+  {
    "term": "infostealer",
    "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt.",
    "refs": [
@@ -5480,6 +6099,17 @@
      "kind": "a",
      "id": "f8af8b71c7c1",
      "title": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI"
+    }
+   ]
+  },
+  {
+   "term": "langlevende toegangssleutel",
+   "explanation": "Een vaste sleutel voor AWS die niet vanzelf verloopt. Lekt hij uit, dan werkt hij tot iemand hem intrekt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
     }
    ]
   },
@@ -5712,6 +6342,17 @@
    ]
   },
   {
+   "term": "opslagbuckets",
+   "explanation": "Mappen in de clouddienst Amazon S3 waarin organisaties bestanden bewaren. Wie leesrechten heeft, kan de inhoud oplijsten en downloaden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    }
+   ]
+  },
+  {
    "term": "out-of-bounds read",
    "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code.",
    "refs": [
@@ -5869,6 +6510,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
+    },
+    {
+     "kind": "a",
      "id": "25c3eda20cfe",
      "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     },
@@ -5934,6 +6580,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
+    },
+    {
+     "kind": "a",
      "id": "649e0d8b078e",
      "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
@@ -5962,6 +6613,17 @@
    ]
   },
   {
+   "term": "reverse proxy",
+   "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
+    }
+   ]
+  },
+  {
    "term": "reverse shell",
    "explanation": "Een verbinding die een gehackt systeem zelf naar de aanvaller opzet, waarna de aanvaller er opdrachten op kan uitvoeren. Gaat vaak langs firewalls die alleen inkomend verkeer blokkeren.",
    "refs": [
@@ -5981,6 +6643,11 @@
    "term": "RMM",
    "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
+    },
     {
      "kind": "a",
      "id": "6852a83cc063",
@@ -6249,6 +6916,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    },
+    {
+     "kind": "a",
      "id": "b06c9cfc80a7",
      "title": "Updateserver van AOMEI telkens een paar minuten besmet"
     },
@@ -6336,6 +7008,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
+    },
+    {
+     "kind": "a",
      "id": "842bc764ab47",
      "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
     },
@@ -6352,6 +7029,17 @@
    ]
   },
   {
+   "term": "tokens",
+   "explanation": "Digitale toegangsbewijzen die je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie er één steelt, is ingelogd als de eigenaar.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "b958c2272095",
+     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
+    }
+   ]
+  },
+  {
    "term": "TPM",
    "explanation": "Trusted Platform Module: een beveiligingschip in de computer die sleutels bewaart en gebruikt, zonder ze ooit naar buiten te geven.",
    "refs": [
@@ -6359,6 +7047,28 @@
      "kind": "a",
      "id": "94ac3c3bdec2",
      "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    }
+   ]
+  },
+  {
+   "term": "trust policy",
+   "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "27d0d882d07e",
+     "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
+    }
+   ]
+  },
+  {
+   "term": "trusted execution environment",
+   "explanation": "Een afgeschermd deel van een processor waar gegevens versleuteld worden verwerkt, zodat ook de beheerder van de server er niet in kan kijken (TEE).",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "b958c2272095",
+     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
     }
    ]
   },
@@ -6401,6 +7111,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "3e830a9401ea",
+     "title": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS"
+    },
+    {
+     "kind": "a",
      "id": "62c945c0e6fb",
      "title": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem"
     }
@@ -6425,6 +7140,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "virtuele machines",
+   "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
     }
    ]
   },
@@ -6476,6 +7202,11 @@
    "term": "WAF",
    "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "9398616ade4d",
+     "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
+    },
     {
      "kind": "a",
      "id": "1204de495376",
@@ -6539,6 +7270,17 @@
      "kind": "a",
      "id": "11af3bdb9908",
      "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "XXE",
+   "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ed98e46a8b24",
+     "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
     }
    ]
   },
@@ -6827,37 +7569,38 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 498,
+  "unique_after_dedupe": 499,
   "merged_duplicates": 1,
-  "shown": 36,
+  "shown": 41,
   "decisions": {
-   "included": 201,
+   "included": 202,
    "below_threshold": 133,
    "no_topic": 126,
    "excluded": 38
   },
   "processing": {
-   "enriched": 36
+   "enriched": 41
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 9,
+   "kwetsbaarheden": 11,
+   "detectie": 5,
+   "incidenten": 9,
    "aanvallen": 9,
-   "detectie": 4,
-   "incidenten": 7,
    "ti": 4,
    "vm": 3
   },
   "per_source": {
+   "the_hacker_news": 7,
+   "datadog_security_labs": 1,
+   "bleepingcomputer": 6,
    "security_nl": 2,
+   "huntress_blog": 4,
    "unit42": 5,
    "google_threat_intel": 5,
    "divd": 1,
    "microsoft_threat_intel": 4,
-   "the_hacker_news": 5,
    "cisco_talos": 3,
-   "bleepingcomputer": 5,
-   "huntress_blog": 3,
    "securityweek": 1,
    "the_record": 1,
    "watchtowr_labs": 1
@@ -6917,7 +7660,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 298
+   "skipped_no_key": 294
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -7048,14 +7791,6 @@
     ]
    },
    {
-    "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
-    "source_id": "datadog_security_labs",
-    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
@@ -7074,22 +7809,6 @@
     ]
    },
    {
-    "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
@@ -7101,22 +7820,6 @@
     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -7136,16 +7839,6 @@
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
-    "relevance_score": 83,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
    },
    {
     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
@@ -7260,6 +7953,24 @@
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+    "source_id": "crowdstrike_blog",
+    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
@@ -7450,6 +8161,40 @@
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
+    "relevance_score": 79,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    }
   ],
   "topics_without_source": []

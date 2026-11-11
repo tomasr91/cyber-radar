@@ -3991,7 +3991,15 @@
    "published_raw": "Tue, 10 Nov 2026 09:56:28 +0000",
    "fetched_at": "2026-11-11T01:23:38.173614Z",
    "excerpt": "<p>Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/\">N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "crowdstrike_blog:81dbfcc74392": {
+   "source_id": "crowdstrike_blog",
+   "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+   "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+   "published_raw": "Nov 10, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-11T01:34:50.496175Z",
+   "excerpt": ""
   }
  },
- "updated_at": "2026-11-11T01:23:29.430972Z"
+ "updated_at": "2026-11-11T01:34:43.457028Z"
 }
