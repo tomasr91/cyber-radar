@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T01:34:43.457028Z",
+ "generated_at": "2026-11-11T01:35:50.002882Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
- "last_article_added_at": "2026-11-11T01:59:00Z",
- "last_successful_update": "2026-11-11T01:34:43.457028Z",
+ "last_article_added_at": "2026-11-11T02:12:00Z",
+ "last_successful_update": "2026-11-11T01:35:50.002882Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-11T01:34:43.499953Z"
+   "checked_at": "2026-11-11T01:35:50.051542Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-11T01:34:44.279667Z"
+   "checked_at": "2026-11-11T01:35:50.910133Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-11T01:34:45.344197Z"
+   "checked_at": "2026-11-11T01:35:52.046145Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-11T01:34:45.654329Z"
+   "checked_at": "2026-11-11T01:35:52.299886Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-11T01:34:47.034162Z"
+   "checked_at": "2026-11-11T01:35:53.390297Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-11T01:34:47.279199Z"
+   "checked_at": "2026-11-11T01:35:53.480790Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-11T01:34:47.397152Z"
+   "checked_at": "2026-11-11T01:35:53.613015Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-11T01:34:47.550896Z"
+   "checked_at": "2026-11-11T01:35:53.814310Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-11T01:34:47.969681Z"
+   "checked_at": "2026-11-11T01:35:54.446088Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-11T01:34:49.620815Z"
+   "checked_at": "2026-11-11T01:35:56.292821Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-11T01:34:49.800166Z"
+   "checked_at": "2026-11-11T01:35:56.454231Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-11T01:34:49.884223Z"
+   "checked_at": "2026-11-11T01:35:56.553868Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-11T01:34:50.112450Z"
+   "checked_at": "2026-11-11T01:35:56.627116Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-11T01:34:50.496175Z"
+   "checked_at": "2026-11-11T01:35:56.945128Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-11T01:34:50.773368Z"
+   "checked_at": "2026-11-11T01:35:57.679191Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-11T01:34:50.993188Z"
+   "checked_at": "2026-11-11T01:35:57.874824Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-11T01:34:51.279844Z"
+   "checked_at": "2026-11-11T01:35:58.330960Z"
   },
   {
    "id": "securityweek",
@@ -381,17 +381,110 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-11T01:34:51.715196Z"
+   "checked_at": "2026-11-11T01:35:58.530628Z"
   }
  ],
  "daily_top": [
+  "0eb55bf1598e",
   "9398616ade4d",
   "3e830a9401ea",
   "27d0d882d07e",
-  "df100ad46108",
   "8b5f34b85bf1"
  ],
  "articles": [
+  {
+   "id": "0eb55bf1598e",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T16:00:55Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Aanvallers misbruikten twee lekken in back-upsoftware AhsayCBS. Huntress vond webshells, cryptominers en een Python-achterdeur die weigert te starten in een testomgeving van onderzoekers.",
+   "personal_relevance": "Back-upservers vallen vaak buiten de aandacht van detectie en patching. Een goede vraag aan klanten: worden back-upservers net zo bewaakt en gepatcht als domeincontrollers, en welke wachtwoorden staan erop opgeslagen?",
+   "limitations": [
+    "De oorzaak van de twee lekken en de getroffen versies staan niet in het artikel.",
+    "Wie achter de aanval zit en hoeveel organisaties zijn getroffen, is niet bekend.",
+    "Hoeveel inloggegevens via de Veeam-server zijn buitgemaakt, is onbekend.",
+    "Huntress is een securityleverancier en beschrijft één onderzocht incident."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "siem_detection",
+    "malware"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T02:08:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer",
+   "story": [
+    "Huntress zag begin oktober een aanval op een server met AhsayCBS, software waarmee organisaties back-ups beheren. De aanvallers combineerden twee lekken, CVE-2026-105133 en CVE-2026-105134. Daarmee kwamen ze zonder inlog binnen en konden ze opdrachten uitvoeren. Ahsay bracht half oktober updates uit.",
+    "Eerst leek het een snelle roof: webshells en een cryptominer. Maar Huntress zag meer: vijf soorten webshells op verschillende plekken, een tweede miner die via een geplande taak elke minuut opnieuw start, uitzonderingen in Microsoft Defender, tunneltools en legitieme software voor beheer op afstand. Eén webshell verstopte versleutelde code in de pixels van PNG-plaatjes en voerde die alleen in het geheugen uit. Zo blijft er weinig op de schijf staan om te vinden.",
+    "Het slimste stuk is de Python-achterdeur. Hij berekent een hash van een uniek nummer van de Windows-computer (de MachineGuid) en zoekt een bestand met die naam naast zich. Alleen als dat klopt, laadt hij zijn eigenlijke code in het geheugen. Die maakt dan contact met de server van de aanvaller. In een sandbox of op de computer van een onderzoeker ontbreekt dat bestand, dus daar doet de achterdeur niets. Het is als een sleutel die alleen in één slot past.",
+    "Waarom back-upservers? Op een gekoppelde Veeam-server zag Huntress een script dat opgeslagen wachtwoorden uit de database van Veeam las en ontsleutelde. Volgens onderzoeker Semon bewaart back-upsoftware wachtwoorden voor hypervisors, opslag en domeinaccounts. Een back-upserver is dus een sleutelbos voor het hele netwerk. Hoeveel wachtwoorden de aanvaller kreeg, is onbekend.",
+    "In de logs en bij EDR vallen zulke aanvallen op door de bijwerkingen: nieuwe JSP-bestanden in webmappen, een geplande taak met SYSTEM-rechten die elke minuut draait, nieuwe uitzonderingen in de virusscanner en onbekende beheersoftware. Voor vulnerability management: back-upsoftware staat vaak niet bovenaan de patchlijst, maar verdient die plek wel."
+   ],
+   "key_facts": [
+    "Huntress zag begin oktober 2026 misbruik van de keten CVE-2026-105133 en CVE-2026-105134 in AhsayCBS om de authenticatie te omzeilen en willekeurige opdrachten uit te voeren (The Hacker News, 10 november 2026).",
+    "Ahsay Backup bracht half oktober 2026 patches uit.",
+    "Huntress vond vijf families JSP-webshells, waaronder een loader die versleutelde code in de pixeldata van PNG-afbeeldingen verbergt en in het geheugen uitvoert.",
+    "Twee XMRig-miners, waarvan één via een geplande taak met SYSTEM-rechten elke minuut herstart; verder Defender-uitzonderingen, de tunneltools GOST en Chisel en AnyDesk, Atera en Splashtop.",
+    "De Python-implant controleert een SHA-256-hash van de MachineGuid tegen een markerbestand en laadt pas dan een x64-DLL in het geheugen die contact maakt met een C2-server.",
+    "Op een gekoppelde Veeam-server las een PowerShell-script, vermoedelijk via WMI gestart, opgeslagen inloggegevens uit de PostgreSQL-database van Veeam en ontsleutelde die met DPAPI."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "webshells",
+     "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "geplande taak",
+     "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien."
+    },
+    {
+     "term": "tunneltools",
+     "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
+    },
+    {
+     "term": "hash",
+     "explanation": "Een vaste 'vingerafdruk' van gegevens, berekend met een wiskundige functie. Dezelfde invoer geeft altijd dezelfde hash, maar je kunt de invoer er niet uit terugrekenen."
+    },
+    {
+     "term": "sandbox",
+     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt lek met een volledige aanvalsketen en duidelijke detectiepunten."
+   },
+   "takeaway": "Malware die zich aan één computer koppelt, doet niets in een sandbox. Detectie moet dan leunen op gedrag op het echte systeem: nieuwe taken, uitzonderingen in de virusscanner en onbekende verbindingen.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
   {
    "id": "9398616ade4d",
    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
@@ -1372,6 +1465,92 @@
     "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
    },
    "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
+   "region": "world"
+  },
+  {
+   "id": "7e413807cc2f",
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T15:58:44Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "De groep Blind Eagle stuurt organisaties in Latijns-Amerika mails die lijken op berichten van de rechter. De bijlage bouwt het besmette bestand pas op de computer van het slachtoffer, zodat mailfilters het niet zien.",
+   "personal_relevance": "HTML smuggling is een goed voorbeeld om uit te leggen waarom een mailfilter alleen niet genoeg is. Een vraag aan klanten: ziet jullie EDR het als een browser of mailprogramma een script of PowerShell start?",
+   "limitations": [
+    "Hoeveel organisaties de mails kregen en of er besmettingen zijn, is niet bekend.",
+    "De koppeling aan Blind Eagle en een Braziliaans cluster is een inschatting van Zenox op basis van taal, infrastructuur, tijdzone en slachtoffers."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": -0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T02:12:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-dagvaarding bouwt malware pas in de browser in elkaar",
+   "story": [
+    "Onderzoeksbureau Zenox beschrijft een nieuwe campagne van Blind Eagle, een groep die sinds 2018 actief is. De mails zijn in het Spaans en Portugees en lijken op berichten van een rechtbank of het openbaar ministerie. Doelwit zijn vooral juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika. Of de aanvallen gelukt zijn, is niet bekend.",
+    "Normaal controleert een mailfilter bijlagen: een ZIP-bestand met een script erin wordt vaak tegengehouden. Deze aanval omzeilt dat met HTML smuggling. De bijlage is een SVG-afbeelding die zich gedraagt als webpagina. Opent het slachtoffer die, dan bouwt de pagina het ZIP-bestand pas in de browser in elkaar. Het verdachte bestand gaat dus nooit als geheel door het mailfilter. Vergelijk het met een bouwpakket dat pas thuis een gereedschap wordt.",
+    "Daarna volgt een keten van kleine stappen. Een JavaScript-bestand verzamelt systeeminformatie en start een VBScript. Dat schakelt AMSI en ETW uit: twee onderdelen van Windows waarmee beveiligingssoftware scripts kan inspecteren. Ondertussen ziet het slachtoffer een nep-dagvaarding als afleiding. Het script wist het oorspronkelijke bestand en het Mark of the Web, zet zichzelf in de opstartmap en laat PowerShell de RAT in het geheugen starten. Die RAT is volgens Zenox een variant van AsyncRAT en kan onder meer toetsaanslagen en schermbeelden vastleggen.",
+    "Hoe zie je dit? Niet aan de mail, maar aan wat erna gebeurt. Let in de EDR-meldingen op een browser of mailprogramma dat een script start, op scripts die PowerShell aanroepen en op nieuwe items in de opstartmap. Dat een beveiligingsfunctie als AMSI wordt uitgeschakeld, is zelf ook een signaal. Voor organisaties buiten Latijns-Amerika is de les het patroon: lokmiddelen met gezag en tijdsdruk, en bijlagen die pas op de computer gevaarlijk worden."
+   ],
+   "key_facts": [
+    "Zenox deelde het onderzoek met The Hacker News (10 november 2026); het koppelt de campagne aan Blind Eagle (APT-C-36), actief sinds 2018, via een Braziliaans cluster.",
+    "Lokmiddelen in het Portugees en Spaans lijken op berichten van rechtbanken, het openbaar ministerie en tutela-procedures; doelwit zijn juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika.",
+    "De bijlage is een XHTML-bestand dat een SVG-afbeelding is; via HTML smuggling bouwt het lokaal een met ZipCrypto versleuteld ZIP-archief op.",
+    "Een JavaScript-dropper verzamelt systeeminformatie en start een VBScript dat AMSI en ETW omzeilt, een nep-dagvaarding toont, het bronbestand en het Mark of the Web wist en persistentie in de opstartmap zet.",
+    "PowerShell decodeert de RAT en voert die in het geheugen uit; het is een fork van AsyncRAT met DCRat-afkomst, met onder meer keylogging, schermopnames en versleutelde exfiltratie.",
+    "Er is geen bewijs dat de aanvallen tot nu toe succesvol waren."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "HTML smuggling",
+     "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg."
+    },
+    {
+     "term": "AMSI",
+     "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd."
+    },
+    {
+     "term": "ETW",
+     "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
+    },
+    {
+     "term": "Mark of the Web",
+     "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus."
+    },
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.45,
+    "why": "Nog geen duimpjes; technisch sterke phishingketen, maar ver van de eigen regio."
+   },
+   "takeaway": "Bij HTML smuggling bestaat het gevaarlijke bestand pas als de browser het in elkaar zet. Het mailfilter ziet dus niets; detectie moet op de computer zelf gebeuren.",
    "region": "world"
   },
   {
@@ -5240,6 +5419,17 @@
    ]
   },
   {
+   "term": "AMSI",
+   "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
+    }
+   ]
+  },
+  {
    "term": "API",
    "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen.",
    "refs": [
@@ -5682,8 +5872,18 @@
   },
   {
    "term": "EDR",
-   "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen.",
+   "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
+    },
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    },
     {
      "kind": "a",
      "id": "25c3eda20cfe",
@@ -5698,16 +5898,6 @@
      "kind": "a",
      "id": "892b2bea5cd6",
      "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
-    },
-    {
-     "kind": "a",
-     "id": "0968634953ed",
-     "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
-    },
-    {
-     "kind": "a",
-     "id": "08252db330fb",
-     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
     }
    ]
   },
@@ -5759,6 +5949,11 @@
    "term": "ETW",
    "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
+    },
     {
      "kind": "a",
      "id": "5c07cdbef377",
@@ -5822,6 +6017,17 @@
    ]
   },
   {
+   "term": "geplande taak",
+   "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    }
+   ]
+  },
+  {
    "term": "geplande taken",
    "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien.",
    "refs": [
@@ -5855,8 +6061,13 @@
   },
   {
    "term": "hash",
-   "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash.",
+   "explanation": "Een vaste 'vingerafdruk' van gegevens, berekend met een wiskundige functie. Dezelfde invoer geeft altijd dezelfde hash, maar je kunt de invoer er niet uit terugrekenen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    },
     {
      "kind": "a",
      "id": "a40dff3d749a",
@@ -5915,6 +6126,17 @@
      "kind": "a",
      "id": "842bc764ab47",
      "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    }
+   ]
+  },
+  {
+   "term": "HTML smuggling",
+   "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
     }
    ]
   },
@@ -6192,6 +6414,17 @@
      "kind": "a",
      "id": "9fcf62b29cf8",
      "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    }
+   ]
+  },
+  {
+   "term": "Mark of the Web",
+   "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
     }
    ]
   },
@@ -6547,6 +6780,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "7e413807cc2f",
+     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
+    },
+    {
+     "kind": "a",
      "id": "d0e0e442d471",
      "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     }
@@ -6728,6 +6966,11 @@
    "term": "sandbox",
    "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    },
     {
      "kind": "a",
      "id": "25c3eda20cfe",
@@ -7084,6 +7327,17 @@
    ]
   },
   {
+   "term": "tunneltools",
+   "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    }
+   ]
+  },
+  {
    "term": "Unix-socket",
    "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar.",
    "refs": [
@@ -7259,6 +7513,17 @@
      "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "webshells",
+   "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0eb55bf1598e",
+     "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
     }
    ]
   },
@@ -7508,42 +7773,21 @@
  "interest_suggestions": [],
  "interest_log": [],
  "runs": {
-  "date": "2026-11-07",
+  "date": "2026-11-11",
   "tasks": {
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-07T02:24:46Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 0,
-     "keuzes": 5
-    }
-   },
    "uitleggen": {
     "status": "ok",
-    "summary": "Vers opgehaald; 8 artikelen uitgelegd (onder meer misbruikte lekken in SonicWall-vpn, Zyxel-switches en OpenSSH), 2 overgeslagen zonder openen.",
-    "finished_at": "2026-11-07T01:36:30Z",
+    "summary": "Vers opgehaald; 7 artikelen uitgelegd (onder meer misbruikte lekken in Xen Orchestra en AhsayCBS, Able2Shell in N-central en de Qubole-inbraak in AWS), 3 overgeslagen, waarvan 2 zonder openen.",
+    "finished_at": "2026-11-11T01:35:36Z",
     "problems": [
      "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
-     "De adviezen van SonicWall (PSIRT) konden niet worden geopend; de uitleg steunt op Security.NL, BleepingComputer en het CVE-record."
+     "Het artikel van BleepingComputer over Patch Tuesday van november 2026 gaf twee keer een serverfout en is overgeslagen als niet te lezen."
     ],
     "counts": {
-     "uitgelegd": 8,
-     "overgeslagen": 2,
+     "uitgelegd": 7,
+     "overgeslagen": 3,
      "overgeslagen_zonder_openen": 2,
-     "niet_te_lezen": 0
-    }
-   },
-   "overzicht": {
-    "status": "ok",
-    "summary": "3 trends bijgewerkt (AI-agenten en randapparaten aangevuld), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (zaterdag).",
-    "finished_at": "2026-11-07T03:24:23Z",
-    "problems": [],
-    "counts": {
-     "trends": 3,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
+     "niet_te_lezen": 1
     }
    }
   }
@@ -7571,7 +7815,7 @@
   "fetched_items": 320,
   "unique_after_dedupe": 499,
   "merged_duplicates": 1,
-  "shown": 41,
+  "shown": 43,
   "decisions": {
    "included": 202,
    "below_threshold": 133,
@@ -7579,19 +7823,19 @@
    "excluded": 38
   },
   "processing": {
-   "enriched": 41
+   "enriched": 43
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 11,
+   "kwetsbaarheden": 12,
    "detectie": 5,
    "incidenten": 9,
    "aanvallen": 9,
-   "ti": 4,
+   "ti": 5,
    "vm": 3
   },
   "per_source": {
-   "the_hacker_news": 7,
+   "the_hacker_news": 9,
    "datadog_security_labs": 1,
    "bleepingcomputer": 6,
    "security_nl": 2,
@@ -7660,7 +7904,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 294
+   "skipped_no_key": 292
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -7820,22 +8064,6 @@
     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -8195,6 +8423,24 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
+    "relevance_score": 79,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
+    "relevance_score": 79,
+    "decision": "included",
+    "excluded_by": []
    }
   ],
   "topics_without_source": []
