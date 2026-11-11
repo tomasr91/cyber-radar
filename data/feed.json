@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T07:41:46.162069Z",
+ "generated_at": "2026-11-11T01:23:29.430972Z",
  "mode": "live",
  "mode_note": "Alle feeds zijn opgehaald.",
  "last_article_added_at": "2026-11-07T01:35:00Z",
- "last_successful_update": "2026-11-10T07:41:46.162069Z",
+ "last_successful_update": "2026-11-11T01:23:29.430972Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-10T07:41:46.221692Z"
+   "checked_at": "2026-11-11T01:23:29.480426Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-10T07:41:46.730326Z"
+   "checked_at": "2026-11-11T01:23:30.089176Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-10T07:41:47.353717Z"
+   "checked_at": "2026-11-11T01:23:30.942904Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-10T07:41:47.445155Z"
+   "checked_at": "2026-11-11T01:23:31.213609Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-10T07:41:48.240284Z"
+   "checked_at": "2026-11-11T01:23:32.268637Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-10T07:41:48.392335Z"
+   "checked_at": "2026-11-11T01:23:32.520210Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-10T07:41:48.476678Z"
+   "checked_at": "2026-11-11T01:23:32.719358Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-10T07:41:48.563949Z"
+   "checked_at": "2026-11-11T01:23:32.959461Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-10T07:41:48.938755Z"
+   "checked_at": "2026-11-11T01:23:33.663140Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-10T07:41:50.747440Z"
+   "checked_at": "2026-11-11T01:23:35.562261Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-10T07:41:50.959616Z"
+   "checked_at": "2026-11-11T01:23:36.297558Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-10T07:41:51.020238Z"
+   "checked_at": "2026-11-11T01:23:36.602654Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-10T07:41:51.099464Z"
+   "checked_at": "2026-11-11T01:23:36.813856Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-10T07:41:51.260619Z"
+   "checked_at": "2026-11-11T01:23:37.162425Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-10T07:41:51.820196Z"
+   "checked_at": "2026-11-11T01:23:37.468553Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-10T07:41:51.897819Z"
+   "checked_at": "2026-11-11T01:23:37.579671Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-10T07:41:52.163107Z"
+   "checked_at": "2026-11-11T01:23:37.843162Z"
   },
   {
    "id": "securityweek",
@@ -381,15 +381,15 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-10T07:41:52.338228Z"
+   "checked_at": "2026-11-11T01:23:38.173614Z"
   }
  ],
  "daily_top": [
   "df100ad46108",
   "11af3bdb9908",
-  "63028db311b2",
   "8b5f34b85bf1",
-  "9fcf62b29cf8"
+  "63028db311b2",
+  "d2cce75fefaf"
  ],
  "articles": [
   {
@@ -427,10 +427,10 @@
     "kwetsbaarheden",
     "aanvallen"
    ],
-   "relevance_score": 92,
+   "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.67,
+    "recency": 0.65,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -604,10 +604,10 @@
     "detectie",
     "web"
    ],
-   "relevance_score": 91,
+   "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.56,
+    "recency": 0.54,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -729,98 +729,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "63028db311b2",
-   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
-   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
-   "limitations": [
-    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
-    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
-    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "incidenten"
-   ],
-   "relevance_score": 91,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.68,
-    "source": 0.8,
-    "quality": 0.82,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
-   "story": [
-    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
-    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
-    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
-    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
-    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
-   ],
-   "key_facts": [
-    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
-    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
-    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
-    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
-    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
-    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
-    "language": "log",
-    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
-   },
-   "terms": [
-    {
-     "term": "LLMJacking",
-     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
-    },
-    {
-     "term": "API",
-     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
-    },
-    {
-     "term": "serviceaccounts",
-     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
-    },
-    {
-     "term": "AI-gateway",
-     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
-   },
-   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
-   "region": "world"
-  },
-  {
    "id": "8b5f34b85bf1",
    "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
@@ -856,7 +764,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.59,
+    "recency": 0.57,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -969,28 +877,25 @@
    "region": "world"
   },
   {
-   "id": "9fcf62b29cf8",
-   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-   "source_id": "microsoft_threat_intel",
-   "published_at": "2026-11-05T23:46:50Z",
-   "fetched_at": "2026-11-06T01:23:37.390589Z",
-   "summary": "Microsoft ziet aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar gelekte geheimen. In één geval ging een agent in vijf minuten van zoeken naar het leeghalen van een Azure Key Vault.",
-   "personal_relevance": "Veel klanten hebben apps met geheimen in Entra en code op GitHub. Vragen die je kunt stellen: monitoren jullie aanmeldingen van service principals, en scannen jullie code op geheimen voordat die online komt?",
+   "id": "63028db311b2",
+   "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Mandiant zag in 2026 meerdere incidenten waarin aanvallers met gestolen cloudsleutels de AI-modellen van bedrijven gebruikten en doorverkochten. De rekening liep op tot 1 miljoen dollar.",
+   "personal_relevance": "Klanten die AI-diensten in de cloud gebruiken, kennen dit risico vaak nog niet. Vragen als 'wie mag AI-diensten aanzetten?' en 'krijgt het securityteam een melding bij een kostenpiek?' maken het gesprek concreet.",
    "limitations": [
-    "Microsoft noemt geen aanvallersgroep en geen aantal getroffen organisaties.",
-    "Microsoft vermoedt dat de aanvaller gestolen AI-resources wilde gebruiken voor verdere activiteit; dat is niet bevestigd.",
-    "Microsoft is zelf leverancier van de cloud en van beveiligingsproducten; een deel van de adviezen verwijst naar eigen producten.",
-    "Of dezelfde aanvallers achter eerdere ARTEX-campagnes zitten, zoals bij ConnectWise, staat niet in het stuk."
+    "Mandiant noemt geen slachtoffers en zegt niet om hoeveel incidenten het gaat.",
+    "Dat UNC6993 toegang verkoopt via ondergrondse winkels en dat Jet Night op gestolen sleutels draait, is een inschatting van Google.",
+    "Google verkoopt zelf clouddiensten en beveiligingsproducten."
    ],
    "topics": [
-    "attack_techniques",
     "siem_detection",
     "threat_intelligence",
     "cloud_attacks"
    ],
    "groups": [
-    "aanvallen",
     "detectie",
     "ti",
     "incidenten"
@@ -998,184 +903,69 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.81,
+    "recency": 0.66,
     "source": 0.8,
-    "quality": 0.73,
-    "fit": 0.0
+    "quality": 0.82,
+    "fit": 0.05
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:30:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in",
-   "story": [
-    "Microsoft Threat Intelligence ziet sinds augustus 2026 aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar geheimen. Het gaat om inloggegevens van applicaties, OAuth-geheimen en API-sleutels voor AI-diensten. Ontwikkelaars hadden die in openbare code gezet. Vanaf 28 oktober gebruikten AI-agenten de gevonden sleutels om binnen te komen bij de organisaties erachter. Microsoft noemt geen naam van een aanvallersgroep.",
-    "Hoe werkt dat? Een applicatie die bij Microsoft 365 of Azure wil, heeft daar een eigen identiteit: een service principal. Die logt in met een client secret, een soort wachtwoord voor software. Ontwikkelaars zetten zo'n geheim soms in een configuratiebestand of script, om snel iets werkend te krijgen. Staat die code openbaar op GitHub, dan kan iedereen het lezen. Zoeken naar zulke geheimen is niet nieuw. Nieuw is de snelheid: de agent doorzoekt veel code tegelijk, beoordeelt wat hij vindt en gaat zelf verder met de aanval.",
-    "Wat deden de agenten daarna? Ze logden in als de app en zochten naar functies die nog meer geheimen teruggeven, zoals opslagsleutels en connection strings. Ze downloadden bestanden uit SharePoint en OneDrive en lazen mail. Ze haalden geheimen uit Key Vaults en voerden met Run Command scripts uit op virtuele servers. Mislukte een verzoek, dan paste de agent het binnen 28 tot 80 seconden aan. In één geval zat er vijf minuten tussen zoeken op GitHub en het leeghalen van een Key Vault.",
-    "Je ziet dit in de aanmeldingen van service principals in Entra, niet bij die van gewone gebruikers. Microsoft wijst op twee foutcodes: AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim). Die betekenen dat iemand een sleutel van jouw app probeert. Een mislukte poging gevolgd door een gelukte is urgent. Verdacht is ook één adres dat bij drie of meer service principals inlogt, of één app die in korte tijd toegang vraagt tot veel verschillende diensten.",
-    "De les: een geheim dat ooit openbaar stond, moet je als gestolen beschouwen. Ook als je het verwijdert, staat het nog in de geschiedenis van de code en in kopieën. Microsoft adviseert zulke geheimen meteen te vervangen en apps te laten inloggen met managed identities, zonder geheim. Zet ook secret scanning aan met push protection. Die houdt een geheim tegen voordat het online komt."
-   ],
-   "key_facts": [
-    "Microsoft Threat Intelligence publiceerde de analyse op 5 november 2026; de zoekactiviteit op GitHub zag Microsoft vanaf augustus 2026.",
-    "Het agentische aanvalsframework ARTEX zocht in openbare GitHub-repositories naar inloggegevens, OAuth client secrets van applicaties en API-sleutels voor AI-diensten.",
-    "Vanaf 28 oktober 2026 logden agenten met gelekte applicatiegegevens in bij Entra ID-omgevingen; de aanmeldingen kwamen vooral van twee IP-adressen, waarvan één een Tor-exitnode.",
-    "Vervolgacties: credentials opvragen (opslagsleutels, connection strings), bestanden uit SharePoint en OneDrive downloaden, mail lezen, Key Vault-geheimen stelen, Azure DevOps doorzoeken en scripts draaien via Azure Run Command.",
-    "Mislukte verzoeken werden binnen ongeveer 28 tot 80 seconden aangepast en opnieuw geprobeerd; in één geval duurde het vijf minuten van zoeken op GitHub tot het leeghalen van Azure Key Vault.",
-    "Microsoft noemt de foutcodes AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim) als teken dat iemand een sleutel van je app gebruikt."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo zoek je in Microsoft Sentinel naar adressen die met een ongeldig of verlopen geheim proberen in te loggen als een app. Regel 1 kiest de aanmeldingen van service principals, regel 3 filtert op de twee foutcodes, regel 4 telt per adres het aantal pogingen en verschillende apps.",
-    "language": "kql",
-    "code": "AADServicePrincipalSignInLogs\n| where TimeGenerated > ago(30d)\n| where ResultType in (\"7000215\", \"7000222\")\n| summarize Pogingen = count(), Apps = dcount(AppId) by IPAddress\n| order by Pogingen desc",
-    "note": "Nagebouwd voorbeeld. Microsoft noemt de foutcodes en andere tabellen (zoals EntraIdSpnSignInEvents); controleer de tabel- en kolomnamen in je eigen omgeving.",
-    "result": {
-     "columns": [
-      "IPAddress",
-      "Pogingen",
-      "Apps"
-     ],
-     "rows": [
-      [
-       "203.0.113.10",
-       "41",
-       "6"
-      ],
-      [
-       "198.51.100.7",
-       "2",
-       "1"
-      ]
-     ]
-    }
-   },
-   "terms": [
-    {
-     "term": "service principal",
-     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
-    },
-    {
-     "term": "client secret",
-     "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."
-    },
-    {
-     "term": "Key Vaults",
-     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
-    },
-    {
-     "term": "Run Command",
-     "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."
-    },
-    {
-     "term": "managed identities",
-     "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."
-    },
-    {
-     "term": "secret scanning",
-     "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."
-   },
-   "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
-   "region": "world"
-  },
-  {
-   "id": "a40dff3d749a",
-   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T15:21:49Z",
-   "fetched_at": "2026-11-07T01:23:05.552825Z",
-   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
-   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
-   "limitations": [
-    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
-    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
-    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
-    "Wie achter de pogingen zit, is niet bekend.",
-    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen"
-   ],
-   "relevance_score": 90,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.83,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:34:40Z",
+   "processed_at": "2026-11-05T01:41:39Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
+   "headline": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten",
    "story": [
-    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
-    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
-    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
-    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
-    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
+    "Mandiant hielp in 2026 bij meerdere incidenten waarin aanvallers de AI-toegang van bedrijven kaapten. Dat heet LLMJacking. De aanvaller gebruikt de taalmodellen van het slachtoffer in de cloud, en het slachtoffer krijgt de rekening. Die liep soms op tot meer dan 100.000 dollar op één dag, en tot 1 miljoen dollar in totaal. Slachtoffers zaten onder meer in de financiële sector, retail, technologie en transport.",
+    "Hoe werkt het normaal? Een bedrijf dat AI-modellen gebruikt bij AWS, Azure of Google Cloud, praat met die modellen via een API. Elk verzoek wordt afgerekend, en toegang loopt via sleutels. Wie zo'n sleutel heeft, kan dus namens het bedrijf modellen gebruiken. Volgens Mandiant kwamen aanvallers vooral binnen met gestolen of gelekte sleutels: sleutels van serviceaccounts, GitHub-tokens en AI-sleutels die openbaar op GitHub stonden. Eén aanvaller testte gevonden sleutels met piepkleine verzoeken, zodat ze in de logs nauwelijks opvielen.",
+    "Daarna breidden de aanvallers hun toegang uit. Ze maakten eigen beheerdersaccounts en SSH-sleutels aan, en zetten AI-diensten aan die het bedrijf nog niet gebruikte. Een tweede groep misbruikte een lek in de AI-gateway LiteLLM (CVE-2026-40217) om een gewone sleutel tot beheerderssleutel te maken. De toegang werd doorverkocht via zogeheten LLM-mixers: diensten die gestolen sleutels bundelen en goedkope abonnementen verkopen. Via één zo'n dienst kwam bij één slachtoffer bijna 1 miljoen dollar aan kosten terecht.",
+    "Waar zie je het? In de auditlogs van de cloud. Let op AI-diensten die ineens aangezet worden, nieuwe modeltoegang, uitgezette logging en plotselinge pieken in modelverzoeken. Mandiant waarschuwt dat bij Google Cloud de logs van modelverzoeken standaard uit staan. Bescherming volgens Mandiant: geen geheimen in code, sleutels beperken per model, uitgavenlimieten en budgetwaarschuwingen instellen, en LiteLLM bijwerken.",
+    "Voor organisaties is de les dat een gelekte cloudsleutel nu ook direct geld kost, niet alleen gegevens. Een budgetwaarschuwing is daarmee ook een beveiligingsmelding."
    ],
    "key_facts": [
-    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
-    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
-    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
-    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
-    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
-    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
+    "Mandiant reageerde in 2026 op meerdere LLMJacking-incidenten in Noord-Amerika, Zuid-Amerika en Azië-Pacific, bij financiële dienstverleners, retail, technologie en transport.",
+    "Kosten in afzonderlijke incidenten: meer dan 100.000 dollar op één dag en tot 1 miljoen dollar in totaal.",
+    "Belangrijkste ingang: gestolen of blootgestelde cloudidentiteiten (IAM-gegevens, sleutels van serviceaccounts, GitHub-tokens, sessietokens) en openbaar gelekte LLM-API-sleutels; één aanvaller testte sleutels met verzoeken van max_tokens=1.",
+    "Een vervolggroep misbruikte CVE-2026-40217 in LiteLLM (/key/regenerate) om gewone sleutels tot PROXY_ADMIN-sleutels te maken.",
+    "Doorverkoop via 'LLM-mixers'; de dienst Jet Night bracht één slachtoffer bijna 1 miljoen dollar aan kosten en deed meer dan 500.000 API-verzoeken in minder dan acht uur.",
+    "Bij Google Cloud staan de Data Access-logs voor modelverzoeken standaard uit; in meerdere incidenten waren AI-diensten nog niet aangezet en zette de aanvaller ze aan."
    ],
    "article_type": "nieuws",
    "showcase": {
-    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
+    "caption": "Zo kan een LLMJacking-aanval eruitzien in AWS CloudTrail. Eerst verkent de aanvaller welke modellen er zijn. Dan ontgrendelt hij modeltoegang en zet hij de logging van modelverzoeken uit. Daarna volgen duizenden verzoeken vanaf een serviceaccount dat dat nooit eerder deed.",
     "language": "log",
-    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
+    "code": "01:12:03 source=bedrock.amazonaws.com event=ListFoundationModels user=svc-build ip=203.0.113.50\n01:12:41 source=bedrock.amazonaws.com event=PutUseCaseForModelAccess user=svc-build ip=203.0.113.50\n01:13:05 source=bedrock.amazonaws.com event=CreateFoundationModelAgreement user=svc-build ip=203.0.113.50\n01:13:30 source=bedrock.amazonaws.com event=DeleteModelInvocationLoggingConfiguration user=svc-build ip=203.0.113.50\n01:14:00-01:24:00 source=bedrock.amazonaws.com event=InvokeModel user=svc-build ip=203.0.113.50 count=4812",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres; de namen van de gebeurtenissen komen uit het onderzoek van Mandiant."
    },
    "terms": [
     {
-     "term": "honeypot",
-     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+     "term": "LLMJacking",
+     "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
     },
     {
-     "term": "hash",
-     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+     "term": "API",
+     "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen."
     },
     {
-     "term": "musl",
-     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
+     "term": "serviceaccounts",
+     "explanation": "Accounts voor software in plaats van mensen. Een programma logt ermee in om bij clouddiensten te komen, vaak met een sleutel in plaats van een wachtwoord."
     },
     {
-     "term": "PAM",
-     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
+     "term": "AI-gateway",
+     "explanation": "Een tussenstation dat verzoeken naar verschillende AI-modellen doorstuurt en sleutels, rechten en kosten beheert."
     },
     {
-     "term": "sshd",
-     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
     }
    ],
-   "soort": "kwetsbaarheid",
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
    "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een nieuw aanvalspatroon in de cloud met concrete logsignalen past bij je leerdoelen."
    },
-   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "takeaway": "Een cloudsleutel is een betaalpas: wie hem heeft, kan diensten aanzetten en gebruiken op jouw rekening. Detecteer daarom ook het aanzetten van diensten en ongewone kosten, niet alleen inbraken.",
    "region": "world"
   },
   {
@@ -1332,6 +1122,216 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "9fcf62b29cf8",
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-11-05T23:46:50Z",
+   "fetched_at": "2026-11-06T01:23:37.390589Z",
+   "summary": "Microsoft ziet aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar gelekte geheimen. In één geval ging een agent in vijf minuten van zoeken naar het leeghalen van een Azure Key Vault.",
+   "personal_relevance": "Veel klanten hebben apps met geheimen in Entra en code op GitHub. Vragen die je kunt stellen: monitoren jullie aanmeldingen van service principals, en scannen jullie code op geheimen voordat die online komt?",
+   "limitations": [
+    "Microsoft noemt geen aanvallersgroep en geen aantal getroffen organisaties.",
+    "Microsoft vermoedt dat de aanvaller gestolen AI-resources wilde gebruiken voor verdere activiteit; dat is niet bevestigd.",
+    "Microsoft is zelf leverancier van de cloud en van beveiligingsproducten; een deel van de adviezen verwijst naar eigen producten.",
+    "Of dezelfde aanvallers achter eerdere ARTEX-campagnes zitten, zoals bij ConnectWise, staat niet in het stuk."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.78,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:30:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in",
+   "story": [
+    "Microsoft Threat Intelligence ziet sinds augustus 2026 aanvallers die het AI-framework ARTEX op GitHub laten zoeken naar geheimen. Het gaat om inloggegevens van applicaties, OAuth-geheimen en API-sleutels voor AI-diensten. Ontwikkelaars hadden die in openbare code gezet. Vanaf 28 oktober gebruikten AI-agenten de gevonden sleutels om binnen te komen bij de organisaties erachter. Microsoft noemt geen naam van een aanvallersgroep.",
+    "Hoe werkt dat? Een applicatie die bij Microsoft 365 of Azure wil, heeft daar een eigen identiteit: een service principal. Die logt in met een client secret, een soort wachtwoord voor software. Ontwikkelaars zetten zo'n geheim soms in een configuratiebestand of script, om snel iets werkend te krijgen. Staat die code openbaar op GitHub, dan kan iedereen het lezen. Zoeken naar zulke geheimen is niet nieuw. Nieuw is de snelheid: de agent doorzoekt veel code tegelijk, beoordeelt wat hij vindt en gaat zelf verder met de aanval.",
+    "Wat deden de agenten daarna? Ze logden in als de app en zochten naar functies die nog meer geheimen teruggeven, zoals opslagsleutels en connection strings. Ze downloadden bestanden uit SharePoint en OneDrive en lazen mail. Ze haalden geheimen uit Key Vaults en voerden met Run Command scripts uit op virtuele servers. Mislukte een verzoek, dan paste de agent het binnen 28 tot 80 seconden aan. In één geval zat er vijf minuten tussen zoeken op GitHub en het leeghalen van een Key Vault.",
+    "Je ziet dit in de aanmeldingen van service principals in Entra, niet bij die van gewone gebruikers. Microsoft wijst op twee foutcodes: AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim). Die betekenen dat iemand een sleutel van jouw app probeert. Een mislukte poging gevolgd door een gelukte is urgent. Verdacht is ook één adres dat bij drie of meer service principals inlogt, of één app die in korte tijd toegang vraagt tot veel verschillende diensten.",
+    "De les: een geheim dat ooit openbaar stond, moet je als gestolen beschouwen. Ook als je het verwijdert, staat het nog in de geschiedenis van de code en in kopieën. Microsoft adviseert zulke geheimen meteen te vervangen en apps te laten inloggen met managed identities, zonder geheim. Zet ook secret scanning aan met push protection. Die houdt een geheim tegen voordat het online komt."
+   ],
+   "key_facts": [
+    "Microsoft Threat Intelligence publiceerde de analyse op 5 november 2026; de zoekactiviteit op GitHub zag Microsoft vanaf augustus 2026.",
+    "Het agentische aanvalsframework ARTEX zocht in openbare GitHub-repositories naar inloggegevens, OAuth client secrets van applicaties en API-sleutels voor AI-diensten.",
+    "Vanaf 28 oktober 2026 logden agenten met gelekte applicatiegegevens in bij Entra ID-omgevingen; de aanmeldingen kwamen vooral van twee IP-adressen, waarvan één een Tor-exitnode.",
+    "Vervolgacties: credentials opvragen (opslagsleutels, connection strings), bestanden uit SharePoint en OneDrive downloaden, mail lezen, Key Vault-geheimen stelen, Azure DevOps doorzoeken en scripts draaien via Azure Run Command.",
+    "Mislukte verzoeken werden binnen ongeveer 28 tot 80 seconden aangepast en opnieuw geprobeerd; in één geval duurde het vijf minuten van zoeken op GitHub tot het leeghalen van Azure Key Vault.",
+    "Microsoft noemt de foutcodes AADSTS7000215 (ongeldig geheim) en AADSTS7000222 (verlopen geheim) als teken dat iemand een sleutel van je app gebruikt."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo zoek je in Microsoft Sentinel naar adressen die met een ongeldig of verlopen geheim proberen in te loggen als een app. Regel 1 kiest de aanmeldingen van service principals, regel 3 filtert op de twee foutcodes, regel 4 telt per adres het aantal pogingen en verschillende apps.",
+    "language": "kql",
+    "code": "AADServicePrincipalSignInLogs\n| where TimeGenerated > ago(30d)\n| where ResultType in (\"7000215\", \"7000222\")\n| summarize Pogingen = count(), Apps = dcount(AppId) by IPAddress\n| order by Pogingen desc",
+    "note": "Nagebouwd voorbeeld. Microsoft noemt de foutcodes en andere tabellen (zoals EntraIdSpnSignInEvents); controleer de tabel- en kolomnamen in je eigen omgeving.",
+    "result": {
+     "columns": [
+      "IPAddress",
+      "Pogingen",
+      "Apps"
+     ],
+     "rows": [
+      [
+       "203.0.113.10",
+       "41",
+       "6"
+      ],
+      [
+       "198.51.100.7",
+       "2",
+       "1"
+      ]
+     ]
+    }
+   },
+   "terms": [
+    {
+     "term": "service principal",
+     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+     "term": "client secret",
+     "explanation": "Een geheim waarmee een applicatie zelf inlogt bij een clouddienst, een soort wachtwoord voor software. Wie het heeft, kan alles wat die app mag."
+    },
+    {
+     "term": "Key Vaults",
+     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+     "term": "Run Command",
+     "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen."
+    },
+    {
+     "term": "managed identities",
+     "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan."
+    },
+    {
+     "term": "secret scanning",
+     "explanation": "Automatisch zoeken in code naar geheimen zoals wachtwoorden en API-sleutels. Met push protection wordt code met een geheim tegengehouden voordat die online komt."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een technisch onderzoek met concrete detectietips voor cloudaanvallen."
+   },
+   "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
+   "region": "world"
+  },
+  {
+   "id": "a40dff3d749a",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T15:21:49Z",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
+   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
+   "limitations": [
+    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
+    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
+    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
+    "Wie achter de pogingen zit, is niet bekend.",
+    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.8,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:34:40Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
+   "story": [
+    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
+    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
+    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
+    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
+    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
+   ],
+   "key_facts": [
+    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
+    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
+    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
+    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
+    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
+    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
+    "language": "log",
+    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
+   },
+   "terms": [
+    {
+     "term": "honeypot",
+     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+     "term": "hash",
+     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+     "term": "musl",
+     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
+    },
+    {
+     "term": "PAM",
+     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
+    },
+    {
+     "term": "sshd",
+     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
+   },
+   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "region": "world"
+  },
+  {
    "id": "a665869d02d2",
    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
@@ -1356,10 +1356,10 @@
     "kwetsbaarheden",
     "vm"
    ],
-   "relevance_score": 89,
+   "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.78,
+    "recency": 0.75,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -1481,7 +1481,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.82,
+    "recency": 0.79,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -1551,105 +1551,6 @@
    "region": "world"
   },
   {
-   "id": "f8af8b71c7c1",
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source_id": "microsoft_threat_intel",
-   "published_at": "2026-10-21T18:23:55Z",
-   "fetched_at": "2026-11-03T21:07:39.907698Z",
-   "summary": "Microsoft koppelt de inbraak bij ConnectWise Cloud Backup aan Storm-0940. Met gestolen identiteiten van ConnectWise-apps en de AI-tool ARTEX probeerde de groep in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten.",
-   "personal_relevance": "Veel klanten hebben apps van leveranciers met brede rechten in Microsoft 365. Een goede vraag: welke externe apps hebben bij jullie rechten op mail of de hele omgeving, en monitoren jullie wat die apps doen?",
-   "limitations": [
-    "De toeschrijving aan Storm-0940 en aan de Chinese staat is een inschatting van Microsoft.",
-    "Hoe de aanvaller de app-identiteiten van ConnectWise in handen kreeg, staat niet in het stuk.",
-    "Een geslaagde aanmelding betekent volgens Microsoft niet automatisch dat er gegevens zijn ingezien of gestolen.",
-    "Microsoft noemt eigen beveiligingsproducten als oplossing; het stuk is ook reclame."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "siem_detection",
-    "supply_chain",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "ti",
-    "detectie",
-    "web",
-    "incidenten"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.38,
-    "source": 0.8,
-    "quality": 0.8,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI",
-   "story": [
-    "Microsoft schrijft de inbraak bij ConnectWise Cloud Backup toe aan Storm-0940, een groep die volgens Microsoft aan de Chinese staat gelieerd is. De groep kreeg controle over de identiteiten van meerdere cloudapplicaties van ConnectWise. Daarmee probeerden AI-agenten van het framework ARTEX in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten. Volgens Microsoft zat er geen fout in de eigen systemen.",
-    "Hoe werkt dat normaal? Een back-updienst moet bij de mail en bestanden van klanten kunnen. Daarvoor registreert de leverancier één app die bij veel klanten tegelijk werkt. Elke klant geeft die app eenmalig toestemming. Daarna logt de app zelf in met een eigen sleutel, zonder gebruiker: dat heet app-only. In de klantomgeving bestaat de app als service principal, een soort serviceaccount. Wie de sleutel van zo'n app steelt, krijgt in één keer toegang bij alle klanten, zonder wachtwoord of MFA van een gebruiker. Dat maakt dit een supply chain-aanval: de aanvaller misbruikt vertrouwen dat al bestond.",
-    "In sommige omgevingen ging het verder dan inloggen. Via Microsoft Graph verkenden de agenten de omgeving, voegden ze extra inloggegevens aan apps toe en probeerden ze rechten te veranderen. Een app gaf zichzelf zelfs de rol Global Administrator. In Azure lazen ze in korte tijd geheimen uit meerdere Key Vaults. Microsoft telde meer dan 200 aanmeldingen in minder dan vier minuten. Daarnaast deed dezelfde infrastructuur van 10 tot 14 oktober aan password spraying: 151.000 mislukte pogingen, zonder succes.",
-    "Je ziet dit niet in de gewone aanmeldingen van gebruikers. Je moet kijken naar de aanmeldingen van service principals en naar de auditlogs van Entra: nieuwe sleutels op een app, nieuwe rollen en nieuwe toestemmingen. Koppel die aan wat er daarna via Graph gebeurt. Microsoft adviseert de getroffen apps uit te schakelen, maar niet meteen te verwijderen: eerst bewijs bewaren. Controleer vanaf minstens 15 oktober, en aanmeldingen van service principals zo mogelijk vanaf 1 oktober.",
-    "Voor organisaties is de les breder dan ConnectWise. Elke app van een leverancier met hoge rechten is een sleutel tot je omgeving. Een extra sleutel die een aanvaller aan zo'n app hangt, blijft werken als achterdeur, ook nadat de oorspronkelijke fout is opgelost. Weet dus welke apps welke rechten hebben, en geef ze niet meer dan nodig (least privilege)."
-   ],
-   "key_facts": [
-    "Microsoft publiceerde de analyse op 21 oktober 2026 en schrijft de ConnectWise-inbraak toe aan Storm-0940, volgens Microsoft gelieerd aan de Chinese staat en actief sinds 2021.",
-    "Het getroffen product is ConnectWise Cloud Backup; ConnectWise publiceerde op 16 oktober 2026 een eerste advies.",
-    "Met gestolen app-identiteiten probeerden ARTEX-agenten in te loggen bij meer dan 2.250 tenants; meer dan 200 aanmeldingen in minder dan vier minuten met vier app-sleutels.",
-    "In sommige omgevingen volgden verkenning via Microsoft Graph, extra inloggegevens op apps, rolwijzigingen (waaronder een app die zichzelf Global Administrator maakte) en het uitlezen van Azure Key Vaults.",
-    "Van 10 tot 14 oktober 2026: password spraying op 327 accounts bij acht organisaties, meer dan 151.000 mislukte pogingen en geen geslaagde aanmelding.",
-    "Microsoft zag meerdere gevallen waarin het minder dan drie uur duurde van eerste doelwit tot beheerdersrechten, maar de meeste pogingen mislukten."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een eenvoudige zoekopdracht in de auditlogs van Entra. Regel 1 kiest de auditlogs. Regel 2 kijkt vanaf 15 oktober. Regel 3 zoekt naar nieuwe sleutels op een app, nieuwe rollen en nieuwe app-rechten. Regel 4 houdt alleen wijzigingen over die door een app zijn gedaan, niet door een mens. Regel 5 toont wanneer, wat, wie en waarop.",
-    "language": "kql",
-    "code": "AuditLogs\n| where TimeGenerated > datetime(2026-10-15)\n| where OperationName in (\"Add service principal credentials\", \"Add member to role\", \"Add app role assignment to service principal\")\n| where isnotempty(InitiatedBy.app.displayName)\n| project TimeGenerated, OperationName, InitiatedBy, TargetResources",
-    "note": "Nagebouwd voorbeeld. Microsoft publiceert zelf uitgebreidere zoekopdrachten in het oorspronkelijke stuk."
-   },
-   "terms": [
-    {
-     "term": "app-only",
-     "explanation": "Een manier van inloggen waarbij een applicatie zelf inlogt met een eigen sleutel of certificaat, zonder dat er een gebruiker bij is. Er is dus ook geen MFA van een gebruiker."
-    },
-    {
-     "term": "service principal",
-     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "Microsoft Graph",
-     "explanation": "De centrale toegangsweg (API) tot gegevens in Microsoft 365, zoals mail, bestanden, gebruikers en groepen. Apps en beheertools gebruiken het, aanvallers ook."
-    },
-    {
-     "term": "Key Vaults",
-     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
-    },
-    {
-     "term": "password spraying",
-     "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
-   },
-   "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
-   "region": "world"
-  },
-  {
    "id": "7b72d51a9df2",
    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
    "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -1685,7 +1586,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.54,
+    "recency": 0.52,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -1833,7 +1734,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.68,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -1943,118 +1844,6 @@
    "region": "world"
   },
   {
-   "id": "649e0d8b078e",
-   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T12:06:43Z",
-   "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
-   "fetched_at": "2026-11-07T01:23:05.552825Z",
-   "summary": "Microsoft heeft een lek in Paint gedicht waarmee code kan worden uitgevoerd. De fix komt alleen via de Microsoft Store, en de officiële versienummers spreken elkaar tegen. Dat kan scanners in de war brengen.",
-   "personal_relevance": "Dit is een praktisch voorbeeld voor klantgesprekken over vulnerability management: dekt de scanner ook Store-apps, per gebruiker, en welke versie geldt als 'opgelost' als bronnen elkaar tegenspreken?",
-   "limitations": [
-    "Welke dienst het 'netwerkpakket' ontvangt en of de aanval via bestanden loopt, is niet bekend.",
-    "Waarom de fix alleen via de Store komt en waarom het fixnummer veranderde, legt Microsoft niet uit.",
-    "Hoe snel de Store-update op grote schaal aankomt, is niet bekend; één testmachine kreeg hem automatisch.",
-    "Hoe systemen met een uitgeschakelde Store de fix krijgen, staat niet in het artikel."
-   ],
-   "topics": [
-    "vulnerability_management",
-    "vulnerabilities_cve"
-   ],
-   "groups": [
-    "vm",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.83,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:35:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
-   "story": [
-    "Microsoft heeft een kwetsbaarheid in Paint gedicht, CVE-2026-83844. Het is een out-of-bounds read die tot remote code execution kan leiden. Microsoft noemt de ernst 'Important', met een CVSS-score van 8,1. Bij publicatie op 13 oktober werd het lek volgens Microsoft niet misbruikt en was het niet openbaar. De fix zit in Paint-versie 11.2609.401.0, en die komt alleen via de Microsoft Store.",
-    "Waarom is dat bijzonder? Klassieke Windows-onderdelen krijgen hun updates via Windows Update, op Patch Tuesday. Paint is tegenwoordig een Store-app. Zo'n app wordt per gebruiker geïnstalleerd en apart bijgewerkt. Windows kan daarnaast een voorbereide kopie bewaren voor nieuwe gebruikers. Wie alleen naar Windows Update kijkt, mist deze fix dus. Wie alleen het account van de ingelogde gebruiker controleert, mist oudere kopieën bij andere gebruikers.",
-    "Wat is een out-of-bounds read? Een programma leest gegevens buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie prijsgeven en is soms een opstap om code uit te voeren. Volgens het advies stuurt een aanvaller 'een speciaal gemaakt pakket naar een getroffen dienst via het netwerk'. Welke dienst dat bij Paint is, en of het om bestanden zoals afbeeldingen gaat, zegt het artikel niet. Microsoft zegt wel dat een aanval diepe kennis van het doelsysteem vraagt.",
-    "Er is nog een probleem voor vulnerability management. Het CVE-record en NVD noemen Paint alleen kwetsbaar onder versie 11.2605.91.0. Een scanner die daarop vertrouwt, keurt versies vanaf 11.2605.91.0 goed. Microsoft noemt in zijn advies juist 11.2609.401.0 als versie met de fix. Wie zeker wil zijn, houdt het hoogste nummer aan. Met PowerShell vraag je de versie voor alle gebruikers op, en met beheertools zoals Intune dwing je de Store-update af.",
-    "Voor organisaties is de les dat niet elke patch dezelfde route volgt. Store-apps en andere programma's met een eigen updater vallen buiten het maandelijkse patchritme. Is de Store in je omgeving uitgeschakeld, dan is onduidelijk hoe deze fix binnenkomt; het artikel zegt daar niets over. Een workaround is er niet. Wie Paint niet nodig heeft, kan het volgens een onderzoeker verwijderen, maar dat is niet getest."
-   ],
-   "key_facts": [
-    "CVE-2026-83844 is een out-of-bounds read in Windows Paint die tot remote code execution kan leiden; Microsoft geeft 'Important' en CVSS 8,1 (advies van 13 oktober 2026).",
-    "Volgens Microsoft was het lek bij publicatie niet misbruikt en niet openbaar; het stond niet in CISA KEV toen The Hacker News keek.",
-    "De fix (Paint 11.2609.401.0) komt alleen via een update in de Microsoft Store, niet via Windows Update.",
-    "Het CVE-record en NVD noemen Paint alleen kwetsbaar onder 11.2605.91.0; Microsofts advies noemt 11.2609.401.0 als versie met de fix, zonder uitleg over het verschil.",
-    "Paint wordt per gebruiker geïnstalleerd en Windows kan een voorbereide kopie voor nieuwe gebruikers bewaren; het artikel geeft PowerShell-opdrachten om alle kopieën te controleren.",
-    "The Hacker News zag 11.2609.401.0 op 6 november als nieuwste Store-versie in alle tien gecontroleerde landen; eerder die week was dat nog 11.2605.81.0, zonder fix."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
-    "language": "powershell",
-    "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
-    "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
-    "result": {
-     "columns": [
-      "Version",
-      "Users"
-     ],
-     "rows": [
-      [
-       "11.2609.401.0",
-       "VOORBEELD\\anna"
-      ],
-      [
-       "11.2605.81.0",
-       "VOORBEELD\\piet"
-      ]
-     ]
-    }
-   },
-   "terms": [
-    {
-     "term": "out-of-bounds read",
-     "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."
-    },
-    {
-     "term": "remote code execution",
-     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
-    },
-    {
-     "term": "Patch Tuesday",
-     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
-    },
-    {
-     "term": "Store-app",
-     "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."
-    },
-    {
-     "term": "NVD",
-     "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
-    },
-    {
-     "term": "Intune",
-     "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."
-   },
-   "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
-   "region": "world"
-  },
-  {
    "id": "ff63fc905db0",
    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -2081,7 +1870,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.82,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -2172,7 +1961,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.28,
+    "recency": 0.27,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -2241,6 +2030,105 @@
    "region": "world"
   },
   {
+   "id": "f8af8b71c7c1",
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-10-21T18:23:55Z",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft koppelt de inbraak bij ConnectWise Cloud Backup aan Storm-0940. Met gestolen identiteiten van ConnectWise-apps en de AI-tool ARTEX probeerde de groep in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten.",
+   "personal_relevance": "Veel klanten hebben apps van leveranciers met brede rechten in Microsoft 365. Een goede vraag: welke externe apps hebben bij jullie rechten op mail of de hele omgeving, en monitoren jullie wat die apps doen?",
+   "limitations": [
+    "De toeschrijving aan Storm-0940 en aan de Chinese staat is een inschatting van Microsoft.",
+    "Hoe de aanvaller de app-identiteiten van ConnectWise in handen kreeg, staat niet in het stuk.",
+    "Een geslaagde aanmelding betekent volgens Microsoft niet automatisch dat er gegevens zijn ingezien of gestolen.",
+    "Microsoft noemt eigen beveiligingsproducten als oplossing; het stuk is ook reclame."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "siem_detection",
+    "supply_chain",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "ti",
+    "detectie",
+    "web",
+    "incidenten"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.37,
+    "source": 0.8,
+    "quality": 0.8,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI",
+   "story": [
+    "Microsoft schrijft de inbraak bij ConnectWise Cloud Backup toe aan Storm-0940, een groep die volgens Microsoft aan de Chinese staat gelieerd is. De groep kreeg controle over de identiteiten van meerdere cloudapplicaties van ConnectWise. Daarmee probeerden AI-agenten van het framework ARTEX in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten. Volgens Microsoft zat er geen fout in de eigen systemen.",
+    "Hoe werkt dat normaal? Een back-updienst moet bij de mail en bestanden van klanten kunnen. Daarvoor registreert de leverancier één app die bij veel klanten tegelijk werkt. Elke klant geeft die app eenmalig toestemming. Daarna logt de app zelf in met een eigen sleutel, zonder gebruiker: dat heet app-only. In de klantomgeving bestaat de app als service principal, een soort serviceaccount. Wie de sleutel van zo'n app steelt, krijgt in één keer toegang bij alle klanten, zonder wachtwoord of MFA van een gebruiker. Dat maakt dit een supply chain-aanval: de aanvaller misbruikt vertrouwen dat al bestond.",
+    "In sommige omgevingen ging het verder dan inloggen. Via Microsoft Graph verkenden de agenten de omgeving, voegden ze extra inloggegevens aan apps toe en probeerden ze rechten te veranderen. Een app gaf zichzelf zelfs de rol Global Administrator. In Azure lazen ze in korte tijd geheimen uit meerdere Key Vaults. Microsoft telde meer dan 200 aanmeldingen in minder dan vier minuten. Daarnaast deed dezelfde infrastructuur van 10 tot 14 oktober aan password spraying: 151.000 mislukte pogingen, zonder succes.",
+    "Je ziet dit niet in de gewone aanmeldingen van gebruikers. Je moet kijken naar de aanmeldingen van service principals en naar de auditlogs van Entra: nieuwe sleutels op een app, nieuwe rollen en nieuwe toestemmingen. Koppel die aan wat er daarna via Graph gebeurt. Microsoft adviseert de getroffen apps uit te schakelen, maar niet meteen te verwijderen: eerst bewijs bewaren. Controleer vanaf minstens 15 oktober, en aanmeldingen van service principals zo mogelijk vanaf 1 oktober.",
+    "Voor organisaties is de les breder dan ConnectWise. Elke app van een leverancier met hoge rechten is een sleutel tot je omgeving. Een extra sleutel die een aanvaller aan zo'n app hangt, blijft werken als achterdeur, ook nadat de oorspronkelijke fout is opgelost. Weet dus welke apps welke rechten hebben, en geef ze niet meer dan nodig (least privilege)."
+   ],
+   "key_facts": [
+    "Microsoft publiceerde de analyse op 21 oktober 2026 en schrijft de ConnectWise-inbraak toe aan Storm-0940, volgens Microsoft gelieerd aan de Chinese staat en actief sinds 2021.",
+    "Het getroffen product is ConnectWise Cloud Backup; ConnectWise publiceerde op 16 oktober 2026 een eerste advies.",
+    "Met gestolen app-identiteiten probeerden ARTEX-agenten in te loggen bij meer dan 2.250 tenants; meer dan 200 aanmeldingen in minder dan vier minuten met vier app-sleutels.",
+    "In sommige omgevingen volgden verkenning via Microsoft Graph, extra inloggegevens op apps, rolwijzigingen (waaronder een app die zichzelf Global Administrator maakte) en het uitlezen van Azure Key Vaults.",
+    "Van 10 tot 14 oktober 2026: password spraying op 327 accounts bij acht organisaties, meer dan 151.000 mislukte pogingen en geen geslaagde aanmelding.",
+    "Microsoft zag meerdere gevallen waarin het minder dan drie uur duurde van eerste doelwit tot beheerdersrechten, maar de meeste pogingen mislukten."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige zoekopdracht in de auditlogs van Entra. Regel 1 kiest de auditlogs. Regel 2 kijkt vanaf 15 oktober. Regel 3 zoekt naar nieuwe sleutels op een app, nieuwe rollen en nieuwe app-rechten. Regel 4 houdt alleen wijzigingen over die door een app zijn gedaan, niet door een mens. Regel 5 toont wanneer, wat, wie en waarop.",
+    "language": "kql",
+    "code": "AuditLogs\n| where TimeGenerated > datetime(2026-10-15)\n| where OperationName in (\"Add service principal credentials\", \"Add member to role\", \"Add app role assignment to service principal\")\n| where isnotempty(InitiatedBy.app.displayName)\n| project TimeGenerated, OperationName, InitiatedBy, TargetResources",
+    "note": "Nagebouwd voorbeeld. Microsoft publiceert zelf uitgebreidere zoekopdrachten in het oorspronkelijke stuk."
+   },
+   "terms": [
+    {
+     "term": "app-only",
+     "explanation": "Een manier van inloggen waarbij een applicatie zelf inlogt met een eigen sleutel of certificaat, zonder dat er een gebruiker bij is. Er is dus ook geen MFA van een gebruiker."
+    },
+    {
+     "term": "service principal",
+     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+     "term": "Microsoft Graph",
+     "explanation": "De centrale toegangsweg (API) tot gegevens in Microsoft 365, zoals mail, bestanden, gebruikers en groepen. Apps en beheertools gebruiken het, aanvallers ook."
+    },
+    {
+     "term": "Key Vaults",
+     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+     "term": "password spraying",
+     "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
+   },
+   "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
+   "region": "world"
+  },
+  {
    "id": "4d33a21d5cc6",
    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
    "url": "https://www.huntress.com/blog/token-replay-spray",
@@ -2269,7 +2157,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.39,
+    "recency": 0.38,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -2339,107 +2227,6 @@
    "region": "world"
   },
   {
-   "id": "875e59480304",
-   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
-   "source_id": "microsoft_threat_intel",
-   "published_at": "2026-11-03T17:32:47Z",
-   "fetched_at": "2026-11-03T21:07:39.907698Z",
-   "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
-   "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
-   "limitations": [
-    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
-    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
-    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
-   ],
-   "official_docs": [
-    {
-     "label": "Microsoft Threat Intelligence: fake-download campaign",
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
-    }
-   ],
-   "topics": [
-    "siem_detection",
-    "threat_intelligence",
-    "malware"
-   ],
-   "groups": [
-    "detectie",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.72,
-    "source": 0.8,
-    "quality": 0.6,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:46:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
-   "story": [
-    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
-    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
-    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
-    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
-   ],
-   "key_facts": [
-    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
-    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
-    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
-    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
-    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
-    "language": "kql",
-    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
-    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
-   },
-   "terms": [
-    {
-     "term": "resource hijacking",
-     "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
-    },
-    {
-     "term": "adware",
-     "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
-    },
-    {
-     "term": "geplande taken",
-     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
-    },
-    {
-     "term": "SYSTEM-rechten",
-     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
-    },
-    {
-     "term": "PUA",
-     "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
-   },
-   "customer_questions": [
-    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
-    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
-    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
-   ],
-   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
-   "region": "world"
-  },
-  {
    "id": "842bc764ab47",
    "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
    "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
@@ -2468,7 +2255,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.72,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -2538,199 +2325,6 @@
    "region": "world"
   },
   {
-   "id": "987ba3712202",
-   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T19:05:19Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
-   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
-   "limitations": [
-    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
-    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
-    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
-    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "web_software_security",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.76,
-    "source": 0.68,
-    "quality": 0.57,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
-   "story": [
-    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
-    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
-    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
-    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
-    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
-   ],
-   "key_facts": [
-    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
-    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
-    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
-    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
-    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
-    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
-    "language": "log",
-    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
-   },
-   "terms": [
-    {
-     "term": "domeinregistrar",
-     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
-    },
-    {
-     "term": "FTP",
-     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
-    },
-    {
-     "term": "SFTP",
-     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
-    },
-    {
-     "term": "webshell",
-     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
-    },
-    {
-     "term": "sessie",
-     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
-    },
-    {
-     "term": "webmail-doorstuurregels",
-     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
-    }
-   ],
-   "learning": "Webtechnologie en softwarebeveiliging",
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
-   },
-   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
-   "region": "na"
-  },
-  {
-   "id": "350327fdd7cd",
-   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
-   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
-   "source_id": "the_record",
-   "published_at": "2026-11-05T00:00:00Z",
-   "fetched_at": "2026-11-05T18:27:25.503525Z",
-   "summary": "Het blockchain-analysebedrijf Chainalysis meldt nu dat van alle gebruikers namen, wachtwoord-hashes en actieve tokens zijn blootgesteld. Iedereen moet zijn wachtwoord resetten en API-sleutels vervangen.",
-   "personal_relevance": "Na zo'n melding vragen klanten vaak wat ze nu moeten doen. Dit artikel helpt uitleggen waarom ook tokens en API-sleutels vervangen moeten worden, en niet alleen wachtwoorden.",
-   "limitations": [
-    "Hoe de wachtwoorden gehasht waren en wat 'live tokens' precies zijn, heeft Chainalysis niet gezegd.",
-    "Wat 'offensive agentic techniques' inhoudt en hoe de on-path attack werkte, is niet uitgelegd.",
-    "Niet bevestigd is of de onderschepping, het lek van hashes en tokens en de verdachte accounttoegang door dezelfde aanvaller zijn gedaan.",
-    "Een aanvaller is niet geïdentificeerd; de bron legt geen verband met andere AI-ondersteunde inbraken van de afgelopen weken."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "aanvallen"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.77,
-    "source": 0.68,
-    "quality": 0.57,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens",
-   "story": [
-    "Chainalysis maakt software waarmee opsporingsdiensten en bedrijven geldstromen op blockchains volgen. Volgens de website heeft het meer dan 1.500 klanten, ook in de opsporings- en veiligheidssector. Op 30 oktober meldde het bedrijf een inbraak, maar zonder bewijs dat inloggegevens waren ingezien. Op woensdagavond 4 november kwam een update: van alle gebruikers zijn namen, gebruikersnamen, wachtwoord-hashes en actieve tokens blootgesteld.",
-    "Een goede dienst bewaart je wachtwoord niet zelf, maar een hash: een soort vingerafdruk waaruit je het wachtwoord niet direct terugrekent. Bij het inloggen maakt de dienst opnieuw de hash en vergelijkt die. Met gestolen hashes kan een aanvaller wel gaan offline kraken: miljoenen wachtwoorden proberen tot er één dezelfde hash geeft. Hoe snel dat gaat, hangt af van de methode, en die noemt Chainalysis niet. Een actief token is nog gevaarlijker: daarmee ben je al ingelogd, zonder wachtwoord.",
-    "Voor een deel van de klanten spreekt Chainalysis van een on-path attack. Daarbij zit een aanvaller tussen de gebruiker en de dienst en kan hij het verkeer onderscheppen. Hoe dat hier gebeurde, is niet bekend. Het bedrijf zegt ook dat een externe partij 'offensive agentic techniques' gebruikte, maar legt niet uit wat dat betekent. Het zegt niet dat een AI-agent de inbraak zelfstandig uitvoerde.",
-    "Chainalysis haalde de inlogpagina en meerdere producten offline, waaronder het onderzoeksprogramma Reactor en de screeningdienst KYT. In KYT was verdachte toegang tot sommige accounts te zien. Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels vervangen. Het bedrijf raadt aan de inlogpagina zelf te openen en niet via een link in een resetmail. Dat is verstandig, want na zo'n lek volgen vaak phishingmails die op zo'n resetmail lijken.",
-    "Voor organisaties die zulke diensten gebruiken, gaat het om meer dan wachtwoorden. Ook API-sleutels die in eigen systemen zijn ingebouwd, moeten worden vervangen. In een SIEM kun je zoeken naar inlogpogingen of API-gebruik vanaf onbekende adressen sinds eind oktober. Chainalysis wil sommige diensten weer opstarten met een allowlist: alleen vertrouwde IP-adressen mogen dan verbinden."
-   ],
-   "key_facts": [
-    "Chainalysis meldde op 30 oktober 2026 een inbraak en zei toen geen bewijs te hebben dat authenticatiegegevens of sessietokens waren benaderd.",
-    "In een update op woensdagavond 4 november 2026 meldde Chainalysis dat van alle gebruikers namen, gebruikersnamen, wachtwoord-hashes en actieve tokens zijn blootgesteld.",
-    "Chainalysis heeft volgens de eigen website meer dan 1.500 klanten, onder meer in de opsporings- en veiligheidssector.",
-    "Chainalysis noemt 'offensive agentic techniques' en voor een deel van de klanten een on-path attack, die volgens het bedrijf is ingeperkt.",
-    "KYT, andere adresscreeningproducten en de inlogpagina gingen offline; Reactor en Data Solutions waren al eerder offline gehaald.",
-    "Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels roteren; KYT en Address Screening zouden terugkomen met een allowlist van vertrouwde IP-adressen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo werkt het opslaan van een wachtwoord als hash. De dienst bewaart alleen de laatste regel; bij het inloggen rekent hij opnieuw en vergelijkt. Een aanvaller met die regel moet raden welk wachtwoord dezelfde uitkomst geeft.",
-    "language": "text",
-    "code": "Wachtwoord bij aanmelden:  Zomer2026!\nWat de dienst opslaat:     $argon2id$v=19$m=65536,t=3,p=4$<salt>$<hash>\n\nBij inloggen:   hash(ingevoerd wachtwoord + salt) == opgeslagen hash ?  -> ja: binnen\nNa een lek:     aanvaller probeert offline lijsten met wachtwoorden tot de uitkomst gelijk is\nActief token:   geen raden nodig, het token zelf is het toegangsbewijs",
-    "note": "Nagebouwd voorbeeld. Chainalysis zegt niet welke hashmethode het gebruikte; Argon2id is hier alleen als voorbeeld van een moderne, trage methode gekozen."
-   },
-   "terms": [
-    {
-     "term": "hash",
-     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
-    },
-    {
-     "term": "offline kraken",
-     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
-    },
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "on-path attack",
-     "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd."
-    },
-    {
-     "term": "API-sleutels",
-     "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
-    },
-    {
-     "term": "allowlist",
-     "explanation": "Een lijst van wat expliciet is toegestaan, bijvoorbeeld bepaalde IP-adressen. Alles wat niet op de lijst staat, wordt geweigerd."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een duidelijke les over hashes en tokens."
-   },
-   "takeaway": "Een gelekte wachtwoord-hash is pas gevaarlijk na offline kraken, maar een gelekt actief token geeft direct toegang. Daarom moeten na een lek ook sessies, tokens en API-sleutels ongeldig worden gemaakt.",
-   "region": "na"
-  },
-  {
    "id": "25c3eda20cfe",
    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
@@ -2759,7 +2353,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.79,
+    "recency": 0.76,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -2829,6 +2423,118 @@
    "region": "world"
   },
   {
+   "id": "649e0d8b078e",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T12:06:43Z",
+   "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "summary": "Microsoft heeft een lek in Paint gedicht waarmee code kan worden uitgevoerd. De fix komt alleen via de Microsoft Store, en de officiële versienummers spreken elkaar tegen. Dat kan scanners in de war brengen.",
+   "personal_relevance": "Dit is een praktisch voorbeeld voor klantgesprekken over vulnerability management: dekt de scanner ook Store-apps, per gebruiker, en welke versie geldt als 'opgelost' als bronnen elkaar tegenspreken?",
+   "limitations": [
+    "Welke dienst het 'netwerkpakket' ontvangt en of de aanval via bestanden loopt, is niet bekend.",
+    "Waarom de fix alleen via de Store komt en waarom het fixnummer veranderde, legt Microsoft niet uit.",
+    "Hoe snel de Store-update op grote schaal aankomt, is niet bekend; één testmachine kreeg hem automatisch.",
+    "Hoe systemen met een uitgeschakelde Store de fix krijgen, staat niet in het artikel."
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.8,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:35:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
+   "story": [
+    "Microsoft heeft een kwetsbaarheid in Paint gedicht, CVE-2026-83844. Het is een out-of-bounds read die tot remote code execution kan leiden. Microsoft noemt de ernst 'Important', met een CVSS-score van 8,1. Bij publicatie op 13 oktober werd het lek volgens Microsoft niet misbruikt en was het niet openbaar. De fix zit in Paint-versie 11.2609.401.0, en die komt alleen via de Microsoft Store.",
+    "Waarom is dat bijzonder? Klassieke Windows-onderdelen krijgen hun updates via Windows Update, op Patch Tuesday. Paint is tegenwoordig een Store-app. Zo'n app wordt per gebruiker geïnstalleerd en apart bijgewerkt. Windows kan daarnaast een voorbereide kopie bewaren voor nieuwe gebruikers. Wie alleen naar Windows Update kijkt, mist deze fix dus. Wie alleen het account van de ingelogde gebruiker controleert, mist oudere kopieën bij andere gebruikers.",
+    "Wat is een out-of-bounds read? Een programma leest gegevens buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie prijsgeven en is soms een opstap om code uit te voeren. Volgens het advies stuurt een aanvaller 'een speciaal gemaakt pakket naar een getroffen dienst via het netwerk'. Welke dienst dat bij Paint is, en of het om bestanden zoals afbeeldingen gaat, zegt het artikel niet. Microsoft zegt wel dat een aanval diepe kennis van het doelsysteem vraagt.",
+    "Er is nog een probleem voor vulnerability management. Het CVE-record en NVD noemen Paint alleen kwetsbaar onder versie 11.2605.91.0. Een scanner die daarop vertrouwt, keurt versies vanaf 11.2605.91.0 goed. Microsoft noemt in zijn advies juist 11.2609.401.0 als versie met de fix. Wie zeker wil zijn, houdt het hoogste nummer aan. Met PowerShell vraag je de versie voor alle gebruikers op, en met beheertools zoals Intune dwing je de Store-update af.",
+    "Voor organisaties is de les dat niet elke patch dezelfde route volgt. Store-apps en andere programma's met een eigen updater vallen buiten het maandelijkse patchritme. Is de Store in je omgeving uitgeschakeld, dan is onduidelijk hoe deze fix binnenkomt; het artikel zegt daar niets over. Een workaround is er niet. Wie Paint niet nodig heeft, kan het volgens een onderzoeker verwijderen, maar dat is niet getest."
+   ],
+   "key_facts": [
+    "CVE-2026-83844 is een out-of-bounds read in Windows Paint die tot remote code execution kan leiden; Microsoft geeft 'Important' en CVSS 8,1 (advies van 13 oktober 2026).",
+    "Volgens Microsoft was het lek bij publicatie niet misbruikt en niet openbaar; het stond niet in CISA KEV toen The Hacker News keek.",
+    "De fix (Paint 11.2609.401.0) komt alleen via een update in de Microsoft Store, niet via Windows Update.",
+    "Het CVE-record en NVD noemen Paint alleen kwetsbaar onder 11.2605.91.0; Microsofts advies noemt 11.2609.401.0 als versie met de fix, zonder uitleg over het verschil.",
+    "Paint wordt per gebruiker geïnstalleerd en Windows kan een voorbereide kopie voor nieuwe gebruikers bewaren; het artikel geeft PowerShell-opdrachten om alle kopieën te controleren.",
+    "The Hacker News zag 11.2609.401.0 op 6 november als nieuwste Store-versie in alle tien gecontroleerde landen; eerder die week was dat nog 11.2605.81.0, zonder fix."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
+    "language": "powershell",
+    "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
+    "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
+    "result": {
+     "columns": [
+      "Version",
+      "Users"
+     ],
+     "rows": [
+      [
+       "11.2609.401.0",
+       "VOORBEELD\\anna"
+      ],
+      [
+       "11.2605.81.0",
+       "VOORBEELD\\piet"
+      ]
+     ]
+    }
+   },
+   "terms": [
+    {
+     "term": "out-of-bounds read",
+     "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."
+    },
+    {
+     "term": "remote code execution",
+     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+     "term": "Patch Tuesday",
+     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+     "term": "Store-app",
+     "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."
+    },
+    {
+     "term": "NVD",
+     "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
+    },
+    {
+     "term": "Intune",
+     "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."
+   },
+   "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
+   "region": "world"
+  },
+  {
    "id": "580236cbddf9",
    "title": "ARMORY CASTLE Exploits BeyondTrust",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
@@ -2857,7 +2563,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.28,
+    "recency": 0.27,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -2959,7 +2665,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -3051,7 +2757,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -3149,7 +2855,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.56,
+    "recency": 0.54,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -3214,6 +2920,107 @@
    "region": "world"
   },
   {
+   "id": "875e59480304",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-11-03T17:32:47Z",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft beschrijft een campagne met nagemaakte installatieprogramma's voor gekraakte software. Die installeren stilletjes software die je internetverbinding doorverkoopt of je pc laat rekenen.",
+   "personal_relevance": "Niet elke besmetting is ransomware: dit soort 'grijze' software kost rekenkracht, bandbreedte en reputatie. Een goed voorbeeld van hoe EDR- en SIEM-gegevens samen een installatieketen zichtbaar maken.",
+   "limitations": [
+    "Microsoft noemt geen aantallen slachtoffers, geen tijdvak en geen dader.",
+    "Het artikel spreekt elkaar tegen over het aantal bevestigde verdienmodellen (drie in de tekst, twee in een tabel).",
+    "De betekenis van een aantal onderdelen in de webadressen is volgens Microsoft niet bevestigd."
+   ],
+   "official_docs": [
+    {
+     "label": "Microsoft Threat Intelligence: fake-download campaign",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
+    }
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "malware"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.7,
+    "source": 0.8,
+    "quality": 0.6,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-03T21:46:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-installers voor gekraakte software maken van je pc een verdienmodel",
+   "story": [
+    "Wie zoekt naar gekraakte software, gratis games, activators of plug-ins, komt op downloadsites met nep-installers. Microsoft Threat Intelligence beschrijft hoe die installers eruitzien als een normale Windows-installatie met Inno Setup, een veelgebruikt programma om installers te maken. Maar op de achtergrond installeren ze andere software.",
+    "Die software verdient geld met jouw computer. Microsoft bevestigt onder meer een proxyprogramma dat internetverkeer van anderen via de besmette computer stuurt, en rekensoftware die de processor en schijf laat werken (resource hijacking). Ook adware-achtige hulpprogramma's kwamen mee. Volgens Microsoft gebeurt dit vaak zonder dat de gebruiker het weet of ermee instemt.",
+    "Hoe blijft het zitten? Het proxyprogramma maakt drie geplande taken die met SYSTEM-rechten draaien: bij het opstarten, elke vijf minuten via een verborgen PowerShell-script, en elk uur. Tijdens de installatie meldt de installer bij een wisselend domein of elk onderdeel gelukt is.",
+    "Microsoft adviseert geen gekraakte software te gebruiken, bescherming tegen mogelijk ongewenste software (PUA) aan te zetten en geplande taken met SYSTEM-rechten na te lopen. Belangrijker voor organisaties: kijk naar de hele installatiesessie, niet naar losse gebeurtenissen."
+   ],
+   "key_facts": [
+    "Microsoft Threat Intelligence publiceerde op 3 november 2026 over een campagne met nagemaakte Inno Setup-installers.",
+    "Lokmiddelen waren onder meer audio-plug-ins, een kraak van een databasetool, autoclickers, een drivertool en een stemvervormer.",
+    "Bevestigde verdienmodellen: een proxy- of bandbreedteprogramma, rekensoftware (BOINC met VirtualBox) en adware-achtige hulpprogramma's.",
+    "Het proxyprogramma maakt drie geplande taken met SYSTEM-rechten, waarvan één elke vijf minuten een verborgen PowerShell-script draait.",
+    "Er is geen kwetsbaarheid misbruikt; de besmetting hangt af van een gebruiker die de installer zelf start."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een zoekopdracht in KQL uit het advies van Microsoft. Regel 1 kiest de netwerkgebeurtenissen. Regel 2 zoekt webadressen met de code van de installer. Regel 3 houdt alleen de meldingen over geslaagde of mislukte installaties over. Regel 4 toont tijd, computer, adres en het programma dat het verzoek deed.",
+    "language": "kql",
+    "code": "DeviceNetworkEvents\n| where RemoteUrl has \"d=inno\"\n| where RemoteUrl has_any (\"r=offer_execution\", \"r=offer_execution_fail\")\n| project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName",
+    "note": "Overgenomen uit het artikel van Microsoft; controleer de velden tegen je eigen omgeving voordat je hem gebruikt."
+   },
+   "terms": [
+    {
+     "term": "resource hijacking",
+     "explanation": "Het stiekem gebruiken van de rekenkracht, schijf of internetverbinding van een andermans computer, bijvoorbeeld om geld te verdienen."
+    },
+    {
+     "term": "adware",
+     "explanation": "Software die ongevraagd advertenties toont of verkeer naar reclame stuurt. Niet altijd strikt kwaadaardig, maar meestal ongewenst."
+    },
+    {
+     "term": "geplande taken",
+     "explanation": "Taken die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken ze om hun software steeds opnieuw te laten draaien."
+    },
+    {
+     "term": "SYSTEM-rechten",
+     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+     "term": "PUA",
+     "explanation": "Potentially unwanted application: software die geen echte malware is, maar wel ongewenst, zoals adware of meegeïnstalleerde extra's."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een concrete zoekopdracht, maar minder ernstig dan een inbraak."
+   },
+   "customer_questions": [
+    "Mogen medewerkers bij jullie zelf software installeren, en zie je dat terug in de logs?",
+    "Staat de bescherming tegen mogelijk ongewenste software (PUA) aan?",
+    "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
+   ],
+   "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
+   "region": "world"
+  },
+  {
    "id": "ce55129e00e3",
    "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
    "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
@@ -3246,7 +3053,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.73,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -3331,7 +3138,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.76,
+    "recency": 0.73,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -3385,6 +3192,199 @@
    "region": "na"
   },
   {
+   "id": "987ba3712202",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T19:05:19Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
+   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
+   "limitations": [
+    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
+    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
+    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
+    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "web_software_security",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.73,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
+   "story": [
+    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
+    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
+    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
+    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
+    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
+   ],
+   "key_facts": [
+    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
+    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
+    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
+    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
+    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
+    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
+    "language": "log",
+    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
+   },
+   "terms": [
+    {
+     "term": "domeinregistrar",
+     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
+    },
+    {
+     "term": "FTP",
+     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
+    },
+    {
+     "term": "SFTP",
+     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "webmail-doorstuurregels",
+     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
+    }
+   ],
+   "learning": "Webtechnologie en softwarebeveiliging",
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
+   },
+   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
+   "region": "na"
+  },
+  {
+   "id": "350327fdd7cd",
+   "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "source_id": "the_record",
+   "published_at": "2026-11-05T00:00:00Z",
+   "fetched_at": "2026-11-05T18:27:25.503525Z",
+   "summary": "Het blockchain-analysebedrijf Chainalysis meldt nu dat van alle gebruikers namen, wachtwoord-hashes en actieve tokens zijn blootgesteld. Iedereen moet zijn wachtwoord resetten en API-sleutels vervangen.",
+   "personal_relevance": "Na zo'n melding vragen klanten vaak wat ze nu moeten doen. Dit artikel helpt uitleggen waarom ook tokens en API-sleutels vervangen moeten worden, en niet alleen wachtwoorden.",
+   "limitations": [
+    "Hoe de wachtwoorden gehasht waren en wat 'live tokens' precies zijn, heeft Chainalysis niet gezegd.",
+    "Wat 'offensive agentic techniques' inhoudt en hoe de on-path attack werkte, is niet uitgelegd.",
+    "Niet bevestigd is of de onderschepping, het lek van hashes en tokens en de verdachte accounttoegang door dezelfde aanvaller zijn gedaan.",
+    "Een aanvaller is niet geïdentificeerd; de bron legt geen verband met andere AI-ondersteunde inbraken van de afgelopen weken."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "aanvallen"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.74,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens",
+   "story": [
+    "Chainalysis maakt software waarmee opsporingsdiensten en bedrijven geldstromen op blockchains volgen. Volgens de website heeft het meer dan 1.500 klanten, ook in de opsporings- en veiligheidssector. Op 30 oktober meldde het bedrijf een inbraak, maar zonder bewijs dat inloggegevens waren ingezien. Op woensdagavond 4 november kwam een update: van alle gebruikers zijn namen, gebruikersnamen, wachtwoord-hashes en actieve tokens blootgesteld.",
+    "Een goede dienst bewaart je wachtwoord niet zelf, maar een hash: een soort vingerafdruk waaruit je het wachtwoord niet direct terugrekent. Bij het inloggen maakt de dienst opnieuw de hash en vergelijkt die. Met gestolen hashes kan een aanvaller wel gaan offline kraken: miljoenen wachtwoorden proberen tot er één dezelfde hash geeft. Hoe snel dat gaat, hangt af van de methode, en die noemt Chainalysis niet. Een actief token is nog gevaarlijker: daarmee ben je al ingelogd, zonder wachtwoord.",
+    "Voor een deel van de klanten spreekt Chainalysis van een on-path attack. Daarbij zit een aanvaller tussen de gebruiker en de dienst en kan hij het verkeer onderscheppen. Hoe dat hier gebeurde, is niet bekend. Het bedrijf zegt ook dat een externe partij 'offensive agentic techniques' gebruikte, maar legt niet uit wat dat betekent. Het zegt niet dat een AI-agent de inbraak zelfstandig uitvoerde.",
+    "Chainalysis haalde de inlogpagina en meerdere producten offline, waaronder het onderzoeksprogramma Reactor en de screeningdienst KYT. In KYT was verdachte toegang tot sommige accounts te zien. Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels vervangen. Het bedrijf raadt aan de inlogpagina zelf te openen en niet via een link in een resetmail. Dat is verstandig, want na zo'n lek volgen vaak phishingmails die op zo'n resetmail lijken.",
+    "Voor organisaties die zulke diensten gebruiken, gaat het om meer dan wachtwoorden. Ook API-sleutels die in eigen systemen zijn ingebouwd, moeten worden vervangen. In een SIEM kun je zoeken naar inlogpogingen of API-gebruik vanaf onbekende adressen sinds eind oktober. Chainalysis wil sommige diensten weer opstarten met een allowlist: alleen vertrouwde IP-adressen mogen dan verbinden."
+   ],
+   "key_facts": [
+    "Chainalysis meldde op 30 oktober 2026 een inbraak en zei toen geen bewijs te hebben dat authenticatiegegevens of sessietokens waren benaderd.",
+    "In een update op woensdagavond 4 november 2026 meldde Chainalysis dat van alle gebruikers namen, gebruikersnamen, wachtwoord-hashes en actieve tokens zijn blootgesteld.",
+    "Chainalysis heeft volgens de eigen website meer dan 1.500 klanten, onder meer in de opsporings- en veiligheidssector.",
+    "Chainalysis noemt 'offensive agentic techniques' en voor een deel van de klanten een on-path attack, die volgens het bedrijf is ingeperkt.",
+    "KYT, andere adresscreeningproducten en de inlogpagina gingen offline; Reactor en Data Solutions waren al eerder offline gehaald.",
+    "Alle gebruikers moeten hun wachtwoord resetten en waar nodig API-sleutels roteren; KYT en Address Screening zouden terugkomen met een allowlist van vertrouwde IP-adressen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt het opslaan van een wachtwoord als hash. De dienst bewaart alleen de laatste regel; bij het inloggen rekent hij opnieuw en vergelijkt. Een aanvaller met die regel moet raden welk wachtwoord dezelfde uitkomst geeft.",
+    "language": "text",
+    "code": "Wachtwoord bij aanmelden:  Zomer2026!\nWat de dienst opslaat:     $argon2id$v=19$m=65536,t=3,p=4$<salt>$<hash>\n\nBij inloggen:   hash(ingevoerd wachtwoord + salt) == opgeslagen hash ?  -> ja: binnen\nNa een lek:     aanvaller probeert offline lijsten met wachtwoorden tot de uitkomst gelijk is\nActief token:   geen raden nodig, het token zelf is het toegangsbewijs",
+    "note": "Nagebouwd voorbeeld. Chainalysis zegt niet welke hashmethode het gebruikte; Argon2id is hier alleen als voorbeeld van een moderne, trage methode gekozen."
+   },
+   "terms": [
+    {
+     "term": "hash",
+     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "on-path attack",
+     "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd."
+    },
+    {
+     "term": "API-sleutels",
+     "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+    },
+    {
+     "term": "allowlist",
+     "explanation": "Een lijst van wat expliciet is toegestaan, bijvoorbeeld bepaalde IP-adressen. Alles wat niet op de lijst staat, wordt geweigerd."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een duidelijke les over hashes en tokens."
+   },
+   "takeaway": "Een gelekte wachtwoord-hash is pas gevaarlijk na offline kraken, maar een gelekt actief token geeft direct toegang. Daarom moeten na een lek ook sessies, tokens en API-sleutels ongeldig worden gemaakt.",
+   "region": "na"
+  },
+  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -3411,7 +3411,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.21,
+    "recency": 0.2,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -3511,7 +3511,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.7,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -3611,7 +3611,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.28,
+    "recency": 0.27,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -3708,7 +3708,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.38,
+    "recency": 0.36,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -3803,7 +3803,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.38,
+    "recency": 0.36,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -3904,7 +3904,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.51,
+    "recency": 0.49,
     "source": 0.68,
     "quality": 0.65,
     "fit": 0.05
@@ -3997,7 +3997,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.18,
+    "recency": 0.17,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -4092,7 +4092,7 @@
    "relevance_score": 81,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.13,
+    "recency": 0.12,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -4190,7 +4190,7 @@
    "relevance_score": 80,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.76,
+    "recency": 0.74,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -6827,14 +6827,14 @@
  ],
  "quality_report": {
   "fetched_items": 320,
-  "unique_after_dedupe": 434,
+  "unique_after_dedupe": 498,
   "merged_duplicates": 1,
   "shown": 36,
   "decisions": {
-   "included": 182,
-   "below_threshold": 113,
-   "no_topic": 109,
-   "excluded": 30
+   "included": 201,
+   "below_threshold": 133,
+   "no_topic": 126,
+   "excluded": 38
   },
   "processing": {
    "enriched": 36
@@ -6842,8 +6842,8 @@
   "without_date": 0,
   "per_group": {
    "kwetsbaarheden": 9,
-   "detectie": 4,
    "aanvallen": 9,
+   "detectie": 4,
    "incidenten": 7,
    "ti": 4,
    "vm": 3
@@ -6852,9 +6852,9 @@
    "security_nl": 2,
    "unit42": 5,
    "google_threat_intel": 5,
+   "divd": 1,
    "microsoft_threat_intel": 4,
    "the_hacker_news": 5,
-   "divd": 1,
    "cisco_talos": 3,
    "bleepingcomputer": 5,
    "huntress_blog": 3,
@@ -6917,7 +6917,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 259
+   "skipped_no_key": 298
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -6930,10 +6930,80 @@
   "max_per_source": 12,
   "not_shown": [
    {
+    "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0477 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Exchange server",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0477",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0476 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0476",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0475 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0475",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0474 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0474",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0473 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0473",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0472 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0472",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "SonicWall waarschuwt voor lek waarmee aanvallers MFA van SSL-VPN omzeilen",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960763/SonicWall+waarschuwt+voor+lek+waarmee+aanvallers+MFA+van+SSL-VPN+omzeilen?channel=rss",
-    "relevance_score": 90,
+    "relevance_score": 89,
     "decision": "included",
     "excluded_by": []
    },
@@ -6946,24 +7016,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
-    "relevance_score": 86,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
-    "relevance_score": 85,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
@@ -6986,9 +7038,27 @@
     ]
    },
    {
+    "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
+    "relevance_score": 85,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
     "source_id": "datadog_security_labs",
     "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -7012,25 +7082,57 @@
     "excluded_by": []
    },
    {
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
     "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
     "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -7046,19 +7148,17 @@
     ]
    },
    {
-    "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
-    "relevance_score": 83,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -7075,6 +7175,22 @@
     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -7103,6 +7219,56 @@
     "decision": "excluded",
     "excluded_by": [
      "roundups"
+    ]
+   },
+   {
+    "title": "Ransomware recovery is now a client retention metric",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0460 [1.00] [M/H] Kwetsbaarheden verholpen in Dell PowerProtect Data Domain",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0460",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
     ]
    },
    {
@@ -7136,9 +7302,25 @@
     ]
    },
    {
-    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+    "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
     "source_id": "securityweek",
-    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -7154,14 +7336,6 @@
     ]
    },
    {
-    "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
-    "relevance_score": 81,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft publiceert wegens RCE-lek nieuwe versie Windows Paint",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960761/Microsoft+publiceert+wegens+RCE-lek+nieuwe+versie+Windows+Paint?channel=rss",
@@ -7170,17 +7344,17 @@
     "excluded_by": []
    },
    {
-    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
     "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
@@ -7214,57 +7388,9 @@
     ]
    },
    {
-    "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0442 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle E-Business Suite",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0442",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0441 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0441",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
@@ -7294,6 +7420,14 @@
     "excluded_by": []
    },
    {
+    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
@@ -7314,136 +7448,6 @@
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
     "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Kritiek lek in Androidtelefoons maakt remote code execution mogelijk",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960200/Kritiek+lek+in+Androidtelefoons+maakt+remote+code+execution+mogelijk?channel=rss",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-    "relevance_score": 79,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0468 [1.00] [M/H] Kwetsbaarheid verholpen in Zyxel product",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0468",
-    "relevance_score": 78,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "Duizend GitLab-servers missen update voor actief misbruikt beveiligingslek",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/959933/Duizend+GitLab-servers+missen+update+voor+actief+misbruikt+beveiligingslek?channel=rss",
-    "relevance_score": 78,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-    "relevance_score": 78,
     "decision": "included",
     "excluded_by": []
    }

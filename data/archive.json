@@ -3479,7 +3479,519 @@
    "published_raw": "Mon, 09 Nov 2026 08:35:50 +0000",
    "fetched_at": "2026-11-10T07:41:52.338228Z",
    "excerpt": "<p>Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/\">Google DeepMind&#8217;s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "security_nl:0cf2a8538617": {
+   "source_id": "security_nl",
+   "title": "Kritiek Synology-lek geeft aanvaller toegang tot bestanden op NAS-systeem",
+   "url": "https://www.security.nl/posting/961107/Kritiek+Synology-lek+geeft+aanvaller+toegang+tot+bestanden+op+NAS-systeem?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 16:55:04 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Een kritiek SQL Injection-lek in NAS-systemen van Synology maakt het mogelijk voor ongeauthenticeerde aanvallers om toegang tot ..."
+  },
+  "security_nl:57225503fee1": {
+   "source_id": "security_nl",
+   "title": "Belgische overheid waarschuwt voor misbruik van inloggen via sms",
+   "url": "https://www.security.nl/posting/961099/Belgische+overheid+waarschuwt+voor+misbruik+van+inloggen+via+sms?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 16:17:30 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "De Belgische overheid waarschuwt organisaties voor aanvallers die inloggen via sms misbruiken. Meerdere Belgische organisaties ..."
+  },
+  "security_nl:8eb0afc79cac": {
+   "source_id": "security_nl",
+   "title": "Firefox biedt tot 31 januari onbeperkt dataverkeer via ingebouwde vpn",
+   "url": "https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 15:20:49 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Firefox biedt tot 31 januari volgend jaar onbeperkt dataverkeer via de gratis ingebouwde vpn, zo heeft Mozilla vandaag ..."
+  },
+  "security_nl:b9f0da8aa1ee": {
+   "source_id": "security_nl",
+   "title": "Kabinet wil biometrische scan bij uitgifte identiteitsbewijs wettelijk vastleggen",
+   "url": "https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 14:37:13 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Het kabinet wil het gebruik van een biometrische scan door gemeenten bij de uitgifte van identiteitsbewijzen wettelijk ..."
+  },
+  "security_nl:48545a052e3a": {
+   "source_id": "security_nl",
+   "title": "N-able haalt clouddienst wegens 'Able2Shell' offline, eerste aanvallen gemeld",
+   "url": "https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 14:05:00 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Softwarebedrijf N-able heeft de cloudversie van N-central offline gehaald en adviseert klanten dit ook met hun on-premises ..."
+  },
+  "security_nl:19341392ccb5": {
+   "source_id": "security_nl",
+   "title": "OM verdenkt man van oplichting bank met behulp van deepfakes",
+   "url": "https://www.security.nl/posting/961056/OM+verdenkt+man+van+oplichting+bank+met+behulp+van+deepfakes?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 13:15:36 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Het Openbaar Ministerie (OM) verdenkt een 38-jarige man uit Almere van het oplichten van een bank met behulp van deepfakes, ..."
+  },
+  "security_nl:f4544cf90913": {
+   "source_id": "security_nl",
+   "title": "Kritiek lek in Barracuda Email Security Gateway misbruikt bij aanvallen",
+   "url": "https://www.security.nl/posting/961052/Kritiek+lek+in+Barracuda+Email+Security+Gateway+misbruikt+bij+aanvallen?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 12:54:53 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Een kritieke kwetsbaarheid in de Barracuda Email Security Gateway wordt misbruikt bij aanvallen, zo waarschuwen Barracuda en ..."
+  },
+  "security_nl:5cb0b9bb983b": {
+   "source_id": "security_nl",
+   "title": "AFM: stijgend aantal cyberincidenten acuut systeemrisico voor banken",
+   "url": "https://www.security.nl/posting/961049/AFM%3A+stijgend+aantal+cyberincidenten+acuut+systeemrisico+voor+banken?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 12:32:49 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Het stijgend aantal cyberincidenten is uitgegroeid tot één van de meest acute systeemrisico’s voor de financiële  sector. ..."
+  },
+  "security_nl:291e5047dfaa": {
+   "source_id": "security_nl",
+   "title": "Kamermotie wil standaard dns-gebaseerd phishingfilter voor heel Nederland",
+   "url": "https://www.security.nl/posting/961030/Kamermotie+wil+standaard+dns-gebaseerd+phishingfilter+voor+heel+Nederland?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 10:57:28 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Nederlandse internetproviders zouden standaard voor al hun klanten een dns-gebaseerd phishingfilter moeten inschakelen. Een ..."
+  },
+  "security_nl:c7b27596c3bf": {
+   "source_id": "security_nl",
+   "title": "Criminelen stelen chatgesprekken klanten AI-platform Notion.com",
+   "url": "https://www.security.nl/posting/961023/Criminelen+stelen+chatgesprekken+klanten+AI-platform+Notion_com?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 10:37:43 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Criminelen zijn erin geslaagd om chatgesprekken van klanten van AI-platform Notion.com te stelen, zo heeft het bedrijf ..."
+  },
+  "security_nl:7233549737fa": {
+   "source_id": "security_nl",
+   "title": "Honderden kwetsbare Danfoss-koelsystemen nog steeds op internet te vinden",
+   "url": "https://www.security.nl/posting/961020/Honderden+kwetsbare+Danfoss-koelsystemen+nog+steeds+op+internet+te+vinden?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 10:02:04 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Ondanks de recente aanvallen op koelsystemen van supermarkten zijn nog altijd honderden kwetsbare Danfoss-koelinstallaties ..."
+  },
+  "security_nl:9c88b2c7018d": {
+   "source_id": "security_nl",
+   "title": "Apple dicht AirPlay- en Bluetooth-lekken in iPhones en Macs",
+   "url": "https://www.security.nl/posting/961019/Apple+dicht+AirPlay-+en+Bluetooth-lekken+in+iPhones+en+Macs?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 09:43:00 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Apple heeft updates uitgebracht om meerdere AirPlay- en Bluetooth-lekken in iPhones, iPads, Macs en andere apparaten te ..."
+  },
+  "security_nl:8c4507bea079": {
+   "source_id": "security_nl",
+   "title": "Google waarschuwt voor misbruik van XML-kwetsbaarheid in Chrome",
+   "url": "https://www.security.nl/posting/961015/Google+waarschuwt+voor+misbruik+van+XML-kwetsbaarheid+in+Chrome?channel=rss",
+   "published_raw": "Tue, 10 Nov 2026 09:10:00 +0100",
+   "fetched_at": "2026-11-11T01:23:29.480426Z",
+   "excerpt": "Google waarschuwt voor een XML-kwetsbaarheid in Chrome waar aanvallers misbruik van maken. Er zijn updates uitgebracht om het ..."
+  },
+  "ncsc_nl_advisories:7b18174c090b": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
+   "published_raw": "Tue, 10 Nov 2026 20:24:10 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft meerdere kwetsbaarheden verholpen in Windows.  Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabel.\n\nMicrosoft heeft voor Windows meerdere kwetsbaarheden verholpen. De 32 ernstigste kwetsbaarheden bevinden zich in meerdere Windows componenten en hebben een CVSS score van 9.0 en hoger toegewezen gekregen. Kwaadwillenden met toegang tot deze componenten kunnen zonder voorafgaande authenticatie mogelijk code uitvoeren of zich toegang verschaffen tot het kwetsbare systeem. Deze kwetsbaarheden zijn in onderstaande tabel weergegeven. \n\nDe overige 634 kwetsbaarheden variëren in ernst van middelmatig tot hoog en kritiek. Raapleeg het MSRC-portaal voor aanvullende informatie. \n\n==**UPDATE**==\n\nDe kwetsbaarheid met kenmerk CVE-2026-81963 heeft een CVSS-score van 7,8. Het betreft een privilege-escalatiekwetsbaarheid in de Windows Update Stack. Een geauthenticeerde kwaadwillende kan deze kwetsbaarheid lokaal misbruiken om zijn rechten te verhogen en SYSTEM-rechten te verkrijgen. Microsoft meldt dat de kwetsbaarheid actief wordt misbruikt. Er zijn geen details bekend over de wijze waarop de kwetsbaarheid bij aanvallen wordt misbruikt.\n\nDe kwetsbaarheid met kenmerk CVE-2026-85880 heeft een CVSS-score van 7,8. Het betreft een privilege-escalatiekwetsbaarheid in Windows Advanced Local Procedure Call (ALPC). Een geauthenticeerde kwaadwillende kan deze kwetsbaarheid lokaal misbruiken om zijn rechten te verhogen en SYSTEM-rechten te verkrijgen. Microsoft meldt dat de kwetsbaarheid actief wordt misbruikt. Er zijn geen details bekend over de wijze waarop de kwetsbaarheid bij aanvallen wordt misbruikt.\n\n==**EINDE UPDATE**==\n\n```\n|----------------|------|---------------------------|-------------------------------------|\n| CVE-ID         | CVSS | Component                 | Impact                              |\n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-73025 | 9,80 | iSCSI                     | Omzeilen van beveiligingsmaatregel  | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69276 | 9,80 | UxTheme Library           | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-70296 | 9,80 | Imaging                   | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69730 | 9,80 | DNS                       | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n|CVE-2026-69824  | 9,80 | XPS                       | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n|CVE-2026-69590  | 9,80 | RRAS                      | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69463 | 9,80 | NTFS                      | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69669 | 9,80 | NTFS                      | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69845 | 9,80 | DHCP Server               | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-72979 | 9,80 | DHCP Server               | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69595 | 9,80 | NFS ONCRPC                | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-78445 | 9,80 | NFS ONCRPC                | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69829 | 9,80 | SHELL                     | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-72983 | 9,80 | ICS                       | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69579 | 9,80 | Message Queuing           | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69496 | 9,80 | Compressed Folder         | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69910 | 9,80 | Hyper-V                   | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-72982 | 9,80 | Netlogon                  | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69769 | 9,80 | HTTP Print Provider       | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69431 | 9,80 | Telnet Client             | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69639 | 9,80 | Libarchive                | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69819 | 9,80 | RPC Runtime               | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69493 | 9,80 | Event Logging Service     | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69434 | 9,80 | URL Moniker               | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69715 | 9,80 | Direct Show               | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-73009 | 9,80 | SSTP                      | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-68839 | 9,80 | USB Mass Storage Class    | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-68839 | 9,80 | Remote Desktop Services   | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69525 | 9,80 | USB Mass Storage Class    | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-73010 | 9,80 | Failover Cluster          | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-69768 | 9,80 | RNDIS                     | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n| CVE-2026-77493 | 9,80 | Office Outlook            | Uitvoeren van willekeurige code     | \n|----------------|------|---------------------------|-------------------------------------|\n```"
+  },
+  "ncsc_nl_advisories:952eecc49184": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0477 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Exchange server",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0477",
+   "published_raw": "Tue, 10 Nov 2026 20:04:46 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft 9 kwetsbaarheden verholpen in Exchange Server. Een kwaadwillende kan de kwetsbaarheden misbruiken om zich voor te doen als andere gebruiker, zich verhoogde rechten toe te kennen en willekeurige code uit te voeren met rechten van het proces.\n\n```\nMicrosoft Exchange Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-118149  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118150  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118151  | 7,20 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118152  | 6,50 | Voordoen als andere gebruiker       | \n| CVE-2026-118153  | 7,50 | Denial-of-Service                   | \n| CVE-2026-118154  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118157  | 7,20 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118207  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118208  | 7,10 | Voordoen als andere gebruiker       | \n|------------------|------|-------------------------------------|\n\n```"
+  },
+  "ncsc_nl_advisories:dbccd42fd1cf": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0476 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0476",
+   "published_raw": "Tue, 10 Nov 2026 20:03:16 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft 55 kwetsbaarheden verholpen in diverse componenten van SQL Server. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade zoals benoemd in onderstaande tabel.\n\nDe kwetsbaarheid met kenmerk CVE-2026-116945, heeft een CVSS-score van 9.8 en betreft een heap-based buffer overflow in Microsoft SQL Server. Een ongeautoriseerde kwaadwillende die controle heeft over een netwerkeindpunt waarmee een kwetsbaar integratiepakket verbinding maakt, kan een speciaal geprepareerd antwoord terugsturen. Wanneer het integratiepakket dit antwoord verwerkt, kan de kwaadwillende willekeurige code uitvoeren met de rechten van de integratieservice.\n\n\n```\nSQL Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-116929  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-116930  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116931  | 7,50 | Uitvoeren van willekeurige code     | \n| CVE-2026-116932  | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116933  | 7,20 | Uitvoeren van willekeurige code     | \n| CVE-2026-116934  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-116935  | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116936  | 7,20 | Uitvoeren van willekeurige code     | \n| CVE-2026-116937  | 7,50 | Uitvoeren van willekeurige code     | \n| CVE-2026-116938  | 7,50 | Uitvoeren van willekeurige code     | \n| CVE-2026-116939  | 5,70 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116940  | 4,90 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116941  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116942  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116943  | 7,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116944  | 7,20 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-116945  | 9,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116946  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116947  | 7,50 | Uitvoeren van willekeurige code     | \n| CVE-2026-118102  | 5,90 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118103  | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118104  | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118105  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118106  | 8,10 | Uitvoeren van willekeurige code     | \n| CVE-2026-118108  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118109  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118110  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118111  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118112  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118113  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118114  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118115  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118116  | 7,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118117  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118118  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118119  | 8,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118120  | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-45478   | 7,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-62903   | onb. | Toegang tot gevoelige gegevens      | \n| CVE-2026-66813   | 8,10 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-67372   | onb. | Uitvoeren van willekeurige code     | \n| CVE-2026-67374   | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-67382   | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-67387   | 8,80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-67391   | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-67632   | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-67637   | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-67646   | onb. | Uitvoeren van willekeurige code     | \n| CVE-2026-68783   | onb. | Toegang tot gevoelige gegevens      | \n| CVE-2026-84010   | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-88111   | 7,50 | Uitvoeren van willekeurige code     | \n| CVE-2026-94511   | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-94513   | 8,00 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nJDBC Driver for SQL Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-70003   | 8,70 | Omzeilen van beveiligingsmaatregel  | \n|------------------|------|-------------------------------------|\n\nMicrosoft Azure Kubernetes Service: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-69893   | onb. | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\n```"
+  },
+  "ncsc_nl_advisories:07803e625ab4": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0475 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0475",
+   "published_raw": "Tue, 10 Nov 2026 19:59:23 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft meerdere kwetsbaarheden verholpen in diverse Azure componenten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabel.\n\nDe kwetsbaarheid met kenmerk CVE-2026-119990, met een CVSS-score van 9.8 betreft ontbrekende authenticatie voor een kritieke functie in Azure OpenAI. Een ongeautoriseerde kwaadwillende kan deze kwetsbaarheid via het netwerk misbruiken om verhoogde rechten te verkrijgen. Voor de kwetsbaarheid met kenmerk CVE-2026-114162, met een CVSS-score van 9.1 geldt dat een geautoriseerde kwaadwillende door onvoldoende autorisatiecontroles in Microsoft Graph via het netwerk verhoogde rechten kan verkrijgen voor Microsoft Azure.\n\n\n```\nAzure File Sync: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-118288  | 7,00 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nAzure Managed Grafana: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-114160  | onb. | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nAzure Local: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-105734  | 7,00 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nAzure OpenAI: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-119990  | 9,80 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nMicrosoft Graph: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-114162  | 9,10 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nAzure CycleCloud: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-102224  | 8,40 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-113822  | 6,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-113823  | 7,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-114161  | 7,80 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nAzure Front Door (AFD): \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-118742  | 8,60 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\n\nMicrosoft Entra Private Network Connector: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109460  | 5,50 | Toegang tot gevoelige gegevens      | \n|------------------|------|-------------------------------------|\n\nMicrosoft Authentication Library for JavaScript: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-108469  | 6,80 | Voordoen als andere gebruiker       | \n|------------------|------|-------------------------------------|\n\nAzure Firmware: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109462  | 4,40 | Omzeilen van beveiligingsmaatregel  | \n|------------------|------|-------------------------------------|\n\nAzure CLI: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109457  | 8,00 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Authentication Library (MSAL) for Node.js: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-108470  | onb. | Toegang tot gevoelige gegevens      | \n|------------------|------|-------------------------------------|\n\nMicrosoft Authentication Library (MSAL) for .NET: \n|------------------|------|-------------------------------------|\n\n\nAzure Pipelines: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-119989  | 8,20 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\n\nAzure NFS mount helper (aznfs):\n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-105494  | onb. | Verkrijgen van verhoogde rechten    |\n|------------------|------|-------------------------------------|\n\n\n```"
+  },
+  "ncsc_nl_advisories:6d8a153996d9": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0474 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0474",
+   "published_raw": "Tue, 10 Nov 2026 19:46:26 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft kwetsbaarheden verholpen in diverse Office producten. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade, zoals genoemd in onderstaande tabellen.\n\nMicrosoft heeft voor Office meerdere kwetsbaarheden verholpen. De 2 ernstigste kwetsbaarheden bevinden zich in Sharepoint en hebben een CVSS score van 9.0 en 9.9 toegewezen gekregen. Voor succesvol misbruik van een aantal kwetsbaarheden moet de kwaadwillende het slachtoffer misleiden om een malafide bestand te openen of een malafide link te volgen.\n\nDe kwetsbaarheid met kenmerk CVE-2026-109454 betreft cross-site scripting (XSS) in SharePoint. Een geautoriseerde kwaadwillende kan deze kwetsbaarheid via het netwerk misbruiken om spoofing uit te voeren. Voor de kwetsbaarheid met kenmerk CVE-2026-120002 geldt dat een geautoriseerde kwaadwillende door onvoldoende autorisatiecontroles in Microsoft Office SharePoint via het netwerk verhoogde rechten kan verkrijgen.\n\nDe overige kwetsbaarheden variëren in ernst van middelmatig tot hoog. Een samenvatting is in deze advisory opgenomen, maar het voert te ver om elke kwetsbaarheid in detail weer te geven. Raapleeg het MSRC-portaal voor aanvullende informatie.\n\n```\nMicrosoft Teams: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-116926  | 7.50 | Voordoen als andere gebruiker       | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office PowerPoint: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109487  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-112734  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112737  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112738  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116922  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-120001  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120005  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120787  | 7.50 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office Excel: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-111292  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116927  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118292  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118293  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118294  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118295  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118296  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118297  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118298  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118299  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118300  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118301  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-118302  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118700  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118701  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118702  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118703  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118704  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118705  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118706  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118707  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118708  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118709  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118710  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118711  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118712  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118713  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118714  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118715  | 8.80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118716  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118717  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118718  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118719  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118720  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118721  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118722  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118723  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118724  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118725  | 8.80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118726  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118727  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118728  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-118729  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118730  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118731  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118732  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119986  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119999  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-120785  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120786  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120788  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120789  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120790  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-120791  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123385  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123395  | 5.90 | Toegang tot gevoelige gegevens      | \n| CVE-2026-124170  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-124172  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-124174  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-124176  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-124178  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-124179  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-124183  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-124187  | 8.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office Outlook: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-110043  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110068  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111309  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119993  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-119995  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-119996  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-119997  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123375  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123376  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123377  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123378  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-123379  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-123380  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123381  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123382  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123383  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123384  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-124194  | 6.50 | Voordoen als andere gebruiker       | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office Word: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109491  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-109500  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-109501  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109503  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109505  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110046  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-110047  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110048  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110049  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110050  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110051  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-110052  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-110053  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-110054  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110055  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110056  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110061  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110062  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110064  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110066  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-110067  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111285  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111287  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-111288  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-111290  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111294  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111295  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111298  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111299  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111302  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111304  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111306  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111307  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111308  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111310  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112714  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112715  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112716  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112717  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112718  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112719  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112720  | 5.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-112721  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112722  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112723  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112724  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112726  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112728  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112729  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112730  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112733  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112735  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112739  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-112741  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-113759  | 7.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116718  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-116719  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116720  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116721  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116722  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116923  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-116925  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-123394  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-124185  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-62804   | 7.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office Visio: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109494  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109496  | 8.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Teams for Android: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-122979  | 8.10 | Voordoen als andere gebruiker       | \n| CVE-2026-69901   | 7.50 | Voordoen als andere gebruiker       | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office OneNote: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-116924  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119994  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-124181  | 7.50 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-111286  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-111289  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111291  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-111293  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-112731  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-116717  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119998  | 6.50 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-120003  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-122198  | 8.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office SharePoint: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109454  | 9.00 | Voordoen als andere gebruiker       | \n| CVE-2026-109455  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-109464  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109466  | 8.00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-109472  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109495  | 6.60 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-109497  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-109499  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109502  | 8.80 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-109504  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-110044  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110045  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-110057  | 6.50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-110065  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-111296  | 8.00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-111297  | 8.00 | Voordoen als andere gebruiker       | \n| CVE-2026-111300  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-111303  | 7.30 | Voordoen als andere gebruiker       | \n| CVE-2026-112736  | 5.30 | Voordoen als andere gebruiker       | \n| CVE-2026-120000  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-120002  | 9.90 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-80095   | 9.00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-88176   | 8.80 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nMicrosoft Office Access: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109493  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-109498  | 7.50 | Uitvoeren van willekeurige code     | \n| CVE-2026-110058  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110059  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-110060  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111301  | 8.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-111305  | 8.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\n```"
+  },
+  "ncsc_nl_advisories:a681e2426f71": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0473 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0473",
+   "published_raw": "Tue, 10 Nov 2026 19:38:38 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft kwetsbaarheden verholpen in diverse Developer Tools. Een kwaadwillende kan de kwetsbaarheden misbruiken om aanvallen uit te voeren die kunnen leiden tot de categorieën schade zoals benoemd in onderstaande tabel.\n\nDe vereiste voorwaarden voor succesvol misbruik verschillen per kwetsbaarheid. Afhankelijk van de kwetsbaarheid kan misbruik gebruikersinteractie vereisen, zoals het openen of verwerken van een malafide bronbestand, of plaatsvinden via een kwetsbare applicatie of dienst.\n\n\n```\nVisual Studio Code - GitHub Pull Requests and Issues Extension: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-119976  | 6,50 | Toegang tot gevoelige gegevens      | \n|------------------|------|-------------------------------------|\n\nAzure DevOps: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109467  | 9,90 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nVisual Studio Code: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-102230  | 7,40 | Toegang tot gevoelige gegevens      | \n| CVE-2026-102236  | 8,60 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-114171  | 8,80 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-119975  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-119981  | 7,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-119982  | 6,50 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-119983  | 8,80 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-119985  | 8,30 | Uitvoeren van willekeurige code     | \n| CVE-2026-120779  | 9,60 | Uitvoeren van willekeurige code     | \n| CVE-2026-120780  | 8,30 | Uitvoeren van willekeurige code     | \n| CVE-2026-120782  | onb. | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-121660  | 7,50 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-121661  | 7,80 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-121662  | 8,60 | Uitvoeren van willekeurige code     | \n| CVE-2026-121663  | 8,80 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-121664  | 8,30 | Uitvoeren van willekeurige code     | \n| CVE-2026-121665  | 8,80 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-70094   | 8,80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nVisual Studio: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-114151  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-114152  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-114158  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-114159  | 8,80 | Uitvoeren van willekeurige code     | \n| CVE-2026-118745  | 8,80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\n.NET Aspire: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-120778  | 7,30 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nASP.NET Core: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-109476  | 6,10 | Toegang tot gevoelige gegevens      | \n| CVE-2026-109478  | 7,50 | Denial-of-Service                   | \n| CVE-2026-109481  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-114146  | 9,00 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-114147  | 7,50 | Denial-of-Service                   | \n| CVE-2026-114149  | 7,50 | Denial-of-Service                   | \n| CVE-2026-114150  | 5,90 | Toegang tot gevoelige gegevens      | \n| CVE-2026-114154  | 7,50 | Denial-of-Service                   | \n| CVE-2026-114156  | 6,50 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-114157  | 7,50 | Omzeilen van beveiligingsmaatregel  | \n| CVE-2026-118748  | 7,50 | Denial-of-Service                   | \n| CVE-2026-118749  | 7,50 | Denial-of-Service                   | \n| CVE-2026-118750  | 7,50 | Denial-of-Service                   | \n| CVE-2026-114153  | 4,00 | Omzeilen van beveiligingsmaatregel  | \n|------------------|------|-------------------------------------|\n\n.NET: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-105544  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-109475  | 7,50 | Denial-of-Service                   | \n| CVE-2026-114155  | 7,50 | Verkrijgen van verhoogde rechten    | \n| CVE-2026-118746  | 6,80 | Omzeilen van beveiligingsmaatregel  | \n|------------------|------|-------------------------------------|\n\nAzure DevOps Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-112745  | 6,50 | Toegang tot gevoelige gegevens      | \n| CVE-2026-85923   | 8,80 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\n```"
+  },
+  "ncsc_nl_advisories:805af87f9b54": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0472 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0472",
+   "published_raw": "Tue, 10 Nov 2026 19:23:18 +0000",
+   "fetched_at": "2026-11-11T01:23:30.089176Z",
+   "excerpt": "Microsoft heeft kwetsbaarheden verholpen in Windows. Een kwaadwillende kan de kwetsbaarheden mogelijk misbruiken om beveiligingsmaatregelen te omzeilen, privileges te verhogen, willekeurige code uit te voeren en/of toegang te verkrijgen tot gevoelige informatie.\n\nDe 13 ernstigste kwetsbaarheden bevinden zich in verschillende Windows-componenten en hebben een CVSS-score van 9,0 of hoger. Afhankelijk van de betreffende kwetsbaarheid kan misbruik leiden tot het uitvoeren van willekeurige code of het verkrijgen van verhoogde rechten.\n\nDe betreffende kwetsbaarheden zijn weergegeven in onderstaande tabel.\n\nDe overige kwetsbaarheden variëren in ernst van gemiddeld tot hoog. Het voert te ver om iedere kwetsbaarheid afzonderlijk in detail te behandelen in deze advisory. Raadpleeg het MSRC-portaal voor aanvullende informatie over de afzonderlijke kwetsbaarheden en de beschikbare beveiligingsupdates.\n\n```\nWindows iSCSI: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-88234   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows Virtual Filtering Platform (VFP): \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-95962   | 9.00 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows DNS: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-88218   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows Xbox Live Networking Service: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-112967  | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Windows Media Foundation: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-96157   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows DHCP Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-88243   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows LDAP - Lightweight Directory Access Protocol: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-119958  | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Color Management: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-96067   | 9.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-96078   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nMicrosoft Exchange Server: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-116928  | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\nWindows Kerberos: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-85844   | 9.80 | Verkrijgen van verhoogde rechten    | \n|------------------|------|-------------------------------------|\n\nWindows Microsoft DirectMusic: \n|------------------|------|-------------------------------------|\n| CVE-ID           | CVSS | Impact                              |\n|------------------|------|-------------------------------------|\n| CVE-2026-95882   | 9.80 | Uitvoeren van willekeurige code     | \n| CVE-2026-95901   | 9.80 | Uitvoeren van willekeurige code     | \n|------------------|------|-------------------------------------|\n\n\n```"
+  },
+  "microsoft_threat_intel:e467483e6516": {
+   "source_id": "microsoft_threat_intel",
+   "title": "Detecting sleeper agents hiding in AI model neurons",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+   "published_raw": "Tue, 10 Nov 2026 23:00:00 +0000",
+   "fetched_at": "2026-11-11T01:23:35.562261Z",
+   "excerpt": "<p>Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/\">Detecting sleeper agents hiding in AI model neurons</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "bleepingcomputer:b53f64dc22cc": {
+   "source_id": "bleepingcomputer",
+   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "published_raw": "Tue, 10 Nov 2026 17:20:19 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]"
+  },
+  "bleepingcomputer:de312334c3a8": {
+   "source_id": "bleepingcomputer",
+   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+   "published_raw": "Tue, 10 Nov 2026 15:54:55 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]"
+  },
+  "bleepingcomputer:c28874079aa8": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+   "published_raw": "Tue, 10 Nov 2026 15:04:36 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]"
+  },
+  "bleepingcomputer:27d0d882d07e": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "published_raw": "Tue, 10 Nov 2026 14:31:11 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]"
+  },
+  "bleepingcomputer:41dbe99c28b2": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "published_raw": "Tue, 10 Nov 2026 14:07:36 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]"
+  },
+  "bleepingcomputer:0a5e2fc80803": {
+   "source_id": "bleepingcomputer",
+   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+   "published_raw": "Tue, 10 Nov 2026 13:33:26 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]"
+  },
+  "bleepingcomputer:0974c37f25c4": {
+   "source_id": "bleepingcomputer",
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "published_raw": "Tue, 10 Nov 2026 11:17:16 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]"
+  },
+  "bleepingcomputer:078240437160": {
+   "source_id": "bleepingcomputer",
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "published_raw": "Tue, 10 Nov 2026 10:59:19 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]"
+  },
+  "bleepingcomputer:133989a571e5": {
+   "source_id": "bleepingcomputer",
+   "title": "Ransomware recovery is now a client retention metric",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "published_raw": "Tue, 10 Nov 2026 10:01:11 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]"
+  },
+  "bleepingcomputer:24a9ecf27224": {
+   "source_id": "bleepingcomputer",
+   "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+   "published_raw": "Tue, 10 Nov 2026 07:07:03 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]"
+  },
+  "bleepingcomputer:590f48c9e270": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "published_raw": "Tue, 10 Nov 2026 05:10:20 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]"
+  },
+  "bleepingcomputer:4eadc5574e9e": {
+   "source_id": "bleepingcomputer",
+   "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+   "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+   "published_raw": "Tue, 10 Nov 2026 05:04:32 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]"
+  },
+  "bleepingcomputer:69936e426e71": {
+   "source_id": "bleepingcomputer",
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "published_raw": "Tue, 10 Nov 2026 03:51:25 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]"
+  },
+  "bleepingcomputer:e5b8dc1ed311": {
+   "source_id": "bleepingcomputer",
+   "title": "Fireworks AI discloses new breach after cloud provider hack",
+   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "published_raw": "Tue, 10 Nov 2026 02:49:58 -0500",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "excerpt": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]"
+  },
+  "the_record:15da1f8e31d6": {
+   "source_id": "the_record",
+   "title": "US Army member arrested in UK over allegations of spying for Russia",
+   "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+   "published_raw": "Tue, 10 Nov 2026 21:13:00 GMT",
+   "fetched_at": "2026-11-11T01:23:37.579671Z",
+   "excerpt": "The unnamed soldier was arrested by British counterterrorism police “working closely” with U.S. authorities, including the FBI and the military, the Metropolitan Police said in a statement."
+  },
+  "the_record:612ae5f08dba": {
+   "source_id": "the_record",
+   "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+   "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+   "published_raw": "Tue, 10 Nov 2026 20:55:00 GMT",
+   "fetched_at": "2026-11-11T01:23:37.579671Z",
+   "excerpt": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total."
+  },
+  "the_record:4a9230aea75f": {
+   "source_id": "the_record",
+   "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+   "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+   "published_raw": "Tue, 10 Nov 2026 16:08:00 GMT",
+   "fetched_at": "2026-11-11T01:23:37.579671Z",
+   "excerpt": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack."
+  },
+  "the_record:cb71d2bd129f": {
+   "source_id": "the_record",
+   "title": "Cybercriminals are increasingly infecting regular people with spyware",
+   "url": "https://therecord.media/spyware-cyber-crime-iverify",
+   "published_raw": "Tue, 10 Nov 2026 15:45:00 GMT",
+   "fetched_at": "2026-11-11T01:23:37.579671Z",
+   "excerpt": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report."
+  },
+  "the_record:f00273d9e0a7": {
+   "source_id": "the_record",
+   "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+   "url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+   "published_raw": "Tue, 10 Nov 2026 14:31:00 GMT",
+   "fetched_at": "2026-11-11T01:23:37.579671Z",
+   "excerpt": "Michael LoSapio, Palantir's chief information security officer, is officially President Donald Trump's pick to lead the Cybersecurity and Infrastructure Security Agency."
+  },
+  "the_hacker_news:b86930e18372": {
+   "source_id": "the_hacker_news",
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "published_raw": "Wed, 11 Nov 2026 00:53:10 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An"
+  },
+  "the_hacker_news:b958c2272095": {
+   "source_id": "the_hacker_news",
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "published_raw": "Wed, 11 Nov 2026 00:49:39 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE"
+  },
+  "the_hacker_news:9398616ade4d": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "published_raw": "Tue, 10 Nov 2026 23:42:21 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the"
+  },
+  "the_hacker_news:3ac35ff64736": {
+   "source_id": "the_hacker_news",
+   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+   "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+   "published_raw": "Tue, 10 Nov 2026 23:13:23 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,"
+  },
+  "the_hacker_news:0eb55bf1598e": {
+   "source_id": "the_hacker_news",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "published_raw": "Tue, 10 Nov 2026 21:30:55 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two"
+  },
+  "the_hacker_news:7e413807cc2f": {
+   "source_id": "the_hacker_news",
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "published_raw": "Tue, 10 Nov 2026 21:28:44 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and"
+  },
+  "the_hacker_news:7646e96e2e7b": {
+   "source_id": "the_hacker_news",
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+   "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "published_raw": "Tue, 10 Nov 2026 21:03:59 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\n\nIn a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks"
+  },
+  "the_hacker_news:4271579ddeba": {
+   "source_id": "the_hacker_news",
+   "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "published_raw": "Tue, 10 Nov 2026 17:45:31 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.\n\nA researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;"
+  },
+  "the_hacker_news:3badf33b9e63": {
+   "source_id": "the_hacker_news",
+   "title": "Beyond the Alert: The Case for Rich Network Data",
+   "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+   "published_raw": "Tue, 10 Nov 2026 17:08:13 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in.\n\nAfter the alert\n\nThe alert tells you something happened. However, gaining"
+  },
+  "the_hacker_news:ba7507c6f20e": {
+   "source_id": "the_hacker_news",
+   "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+   "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "published_raw": "Tue, 10 Nov 2026 15:46:51 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined.\n\nAs of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple"
+  },
+  "the_hacker_news:7d35c70e6708": {
+   "source_id": "the_hacker_news",
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "published_raw": "Tue, 10 Nov 2026 15:37:29 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails.\n\nAccording to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for"
+  },
+  "the_hacker_news:ce0b470d4dea": {
+   "source_id": "the_hacker_news",
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "published_raw": "Tue, 10 Nov 2026 15:32:40 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.\n\nThree are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server.\n\nThe flaws in the Web"
+  },
+  "the_hacker_news:e56a3763b149": {
+   "source_id": "the_hacker_news",
+   "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+   "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+   "published_raw": "Tue, 10 Nov 2026 14:38:20 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday.\n\nThe attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires.\n\nThe unit"
+  },
+  "the_hacker_news:0e6f77f0820c": {
+   "source_id": "the_hacker_news",
+   "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+   "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+   "published_raw": "Tue, 10 Nov 2026 13:46:14 +0530",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision.\n\nDuring pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made"
+  },
+  "securityweek:44e55023f8aa": {
+   "source_id": "securityweek",
+   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+   "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+   "published_raw": "Tue, 10 Nov 2026 19:19:46 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. </p>\n<p>The post <a href=\"https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/\">Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:9a11f0ebae0e": {
+   "source_id": "securityweek",
+   "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+   "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+   "published_raw": "Tue, 10 Nov 2026 18:11:54 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder.</p>\n<p>The post <a href=\"https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/\">Adobe Patches 110 Vulnerabilities Across 9 Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:6ee60256567c": {
+   "source_id": "securityweek",
+   "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+   "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+   "published_raw": "Tue, 10 Nov 2026 16:45:00 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it.</p>\n<p>The post <a href=\"https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/\">Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:737e79492dea": {
+   "source_id": "securityweek",
+   "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+   "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+   "published_raw": "Tue, 10 Nov 2026 16:42:02 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/\">Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:eb8b1682f7df": {
+   "source_id": "securityweek",
+   "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+   "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+   "published_raw": "Tue, 10 Nov 2026 15:00:00 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.</p>\n<p>The post <a href=\"https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/\">Today: CISO Forum Virtual Summit 2026 &#8211; Join Global Cybersecurity Leaders</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:a39be825102d": {
+   "source_id": "securityweek",
+   "title": "WhiteMatter Raises $20 Million in Series A Funding",
+   "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+   "published_raw": "Tue, 10 Nov 2026 14:58:19 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment.</p>\n<p>The post <a href=\"https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/\">WhiteMatter Raises $20 Million in Series A Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:90421c5a41be": {
+   "source_id": "securityweek",
+   "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+   "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+   "published_raw": "Tue, 10 Nov 2026 14:46:28 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/\">SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:3b5c98c41ccb": {
+   "source_id": "securityweek",
+   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+   "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "published_raw": "Tue, 10 Nov 2026 13:27:44 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/\">Over a Dozen Organizations Hit in Qubole Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:81a905311cbf": {
+   "source_id": "securityweek",
+   "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+   "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+   "published_raw": "Tue, 10 Nov 2026 12:17:13 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/\">Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:d32c24b1525e": {
+   "source_id": "securityweek",
+   "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+   "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+   "published_raw": "Tue, 10 Nov 2026 09:56:28 +0000",
+   "fetched_at": "2026-11-11T01:23:38.173614Z",
+   "excerpt": "<p>Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/\">N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-10T07:41:46.162069Z"
+ "updated_at": "2026-11-11T01:23:29.430972Z"
 }
