@@ -1,154 +1,154 @@
 {
- "generated_at": "2026-11-12T03:24:56.080716Z",
+ "generated_at": "2026-11-12T04:59:45.265077Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "133989a571e5",
-   "title": "Ransomware recovery is now a client retention metric",
-   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "id": "d1c54efab86e",
+   "title": "Binance denies data breach after alleged ShinyHunters claims",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-10T15:01:11Z",
-   "excerpt": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
-   "preliminary_score": 83,
+   "published_at": "2026-11-09T16:12:39Z",
+   "excerpt": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+   "preliminary_score": 82,
    "preliminary_topics": [
-    "ransomware",
-    "supply_chain",
-    "incident_response"
+    "incidents_breaches",
+    "threat_intelligence"
    ]
   },
   {
-   "id": "69936e426e71",
-   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "id": "7fd412eaca5a",
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-10T08:51:25Z",
-   "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-   "preliminary_score": 83,
+   "published_at": "2026-11-09T16:04:57Z",
+   "excerpt": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+   "preliminary_score": 82,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "web_software_security"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "7646e96e2e7b",
-   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-   "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "id": "bd73ebc7b854",
+   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-10T15:33:59Z",
-   "excerpt": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
-   "preliminary_score": 83,
+   "published_at": "2026-11-09T17:51:21Z",
+   "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,",
+   "preliminary_score": 82,
    "preliminary_topics": [
+    "exploited_vulnerabilities",
     "incidents_breaches",
-    "incident_response"
+    "cloud_attacks",
+    "security_market"
    ]
   },
   {
-   "id": "7d35c70e6708",
-   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "id": "7bdf0c6dc5dc",
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-10T10:07:29Z",
-   "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
-   "preliminary_score": 83,
+   "published_at": "2026-11-09T14:31:29Z",
+   "excerpt": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file",
+   "preliminary_score": 82,
    "preliminary_topics": [
     "threat_intelligence",
+    "edge_devices",
     "malware"
    ]
   },
   {
-   "id": "ce0b470d4dea",
-   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-10T10:02:40Z",
-   "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
-   "preliminary_score": 83,
+   "id": "81dbfcc74392",
+   "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+   "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+   "source_id": "crowdstrike_blog",
+   "source_name": "CrowdStrike blog",
+   "published_at": "2026-11-10T06:00:00Z",
+   "excerpt": "",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+   ]
+  },
+  {
+   "id": "02a5d2234103",
+   "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+   "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-11T13:37:19Z",
+   "excerpt": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek .",
+   "preliminary_score": 82,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "attack_techniques",
-    "siem_detection",
-    "vulnerability_management"
+    "edge_devices"
    ]
   },
   {
-   "id": "cd6455aacef5",
-   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-11T06:04:02Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-   "preliminary_score": 83,
+   "id": "44e55023f8aa",
+   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+   "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-10T19:19:46Z",
+   "excerpt": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek .",
+   "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management"
+    "exploited_vulnerabilities"
    ]
   },
   {
-   "id": "63cbf25606a5",
-   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-   "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-11T15:34:27Z",
-   "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
-   "preliminary_score": 83,
+   "id": "3b5c98c41ccb",
+   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+   "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-10T13:27:44Z",
+   "excerpt": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on SecurityWeek .",
+   "preliminary_score": 81,
    "preliminary_topics": [
     "incidents_breaches",
-    "threat_intelligence",
+    "supply_chain",
     "cloud_attacks"
    ]
   },
   {
-   "id": "44096b209ce3",
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-11T08:17:53Z",
-   "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve"
-   ]
-  },
-  {
-   "id": "3d5dfb277e1d",
-   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-09T06:05:24Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
-   "preliminary_score": 82,
+   "id": "d32c24b1525e",
+   "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+   "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-10T09:56:28Z",
+   "excerpt": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .",
+   "preliminary_score": 81,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "vulnerability_management",
-    "edge_devices",
-    "phishing_identity"
+    "attack_techniques"
    ]
   },
   {
-   "id": "6e1eca169247",
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-09T23:52:12Z",
-   "excerpt": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-   "preliminary_score": 82,
+   "id": "d2af63ca45db",
+   "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+   "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-11T09:01:07Z",
+   "excerpt": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek .",
+   "preliminary_score": 81,
    "preliminary_topics": [
-    "incidents_breaches",
-    "ransomware"
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "incidents_breaches"
    ]
   }
  ]

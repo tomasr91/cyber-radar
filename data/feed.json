@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T03:24:56.080716Z",
+ "generated_at": "2026-11-12T04:59:45.265077Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-12T01:39:00Z",
- "last_successful_update": "2026-11-12T03:24:56.080716Z",
+ "last_article_added_at": "2026-11-12T05:10:00Z",
+ "last_successful_update": "2026-11-12T04:59:45.265077Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T03:24:56.142177Z"
+   "checked_at": "2026-11-12T04:59:45.333178Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T03:24:56.612923Z"
+   "checked_at": "2026-11-12T04:59:45.803906Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T03:24:57.252409Z"
+   "checked_at": "2026-11-12T04:59:46.434289Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T03:24:57.807213Z"
+   "checked_at": "2026-11-12T04:59:47.034995Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T03:24:58.636670Z"
+   "checked_at": "2026-11-12T04:59:47.871196Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T03:24:58.815486Z"
+   "checked_at": "2026-11-12T04:59:47.944953Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T03:24:58.906569Z"
+   "checked_at": "2026-11-12T04:59:48.017827Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T03:24:59.043751Z"
+   "checked_at": "2026-11-12T04:59:48.071723Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T03:24:59.403922Z"
+   "checked_at": "2026-11-12T04:59:48.335471Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T03:25:00.844340Z"
+   "checked_at": "2026-11-12T04:59:49.751282Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T03:25:00.927488Z"
+   "checked_at": "2026-11-12T04:59:49.848854Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T03:25:01.057508Z"
+   "checked_at": "2026-11-12T04:59:49.901494Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T03:25:01.130390Z"
+   "checked_at": "2026-11-12T04:59:50.068240Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T03:25:01.257357Z"
+   "checked_at": "2026-11-12T04:59:50.219454Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T03:25:01.309735Z"
+   "checked_at": "2026-11-12T04:59:50.268182Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T03:25:01.358066Z"
+   "checked_at": "2026-11-12T04:59:50.344174Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T03:25:01.475142Z"
+   "checked_at": "2026-11-12T04:59:50.455360Z"
   },
   {
    "id": "securityweek",
@@ -381,134 +381,115 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T03:25:01.580387Z"
+   "checked_at": "2026-11-12T04:59:50.721711Z"
   }
  ],
  "daily_top": [
-  "3e830a9401ea",
+  "7d35c70e6708",
   "11515cc0259f",
   "0eb55bf1598e",
   "9398616ade4d",
-  "27d0d882d07e"
+  "3e830a9401ea"
  ],
  "articles": [
   {
-   "id": "3e830a9401ea",
-   "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
-   "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
-   "source_id": "datadog_security_labs",
-   "published_at": "2026-11-09T00:00:00Z",
-   "fetched_at": "2026-11-10T07:41:51.020238Z",
-   "summary": "Datadog zag het AI-framework ARTEX in AWS-omgevingen zoeken in logbestanden en zichzelf registreren via openbare inlogpools. Het laat ook zien welke patronen je in CloudTrail terugziet.",
-   "personal_relevance": "Dit is een concreet voorbeeld voor gesprekken over cloud-detectie: welke CloudTrail-patronen bewaakt de klant, en zitten er geheimen in de applicatielogs die naar de cloud gaan?",
+   "id": "7d35c70e6708",
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T10:07:29Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "ESET ontdekte Cereal, nieuwe malware van de Russische groep Turla. Die nestelt zich in Microsoft Exchange en filtert e-mails met bijlagen uit, zonder eigen server op internet.",
+   "personal_relevance": "Klanten met een eigen Exchange-server vragen zich af of netwerkmonitoring genoeg is. Dit is een goed voorbeeld waarom niet: je hebt ook zicht nodig op wat er óp de server gebeurt.",
    "limitations": [
-    "Wie achter deze sessies zat en hoeveel organisaties zijn geraakt, staat niet in het onderzoek.",
-    "Het gedrag van ARTEX hangt volgens Datadog sterk af van het gebruikte taalmodel; andere sessies kunnen er anders uitzien.",
-    "Datadog is een leverancier van monitoring- en SIEM-software en noemt eigen detectieregels."
+    "Hoe Turla de Exchange-servers binnenkwam, is niet bekend.",
+    "Het artikel zegt niet hoe Cereal na een herstart actief blijft, en niet hoeveel organisaties getroffen zijn buiten de twee genoemde.",
+    "Het oorspronkelijke ESET-rapport kon in deze run niet worden geopend; de uitleg steunt op het artikel van The Hacker News.",
+    "Concrete detectieregels of aanwijzingen van ESET staan niet in het artikel; de detectie-uitleg is algemeen."
    ],
    "topics": [
-    "siem_detection",
     "threat_intelligence",
-    "cloud_attacks"
+    "attack_techniques",
+    "siem_detection",
+    "malware"
    ],
    "groups": [
-    "detectie",
     "ti",
-    "incidenten"
+    "aanvallen",
+    "detectie"
    ],
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.86,
-    "source": 0.8,
-    "quality": 0.73,
-    "fit": 0.05
+    "recency": 0.92,
+    "source": 0.68,
+    "quality": 0.7,
+    "region": 0.02,
+    "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:57:00Z",
+   "processed_at": "2026-11-12T05:10:00Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS",
+   "headline": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden",
    "story": [
-    "ARTEX is een aanvalsframework waarin meerdere AI-agenten samen een aanval plannen en uitvoeren. Volgens Datadog koppelde Microsoft ARTEX eerder aan Storm-0940, een groep die met China in verband wordt gebracht. Datadog Security Labs beschrijft nu wat ARTEX in oktober deed in AWS-omgevingen, vooral gericht op financiële gegevens. Nieuw is vooral hoe je het in de logs herkent.",
-    "Elke sessie begon met verzoeken aan S3 zonder inlog: de agent keek wat er openbaar te lezen viel. Daarna twee routes. Had de aanvaller een gelekte langlevende toegangssleutel, dan doorzocht hij de logbestanden in CloudWatch. Eerst op namen van cryptobedrijven en woorden als 'Invoice' en 'Billing', later op wachtwoorden, interne IP-adressen en downloadlinks. Logs blijken dus zelf een bron van geheimen. Had hij geen sleutel, dan maakte de agent zelf een account aan in een openbare Cognito-gebruikerspool. Met de tokens daarvan vroeg hij tijdelijke AWS-sleutels op en probeerde hij allerlei gegevens op te vragen. Dat mislukte, omdat die rol te weinig rechten had.",
-    "Wat zie je in CloudTrail? Een AI-agent probeert veel en faalt vaak. Datadog noemt onder meer: veel AccessDenied-fouten voor één identiteit, veel buckets in korte tijd, verzoeken naar niet-bestaande bestanden vlak voor een reeks gokpogingen, en FilterLogEvents steeds met precies 1000 resultaten. Bij Cognito: een piek in nieuwe registraties, gevolgd door sessies met de naam CognitoIdentityCredentials. Een user agent met 'artex' erin is snel te vinden, maar makkelijk te veranderen. Gedrag is betrouwbaarder.",
-    "Datadog adviseert langlevende sleutels te vervangen en oude op te ruimen, geen geheimen in logs te zetten en openbare Cognito-pools na te lopen op zelfregistratie en rechten. Voor organisaties is de les: een AI-agent maakt geen nieuwe soort fouten, maar vindt bestaande fouten veel sneller."
+    "Onderzoekers van ESET beschrijven Cereal, een nieuwe set spionagetools van Turla. Turla (ook Snake genoemd) is een APT die gelieerd is aan Rusland. Cereal werd eind 2025 gezien bij twee overheidsinstanties, in Kazachstan en Roemenië. Het doel: ongemerkt e-mails stelen van de Microsoft Exchange-server van het slachtoffer. In Roemenië ging het om mails van NAVO- en EU-adressen.",
+    "Hoe werkt het? Exchange is de mailserver van een organisatie: alle mail komt erlangs. Bij Exchange verwerkt het proces EdgeTransport.exe de mailstroom. Het onderdeel CerealBox nestelt zich in dat proces. Het zoekt mails met een Word- of pdf-bijlage die passen bij vaste lijsten van afzenders, ontvangers, onderwerpen of bestandsnamen. Die mails worden gecomprimeerd, versleuteld en tijdelijk op schijf gezet, en na het wegsturen gewist.",
+    "Het slimste deel is de communicatie. Meestal belt malware naar een C2-server van de aanvaller. Cereal doet dat niet. Het onderdeel CerealNeuron is een passieve backdoor: het wacht op webverzoeken die eruitzien als gewoon Exchange-verkeer. Opdrachten komen binnen als kleine .NET-programma's die alleen in het werkgeheugen draaien. Daarmee kan de aanvaller mailboxen ophalen, Active Directory uitvragen en LSA-geheimen uitlezen. De resultaten gaan versleuteld terug.",
+    "Wat betekent dat voor detectie? Er is geen verbinding naar een verdachte server die je in het netwerkverkeer ziet. Het verkeer lijkt op wat een mailserver de hele dag doet. Aanwijzingen moet je daarom vooral op de server zelf zoeken, bijvoorbeeld onbekende code in het mailproces of het uitlezen van geheimen. Hoe Turla binnenkwam, is niet bekend.",
+    "Voor organisaties is de les dat een eigen Exchange-server een topdoelwit is voor spionage. Wie de mailserver heeft, leest alle gevoelige communicatie mee. Zo'n server verdient dezelfde bewaking als een domeincontroller."
    ],
    "key_facts": [
-    "Datadog Security Labs publiceerde de analyse op 9 november 2026 en zag ARTEX-activiteit in oktober 2026 tegen meerdere AWS-omgevingen, gericht op financiële data.",
-    "ARTEX verscheen in juli 2026 op GitHub en werd op 8 oktober 2026 closed-source, na meer dan 12.000 forks.",
-    "Volgens de tijdlijn van Datadog koppelde Microsoft ARTEX op 21 oktober 2026 aan Storm-0940, een China-gelieerde actor.",
-    "Elke bekeken sessie begon met anonieme S3-verzoeken; met gelekte langlevende sleutels was FilterLogEvents op CloudWatch Logs de meest gebruikte actie, steeds met limit 1000.",
-    "Zonder sleutels registreerde de agent zichzelf via SignUp in openbare Cognito-gebruikerspools, haalde tokens op en zette die om in tijdelijke AWS-credentials; de discovery-aanroepen daarna faalden door te weinig rechten.",
-    "Volgens Datadog zijn veel AccessDenied-fouten, snelle S3-enumeratie, verzoeken naar niet-bestaande objecten en pieken in Cognito-registraties bruikbare detectiesignalen.",
-    "Datadog vond honderden ARTEX-consoles op internet, vaak gehost in Singapore en Hongkong."
+    "ESET deelde het onderzoek vooraf met The Hacker News (artikel van 10 november 2026); Turla (ook Snake) is volgens ESET een aan Rusland gelieerde, door de staat gesteunde groep.",
+    "Cereal is een tot nu toe onbekende, modulaire toolset van acht onderdelen, waaronder CerealRunner, CerealLoader, CerealSprinter, CerealNeuron, CerealHermit en CerealBox.",
+    "Cereal is eind 2025 ingezet tegen twee overheidsinstanties, in Kazachstan en Roemenië; in Roemenië richtte het verzamelen zich op mails van NAVO- en EU-adressen.",
+    "CerealBox injecteert zich in EdgeTransport.exe en zoekt mails met DOC-, DOCX- of PDF-bijlagen op basis van vaste lijsten met afzenders, ontvangers, onderwerpen of bijlagenamen; buit wordt gecomprimeerd, versleuteld, tijdelijk opgeslagen en na exfiltratie verwijderd.",
+    "Er is geen externe C2-infrastructuur: CerealNeuron luistert passief naar webverzoeken die op normaal Exchange-verkeer lijken; opdrachten zijn gecompileerde .NET-programma's die in het geheugen draaien.",
+    "Opdrachten omvatten mailboxen of berichten ophalen, Active Directory uitvragen, WMI-queries, LSA-geheimen uitlezen, volume-snapshots tonen en bestandsbewerkingen. De manier van binnenkomen is onbekend."
    ],
    "article_type": "nieuws",
    "showcase": {
-    "caption": "Een eenvoudige zoekopdracht voor een SIEM: welke identiteiten krijgen binnen een uur meer dan 50 keer AccessDenied in CloudTrail? Regel 1 kiest de logtabel, regel 2 filtert op weigeringen, regel 3 telt per identiteit per uur, regel 4 houdt alleen de uitschieters over.",
-    "language": "kql",
-    "code": "AWSCloudTrail\n| where ErrorCode == \"AccessDenied\"\n| summarize Weigeringen = count(), Acties = dcount(EventName) by UserIdentityArn, bin(TimeGenerated, 1h)\n| where Weigeringen > 50",
-    "result": {
-     "columns": [
-      "UserIdentityArn",
-      "Uur",
-      "Weigeringen",
-      "Acties"
-     ],
-     "rows": [
-      [
-       "arn:aws:sts::111122223333:assumed-role/cognito-auth/CognitoIdentityCredentials",
-       "2026-10-26 14:00",
-       "212",
-       "37"
-      ],
-      [
-       "arn:aws:iam::111122223333:user/ci-deploy",
-       "2026-10-26 14:00",
-       "63",
-       "2"
-      ]
-     ]
-    },
-    "note": "Nagebouwd voorbeeld met verzonnen data; de drempel van 50 is een voorbeeld. Een hoog aantal verschillende acties (Acties) past bij een agent die alles probeert."
+    "caption": "Zo zijn de onderdelen van Cereal aan elkaar gekoppeld, volgens de beschrijving in de bron. Elke stap laadt de volgende; pas onderaan zit het eigenlijke werk: luisteren naar opdrachten en mail verzamelen.",
+    "language": "text",
+    "code": "CerealRunner    -> door de aanvaller geplaatst, laadt de rest\n  CerealLoader  -> haalt een .NET-programma uit een versleuteld bestand\n    CerealSprinter -> ontsleutelt en start de drie werkers:\n      CerealNeuron  : passieve backdoor, luistert naar 'normaal' Exchange-verkeer\n      CerealHermit  : leest opdrachten uit versleutelde bestanden, geen netwerk\n      CerealBox     : zit in EdgeTransport.exe en verzamelt mails met bijlagen\n\nHulponderdelen: CerealIron (laadt .NET-code in andere processen)\n                CerealMoth (laadt code en voert één opdracht uit)",
+    "note": "Schema samengesteld uit de beschrijving in het artikel; geen code van de malware."
    },
    "terms": [
     {
-     "term": "AI-agenten",
-     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+     "term": "APT",
+     "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
     },
     {
-     "term": "langlevende toegangssleutel",
-     "explanation": "Een vaste sleutel voor AWS die niet vanzelf verloopt. Lekt hij uit, dan werkt hij tot iemand hem intrekt."
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
     },
     {
-     "term": "CloudWatch",
-     "explanation": "De dienst van AWS waarin applicaties en servers hun logbestanden en meetwaarden opslaan."
+     "term": "backdoor",
+     "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
     },
     {
-     "term": "Cognito-gebruikerspool",
-     "explanation": "Een AWS-dienst die de accounts van een app beheert. Staat zelfregistratie aan, dan kan iedereen er een account aanmaken."
+     "term": "Active Directory",
+     "explanation": "De centrale gids van een Windows-netwerk: wie de gebruikers, computers en groepen zijn, en wie waar bij mag. Voor een aanvaller een plattegrond van de organisatie."
     },
     {
-     "term": "CloudTrail",
-     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+     "term": "LSA-geheimen",
+     "explanation": "Gevoelige gegevens die Windows bewaart in de Local Security Authority, zoals wachtwoorden van serviceaccounts. Met beheerrechten kun je ze uitlezen en gebruiken om verder te komen."
     },
     {
-     "term": "user agent",
-     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+     "term": "EdgeTransport.exe",
+     "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail."
     }
    ],
-   "learning": "SIEM, logs en detectie",
+   "learning": "Aanvalstechnieken uitgelegd",
    "soort": "onderzoek",
    "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; detectie in de cloud, aansluitend op eerdere ARTEX-stukken."
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch malware-onderzoek met een duidelijke aanvalsketen."
    },
-   "takeaway": "Een AI-agent valt op door zijn gedrag: veel proberen, vaak falen, in hoog tempo. Detectie op gedrag in CloudTrail werkt beter dan zoeken op een naam die de aanvaller zo kan veranderen.",
-   "region": "world"
+   "takeaway": "Een passieve backdoor wacht op verzoeken die op normaal verkeer lijken in plaats van zelf naar buiten te bellen. Daardoor zie je hem nauwelijks in het netwerk en moet detectie op de server zelf gebeuren.",
+   "region": "eu"
   },
   {
    "id": "11515cc0259f",
@@ -538,7 +519,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -797,103 +778,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "27d0d882d07e",
-   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-10T19:31:11Z",
-   "fetched_at": "2026-11-11T01:23:37.468553Z",
-   "summary": "Een aanvaller stal toegang tot het AWS-account van dataplatform Qubole. Omdat klanten dat account vertrouwden, kon hij in hun eigen AWS-omgevingen geheimen en bestanden ophalen.",
-   "personal_relevance": "Klanten met AWS hebben vaak koppelingen met tientallen externe diensten. Een goede vraag: hebben jullie een overzicht van alle externe accounts die rollen in jullie cloud mogen aannemen, en worden ongebruikte koppelingen opgeruimd?",
-   "limitations": [
-    "Hoe de IAM-gebruikers van Qubole werden gehackt, is niet bekend.",
-    "Qubole heeft niets openbaar gemaakt en had bij publicatie niet gereageerd.",
-    "Het precieze aantal getroffen klanten is onbekend; Sentra spreekt van tientallen.",
-    "Wiz en Sentra zijn securityleveranciers die cloudbeveiliging verkopen."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "siem_detection",
-    "cloud_attacks",
-    "supply_chain"
-   ],
-   "groups": [
-    "incidenten",
-    "detectie",
-    "web"
-   ],
-   "relevance_score": 92,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.94,
-    "source": 0.68,
-    "quality": 0.73,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:54:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen",
-   "story": [
-    "Van 14 tot 26 oktober heeft een aanvaller data gestolen uit de AWS-omgevingen van tientallen bedrijven. Hij gebruikte daarvoor twee gehackte IAM-gebruikers van Qubole, een platform voor het verwerken van grote hoeveelheden data. Wiz onderzocht de aanval, nadat Sentra verdachte activiteit had gemeld. Volgens Sentra werden bij één klant alleen al miljoenen bestanden gestolen. Hoe Qubole zelf werd gehackt, is niet bekend.",
-    "Eerst de normale werking. Wil je een externe dienst toegang geven tot je cloudomgeving, dan geef je hem geen wachtwoord. Je maakt een rol aan met bepaalde rechten en zet in een trust policy welk extern account die rol mag 'aannemen'. De dienst vraagt dan tijdelijke sleutels op via AssumeRole. Dat is veilig, zolang het vertrouwde account veilig is. Hier was dat niet zo: wie het account van Qubole had, mocht de rollen van alle klanten aannemen die Qubole vertrouwden, ook rollen die niet meer werden gebruikt.",
-    "Volgens Wiz deed de aanvaller overal hetzelfde. Eerst de rol aannemen. Dan geheimen ophalen uit Secrets Manager, Parameter Store en de instellingen van Lambda-functies. Gevonden sleutels testte hij met de openbare tool TruffleHog, ook voor Entra ID en Okta. Daarna vroeg hij een lijst van opslagbuckets op, bekeek hij de inhoud en downloadde hij alles wat hij kon bereiken. Volgens Sentra verzamelde hij zo ongeveer 100 wachtwoorden en sleutels per zeven minuten.",
-    "Hoe zie je dit? In CloudTrail, het logboek van AWS, staat elke AssumeRole met het account dat erom vroeg. Getroffen beheerders moeten volgens het advies terugkijken vanaf 1 oktober naar toegang vanuit het Qubole-account, en daarna naar het ophalen van geheimen en S3-bestanden. Daarna: sleutels vervangen, actieve sessies intrekken, ongebruikte koppelingen verwijderen en de rechten van overgebleven rollen beperken.",
-    "Dit is een supply chain-aanval op cloudniveau. Je eigen omgeving kan goed beveiligd zijn, maar een vergeten koppeling met een leverancier blijft een open deur. Een lijst van alle externe accounts die je vertrouwt, is daarom net zo belangrijk als een lijst van je eigen gebruikers."
-   ],
-   "key_facts": [
-    "De aanval liep van 14 tot 26 oktober 2026; de aanvaller gebruikte twee gehackte IAM-gebruikers van Qubole (BleepingComputer, 10 november 2026, op basis van Wiz).",
-    "Hij nam via cross-account-rollen, ook ongebruikte, toegang over in AWS-accounts van klanten die het Qubole-account vertrouwden.",
-    "Wiz beschrijft de volgorde: AssumeRole, geheimen ophalen uit Secrets Manager, SSM Parameter Store en Lambda-omgevingsvariabelen, sleutels valideren met TruffleHog, dan ListBuckets, ListObjects, HeadObject en GetObject.",
-    "Sentra bevestigt tientallen slachtoffers, miljoenen gestolen bestanden bij één klant en een tempo van ongeveer 100 wachtwoorden en sleutels per zeven minuten; Mandiant was bij het onderzoek betrokken.",
-    "Advies: CloudTrail vanaf 1 oktober nakijken op toegang vanuit het Qubole-account, sleutels roteren, sessies intrekken, ongebruikte integraties verwijderen en rechten van rollen beperken."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een AssumeRole er vereenvoudigd uit in CloudTrail. Belangrijk zijn het account dat de rol aanneemt (userIdentity) en de rol die wordt aangenomen. Een SIEM kan alarm slaan als een extern account een rol aanneemt die maanden niet gebruikt is.",
-    "language": "json",
-    "code": "{\n  \"eventTime\": \"2026-10-14T09:12:44Z\",\n  \"eventSource\": \"sts.amazonaws.com\",\n  \"eventName\": \"AssumeRole\",\n  \"userIdentity\": {\"type\": \"AWSAccount\", \"accountId\": \"111122223333\"},\n  \"sourceIPAddress\": \"203.0.113.10\",\n  \"requestParameters\": {\n    \"roleArn\": \"arn:aws:iam::444455556666:role/leverancier-integratie\",\n    \"roleSessionName\": \"sessie-01\"\n  }\n}",
-    "note": "Nagebouwd en ingekort voorbeeld met verzonnen accountnummers en een voorbeeldadres."
-   },
-   "terms": [
-    {
-     "term": "IAM-gebruikers",
-     "explanation": "Accounts in AWS Identity and Access Management. Ze bepalen wie in een AWS-omgeving mag inloggen en wat die persoon of applicatie daar mag doen."
-    },
-    {
-     "term": "trust policy",
-     "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
-    },
-    {
-     "term": "AssumeRole",
-     "explanation": "Een functie van AWS waarmee een account tijdelijke sleutels krijgt voor een rol in een ander account, met alleen de rechten van die rol."
-    },
-    {
-     "term": "CloudTrail",
-     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
-    },
-    {
-     "term": "opslagbuckets",
-     "explanation": "Mappen in de clouddienst Amazon S3 waarin organisaties bestanden bewaren. Wie leesrechten heeft, kan de inhoud oplijsten en downloaden."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "incident",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; cloudincident met duidelijke aanvalsstappen en logadvies."
-   },
-   "takeaway": "In de cloud geef je een leverancier toegang door zijn account te vertrouwen. Wordt dat account gehackt, dan erft de aanvaller dat vertrouwen bij al zijn klanten tegelijk.",
-   "region": "world"
-  },
-  {
    "id": "7bb9dcd14586",
    "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
    "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
@@ -1022,7 +906,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.62,
+    "recency": 0.61,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -1143,6 +1027,422 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "3e830a9401ea",
+   "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+   "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+   "source_id": "datadog_security_labs",
+   "published_at": "2026-11-09T00:00:00Z",
+   "fetched_at": "2026-11-10T07:41:51.020238Z",
+   "summary": "Datadog zag het AI-framework ARTEX in AWS-omgevingen zoeken in logbestanden en zichzelf registreren via openbare inlogpools. Het laat ook zien welke patronen je in CloudTrail terugziet.",
+   "personal_relevance": "Dit is een concreet voorbeeld voor gesprekken over cloud-detectie: welke CloudTrail-patronen bewaakt de klant, en zitten er geheimen in de applicatielogs die naar de cloud gaan?",
+   "limitations": [
+    "Wie achter deze sessies zat en hoeveel organisaties zijn geraakt, staat niet in het onderzoek.",
+    "Het gedrag van ARTEX hangt volgens Datadog sterk af van het gebruikte taalmodel; andere sessies kunnen er anders uitzien.",
+    "Datadog is een leverancier van monitoring- en SIEM-software en noemt eigen detectieregels."
+   ],
+   "topics": [
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.85,
+    "source": 0.8,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:57:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Zo herken je de AI-aanvalstool ARTEX in de logs van AWS",
+   "story": [
+    "ARTEX is een aanvalsframework waarin meerdere AI-agenten samen een aanval plannen en uitvoeren. Volgens Datadog koppelde Microsoft ARTEX eerder aan Storm-0940, een groep die met China in verband wordt gebracht. Datadog Security Labs beschrijft nu wat ARTEX in oktober deed in AWS-omgevingen, vooral gericht op financiële gegevens. Nieuw is vooral hoe je het in de logs herkent.",
+    "Elke sessie begon met verzoeken aan S3 zonder inlog: de agent keek wat er openbaar te lezen viel. Daarna twee routes. Had de aanvaller een gelekte langlevende toegangssleutel, dan doorzocht hij de logbestanden in CloudWatch. Eerst op namen van cryptobedrijven en woorden als 'Invoice' en 'Billing', later op wachtwoorden, interne IP-adressen en downloadlinks. Logs blijken dus zelf een bron van geheimen. Had hij geen sleutel, dan maakte de agent zelf een account aan in een openbare Cognito-gebruikerspool. Met de tokens daarvan vroeg hij tijdelijke AWS-sleutels op en probeerde hij allerlei gegevens op te vragen. Dat mislukte, omdat die rol te weinig rechten had.",
+    "Wat zie je in CloudTrail? Een AI-agent probeert veel en faalt vaak. Datadog noemt onder meer: veel AccessDenied-fouten voor één identiteit, veel buckets in korte tijd, verzoeken naar niet-bestaande bestanden vlak voor een reeks gokpogingen, en FilterLogEvents steeds met precies 1000 resultaten. Bij Cognito: een piek in nieuwe registraties, gevolgd door sessies met de naam CognitoIdentityCredentials. Een user agent met 'artex' erin is snel te vinden, maar makkelijk te veranderen. Gedrag is betrouwbaarder.",
+    "Datadog adviseert langlevende sleutels te vervangen en oude op te ruimen, geen geheimen in logs te zetten en openbare Cognito-pools na te lopen op zelfregistratie en rechten. Voor organisaties is de les: een AI-agent maakt geen nieuwe soort fouten, maar vindt bestaande fouten veel sneller."
+   ],
+   "key_facts": [
+    "Datadog Security Labs publiceerde de analyse op 9 november 2026 en zag ARTEX-activiteit in oktober 2026 tegen meerdere AWS-omgevingen, gericht op financiële data.",
+    "ARTEX verscheen in juli 2026 op GitHub en werd op 8 oktober 2026 closed-source, na meer dan 12.000 forks.",
+    "Volgens de tijdlijn van Datadog koppelde Microsoft ARTEX op 21 oktober 2026 aan Storm-0940, een China-gelieerde actor.",
+    "Elke bekeken sessie begon met anonieme S3-verzoeken; met gelekte langlevende sleutels was FilterLogEvents op CloudWatch Logs de meest gebruikte actie, steeds met limit 1000.",
+    "Zonder sleutels registreerde de agent zichzelf via SignUp in openbare Cognito-gebruikerspools, haalde tokens op en zette die om in tijdelijke AWS-credentials; de discovery-aanroepen daarna faalden door te weinig rechten.",
+    "Volgens Datadog zijn veel AccessDenied-fouten, snelle S3-enumeratie, verzoeken naar niet-bestaande objecten en pieken in Cognito-registraties bruikbare detectiesignalen.",
+    "Datadog vond honderden ARTEX-consoles op internet, vaak gehost in Singapore en Hongkong."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige zoekopdracht voor een SIEM: welke identiteiten krijgen binnen een uur meer dan 50 keer AccessDenied in CloudTrail? Regel 1 kiest de logtabel, regel 2 filtert op weigeringen, regel 3 telt per identiteit per uur, regel 4 houdt alleen de uitschieters over.",
+    "language": "kql",
+    "code": "AWSCloudTrail\n| where ErrorCode == \"AccessDenied\"\n| summarize Weigeringen = count(), Acties = dcount(EventName) by UserIdentityArn, bin(TimeGenerated, 1h)\n| where Weigeringen > 50",
+    "result": {
+     "columns": [
+      "UserIdentityArn",
+      "Uur",
+      "Weigeringen",
+      "Acties"
+     ],
+     "rows": [
+      [
+       "arn:aws:sts::111122223333:assumed-role/cognito-auth/CognitoIdentityCredentials",
+       "2026-10-26 14:00",
+       "212",
+       "37"
+      ],
+      [
+       "arn:aws:iam::111122223333:user/ci-deploy",
+       "2026-10-26 14:00",
+       "63",
+       "2"
+      ]
+     ]
+    },
+    "note": "Nagebouwd voorbeeld met verzonnen data; de drempel van 50 is een voorbeeld. Een hoog aantal verschillende acties (Acties) past bij een agent die alles probeert."
+   },
+   "terms": [
+    {
+     "term": "AI-agenten",
+     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+     "term": "langlevende toegangssleutel",
+     "explanation": "Een vaste sleutel voor AWS die niet vanzelf verloopt. Lekt hij uit, dan werkt hij tot iemand hem intrekt."
+    },
+    {
+     "term": "CloudWatch",
+     "explanation": "De dienst van AWS waarin applicaties en servers hun logbestanden en meetwaarden opslaan."
+    },
+    {
+     "term": "Cognito-gebruikerspool",
+     "explanation": "Een AWS-dienst die de accounts van een app beheert. Staat zelfregistratie aan, dan kan iedereen er een account aanmaken."
+    },
+    {
+     "term": "CloudTrail",
+     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; detectie in de cloud, aansluitend op eerdere ARTEX-stukken."
+   },
+   "takeaway": "Een AI-agent valt op door zijn gedrag: veel proberen, vaak falen, in hoog tempo. Detectie op gedrag in CloudTrail werkt beter dan zoeken op een naam die de aanvaller zo kan veranderen.",
+   "region": "world"
+  },
+  {
+   "id": "ce0b470d4dea",
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T10:02:40Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "SAP verhelpt vier kritieke lekken in NetWeaver en de Web Dispatcher. Aanvallers zonder account kunnen opdrachten uitvoeren of als beheerder inloggen. Misbruik is nog niet gezien.",
+   "personal_relevance": "SAP-patches blijven bij klanten vaak liggen omdat het systeem 'te belangrijk is om aan te komen'. Dit is een goed gesprek over waarom juist zulke systemen voorrang krijgen, en waarom een volledige inventaris van Web Dispatchers nodig is.",
+   "limitations": [
+    "De SAP-notes zelf zijn alleen met een SAP-account te lezen en zijn in deze run niet geopend; de details komen van The Hacker News, dat Onapsis en RedRays citeert.",
+    "Het artikel zegt niet onder welke instellingen precies de SAML-handtekening niet wordt gecontroleerd.",
+    "Hoeveel SAP-systemen met WebSocket of een open Gateway aan internet staan, is onbekend.",
+    "Onapsis en RedRays verkopen zelf SAP-beveiliging; hun inschatting van de risico's is niet onafhankelijk gecontroleerd."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.92,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T05:10:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig",
+   "story": [
+    "Op zijn maandelijkse Patch Day (10 november) dichtte SAP vier lekken met CVSS-score 10.0. Alle vier zijn te misbruiken zonder in te loggen. Drie zitten in de SAP NetWeaver-applicatieserver, waarop SAP-systemen draaien. Eén zit in de Web Dispatcher, die verzoeken van internet ontvangt en doorgeeft aan de SAP-systemen erachter. Misbruik is nog niet gezien, maar onderzoekers van Onapsis gaven SAP werkende aanvalscode.",
+    "Twee lekken (samen ICM2SHELL genoemd) zitten in de verwerking van WebSocket-verkeer. Lange WebSocket-berichten worden in stukjes verstuurd en aan de ontvangende kant weer aan elkaar gezet. Een stukje met een ongeldig lengteveld laat de software buiten het gereserveerde stuk geheugen op de heap schrijven. Dat gebeurt nog vóór de inlog. Zo kan een aanvaller opdrachten uitvoeren als het systeemaccount van SAP, of het systeem laten crashen. WebSocket staat standaard aan.",
+    "Het derde lek (PROXYGATE) zit in de SAP Gateway, waarmee SAP-systemen onderling praten via RFC. Een ACL bepaalt wie dat mag. De standaardlijst voor doorgestuurde verbindingen is te ruim. Daardoor kan een aanvaller van buiten zich voordoen als een eigen SAP-server en opdrachten uitvoeren. Het vierde lek zit in de SAML-inlog: in sommige instellingen controleert SAP de handtekening op het inlogbewijs niet. Dan kan iemand inloggen als elke gebruiker, ook een beheerder.",
+    "Waarom urgent? Geen inlog nodig, de Web Dispatcher staat vaak aan internet, en er bestaat al aanvalscode. Met vulnerability management zoek je alle kernels en álle Web Dispatchers op: één vergeten exemplaar blijft open. Oude kernels zonder onderhoud krijgen mogelijk geen fix en moeten worden opgewaardeerd. Tijdelijk helpt het om de proxylijst van de Gateway te beperken (gw/acl_mode_proxy op 1) en de Gateway-poorten af te schermen. Voor de SAML-fout is er geen workaround.",
+    "Voor organisaties is SAP het hart van financiën, inkoop en personeel. Een aanvaller met opdrachten op die server zit dus bij de belangrijkste gegevens. Voor detectie raden de bronnen aan om in de auditlogs te zoeken naar SAML-logins van beheerders vanaf onverwachte plekken."
+   ],
+   "key_facts": [
+    "SAP dichtte op 10 november 2026 vier lekken met CVSS 10.0 die zonder inlog te misbruiken zijn: CVE-2026-76964 (ICM, SAP Note 3778530), CVE-2026-89126 (Web Dispatcher, Note 3778556), CVE-2026-89103 (Gateway, Note 3798345) en CVE-2026-120017 (SAML2, Note 3849308).",
+    "ICM2SHELL (CVE-2026-76964, CVE-2026-89126): misvormde WebSocket-controlframes met ongeldige lengtevelden veroorzaken een heap out-of-bounds write vóór authenticatie; gevolg is code-uitvoering als <sid>adm of een crash. WebSocket staat standaard aan.",
+    "PROXYGATE (CVE-2026-89103): de standaard proxy-ACL van de Gateway is te ruim; blootstelling hangt af van prxyinfo of gw/acl_mode_proxy (standaard 0). Het artikel adviseert gw/acl_mode_proxy op 1 te zetten en de poorten 33NN en 48NN te beperken tot hosts die RFC-toegang nodig hebben.",
+    "CVE-2026-120017: onder bepaalde instellingen controleert de SAML2-service provider de handtekening van inkomende assertions niet, waardoor inloggen als elke gebruiker mogelijk is; er is geen workaround.",
+    "Onapsis leverde SAP een werkende exploit voor ICM2SHELL; voor PROXYGATE deelden onderzoekers een volledige proof of concept met SAP. Misbruik in echte aanvallen is niet gezien.",
+    "Ook kernels zonder onderhoud (onder meer 7.40 tot 7.89; voor de Gateway ook 7.20 en 7.21) zijn volgens Onapsis getroffen; daar is mogelijk een upgrade nodig."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo begint een normale WebSocket-verbinding. De browser vraagt met 'Upgrade: websocket' of de verbinding open mag blijven; de server antwoordt met 101. Daarna gaan berichten in kleine stukjes (frames) heen en weer. Bij ICM2SHELL gaat het mis bij het in elkaar zetten van zulke frames.",
+    "language": "http",
+    "code": "GET /chat HTTP/1.1\nHost: sap.example.com\nUpgrade: websocket\nConnection: Upgrade\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\nSec-WebSocket-Version: 13\n\nHTTP/1.1 101 Switching Protocols\nUpgrade: websocket\nConnection: Upgrade\nSec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRrK+xOo=",
+    "note": "Nagebouwd voorbeeld van een normale WebSocket-start, met de waarden uit de WebSocket-standaard (RFC 6455) en een voorbeeldadres. Geen aanval."
+   },
+   "terms": [
+    {
+     "term": "WebSocket",
+     "explanation": "Een manier om een webverbinding open te houden, zodat server en browser steeds berichten kunnen uitwisselen zonder voor elk bericht een nieuw verzoek te doen. Handig voor live-meldingen en chat."
+    },
+    {
+     "term": "heap",
+     "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
+    },
+    {
+     "term": "RFC",
+     "explanation": "Remote Function Call: de manier waarop SAP-systemen elkaar functies laten uitvoeren. De SAP Gateway regelt die verbindingen."
+    },
+    {
+     "term": "ACL",
+     "explanation": "Access control list: een lijst die vastlegt wie of wat ergens bij mag. Staat die te ruim, dan komen ook ongewenste partijen binnen."
+    },
+    {
+     "term": "SAML",
+     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+     "term": "Web Dispatcher",
+     "explanation": "Het onderdeel van SAP dat vooraan staat: het ontvangt webverzoeken, vaak van internet, en verdeelt ze over de SAP-servers erachter. Een soort portier."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; uitgebreide technische uitleg van kritieke lekken in veelgebruikte bedrijfssoftware."
+   },
+   "takeaway": "Een fout in het in elkaar zetten van berichten, vóór de inlog, maakt een server bereikbaar voor iedereen die hem kan aanspreken. En een standaardinstelling die te veel vertrouwt, is net zo gevaarlijk als een programmeerfout.",
+   "region": "world",
+   "exploitation": "geen_misbruik_bekend",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "27d0d882d07e",
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-10T19:31:11Z",
+   "fetched_at": "2026-11-11T01:23:37.468553Z",
+   "summary": "Een aanvaller stal toegang tot het AWS-account van dataplatform Qubole. Omdat klanten dat account vertrouwden, kon hij in hun eigen AWS-omgevingen geheimen en bestanden ophalen.",
+   "personal_relevance": "Klanten met AWS hebben vaak koppelingen met tientallen externe diensten. Een goede vraag: hebben jullie een overzicht van alle externe accounts die rollen in jullie cloud mogen aannemen, en worden ongebruikte koppelingen opgeruimd?",
+   "limitations": [
+    "Hoe de IAM-gebruikers van Qubole werden gehackt, is niet bekend.",
+    "Qubole heeft niets openbaar gemaakt en had bij publicatie niet gereageerd.",
+    "Het precieze aantal getroffen klanten is onbekend; Sentra spreekt van tientallen.",
+    "Wiz en Sentra zijn securityleveranciers die cloudbeveiliging verkopen."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "siem_detection",
+    "cloud_attacks",
+    "supply_chain"
+   ],
+   "groups": [
+    "incidenten",
+    "detectie",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:54:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen",
+   "story": [
+    "Van 14 tot 26 oktober heeft een aanvaller data gestolen uit de AWS-omgevingen van tientallen bedrijven. Hij gebruikte daarvoor twee gehackte IAM-gebruikers van Qubole, een platform voor het verwerken van grote hoeveelheden data. Wiz onderzocht de aanval, nadat Sentra verdachte activiteit had gemeld. Volgens Sentra werden bij één klant alleen al miljoenen bestanden gestolen. Hoe Qubole zelf werd gehackt, is niet bekend.",
+    "Eerst de normale werking. Wil je een externe dienst toegang geven tot je cloudomgeving, dan geef je hem geen wachtwoord. Je maakt een rol aan met bepaalde rechten en zet in een trust policy welk extern account die rol mag 'aannemen'. De dienst vraagt dan tijdelijke sleutels op via AssumeRole. Dat is veilig, zolang het vertrouwde account veilig is. Hier was dat niet zo: wie het account van Qubole had, mocht de rollen van alle klanten aannemen die Qubole vertrouwden, ook rollen die niet meer werden gebruikt.",
+    "Volgens Wiz deed de aanvaller overal hetzelfde. Eerst de rol aannemen. Dan geheimen ophalen uit Secrets Manager, Parameter Store en de instellingen van Lambda-functies. Gevonden sleutels testte hij met de openbare tool TruffleHog, ook voor Entra ID en Okta. Daarna vroeg hij een lijst van opslagbuckets op, bekeek hij de inhoud en downloadde hij alles wat hij kon bereiken. Volgens Sentra verzamelde hij zo ongeveer 100 wachtwoorden en sleutels per zeven minuten.",
+    "Hoe zie je dit? In CloudTrail, het logboek van AWS, staat elke AssumeRole met het account dat erom vroeg. Getroffen beheerders moeten volgens het advies terugkijken vanaf 1 oktober naar toegang vanuit het Qubole-account, en daarna naar het ophalen van geheimen en S3-bestanden. Daarna: sleutels vervangen, actieve sessies intrekken, ongebruikte koppelingen verwijderen en de rechten van overgebleven rollen beperken.",
+    "Dit is een supply chain-aanval op cloudniveau. Je eigen omgeving kan goed beveiligd zijn, maar een vergeten koppeling met een leverancier blijft een open deur. Een lijst van alle externe accounts die je vertrouwt, is daarom net zo belangrijk als een lijst van je eigen gebruikers."
+   ],
+   "key_facts": [
+    "De aanval liep van 14 tot 26 oktober 2026; de aanvaller gebruikte twee gehackte IAM-gebruikers van Qubole (BleepingComputer, 10 november 2026, op basis van Wiz).",
+    "Hij nam via cross-account-rollen, ook ongebruikte, toegang over in AWS-accounts van klanten die het Qubole-account vertrouwden.",
+    "Wiz beschrijft de volgorde: AssumeRole, geheimen ophalen uit Secrets Manager, SSM Parameter Store en Lambda-omgevingsvariabelen, sleutels valideren met TruffleHog, dan ListBuckets, ListObjects, HeadObject en GetObject.",
+    "Sentra bevestigt tientallen slachtoffers, miljoenen gestolen bestanden bij één klant en een tempo van ongeveer 100 wachtwoorden en sleutels per zeven minuten; Mandiant was bij het onderzoek betrokken.",
+    "Advies: CloudTrail vanaf 1 oktober nakijken op toegang vanuit het Qubole-account, sleutels roteren, sessies intrekken, ongebruikte integraties verwijderen en rechten van rollen beperken."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een AssumeRole er vereenvoudigd uit in CloudTrail. Belangrijk zijn het account dat de rol aanneemt (userIdentity) en de rol die wordt aangenomen. Een SIEM kan alarm slaan als een extern account een rol aanneemt die maanden niet gebruikt is.",
+    "language": "json",
+    "code": "{\n  \"eventTime\": \"2026-10-14T09:12:44Z\",\n  \"eventSource\": \"sts.amazonaws.com\",\n  \"eventName\": \"AssumeRole\",\n  \"userIdentity\": {\"type\": \"AWSAccount\", \"accountId\": \"111122223333\"},\n  \"sourceIPAddress\": \"203.0.113.10\",\n  \"requestParameters\": {\n    \"roleArn\": \"arn:aws:iam::444455556666:role/leverancier-integratie\",\n    \"roleSessionName\": \"sessie-01\"\n  }\n}",
+    "note": "Nagebouwd en ingekort voorbeeld met verzonnen accountnummers en een voorbeeldadres."
+   },
+   "terms": [
+    {
+     "term": "IAM-gebruikers",
+     "explanation": "Accounts in AWS Identity and Access Management. Ze bepalen wie in een AWS-omgeving mag inloggen en wat die persoon of applicatie daar mag doen."
+    },
+    {
+     "term": "trust policy",
+     "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
+    },
+    {
+     "term": "AssumeRole",
+     "explanation": "Een functie van AWS waarmee een account tijdelijke sleutels krijgt voor een rol in een ander account, met alleen de rechten van die rol."
+    },
+    {
+     "term": "CloudTrail",
+     "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres."
+    },
+    {
+     "term": "opslagbuckets",
+     "explanation": "Mappen in de clouddienst Amazon S3 waarin organisaties bestanden bewaren. Wie leesrechten heeft, kan de inhoud oplijsten en downloaden."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "incident",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; cloudincident met duidelijke aanvalsstappen en logadvies."
+   },
+   "takeaway": "In de cloud geef je een leverancier toegang door zijn account te vertrouwen. Wordt dat account gehackt, dan erft de aanvaller dat vertrouwen bij al zijn klanten tegelijk.",
+   "region": "world"
+  },
+  {
+   "id": "cd6455aacef5",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-11T06:04:02Z",
+   "fetched_at": "2026-11-11T07:00:36.915552Z",
+   "summary": "CISA meldt misbruik van een al in augustus gedicht lek in Cisco BroadWorks en van een lek in Openwave-webmail. Volgens één onderzoeksbureau voerde een AI-agent de aanval op een Europese telecomaanbieder grotendeels zelf uit.",
+   "personal_relevance": "Klanten vragen of ze een 'oude' kwetsbaarheid nog moeten prioriteren. Dit voorbeeld laat zien waarom de KEV-status zwaarder weegt dan de CVSS-score of de leeftijd van de patch.",
+   "limitations": [
+    "Het verband tussen Operation Snowball en de KEV-toevoeging komt uit het artikel en het onderzoek van Malbear Labs; CISA zegt niet wie de lekken misbruikt.",
+    "Welke telecomaanbieder en welke bedrijven getroffen zijn, is niet bekend gemaakt.",
+    "Hoe het Openwave-lek wordt misbruikt en door wie, staat niet in de bronnen.",
+    "Het advies van Cisco en het rapport van Malbear Labs zijn in deze run niet zelf geopend."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "attack_techniques",
+    "vulnerability_management",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "vm",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.95,
+    "source": 0.68,
+    "quality": 0.67,
+    "region": 0.02,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T05:10:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent",
+   "story": [
+    "CISA zette op 10 november twee lekken op de KEV-lijst, omdat ze worden misbruikt. Het belangrijkste is CVE-2026-20320 in Cisco BroadWorks, een platform waarmee telecomaanbieders telefonie- en communicatiediensten leveren. Cisco dichtte het lek al in augustus. Het tweede lek, CVE-2026-111793, zit in de Media Transcoder van Openwave-webmail en is in oktober gedicht.",
+    "Hoe werkt het BroadWorks-lek? Programma's praten met BroadWorks via een interface die berichten in XML gebruikt. XML kent 'entiteiten': verwijzingen die de lezer van het bestand vervangt door iets anders. Een externe entiteit kan verwijzen naar een bestand op de server zelf. Bij een XXE-fout volgt de server zo'n verwijzing blind. Een aanvaller zonder account kan zo gevoelige configuratiebestanden laten uitlezen.",
+    "Het onderzoeksbureau Malbear Labs koppelt het lek aan 'Operation Snowball'. Een onbekende, Chineessprekende aanvaller gebruikte volgens Malbear een AI-agent op basis van een gekraakt taalmodel. Die drong via het lek een Europese telecomaanbieder en 13 bedrijven op diens netwerk binnen. In ongeveer twee weken stal de agent tientallen inloggegevens, privésleutels en duizenden rijen klant- en factuurgegevens. Voor blijvende toegang gebruikte hij onder meer een webshell en de tunneltool Chisel. De agent paste zich volgens de onderzoekers zelf aan verdedigingsmaatregelen aan.",
+    "Waarom urgent? Het lek vraagt geen inlog en de patch bestaat al maanden: wie hem nog niet heeft, loopt achter op aanvallers. Vulnerability management laat zien welke BroadWorks-systemen nog een oude versie draaien; de KEV-lijst zegt dat het nu moet. In de logs let je op nieuwe bestanden in webmappen en op tunnels naar buiten vanaf de server.",
+    "Voor organisaties is de les dubbel. Een oud, gedicht lek wordt pas gevaarlijk als het blijft liggen. En een AI-agent kan zo'n achterstand sneller en op grotere schaal benutten dan een mens."
+   ],
+   "key_facts": [
+    "CISA zette CVE-2026-20320 (Cisco BroadWorks) en CVE-2026-111793 (Openwave Messaging Webtop Media Transcoder) op 10 november 2026 op de KEV-lijst; Amerikaanse federale instanties moeten uiterlijk 24 november 2026 patchen.",
+    "CVE-2026-20320 (CVSS 7,5) is een XXE-fout in de OCI XML-parser van BroadWorks; een aanvaller zonder inlog kan op afstand gevoelige configuratiegegevens lezen met de rechten van de BroadWorks-gebruiker. Gedicht in augustus 2026.",
+    "CVE-2026-111793 (CVSS 4,3) laat een ingelogde gebruiker documenttypen laten omzetten die niet bedoeld zijn; via een speciaal bestand kan gevoelige informatie lekken. Gedicht in oktober 2026; volgens het Japanse JVN-advies meldt de ontwikkelaar dat misbruik is gezien.",
+    "Malbear Labs koppelt CVE-2026-20320 aan 'Operation Snowball' van een onbekende, Chineessprekende aanvaller met een autonome AI-agent op basis van een gejailbreakte versie van DeepSeek Flash; doelwit was BroadWorks XSP release 23.0.1.1075 op poort 2208.",
+    "Slachtoffers waren volgens Malbear Labs een Europese telecomaanbieder en 13 bedrijven op diens infrastructuur; in ongeveer twee weken werden honderden systemen in kaart gebracht, tientallen sets inloggegevens buitgemaakt en duizenden rijen abonnee-, factuur- en apparaatgegevens weggesluisd.",
+    "Buit en middelen volgens Malbear Labs: de privésleutel voor de systeemidentiteit, drie sets SSL-gegevens en drie andere privésleutels; tools Sliver, Chisel en de webshell Behinder."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "XXE voorkomen zit vaak in één instelling van de XML-lezer. Bovenaan een lezer die externe entiteiten volgt; onderaan dezelfde lezer met die functie uit, zodat verwijzingen naar bestanden of adressen worden genegeerd.",
+    "language": "python",
+    "code": "from lxml import etree\n\n# Kwetsbaar: de lezer vervangt entiteiten, ook als ze naar een bestand verwijzen\nonveilig = etree.XMLParser(resolve_entities=True)\n\n# Veiliger: entiteiten niet invullen en geen netwerk gebruiken\nveilig = etree.XMLParser(resolve_entities=False, no_network=True)\n\ndoc = etree.fromstring(bericht_van_buiten, parser=veilig)",
+    "note": "Leerboekvoorbeeld in Python met de bibliotheek lxml; BroadWorks zelf werkt anders en de bron toont geen code."
+   },
+   "terms": [
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "XML",
+     "explanation": "Een tekstformaat om gegevens gestructureerd op te slaan en uit te wisselen, met labels tussen punthaken zoals in HTML. Browsers en veel andere software lezen het automatisch in."
+    },
+    {
+     "term": "XXE",
+     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "privésleutels",
+     "explanation": "Het geheime deel van een sleutelpaar waarmee een systeem bewijst wie het is of versleutelde gegevens opent. Wie de privésleutel steelt, kan zich als dat systeem voordoen."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; misbruikt weblek met een uitgewerkte aanvalsketen."
+   },
+   "takeaway": "Bij XXE volgt een XML-lezer verwijzingen naar bestanden of adressen die een aanvaller in het bericht stopt. De oplossing is de lezer zo instellen dat hij externe entiteiten negeert, en patchen.",
+   "region": "eu",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "11af3bdb9908",
    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
@@ -1199,7 +1499,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.52,
+    "recency": 0.51,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -1656,6 +1956,163 @@
    "patch_status": "geen_patch"
   },
   {
+   "id": "63cbf25606a5",
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-11T15:34:27Z",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "summary": "Arctic Wolf koppelt systemen met het AI-pentestplatform AntiFox aan echte inbraken. Via een gehackte webserver en gestolen AWS-gegevens kwamen de aanvallers bij een productiegeheim.",
+   "personal_relevance": "Klanten vragen of AI-aanvallen 'iets anders' vragen van hun beveiliging. Dit voorbeeld laat zien dat het om bekende stappen gaat, sneller uitgevoerd, en dat goede logging en beperkte rechten nog steeds het verschil maken.",
+   "limitations": [
+    "Welke kwetsbaarheid de code-uitvoering op de IIS-server mogelijk maakte, is niet bekend.",
+    "Hoe de aanvallers aan de AWS-sleutels kwamen, is niet vastgesteld.",
+    "Arctic Wolf koppelt de aanvallen aan systemen mét AntiFox; hoe hard het bewijs is dat AntiFox zelf de aanvallen uitvoerde, staat niet uitgebreid in het artikel.",
+    "Het rapport van Arctic Wolf is in deze run niet zelf geopend; de uitleg steunt op The Hacker News."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T05:10:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS",
+   "story": [
+    "Arctic Wolf Labs zag systemen bij Alibaba Cloud met de interface van AntiFox terug in echte inbraken. AntiFox is een open-source platform op GitHub dat penetratietests automatiseert met AI-agenten. Een 'planner' verdeelt het werk, 'workers' voeren het uit: verkennen, zwakke plekken zoeken, misbruiken en rapporteren. Precies wat een ethisch hacker doet, maar dan zonder toestemming van het doelwit.",
+    "De eerste route liep via een webserver met IIS. Daar draait elke webapplicatie in een werkproces, w3wp.exe. Bij de aanvallen maakte dat proces een webshell aan en voerde het systeemopdrachten uit. Dat betekent dat de webapplicatie werd misbruikt om code te draaien; welk lek dat was, is niet bekend. Daarna zochten de aanvallers naar web.config-bestanden en back-ups. Ze lazen verbindingsstrings met databasewachtwoorden. Configuratie- en logbestanden zetten ze in een uploadmap die via het web bereikbaar is.",
+    "De tweede route begon met een geldige AWS-sleutel. Hoe de aanvallers die kregen, is niet vastgesteld. Daarmee probeerden ze tientallen AWS-diensten uit, zoals IAM, S3, Secrets Manager, Lambda, RDS en Bedrock. De meeste pogingen faalden met AccessDenied, maar niet alle. In minstens een paar gevallen lukte het om een productiegeheim op te halen, en werden bestanden in S3 bekeken en bewerkt.",
+    "Hoe zie je dit? Een webserverproces dat opdrachten start of bestanden in webmappen schrijft, is een klassiek alarmsignaal. In AWS legt CloudTrail elke poging vast. Eén identiteit die in korte tijd veel diensten probeert en vooral AccessDenied krijgt, is een herkenbaar patroon van verkennen. Sleutels met zo min mogelijk rechten beperken de schade: hier bleven daardoor waarschijnlijk de meeste deuren dicht.",
+    "Voor organisaties laat dit zien dat dezelfde AI-tools die verdedigers gebruiken, ook aanvallers sneller maken. Volgens het artikel bestaan er al meer dan 45 van zulke open-source aanvalsframeworks, zoals het eerder beschreven ARTEX."
+   ],
+   "key_facts": [
+    "Arctic Wolf Labs deelde het onderzoek met The Hacker News (artikel van 11 november 2026): Alibaba Cloud-systemen met AntiFox-interfaces zijn in verband gebracht met bevestigde kwaadaardige acties tegen webdiensten op internet en bijbehorende AWS-omgevingen.",
+    "AntiFox is een open-source, AI-gestuurd platform voor geautomatiseerde penetratietests op GitHub, met een multi-agentsysteem (planner, worker, main agent); het had 474 sterren en 251 forks.",
+    "Bij een IIS-webapplicatie maakte w3wp.exe een ASPX-webshell aan en voerde het systeemopdrachten uit; de aanvallers zochten naar web.config en back-ups, lazen verbindingsstrings, probeerden een interne productiedatabase en kopieerden bestanden naar een via het web bereikbare uploadmap.",
+    "Bij andere aanvallen begon de aanvaller met een geldige AWS-sleutel waarvan de herkomst niet is vastgesteld; tientallen diensten werden geprobeerd (o.a. IAM, S3, Secrets Manager, Lambda, RDS, Bedrock), meestal met AccessDenied.",
+    "In minstens enkele gevallen slaagde een GetSecretValue-aanroep op een productiegeheim en waren er S3-verkenning en bewerkingen op objecten.",
+    "Volgens het artikel zijn er meer dan 45 open-source agentische aanvalsframeworks, waaronder ARTEX."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan verkennen met een gestolen AWS-sleutel eruitzien in CloudTrail: één identiteit probeert in korte tijd veel diensten. Bijna alles mislukt (AccessDenied), maar het ophalen van één geheim lukt wel. Dat laatste is het moment om in te grijpen.",
+    "language": "text",
+    "code": "Zoekopdracht: alle CloudTrail-gebeurtenissen van gebruiker svc-deploy in het afgelopen uur,\ngesorteerd op tijd",
+    "result": {
+     "columns": [
+      "tijd (UTC)",
+      "dienst",
+      "actie",
+      "resultaat"
+     ],
+     "rows": [
+      [
+       "10:02:11",
+       "iam",
+       "ListUsers",
+       "AccessDenied"
+      ],
+      [
+       "10:02:12",
+       "iam",
+       "ListRoles",
+       "AccessDenied"
+      ],
+      [
+       "10:02:14",
+       "lambda",
+       "ListFunctions",
+       "AccessDenied"
+      ],
+      [
+       "10:02:15",
+       "rds",
+       "DescribeDBInstances",
+       "AccessDenied"
+      ],
+      [
+       "10:02:17",
+       "bedrock",
+       "ListFoundationModels",
+       "AccessDenied"
+      ],
+      [
+       "10:02:19",
+       "s3",
+       "ListBuckets",
+       "gelukt"
+      ],
+      [
+       "10:02:22",
+       "secretsmanager",
+       "ListSecrets",
+       "gelukt"
+      ],
+      [
+       "10:02:24",
+       "secretsmanager",
+       "GetSecretValue",
+       "gelukt"
+      ]
+     ]
+    },
+    "note": "Nagebouwd voorbeeld met verzonnen gebruikersnaam, tijden en resultaten; de echte gegevens staan in het rapport van Arctic Wolf."
+   },
+   "terms": [
+    {
+     "term": "IIS",
+     "explanation": "Internet Information Services: de webserver van Microsoft. Websites en webapplicaties op Windows-servers draaien er vaak op."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "verbindingsstrings",
+     "explanation": "Regels in een configuratiebestand die zeggen hoe een applicatie met een database verbindt, vaak inclusief gebruikersnaam en wachtwoord. Voor een aanvaller een sleutel tot de database."
+    },
+    {
+     "term": "CloudTrail",
+     "explanation": "De auditlog van AWS: die legt vast welke identiteit welke actie in een AWS-omgeving probeerde, en of dat lukte. De eerste plek om te kijken bij misbruik van een sleutel."
+    },
+    {
+     "term": "Secrets Manager",
+     "explanation": "Een AWS-dienst die geheimen zoals wachtwoorden en API-sleutels versleuteld bewaart. Applicaties halen ze op wanneer ze die nodig hebben."
+    },
+    {
+     "term": "AI-agenten",
+     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; aanvalsketen in web en cloud met concrete detectie."
+   },
+   "takeaway": "Een AI-agent doorloopt dezelfde aanvalsstappen als een mens: verkennen, binnenkomen, geheimen zoeken. Het patroon van veel mislukte pogingen op veel diensten is in cloudlogs goed te herkennen.",
+   "region": "world"
+  },
+  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -2019,175 +2476,6 @@
    "region": "world"
   },
   {
-   "id": "7e413807cc2f",
-   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T15:58:44Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "De groep Blind Eagle stuurt organisaties in Latijns-Amerika mails die lijken op berichten van de rechter. De bijlage bouwt het besmette bestand pas op de computer van het slachtoffer, zodat mailfilters het niet zien.",
-   "personal_relevance": "HTML smuggling is een goed voorbeeld om uit te leggen waarom een mailfilter alleen niet genoeg is. Een vraag aan klanten: ziet jullie EDR het als een browser of mailprogramma een script of PowerShell start?",
-   "limitations": [
-    "Hoeveel organisaties de mails kregen en of er besmettingen zijn, is niet bekend.",
-    "De koppeling aan Blind Eagle en een Braziliaans cluster is een inschatting van Zenox op basis van taal, infrastructuur, tijdzone en slachtoffers."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 89,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.93,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": -0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T02:12:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Nep-dagvaarding bouwt malware pas in de browser in elkaar",
-   "story": [
-    "Onderzoeksbureau Zenox beschrijft een nieuwe campagne van Blind Eagle, een groep die sinds 2018 actief is. De mails zijn in het Spaans en Portugees en lijken op berichten van een rechtbank of het openbaar ministerie. Doelwit zijn vooral juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika. Of de aanvallen gelukt zijn, is niet bekend.",
-    "Normaal controleert een mailfilter bijlagen: een ZIP-bestand met een script erin wordt vaak tegengehouden. Deze aanval omzeilt dat met HTML smuggling. De bijlage is een SVG-afbeelding die zich gedraagt als webpagina. Opent het slachtoffer die, dan bouwt de pagina het ZIP-bestand pas in de browser in elkaar. Het verdachte bestand gaat dus nooit als geheel door het mailfilter. Vergelijk het met een bouwpakket dat pas thuis een gereedschap wordt.",
-    "Daarna volgt een keten van kleine stappen. Een JavaScript-bestand verzamelt systeeminformatie en start een VBScript. Dat schakelt AMSI en ETW uit: twee onderdelen van Windows waarmee beveiligingssoftware scripts kan inspecteren. Ondertussen ziet het slachtoffer een nep-dagvaarding als afleiding. Het script wist het oorspronkelijke bestand en het Mark of the Web, zet zichzelf in de opstartmap en laat PowerShell de RAT in het geheugen starten. Die RAT is volgens Zenox een variant van AsyncRAT en kan onder meer toetsaanslagen en schermbeelden vastleggen.",
-    "Hoe zie je dit? Niet aan de mail, maar aan wat erna gebeurt. Let in de EDR-meldingen op een browser of mailprogramma dat een script start, op scripts die PowerShell aanroepen en op nieuwe items in de opstartmap. Dat een beveiligingsfunctie als AMSI wordt uitgeschakeld, is zelf ook een signaal. Voor organisaties buiten Latijns-Amerika is de les het patroon: lokmiddelen met gezag en tijdsdruk, en bijlagen die pas op de computer gevaarlijk worden."
-   ],
-   "key_facts": [
-    "Zenox deelde het onderzoek met The Hacker News (10 november 2026); het koppelt de campagne aan Blind Eagle (APT-C-36), actief sinds 2018, via een Braziliaans cluster.",
-    "Lokmiddelen in het Portugees en Spaans lijken op berichten van rechtbanken, het openbaar ministerie en tutela-procedures; doelwit zijn juridische, fiscale, bestuurlijke en onderwijsinstellingen in Latijns-Amerika.",
-    "De bijlage is een XHTML-bestand dat een SVG-afbeelding is; via HTML smuggling bouwt het lokaal een met ZipCrypto versleuteld ZIP-archief op.",
-    "Een JavaScript-dropper verzamelt systeeminformatie en start een VBScript dat AMSI en ETW omzeilt, een nep-dagvaarding toont, het bronbestand en het Mark of the Web wist en persistentie in de opstartmap zet.",
-    "PowerShell decodeert de RAT en voert die in het geheugen uit; het is een fork van AsyncRAT met DCRat-afkomst, met onder meer keylogging, schermopnames en versleutelde exfiltratie.",
-    "Er is geen bewijs dat de aanvallen tot nu toe succesvol waren."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "HTML smuggling",
-     "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg."
-    },
-    {
-     "term": "AMSI",
-     "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd."
-    },
-    {
-     "term": "ETW",
-     "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren."
-    },
-    {
-     "term": "Mark of the Web",
-     "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus."
-    },
-    {
-     "term": "RAT",
-     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.45,
-    "why": "Nog geen duimpjes; technisch sterke phishingketen, maar ver van de eigen regio."
-   },
-   "takeaway": "Bij HTML smuggling bestaat het gevaarlijke bestand pas als de browser het in elkaar zet. Het mailfilter ziet dus niets; detectie moet op de computer zelf gebeuren.",
-   "region": "world"
-  },
-  {
-   "id": "b958c2272095",
-   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T19:19:39Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "Via een lek in SGLang kreeg een aanvaller toegang tot een server van NEAR AI. Hij kon verzoeken zien die in een afgeschermde omgeving (TEE) liepen en stal gegevens van 18 agenten en ongeveer 100 gebruikers.",
-   "personal_relevance": "Klanten die zelf AI-modellen draaien, vergeten die servers vaak in hun scans. Een goede vraag: staan jullie AI-servers en hun software in het overzicht van vulnerability management?",
-   "limitations": [
-    "CVE-nummer, oorzaak en getroffen versies van SGLang zijn niet bekend, net als of het project al een fix uitbracht.",
-    "Hoe de aanvaller van de inference-server naar andere systemen kwam, is niet beschreven.",
-    "De precieze datum en het moment van ontdekking staan niet in het artikel.",
-    "Of gebruikers van wie verzoeken die dag over de server liepen, zijn ingelicht, is niet bevestigd."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "vulnerabilities_cve",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "incidenten",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 89,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.94,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:59:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken",
-   "story": [
-    "Een aanvaller misbruikte een lek in SGLang om code uit te voeren op een server van NEAR AI. SGLang is open-source software die AI-modellen laat draaien en verzoeken van gebruikers verwerkt: een inference engine. Volgens NEAR AI kon de aanvaller die dag alle verzoeken op die server zien. Daarna kwam hij verder in de systemen van het bedrijf. Hij stal chatgeschiedenis, instellingen en logs van 18 AI-agenten en namen en e-mailadressen van ongeveer 100 gebruikers.",
-    "Het opvallende: ook verzoeken in de 'confidential mode' waren zichtbaar. Die modus draait in een trusted execution environment (TEE). Dat is een afgeschermd deel van de processor, waar zelfs de beheerder van de server niet in kan kijken. Vergelijk het met een kluis. Maar SGLang draait zelf ín die kluis. NEAR AI zegt het zelf: een TEE beschermt niet tegen een lek in de software die erin draait. Wie die software overneemt, staat dus binnen de kluismuren.",
-    "Hoe het lek technisch werkt, is niet bekend: er is geen CVE-nummer, geen versie en geen oorzaak gepubliceerd. NEAR AI meldde de fout aan het SGLang-project en rolde zelf een fix uit. Daarnaast trok het alle sessies en beheerderswachtwoorden in, verving het tokens en zette het een oud chatsysteem uit. Bij twee klanten stond een API-sleutel in de logs; die zijn ingetrokken.",
-    "Wat betekent dit? Organisaties draaien steeds vaker zelf AI-modellen met software als SGLang. Die servers verwerken gevoelige vragen en staan vaak op internet. Ze horen dus in het vulnerability management, net als een webserver. En geheimen zoals API-sleutels horen niet in logs, want wie een server binnenkomt, leest die logs mee."
-   ],
-   "key_facts": [
-    "Een aanvaller misbruikte een remote code execution-lek in SGLang, een open-source inference engine, en voerde op een zondag code uit op een inference-server van NEAR AI (The Hacker News, 10 november 2026).",
-    "Volgens NEAR AI kon de aanvaller die dag verzoeken op die server zien, ook in confidential mode, die in een TEE draait; NEAR AI: de TEE beschermt niet tegen een lek in de software die erin draait.",
-    "Gestolen of blootgesteld: chatgeschiedenis, instellingen en logs van 18 agenten op een oudere uitrol buiten de TEE, en namen en e-mailadressen van ongeveer 100 gebruikers van Private Chat, bij sommigen ook abonnements- en saldogegevens.",
-    "Twee klanten van NEAR AI Cloud hadden hun API-sleutel in logs staan; beide sleutels zijn ingetrokken.",
-    "NEAR AI trok sessies en beheerderscredentials in, verving agenttokens, haalde Private Chat offline, patchte alle inference-servers en meldde de fout aan het SGLang-project."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "inference engine",
-     "explanation": "Software die een getraind AI-model laat draaien en vragen van gebruikers verwerkt tot antwoorden."
-    },
-    {
-     "term": "trusted execution environment",
-     "explanation": "Een afgeschermd deel van een processor waar gegevens versleuteld worden verwerkt, zodat ook de beheerder van de server er niet in kan kijken (TEE)."
-    },
-    {
-     "term": "AI-agenten",
-     "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
-    },
-    {
-     "term": "API-sleutel",
-     "explanation": "Een geheime code waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
-    },
-    {
-     "term": "tokens",
-     "explanation": "Digitale toegangsbewijzen die je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie er één steelt, is ingelogd als de eigenaar."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; incident met een nieuwe les over afgeschermde AI-servers."
-   },
-   "takeaway": "Een TEE beschermt gegevens tegen de beheerder van de server, niet tegen een lek in de software die erin draait. Afscherming helpt alleen zolang de code binnen de afscherming veilig is.",
-   "region": "world"
-  },
-  {
    "id": "a665869d02d2",
    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
@@ -2487,7 +2775,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
+    "recency": 0.74,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -3020,7 +3308,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.76,
+    "recency": 0.75,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -3132,7 +3420,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.78,
+    "recency": 0.77,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -3223,7 +3511,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.26,
+    "recency": 0.25,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -3806,7 +4094,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -5513,6 +5801,28 @@
    ]
   },
   {
+   "term": "ACL",
+   "explanation": "Access control list: een lijst die vastlegt wie of wat ergens bij mag. Staat die te ruim, dan komen ook ongewenste partijen binnen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    }
+   ]
+  },
+  {
+   "term": "Active Directory",
+   "explanation": "De centrale gids van een Windows-netwerk: wie de gebruikers, computers en groepen zijn, en wie waar bij mag. Voor een aanvaller een plattegrond van de organisatie.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    }
+   ]
+  },
+  {
    "term": "adversary-in-the-middle",
    "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept.",
    "refs": [
@@ -5551,6 +5861,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    },
+    {
+     "kind": "a",
      "id": "d0e0e442d471",
      "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     },
@@ -5572,8 +5887,8 @@
    "refs": [
     {
      "kind": "a",
-     "id": "b958c2272095",
-     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
     },
     {
      "kind": "a",
@@ -5605,17 +5920,6 @@
    ]
   },
   {
-   "term": "AMSI",
-   "explanation": "Antimalware Scan Interface: een onderdeel van Windows waarmee een virusscanner scripts kan controleren vlak voordat ze worden uitgevoerd.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
-    }
-   ]
-  },
-  {
    "term": "API",
    "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen.",
    "refs": [
@@ -5623,17 +5927,6 @@
      "kind": "a",
      "id": "63028db311b2",
      "title": "LLMJacking: aanvallers gebruiken de AI-modellen van bedrijven op hun kosten"
-    }
-   ]
-  },
-  {
-   "term": "API-sleutel",
-   "explanation": "Een geheime code waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "b958c2272095",
-     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
     }
    ]
   },
@@ -5674,6 +5967,11 @@
    "term": "APT",
    "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    },
     {
      "kind": "a",
      "id": "7b72d51a9df2",
@@ -5723,6 +6021,11 @@
    "term": "backdoor",
    "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    },
     {
      "kind": "a",
      "id": "b06c9cfc80a7",
@@ -5778,6 +6081,11 @@
    "term": "C2",
    "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    },
     {
      "kind": "a",
      "id": "30b15a7c5706",
@@ -5841,8 +6149,13 @@
   },
   {
    "term": "CloudTrail",
-   "explanation": "Het logboek van AWS. Het legt vast wie welke actie uitvoerde in een AWS-omgeving, wanneer en vanaf welk adres.",
+   "explanation": "De auditlog van AWS: die legt vast welke identiteit welke actie in een AWS-omgeving probeerde, en of dat lukte. De eerste plek om te kijken bij misbruik van een sleutel.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
+    },
     {
      "kind": "a",
      "id": "3e830a9401ea",
@@ -6073,14 +6386,20 @@
    ]
   },
   {
-   "term": "EDR",
-   "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's.",
+   "term": "EdgeTransport.exe",
+   "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail.",
    "refs": [
     {
      "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
-    },
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    }
+   ]
+  },
+  {
+   "term": "EDR",
+   "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's.",
+   "refs": [
     {
      "kind": "a",
      "id": "0eb55bf1598e",
@@ -6100,6 +6419,11 @@
      "kind": "a",
      "id": "892b2bea5cd6",
      "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
+    },
+    {
+     "kind": "a",
+     "id": "0968634953ed",
+     "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
     }
    ]
   },
@@ -6151,11 +6475,6 @@
    "term": "ETW",
    "explanation": "Event Tracing for Windows: een ingebouwde logbron van Windows. Beveiligingssoftware leest er onder meer uit welke code programma's uitvoeren.",
    "refs": [
-    {
-     "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
-    },
     {
      "kind": "a",
      "id": "5c07cdbef377",
@@ -6283,6 +6602,17 @@
    ]
   },
   {
+   "term": "heap",
+   "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    }
+   ]
+  },
+  {
    "term": "HMAC",
    "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast.",
    "refs": [
@@ -6332,17 +6662,6 @@
    ]
   },
   {
-   "term": "HTML smuggling",
-   "explanation": "Een techniek waarbij een webpagina of bijlage een bestand pas in de browser van het slachtoffer opbouwt. Zo komt het bestand nooit als geheel langs filters onderweg.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
-    }
-   ]
-  },
-  {
    "term": "hypervisor",
    "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop.",
    "refs": [
@@ -6365,13 +6684,13 @@
    ]
   },
   {
-   "term": "inference engine",
-   "explanation": "Software die een getraind AI-model laat draaien en vragen van gebruikers verwerkt tot antwoorden.",
+   "term": "IIS",
+   "explanation": "Internet Information Services: de webserver van Microsoft. Websites en webapplicaties op Windows-servers draaien er vaak op.",
    "refs": [
     {
      "kind": "a",
-     "id": "b958c2272095",
-     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
     }
    ]
   },
@@ -6485,6 +6804,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    },
+    {
+     "kind": "a",
      "id": "a665869d02d2",
      "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
     },
@@ -6502,11 +6826,6 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
-    },
-    {
-     "kind": "a",
-     "id": "37b85c3ffeef",
-     "title": "AI vindt veel meer lekken, maar weinig ervan wordt echt misbruikt"
     }
    ]
   },
@@ -6614,6 +6933,17 @@
    ]
   },
   {
+   "term": "LSA-geheimen",
+   "explanation": "Gevoelige gegevens die Windows bewaart in de Local Security Authority, zoals wachtwoorden van serviceaccounts. Met beheerrechten kun je ze uitlezen en gebruiken om verder te komen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7d35c70e6708",
+     "title": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden"
+    }
+   ]
+  },
+  {
    "term": "managed identities",
    "explanation": "Identiteiten die Azure zelf voor een app beheert. De app krijgt toegang zonder dat er een geheim in de code of configuratie hoeft te staan.",
    "refs": [
@@ -6621,17 +6951,6 @@
      "kind": "a",
      "id": "9fcf62b29cf8",
      "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
-    }
-   ]
-  },
-  {
-   "term": "Mark of the Web",
-   "explanation": "Een label dat Windows aan gedownloade bestanden hangt. Daardoor waarschuwt Windows of opent Office ze in een beveiligde modus.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
     }
    ]
   },
@@ -6966,6 +7285,17 @@
    ]
   },
   {
+   "term": "privésleutels",
+   "explanation": "Het geheime deel van een sleutelpaar waarmee een systeem bewijst wie het is of versleutelde gegevens opent. Wie de privésleutel steelt, kan zich als dat systeem voordoen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    }
+   ]
+  },
+  {
    "term": "proof of concept",
    "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen.",
    "refs": [
@@ -7010,11 +7340,6 @@
      "kind": "a",
      "id": "11515cc0259f",
      "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
-    },
-    {
-     "kind": "a",
-     "id": "7e413807cc2f",
-     "title": "Nep-dagvaarding bouwt malware pas in de browser in elkaar"
     },
     {
      "kind": "a",
@@ -7111,6 +7436,17 @@
    ]
   },
   {
+   "term": "RFC",
+   "explanation": "Remote Function Call: de manier waarop SAP-systemen elkaar functies laten uitvoeren. De SAP Gateway regelt die verbindingen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    }
+   ]
+  },
+  {
    "term": "RMM",
    "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt.",
    "refs": [
@@ -7201,6 +7537,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    },
+    {
+     "kind": "a",
      "id": "ff63fc905db0",
      "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
     }
@@ -7252,6 +7593,17 @@
      "kind": "a",
      "id": "9fcf62b29cf8",
      "title": "AI-agenten zoeken op GitHub naar gelekte app-sleutels en breken in"
+    }
+   ]
+  },
+  {
+   "term": "Secrets Manager",
+   "explanation": "Een AWS-dienst die geheimen zoals wachtwoorden en API-sleutels versleuteld bewaart. Applicaties halen ze op wanneer ze die nodig hebben.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
     }
    ]
   },
@@ -7549,17 +7901,6 @@
    ]
   },
   {
-   "term": "tokens",
-   "explanation": "Digitale toegangsbewijzen die je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie er één steelt, is ingelogd als de eigenaar.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "b958c2272095",
-     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
-    }
-   ]
-  },
-  {
    "term": "TPM",
    "explanation": "Trusted Platform Module: een beveiligingschip in de computer die sleutels bewaart en gebruikt, zonder ze ooit naar buiten te geven.",
    "refs": [
@@ -7578,17 +7919,6 @@
      "kind": "a",
      "id": "27d0d882d07e",
      "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
-    }
-   ]
-  },
-  {
-   "term": "trusted execution environment",
-   "explanation": "Een afgeschermd deel van een processor waar gegevens versleuteld worden verwerkt, zodat ook de beheerder van de server er niet in kan kijken (TEE).",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "b958c2272095",
-     "title": "Lek in AI-software SGLang: aanvaller leest 'vertrouwelijke' verzoeken"
     }
    ]
   },
@@ -7675,6 +8005,17 @@
    ]
   },
   {
+   "term": "verbindingsstrings",
+   "explanation": "Regels in een configuratiebestand die zeggen hoe een applicatie met een database verbindt, vaak inclusief gebruikersnaam en wachtwoord. Voor een aanvaller een sleutel tot de database.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
+    }
+   ]
+  },
+  {
    "term": "virtuele machines",
    "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien.",
    "refs": [
@@ -7746,6 +8087,17 @@
    ]
   },
   {
+   "term": "Web Dispatcher",
+   "explanation": "Het onderdeel van SAP dat vooraan staat: het ontvangt webverzoeken, vaak van internet, en verdeelt ze over de SAP-servers erachter. Een soort portier.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    }
+   ]
+  },
+  {
    "term": "webinterface",
    "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver.",
    "refs": [
@@ -7773,6 +8125,16 @@
    "refs": [
     {
      "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    },
+    {
+     "kind": "a",
+     "id": "63cbf25606a5",
+     "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
+    },
+    {
+     "kind": "a",
      "id": "987ba3712202",
      "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
     },
@@ -7785,11 +8147,6 @@
      "kind": "a",
      "id": "580236cbddf9",
      "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
-    },
-    {
-     "kind": "a",
-     "id": "8b5f34b85bf1",
-     "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
     }
    ]
   },
@@ -7801,6 +8158,17 @@
      "kind": "a",
      "id": "0eb55bf1598e",
      "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    }
+   ]
+  },
+  {
+   "term": "WebSocket",
+   "explanation": "Een manier om een webverbinding open te houden, zodat server en browser steeds berichten kunnen uitwisselen zonder voor elk bericht een nieuw verzoek te doen. Handig voor live-meldingen en chat.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "ce0b470d4dea",
+     "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
     }
    ]
   },
@@ -7827,9 +8195,25 @@
    ]
   },
   {
+   "term": "XML",
+   "explanation": "Een tekstformaat om gegevens gestructureerd op te slaan en uit te wisselen, met labels tussen punthaken zoals in HTML. Browsers en veel andere software lezen het automatisch in.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    }
+   ]
+  },
+  {
    "term": "XXE",
    "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "cd6455aacef5",
+     "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
+    },
     {
      "kind": "a",
      "id": "ed98e46a8b24",
@@ -8125,32 +8509,32 @@
   "fetched_items": 310,
   "unique_after_dedupe": 556,
   "merged_duplicates": 1,
-  "shown": 45,
+  "shown": 47,
   "decisions": {
-   "included": 223,
+   "included": 220,
    "below_threshold": 145,
    "no_topic": 142,
    "excluded": 45,
-   "source_cap": 1
+   "source_cap": 4
   },
   "processing": {
-   "enriched": 45
+   "enriched": 47
   },
   "without_date": 0,
   "per_group": {
-   "detectie": 5,
-   "aanvallen": 10,
-   "kwetsbaarheden": 13,
-   "incidenten": 9,
    "ti": 5,
+   "aanvallen": 11,
+   "kwetsbaarheden": 15,
+   "detectie": 5,
+   "incidenten": 8,
    "vm": 3
   },
   "per_source": {
-   "datadog_security_labs": 1,
+   "the_hacker_news": 11,
    "huntress_blog": 5,
-   "the_hacker_news": 9,
-   "bleepingcomputer": 6,
    "security_nl": 3,
+   "datadog_security_labs": 1,
+   "bleepingcomputer": 6,
    "unit42": 5,
    "google_threat_intel": 5,
    "divd": 1,
@@ -8215,7 +8599,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 323
+   "skipped_no_key": 318
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -8256,6 +8640,22 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+    "relevance_score": 89,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "relevance_score": 89,
+    "decision": "source_cap",
+    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
@@ -8343,6 +8743,14 @@
     "url": "https://www.security.nl/posting/960763/SonicWall+waarschuwt+voor+lek+waarmee+aanvallers+MFA+van+SSL-VPN+omzeilen?channel=rss",
     "relevance_score": 88,
     "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "relevance_score": 88,
+    "decision": "source_cap",
     "excluded_by": []
    },
    {
@@ -8468,46 +8876,6 @@
     "excluded_by": []
    },
    {
-    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
@@ -8519,14 +8887,6 @@
     "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -8626,6 +8986,14 @@
     ]
    },
    {
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
     "source_id": "crowdstrike_blog",
     "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
@@ -8637,14 +9005,6 @@
     "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
@@ -8714,6 +9074,14 @@
     "excluded_by": []
    },
    {
+    "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
@@ -8750,6 +9118,24 @@
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
     "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
+    "relevance_score": 79,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
+    "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
    }
