@@ -1,0 +1,15 @@
+{
+  "task": "inhalen",
+  "started_at": "2026-11-12T04:37:53Z",
+  "finished_at": "2026-11-12T05:12:00Z",
+  "status": "ok",
+  "summary": "Uitleggen ingehaald: 6 artikelen extra uitgelegd en 14 overgeslagen (vooral dubbel nieuws); verdiepen en overzicht waren al gelukt.",
+  "counts": {
+    "ingehaald_uitleggen": 1,
+    "uitgelegd": 6,
+    "overgeslagen": 14
+  },
+  "problems": [
+    "De werklijst werd na het inhalen opnieuw gevuld met oudere artikelen (4 tot 9 november); die zijn blijven staan voor de volgende run."
+  ]
+}
