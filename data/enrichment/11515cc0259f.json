@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "article_id": "11515cc0259f",
+  "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
+  "headline": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller",
+  "summary": "Huntress laat zien hoe ClickFix-aanvallen verder gaan dan één besmette pc: aanvallers bereiken domeincontrollers, verstoppen programma's in plaatjes en halen hun script uit de browsercache.",
+  "story": [
+    "ClickFix is een misleidingstruc: een nep-controle 'ben je een mens?' vraagt de bezoeker een opdracht te kopiëren en zelf in Windows te plakken. Huntress beschrijft nu vier aanvalsketens die veel verder gaan dan die eerste stap. De slachtoffers kwamen op zulke pagina's via advertenties in Bing voor een bekende juridische dienst, via vervalste zoekresultaten en via een tijdelijk gehackte website van een tandartspraktijk. Tijdens het 'controleren' toont het venster gekleurde meldingen of zelfs groene voortgangsbalken, zodat het slachtoffer denkt dat alles in orde is.",
+    "In de eerste keten ging de aanvaller door naar de rest van het netwerk (laterale beweging). In twee zaken bereikten aanvallers domeincontrollers, de servers die alle accounts in een Windows-netwerk beheren. Ze gebruikten daarvoor gewone beheertools als PsExec, SMBExec en WinRM. In één zaak werden zo elf systemen besmet voordat het werd gestopt. In een andere zaak zette de aanvaller een versleutelde SSH-tunnel naar buiten op, maakte hij een nieuw account aan en probeerde hij dat beheerdersrechten te geven.",
+    "De andere ketens laten zien hoe aanvallers bestanden verstoppen. Bij de tweede keten zaten complete programma's verborgen in de pixels van PNG-plaatjes (steganografie). Een script haalde de plaatjes op, bouwde de programma's weer op en startte ze. Bij de derde keten installeerde een installatiebestand een eigen Node.js-omgeving met een RAT in JavaScript, die bij elke aanmelding opnieuw startte onder de naam 'DuskDesk'. De vierde keten is het slimst: de gehackte website liet de browser bij het eerste bezoek al een bestand van precies 17.635 bytes in de cache opslaan. De ClickFix-opdracht zocht dat bestand daarna in de cache van Firefox, Chrome of Brave op en voerde het uit. Er hoefde dus niets meer te worden gedownload.",
+    "Hoe zie je dit? Huntress raadt aan te letten op de volgorde van gebeurtenissen, niet op losse hashes of domeinen, want die veranderen steeds. Signalen zijn: cmd.exe, PowerShell of Windows Terminal die door de gebruiker of de browser worden gestart, versleutelde (Base64) PowerShell-opdrachten, uitvoerbare bestanden in mappen waar gebruikers mogen schrijven, nieuwe geplande taken en Run-sleutels, en onverwachte SSH-verbindingen naar buiten. Ter voorkoming noemt Huntress applicatiecontrole, het blokkeren van programma's uit mappen als Temp, minder lokale beheerdersrechten en het afschermen van het Uitvoeren-venster.",
+    "Voor organisaties is de les dat ClickFix geen klein gebruikersprobleem meer is. Eén geplakte opdracht op een pc zonder monitoring kan eindigen bij de domeincontroller. Bewustwording blijft belangrijk (geen echte CAPTCHA vraagt om iets te plakken), maar detectie op gedrag op elke werkplek is minstens zo belangrijk."
+  ],
+  "key_facts": [
+    "Huntress publiceerde het onderzoek op 10 november 2026 en beschrijft vier aanvalsketens die met ClickFix begonnen.",
+    "Ingangen: een gesponsord Bing-resultaat naar een nagemaakte inlogpagina, vervalste zoekresultaten naar een nagemaakte LinkedIn-site, en een tijdelijk gehackte website van een tandartspraktijk.",
+    "Laterale beweging: in de beschreven zaken gebruikten aanvallers PsExec, SMBExec en WinRM; in één zaak werden elf systemen besmet, in een andere werd een reverse SSH-tunnel opgezet en een nieuw account aangemaakt.",
+    "Een keten verstopte complete uitvoerbare bestanden in de pixeldata van PNG-afbeeldingen en gebruikte DLL-sideloading met een ondertekend Microsoft-programma.",
+    "Een andere keten installeerde Node.js met een JavaScript-RAT die via een Run-sleutel 'DuskDesk' bij elke aanmelding startte; node.exe maakte verbinding via poort 3861.",
+    "Op de gehackte website zocht de opdracht in de browsercache naar een bestand van precies 17.635 bytes, dat bij het laden van de pagina al was opgeslagen."
+  ],
+  "limitations": [
+    "Huntress koppelt de campagnes niet aan een bekende groep; volgens het stuk lijken het losse aanvallers die met ClickFix experimenteren.",
+    "Bij drie zaken (februari, mei en september) noemt het stuk geen jaartal.",
+    "Huntress beschrijft niet hoe het de aanvallen zelf ontdekte; de detectietips zijn algemeen.",
+    "Huntress is een beveiligingsleverancier; het onderzoek komt uit de eigen klantenkring."
+  ],
+  "personal_relevance": "Als klanten ClickFix zien als 'iets voor de bewustwordingstraining', kun je met deze voorbeelden laten zien dat het kan eindigen bij de domeincontroller. Dat maakt het gesprek over detectie op werkplekken en het monitoren van álle endpoints concreet.",
+  "takeaway": "Aanvallers wisselen bestanden, hashes en domeinen steeds, maar de volgorde van gedrag blijft herkenbaar: een gebruiker of browser start een opdrachtvenster, daarna verschijnen nieuwe bestanden, geplande taken en verbindingen naar buiten. Detectie op die keten werkt beter dan op losse kenmerken.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "attack_techniques",
+    "phishing_identity",
+    "malware",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
+  "development_key": "clickfix-tradecraft-huntress-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een vervolg op een eerder ClickFix-stuk, nu met de hele aanvalsketen."
+  },
+  "showcase": {
+    "caption": "Een eenvoudige Sigma-regel voor het patroon dat Huntress beschrijft. Logsource: het starten van processen op Windows. 'parent' zoekt naar Verkenner of een browser als het programma dat PowerShell of cmd start; zo gaat het als iemand iets in het Uitvoeren-venster plakt. 'encoded' zoekt naar een versleutelde (Base64) opdracht. Pas als beide kloppen, volgt een melding.",
+    "language": "sigma",
+    "code": "title: Versleutelde PowerShell gestart door gebruiker of browser\nstatus: experimental\nlevel: high\nlogsource:\n  product: windows\n  category: process_creation\ndetection:\n  parent:\n    ParentImage|endswith:\n      - '\\explorer.exe'\n      - '\\chrome.exe'\n      - '\\firefox.exe'\n      - '\\msedge.exe'\n    Image|endswith:\n      - '\\powershell.exe'\n      - '\\cmd.exe'\n  encoded:\n    CommandLine|contains:\n      - ' -enc'\n      - 'FromBase64String'\n  condition: parent and encoded",
+    "note": "Nagebouwd voorbeeld op basis van de signalen die Huntress noemt; het stuk geeft zelf geen detectieregel. In de praktijk geeft zo'n regel ook meldingen bij legitieme beheerscripts."
+  },
+  "terms": [
+    {
+      "term": "ClickFix",
+      "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+      "term": "laterale beweging",
+      "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+      "term": "domeincontrollers",
+      "explanation": "De servers die in een Windows-netwerk alle accounts, wachtwoorden en rechten beheren. Wie een domeincontroller in handen heeft, heeft in feite het hele netwerk."
+    },
+    {
+      "term": "steganografie",
+      "explanation": "Gegevens verstoppen in iets onschuldigs, zoals een plaatje, zodat niemand ziet dat er iets in zit. Voor een scanner lijkt het gewoon een afbeelding."
+    },
+    {
+      "term": "RAT",
+      "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+      "term": "Run-sleutels",
+      "explanation": "Plekken in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T01:40:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

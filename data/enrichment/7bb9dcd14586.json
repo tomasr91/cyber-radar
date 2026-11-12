@@ -1,0 +1,81 @@
+{
+  "format_version": 2,
+  "article_id": "7bb9dcd14586",
+  "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+  "headline": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller",
+  "summary": "Microsoft dichtte in november ruim duizend lekken. Eén lek in Outlook wordt al misbruikt: een bestand openen is genoeg om je NTLM-inloggegevens naar een server van de aanvaller te sturen.",
+  "story": [
+    "Microsoft heeft tijdens de Patch Tuesday van november 1.094 kwetsbaarheden verholpen, meldt Security.NL. Daarvan zitten er 726 in Windows. Het is de derde maand op rij met zo'n grote hoeveelheid updates. Eén lek, CVE-2026-124194 in Outlook, wordt volgens Microsoft al door aanvallers misbruikt. Details over die aanvallen geeft Microsoft niet.",
+    "Om dat lek te begrijpen, eerst de normale werking. Windows-computers kunnen zich bij een andere server aanmelden met NTLM, een oud inlogprotocol. Daarbij stuurt de computer niet het wachtwoord zelf mee, maar een afgeleide waarde: de NTLMv2-hash. Bij het Outlook-lek stuurt een aanvaller zonder inlog een speciaal gemaakt bestand. Opent het slachtoffer dat in een kwetsbare Outlook, dan maakt Outlook verbinding met een server van de aanvaller en geeft daar zijn NTLMv2-hash af. Met die hash kan de aanvaller zich vervolgens als die gebruiker aanmelden.",
+    "Twee andere lekken zijn vooral gevaarlijk omdat er geen klik voor nodig is. Bij CVE-2026-116928 in Windows Search hoeft een aanvaller alleen een bijlage naar een Exchange-mailserver te mailen: het lek gaat af als de server die bijlage automatisch indexeert. Bij CVE-2026-119952 in Schannel, het onderdeel dat versleutelde verbindingen regelt, is één speciaal pakket genoeg om code uit te voeren. Microsoft verwacht dat aanvallers dat lek gaan misbruiken. Bij tien Office-lekken is het voorbeeldvenster al genoeg; de gebruiker hoeft het bestand dus niet eens te openen. Dustin Childs van ZDI telt dertig lekken die 'wormable' zijn: een worm kan zich er zonder menselijke hulp mee verspreiden.",
+    "Hoe ga je hiermee om? Met ruim duizend lekken kun je niet alles tegelijk doen. Vulnerability management helpt dan door eerst te kijken naar wat al misbruikt wordt (de Outlook-fout), wat zonder klik of inlog werkt (Schannel, Windows Search op Exchange) en wat vanaf internet bereikbaar is. In de logs kun je letten op werkstations die via SMB of WebDAV contact zoeken met onbekende servers buiten het netwerk; zo lekken NTLM-hashes meestal weg. Uitgaand SMB-verkeer naar internet blokkeren is een bekende maatregel tegen dit soort lekken.",
+    "Voor organisaties betekent dit vooral: snel patchen, te beginnen bij mailservers en de werkplekken met Outlook. Updates installeren zich op de meeste systemen automatisch, maar in bedrijven duurt de uitrol vaak langer. Juist die tussenperiode is wat aanvallers proberen te benutten."
+  ],
+  "key_facts": [
+    "Microsoft verhielp in de Patch Tuesday van november 2026 1.094 kwetsbaarheden, waarvan 726 in Windows (Security.NL).",
+    "CVE-2026-124194 (spoofing, Outlook) wordt volgens Microsoft actief misbruikt: een speciaal gemaakt bestand laat Outlook verbinding maken met een server van de aanvaller en de NTLMv2-hash van de gebruiker versturen.",
+    "CVE-2026-116928 (RCE, Windows Search): een bijlage naar een Exchange Server is genoeg; het lek gaat af bij het automatisch indexeren, zonder handeling van een gebruiker.",
+    "CVE-2026-119952 (RCE, Windows Schannel): één speciaal gemaakt pakket is genoeg, zonder inlog of handeling van een gebruiker; Microsoft verwacht misbruik.",
+    "Tien Office-lekken zijn ook via het voorbeeldvenster te misbruiken.",
+    "Volgens Dustin Childs (ZDI) zijn dertig van de lekken 'wormable'."
+  ],
+  "limitations": [
+    "Microsoft geeft geen details over wie het Outlook-lek misbruikt, hoe vaak en tegen wie.",
+    "Andere bronnen noemen andere totalen voor deze Patch Tuesday (Cisco Talos spreekt van 1.328 kwetsbaarheden); het verschil hangt waarschijnlijk af van wat er wordt meegeteld.",
+    "Het artikel noemt geen CVSS-scores en geen technische details over hoe de Schannel- en Windows Search-lekken precies werken.",
+    "De tip over uitgaand SMB- of WebDAV-verkeer is algemene uitleg over het lekken van NTLM-hashes, niet iets wat Microsoft of Security.NL voor dit lek beschrijft."
+  ],
+  "personal_relevance": "Klanten vragen na zo'n enorme Patch Tuesday vaak waar ze moeten beginnen. Je kunt ze helpen prioriteren: eerst wat misbruikt wordt, dan wat zonder klik of inlog werkt, dan wat vanaf internet bereikbaar is.",
+  "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "phishing_identity"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
+  "development_key": "patch-tuesday-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een misbruikt lek met concrete hulp bij prioriteren."
+  },
+  "terms": [
+    {
+      "term": "Patch Tuesday",
+      "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+      "term": "NTLM",
+      "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
+    },
+    {
+      "term": "NTLMv2-hash",
+      "explanation": "De waarde die Windows bij inloggen via NTLM meestuurt in plaats van het wachtwoord. Wie hem onderschept, kan zich er soms mee aanmelden of proberen het wachtwoord eruit te kraken."
+    },
+    {
+      "term": "Schannel",
+      "explanation": "Het onderdeel van Windows dat versleutelde verbindingen (TLS) regelt, bijvoorbeeld voor websites en mailservers. Een fout daarin is vaak vanaf het netwerk bereikbaar."
+    },
+    {
+      "term": "wormable",
+      "explanation": "Een lek waarmee malware zich zelfstandig van computer naar computer kan verspreiden, zonder dat een gebruiker iets hoeft te doen."
+    },
+    {
+      "term": "SMB",
+      "explanation": "Het protocol waarmee Windows bestanden en printers deelt via het netwerk. Bij een verbinding probeert Windows vaak automatisch in te loggen."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T01:37:05Z",
+  "prompt_version": "cyber-taak-v1"
+}

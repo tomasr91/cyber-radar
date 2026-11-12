@@ -1,0 +1,78 @@
+{
+  "format_version": 2,
+  "article_id": "9844bc61915e",
+  "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+  "headline": "Achtste misbruikte zero-day in Chrome dit jaar: fout in XML-onderdeel",
+  "summary": "Google dicht een lek in Chrome dat al wordt misbruikt. Een aangepaste webpagina kan code laten uitvoeren binnen de sandbox van de browser. Het is de achtste Chrome-zero-day van 2026.",
+  "story": [
+    "Google bracht op 10 november een update uit voor Chrome met negen beveiligingsfixes. Eén daarvan, CVE-2026-125350, wordt al misbruikt: Google weet dat er een werkende aanval in omloop is. Een anonieme onderzoeker meldde het lek op 6 november. Het is de achtste zero-day in Chrome dit jaar. CISA zette het lek op de KEV-lijst.",
+    "Wat gaat er mis? Een browser leest webpagina's en zet ze om in iets wat je ziet. Daarvoor reserveert het programma steeds stukjes werkgeheugen en geeft die weer vrij als ze niet meer nodig zijn. Bij een use-after-free gebruikt de software een stukje geheugen nog nadat het al is vrijgegeven. Dat geheugen kan inmiddels voor iets anders zijn gebruikt. Als een aanvaller via een speciaal gemaakte webpagina zelf bepaalt wat daar komt te staan, kan hij de browser zijn eigen code laten uitvoeren. Hier zit de fout in het onderdeel dat XML verwerkt.",
+    "Belangrijk detail: de code draait 'binnen de sandbox'. Chrome laat webpagina's draaien in een afgeschermde omgeving met weinig rechten. Een aanvaller die alleen dit lek gebruikt, zit dus nog opgesloten. Voor volledige controle over de computer heeft hij meestal een tweede lek nodig om uit de sandbox te breken. Of dat bij deze aanvallen gebeurt, is niet bekend: Google houdt details geheim tot de meeste gebruikers zijn bijgewerkt.",
+    "Wat moet je doen? Chrome bijwerken naar versie 157.0.8103.50 of nieuwer en de browser herstarten; de update werkt pas na een herstart. Andere browsers op basis van Chromium, zoals Edge, Brave, Opera en Vivaldi, krijgen de fix via hun eigen updates. Met vulnerability management kun je zien op welke werkplekken nog een oude browserversie staat. Dat is belangrijk, want veel gebruikers laten hun browser dagen open zonder te herstarten.",
+    "Voor organisaties is de browser een groot aanvalsoppervlak: iedereen gebruikt hem en hij verwerkt de hele dag inhoud van onbekende websites. Acht misbruikte zero-days in één jaar laten zien dat snel uitrollen en controleren of de update echt actief is, een vaste taak moet zijn."
+  ],
+  "key_facts": [
+    "CVE-2026-125350 (CVSS 8,8) is een use-after-free in het XML-onderdeel van Chrome; volgens CVE.org kan een aanvaller via een aangepaste HTML-pagina code uitvoeren binnen de sandbox.",
+    "Google zegt te weten dat er een exploit voor in omloop is; het lek werd op 6 november 2026 door een anonieme onderzoeker gemeld.",
+    "De update van 10 november 2026 verhelpt negen lekken; veilige versies: 157.0.8103.50/51 (Windows en macOS) en 157.0.8103.50 (Linux).",
+    "Het is volgens The Hacker News de achtste actief misbruikte Chrome-zero-day van 2026.",
+    "CISA zette het lek op de KEV-lijst; Amerikaanse federale instanties moeten uiterlijk 24 november 2026 patchen."
+  ],
+  "limitations": [
+    "Google zegt niet hoe het lek wordt misbruikt, door wie en tegen wie.",
+    "Onbekend is of de aanvallers het lek combineren met een tweede lek om uit de sandbox te breken.",
+    "De andere acht lekken in deze update worden in het artikel niet beschreven."
+  ],
+  "personal_relevance": "Klanten vragen vaak hoe urgent een browserlek is. Je kunt uitleggen dat 'binnen de sandbox' de schade beperkt, maar dat misbruik plus een bereikbare werkplek het toch een topprioriteit maakt, en dat een update pas werkt na een herstart.",
+  "takeaway": "Een use-after-free laat software geheugen gebruiken dat al is vrijgegeven; een aanvaller die dat geheugen vult, kan code laten uitvoeren. Een sandbox beperkt de schade, maar aanvallers combineren zo'n lek vaak met een tweede lek om eruit te breken.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.7,
+    "novelty": 0.5
+  },
+  "development_key": "cve-2026-125350-chrome",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een misbruikt lek met weinig details van de bron."
+  },
+  "terms": [
+    {
+      "term": "zero-day",
+      "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "use-after-free",
+      "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen."
+    },
+    {
+      "term": "XML",
+      "explanation": "Een tekstformaat om gegevens gestructureerd op te slaan en uit te wisselen, met labels tussen punthaken zoals in HTML. Browsers en veel andere software lezen het automatisch in."
+    },
+    {
+      "term": "sandbox",
+      "explanation": "Een afgeschermde omgeving waarin software met weinig rechten draait, zodat een fout of aanval niet direct de rest van het systeem raakt. Chrome draait webpagina's in zo'n sandbox."
+    },
+    {
+      "term": "Chromium",
+      "explanation": "De open-source basis van Chrome. Ook Edge, Brave, Opera en Vivaldi zijn erop gebouwd en delen daardoor vaak dezelfde lekken."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T01:43:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

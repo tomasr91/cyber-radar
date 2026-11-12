@@ -1,0 +1,6 @@
+{
+  "article_id": "8b35f69eac70",
+  "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+  "reason": "Kleine kwetsbaarheid zonder iets om van te leren: het artikel geeft alleen CVE-nummers (CVE-2026-108186, CVE-2026-108187), CVSS-scores en versies, zonder technische uitleg, en er is geen misbruik bekend.",
+  "checked_at": "2026-11-12T01:45:00Z"
+}

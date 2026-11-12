@@ -1,0 +1,6 @@
+{
+  "article_id": "b579a343e6b6",
+  "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+  "reason": "Dubbel nieuws en lijst zonder uitleg: het OpenSSH-lek (CVE-2026-123158, SSHole) is al uitgelegd in a40dff3d749a; de andere drie KEV-toevoegingen (GPUStack, FreeSWITCH, IBM Aspera Faspex) betreffen minder gebruikte software en het artikel legt niet uit hoe ze werken of worden misbruikt.",
+  "checked_at": "2026-11-12T01:45:00Z"
+}
