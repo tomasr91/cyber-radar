@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T01:23:35.849962Z",
+ "generated_at": "2026-11-12T01:39:23.926353Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-11T02:12:00Z",
- "last_successful_update": "2026-11-12T01:23:35.849962Z",
+ "last_article_added_at": "2026-11-12T01:40:00Z",
+ "last_successful_update": "2026-11-12T01:39:23.926353Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T01:23:35.896506Z"
+   "checked_at": "2026-11-12T01:39:23.986228Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T01:23:36.384031Z"
+   "checked_at": "2026-11-12T01:39:24.463608Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T01:23:37.107625Z"
+   "checked_at": "2026-11-12T01:39:25.101544Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T01:23:38.151668Z"
+   "checked_at": "2026-11-12T01:39:25.584800Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T01:23:39.092222Z"
+   "checked_at": "2026-11-12T01:39:26.419331Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T01:23:39.211280Z"
+   "checked_at": "2026-11-12T01:39:26.525182Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T01:23:39.305881Z"
+   "checked_at": "2026-11-12T01:39:26.626737Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T01:23:39.396493Z"
+   "checked_at": "2026-11-12T01:39:26.724996Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T01:23:39.610834Z"
+   "checked_at": "2026-11-12T01:39:26.929243Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T01:23:41.009090Z"
+   "checked_at": "2026-11-12T01:39:28.300210Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T01:23:41.085011Z"
+   "checked_at": "2026-11-12T01:39:28.337801Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T01:23:41.245864Z"
+   "checked_at": "2026-11-12T01:39:28.412436Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T01:23:41.339208Z"
+   "checked_at": "2026-11-12T01:39:28.555213Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T01:23:41.475338Z"
+   "checked_at": "2026-11-12T01:39:28.673105Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T01:23:41.654436Z"
+   "checked_at": "2026-11-12T01:39:28.753754Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T01:23:41.705577Z"
+   "checked_at": "2026-11-12T01:39:28.928183Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T01:23:41.820422Z"
+   "checked_at": "2026-11-12T01:39:29.204170Z"
   },
   {
    "id": "securityweek",
@@ -381,15 +381,15 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T01:23:42.119477Z"
+   "checked_at": "2026-11-12T01:39:29.514395Z"
   }
  ],
  "daily_top": [
   "3e830a9401ea",
+  "11515cc0259f",
   "0eb55bf1598e",
   "9398616ade4d",
-  "27d0d882d07e",
-  "8b5f34b85bf1"
+  "27d0d882d07e"
  ],
  "articles": [
   {
@@ -508,6 +508,103 @@
     "why": "Nog geen duimpjes; detectie in de cloud, aansluitend op eerdere ARTEX-stukken."
    },
    "takeaway": "Een AI-agent valt op door zijn gedrag: veel proberen, vaak falen, in hoog tempo. Detectie op gedrag in CloudTrail werkt beter dan zoeken op een naam die de aanvaller zo kan veranderen.",
+   "region": "world"
+  },
+  {
+   "id": "11515cc0259f",
+   "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+   "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
+   "source_id": "huntress_blog",
+   "published_at": "2026-11-10T14:00:00Z",
+   "fetched_at": "2026-11-12T01:23:41.339208Z",
+   "summary": "Huntress laat zien hoe ClickFix-aanvallen verder gaan dan één besmette pc: aanvallers bereiken domeincontrollers, verstoppen programma's in plaatjes en halen hun script uit de browsercache.",
+   "personal_relevance": "Als klanten ClickFix zien als 'iets voor de bewustwordingstraining', kun je met deze voorbeelden laten zien dat het kan eindigen bij de domeincontroller. Dat maakt het gesprek over detectie op werkplekken en het monitoren van álle endpoints concreet.",
+   "limitations": [
+    "Huntress koppelt de campagnes niet aan een bekende groep; volgens het stuk lijken het losse aanvallers die met ClickFix experimenteren.",
+    "Bij drie zaken (februari, mei en september) noemt het stuk geen jaartal.",
+    "Huntress beschrijft niet hoe het de aanvallen zelf ontdekte; de detectietips zijn algemeen.",
+    "Huntress is een beveiligingsleverancier; het onderzoek komt uit de eigen klantenkring."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T01:40:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller",
+   "story": [
+    "ClickFix is een misleidingstruc: een nep-controle 'ben je een mens?' vraagt de bezoeker een opdracht te kopiëren en zelf in Windows te plakken. Huntress beschrijft nu vier aanvalsketens die veel verder gaan dan die eerste stap. De slachtoffers kwamen op zulke pagina's via advertenties in Bing voor een bekende juridische dienst, via vervalste zoekresultaten en via een tijdelijk gehackte website van een tandartspraktijk. Tijdens het 'controleren' toont het venster gekleurde meldingen of zelfs groene voortgangsbalken, zodat het slachtoffer denkt dat alles in orde is.",
+    "In de eerste keten ging de aanvaller door naar de rest van het netwerk (laterale beweging). In twee zaken bereikten aanvallers domeincontrollers, de servers die alle accounts in een Windows-netwerk beheren. Ze gebruikten daarvoor gewone beheertools als PsExec, SMBExec en WinRM. In één zaak werden zo elf systemen besmet voordat het werd gestopt. In een andere zaak zette de aanvaller een versleutelde SSH-tunnel naar buiten op, maakte hij een nieuw account aan en probeerde hij dat beheerdersrechten te geven.",
+    "De andere ketens laten zien hoe aanvallers bestanden verstoppen. Bij de tweede keten zaten complete programma's verborgen in de pixels van PNG-plaatjes (steganografie). Een script haalde de plaatjes op, bouwde de programma's weer op en startte ze. Bij de derde keten installeerde een installatiebestand een eigen Node.js-omgeving met een RAT in JavaScript, die bij elke aanmelding opnieuw startte onder de naam 'DuskDesk'. De vierde keten is het slimst: de gehackte website liet de browser bij het eerste bezoek al een bestand van precies 17.635 bytes in de cache opslaan. De ClickFix-opdracht zocht dat bestand daarna in de cache van Firefox, Chrome of Brave op en voerde het uit. Er hoefde dus niets meer te worden gedownload.",
+    "Hoe zie je dit? Huntress raadt aan te letten op de volgorde van gebeurtenissen, niet op losse hashes of domeinen, want die veranderen steeds. Signalen zijn: cmd.exe, PowerShell of Windows Terminal die door de gebruiker of de browser worden gestart, versleutelde (Base64) PowerShell-opdrachten, uitvoerbare bestanden in mappen waar gebruikers mogen schrijven, nieuwe geplande taken en Run-sleutels, en onverwachte SSH-verbindingen naar buiten. Ter voorkoming noemt Huntress applicatiecontrole, het blokkeren van programma's uit mappen als Temp, minder lokale beheerdersrechten en het afschermen van het Uitvoeren-venster.",
+    "Voor organisaties is de les dat ClickFix geen klein gebruikersprobleem meer is. Eén geplakte opdracht op een pc zonder monitoring kan eindigen bij de domeincontroller. Bewustwording blijft belangrijk (geen echte CAPTCHA vraagt om iets te plakken), maar detectie op gedrag op elke werkplek is minstens zo belangrijk."
+   ],
+   "key_facts": [
+    "Huntress publiceerde het onderzoek op 10 november 2026 en beschrijft vier aanvalsketens die met ClickFix begonnen.",
+    "Ingangen: een gesponsord Bing-resultaat naar een nagemaakte inlogpagina, vervalste zoekresultaten naar een nagemaakte LinkedIn-site, en een tijdelijk gehackte website van een tandartspraktijk.",
+    "Laterale beweging: in de beschreven zaken gebruikten aanvallers PsExec, SMBExec en WinRM; in één zaak werden elf systemen besmet, in een andere werd een reverse SSH-tunnel opgezet en een nieuw account aangemaakt.",
+    "Een keten verstopte complete uitvoerbare bestanden in de pixeldata van PNG-afbeeldingen en gebruikte DLL-sideloading met een ondertekend Microsoft-programma.",
+    "Een andere keten installeerde Node.js met een JavaScript-RAT die via een Run-sleutel 'DuskDesk' bij elke aanmelding startte; node.exe maakte verbinding via poort 3861.",
+    "Op de gehackte website zocht de opdracht in de browsercache naar een bestand van precies 17.635 bytes, dat bij het laden van de pagina al was opgeslagen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige Sigma-regel voor het patroon dat Huntress beschrijft. Logsource: het starten van processen op Windows. 'parent' zoekt naar Verkenner of een browser als het programma dat PowerShell of cmd start; zo gaat het als iemand iets in het Uitvoeren-venster plakt. 'encoded' zoekt naar een versleutelde (Base64) opdracht. Pas als beide kloppen, volgt een melding.",
+    "language": "sigma",
+    "code": "title: Versleutelde PowerShell gestart door gebruiker of browser\nstatus: experimental\nlevel: high\nlogsource:\n  product: windows\n  category: process_creation\ndetection:\n  parent:\n    ParentImage|endswith:\n      - '\\explorer.exe'\n      - '\\chrome.exe'\n      - '\\firefox.exe'\n      - '\\msedge.exe'\n    Image|endswith:\n      - '\\powershell.exe'\n      - '\\cmd.exe'\n  encoded:\n    CommandLine|contains:\n      - ' -enc'\n      - 'FromBase64String'\n  condition: parent and encoded",
+    "note": "Nagebouwd voorbeeld op basis van de signalen die Huntress noemt; het stuk geeft zelf geen detectieregel. In de praktijk geeft zo'n regel ook meldingen bij legitieme beheerscripts."
+   },
+   "terms": [
+    {
+     "term": "ClickFix",
+     "explanation": "Een misleidingstruc waarbij een website de bezoeker vraagt een gekopieerde opdracht zelf in Windows te plakken en uit te voeren, zogenaamd om een probleem op te lossen of te bewijzen dat hij een mens is."
+    },
+    {
+     "term": "laterale beweging",
+     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+     "term": "domeincontrollers",
+     "explanation": "De servers die in een Windows-netwerk alle accounts, wachtwoorden en rechten beheren. Wie een domeincontroller in handen heeft, heeft in feite het hele netwerk."
+    },
+    {
+     "term": "steganografie",
+     "explanation": "Gegevens verstoppen in iets onschuldigs, zoals een plaatje, zodat niemand ziet dat er iets in zit. Voor een scanner lijkt het gewoon een afbeelding."
+    },
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft."
+    },
+    {
+     "term": "Run-sleutels",
+     "explanation": "Plekken in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een vervolg op een eerder ClickFix-stuk, nu met de hele aanvalsketen."
+   },
+   "takeaway": "Aanvallers wisselen bestanden, hashes en domeinen steeds, maar de volgorde van gedrag blijft herkenbaar: een gebruiker of browser start een opdrachtvenster, daarna verschijnen nieuwe bestanden, geplande taken en verbindingen naar buiten. Detectie op die keten werkt beter dan op losse kenmerken.",
    "region": "world"
   },
   {
@@ -794,6 +891,97 @@
     "why": "Nog geen duimpjes; cloudincident met duidelijke aanvalsstappen en logadvies."
    },
    "takeaway": "In de cloud geef je een leverancier toegang door zijn account te vertrouwen. Wordt dat account gehackt, dan erft de aanvaller dat vertrouwen bij al zijn klanten tegelijk.",
+   "region": "world"
+  },
+  {
+   "id": "7bb9dcd14586",
+   "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
+   "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-11T08:36:00Z",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "summary": "Microsoft dichtte in november ruim duizend lekken. Eén lek in Outlook wordt al misbruikt: een bestand openen is genoeg om je NTLM-inloggegevens naar een server van de aanvaller te sturen.",
+   "personal_relevance": "Klanten vragen na zo'n enorme Patch Tuesday vaak waar ze moeten beginnen. Je kunt ze helpen prioriteren: eerst wat misbruikt wordt, dan wat zonder klik of inlog werkt, dan wat vanaf internet bereikbaar is.",
+   "limitations": [
+    "Microsoft geeft geen details over wie het Outlook-lek misbruikt, hoe vaak en tegen wie.",
+    "Andere bronnen noemen andere totalen voor deze Patch Tuesday (Cisco Talos spreekt van 1.328 kwetsbaarheden); het verschil hangt waarschijnlijk af van wat er wordt meegeteld.",
+    "Het artikel noemt geen CVSS-scores en geen technische details over hoe de Schannel- en Windows Search-lekken precies werken.",
+    "De tip over uitgaand SMB- of WebDAV-verkeer is algemene uitleg over het lekken van NTLM-hashes, niet iets wat Microsoft of Security.NL voor dit lek beschrijft."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "phishing_identity"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "aanvallen"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.85,
+    "quality": 0.67,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T01:37:05Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller",
+   "story": [
+    "Microsoft heeft tijdens de Patch Tuesday van november 1.094 kwetsbaarheden verholpen, meldt Security.NL. Daarvan zitten er 726 in Windows. Het is de derde maand op rij met zo'n grote hoeveelheid updates. Eén lek, CVE-2026-124194 in Outlook, wordt volgens Microsoft al door aanvallers misbruikt. Details over die aanvallen geeft Microsoft niet.",
+    "Om dat lek te begrijpen, eerst de normale werking. Windows-computers kunnen zich bij een andere server aanmelden met NTLM, een oud inlogprotocol. Daarbij stuurt de computer niet het wachtwoord zelf mee, maar een afgeleide waarde: de NTLMv2-hash. Bij het Outlook-lek stuurt een aanvaller zonder inlog een speciaal gemaakt bestand. Opent het slachtoffer dat in een kwetsbare Outlook, dan maakt Outlook verbinding met een server van de aanvaller en geeft daar zijn NTLMv2-hash af. Met die hash kan de aanvaller zich vervolgens als die gebruiker aanmelden.",
+    "Twee andere lekken zijn vooral gevaarlijk omdat er geen klik voor nodig is. Bij CVE-2026-116928 in Windows Search hoeft een aanvaller alleen een bijlage naar een Exchange-mailserver te mailen: het lek gaat af als de server die bijlage automatisch indexeert. Bij CVE-2026-119952 in Schannel, het onderdeel dat versleutelde verbindingen regelt, is één speciaal pakket genoeg om code uit te voeren. Microsoft verwacht dat aanvallers dat lek gaan misbruiken. Bij tien Office-lekken is het voorbeeldvenster al genoeg; de gebruiker hoeft het bestand dus niet eens te openen. Dustin Childs van ZDI telt dertig lekken die 'wormable' zijn: een worm kan zich er zonder menselijke hulp mee verspreiden.",
+    "Hoe ga je hiermee om? Met ruim duizend lekken kun je niet alles tegelijk doen. Vulnerability management helpt dan door eerst te kijken naar wat al misbruikt wordt (de Outlook-fout), wat zonder klik of inlog werkt (Schannel, Windows Search op Exchange) en wat vanaf internet bereikbaar is. In de logs kun je letten op werkstations die via SMB of WebDAV contact zoeken met onbekende servers buiten het netwerk; zo lekken NTLM-hashes meestal weg. Uitgaand SMB-verkeer naar internet blokkeren is een bekende maatregel tegen dit soort lekken.",
+    "Voor organisaties betekent dit vooral: snel patchen, te beginnen bij mailservers en de werkplekken met Outlook. Updates installeren zich op de meeste systemen automatisch, maar in bedrijven duurt de uitrol vaak langer. Juist die tussenperiode is wat aanvallers proberen te benutten."
+   ],
+   "key_facts": [
+    "Microsoft verhielp in de Patch Tuesday van november 2026 1.094 kwetsbaarheden, waarvan 726 in Windows (Security.NL).",
+    "CVE-2026-124194 (spoofing, Outlook) wordt volgens Microsoft actief misbruikt: een speciaal gemaakt bestand laat Outlook verbinding maken met een server van de aanvaller en de NTLMv2-hash van de gebruiker versturen.",
+    "CVE-2026-116928 (RCE, Windows Search): een bijlage naar een Exchange Server is genoeg; het lek gaat af bij het automatisch indexeren, zonder handeling van een gebruiker.",
+    "CVE-2026-119952 (RCE, Windows Schannel): één speciaal gemaakt pakket is genoeg, zonder inlog of handeling van een gebruiker; Microsoft verwacht misbruik.",
+    "Tien Office-lekken zijn ook via het voorbeeldvenster te misbruiken.",
+    "Volgens Dustin Childs (ZDI) zijn dertig van de lekken 'wormable'."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "Patch Tuesday",
+     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+     "term": "NTLM",
+     "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
+    },
+    {
+     "term": "NTLMv2-hash",
+     "explanation": "De waarde die Windows bij inloggen via NTLM meestuurt in plaats van het wachtwoord. Wie hem onderschept, kan zich er soms mee aanmelden of proberen het wachtwoord eruit te kraken."
+    },
+    {
+     "term": "Schannel",
+     "explanation": "Het onderdeel van Windows dat versleutelde verbindingen (TLS) regelt, bijvoorbeeld voor websites en mailservers. Een fout daarin is vaak vanaf het netwerk bereikbaar."
+    },
+    {
+     "term": "wormable",
+     "explanation": "Een lek waarmee malware zich zelfstandig van computer naar computer kan verspreiden, zonder dat een gebruiker iets hoeft te doen."
+    },
+    {
+     "term": "SMB",
+     "explanation": "Het protocol waarmee Windows bestanden en printers deelt via het netwerk. Bij een verbinding probeert Windows vaak automatisch in te loggen."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een misbruikt lek met concrete hulp bij prioriteren."
+   },
+   "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
    "region": "world"
   },
   {
@@ -2397,7 +2585,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.26,
+    "recency": 0.25,
     "source": 0.8,
     "quality": 0.85,
     "fit": 0.1
@@ -3806,7 +3994,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.71,
+    "recency": 0.7,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -5629,6 +5817,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
+    },
+    {
+     "kind": "a",
      "id": "892b2bea5cd6",
      "title": "Star Blizzard: één klik op een nep-pdf installeert een Russische achterdeur"
     },
@@ -5858,6 +6051,17 @@
      "kind": "a",
      "id": "1c4ce65b251a",
      "title": "Camerabeheersoftware als ingang: aanvallers verstoppen malware achter Windows-bestand"
+    }
+   ]
+  },
+  {
+   "term": "domeincontrollers",
+   "explanation": "De servers die in een Windows-netwerk alle accounts, wachtwoorden en rechten beheren. Wie een domeincontroller in handen heeft, heeft in feite het hele netwerk.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
     }
    ]
   },
@@ -6343,6 +6547,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
+    },
+    {
+     "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
     },
@@ -6528,8 +6737,24 @@
    "refs": [
     {
      "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
+    },
+    {
+     "kind": "a",
      "id": "8b5f34b85bf1",
      "title": "AI-agenten voeren aanvallen uit: snel, maar luidruchtig"
+    }
+   ]
+  },
+  {
+   "term": "NTLMv2-hash",
+   "explanation": "De waarde die Windows bij inloggen via NTLM meestuurt in plaats van het wachtwoord. Wie hem onderschept, kan zich er soms mee aanmelden of proberen het wachtwoord eruit te kraken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
     }
    ]
   },
@@ -6640,6 +6865,11 @@
    "term": "Patch Tuesday",
    "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
+    },
     {
      "kind": "a",
      "id": "649e0d8b078e",
@@ -6780,6 +7010,11 @@
    "term": "RAT",
    "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
+    },
     {
      "kind": "a",
      "id": "7e413807cc2f",
@@ -6954,6 +7189,17 @@
    ]
   },
   {
+   "term": "Run-sleutels",
+   "explanation": "Plekken in het Windows-register met programma's die automatisch starten zodra een gebruiker inlogt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
+    }
+   ]
+  },
+  {
    "term": "SAML",
    "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt.",
    "refs": [
@@ -6977,6 +7223,17 @@
      "kind": "a",
      "id": "25c3eda20cfe",
      "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    }
+   ]
+  },
+  {
+   "term": "Schannel",
+   "explanation": "Het onderdeel van Windows dat versleutelde verbindingen (TLS) regelt, bijvoorbeeld voor websites en mailservers. Een fout daarin is vaak vanaf het netwerk bereikbaar.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
     }
    ]
   },
@@ -7090,6 +7347,17 @@
    ]
   },
   {
+   "term": "SMB",
+   "explanation": "Het protocol waarmee Windows bestanden en printers deelt via het netwerk. Bij een verbinding probeert Windows vaak automatisch in te loggen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
+    }
+   ]
+  },
+  {
    "term": "social engineering",
    "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega.",
    "refs": [
@@ -7119,6 +7387,17 @@
      "kind": "a",
      "id": "ff63fc905db0",
      "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
+    }
+   ]
+  },
+  {
+   "term": "steganografie",
+   "explanation": "Gegevens verstoppen in iets onschuldigs, zoals een plaatje, zodat niemand ziet dat er iets in zit. Voor een scanner lijkt het gewoon een afbeelding.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "11515cc0259f",
+     "title": "ClickFix wordt volwassen: van nep-CAPTCHA tot de domeincontroller"
     }
    ]
   },
@@ -7541,6 +7820,17 @@
    ]
   },
   {
+   "term": "wormable",
+   "explanation": "Een lek waarmee malware zich zelfstandig van computer naar computer kan verspreiden, zonder dat een gebruiker iets hoeft te doen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bb9dcd14586",
+     "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
+    }
+   ]
+  },
+  {
    "term": "XXE",
    "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn.",
    "refs": [
@@ -7847,33 +8137,34 @@
   "fetched_items": 310,
   "unique_after_dedupe": 556,
   "merged_duplicates": 1,
-  "shown": 43,
+  "shown": 45,
   "decisions": {
-   "included": 224,
+   "included": 223,
    "below_threshold": 145,
    "no_topic": 142,
-   "excluded": 45
+   "excluded": 45,
+   "source_cap": 1
   },
   "processing": {
-   "enriched": 43
+   "enriched": 45
   },
   "without_date": 0,
   "per_group": {
    "detectie": 5,
-   "kwetsbaarheden": 12,
+   "aanvallen": 10,
+   "kwetsbaarheden": 13,
    "incidenten": 9,
-   "aanvallen": 9,
    "ti": 5,
    "vm": 3
   },
   "per_source": {
    "datadog_security_labs": 1,
+   "huntress_blog": 5,
    "the_hacker_news": 9,
    "bleepingcomputer": 6,
-   "security_nl": 2,
+   "security_nl": 3,
    "unit42": 5,
    "google_threat_intel": 5,
-   "huntress_blog": 4,
    "divd": 1,
    "microsoft_threat_intel": 4,
    "cisco_talos": 3,
@@ -7936,7 +8227,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 326
+   "skipped_no_key": 323
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -7948,14 +8239,6 @@
   "threshold": 60,
   "max_per_source": 12,
   "not_shown": [
-   {
-    "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
-    "relevance_score": 91,
-    "decision": "included",
-    "excluded_by": []
-   },
    {
     "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
     "source_id": "ncsc_nl_advisories",
@@ -8085,6 +8368,14 @@
     ]
    },
    {
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "relevance_score": 87,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
     "source_id": "microsoft_threat_intel",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
@@ -8139,14 +8430,6 @@
     ]
    },
    {
-    "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-    "source_id": "huntress_blog",
-    "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Baker Tilly notifies clients of data breach at third-party provider",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
@@ -8187,14 +8470,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
@@ -8470,6 +8745,22 @@
     "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "relevance_score": 80,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []

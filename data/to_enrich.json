@@ -1,21 +1,7 @@
 {
- "generated_at": "2026-11-12T01:23:35.849962Z",
+ "generated_at": "2026-11-12T01:39:23.926353Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
-  {
-   "id": "7bb9dcd14586",
-   "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
-   "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
-   "source_id": "security_nl",
-   "source_name": "Security.NL",
-   "published_at": "2026-11-11T08:36:00Z",
-   "excerpt": "Tijdens de Patch Tuesday van november heeft Microsoft ruim duizend kwetsbaarheden verholpen, waaronder een actief misbruikt ...",
-   "preliminary_score": 91,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
-   ]
-  },
   {
    "id": "4f91b2e7870d",
    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
@@ -30,48 +16,6 @@
     "attack_techniques",
     "incidents_breaches",
     "ransomware"
-   ]
-  },
-  {
-   "id": "846f1981da63",
-   "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
-   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-11T01:41:17Z",
-   "excerpt": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\" Out of 60 \"critical\" vulnerabilities, 45 are remote code execution (RCE) vulnerabilities.",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ]
-  },
-  {
-   "id": "11515cc0259f",
-   "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-   "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-11-10T14:00:00Z",
-   "excerpt": "ClickFix techniques are evolving. Huntress breaks down four attack chains: lateral movement, hidden PNG payloads, Node.js RATs and cache seeing.",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "attack_techniques",
-    "web_software_security",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "b47bcd06a09c",
-   "title": "Baker Tilly notifies clients of data breach at third-party provider",
-   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-11T23:01:31Z",
-   "excerpt": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches"
    ]
   },
   {
@@ -106,28 +50,88 @@
    ]
   },
   {
-   "id": "8b35f69eac70",
-   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-   "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-11T16:12:46Z",
-   "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-   "preliminary_score": 84,
+   "id": "133989a571e5",
+   "title": "Ransomware recovery is now a client retention metric",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-10T15:01:11Z",
+   "excerpt": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "ransomware",
+    "supply_chain",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "69936e426e71",
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-10T08:51:25Z",
+   "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "7646e96e2e7b",
+   "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+   "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-10T15:33:59Z",
+   "excerpt": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "7d35c70e6708",
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-10T10:07:29Z",
+   "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "ce0b470d4dea",
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-10T10:02:40Z",
+   "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
     "attack_techniques",
+    "siem_detection",
     "vulnerability_management"
    ]
   },
   {
-   "id": "9844bc61915e",
-   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "id": "cd6455aacef5",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-10T06:52:54Z",
-   "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+   "published_at": "2026-11-11T06:04:02Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
    "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
@@ -136,18 +140,18 @@
    ]
   },
   {
-   "id": "b579a343e6b6",
-   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-   "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "id": "63cbf25606a5",
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-10T06:31:42Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+   "published_at": "2026-11-11T15:34:27Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
    "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management"
+    "incidents_breaches",
+    "threat_intelligence",
+    "cloud_attacks"
    ]
   }
  ]
