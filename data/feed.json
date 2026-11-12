@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T01:41:13.133127Z",
+ "generated_at": "2026-11-12T01:42:02.134961Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-12T01:39:00Z",
- "last_successful_update": "2026-11-12T01:41:13.133127Z",
+ "last_successful_update": "2026-11-12T01:42:02.134961Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T01:41:13.175981Z"
+   "checked_at": "2026-11-12T01:42:02.197496Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T01:41:13.955071Z"
+   "checked_at": "2026-11-12T01:42:02.985579Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T01:41:14.990947Z"
+   "checked_at": "2026-11-12T01:42:04.053414Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T01:41:15.688462Z"
+   "checked_at": "2026-11-12T01:42:04.813938Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T01:41:17.049765Z"
+   "checked_at": "2026-11-12T01:42:06.177386Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T01:41:17.205122Z"
+   "checked_at": "2026-11-12T01:42:06.320090Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T01:41:17.296635Z"
+   "checked_at": "2026-11-12T01:42:06.429329Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T01:41:17.439363Z"
+   "checked_at": "2026-11-12T01:42:06.537901Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T01:41:17.927171Z"
+   "checked_at": "2026-11-12T01:42:07.064534Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T01:41:18.840580Z"
+   "checked_at": "2026-11-12T01:42:08.654463Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T01:41:18.951900Z"
+   "checked_at": "2026-11-12T01:42:08.972888Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T01:41:19.043538Z"
+   "checked_at": "2026-11-12T01:42:09.072885Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T01:41:19.240649Z"
+   "checked_at": "2026-11-12T01:42:09.275263Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T01:41:19.483709Z"
+   "checked_at": "2026-11-12T01:42:09.489869Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T01:41:19.599534Z"
+   "checked_at": "2026-11-12T01:42:09.626824Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T01:41:19.713581Z"
+   "checked_at": "2026-11-12T01:42:09.744529Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T01:41:19.973814Z"
+   "checked_at": "2026-11-12T01:42:10.016289Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T01:41:20.217763Z"
+   "checked_at": "2026-11-12T01:42:10.401493Z"
   }
  ],
  "daily_top": [
@@ -8065,51 +8065,22 @@
  "interest_suggestions": [],
  "interest_log": [],
  "runs": {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "tasks": {
    "uitleggen": {
-    "status": "ok",
-    "summary": "Vers opgehaald; 7 artikelen uitgelegd (onder meer misbruikte lekken in Xen Orchestra en AhsayCBS, Able2Shell in N-central en de Qubole-inbraak in AWS), 3 overgeslagen, waarvan 2 zonder openen.",
-    "finished_at": "2026-11-11T01:35:36Z",
+    "status": "deels",
+    "summary": "Vers opgehaald; 3 artikelen uitgelegd (misbruikt Outlook-lek bij Patch Tuesday, nieuwe ClickFix-aanvalsketens en de achtste Chrome-zero-day), 7 overgeslagen, waarvan 2 zonder openen.",
+    "finished_at": "2026-11-12T01:41:07Z",
     "problems": [
      "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
-     "Het artikel van BleepingComputer over Patch Tuesday van november 2026 gaf twee keer een serverfout en is overgeslagen als niet te lezen."
+     "Het onderzoek van Microsoft over GSocket was niet via een zoekopdracht te vinden en kon daardoor niet worden geopend.",
+     "BleepingComputer gaf bij elke poging een serverfout; het artikel over de ScreenConnect-aanvallen op MSP's is daarom niet uitgelegd (Maersk is gelezen via een andere bron en overgeslagen om de inhoud)."
     ],
     "counts": {
-     "uitgelegd": 7,
-     "overgeslagen": 3,
+     "uitgelegd": 3,
+     "overgeslagen": 7,
      "overgeslagen_zonder_openen": 2,
-     "niet_te_lezen": 1
-    }
-   },
-   "overzicht": {
-    "status": "ok",
-    "summary": "3 trends bijgewerkt (AI-agenten aangevuld met Datadog over ARTEX in AWS, randapparaten zonder het te oude Palo Alto-artikel), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (woensdag).",
-    "finished_at": "2026-11-11T03:23:56Z",
-    "problems": [],
-    "counts": {
-     "trends": 3,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
-    }
-   },
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-11T02:24:13Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 0,
-     "keuzes": 5
-    }
-   },
-   "inhalen": {
-    "status": "ok",
-    "summary": "niets in te halen",
-    "finished_at": "2026-11-11T04:37:57Z",
-    "problems": [],
-    "counts": {
-     "ingehaald": 0
+     "niet_te_lezen": 2
     }
    }
   }
