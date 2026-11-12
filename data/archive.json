@@ -4455,7 +4455,15 @@
    "published_raw": "Wed, 11 Nov 2026 09:01:07 +0000",
    "fetched_at": "2026-11-12T01:23:42.119477Z",
    "excerpt": "<p>The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.</p>\n<p>The post <a href=\"https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/\">Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "the_hacker_news:f1a5b4bff7b5": {
+   "source_id": "the_hacker_news",
+   "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+   "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+   "published_raw": "Thu, 12 Nov 2026 10:09:48 +0530",
+   "fetched_at": "2026-11-12T05:08:37.983881Z",
+   "excerpt": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve"
   }
  },
- "updated_at": "2026-11-12T04:59:45.265077Z"
+ "updated_at": "2026-11-12T05:08:31.003209Z"
 }

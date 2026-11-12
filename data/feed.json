@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T04:59:45.265077Z",
+ "generated_at": "2026-11-12T05:08:31.003209Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-12T05:10:00Z",
- "last_successful_update": "2026-11-12T04:59:45.265077Z",
+ "last_article_added_at": "2026-11-12T05:15:00Z",
+ "last_successful_update": "2026-11-12T05:08:31.003209Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T04:59:45.333178Z"
+   "checked_at": "2026-11-12T05:08:31.049237Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T04:59:45.803906Z"
+   "checked_at": "2026-11-12T05:08:31.599788Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T04:59:46.434289Z"
+   "checked_at": "2026-11-12T05:08:32.378307Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T04:59:47.034995Z"
+   "checked_at": "2026-11-12T05:08:32.983693Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T04:59:47.871196Z"
+   "checked_at": "2026-11-12T05:08:33.930384Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T04:59:47.944953Z"
+   "checked_at": "2026-11-12T05:08:34.131292Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T04:59:48.017827Z"
+   "checked_at": "2026-11-12T05:08:34.213271Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T04:59:48.071723Z"
+   "checked_at": "2026-11-12T05:08:34.257827Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T04:59:48.335471Z"
+   "checked_at": "2026-11-12T05:08:34.623878Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T04:59:49.751282Z"
+   "checked_at": "2026-11-12T05:08:36.522882Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T04:59:49.848854Z"
+   "checked_at": "2026-11-12T05:08:36.973073Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T04:59:49.901494Z"
+   "checked_at": "2026-11-12T05:08:37.221239Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T04:59:50.068240Z"
+   "checked_at": "2026-11-12T05:08:37.360262Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T04:59:50.219454Z"
+   "checked_at": "2026-11-12T05:08:37.479753Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T04:59:50.268182Z"
+   "checked_at": "2026-11-12T05:08:37.744974Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T04:59:50.344174Z"
+   "checked_at": "2026-11-12T05:08:37.802121Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T04:59:50.455360Z"
+   "checked_at": "2026-11-12T05:08:37.983881Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T04:59:50.721711Z"
+   "checked_at": "2026-11-12T05:08:38.178325Z"
   }
  ],
  "daily_top": [
@@ -1172,7 +1172,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.92,
+    "recency": 0.91,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -2295,7 +2295,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.74,
+    "recency": 0.73,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.0
@@ -2473,6 +2473,110 @@
     "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
    },
    "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
+   "region": "world"
+  },
+  {
+   "id": "7bdf0c6dc5dc",
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-09T14:31:29Z",
+   "fetched_at": "2026-11-10T07:41:52.163107Z",
+   "summary": "Fortinet beschrijft PapRAT, nieuwe spionagemalware van de Zuid-Aziatische groep Bitter. De aanvallers komen binnen via snelkoppelingen en gebruiken vooral ingebouwde Windows-programma's, zodat er weinig verdachte bestanden zijn.",
+   "personal_relevance": "Klanten met detectie op basis van bekende malware vragen of dat genoeg is. Dit is een helder voorbeeld waarom detectie op gedrag nodig is: hier gebruikt de aanvaller vooral Windows' eigen programma's.",
+   "limitations": [
+    "Fortinet noemt geen specifieke landen of getroffen organisaties.",
+    "Hoe de bestanden bij de slachtoffers terechtkwamen (bijvoorbeeld per mail), staat niet precies in de bronnen.",
+    "De toeschrijving aan Bitter komt van Fortinet; Bitter wordt als Zuid-Aziatisch omschreven zonder een land te noemen.",
+    "Fortinet is een securityleverancier en noemt in het onderzoek ook eigen beschermingsproducten."
+   ],
+   "official_docs": [
+    {
+     "label": "FortiGuard Labs: BITTER Expands Its Arsenal with PapRAT",
+     "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    }
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence",
+    "malware"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie",
+    "ti"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T05:15:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT",
+   "story": [
+    "Onderzoekers van Fortinet beschrijven een nieuwe campagne van Bitter, een spionagegroep uit Zuid-Azië die sinds minstens 2013 actief is. Nieuw is PapRAT, een RAT in twee versies: één in C++ en één in Rust. De doelwitten zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
+    "Hoe komen ze binnen? Fortinet zag drie routes, steeds met een bestand dat het slachtoffer zelf opent. Een LNK-bestand is een Windows-snelkoppeling: dubbelklikken start een programma, en de maker bepaalt welk. In één route zit de snelkoppeling in een VHDX, een virtuele schijf die Windows met een dubbelklik opent. Het slachtoffer ziet een Excel-lokdocument. Op de achtergrond installeert een MSI-pakket stil PapRAT.",
+    "Opvallend is de aanpak 'living off the land': zoveel mogelijk werken met programma's die al op Windows staan. In de eerste route komt er geen eigen malwarebestand aan te pas. De snelkoppeling start het ingebouwde ftp.exe, dat via de opdrachtregel een script draait. Dat script verzamelt mappen, bestanden, antivirusgegevens en schijven, stuurt het met curl weg en wist het daarna. Een geplande taak met een naam die op een Microsoft-update lijkt, zorgt dat het blijft terugkomen.",
+    "PapRAT zelf kan opdrachten uitvoeren, bestanden ophalen en wegzetten, mappen doorzoeken en schermafbeeldingen maken. De Rust-versie kan ook PowerShell draaien. De malware vraagt elke paar seconden bij zijn C2-server om nieuwe opdrachten. Via PapRAT haalden de aanvallers ook WmRAT binnen, een oudere RAT van Bitter.",
+    "Hoe zie je het? Fortinet raadt aan om niet alleen op bekende handtekeningen te letten, maar op gedrag: scripttools, geplande taken en installaties. In een SIEM vallen bijvoorbeeld op: ftp.exe dat de opdrachtregel start, msiexec dat stil iets installeert, en een computer die steeds met korte tussenpozen dezelfde server aanroept. Voor organisaties is de les dat een aanval zonder 'echte' malware op schijf alleen zichtbaar wordt als je logt wát programma's doen."
+   ],
+   "key_facts": [
+    "FortiGuard Labs (onderzoeker Cara Lin) publiceerde het onderzoek op 2 november 2026; The Hacker News schreef erover op 9 november 2026. Fortinet schrijft de campagne met hoge zekerheid toe aan Bitter (ook APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, TA397).",
+    "Bitter is volgens Fortinet een vermoedelijk Zuid-Aziatische spionagegroep, actief sinds minstens 2013; doelwitten in deze campagne zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
+    "Drie infectieketens: een LNK-bestand dat ftp.exe misbruikt om scripts te draaien en geplande taken te maken; een VHDX-schijfimage met een LNK, een lokspreadsheet en een MSI-installer; en een .url-bestand dat via WebDAV een LNK ophaalt die tot een MSI met PapRAT leidt.",
+    "PapRAT bestaat in C++ en Rust; de C++-versie heeft 8 opdrachten (o.a. shell, bestanden, schijven, screenshot, upload, download), de Rust-versie 11, waaronder PowerShell-uitvoering.",
+    "De C++-versie praat via onversleuteld HTTP met een vaste C2-server (elke 10 seconden); de Rust-versie via HTTPS (elke 5 seconden). Via PapRAT werd ook WmRAT gedownload.",
+    "Persistentie via geplande taken met namen die op Microsoft- of BIOS-updates lijken, met intervallen van 15, 30 of 49 minuten. Fortinet adviseert scripttools, geplande taken en installer-activiteit te bewaken en voorzichtig te zijn met onverwachte LNK-, URL-, schijfimage- en MSI-bestanden."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige Sigma-detectieregel voor één stap uit deze aanval. 'logsource' zegt dat we kijken naar het starten van processen op Windows. 'selection' zoekt een opdrachtregel (cmd.exe) waarvan het ouderproces ftp.exe is. Dat komt in normaal gebruik zelden voor; 'level: high' maakt er een melding met hoge prioriteit van.",
+    "language": "sigma",
+    "code": "title: Opdrachtregel gestart door ftp.exe\nstatus: experimental\ndescription: ftp.exe start zelden andere programma's; bij de PapRAT-campagne liep zo een script\nlogsource:\n  category: process_creation\n  product: windows\ndetection:\n  selection:\n    ParentImage|endswith: '\\ftp.exe'\n    Image|endswith: '\\cmd.exe'\n  condition: selection\nlevel: high",
+    "note": "Nagebouwde, vereenvoudigde regel op basis van de beschrijving van Fortinet; niet getest in een echte omgeving."
+   },
+   "terms": [
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken."
+    },
+    {
+     "term": "LNK-bestand",
+     "explanation": "Een Windows-snelkoppeling. Bij dubbelklikken start het een programma met opdrachten die de maker kiest, dus ook iets heel anders dan het pictogram doet vermoeden."
+    },
+    {
+     "term": "VHDX",
+     "explanation": "Een bestand dat een complete virtuele harde schijf bevat. Windows opent het met een dubbelklik als extra schijf, zodat de bestanden erin direct zichtbaar zijn."
+    },
+    {
+     "term": "MSI-pakket",
+     "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."
+    },
+    {
+     "term": "living off the land",
+     "explanation": "Een aanpak waarbij een aanvaller vooral programma's gebruikt die al op het systeem staan, zoals PowerShell of curl. Er is dan weinig eigen malware om te ontdekken."
+    },
+    {
+     "term": "geplande taak",
+     "explanation": "Een Windows-functie die een programma automatisch op vaste tijden start. Aanvallers gebruiken het om hun malware na een herstart weer te laten draaien."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een uitgewerkte infectieketen en detectie op gedrag."
+   },
+   "takeaway": "Bij 'living off the land' misbruikt een aanvaller ingebouwde programma's zoals ftp.exe, curl en geplande taken. Je herkent het niet aan een bestand, maar aan ongewoon gedrag: wie start wat, wanneer en hoe vaak.",
    "region": "world"
   },
   {
@@ -6539,8 +6643,13 @@
   },
   {
    "term": "geplande taak",
-   "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien.",
+   "explanation": "Een Windows-functie die een programma automatisch op vaste tijden start. Aanvallers gebruiken het om hun malware na een herstart weer te laten draaien.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    },
     {
      "kind": "a",
      "id": "0eb55bf1598e",
@@ -6889,6 +6998,17 @@
    ]
   },
   {
+   "term": "living off the land",
+   "explanation": "Een aanpak waarbij een aanvaller vooral programma's gebruikt die al op het systeem staan, zoals PowerShell of curl. Er is dan weinig eigen malware om te ontdekken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    }
+   ]
+  },
+  {
    "term": "LLMJacking",
    "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt.",
    "refs": [
@@ -6901,8 +7021,13 @@
   },
   {
    "term": "LNK-bestand",
-   "explanation": "Een Windows-snelkoppeling. Die kan een opdracht starten en een willekeurig pictogram tonen, bijvoorbeeld dat van een pdf.",
+   "explanation": "Een Windows-snelkoppeling. Bij dubbelklikken start het een programma met opdrachten die de maker kiest, dus ook iets heel anders dan het pictogram doet vermoeden.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    },
     {
      "kind": "a",
      "id": "892b2bea5cd6",
@@ -7021,6 +7146,17 @@
      "kind": "a",
      "id": "5c07cdbef377",
      "title": "Nep-programmeertest: Iraanse groep besmet ontwikkelaar via Visual Studio"
+    }
+   ]
+  },
+  {
+   "term": "MSI-pakket",
+   "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
     }
    ]
   },
@@ -7334,8 +7470,13 @@
   },
   {
    "term": "RAT",
-   "explanation": "Remote access trojan: malware waarmee een aanvaller op afstand een computer bedient, bestanden ophaalt en opdrachten geeft.",
+   "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    },
     {
      "kind": "a",
      "id": "11515cc0259f",
@@ -8016,6 +8157,17 @@
    ]
   },
   {
+   "term": "VHDX",
+   "explanation": "Een bestand dat een complete virtuele harde schijf bevat. Windows opent het met een dubbelklik als extra schijf, zodat de bestanden erin direct zichtbaar zijn.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "7bdf0c6dc5dc",
+     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    }
+   ]
+  },
+  {
    "term": "virtuele machines",
    "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien.",
    "refs": [
@@ -8507,30 +8659,30 @@
  ],
  "quality_report": {
   "fetched_items": 310,
-  "unique_after_dedupe": 556,
+  "unique_after_dedupe": 557,
   "merged_duplicates": 1,
-  "shown": 47,
+  "shown": 48,
   "decisions": {
    "included": 220,
-   "below_threshold": 145,
+   "below_threshold": 146,
    "no_topic": 142,
    "excluded": 45,
    "source_cap": 4
   },
   "processing": {
-   "enriched": 47
+   "enriched": 48
   },
   "without_date": 0,
   "per_group": {
    "ti": 5,
-   "aanvallen": 11,
+   "aanvallen": 12,
    "kwetsbaarheden": 15,
    "detectie": 5,
    "incidenten": 8,
    "vm": 3
   },
   "per_source": {
-   "the_hacker_news": 11,
+   "the_hacker_news": 12,
    "huntress_blog": 5,
    "security_nl": 3,
    "datadog_security_labs": 1,
@@ -8968,14 +9120,6 @@
     "excluded_by": []
    },
    {
-    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
@@ -9082,14 +9226,6 @@
     "excluded_by": []
    },
    {
-    "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft publiceert wegens RCE-lek nieuwe versie Windows Paint",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960761/Microsoft+publiceert+wegens+RCE-lek+nieuwe+versie+Windows+Paint?channel=rss",
@@ -9138,6 +9274,26 @@
     "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0447 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab door GitLab Inc.",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0447",
+    "relevance_score": 79,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
+    "relevance_score": 79,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    }
   ],
   "topics_without_source": []
