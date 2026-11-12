@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T05:10:41.217681Z",
+ "generated_at": "2026-11-12T07:38:54.281169Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-12T05:15:00Z",
- "last_successful_update": "2026-11-12T05:10:41.217681Z",
+ "last_successful_update": "2026-11-12T07:38:54.281169Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T05:10:41.445207Z"
+   "checked_at": "2026-11-12T07:38:54.309173Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T05:10:42.150258Z"
+   "checked_at": "2026-11-12T07:38:55.032615Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T05:10:42.985365Z"
+   "checked_at": "2026-11-12T07:38:56.024249Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T05:10:43.890739Z"
+   "checked_at": "2026-11-12T07:38:56.784362Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T05:10:45.201129Z"
+   "checked_at": "2026-11-12T07:38:58.019882Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T05:10:45.389332Z"
+   "checked_at": "2026-11-12T07:38:58.323752Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T05:10:45.525922Z"
+   "checked_at": "2026-11-12T07:38:58.432035Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T05:10:45.709215Z"
+   "checked_at": "2026-11-12T07:38:58.588981Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T05:10:46.331186Z"
+   "checked_at": "2026-11-12T07:38:59.066239Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T05:10:48.109343Z"
+   "checked_at": "2026-11-12T07:39:00.623392Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T05:10:48.309369Z"
+   "checked_at": "2026-11-12T07:39:00.851630Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T05:10:48.456223Z"
+   "checked_at": "2026-11-12T07:39:00.943145Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T05:10:48.610136Z"
+   "checked_at": "2026-11-12T07:39:01.033761Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T05:10:48.902033Z"
+   "checked_at": "2026-11-12T07:39:01.286286Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T05:10:49.175701Z"
+   "checked_at": "2026-11-12T07:39:01.407914Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T05:10:49.302016Z"
+   "checked_at": "2026-11-12T07:39:01.616355Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T05:10:49.551858Z"
+   "checked_at": "2026-11-12T07:39:01.873557Z"
   },
   {
    "id": "securityweek",
@@ -381,116 +381,17 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T05:10:49.843821Z"
+   "checked_at": "2026-11-12T07:39:02.057435Z"
   }
  ],
  "daily_top": [
-  "7d35c70e6708",
   "11515cc0259f",
   "0eb55bf1598e",
   "9398616ade4d",
-  "3e830a9401ea"
+  "3e830a9401ea",
+  "7d35c70e6708"
  ],
  "articles": [
-  {
-   "id": "7d35c70e6708",
-   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T10:07:29Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "ESET ontdekte Cereal, nieuwe malware van de Russische groep Turla. Die nestelt zich in Microsoft Exchange en filtert e-mails met bijlagen uit, zonder eigen server op internet.",
-   "personal_relevance": "Klanten met een eigen Exchange-server vragen zich af of netwerkmonitoring genoeg is. Dit is een goed voorbeeld waarom niet: je hebt ook zicht nodig op wat er óp de server gebeurt.",
-   "limitations": [
-    "Hoe Turla de Exchange-servers binnenkwam, is niet bekend.",
-    "Het artikel zegt niet hoe Cereal na een herstart actief blijft, en niet hoeveel organisaties getroffen zijn buiten de twee genoemde.",
-    "Het oorspronkelijke ESET-rapport kon in deze run niet worden geopend; de uitleg steunt op het artikel van The Hacker News.",
-    "Concrete detectieregels of aanwijzingen van ESET staan niet in het artikel; de detectie-uitleg is algemeen."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "attack_techniques",
-    "siem_detection",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "aanvallen",
-    "detectie"
-   ],
-   "relevance_score": 92,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.92,
-    "source": 0.68,
-    "quality": 0.7,
-    "region": 0.02,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-12T05:10:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden",
-   "story": [
-    "Onderzoekers van ESET beschrijven Cereal, een nieuwe set spionagetools van Turla. Turla (ook Snake genoemd) is een APT die gelieerd is aan Rusland. Cereal werd eind 2025 gezien bij twee overheidsinstanties, in Kazachstan en Roemenië. Het doel: ongemerkt e-mails stelen van de Microsoft Exchange-server van het slachtoffer. In Roemenië ging het om mails van NAVO- en EU-adressen.",
-    "Hoe werkt het? Exchange is de mailserver van een organisatie: alle mail komt erlangs. Bij Exchange verwerkt het proces EdgeTransport.exe de mailstroom. Het onderdeel CerealBox nestelt zich in dat proces. Het zoekt mails met een Word- of pdf-bijlage die passen bij vaste lijsten van afzenders, ontvangers, onderwerpen of bestandsnamen. Die mails worden gecomprimeerd, versleuteld en tijdelijk op schijf gezet, en na het wegsturen gewist.",
-    "Het slimste deel is de communicatie. Meestal belt malware naar een C2-server van de aanvaller. Cereal doet dat niet. Het onderdeel CerealNeuron is een passieve backdoor: het wacht op webverzoeken die eruitzien als gewoon Exchange-verkeer. Opdrachten komen binnen als kleine .NET-programma's die alleen in het werkgeheugen draaien. Daarmee kan de aanvaller mailboxen ophalen, Active Directory uitvragen en LSA-geheimen uitlezen. De resultaten gaan versleuteld terug.",
-    "Wat betekent dat voor detectie? Er is geen verbinding naar een verdachte server die je in het netwerkverkeer ziet. Het verkeer lijkt op wat een mailserver de hele dag doet. Aanwijzingen moet je daarom vooral op de server zelf zoeken, bijvoorbeeld onbekende code in het mailproces of het uitlezen van geheimen. Hoe Turla binnenkwam, is niet bekend.",
-    "Voor organisaties is de les dat een eigen Exchange-server een topdoelwit is voor spionage. Wie de mailserver heeft, leest alle gevoelige communicatie mee. Zo'n server verdient dezelfde bewaking als een domeincontroller."
-   ],
-   "key_facts": [
-    "ESET deelde het onderzoek vooraf met The Hacker News (artikel van 10 november 2026); Turla (ook Snake) is volgens ESET een aan Rusland gelieerde, door de staat gesteunde groep.",
-    "Cereal is een tot nu toe onbekende, modulaire toolset van acht onderdelen, waaronder CerealRunner, CerealLoader, CerealSprinter, CerealNeuron, CerealHermit en CerealBox.",
-    "Cereal is eind 2025 ingezet tegen twee overheidsinstanties, in Kazachstan en Roemenië; in Roemenië richtte het verzamelen zich op mails van NAVO- en EU-adressen.",
-    "CerealBox injecteert zich in EdgeTransport.exe en zoekt mails met DOC-, DOCX- of PDF-bijlagen op basis van vaste lijsten met afzenders, ontvangers, onderwerpen of bijlagenamen; buit wordt gecomprimeerd, versleuteld, tijdelijk opgeslagen en na exfiltratie verwijderd.",
-    "Er is geen externe C2-infrastructuur: CerealNeuron luistert passief naar webverzoeken die op normaal Exchange-verkeer lijken; opdrachten zijn gecompileerde .NET-programma's die in het geheugen draaien.",
-    "Opdrachten omvatten mailboxen of berichten ophalen, Active Directory uitvragen, WMI-queries, LSA-geheimen uitlezen, volume-snapshots tonen en bestandsbewerkingen. De manier van binnenkomen is onbekend."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo zijn de onderdelen van Cereal aan elkaar gekoppeld, volgens de beschrijving in de bron. Elke stap laadt de volgende; pas onderaan zit het eigenlijke werk: luisteren naar opdrachten en mail verzamelen.",
-    "language": "text",
-    "code": "CerealRunner    -> door de aanvaller geplaatst, laadt de rest\n  CerealLoader  -> haalt een .NET-programma uit een versleuteld bestand\n    CerealSprinter -> ontsleutelt en start de drie werkers:\n      CerealNeuron  : passieve backdoor, luistert naar 'normaal' Exchange-verkeer\n      CerealHermit  : leest opdrachten uit versleutelde bestanden, geen netwerk\n      CerealBox     : zit in EdgeTransport.exe en verzamelt mails met bijlagen\n\nHulponderdelen: CerealIron (laadt .NET-code in andere processen)\n                CerealMoth (laadt code en voert één opdracht uit)",
-    "note": "Schema samengesteld uit de beschrijving in het artikel; geen code van de malware."
-   },
-   "terms": [
-    {
-     "term": "APT",
-     "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
-    },
-    {
-     "term": "C2",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "backdoor",
-     "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
-    },
-    {
-     "term": "Active Directory",
-     "explanation": "De centrale gids van een Windows-netwerk: wie de gebruikers, computers en groepen zijn, en wie waar bij mag. Voor een aanvaller een plattegrond van de organisatie."
-    },
-    {
-     "term": "LSA-geheimen",
-     "explanation": "Gevoelige gegevens die Windows bewaart in de Local Security Authority, zoals wachtwoorden van serviceaccounts. Met beheerrechten kun je ze uitlezen en gebruiken om verder te komen."
-    },
-    {
-     "term": "EdgeTransport.exe",
-     "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; technisch malware-onderzoek met een duidelijke aanvalsketen."
-   },
-   "takeaway": "Een passieve backdoor wacht op verzoeken die op normaal verkeer lijken in plaats van zelf naar buiten te bellen. Daardoor zie je hem nauwelijks in het netwerk en moet detectie op de server zelf gebeuren.",
-   "region": "eu"
-  },
   {
    "id": "11515cc0259f",
    "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
@@ -617,7 +518,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -806,7 +707,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.96,
+    "recency": 0.95,
     "source": 0.85,
     "quality": 0.67,
     "fit": 0.05
@@ -1244,6 +1145,105 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "7d35c70e6708",
+   "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+   "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T10:07:29Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "ESET ontdekte Cereal, nieuwe malware van de Russische groep Turla. Die nestelt zich in Microsoft Exchange en filtert e-mails met bijlagen uit, zonder eigen server op internet.",
+   "personal_relevance": "Klanten met een eigen Exchange-server vragen zich af of netwerkmonitoring genoeg is. Dit is een goed voorbeeld waarom niet: je hebt ook zicht nodig op wat er óp de server gebeurt.",
+   "limitations": [
+    "Hoe Turla de Exchange-servers binnenkwam, is niet bekend.",
+    "Het artikel zegt niet hoe Cereal na een herstart actief blijft, en niet hoeveel organisaties getroffen zijn buiten de twee genoemde.",
+    "Het oorspronkelijke ESET-rapport kon in deze run niet worden geopend; de uitleg steunt op het artikel van The Hacker News.",
+    "Concrete detectieregels of aanwijzingen van ESET staan niet in het artikel; de detectie-uitleg is algemeen."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "attack_techniques",
+    "siem_detection",
+    "malware"
+   ],
+   "groups": [
+    "ti",
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.91,
+    "source": 0.68,
+    "quality": 0.7,
+    "region": 0.02,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T05:10:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden",
+   "story": [
+    "Onderzoekers van ESET beschrijven Cereal, een nieuwe set spionagetools van Turla. Turla (ook Snake genoemd) is een APT die gelieerd is aan Rusland. Cereal werd eind 2025 gezien bij twee overheidsinstanties, in Kazachstan en Roemenië. Het doel: ongemerkt e-mails stelen van de Microsoft Exchange-server van het slachtoffer. In Roemenië ging het om mails van NAVO- en EU-adressen.",
+    "Hoe werkt het? Exchange is de mailserver van een organisatie: alle mail komt erlangs. Bij Exchange verwerkt het proces EdgeTransport.exe de mailstroom. Het onderdeel CerealBox nestelt zich in dat proces. Het zoekt mails met een Word- of pdf-bijlage die passen bij vaste lijsten van afzenders, ontvangers, onderwerpen of bestandsnamen. Die mails worden gecomprimeerd, versleuteld en tijdelijk op schijf gezet, en na het wegsturen gewist.",
+    "Het slimste deel is de communicatie. Meestal belt malware naar een C2-server van de aanvaller. Cereal doet dat niet. Het onderdeel CerealNeuron is een passieve backdoor: het wacht op webverzoeken die eruitzien als gewoon Exchange-verkeer. Opdrachten komen binnen als kleine .NET-programma's die alleen in het werkgeheugen draaien. Daarmee kan de aanvaller mailboxen ophalen, Active Directory uitvragen en LSA-geheimen uitlezen. De resultaten gaan versleuteld terug.",
+    "Wat betekent dat voor detectie? Er is geen verbinding naar een verdachte server die je in het netwerkverkeer ziet. Het verkeer lijkt op wat een mailserver de hele dag doet. Aanwijzingen moet je daarom vooral op de server zelf zoeken, bijvoorbeeld onbekende code in het mailproces of het uitlezen van geheimen. Hoe Turla binnenkwam, is niet bekend.",
+    "Voor organisaties is de les dat een eigen Exchange-server een topdoelwit is voor spionage. Wie de mailserver heeft, leest alle gevoelige communicatie mee. Zo'n server verdient dezelfde bewaking als een domeincontroller."
+   ],
+   "key_facts": [
+    "ESET deelde het onderzoek vooraf met The Hacker News (artikel van 10 november 2026); Turla (ook Snake) is volgens ESET een aan Rusland gelieerde, door de staat gesteunde groep.",
+    "Cereal is een tot nu toe onbekende, modulaire toolset van acht onderdelen, waaronder CerealRunner, CerealLoader, CerealSprinter, CerealNeuron, CerealHermit en CerealBox.",
+    "Cereal is eind 2025 ingezet tegen twee overheidsinstanties, in Kazachstan en Roemenië; in Roemenië richtte het verzamelen zich op mails van NAVO- en EU-adressen.",
+    "CerealBox injecteert zich in EdgeTransport.exe en zoekt mails met DOC-, DOCX- of PDF-bijlagen op basis van vaste lijsten met afzenders, ontvangers, onderwerpen of bijlagenamen; buit wordt gecomprimeerd, versleuteld, tijdelijk opgeslagen en na exfiltratie verwijderd.",
+    "Er is geen externe C2-infrastructuur: CerealNeuron luistert passief naar webverzoeken die op normaal Exchange-verkeer lijken; opdrachten zijn gecompileerde .NET-programma's die in het geheugen draaien.",
+    "Opdrachten omvatten mailboxen of berichten ophalen, Active Directory uitvragen, WMI-queries, LSA-geheimen uitlezen, volume-snapshots tonen en bestandsbewerkingen. De manier van binnenkomen is onbekend."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo zijn de onderdelen van Cereal aan elkaar gekoppeld, volgens de beschrijving in de bron. Elke stap laadt de volgende; pas onderaan zit het eigenlijke werk: luisteren naar opdrachten en mail verzamelen.",
+    "language": "text",
+    "code": "CerealRunner    -> door de aanvaller geplaatst, laadt de rest\n  CerealLoader  -> haalt een .NET-programma uit een versleuteld bestand\n    CerealSprinter -> ontsleutelt en start de drie werkers:\n      CerealNeuron  : passieve backdoor, luistert naar 'normaal' Exchange-verkeer\n      CerealHermit  : leest opdrachten uit versleutelde bestanden, geen netwerk\n      CerealBox     : zit in EdgeTransport.exe en verzamelt mails met bijlagen\n\nHulponderdelen: CerealIron (laadt .NET-code in andere processen)\n                CerealMoth (laadt code en voert één opdracht uit)",
+    "note": "Schema samengesteld uit de beschrijving in het artikel; geen code van de malware."
+   },
+   "terms": [
+    {
+     "term": "APT",
+     "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
+    },
+    {
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "backdoor",
+     "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
+    },
+    {
+     "term": "Active Directory",
+     "explanation": "De centrale gids van een Windows-netwerk: wie de gebruikers, computers en groepen zijn, en wie waar bij mag. Voor een aanvaller een plattegrond van de organisatie."
+    },
+    {
+     "term": "LSA-geheimen",
+     "explanation": "Gevoelige gegevens die Windows bewaart in de Local Security Authority, zoals wachtwoorden van serviceaccounts. Met beheerrechten kun je ze uitlezen en gebruiken om verder te komen."
+    },
+    {
+     "term": "EdgeTransport.exe",
+     "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch malware-onderzoek met een duidelijke aanvalsketen."
+   },
+   "takeaway": "Een passieve backdoor wacht op verzoeken die op normaal verkeer lijken in plaats van zelf naar buiten te bellen. Daardoor zie je hem nauwelijks in het netwerk en moet detectie op de server zelf gebeuren.",
+   "region": "eu"
+  },
+  {
    "id": "27d0d882d07e",
    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
@@ -1656,7 +1656,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.54,
+    "recency": 0.53,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -2384,98 +2384,6 @@
    "region": "world"
   },
   {
-   "id": "a40dff3d749a",
-   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T15:21:49Z",
-   "fetched_at": "2026-11-07T01:23:05.552825Z",
-   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
-   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
-   "limitations": [
-    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
-    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
-    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
-    "Wie achter de pogingen zit, is niet bekend.",
-    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen"
-   ],
-   "relevance_score": 89,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.76,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:34:40Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
-   "story": [
-    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
-    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
-    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
-    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
-    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
-   ],
-   "key_facts": [
-    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
-    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
-    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
-    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
-    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
-    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
-    "language": "log",
-    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
-   },
-   "terms": [
-    {
-     "term": "honeypot",
-     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
-    },
-    {
-     "term": "hash",
-     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
-    },
-    {
-     "term": "musl",
-     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
-    },
-    {
-     "term": "PAM",
-     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
-    },
-    {
-     "term": "sshd",
-     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
-   },
-   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
-   "region": "world"
-  },
-  {
    "id": "7bdf0c6dc5dc",
    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
@@ -2510,7 +2418,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -2698,6 +2606,98 @@
     "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
    },
    "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
+   "region": "world"
+  },
+  {
+   "id": "a40dff3d749a",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-06T15:21:49Z",
+   "fetched_at": "2026-11-07T01:23:05.552825Z",
+   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
+   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
+   "limitations": [
+    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
+    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
+    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
+    "Wie achter de pogingen zit, is niet bekend.",
+    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.75,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:34:40Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
+   "story": [
+    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
+    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
+    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
+    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
+    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
+   ],
+   "key_facts": [
+    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
+    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
+    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
+    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
+    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
+    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
+    "language": "log",
+    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
+   },
+   "terms": [
+    {
+     "term": "honeypot",
+     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
+    },
+    {
+     "term": "hash",
+     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
+    },
+    {
+     "term": "musl",
+     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
+    },
+    {
+     "term": "PAM",
+     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
+    },
+    {
+     "term": "sshd",
+     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
+   },
+   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
    "region": "world"
   },
   {
@@ -3075,7 +3075,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.35,
+    "recency": 0.34,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -3142,104 +3142,6 @@
     "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
    },
    "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
-   "region": "world"
-  },
-  {
-   "id": "4d33a21d5cc6",
-   "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-   "url": "https://www.huntress.com/blog/token-replay-spray",
-   "source_id": "huntress_blog",
-   "published_at": "2026-10-22T13:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.290040Z",
-   "summary": "Huntress volgde tien weken een campagne tegen Microsoft 365. De aanvaller stal tokens die al na MFA waren uitgegeven, gebruikte ze op grote schaal opnieuw en bouwde daarna stille achterdeuren in.",
-   "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen accountovername. Dit stuk helpt uitleggen waarom detectie op aanmeldgedrag en goed opruimen na een incident net zo belangrijk zijn.",
-   "limitations": [
-    "Huntress noemt geen sectoren van de slachtoffers.",
-    "De cijfers over fase 3 verschillen binnen het stuk (303 aanmeldingen bij 29 organisaties, elders 232 bij 28).",
-    "Wie achter de campagne zit, is niet bevestigd; de link met een Duits hostingbedrijf is context, geen toeschrijving.",
-    "Huntress verkoopt zelf detectie en respons voor identiteiten."
-   ],
-   "topics": [
-    "siem_detection",
-    "phishing_identity",
-    "cloud_attacks",
-    "incident_response"
-   ],
-   "groups": [
-    "detectie",
-    "aanvallen",
-    "incidenten"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.36,
-    "source": 0.68,
-    "quality": 0.82,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties",
-   "story": [
-    "Huntress volgde van 14 juli tot 22 september 2026 een campagne tegen Microsoft 365-accounts. Huntress reageerde op incidenten bij 79 organisaties en telde minstens 497 geslaagde aanmeldingen, tegenover ruim 200.000 mislukte pogingen. De aanvaller raadde geen wachtwoorden. Hij gebruikte gestolen tokens opnieuw.",
-    "Hoe werkt inloggen normaal? Je geeft je wachtwoord en bevestigt met MFA. Daarna geeft Microsoft je een token: een digitaal toegangsbewijs, zodat je niet bij elke klik opnieuw hoeft in te loggen. Bij adversary-in-the-middle (AiTM) zet de aanvaller een nep-inlogpagina tussen jou en Microsoft. Die stuurt alles door, ook de MFA-vraag. Jij logt dus echt in, maar het token komt ook bij de aanvaller terecht. Omdat dat token al ná MFA is uitgegeven, hoeft hij MFA niet meer te passeren. Huntress zag ook tokens uit device code phishing. Binnen vier tot twaalf minuten na de diefstal gebruikten servers bij een hostingbedrijf de tokens opnieuw.",
-    "Daarna bouwde de aanvaller stille achterdeuren. Hij registreerde nep-apparaten in Entra, 48 in totaal, met namen als \"DESKTOP-\" plus acht tekens. Windows gebruikt standaard zeven. Bij 19 organisaties wiste hij de MFA-methoden van het slachtoffer en registreerde hij een eigen authenticator. Ook maakte hij verborgen inbox-regels met namen als \".\" of \"sss\". Die verplaatsten mail over salaris, bank of bonus naar weinig bekeken mappen. Een nieuw wachtwoord alleen haalt die apparaten en MFA-methoden niet weg.",
-    "Waar zie je het? In de aanmeldlogs: aanmeldingen vanaf hostingadressen met de user agent \"node\" of alleen \"Mozilla/5.0\", plotseling een ander besturingssysteem in dezelfde sessie, en MFA-methoden die binnen minuten worden gewist en opnieuw geregistreerd. Huntress raadt aan te reageren op geldige inloggegevens, niet op het aantal pogingen. Foutcode AADSTS53003 betekent bijvoorbeeld dat het inloggen zelf lukte, maar dat Conditional Access het blokkeerde. Opruimen betekent: sessies intrekken, wachtwoord resetten én apparaten, MFA-methoden en inbox-regels controleren.",
-    "Voor organisaties is de les dat MFA niet het eindpunt is. Een aanvaller met een geldig token is gewoon ingelogd. Wie na een incident alleen het wachtwoord reset, laat de achterdeuren staan."
-   ],
-   "key_facts": [
-    "Huntress volgde de campagne van 14 juli tot 22 september 2026 en reageerde op incidenten bij 79 organisaties.",
-    "Minstens 497 geslaagde aanmeldingen tegenover meer dan 200.000 mislukte pogingen.",
-    "Tokens kwamen uit AiTM-relays, device code phishing en social engineering; de tijd tussen diefstal en hergebruik was 12 minuten (21 juli) en 4 minuten (22 september).",
-    "48 nep-apparaten in Entra met de naam \"DESKTOP-\" plus acht hexadecimale tekens; bij 19 organisaties werden MFA-methoden gewist en vervangen.",
-    "Verborgen inbox-regels met korte namen verplaatsten of verwijderden mail, onder meer over salaris, bank en bonus.",
-    "Huntress: een wachtwoordreset alleen verwijdert geregistreerde apparaten en MFA-methoden van de aanvaller niet."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een vereenvoudigde weergave van drie aanmeldingen van één gebruiker. De eerste is de echte inlog. Vier minuten later volgt een aanmelding vanaf een hostingadres met user agent \"node\". Daarna wordt een nieuw apparaat geregistreerd met een naam van acht tekens na DESKTOP-.",
-    "language": "log",
-    "code": "09:12:04 user=a.devries ip=198.51.100.23 (thuisprovider) app=OfficeHome ua=\"Chrome/Windows\" result=success mfa=ok\n09:16:11 user=a.devries ip=203.0.113.77 (hosting) app=\"Microsoft Office\" ua=\"node\" request=OAuth2:Token result=success\n09:17:30 user=a.devries ip=203.0.113.77 (hosting) resource=\"Device Registration Service\" device=DESKTOP-4F9A0C2E result=success",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen en vereenvoudigde veldnamen. De waarden (user agent, verzoektype, apparaatnaam) volgen de patronen uit het onderzoek."
-   },
-   "terms": [
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "MFA",
-     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
-    },
-    {
-     "term": "adversary-in-the-middle",
-     "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
-    },
-    {
-     "term": "device code phishing",
-     "explanation": "Misbruik van de inlogmethode voor apparaten zonder toetsenbord: het slachtoffer voert een code van de aanvaller in op een echte Microsoft-pagina en geeft zo toegang."
-    },
-    {
-     "term": "Entra",
-     "explanation": "Microsoft Entra ID, voorheen Azure AD: de dienst die bijhoudt wie mag inloggen op Microsoft 365 en welke apparaten bij een organisatie horen."
-    },
-    {
-     "term": "Conditional Access",
-     "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
-   },
-   "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
    "region": "world"
   },
   {
@@ -3880,6 +3782,104 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "4d33a21d5cc6",
+   "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+   "url": "https://www.huntress.com/blog/token-replay-spray",
+   "source_id": "huntress_blog",
+   "published_at": "2026-10-22T13:00:00Z",
+   "fetched_at": "2026-11-03T21:07:40.290040Z",
+   "summary": "Huntress volgde tien weken een campagne tegen Microsoft 365. De aanvaller stal tokens die al na MFA waren uitgegeven, gebruikte ze op grote schaal opnieuw en bouwde daarna stille achterdeuren in.",
+   "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen accountovername. Dit stuk helpt uitleggen waarom detectie op aanmeldgedrag en goed opruimen na een incident net zo belangrijk zijn.",
+   "limitations": [
+    "Huntress noemt geen sectoren van de slachtoffers.",
+    "De cijfers over fase 3 verschillen binnen het stuk (303 aanmeldingen bij 29 organisaties, elders 232 bij 28).",
+    "Wie achter de campagne zit, is niet bevestigd; de link met een Duits hostingbedrijf is context, geen toeschrijving.",
+    "Huntress verkoopt zelf detectie en respons voor identiteiten."
+   ],
+   "topics": [
+    "siem_detection",
+    "phishing_identity",
+    "cloud_attacks",
+    "incident_response"
+   ],
+   "groups": [
+    "detectie",
+    "aanvallen",
+    "incidenten"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.36,
+    "source": 0.68,
+    "quality": 0.82,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:47:36Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Gestolen inlogtokens: aanvaller omzeilt MFA bij 79 organisaties",
+   "story": [
+    "Huntress volgde van 14 juli tot 22 september 2026 een campagne tegen Microsoft 365-accounts. Huntress reageerde op incidenten bij 79 organisaties en telde minstens 497 geslaagde aanmeldingen, tegenover ruim 200.000 mislukte pogingen. De aanvaller raadde geen wachtwoorden. Hij gebruikte gestolen tokens opnieuw.",
+    "Hoe werkt inloggen normaal? Je geeft je wachtwoord en bevestigt met MFA. Daarna geeft Microsoft je een token: een digitaal toegangsbewijs, zodat je niet bij elke klik opnieuw hoeft in te loggen. Bij adversary-in-the-middle (AiTM) zet de aanvaller een nep-inlogpagina tussen jou en Microsoft. Die stuurt alles door, ook de MFA-vraag. Jij logt dus echt in, maar het token komt ook bij de aanvaller terecht. Omdat dat token al ná MFA is uitgegeven, hoeft hij MFA niet meer te passeren. Huntress zag ook tokens uit device code phishing. Binnen vier tot twaalf minuten na de diefstal gebruikten servers bij een hostingbedrijf de tokens opnieuw.",
+    "Daarna bouwde de aanvaller stille achterdeuren. Hij registreerde nep-apparaten in Entra, 48 in totaal, met namen als \"DESKTOP-\" plus acht tekens. Windows gebruikt standaard zeven. Bij 19 organisaties wiste hij de MFA-methoden van het slachtoffer en registreerde hij een eigen authenticator. Ook maakte hij verborgen inbox-regels met namen als \".\" of \"sss\". Die verplaatsten mail over salaris, bank of bonus naar weinig bekeken mappen. Een nieuw wachtwoord alleen haalt die apparaten en MFA-methoden niet weg.",
+    "Waar zie je het? In de aanmeldlogs: aanmeldingen vanaf hostingadressen met de user agent \"node\" of alleen \"Mozilla/5.0\", plotseling een ander besturingssysteem in dezelfde sessie, en MFA-methoden die binnen minuten worden gewist en opnieuw geregistreerd. Huntress raadt aan te reageren op geldige inloggegevens, niet op het aantal pogingen. Foutcode AADSTS53003 betekent bijvoorbeeld dat het inloggen zelf lukte, maar dat Conditional Access het blokkeerde. Opruimen betekent: sessies intrekken, wachtwoord resetten én apparaten, MFA-methoden en inbox-regels controleren.",
+    "Voor organisaties is de les dat MFA niet het eindpunt is. Een aanvaller met een geldig token is gewoon ingelogd. Wie na een incident alleen het wachtwoord reset, laat de achterdeuren staan."
+   ],
+   "key_facts": [
+    "Huntress volgde de campagne van 14 juli tot 22 september 2026 en reageerde op incidenten bij 79 organisaties.",
+    "Minstens 497 geslaagde aanmeldingen tegenover meer dan 200.000 mislukte pogingen.",
+    "Tokens kwamen uit AiTM-relays, device code phishing en social engineering; de tijd tussen diefstal en hergebruik was 12 minuten (21 juli) en 4 minuten (22 september).",
+    "48 nep-apparaten in Entra met de naam \"DESKTOP-\" plus acht hexadecimale tekens; bij 19 organisaties werden MFA-methoden gewist en vervangen.",
+    "Verborgen inbox-regels met korte namen verplaatsten of verwijderden mail, onder meer over salaris, bank en bonus.",
+    "Huntress: een wachtwoordreset alleen verwijdert geregistreerde apparaten en MFA-methoden van de aanvaller niet."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een vereenvoudigde weergave van drie aanmeldingen van één gebruiker. De eerste is de echte inlog. Vier minuten later volgt een aanmelding vanaf een hostingadres met user agent \"node\". Daarna wordt een nieuw apparaat geregistreerd met een naam van acht tekens na DESKTOP-.",
+    "language": "log",
+    "code": "09:12:04 user=a.devries ip=198.51.100.23 (thuisprovider) app=OfficeHome ua=\"Chrome/Windows\" result=success mfa=ok\n09:16:11 user=a.devries ip=203.0.113.77 (hosting) app=\"Microsoft Office\" ua=\"node\" request=OAuth2:Token result=success\n09:17:30 user=a.devries ip=203.0.113.77 (hosting) resource=\"Device Registration Service\" device=DESKTOP-4F9A0C2E result=success",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en vereenvoudigde veldnamen. De waarden (user agent, verzoektype, apparaatnaam) volgen de patronen uit het onderzoek."
+   },
+   "terms": [
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "adversary-in-the-middle",
+     "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
+    },
+    {
+     "term": "device code phishing",
+     "explanation": "Misbruik van de inlogmethode voor apparaten zonder toetsenbord: het slachtoffer voert een code van de aanvaller in op een echte Microsoft-pagina en geeft zo toegang."
+    },
+    {
+     "term": "Entra",
+     "explanation": "Microsoft Entra ID, voorheen Azure AD: de dienst die bijhoudt wie mag inloggen op Microsoft 365 en welke apparaten bij een organisatie horen."
+    },
+    {
+     "term": "Conditional Access",
+     "explanation": "Regels in Microsoft Entra die bepalen onder welke voorwaarden iemand mag inloggen, bijvoorbeeld alleen met MFA of alleen vanaf een beheerd apparaat."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
+   },
+   "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
+   "region": "world"
+  },
+  {
    "id": "08252db330fb",
    "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
    "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
@@ -4004,7 +4004,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.66,
+    "recency": 0.65,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -4171,104 +4171,6 @@
    "region": "world"
   },
   {
-   "id": "987ba3712202",
-   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T19:05:19Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
-   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
-   "limitations": [
-    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
-    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
-    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
-    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "web_software_security",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.69,
-    "source": 0.68,
-    "quality": 0.57,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
-   "story": [
-    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
-    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
-    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
-    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
-    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
-   ],
-   "key_facts": [
-    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
-    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
-    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
-    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
-    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
-    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
-    "language": "log",
-    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
-   },
-   "terms": [
-    {
-     "term": "domeinregistrar",
-     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
-    },
-    {
-     "term": "FTP",
-     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
-    },
-    {
-     "term": "SFTP",
-     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
-    },
-    {
-     "term": "webshell",
-     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
-    },
-    {
-     "term": "sessie",
-     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
-    },
-    {
-     "term": "webmail-doorstuurregels",
-     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
-    }
-   ],
-   "learning": "Webtechnologie en softwarebeveiliging",
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
-   },
-   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
-   "region": "na"
-  },
-  {
    "id": "350327fdd7cd",
    "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
    "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
@@ -4392,7 +4294,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.71,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -4587,7 +4489,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.68,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -4672,7 +4574,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.68,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -4723,6 +4625,104 @@
     "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
    },
    "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
+   "region": "na"
+  },
+  {
+   "id": "987ba3712202",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T19:05:19Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "Bij webhoster DreamHost zaten aanvallers sinds ongeveer augustus in de webgebaseerde File Manager. Ze stalen FTP- en SFTP-inloggegevens en kwamen mogelijk ook bij webmailsessies.",
+   "personal_relevance": "Veel organisaties hosten sites bij een externe partij. Dit is een concrete aanleiding om met klanten te bespreken of ze websitebestanden en mailregels monitoren, ook als het lek bij de leverancier zit.",
+   "limitations": [
+    "Welke kwetsbaarheid in de File Manager is misbruikt, is niet bekend.",
+    "Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd; BleepingComputer kreeg geen antwoord.",
+    "Of de aanvaller websites van klanten heeft aangepast, is niet bekend.",
+    "Hoe de wachtwoorden waren opgeslagen, staat niet in de berichtgeving."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "web_software_security",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.69,
+    "source": 0.68,
+    "quality": 0.57,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten",
+   "story": [
+    "DreamHost is een Amerikaanse webhoster en domeinregistrar. Het bedrijf meldt dat aanvallers ongeveer twee maanden toegang hadden tot zijn webgebaseerde File Manager. Met die dienst beheren klanten via de browser de bestanden van hun website. De aanvallers stalen de gebruikersnamen en wachtwoorden voor FTP en SFTP van klanten die in die periode inlogden. DreamHost ontdekte het op 23 oktober.",
+    "Normaal zet je bestanden op je website met FTP of SFTP. Je logt in met een gebruikersnaam en wachtwoord en uploadt de bestanden. Een File Manager doet hetzelfde vanuit de browser. Zo'n dienst krijgt dus jouw inloggegevens te zien om namens jou bij je bestanden te komen. Wie die server overneemt, ziet die gegevens voorbijkomen. Volgens DreamHost misbruikte de aanvaller een kwetsbaarheid in de software; welke, is niet bekend.",
+    "Met FTP-gegevens kan een aanvaller de bestanden van een website aanpassen. Hij kan er bijvoorbeeld een webshell neerzetten, of code die bezoekers naar een nepsite stuurt. DreamHost zegt niet dat dit is gebeurd, maar adviseert wel om websitebestanden te controleren op wijzigingen. De aanvaller kwam mogelijk ook bij webmailsystemen. Daardoor zijn sessiegegevens van een beperkt aantal gebruikers blootgesteld. Met zo'n sessie kun je inloggen zonder wachtwoord.",
+    "DreamHost blokkeerde de aanvallers, dichtte het lek, beëindigde actieve sessies en maakte wachtwoorden ongeldig. Klanten moeten ook hun webmail-doorstuurregels en filters nakijken. Aanvallers zetten vaak zo'n regel om stilletjes kopieën van mail te krijgen, ook als het wachtwoord daarna verandert. Wie een website host, kan bestanden vergelijken met een schone back-up en in de FTP-logs zoeken naar uploads die hij niet zelf deed.",
+    "Voor organisaties is dit een voorbeeld van risico bij een leverancier. Je eigen beveiliging kan in orde zijn, terwijl je hostingpartij je wachtwoorden lekt. Hergebruikte wachtwoorden maken de schade groter; DreamHost raadt aan die ook elders te wijzigen. Hoeveel klanten getroffen zijn, heeft DreamHost niet gezegd."
+   ],
+   "key_facts": [
+    "Aanvallers hadden ongeautoriseerd toegang tot de File Manager-server van DreamHost (files.dreamhost.com) van ongeveer augustus 2026 tot 23 oktober 2026, de dag van ontdekking.",
+    "Gestolen zijn FTP/SFTP-gebruikersnamen en -wachtwoorden van gebruikers die in die periode bij File Manager inlogden.",
+    "Volgens de melding misbruikte de aanvaller 'een kwetsbaarheid in die software'; een CVE of details zijn niet genoemd.",
+    "De aanvaller kwam mogelijk ook bij webmailsystemen, waardoor sessiegegevens, inclusief inloggegevens, van een beperkt aantal gebruikers zijn blootgesteld.",
+    "Volgens DreamHost is er geen bewijs van toegang tot inloggegevens voor het controlepaneel of tot klant- en betaalgegevens.",
+    "DreamHost blokkeerde de toegang, verhielp de kwetsbaarheid, beëindigde sessies en maakte wachtwoorden ongeldig; klanten moeten websitebestanden en webmail-doorstuurregels en -filters controleren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een upload eruit in een FTP-log (xferlog). Na 'i' (inkomend) staat de gebruikersnaam. Een onbekend .php-bestand in een uploadmap, op een tijdstip dat niemand werkte, is een reden om te kijken.",
+    "language": "log",
+    "code": "Tue Oct 21 03:14:07 2026 1 203.0.113.10 2048 /home/klant/example.com/uploads/cache.php b _ i r klant ftp 0 * c\nTue Oct 21 09:02:44 2026 2 198.51.100.7 51200 /home/klant/example.com/img/logo.png b _ i r klant ftp 0 * c",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en -paden. De bron noemt geen concrete bestanden."
+   },
+   "terms": [
+    {
+     "term": "domeinregistrar",
+     "explanation": "Een bedrijf waarbij je een domeinnaam, zoals example.com, registreert en beheert."
+    },
+    {
+     "term": "FTP",
+     "explanation": "File Transfer Protocol: een oude, veelgebruikte manier om bestanden naar een server te sturen. Gewone FTP stuurt wachtwoorden onversleuteld mee."
+    },
+    {
+     "term": "SFTP",
+     "explanation": "Een versleutelde manier om bestanden naar een server te sturen, via SSH. Het verkeer is beschermd, maar een gestolen wachtwoord werkt nog steeds."
+    },
+    {
+     "term": "webshell",
+     "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "webmail-doorstuurregels",
+     "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen."
+    }
+   ],
+   "learning": "Webtechnologie en softwarebeveiliging",
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident bij een webhoster met een praktische les over bestanden en mailregels."
+   },
+   "takeaway": "Een webdienst die namens jou inlogt, ziet je wachtwoord; wie die dienst overneemt, krijgt het ook. Na zo'n lek controleer je niet alleen wachtwoorden, maar ook gewijzigde bestanden en doorstuurregels in mail.",
    "region": "na"
   },
   {
@@ -5340,7 +5340,7 @@
    "relevance_score": 80,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.12,
+    "recency": 0.11,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -5438,7 +5438,7 @@
    "relevance_score": 79,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.7,
+    "recency": 0.69,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -8672,12 +8672,12 @@
  ],
  "quality_report": {
   "fetched_items": 310,
-  "unique_after_dedupe": 557,
+  "unique_after_dedupe": 560,
   "merged_duplicates": 1,
   "shown": 48,
   "decisions": {
-   "included": 220,
-   "below_threshold": 146,
+   "included": 222,
+   "below_threshold": 147,
    "no_topic": 142,
    "excluded": 45,
    "source_cap": 4
@@ -8687,16 +8687,16 @@
   },
   "without_date": 0,
   "per_group": {
-   "ti": 5,
    "aanvallen": 12,
    "kwetsbaarheden": 15,
    "detectie": 5,
+   "ti": 5,
    "incidenten": 8,
    "vm": 3
   },
   "per_source": {
-   "the_hacker_news": 12,
    "huntress_blog": 5,
+   "the_hacker_news": 12,
    "security_nl": 3,
    "datadog_security_labs": 1,
    "bleepingcomputer": 6,
@@ -8764,7 +8764,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 318
+   "skipped_no_key": 321
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -8776,36 +8776,6 @@
   "threshold": 60,
   "max_per_source": 12,
   "not_shown": [
-   {
-    "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0482 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Photoshop Desktop",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0482",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0481 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0481",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
    {
     "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
     "source_id": "the_hacker_news",
@@ -8886,6 +8856,36 @@
     "title": "NCSC-2026-0472 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0472",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0482 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Photoshop Desktop",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0482",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0481 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0481",
     "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
