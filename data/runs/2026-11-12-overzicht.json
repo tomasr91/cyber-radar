@@ -1,0 +1,13 @@
+{
+  "task": "overzicht",
+  "started_at": "2026-11-12T03:22:38Z",
+  "finished_at": "2026-11-12T03:24:04Z",
+  "status": "ok",
+  "summary": "3 trends bijgewerkt (AI-agenten zonder twee te oude artikelen, randapparaten en MFA ongewijzigd), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (donderdag).",
+  "counts": {
+    "trends": 3,
+    "interesses_aangepast": 0,
+    "begrippen_aangevuld": 0
+  },
+  "problems": []
+}
