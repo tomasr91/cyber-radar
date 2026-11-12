@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T05:10:00Z",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "7d35c70e6708",
+  "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+  "headline": "Turla verstopt spionagemalware Cereal in Exchange-servers van overheden",
+  "summary": "ESET ontdekte Cereal, nieuwe malware van de Russische groep Turla. Die nestelt zich in Microsoft Exchange en filtert e-mails met bijlagen uit, zonder eigen server op internet.",
+  "story": [
+    "Onderzoekers van ESET beschrijven Cereal, een nieuwe set spionagetools van Turla. Turla (ook Snake genoemd) is een APT die gelieerd is aan Rusland. Cereal werd eind 2025 gezien bij twee overheidsinstanties, in Kazachstan en Roemenië. Het doel: ongemerkt e-mails stelen van de Microsoft Exchange-server van het slachtoffer. In Roemenië ging het om mails van NAVO- en EU-adressen.",
+    "Hoe werkt het? Exchange is de mailserver van een organisatie: alle mail komt erlangs. Bij Exchange verwerkt het proces EdgeTransport.exe de mailstroom. Het onderdeel CerealBox nestelt zich in dat proces. Het zoekt mails met een Word- of pdf-bijlage die passen bij vaste lijsten van afzenders, ontvangers, onderwerpen of bestandsnamen. Die mails worden gecomprimeerd, versleuteld en tijdelijk op schijf gezet, en na het wegsturen gewist.",
+    "Het slimste deel is de communicatie. Meestal belt malware naar een C2-server van de aanvaller. Cereal doet dat niet. Het onderdeel CerealNeuron is een passieve backdoor: het wacht op webverzoeken die eruitzien als gewoon Exchange-verkeer. Opdrachten komen binnen als kleine .NET-programma's die alleen in het werkgeheugen draaien. Daarmee kan de aanvaller mailboxen ophalen, Active Directory uitvragen en LSA-geheimen uitlezen. De resultaten gaan versleuteld terug.",
+    "Wat betekent dat voor detectie? Er is geen verbinding naar een verdachte server die je in het netwerkverkeer ziet. Het verkeer lijkt op wat een mailserver de hele dag doet. Aanwijzingen moet je daarom vooral op de server zelf zoeken, bijvoorbeeld onbekende code in het mailproces of het uitlezen van geheimen. Hoe Turla binnenkwam, is niet bekend.",
+    "Voor organisaties is de les dat een eigen Exchange-server een topdoelwit is voor spionage. Wie de mailserver heeft, leest alle gevoelige communicatie mee. Zo'n server verdient dezelfde bewaking als een domeincontroller."
+  ],
+  "key_facts": [
+    "ESET deelde het onderzoek vooraf met The Hacker News (artikel van 10 november 2026); Turla (ook Snake) is volgens ESET een aan Rusland gelieerde, door de staat gesteunde groep.",
+    "Cereal is een tot nu toe onbekende, modulaire toolset van acht onderdelen, waaronder CerealRunner, CerealLoader, CerealSprinter, CerealNeuron, CerealHermit en CerealBox.",
+    "Cereal is eind 2025 ingezet tegen twee overheidsinstanties, in Kazachstan en Roemenië; in Roemenië richtte het verzamelen zich op mails van NAVO- en EU-adressen.",
+    "CerealBox injecteert zich in EdgeTransport.exe en zoekt mails met DOC-, DOCX- of PDF-bijlagen op basis van vaste lijsten met afzenders, ontvangers, onderwerpen of bijlagenamen; buit wordt gecomprimeerd, versleuteld, tijdelijk opgeslagen en na exfiltratie verwijderd.",
+    "Er is geen externe C2-infrastructuur: CerealNeuron luistert passief naar webverzoeken die op normaal Exchange-verkeer lijken; opdrachten zijn gecompileerde .NET-programma's die in het geheugen draaien.",
+    "Opdrachten omvatten mailboxen of berichten ophalen, Active Directory uitvragen, WMI-queries, LSA-geheimen uitlezen, volume-snapshots tonen en bestandsbewerkingen. De manier van binnenkomen is onbekend."
+  ],
+  "limitations": [
+    "Hoe Turla de Exchange-servers binnenkwam, is niet bekend.",
+    "Het artikel zegt niet hoe Cereal na een herstart actief blijft, en niet hoeveel organisaties getroffen zijn buiten de twee genoemde.",
+    "Het oorspronkelijke ESET-rapport kon in deze run niet worden geopend; de uitleg steunt op het artikel van The Hacker News.",
+    "Concrete detectieregels of aanwijzingen van ESET staan niet in het artikel; de detectie-uitleg is algemeen."
+  ],
+  "personal_relevance": "Klanten met een eigen Exchange-server vragen zich af of netwerkmonitoring genoeg is. Dit is een goed voorbeeld waarom niet: je hebt ook zicht nodig op wat er óp de server gebeurt.",
+  "takeaway": "Een passieve backdoor wacht op verzoeken die op normaal verkeer lijken in plaats van zelf naar buiten te bellen. Daardoor zie je hem nauwelijks in het netwerk en moet detectie op de server zelf gebeuren.",
+  "region": "eu",
+  "official_docs": [],
+  "topics": [
+    "malware",
+    "threat_intelligence",
+    "attack_techniques",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.6,
+    "novelty": 0.8
+  },
+  "development_key": "turla-cereal-exchange-nov-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technisch malware-onderzoek met een duidelijke aanvalsketen."
+  },
+  "showcase": {
+    "caption": "Zo zijn de onderdelen van Cereal aan elkaar gekoppeld, volgens de beschrijving in de bron. Elke stap laadt de volgende; pas onderaan zit het eigenlijke werk: luisteren naar opdrachten en mail verzamelen.",
+    "language": "text",
+    "code": "CerealRunner    -> door de aanvaller geplaatst, laadt de rest\n  CerealLoader  -> haalt een .NET-programma uit een versleuteld bestand\n    CerealSprinter -> ontsleutelt en start de drie werkers:\n      CerealNeuron  : passieve backdoor, luistert naar 'normaal' Exchange-verkeer\n      CerealHermit  : leest opdrachten uit versleutelde bestanden, geen netwerk\n      CerealBox     : zit in EdgeTransport.exe en verzamelt mails met bijlagen\n\nHulponderdelen: CerealIron (laadt .NET-code in andere processen)\n                CerealMoth (laadt code en voert één opdracht uit)",
+    "note": "Schema samengesteld uit de beschrijving in het artikel; geen code van de malware."
+  },
+  "terms": [
+    {
+      "term": "APT",
+      "explanation": "Advanced Persistent Threat: een goed georganiseerde aanvallersgroep, vaak met steun van een staat, die lang ongemerkt in een netwerk wil blijven."
+    },
+    {
+      "term": "C2",
+      "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+      "term": "backdoor",
+      "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
+    },
+    {
+      "term": "Active Directory",
+      "explanation": "De centrale gids van een Windows-netwerk: wie de gebruikers, computers en groepen zijn, en wie waar bij mag. Voor een aanvaller een plattegrond van de organisatie."
+    },
+    {
+      "term": "LSA-geheimen",
+      "explanation": "Gevoelige gegevens die Windows bewaart in de Local Security Authority, zoals wachtwoorden van serviceaccounts. Met beheerrechten kun je ze uitlezen en gebruiken om verder te komen."
+    },
+    {
+      "term": "EdgeTransport.exe",
+      "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail."
+    }
+  ]
+}

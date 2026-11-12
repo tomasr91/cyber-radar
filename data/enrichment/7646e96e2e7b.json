@@ -1,0 +1,81 @@
+{
+  "format_version": 2,
+  "date_note": "De eerste melding van Fireworks is gedateerd 9 oktober (bulletin) of 10 oktober (The Hacker News); de update is van 9 november 2026.",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T05:10:00Z",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "7646e96e2e7b",
+  "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+  "headline": "Hack bij AI-platform Fireworks groter: datasets, modellen en Notion-chats",
+  "summary": "Fireworks AI meldt dat aanvallers meer buitmaakten dan eerst gedacht: factuurgegevens, geheimen, datasets en delen van modellen van klanten. Via Fireworks raakte het lek ook AI-chats van Notion.",
+  "story": [
+    "Fireworks AI is een platform waarop bedrijven AI-modellen laten draaien en trainen. In oktober meldde het bedrijf dat iemand interne inloggegevens misbruikte. Daarmee kon de aanvaller bij de omgevingsvariabelen van evaluatietaken van een paar klanten. Fireworks zag toen geen bewijs dat modellen of datasets waren ingezien. In een update van 9 november blijkt het incident groter.",
+    "Wat gebeurde er? Op 23 oktober had een externe cloudprovider, die ontwikkelmachines voor Fireworks host, zelf een incident. Een dag later gebruikte de aanvaller die toegang om bij de ontwikkelmachines van Fireworks te komen en daar een eigen taak te draaien. Uit het verdere onderzoek blijkt dat de aanvaller bij factuurgegevens, geheimen, datasets en onvolledige modelgewichten van een beperkt aantal klanten kon. Betaalkaartnummers bewaart Fireworks niet.",
+    "Het lek werkt door in de keten. Notion gebruikte via Fireworks open-weight modellen. Bij minder dan 1% van de Notion-werkruimtes zijn mogelijk transcripten van Notion AI-chats ingezien. Notion zette de betrokken functie uit en stopte met deze modellen via Fireworks.",
+    "Wie zit erachter? Fireworks ziet aanwijzingen voor een financieel gedreven groep die aan LLMJacking doet: gestolen toegang tot AI-modellen doorverkopen. Dat is een verband, geen bevestigde identificatie. Fireworks trok inloggegevens in, verving sleutels, isoleerde systemen en breidde logging uit. Klanten die een melding kregen, moeten hun API-sleutels en andere geheimen vervangen. Notion raadt aan om wachtwoorden of sleutels die in die periode in Notion zijn geplakt, direct te vervangen.",
+    "Voor organisaties is dit een ketenrisico in drie lagen: jouw gegevens staan bij een AI-dienst, die weer leunt op een cloudprovider. Een geheim dat je bij zo'n dienst achterlaat, is net zo veilig als de zwakste schakel in die keten."
+  ],
+  "key_facts": [
+    "Fireworks ontdekte op 6 oktober 2026 misbruik van interne inloggegevens, waarmee een externe partij bij omgevingsvariabelen van evaluatietaken van een beperkt aantal klanten kon (The Hacker News).",
+    "Op 23 oktober had een externe cloudprovider die R&D-machines van Fireworks host een incident; op 24 oktober gebruikte de aanvaller dat om bij ontwikkelmachines te komen en een eigen workload te draaien. Na 25 oktober zijn geen aanwijzingen gevonden van toegang tot het platform voor klanten (bulletin Fireworks).",
+    "Getroffen bij een beperkt aantal klanten: resourcemetadata, factuurgegevens (adressen, factuur- en betaalgeschiedenis, saldo), geheimen, en delen van onvolledige modelgewichten en datasets. Betaalkaartnummers worden niet opgeslagen.",
+    "Inference, Training SDK en Nexus zijn volgens Fireworks niet getroffen; Fireworks werkt samen met Palo Alto Networks Unit 42 en heeft de politie ingeschakeld.",
+    "Fireworks koppelt het incident aan een financieel gemotiveerde groep die toegang tot taalmodellen doorverkoopt (LLMJacking); dat is een verband op basis van bewijs, geen bevestigde identificatie.",
+    "Notion: minder dan 1% van de werkruimtes getroffen; mogelijk zijn Notion AI-chattranscripten voor de functie Insights ingezien, meestal niet te koppelen aan een auteur of werkruimte. Notion zette Insights uit en gebruikt geen open-weight modellen via Fireworks meer."
+  ],
+  "limitations": [
+    "Hoe de aanvaller aan de interne inloggegevens van Fireworks kwam, en hoe de externe cloudprovider werd gehackt, is niet bekend. De cloudprovider wordt niet genoemd.",
+    "Hoeveel klanten van Fireworks getroffen zijn, zegt het bedrijf niet ('een beperkt aantal').",
+    "De datum van de eerste melding verschilt: 9 oktober volgens het bulletin van Fireworks, 10 oktober volgens The Hacker News.",
+    "Het onderzoek loopt nog; Fireworks zegt dat er nieuwe informatie kan komen."
+  ],
+  "personal_relevance": "Klanten die AI-diensten inkopen, vragen hoe ze dat risico moeten beoordelen. Dit incident geeft concrete vragen: welke geheimen geef je mee, hoe lang leven die, en welke partijen zitten er nog achter de leverancier?",
+  "takeaway": "Geheimen die je aan een dienst meegeeft, bijvoorbeeld als omgevingsvariabele in een taak, liggen daarna ook bij die dienst en diens leveranciers. Kortlevende sleutels met weinig rechten beperken de schade als die keten lekt.",
+  "region": "na",
+  "official_docs": [
+    {
+      "label": "Fireworks AI: update over het beveiligingsincident van oktober 2026",
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+    }
+  ],
+  "topics": [
+    "incidents_breaches",
+    "supply_chain",
+    "cloud_attacks"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.7,
+    "novelty": 0.6
+  },
+  "development_key": "hack-fireworks-ai-okt-2026",
+  "soort": "incident",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; incident met duidelijke tijdlijn en ketenrisico rond AI-diensten."
+  },
+  "terms": [
+    {
+      "term": "omgevingsvariabelen",
+      "explanation": "Instellingen die een programma bij het starten meekrijgt, buiten de code om. Vaak staan er API-sleutels en wachtwoorden in, zodat die niet in de code zelf hoeven."
+    },
+    {
+      "term": "modelgewichten",
+      "explanation": "De getallen die een AI-model tijdens het trainen leert en die bepalen hoe het antwoordt. Wie ze heeft, heeft in feite het model zelf."
+    },
+    {
+      "term": "open-weight",
+      "explanation": "AI-modellen waarvan de makers de modelgewichten openbaar maken. Iedereen kan ze dan zelf draaien, of laten draaien bij een dienst zoals Fireworks."
+    },
+    {
+      "term": "LLMJacking",
+      "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt."
+    },
+    {
+      "term": "API-sleutels",
+      "explanation": "Geheime codes waarmee software automatisch toegang krijgt tot een dienst, zonder dat er een mens inlogt. Wie de sleutel heeft, kan alles wat die sleutel mag."
+    }
+  ]
+}

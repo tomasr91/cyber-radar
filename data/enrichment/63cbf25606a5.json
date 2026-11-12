@@ -1,0 +1,145 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T05:10:00Z",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "63cbf25606a5",
+  "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+  "headline": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS",
+  "summary": "Arctic Wolf koppelt systemen met het AI-pentestplatform AntiFox aan echte inbraken. Via een gehackte webserver en gestolen AWS-gegevens kwamen de aanvallers bij een productiegeheim.",
+  "story": [
+    "Arctic Wolf Labs zag systemen bij Alibaba Cloud met de interface van AntiFox terug in echte inbraken. AntiFox is een open-source platform op GitHub dat penetratietests automatiseert met AI-agenten. Een 'planner' verdeelt het werk, 'workers' voeren het uit: verkennen, zwakke plekken zoeken, misbruiken en rapporteren. Precies wat een ethisch hacker doet, maar dan zonder toestemming van het doelwit.",
+    "De eerste route liep via een webserver met IIS. Daar draait elke webapplicatie in een werkproces, w3wp.exe. Bij de aanvallen maakte dat proces een webshell aan en voerde het systeemopdrachten uit. Dat betekent dat de webapplicatie werd misbruikt om code te draaien; welk lek dat was, is niet bekend. Daarna zochten de aanvallers naar web.config-bestanden en back-ups. Ze lazen verbindingsstrings met databasewachtwoorden. Configuratie- en logbestanden zetten ze in een uploadmap die via het web bereikbaar is.",
+    "De tweede route begon met een geldige AWS-sleutel. Hoe de aanvallers die kregen, is niet vastgesteld. Daarmee probeerden ze tientallen AWS-diensten uit, zoals IAM, S3, Secrets Manager, Lambda, RDS en Bedrock. De meeste pogingen faalden met AccessDenied, maar niet alle. In minstens een paar gevallen lukte het om een productiegeheim op te halen, en werden bestanden in S3 bekeken en bewerkt.",
+    "Hoe zie je dit? Een webserverproces dat opdrachten start of bestanden in webmappen schrijft, is een klassiek alarmsignaal. In AWS legt CloudTrail elke poging vast. Eén identiteit die in korte tijd veel diensten probeert en vooral AccessDenied krijgt, is een herkenbaar patroon van verkennen. Sleutels met zo min mogelijk rechten beperken de schade: hier bleven daardoor waarschijnlijk de meeste deuren dicht.",
+    "Voor organisaties laat dit zien dat dezelfde AI-tools die verdedigers gebruiken, ook aanvallers sneller maken. Volgens het artikel bestaan er al meer dan 45 van zulke open-source aanvalsframeworks, zoals het eerder beschreven ARTEX."
+  ],
+  "key_facts": [
+    "Arctic Wolf Labs deelde het onderzoek met The Hacker News (artikel van 11 november 2026): Alibaba Cloud-systemen met AntiFox-interfaces zijn in verband gebracht met bevestigde kwaadaardige acties tegen webdiensten op internet en bijbehorende AWS-omgevingen.",
+    "AntiFox is een open-source, AI-gestuurd platform voor geautomatiseerde penetratietests op GitHub, met een multi-agentsysteem (planner, worker, main agent); het had 474 sterren en 251 forks.",
+    "Bij een IIS-webapplicatie maakte w3wp.exe een ASPX-webshell aan en voerde het systeemopdrachten uit; de aanvallers zochten naar web.config en back-ups, lazen verbindingsstrings, probeerden een interne productiedatabase en kopieerden bestanden naar een via het web bereikbare uploadmap.",
+    "Bij andere aanvallen begon de aanvaller met een geldige AWS-sleutel waarvan de herkomst niet is vastgesteld; tientallen diensten werden geprobeerd (o.a. IAM, S3, Secrets Manager, Lambda, RDS, Bedrock), meestal met AccessDenied.",
+    "In minstens enkele gevallen slaagde een GetSecretValue-aanroep op een productiegeheim en waren er S3-verkenning en bewerkingen op objecten.",
+    "Volgens het artikel zijn er meer dan 45 open-source agentische aanvalsframeworks, waaronder ARTEX."
+  ],
+  "limitations": [
+    "Welke kwetsbaarheid de code-uitvoering op de IIS-server mogelijk maakte, is niet bekend.",
+    "Hoe de aanvallers aan de AWS-sleutels kwamen, is niet vastgesteld.",
+    "Arctic Wolf koppelt de aanvallen aan systemen mét AntiFox; hoe hard het bewijs is dat AntiFox zelf de aanvallen uitvoerde, staat niet uitgebreid in het artikel.",
+    "Het rapport van Arctic Wolf is in deze run niet zelf geopend; de uitleg steunt op The Hacker News."
+  ],
+  "personal_relevance": "Klanten vragen of AI-aanvallen 'iets anders' vragen van hun beveiliging. Dit voorbeeld laat zien dat het om bekende stappen gaat, sneller uitgevoerd, en dat goede logging en beperkte rechten nog steeds het verschil maken.",
+  "takeaway": "Een AI-agent doorloopt dezelfde aanvalsstappen als een mens: verkennen, binnenkomen, geheimen zoeken. Het patroon van veel mislukte pogingen op veel diensten is in cloudlogs goed te herkennen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "cloud_attacks",
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
+  "development_key": "antifox-arctic-wolf-nov-2026",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; aanvalsketen in web en cloud met concrete detectie."
+  },
+  "showcase": {
+    "caption": "Zo kan verkennen met een gestolen AWS-sleutel eruitzien in CloudTrail: één identiteit probeert in korte tijd veel diensten. Bijna alles mislukt (AccessDenied), maar het ophalen van één geheim lukt wel. Dat laatste is het moment om in te grijpen.",
+    "language": "text",
+    "code": "Zoekopdracht: alle CloudTrail-gebeurtenissen van gebruiker svc-deploy in het afgelopen uur,\ngesorteerd op tijd",
+    "result": {
+      "columns": [
+        "tijd (UTC)",
+        "dienst",
+        "actie",
+        "resultaat"
+      ],
+      "rows": [
+        [
+          "10:02:11",
+          "iam",
+          "ListUsers",
+          "AccessDenied"
+        ],
+        [
+          "10:02:12",
+          "iam",
+          "ListRoles",
+          "AccessDenied"
+        ],
+        [
+          "10:02:14",
+          "lambda",
+          "ListFunctions",
+          "AccessDenied"
+        ],
+        [
+          "10:02:15",
+          "rds",
+          "DescribeDBInstances",
+          "AccessDenied"
+        ],
+        [
+          "10:02:17",
+          "bedrock",
+          "ListFoundationModels",
+          "AccessDenied"
+        ],
+        [
+          "10:02:19",
+          "s3",
+          "ListBuckets",
+          "gelukt"
+        ],
+        [
+          "10:02:22",
+          "secretsmanager",
+          "ListSecrets",
+          "gelukt"
+        ],
+        [
+          "10:02:24",
+          "secretsmanager",
+          "GetSecretValue",
+          "gelukt"
+        ]
+      ]
+    },
+    "note": "Nagebouwd voorbeeld met verzonnen gebruikersnaam, tijden en resultaten; de echte gegevens staan in het rapport van Arctic Wolf."
+  },
+  "terms": [
+    {
+      "term": "IIS",
+      "explanation": "Internet Information Services: de webserver van Microsoft. Websites en webapplicaties op Windows-servers draaien er vaak op."
+    },
+    {
+      "term": "webshell",
+      "explanation": "Een klein programma dat een aanvaller op een gehackte webserver zet. Het werkt als een achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+      "term": "verbindingsstrings",
+      "explanation": "Regels in een configuratiebestand die zeggen hoe een applicatie met een database verbindt, vaak inclusief gebruikersnaam en wachtwoord. Voor een aanvaller een sleutel tot de database."
+    },
+    {
+      "term": "CloudTrail",
+      "explanation": "De auditlog van AWS: die legt vast welke identiteit welke actie in een AWS-omgeving probeerde, en of dat lukte. De eerste plek om te kijken bij misbruik van een sleutel."
+    },
+    {
+      "term": "Secrets Manager",
+      "explanation": "Een AWS-dienst die geheimen zoals wachtwoorden en API-sleutels versleuteld bewaart. Applicaties halen ze op wanneer ze die nodig hebben."
+    },
+    {
+      "term": "AI-agenten",
+      "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    }
+  ]
+}

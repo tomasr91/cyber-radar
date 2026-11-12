@@ -1,0 +1,88 @@
+{
+  "format_version": 2,
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T05:10:00Z",
+  "prompt_version": "cyber-taak-v1",
+  "article_id": "ce0b470d4dea",
+  "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+  "headline": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig",
+  "summary": "SAP verhelpt vier kritieke lekken in NetWeaver en de Web Dispatcher. Aanvallers zonder account kunnen opdrachten uitvoeren of als beheerder inloggen. Misbruik is nog niet gezien.",
+  "story": [
+    "Op zijn maandelijkse Patch Day (10 november) dichtte SAP vier lekken met CVSS-score 10.0. Alle vier zijn te misbruiken zonder in te loggen. Drie zitten in de SAP NetWeaver-applicatieserver, waarop SAP-systemen draaien. Eén zit in de Web Dispatcher, die verzoeken van internet ontvangt en doorgeeft aan de SAP-systemen erachter. Misbruik is nog niet gezien, maar onderzoekers van Onapsis gaven SAP werkende aanvalscode.",
+    "Twee lekken (samen ICM2SHELL genoemd) zitten in de verwerking van WebSocket-verkeer. Lange WebSocket-berichten worden in stukjes verstuurd en aan de ontvangende kant weer aan elkaar gezet. Een stukje met een ongeldig lengteveld laat de software buiten het gereserveerde stuk geheugen op de heap schrijven. Dat gebeurt nog vóór de inlog. Zo kan een aanvaller opdrachten uitvoeren als het systeemaccount van SAP, of het systeem laten crashen. WebSocket staat standaard aan.",
+    "Het derde lek (PROXYGATE) zit in de SAP Gateway, waarmee SAP-systemen onderling praten via RFC. Een ACL bepaalt wie dat mag. De standaardlijst voor doorgestuurde verbindingen is te ruim. Daardoor kan een aanvaller van buiten zich voordoen als een eigen SAP-server en opdrachten uitvoeren. Het vierde lek zit in de SAML-inlog: in sommige instellingen controleert SAP de handtekening op het inlogbewijs niet. Dan kan iemand inloggen als elke gebruiker, ook een beheerder.",
+    "Waarom urgent? Geen inlog nodig, de Web Dispatcher staat vaak aan internet, en er bestaat al aanvalscode. Met vulnerability management zoek je alle kernels en álle Web Dispatchers op: één vergeten exemplaar blijft open. Oude kernels zonder onderhoud krijgen mogelijk geen fix en moeten worden opgewaardeerd. Tijdelijk helpt het om de proxylijst van de Gateway te beperken (gw/acl_mode_proxy op 1) en de Gateway-poorten af te schermen. Voor de SAML-fout is er geen workaround.",
+    "Voor organisaties is SAP het hart van financiën, inkoop en personeel. Een aanvaller met opdrachten op die server zit dus bij de belangrijkste gegevens. Voor detectie raden de bronnen aan om in de auditlogs te zoeken naar SAML-logins van beheerders vanaf onverwachte plekken."
+  ],
+  "key_facts": [
+    "SAP dichtte op 10 november 2026 vier lekken met CVSS 10.0 die zonder inlog te misbruiken zijn: CVE-2026-76964 (ICM, SAP Note 3778530), CVE-2026-89126 (Web Dispatcher, Note 3778556), CVE-2026-89103 (Gateway, Note 3798345) en CVE-2026-120017 (SAML2, Note 3849308).",
+    "ICM2SHELL (CVE-2026-76964, CVE-2026-89126): misvormde WebSocket-controlframes met ongeldige lengtevelden veroorzaken een heap out-of-bounds write vóór authenticatie; gevolg is code-uitvoering als <sid>adm of een crash. WebSocket staat standaard aan.",
+    "PROXYGATE (CVE-2026-89103): de standaard proxy-ACL van de Gateway is te ruim; blootstelling hangt af van prxyinfo of gw/acl_mode_proxy (standaard 0). Het artikel adviseert gw/acl_mode_proxy op 1 te zetten en de poorten 33NN en 48NN te beperken tot hosts die RFC-toegang nodig hebben.",
+    "CVE-2026-120017: onder bepaalde instellingen controleert de SAML2-service provider de handtekening van inkomende assertions niet, waardoor inloggen als elke gebruiker mogelijk is; er is geen workaround.",
+    "Onapsis leverde SAP een werkende exploit voor ICM2SHELL; voor PROXYGATE deelden onderzoekers een volledige proof of concept met SAP. Misbruik in echte aanvallen is niet gezien.",
+    "Ook kernels zonder onderhoud (onder meer 7.40 tot 7.89; voor de Gateway ook 7.20 en 7.21) zijn volgens Onapsis getroffen; daar is mogelijk een upgrade nodig."
+  ],
+  "limitations": [
+    "De SAP-notes zelf zijn alleen met een SAP-account te lezen en zijn in deze run niet geopend; de details komen van The Hacker News, dat Onapsis en RedRays citeert.",
+    "Het artikel zegt niet onder welke instellingen precies de SAML-handtekening niet wordt gecontroleerd.",
+    "Hoeveel SAP-systemen met WebSocket of een open Gateway aan internet staan, is onbekend.",
+    "Onapsis en RedRays verkopen zelf SAP-beveiliging; hun inschatting van de risico's is niet onafhankelijk gecontroleerd."
+  ],
+  "personal_relevance": "SAP-patches blijven bij klanten vaak liggen omdat het systeem 'te belangrijk is om aan te komen'. Dit is een goed gesprek over waarom juist zulke systemen voorrang krijgen, en waarom een volledige inventaris van Web Dispatchers nodig is.",
+  "takeaway": "Een fout in het in elkaar zetten van berichten, vóór de inlog, maakt een server bereikbaar voor iedereen die hem kan aanspreken. En een standaardinstelling die te veel vertrouwt, is net zo gevaarlijk als een programmeerfout.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "vulnerabilities_cve",
+    "web_software_security",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
+  "development_key": "sap-patchday-nov-2026-icm2shell-proxygate",
+  "exploitation": "geen_misbruik_bekend",
+  "patch_status": "patch_beschikbaar",
+  "soort": "kwetsbaarheid",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; uitgebreide technische uitleg van kritieke lekken in veelgebruikte bedrijfssoftware."
+  },
+  "showcase": {
+    "caption": "Zo begint een normale WebSocket-verbinding. De browser vraagt met 'Upgrade: websocket' of de verbinding open mag blijven; de server antwoordt met 101. Daarna gaan berichten in kleine stukjes (frames) heen en weer. Bij ICM2SHELL gaat het mis bij het in elkaar zetten van zulke frames.",
+    "language": "http",
+    "code": "GET /chat HTTP/1.1\nHost: sap.example.com\nUpgrade: websocket\nConnection: Upgrade\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\nSec-WebSocket-Version: 13\n\nHTTP/1.1 101 Switching Protocols\nUpgrade: websocket\nConnection: Upgrade\nSec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRrK+xOo=",
+    "note": "Nagebouwd voorbeeld van een normale WebSocket-start, met de waarden uit de WebSocket-standaard (RFC 6455) en een voorbeeldadres. Geen aanval."
+  },
+  "terms": [
+    {
+      "term": "WebSocket",
+      "explanation": "Een manier om een webverbinding open te houden, zodat server en browser steeds berichten kunnen uitwisselen zonder voor elk bericht een nieuw verzoek te doen. Handig voor live-meldingen en chat."
+    },
+    {
+      "term": "heap",
+      "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
+    },
+    {
+      "term": "RFC",
+      "explanation": "Remote Function Call: de manier waarop SAP-systemen elkaar functies laten uitvoeren. De SAP Gateway regelt die verbindingen."
+    },
+    {
+      "term": "ACL",
+      "explanation": "Access control list: een lijst die vastlegt wie of wat ergens bij mag. Staat die te ruim, dan komen ook ongewenste partijen binnen."
+    },
+    {
+      "term": "SAML",
+      "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+      "term": "Web Dispatcher",
+      "explanation": "Het onderdeel van SAP dat vooraan staat: het ontvangt webverzoeken, vaak van internet, en verdeelt ze over de SAP-servers erachter. Een soort portier."
+    }
+  ]
+}

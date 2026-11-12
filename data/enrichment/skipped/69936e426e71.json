@@ -1,0 +1,7 @@
+{
+  "article_id": "69936e426e71",
+  "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als 9844bc61915e (CVE-2026-125350, achtste misbruikte Chrome-zero-day, vannacht al uitgelegd).",
+  "development_key": "cve-2026-125350-chrome",
+  "checked_at": "2026-11-12T04:56:00Z"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": "3d5dfb277e1d",
+  "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als ff63fc905db0 (CVE-2026-19868, omzeiling van SAML/MFA in de SSL-VPN van SonicOS, inclusief de KEV-toevoeging al op 7 november uitgelegd).",
+  "development_key": "cve-2026-19868-sonicos-sslvpn",
+  "checked_at": "2026-11-12T04:56:00Z"
+}
