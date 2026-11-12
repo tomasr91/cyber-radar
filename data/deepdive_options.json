@@ -1,66 +1,64 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-11T02:40:00Z",
+  "generated_at": "2026-11-12T02:29:19Z",
   "options": [
     {
-      "id": "authenticatie-en-autorisatie",
-      "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
-      "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe onthoudt een website met een cookie of token dat je bent ingelogd, en wat gaat er mis bij een authentication bypass?",
-      "why": "Deze week bleek bij Xen Orchestra een speciaal opgemaakte, lege cookie genoeg om als bestaande gebruiker in te loggen, ook als beheerder; een goed moment om te snappen hoe inloggen en rechten normaal werken.",
-      "topics": [
-        "phishing_identity",
-        "web_software_security",
-        "attack_techniques"
-      ],
-      "area": "techniek"
-    },
-    {
-      "id": "rmm-software-als-doelwit",
-      "title": "Lek in RMM-beheersoftware: waarom het alle klanten van een IT-partner raakt",
-      "question": "Wat is RMM-software, waarom geeft een lek erin een aanvaller macht over duizenden computers tegelijk, en wat verandert er als aanvalscode openbaar wordt voordat de leverancier een patch heeft?",
-      "why": "N-able haalde op 9 november zijn gehoste N-central offline nadat een onderzoeker zonder waarschuwing details en proof of concept-code voor ruim 30 lekken op GitHub zette.",
-      "topics": [
-        "vulnerabilities_cve",
-        "vulnerability_management",
-        "supply_chain"
-      ],
-      "area": "kwetsbaarheden"
-    },
-    {
-      "id": "vertrouwde-partner-in-de-cloud",
-      "title": "Als een vertrouwde partner je cloud in kan: rollen en trust policies in AWS",
-      "question": "Hoe geef je een externe dienst toegang tot je cloudomgeving zonder wachtwoord (rollen, trust policies, AssumeRole), en wat gebeurt er als het account van die partner zelf wordt gehackt?",
-      "why": "Via twee gehackte IAM-gebruikers van dataplatform Qubole haalde een aanvaller in oktober geheimen en bestanden weg bij tientallen AWS-klanten die Qubole vertrouwden.",
-      "topics": [
-        "cloud_attacks",
-        "supply_chain",
-        "incidents_breaches"
-      ],
-      "area": "incidenten"
-    },
-    {
-      "id": "ai-agent-in-cloudlogs-herkennen",
-      "title": "Een AI-aanvaller in je cloudlogs herkennen: wat CloudTrail laat zien",
-      "question": "Wat legt een cloudlogboek als AWS CloudTrail vast, waarom laat een AI-agent die veel probeert en vaak faalt herkenbare patronen achter, en waarom is gedrag betrouwbaarder dan een naam in de user agent?",
-      "why": "Dit is een trend: AI-frameworks als ARTEX doen steeds vaker een groot deel van de inbraak, en Datadog beschreef deze week welke patronen ARTEX in CloudTrail achterlaat.",
+      "id": "dns-en-ip",
+      "title": "IP-adressen en DNS: hoe computers elkaar vinden",
+      "question": "Wat is een IP-adres, wat doet DNS, en waarom kijken securityteams zo graag naar DNS-verkeer?",
+      "why": "Een basisonderwerp uit het leerpad: deze week maakte een achterdeur op gehackte AhsayCBS-back-upservers contact met een server van de aanvaller, en om zulk verkeer te snappen begin je bij IP-adressen en DNS.",
       "topics": [
         "siem_detection",
-        "cloud_attacks",
-        "threat_intelligence"
+        "malware"
       ],
       "area": "praktijk"
     },
     {
-      "id": "html-smuggling",
-      "title": "HTML smuggling: malware die pas in je browser in elkaar wordt gezet",
-      "question": "Hoe kan een bijlage of webpagina een kwaadaardig bestand pas op de computer van het slachtoffer bouwen, waarom ziet een mailfilter dat niet, en waar vindt een securityteam het dan wel?",
-      "why": "De groep Blind Eagle stuurt nep-dagvaardingen met een SVG-bijlage die het besmette ZIP-bestand pas in de browser in elkaar zet, zodat het nooit als geheel door het mailfilter gaat.",
+      "id": "ntlm-hash-gelekt",
+      "title": "Wat is NTLM, en waarom is een gelekte NTLM-hash al gevaarlijk?",
+      "question": "Hoe bewijst Windows met NTLM wie je bent, waarom kan een bestand Outlook laten inloggen bij een server van een aanvaller, en wat kan die aanvaller met de hash die hij zo krijgt?",
+      "why": "Bij de Patch Tuesday van november wordt een Outlook-lek al misbruikt: een speciaal gemaakt bestand laat Outlook de NTLMv2-hash van de gebruiker naar een server van de aanvaller sturen.",
       "topics": [
-        "malware",
         "phishing_identity",
-        "attack_techniques"
+        "attack_techniques",
+        "exploited_vulnerabilities"
       ],
       "area": "techniek"
+    },
+    {
+      "id": "vulnerability-management-in-de-praktijk",
+      "title": "Vulnerability management in de praktijk: van scan tot opgelost",
+      "question": "Hoe vindt een organisatie haar kwetsbare systemen, hoe kiest ze wat eerst, en hoe controleer je of iets echt is opgelost?",
+      "why": "Microsoft dichtte in november 1.094 lekken in één keer, en de fix voor een Paint-lek komt alleen via de Microsoft Store met versienummers die elkaar tegenspreken, wat scanners in de war kan brengen.",
+      "topics": [
+        "vulnerability_management",
+        "exploited_vulnerabilities"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "lek-in-ai-inference-server",
+      "title": "Lek in AI-software SGLang: wat een inference-server is en wat er lekte",
+      "question": "Wat doet een inference engine als SGLang, waarom beschermt een afgeschermde omgeving (TEE) niet tegen een lek in de software die erin draait, en wat kun je leren van hoe NEAR AI reageerde?",
+      "why": "Via een remote code execution-lek in SGLang kon een aanvaller deze week verzoeken op een server van NEAR AI meelezen en gegevens van 18 agenten en ongeveer 100 gebruikers stelen.",
+      "topics": [
+        "incidents_breaches",
+        "vulnerabilities_cve",
+        "web_software_security"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "saml-inlog-op-vpn-omzeild",
+      "title": "SAML-inlog op een vpn omzeild: hoe single sign-on werkt en misgaat",
+      "question": "Hoe werkt inloggen via SAML (single sign-on) op een vpn, hoe kan een fout in de controle ervoor zorgen dat een aanvaller ook de MFA overslaat, en wat zie je daarvan terug in de logs?",
+      "why": "Dit hoort bij de trend van misbruikte lekken in vpn-servers en randapparaten: bij SonicWall-vpn's wordt CVE-2026-19868 al misbruikt om langs de SAML-controle te komen, mogelijk inclusief MFA.",
+      "topics": [
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "phishing_identity"
+      ],
+      "area": "kwetsbaarheden"
     }
   ],
   "history": [
@@ -297,6 +295,66 @@
         "phishing_identity"
       ],
       "area": "incidenten"
+    },
+    {
+      "id": "authenticatie-en-autorisatie",
+      "title": "Wie ben je en wat mag je? Authenticatie en autorisatie",
+      "question": "Wat is het verschil tussen authenticatie en autorisatie, hoe onthoudt een website met een cookie of token dat je bent ingelogd, en wat gaat er mis bij een authentication bypass?",
+      "why": "Deze week bleek bij Xen Orchestra een speciaal opgemaakte, lege cookie genoeg om als bestaande gebruiker in te loggen, ook als beheerder; een goed moment om te snappen hoe inloggen en rechten normaal werken.",
+      "topics": [
+        "phishing_identity",
+        "web_software_security",
+        "attack_techniques"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "rmm-software-als-doelwit",
+      "title": "Lek in RMM-beheersoftware: waarom het alle klanten van een IT-partner raakt",
+      "question": "Wat is RMM-software, waarom geeft een lek erin een aanvaller macht over duizenden computers tegelijk, en wat verandert er als aanvalscode openbaar wordt voordat de leverancier een patch heeft?",
+      "why": "N-able haalde op 9 november zijn gehoste N-central offline nadat een onderzoeker zonder waarschuwing details en proof of concept-code voor ruim 30 lekken op GitHub zette.",
+      "topics": [
+        "vulnerabilities_cve",
+        "vulnerability_management",
+        "supply_chain"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "vertrouwde-partner-in-de-cloud",
+      "title": "Als een vertrouwde partner je cloud in kan: rollen en trust policies in AWS",
+      "question": "Hoe geef je een externe dienst toegang tot je cloudomgeving zonder wachtwoord (rollen, trust policies, AssumeRole), en wat gebeurt er als het account van die partner zelf wordt gehackt?",
+      "why": "Via twee gehackte IAM-gebruikers van dataplatform Qubole haalde een aanvaller in oktober geheimen en bestanden weg bij tientallen AWS-klanten die Qubole vertrouwden.",
+      "topics": [
+        "cloud_attacks",
+        "supply_chain",
+        "incidents_breaches"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "ai-agent-in-cloudlogs-herkennen",
+      "title": "Een AI-aanvaller in je cloudlogs herkennen: wat CloudTrail laat zien",
+      "question": "Wat legt een cloudlogboek als AWS CloudTrail vast, waarom laat een AI-agent die veel probeert en vaak faalt herkenbare patronen achter, en waarom is gedrag betrouwbaarder dan een naam in de user agent?",
+      "why": "Dit is een trend: AI-frameworks als ARTEX doen steeds vaker een groot deel van de inbraak, en Datadog beschreef deze week welke patronen ARTEX in CloudTrail achterlaat.",
+      "topics": [
+        "siem_detection",
+        "cloud_attacks",
+        "threat_intelligence"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "html-smuggling",
+      "title": "HTML smuggling: malware die pas in je browser in elkaar wordt gezet",
+      "question": "Hoe kan een bijlage of webpagina een kwaadaardig bestand pas op de computer van het slachtoffer bouwen, waarom ziet een mailfilter dat niet, en waar vindt een securityteam het dan wel?",
+      "why": "De groep Blind Eagle stuurt nep-dagvaardingen met een SVG-bijlage die het besmette ZIP-bestand pas in de browser in elkaar zet, zodat het nooit als geheel door het mailfilter gaat.",
+      "topics": [
+        "malware",
+        "phishing_identity",
+        "attack_techniques"
+      ],
+      "area": "techniek"
     }
   ]
 }
