@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T02:30:36.418974Z",
+ "generated_at": "2026-11-12T03:24:05.868564Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-12T01:39:00Z",
- "last_successful_update": "2026-11-12T02:30:36.418974Z",
+ "last_successful_update": "2026-11-12T03:24:05.868564Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-12T02:30:36.447691Z"
+   "checked_at": "2026-11-12T03:24:05.910139Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-12T02:30:37.146867Z"
+   "checked_at": "2026-11-12T03:24:06.543731Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-12T02:30:38.109135Z"
+   "checked_at": "2026-11-12T03:24:07.427601Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-12T02:30:39.004067Z"
+   "checked_at": "2026-11-12T03:24:08.052274Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-12T02:30:40.240143Z"
+   "checked_at": "2026-11-12T03:24:09.100850Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-12T02:30:40.351575Z"
+   "checked_at": "2026-11-12T03:24:09.278580Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-12T02:30:40.528495Z"
+   "checked_at": "2026-11-12T03:24:09.440139Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-12T02:30:40.718177Z"
+   "checked_at": "2026-11-12T03:24:09.603182Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-12T02:30:41.205250Z"
+   "checked_at": "2026-11-12T03:24:10.300517Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-12T02:30:42.969236Z"
+   "checked_at": "2026-11-12T03:24:11.884913Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-12T02:30:43.087197Z"
+   "checked_at": "2026-11-12T03:24:12.128371Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-12T02:30:43.236631Z"
+   "checked_at": "2026-11-12T03:24:12.272271Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-12T02:30:43.355447Z"
+   "checked_at": "2026-11-12T03:24:12.476870Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-12T02:30:43.639053Z"
+   "checked_at": "2026-11-12T03:24:12.713451Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-12T02:30:43.726077Z"
+   "checked_at": "2026-11-12T03:24:12.804136Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-12T02:30:43.931731Z"
+   "checked_at": "2026-11-12T03:24:12.888515Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-12T02:30:44.358523Z"
+   "checked_at": "2026-11-12T03:24:13.250820Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-12T02:30:44.465833Z"
+   "checked_at": "2026-11-12T03:24:13.484214Z"
   }
  ],
  "daily_top": [
@@ -726,7 +726,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1590,7 +1590,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -3779,98 +3779,6 @@
    "region": "world"
   },
   {
-   "id": "ce55129e00e3",
-   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
-   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
-   "source_id": "security_nl",
-   "published_at": "2026-11-04T14:18:43Z",
-   "fetched_at": "2026-11-05T01:23:13.301553Z",
-   "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
-   "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
-   "limitations": [
-    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
-    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
-    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
-    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
-   ],
-   "official_docs": [
-    {
-     "label": "CVE-2026-109593 (OpenCVE)",
-     "url": "https://app.opencve.io/cve/CVE-2026-109593"
-    }
-   ],
-   "topics": [
-    "vulnerability_management",
-    "vulnerabilities_cve",
-    "edge_devices"
-   ],
-   "groups": [
-    "vm",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.69,
-    "source": 0.85,
-    "quality": 0.53,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:29:40Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
-   "story": [
-    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
-    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
-    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
-    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
-    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
-   ],
-   "key_facts": [
-    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
-    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
-    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
-    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
-    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
-    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "end-of-life",
-     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
-    },
-    {
-     "term": "CWE-636",
-     "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
-    },
-    {
-     "term": "CVSS-score",
-     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    },
-    {
-     "term": "EPSS-kans",
-     "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
-   },
-   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
-   "region": "world"
-  },
-  {
    "id": "987ba3712202",
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -4255,6 +4163,98 @@
    "patch_status": "patch_beschikbaar"
   },
   {
+   "id": "ce55129e00e3",
+   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-04T14:18:43Z",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
+   "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
+   "limitations": [
+    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
+    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
+    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
+   ],
+   "official_docs": [
+    {
+     "label": "CVE-2026-109593 (OpenCVE)",
+     "url": "https://app.opencve.io/cve/CVE-2026-109593"
+    }
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "edge_devices"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.69,
+    "source": 0.85,
+    "quality": 0.53,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:29:40Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
+   "story": [
+    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
+    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
+    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
+    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
+    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
+   ],
+   "key_facts": [
+    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
+    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
+    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
+    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
+    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
+    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "end-of-life",
+     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+    },
+    {
+     "term": "CWE-636",
+     "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
+    },
+    {
+     "term": "CVSS-score",
+     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "EPSS-kans",
+     "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
+   },
+   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
+   "region": "world"
+  },
+  {
    "id": "201b2063f67c",
    "title": "mSecure password manager hack prompts password reset warnings",
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
@@ -4531,100 +4531,6 @@
    "region": "world"
   },
   {
-   "id": "1204de495376",
-   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-   "source_id": "unit42",
-   "published_at": "2026-10-21T14:00:24Z",
-   "fetched_at": "2026-11-03T21:07:40.082335Z",
-   "summary": "Unit 42 volgde een crimineel die met een 'gekraakt' AI-model inbraken plande en tools liet bouwen. Bij een Indiase universiteit haalde hij met een zwak beheerderswachtwoord een database met studentgegevens leeg.",
-   "personal_relevance": "Klanten vragen vaak of AI aanvallers 'superkrachten' geeft. Dit voorbeeld laat zien dat AI vooral het werk versnelt, en dat basismaatregelen zoals sterke wachtwoorden en afgeschermde databases nog steeds het verschil maken.",
-   "limitations": [
-    "Unit 42 geeft geen data of tijdlijn van de aanvallen.",
-    "Of de geldige WordPress-inlog daarna is gebruikt, staat niet in het stuk.",
-    "Unit 42 is onderdeel van Palo Alto Networks en noemt eigen producten als bescherming."
-   ],
-   "topics": [
-    "attack_techniques",
-    "threat_intelligence",
-    "incidents_breaches"
-   ],
-   "groups": [
-    "aanvallen",
-    "ti",
-    "incidenten"
-   ],
-   "relevance_score": 83,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.34,
-    "source": 0.8,
-    "quality": 0.67,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Crimineel laat AI-assistent hacks plannen en scripts schrijven",
-   "story": [
-    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een aanvaller met de schuilnaam BUGSTER. Hij is volgens Unit 42 uit op geld en richtte zich vooral op doelwitten in India. Hij gebruikte AI-assistenten om aanvallen te plannen en tools te schrijven. Bevestigd is een inbraak bij een Indiase openbare universiteit. Daar kwam hij binnen met een zwak wachtwoord van een beheerder en haalde hij een MongoDB-database leeg, met onder meer duizenden gegevens van studenten en docenten.",
-    "AI-modellen hebben veiligheidsregels: ze weigeren te helpen bij aanvallen. BUGSTER omzeilde dat met een jailbreak. Hij overschreef de basisinstructies van het model, de system prompt. Hij testte meerdere modellen en schreef zelfs een script dat bijhield welk model weigerde. Uiteindelijk koos hij DeepSeek V4, dat hij via Telegram aanstuurde. Code liet hij maken in de programmeeromgeving Cursor, waarbij een eigen script de ingebouwde controles uitschakelde.",
-    "Bij een andere universiteit liet hij zien hoe eenvoudig verkenning kan zijn. WordPress, een veelgebruikt systeem voor websites, toont bij berichten de naam van de auteur. De directe lijst met gebruikers werd geblokkeerd door een WAF. Maar via de auteursvelden en een lijst met auteurspagina's vond hij toch 13 actieve gebruikers met hun echte naam. Daarna probeerde een zelfgebouwde tool 117 gebruikersnamen met 28 veelgebruikte wachtwoorden: een brute force-aanval. Eén combinatie werd als geldig gemeld. Een andere tool zocht op websites naar uitgelekte geheimen, zoals cloudsleutels in configuratiebestanden.",
-    "Unit 42 noemt de tools eenvoudig. Het effect kwam vooral van basisfouten bij de slachtoffers: zwakke wachtwoorden, een database die bereikbaar was en uitgelekte sleutels. In de logs van een webserver valt zo'n aanval op als een reeks inlogpogingen op dezelfde inlogpagina, vanaf één adres. Plannen voor telefoonfraude via VoIP en het kraken van wifi waren volgens Unit 42 nog in voorbereiding of alleen ingeschat. De les: AI verlaagt de drempel voor minder ervaren criminelen, maar de verdediging blijft de basis."
-   ],
-   "key_facts": [
-    "Unit 42 publiceerde het onderzoek op 21 oktober 2026; de aanvaller gebruikt de naam BUGSTER en is volgens Unit 42 financieel gemotiveerd.",
-    "Bevestigd: een inbraak bij een Indiase openbare universiteit via een beheerdersaccount met een zwak wachtwoord, waarbij een MongoDB-database met gegevens van studenten en docenten werd leeggehaald.",
-    "De aanvaller gebruikte DeepSeek V4 via het Hermes Agent-framework en Telegram, en omzeilde de veiligheidsregels met een aangepaste system prompt; code liet hij schrijven in Cursor.",
-    "Bij een andere Indiase universiteit vond hij 13 actieve WordPress-gebruikers ondanks een WAF-blokkade, en meldde een brute-forcetool met 117 gebruikersnamen en 28 wachtwoorden één geldige inlog.",
-    "VoIP-fraude was volgens Unit 42 nog in de planningsfase; wifi-kraken en het in kaart brengen van cryptobezitters zijn inschattingen van Unit 42."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een brute force-aanval op een WordPress-site eruit in het log van de webserver. Eerst vraagt de aanvaller de lijst met auteurspagina's op. Daarna volgen snel achter elkaar inlogpogingen. Een 200 betekent dat de inlogpagina terugkwam (mislukt), de 302 is een doorverwijzing na een geslaagde inlog.",
-    "language": "log",
-    "code": "203.0.113.25 - - [12/Oct/2026:03:10:02 +0000] \"GET /author-sitemap.xml HTTP/1.1\" 200 1840\n203.0.113.25 - - [12/Oct/2026:03:11:40 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:42 +0000] \"POST /wp-login.php HTTP/1.1\" 302 0",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen tijden; het onderzoek geeft geen logregels."
-   },
-   "terms": [
-    {
-     "term": "jailbreak",
-     "explanation": "Een truc om de veiligheidsregels van een AI-model te omzeilen, zodat het toch helpt bij iets wat het normaal weigert."
-    },
-    {
-     "term": "system prompt",
-     "explanation": "De basisinstructies die een AI-model vóór elk gesprek meekrijgt, bijvoorbeeld welke vragen het mag beantwoorden. Wie die kan overschrijven, kan het gedrag van het model veranderen."
-    },
-    {
-     "term": "WAF",
-     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
-    },
-    {
-     "term": "brute force",
-     "explanation": "Heel veel combinaties van gebruikersnaam en wachtwoord achter elkaar proberen tot er één werkt. Meestal geautomatiseerd met een script."
-    },
-    {
-     "term": "MongoDB",
-     "explanation": "Een veelgebruikte database die gegevens als documenten opslaat in plaats van in tabellen. Staat hij zonder goede beveiliging open, dan kan iedereen de gegevens uitlezen."
-    },
-    {
-     "term": "VoIP",
-     "explanation": "Voice over IP: bellen via internet in plaats van via het klassieke telefoonnet."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een concreet voorbeeld van hoe aanvallers AI inzetten, met herkenbare aanvalsstappen."
-   },
-   "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
-   "region": "world"
-  },
-  {
    "id": "1c4ce65b251a",
    "title": "Camera Management Software Compromise Leads to Malware Deployment",
    "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
@@ -4756,7 +4662,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.67,
+    "recency": 0.66,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -4916,6 +4822,100 @@
     "why": "Nog geen duimpjes; een nieuwe besmettingstechniek stap voor stap uitgelegd past bij je leerdoelen."
    },
    "takeaway": "Een softwareproject is geen onschuldig document: bouwinstructies kunnen opdrachten uitvoeren zodra je het project opent. En malware die via een bekende dienst als GitHub communiceert, valt in het netwerkverkeer nauwelijks op.",
+   "region": "world"
+  },
+  {
+   "id": "1204de495376",
+   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+   "source_id": "unit42",
+   "published_at": "2026-10-21T14:00:24Z",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Unit 42 volgde een crimineel die met een 'gekraakt' AI-model inbraken plande en tools liet bouwen. Bij een Indiase universiteit haalde hij met een zwak beheerderswachtwoord een database met studentgegevens leeg.",
+   "personal_relevance": "Klanten vragen vaak of AI aanvallers 'superkrachten' geeft. Dit voorbeeld laat zien dat AI vooral het werk versnelt, en dat basismaatregelen zoals sterke wachtwoorden en afgeschermde databases nog steeds het verschil maken.",
+   "limitations": [
+    "Unit 42 geeft geen data of tijdlijn van de aanvallen.",
+    "Of de geldige WordPress-inlog daarna is gebruikt, staat niet in het stuk.",
+    "Unit 42 is onderdeel van Palo Alto Networks en noemt eigen producten als bescherming."
+   ],
+   "topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "incidents_breaches"
+   ],
+   "groups": [
+    "aanvallen",
+    "ti",
+    "incidenten"
+   ],
+   "relevance_score": 82,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.34,
+    "source": 0.8,
+    "quality": 0.67,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Crimineel laat AI-assistent hacks plannen en scripts schrijven",
+   "story": [
+    "Unit 42, het onderzoeksteam van Palo Alto Networks, beschrijft een aanvaller met de schuilnaam BUGSTER. Hij is volgens Unit 42 uit op geld en richtte zich vooral op doelwitten in India. Hij gebruikte AI-assistenten om aanvallen te plannen en tools te schrijven. Bevestigd is een inbraak bij een Indiase openbare universiteit. Daar kwam hij binnen met een zwak wachtwoord van een beheerder en haalde hij een MongoDB-database leeg, met onder meer duizenden gegevens van studenten en docenten.",
+    "AI-modellen hebben veiligheidsregels: ze weigeren te helpen bij aanvallen. BUGSTER omzeilde dat met een jailbreak. Hij overschreef de basisinstructies van het model, de system prompt. Hij testte meerdere modellen en schreef zelfs een script dat bijhield welk model weigerde. Uiteindelijk koos hij DeepSeek V4, dat hij via Telegram aanstuurde. Code liet hij maken in de programmeeromgeving Cursor, waarbij een eigen script de ingebouwde controles uitschakelde.",
+    "Bij een andere universiteit liet hij zien hoe eenvoudig verkenning kan zijn. WordPress, een veelgebruikt systeem voor websites, toont bij berichten de naam van de auteur. De directe lijst met gebruikers werd geblokkeerd door een WAF. Maar via de auteursvelden en een lijst met auteurspagina's vond hij toch 13 actieve gebruikers met hun echte naam. Daarna probeerde een zelfgebouwde tool 117 gebruikersnamen met 28 veelgebruikte wachtwoorden: een brute force-aanval. Eén combinatie werd als geldig gemeld. Een andere tool zocht op websites naar uitgelekte geheimen, zoals cloudsleutels in configuratiebestanden.",
+    "Unit 42 noemt de tools eenvoudig. Het effect kwam vooral van basisfouten bij de slachtoffers: zwakke wachtwoorden, een database die bereikbaar was en uitgelekte sleutels. In de logs van een webserver valt zo'n aanval op als een reeks inlogpogingen op dezelfde inlogpagina, vanaf één adres. Plannen voor telefoonfraude via VoIP en het kraken van wifi waren volgens Unit 42 nog in voorbereiding of alleen ingeschat. De les: AI verlaagt de drempel voor minder ervaren criminelen, maar de verdediging blijft de basis."
+   ],
+   "key_facts": [
+    "Unit 42 publiceerde het onderzoek op 21 oktober 2026; de aanvaller gebruikt de naam BUGSTER en is volgens Unit 42 financieel gemotiveerd.",
+    "Bevestigd: een inbraak bij een Indiase openbare universiteit via een beheerdersaccount met een zwak wachtwoord, waarbij een MongoDB-database met gegevens van studenten en docenten werd leeggehaald.",
+    "De aanvaller gebruikte DeepSeek V4 via het Hermes Agent-framework en Telegram, en omzeilde de veiligheidsregels met een aangepaste system prompt; code liet hij schrijven in Cursor.",
+    "Bij een andere Indiase universiteit vond hij 13 actieve WordPress-gebruikers ondanks een WAF-blokkade, en meldde een brute-forcetool met 117 gebruikersnamen en 28 wachtwoorden één geldige inlog.",
+    "VoIP-fraude was volgens Unit 42 nog in de planningsfase; wifi-kraken en het in kaart brengen van cryptobezitters zijn inschattingen van Unit 42."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet een brute force-aanval op een WordPress-site eruit in het log van de webserver. Eerst vraagt de aanvaller de lijst met auteurspagina's op. Daarna volgen snel achter elkaar inlogpogingen. Een 200 betekent dat de inlogpagina terugkwam (mislukt), de 302 is een doorverwijzing na een geslaagde inlog.",
+    "language": "log",
+    "code": "203.0.113.25 - - [12/Oct/2026:03:10:02 +0000] \"GET /author-sitemap.xml HTTP/1.1\" 200 1840\n203.0.113.25 - - [12/Oct/2026:03:11:40 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:41 +0000] \"POST /wp-login.php HTTP/1.1\" 200 4120\n203.0.113.25 - - [12/Oct/2026:03:11:42 +0000] \"POST /wp-login.php HTTP/1.1\" 302 0",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen tijden; het onderzoek geeft geen logregels."
+   },
+   "terms": [
+    {
+     "term": "jailbreak",
+     "explanation": "Een truc om de veiligheidsregels van een AI-model te omzeilen, zodat het toch helpt bij iets wat het normaal weigert."
+    },
+    {
+     "term": "system prompt",
+     "explanation": "De basisinstructies die een AI-model vóór elk gesprek meekrijgt, bijvoorbeeld welke vragen het mag beantwoorden. Wie die kan overschrijven, kan het gedrag van het model veranderen."
+    },
+    {
+     "term": "WAF",
+     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+     "term": "brute force",
+     "explanation": "Heel veel combinaties van gebruikersnaam en wachtwoord achter elkaar proberen tot er één werkt. Meestal geautomatiseerd met een script."
+    },
+    {
+     "term": "MongoDB",
+     "explanation": "Een veelgebruikte database die gegevens als documenten opslaat in plaats van in tabellen. Staat hij zonder goede beveiliging open, dan kan iedereen de gegevens uitlezen."
+    },
+    {
+     "term": "VoIP",
+     "explanation": "Voice over IP: bellen via internet in plaats van via het klassieke telefoonnet."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een concreet voorbeeld van hoe aanvallers AI inzetten, met herkenbare aanvalsstappen."
+   },
+   "takeaway": "Een jailbreak omzeilt de veiligheidsregels van een AI-model met slimme instructies. Maar de inbraak zelf lukte door klassieke fouten: een zwak beheerderswachtwoord en een bereikbare database.",
    "region": "world"
   },
   {
@@ -5444,12 +5444,10 @@
     "3e830a9401ea",
     "9fcf62b29cf8",
     "8b5f34b85bf1",
-    "f8af8b71c7c1",
     "62c945c0e6fb",
-    "1204de495376",
     "350327fdd7cd"
    ],
-   "generated_at": "2026-11-11T03:27:00Z"
+   "generated_at": "2026-11-12T03:23:46Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
@@ -5466,7 +5464,7 @@
     "df100ad46108",
     "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-11T03:27:00Z"
+   "generated_at": "2026-11-12T03:23:46Z"
   },
   {
    "id": "mfa-omzeild-met-gestolen-sessies",
@@ -5482,7 +5480,7 @@
     "08252db330fb",
     "94ac3c3bdec2"
    ],
-   "generated_at": "2026-11-11T03:27:00Z"
+   "generated_at": "2026-11-12T03:23:46Z"
   }
  ],
  "weekly": null,
