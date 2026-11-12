@@ -1,54 +1,7 @@
 {
- "generated_at": "2026-11-12T01:39:23.926353Z",
+ "generated_at": "2026-11-12T01:41:13.133127Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
-  {
-   "id": "4f91b2e7870d",
-   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-11-11T19:49:57Z",
-   "excerpt": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog .",
-   "preliminary_score": 85,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "incidents_breaches",
-    "ransomware"
-   ]
-  },
-  {
-   "id": "ab7e7ef2388b",
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-11T22:56:21Z",
-   "excerpt": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "744297a3900b",
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-11T16:24:18Z",
-   "excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "ransomware",
-    "threat_intelligence",
-    "security_market"
-   ]
-  },
   {
    "id": "133989a571e5",
    "title": "Ransomware recovery is now a client retention metric",
@@ -152,6 +105,50 @@
     "incidents_breaches",
     "threat_intelligence",
     "cloud_attacks"
+   ]
+  },
+  {
+   "id": "44096b209ce3",
+   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-11T08:17:53Z",
+   "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve"
+   ]
+  },
+  {
+   "id": "3d5dfb277e1d",
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-09T06:05:24Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management",
+    "edge_devices",
+    "phishing_identity"
+   ]
+  },
+  {
+   "id": "6e1eca169247",
+   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-09T23:52:12Z",
+   "excerpt": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "ransomware"
    ]
   }
  ]
