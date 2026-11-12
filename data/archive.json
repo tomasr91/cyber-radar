@@ -4015,7 +4015,447 @@
    "published_raw": "Wed, 11 Nov 2026 11:34:02 +0530",
    "fetched_at": "2026-11-11T07:00:36.915552Z",
    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity"
+  },
+  "security_nl:02734e61e345": {
+   "source_id": "security_nl",
+   "title": "'Danfoss-koelsystemen via nieuwe kwetsbaarheden volledig over te nemen'",
+   "url": "https://www.security.nl/posting/961277/%27Danfoss-koelsystemen+via+nieuwe+kwetsbaarheden+volledig+over+te+nemen%27?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 16:59:00 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Koelsystemen van leverancier Danfoss bevatten meerdere kritieke lekken waardoor de systemen op afstand volledig zijn over te ..."
+  },
+  "security_nl:a5dec434b790": {
+   "source_id": "security_nl",
+   "title": "ASN-klant krijgt 33.000 euro schade door bankhelpdeskfraude niet vergoed",
+   "url": "https://www.security.nl/posting/961266/ASN-klant+krijgt+33_000+euro+schade+door+bankhelpdeskfraude+niet+vergoed?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 16:08:46 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Een klant van ASN die het slachtoffer van bankhelpdeskfraude werd krijgt de ruim 33.000 euro schade niet vergoed. Dat heeft het ..."
+  },
+  "security_nl:44d2c1deba0a": {
+   "source_id": "security_nl",
+   "title": "Gemeente Utrecht onderzoekt verbod op dragen van camerabrillen",
+   "url": "https://www.security.nl/posting/961248/Gemeente+Utrecht+onderzoekt+verbod+op+dragen+van+camerabrillen?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 15:07:21 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "De gemeente Utrecht gaat onderzoeken of het dragen van camerabrillen verboden moet worden. Dat heeft het College van B&W laten ..."
+  },
+  "security_nl:1162c7b47262": {
+   "source_id": "security_nl",
+   "title": "'Storing Rijksoverheid.nl en OM.nl door menselijke fout met update'",
+   "url": "https://www.security.nl/posting/961234/%27Storing+Rijksoverheid_nl+en+OM_nl+door+menselijke+fout+met+update%27?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 14:09:20 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Een storing waardoor de websites van de Rijksoverheid, het Openbaar Ministerie en het Koninklijk Huis een half uur niet ..."
+  },
+  "security_nl:40b0f49a3d6e": {
+   "source_id": "security_nl",
+   "title": "N-able komt met hotfix voor aangevallen kwetsbaarheden in N-central",
+   "url": "https://www.security.nl/posting/961231/N-able+komt+met+hotfix+voor+aangevallen+kwetsbaarheden+in+N-central?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 13:52:50 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Softwarebedrijf N-able heef een hotfix uitgebracht voor meerdere kritieke kwetsbaarheden in N-central die bij aanvallen zijn ..."
+  },
+  "security_nl:e27caf097771": {
+   "source_id": "security_nl",
+   "title": "Firefox laat gebruikers meer op elkaar lijken om fingerprinting tegen te gaan",
+   "url": "https://www.security.nl/posting/961195/Firefox+laat+gebruikers+meer+op+elkaar+lijken+om+fingerprinting+tegen+te+gaan?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 12:33:15 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Firefox heeft maatregelen aan de browser doorgevoerd die ervoor moeten zorgen dat gebruikers voor websites meer op elkaar ..."
+  },
+  "security_nl:6842a4a1ec11": {
+   "source_id": "security_nl",
+   "title": "Nederlandse verenigingen en clubs getroffen door datalek bij AllUnited",
+   "url": "https://www.security.nl/posting/961187/Nederlandse+verenigingen+en+clubs+getroffen+door+datalek+bij+AllUnited?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 12:00:50 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Nederlandse verenigingen en clubs zijn getroffen door een datalek bij softwarebedrijf AllUnited, waarbij persoonlijke gegevens ..."
+  },
+  "security_nl:6be60268fc3d": {
+   "source_id": "security_nl",
+   "title": "Wat is een ‘hele goede reden’ om een sollicitant wél op te zoeken op sociale media?",
+   "url": "https://www.security.nl/posting/793815/Wat+is+een+%E2%80%98hele+goede+reden%E2%80%99+om+een+sollicitant+w%C3%A9l+op+te+zoeken+op+sociale+media%3F?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 11:38:18 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Juridische vraag: Volgens de Autoriteit Persoonsgegevens mag je alleen als je een ‘hele goede reden’ hebt, sollicitanten ..."
+  },
+  "security_nl:a7c85638a3aa": {
+   "source_id": "security_nl",
+   "title": "AP: Belastingdienst beschermt gegevens Nederlanders niet goed genoeg",
+   "url": "https://www.security.nl/posting/961181/AP%3A+Belastingdienst+beschermt+gegevens+Nederlanders+niet+goed+genoeg?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 11:28:00 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "De Belastingdienst beschermt de gegevens van Nederlanders niet goed genoeg. De fiscus houdt zich op veel belangrijke terreinen ..."
+  },
+  "security_nl:9a0edbad01c3": {
+   "source_id": "security_nl",
+   "title": "Beveiligingslek in Cisco BroadWorks misbruikt bij aanvallen, meldt VS",
+   "url": "https://www.security.nl/posting/961174/Beveiligingslek+in+Cisco+BroadWorks+misbruikt+bij+aanvallen%2C+meldt+VS?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 10:27:51 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Een kwetsbaarheid in Cisco BroadWorks wordt misbruikt bij aanvallen, zo waarschuwt het Amerikaanse cyberagentschap CISA. ..."
+  },
+  "security_nl:85443fd0f469": {
+   "source_id": "security_nl",
+   "title": "Kamermotie wil aanpak hard- en software waarmee mensen zijn te bespioneren",
+   "url": "https://www.security.nl/posting/961028/Kamermotie+wil+aanpak+hard-+en+software+waarmee+mensen+zijn+te+bespioneren?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 10:03:00 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Het kabinet moet in Europees verband onderzoeken of producteisen of productverboden mogelijk zijn voor hard- en software ..."
+  },
+  "security_nl:7bb9dcd14586": {
+   "source_id": "security_nl",
+   "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
+   "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+   "published_raw": "Wed, 11 Nov 2026 09:36:00 +0100",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "excerpt": "Tijdens de Patch Tuesday van november heeft Microsoft ruim duizend kwetsbaarheden verholpen, waaronder een actief misbruikt ..."
+  },
+  "ncsc_nl_advisories:4c68d85247be": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
+   "published_raw": "Wed, 11 Nov 2026 14:18:38 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "Fortinet heeft een kwetsbaarheid verholpen in meerdere versies van FortiSandbox. De kwetsbaarheid betreft een Cross-Site Scripting (XSS)-probleem als gevolg van onvoldoende neutralisatie van invoer tijdens het genereren van webpagina's. Een niet-geauthenticeerde aanvaller kan misbruik maken van deze kwetsbaarheid door speciaal vervaardigde HTTP-verzoeken te versturen en via social engineering een gebruiker te verleiden een kwaadaardige link of pagina te openen.\n\nHierdoor kan kwaadaardige JavaScript-code worden uitgevoerd binnen de context van de webapplicatie. Dit kan leiden tot ongeautoriseerde acties namens de gebruiker en mogelijk het compromitteren van gebruikerssessies of de integriteit van gegevens."
+  },
+  "ncsc_nl_advisories:c0e1acf321ca": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0482 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Photoshop Desktop",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0482",
+   "published_raw": "Wed, 11 Nov 2026 14:11:16 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Photoshop Desktop. De kwetsbaarheden in Adobe Photoshop Desktop omvatten onder andere NULL Pointer Dereference, heap-based buffer overflow, uncontrolled recursion, Divide By Zero, out-of-bounds read en write, en Use After Free. Deze kwetsbaarheden kunnen worden misbruikt door het verwerken van speciaal vervaardigde bestanden.\n\nAfhankelijk van het type kwetsbaarheid kan exploitatie leiden tot het crashen van de applicatie (denial of service), het uitvoeren van willekeurige code met de rechten van de aangemelde gebruiker of het uitlekken van gevoelige informatie door het lezen van geheugen buiten de bedoelde grenzen.\n\nVoor het misbruiken van deze kwetsbaarheden is gebruikersinteractie vereist. Een aanvaller moet hiervoor een gebruiker ertoe bewegen een kwaadaardig bestand te openen. Succesvolle exploitatie kan leiden tot ongeautoriseerde code-uitvoering binnen de context van de betreffende gebruiker of tot het tijdelijk onbeschikbaar worden van de applicatie."
+  },
+  "ncsc_nl_advisories:4ee79e496271": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0481 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0481",
+   "published_raw": "Wed, 11 Nov 2026 14:07:15 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "Adobe heeft meerdere kwetsbaarheden verholpen in Adobe Experience Manager. De kwetsbaarheden in Adobe Experience Manager (AEM) betreffen onder andere onjuiste controle van codegeneratiemechanismen (Code Injection), waardoor een aanvaller met lage privileges zonder gebruikersinteractie willekeurige code kan uitvoeren en zijn privileges kan verhogen. Daarnaast zijn meerdere Cross-Site Scripting (XSS)-kwetsbaarheden vastgesteld, waaronder stored, reflected en DOM-based XSS. Hierdoor kan een aanvaller kwaadaardige JavaScript-code injecteren en uitvoeren in de browser van een gebruiker.\n\nVerder zijn er kwetsbaarheden in de autorisatiecontrole vastgesteld die ongeautoriseerde code-uitvoering mogelijk maken. Ook is er een kwetsbaarheid in de inputvalidatie die kan leiden tot het omzeilen van beveiligingsmechanismen. Misbruik van deze kwetsbaarheden kan leiden tot ongeautoriseerde code-uitvoering, privilege-escalatie en ongeautoriseerde toegang tot gegevens of functionaliteiten binnen Adobe Experience Manager."
+  },
+  "ncsc_nl_advisories:f39015d31d5f": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0480 [1.00] [M/H] Kwetsbaarheid verholpen in GitLab",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0480",
+   "published_raw": "Wed, 11 Nov 2026 14:05:22 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "GitLab heeft een kwetsbaarheid verholpen in GitLab Community Edition (CE) en Enterprise Edition (EE). De kwetsbaarheid betreft een heap buffer overflow veroorzaakt door onjuiste verwerking van grote conflict-marker groottes in kwaadaardige repositories. Dit kan leiden tot heap corruptie of het crashen van de applicatie tijdens merge-operaties."
+  },
+  "ncsc_nl_advisories:03da239ae90d": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0479 [1.00] [M/H] Kwetsbaarheden verholpen in Siemens producten",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0479",
+   "published_raw": "Wed, 11 Nov 2026 10:15:57 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "Siemens heeft kwetsbaarheden verholpen in diverse producten zoals SIMATIC en COMOS. De kwetsbaarheden stellen een kwaadwillende mogelijk in staat aanvallen uit te voeren die kunnen leiden tot de volgende categorieën schade:\n\n- Denial-of-Service (DoS)\n- Manipulatie, wijziging of verwijdering van gegevens\n- Omzeilen van beveiligingsmaatregelen\n- Omzeilen van authenticatie\n- Ongeautoriseerde toegang tot systemen en gevoelige gegevens\n- (Remote) code execution met gebruikersrechten\n- (Remote) code execution met root-/administratorrechten\n- Verhogen van rechten"
+  },
+  "ncsc_nl_advisories:ed7ff5fc7179": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0478 [1.00] [M/H] Kwetsbaarheden verholpen in N-able N-central",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0478",
+   "published_raw": "Wed, 11 Nov 2026 08:12:42 +0000",
+   "fetched_at": "2026-11-12T01:23:36.384031Z",
+   "excerpt": "N-able heeft meerdere kwetsbaarheden verholpen in N-able N-central. Deze kwetsbaarheden treffen versies ouder dan 2026.4.1.26. Er meerdere kwetsbaarheden met betrekking tot XML External Entity (XXE), waardoor de verwerking van XML-data mogelijk op ongewenste wijze kan worden beïnvloed. Daarnaast zijn er kwetsbaarheden in de vorm van OGNL Injection en Stored Cross-Site Scripting (XSS), waarbij kwaadaardige code kan worden geïnjecteerd en uitgevoerd binnen de webinterface, waaronder in de context van een administrator.\n\nVerder zijn er meerdere kwetsbaarheden die lokale privilege-escalatie mogelijk maken, waaronder via een onjuist beveiligde syslog-ng-configuratie en onveilige Inter-Process Communication (IPC)-kanalen. Ook is er sprake van een Server-Side Request Forgery (SSRF)-kwetsbaarheid via de validatie van schema-informatie bij het importeren van services. Ten slotte is een kwetsbaarheid vastgesteld in de verwerking van bestandspaden bij het uploaden naar de file repository, waarbij path traversal kan leiden tot Remote Code Execution (RCE)."
+  },
+  "microsoft_threat_intel:4f91b2e7870d": {
+   "source_id": "microsoft_threat_intel",
+   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+   "published_raw": "Wed, 11 Nov 2026 19:49:57 +0000",
+   "fetched_at": "2026-11-12T01:23:41.009090Z",
+   "excerpt": "<p>Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/\">The global socket: how threat actors are weaponizing GSocket for stealthy C2</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "unit42:0a0e78cecea3": {
+   "source_id": "unit42",
+   "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+   "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+   "published_raw": "Wed, 11 Nov 2026 23:00:53 +0000",
+   "fetched_at": "2026-11-12T01:23:41.085011Z",
+   "excerpt": "<p>Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/\">ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>"
+  },
+  "unit42:98d8dc6edc0a": {
+   "source_id": "unit42",
+   "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+   "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+   "published_raw": "Wed, 11 Nov 2026 15:00:23 +0000",
+   "fetched_at": "2026-11-12T01:23:41.085011Z",
+   "excerpt": "<p>We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/\">The XG Files: Falcon C2 Flying Under The (Browser) Radar</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>"
+  },
+  "datadog_security_labs:d3acf2e1e7d4": {
+   "source_id": "datadog_security_labs",
+   "title": "CVE-2026-118383: Use-after-free vulnerability in MongoDB",
+   "url": "https://securitylabs.datadoghq.com/articles/cve-2026-118383-mongodb-server-use-after-free/",
+   "published_raw": "2026-11-11T00:00:00Z",
+   "fetched_at": "2026-11-12T01:23:41.245864Z",
+   "excerpt": "We reproduced CVE-2026-118383, a critical use-after-free in MongoDB Server's primary catch-up process that unauthenticated clients can set up, and explain how to detect and remediate it."
+  },
+  "huntress_blog:11515cc0259f": {
+   "source_id": "huntress_blog",
+   "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+   "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
+   "published_raw": "2026-11-10T14:00:00Z",
+   "fetched_at": "2026-11-12T01:23:41.339208Z",
+   "excerpt": "ClickFix techniques are evolving. Huntress breaks down four attack chains: lateral movement, hidden PNG payloads, Node.js RATs and cache seeing."
+  },
+  "bleepingcomputer:b47bcd06a09c": {
+   "source_id": "bleepingcomputer",
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "published_raw": "Wed, 11 Nov 2026 18:01:31 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]"
+  },
+  "bleepingcomputer:ab7e7ef2388b": {
+   "source_id": "bleepingcomputer",
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "published_raw": "Wed, 11 Nov 2026 17:56:21 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]"
+  },
+  "bleepingcomputer:f3ffd49b40c0": {
+   "source_id": "bleepingcomputer",
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "published_raw": "Wed, 11 Nov 2026 16:27:40 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]"
+  },
+  "bleepingcomputer:efe87e331be8": {
+   "source_id": "bleepingcomputer",
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "published_raw": "Wed, 11 Nov 2026 15:54:20 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]"
+  },
+  "bleepingcomputer:744297a3900b": {
+   "source_id": "bleepingcomputer",
+   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+   "published_raw": "Wed, 11 Nov 2026 11:24:18 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]"
+  },
+  "bleepingcomputer:1df3d3728c61": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "published_raw": "Wed, 11 Nov 2026 10:12:59 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]"
+  },
+  "bleepingcomputer:04567b83f07c": {
+   "source_id": "bleepingcomputer",
+   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "published_raw": "Wed, 11 Nov 2026 10:01:11 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]"
+  },
+  "bleepingcomputer:4d16177dd74e": {
+   "source_id": "bleepingcomputer",
+   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+   "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+   "published_raw": "Wed, 11 Nov 2026 07:32:27 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]"
+  },
+  "bleepingcomputer:f2082556da54": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft fixes audio issues caused by September security updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+   "published_raw": "Wed, 11 Nov 2026 06:18:36 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]"
+  },
+  "bleepingcomputer:3a6c80d2fbbd": {
+   "source_id": "bleepingcomputer",
+   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+   "published_raw": "Wed, 11 Nov 2026 05:12:08 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]"
+  },
+  "bleepingcomputer:fbc804163b58": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+   "published_raw": "Wed, 11 Nov 2026 04:07:27 -0500",
+   "fetched_at": "2026-11-12T01:23:41.654436Z",
+   "excerpt": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]"
+  },
+  "the_record:d62040292e65": {
+   "source_id": "the_record",
+   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+   "published_raw": "Wed, 11 Nov 2026 16:57:00 GMT",
+   "fetched_at": "2026-11-12T01:23:41.705577Z",
+   "excerpt": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris."
+  },
+  "the_record:2b63f8aad1bf": {
+   "source_id": "the_record",
+   "title": "Poland shuts down government services platform ePUAP following cyberattack",
+   "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+   "published_raw": "Wed, 11 Nov 2026 13:18:00 GMT",
+   "fetched_at": "2026-11-12T01:23:41.705577Z",
+   "excerpt": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online."
+  },
+  "the_record:424f8e5ef5ac": {
+   "source_id": "the_record",
+   "title": "Britain, France set out first guidelines for commercial hacking firms",
+   "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+   "published_raw": "Wed, 11 Nov 2026 13:11:00 GMT",
+   "fetched_at": "2026-11-12T01:23:41.705577Z",
+   "excerpt": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses."
+  },
+  "the_hacker_news:8b35f69eac70": {
+   "source_id": "the_hacker_news",
+   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+   "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+   "published_raw": "Wed, 11 Nov 2026 21:42:46 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via"
+  },
+  "the_hacker_news:63cbf25606a5": {
+   "source_id": "the_hacker_news",
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+   "published_raw": "Wed, 11 Nov 2026 21:04:27 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against"
+  },
+  "the_hacker_news:7fc0ff6aee2a": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "published_raw": "Wed, 11 Nov 2026 19:31:00 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some"
+  },
+  "the_hacker_news:14caa111eec6": {
+   "source_id": "the_hacker_news",
+   "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+   "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+   "published_raw": "Wed, 11 Nov 2026 17:49:40 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or"
+  },
+  "the_hacker_news:de18400249b3": {
+   "source_id": "the_hacker_news",
+   "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+   "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+   "published_raw": "Wed, 11 Nov 2026 17:31:59 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated"
+  },
+  "the_hacker_news:b80a24c89312": {
+   "source_id": "the_hacker_news",
+   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+   "published_raw": "Wed, 11 Nov 2026 17:30:53 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script"
+  },
+  "the_hacker_news:44096b209ce3": {
+   "source_id": "the_hacker_news",
+   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "published_raw": "Wed, 11 Nov 2026 13:47:53 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers."
+  },
+  "the_hacker_news:890bd5d68a0a": {
+   "source_id": "the_hacker_news",
+   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "published_raw": "Wed, 11 Nov 2026 13:19:04 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database"
+  },
+  "the_hacker_news:e23f07d99f92": {
+   "source_id": "the_hacker_news",
+   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "published_raw": "Wed, 11 Nov 2026 12:51:05 +0530",
+   "fetched_at": "2026-11-12T01:23:41.820422Z",
+   "excerpt": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on"
+  },
+  "securityweek:1801548a5880": {
+   "source_id": "securityweek",
+   "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+   "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+   "published_raw": "Wed, 11 Nov 2026 15:42:47 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/\">Critical Xen Orchestra Flaws Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:4c88bc1c66a8": {
+   "source_id": "securityweek",
+   "title": "Asus, Zoom Release Security Patches",
+   "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+   "published_raw": "Wed, 11 Nov 2026 13:58:38 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>Attackers could exploit them for command execution, memory overwrites, and privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/asus-zoom-release-security-patches/\">Asus, Zoom Release Security Patches</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:02a5d2234103": {
+   "source_id": "securityweek",
+   "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+   "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+   "published_raw": "Wed, 11 Nov 2026 13:37:19 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts.</p>\n<p>The post <a href=\"https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/\">Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:ed47bd3662d1": {
+   "source_id": "securityweek",
+   "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+   "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+   "published_raw": "Wed, 11 Nov 2026 12:24:33 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>The Series C round will fund international expansion and more autonomous features for the firm’s device security platform. </p>\n<p>The post <a href=\"https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/\">Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:23b1780cf039": {
+   "source_id": "securityweek",
+   "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+   "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+   "published_raw": "Wed, 11 Nov 2026 12:10:14 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>The massive drop comes after the company integrated frontier AI models into its product security testing.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/\">Fortinet Patches Nearly 100 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:d5711d837a08": {
+   "source_id": "securityweek",
+   "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+   "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+   "published_raw": "Wed, 11 Nov 2026 11:30:00 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.</p>\n<p>The post <a href=\"https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/\">Bay Raises $50 Million to Control What Enterprise AI Agents Can Do</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:629ff6f171db": {
+   "source_id": "securityweek",
+   "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+   "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+   "published_raw": "Wed, 11 Nov 2026 11:16:40 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications. </p>\n<p>The post <a href=\"https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/\">Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:fac3eba82934": {
+   "source_id": "securityweek",
+   "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+   "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+   "published_raw": "Wed, 11 Nov 2026 10:35:15 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. </p>\n<p>The post <a href=\"https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/\">ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:d2af63ca45db": {
+   "source_id": "securityweek",
+   "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+   "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+   "published_raw": "Wed, 11 Nov 2026 09:01:07 +0000",
+   "fetched_at": "2026-11-12T01:23:42.119477Z",
+   "excerpt": "<p>The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.</p>\n<p>The post <a href=\"https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/\">Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-11T07:00:30.533453Z"
+ "updated_at": "2026-11-12T01:23:35.849962Z"
 }

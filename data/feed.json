@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T07:00:30.533453Z",
- "mode": "live",
- "mode_note": "Alle feeds zijn opgehaald.",
+ "generated_at": "2026-11-12T01:23:35.849962Z",
+ "mode": "partial",
+ "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-11T02:12:00Z",
- "last_successful_update": "2026-11-11T07:00:30.533453Z",
+ "last_successful_update": "2026-11-12T01:23:35.849962Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-11T07:00:30.595381Z"
+   "checked_at": "2026-11-12T01:23:35.896506Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-11T07:00:31.222018Z"
+   "checked_at": "2026-11-12T01:23:36.384031Z"
   },
   {
    "id": "fox_it",
@@ -168,10 +168,10 @@
    "priority": 4,
    "region": "nl",
    "fetch_method": "rss",
-   "status": "ok",
-   "items": 10,
-   "message": "10 items via https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-11T07:00:32.032147Z"
+   "status": "failed",
+   "items": 0,
+   "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
+   "checked_at": "2026-11-12T01:23:37.107625Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-11T07:00:32.464362Z"
+   "checked_at": "2026-11-12T01:23:38.151668Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-11T07:00:33.549527Z"
+   "checked_at": "2026-11-12T01:23:39.092222Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-11T07:00:33.707191Z"
+   "checked_at": "2026-11-12T01:23:39.211280Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-11T07:00:33.810698Z"
+   "checked_at": "2026-11-12T01:23:39.305881Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-11T07:00:33.991179Z"
+   "checked_at": "2026-11-12T01:23:39.396493Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-11T07:00:34.413592Z"
+   "checked_at": "2026-11-12T01:23:39.610834Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-11T07:00:35.923368Z"
+   "checked_at": "2026-11-12T01:23:41.009090Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-11T07:00:36.008912Z"
+   "checked_at": "2026-11-12T01:23:41.085011Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-11T07:00:36.173730Z"
+   "checked_at": "2026-11-12T01:23:41.245864Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-11T07:00:36.297841Z"
+   "checked_at": "2026-11-12T01:23:41.339208Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-11T07:00:36.535860Z"
+   "checked_at": "2026-11-12T01:23:41.475338Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-11T07:00:36.596116Z"
+   "checked_at": "2026-11-12T01:23:41.654436Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-11T07:00:36.688273Z"
+   "checked_at": "2026-11-12T01:23:41.705577Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-11T07:00:36.915552Z"
+   "checked_at": "2026-11-12T01:23:41.820422Z"
   },
   {
    "id": "securityweek",
@@ -381,206 +381,17 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-11T07:00:37.180272Z"
+   "checked_at": "2026-11-12T01:23:42.119477Z"
   }
  ],
  "daily_top": [
+  "3e830a9401ea",
   "0eb55bf1598e",
   "9398616ade4d",
-  "3e830a9401ea",
   "27d0d882d07e",
   "8b5f34b85bf1"
  ],
  "articles": [
-  {
-   "id": "0eb55bf1598e",
-   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T16:00:55Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "Aanvallers misbruikten twee lekken in back-upsoftware AhsayCBS. Huntress vond webshells, cryptominers en een Python-achterdeur die weigert te starten in een testomgeving van onderzoekers.",
-   "personal_relevance": "Back-upservers vallen vaak buiten de aandacht van detectie en patching. Een goede vraag aan klanten: worden back-upservers net zo bewaakt en gepatcht als domeincontrollers, en welke wachtwoorden staan erop opgeslagen?",
-   "limitations": [
-    "De oorzaak van de twee lekken en de getroffen versies staan niet in het artikel.",
-    "Wie achter de aanval zit en hoeveel organisaties zijn getroffen, is niet bekend.",
-    "Hoeveel inloggegevens via de Veeam-server zijn buitgemaakt, is onbekend.",
-    "Huntress is een securityleverancier en beschrijft één onderzocht incident."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "siem_detection",
-    "malware"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "detectie",
-    "aanvallen"
-   ],
-   "relevance_score": 93,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.97,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T02:08:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer",
-   "story": [
-    "Huntress zag begin oktober een aanval op een server met AhsayCBS, software waarmee organisaties back-ups beheren. De aanvallers combineerden twee lekken, CVE-2026-105133 en CVE-2026-105134. Daarmee kwamen ze zonder inlog binnen en konden ze opdrachten uitvoeren. Ahsay bracht half oktober updates uit.",
-    "Eerst leek het een snelle roof: webshells en een cryptominer. Maar Huntress zag meer: vijf soorten webshells op verschillende plekken, een tweede miner die via een geplande taak elke minuut opnieuw start, uitzonderingen in Microsoft Defender, tunneltools en legitieme software voor beheer op afstand. Eén webshell verstopte versleutelde code in de pixels van PNG-plaatjes en voerde die alleen in het geheugen uit. Zo blijft er weinig op de schijf staan om te vinden.",
-    "Het slimste stuk is de Python-achterdeur. Hij berekent een hash van een uniek nummer van de Windows-computer (de MachineGuid) en zoekt een bestand met die naam naast zich. Alleen als dat klopt, laadt hij zijn eigenlijke code in het geheugen. Die maakt dan contact met de server van de aanvaller. In een sandbox of op de computer van een onderzoeker ontbreekt dat bestand, dus daar doet de achterdeur niets. Het is als een sleutel die alleen in één slot past.",
-    "Waarom back-upservers? Op een gekoppelde Veeam-server zag Huntress een script dat opgeslagen wachtwoorden uit de database van Veeam las en ontsleutelde. Volgens onderzoeker Semon bewaart back-upsoftware wachtwoorden voor hypervisors, opslag en domeinaccounts. Een back-upserver is dus een sleutelbos voor het hele netwerk. Hoeveel wachtwoorden de aanvaller kreeg, is onbekend.",
-    "In de logs en bij EDR vallen zulke aanvallen op door de bijwerkingen: nieuwe JSP-bestanden in webmappen, een geplande taak met SYSTEM-rechten die elke minuut draait, nieuwe uitzonderingen in de virusscanner en onbekende beheersoftware. Voor vulnerability management: back-upsoftware staat vaak niet bovenaan de patchlijst, maar verdient die plek wel."
-   ],
-   "key_facts": [
-    "Huntress zag begin oktober 2026 misbruik van de keten CVE-2026-105133 en CVE-2026-105134 in AhsayCBS om de authenticatie te omzeilen en willekeurige opdrachten uit te voeren (The Hacker News, 10 november 2026).",
-    "Ahsay Backup bracht half oktober 2026 patches uit.",
-    "Huntress vond vijf families JSP-webshells, waaronder een loader die versleutelde code in de pixeldata van PNG-afbeeldingen verbergt en in het geheugen uitvoert.",
-    "Twee XMRig-miners, waarvan één via een geplande taak met SYSTEM-rechten elke minuut herstart; verder Defender-uitzonderingen, de tunneltools GOST en Chisel en AnyDesk, Atera en Splashtop.",
-    "De Python-implant controleert een SHA-256-hash van de MachineGuid tegen een markerbestand en laadt pas dan een x64-DLL in het geheugen die contact maakt met een C2-server.",
-    "Op een gekoppelde Veeam-server las een PowerShell-script, vermoedelijk via WMI gestart, opgeslagen inloggegevens uit de PostgreSQL-database van Veeam en ontsleutelde die met DPAPI."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "webshells",
-     "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
-    },
-    {
-     "term": "geplande taak",
-     "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien."
-    },
-    {
-     "term": "tunneltools",
-     "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
-    },
-    {
-     "term": "hash",
-     "explanation": "Een vaste 'vingerafdruk' van gegevens, berekend met een wiskundige functie. Dezelfde invoer geeft altijd dezelfde hash, maar je kunt de invoer er niet uit terugrekenen."
-    },
-    {
-     "term": "sandbox",
-     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; misbruikt lek met een volledige aanvalsketen en duidelijke detectiepunten."
-   },
-   "takeaway": "Malware die zich aan één computer koppelt, doet niets in een sandbox. Detectie moet dan leunen op gedrag op het echte systeem: nieuwe taken, uitzonderingen in de virusscanner en onbekende verbindingen.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
-  },
-  {
-   "id": "9398616ade4d",
-   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T18:12:21Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "Een fout in de beheersoftware Xen Orchestra laat een aanvaller zonder wachtwoord inloggen als een bestaande gebruiker, ook als beheerder. Vates ziet het lek al misbruikt worden.",
-   "personal_relevance": "Klanten met XCP-ng en Xen Orchestra zien dit lek mogelijk niet in een scan die op CVE-nummers zoekt. Een goede vraag: staat de beheerinterface van jullie virtualisatie op internet, en hoe vinden jullie lekken die nog geen CVE hebben?",
-   "limitations": [
-    "Niet bekend is sinds wanneer het lek wordt misbruikt, wie de aanvaller is en hoeveel servers zijn getroffen.",
-    "Er is nog geen CVE-nummer; daardoor ontbreekt een CVSS-score en staat het lek niet in de KEV-lijst.",
-    "De technische uitleg komt uit het citaat van het advies in The Hacker News; het advies van Vates zelf is niet geopend."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "web_software_security"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "web"
-   ],
-   "relevance_score": 93,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.97,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:50:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten",
-   "story": [
-    "Vates, de Franse maker van Xen Orchestra, waarschuwt voor een kritiek lek dat al wordt aangevallen. Xen Orchestra is een webinterface waarmee beheerders hun XCP-ng-servers beheren. Daarop draaien virtuele machines. Het lek heeft nog geen CVE-nummer en heet bij Vates VSA-2026-062. Volgens Vates misbruikt één aanvaller het. Wanneer dat begon, is niet bekend.",
-    "Eerst de normale werking. Na het inloggen krijgt je browser een cookie met een token. Bij elk volgend verzoek stuurt de browser dat token mee. De server zoekt het token op in zijn lijst met geldige tokens en weet zo wie je bent. Hier gaat het mis. Xen Orchestra zet een speciaal opgemaakte cookie niet om in tekst, maar in een leeg object. Dat lege object gaat zonder controle naar de zoekfunctie. Een zoekopdracht zonder voorwaarden geeft gewoon het eerste token uit de lijst terug. Vergelijk het met een portier die je vraagt om 'de sleutel die past bij…' en dan niets zegt: hij geeft je de eerste sleutel van het bord.",
-    "Is dat token nog geldig, dan is de aanvaller ingelogd als de eigenaar ervan. Volgens Vates kan hij zich zo als beheerder voordoen. Daarna kan hij code uitvoeren op de beheerde servers en uiteindelijk een XCP-ng-server overnemen met root-rechten. Dat maakt dit gevaarlijk: wie de hypervisor beheerst, beheerst alle virtuele machines erop.",
-    "Updaten helpt: Xen Orchestra 6.9.1 of 6.10.0, of xo-server 5.211.2 of 5.213.1. Vates adviseert de beheerinterface niet op internet te zetten en de lege token-cookie te blokkeren in een WAF of reverse proxy. In de logs van de webserver zie je de aanval aan verzoeken met die lege token-waarde; het precieze patroon staat in het advies. Kijk ook naar onverwachte virtuele machines, vreemde instellingen voor de seriële console en verdachte bestanden in cron-mappen. Bij twijfel: alle wachtwoorden en geheimen vervangen.",
-    "Voor vulnerability management is dit een typisch geval waarin de CVSS-score niet het hele verhaal vertelt: er is nog geen CVE, dus scanners die op CVE-nummers leunen, zien het mogelijk niet. Beheerinterfaces van virtualisatie zijn een geliefd doelwit, omdat één inbraak direct veel systemen raakt."
-   ],
-   "key_facts": [
-    "Vates VMS meldt een kritieke authenticatie-omzeiling in Xen Orchestra, bijgehouden als VSA-2026-062; er is nog geen CVE-nummer (The Hacker News, 10 november 2026).",
-    "Vates ziet actief misbruik door één aanvaller; wanneer het begon en of het een zero-day was, is onbekend.",
-    "Oorzaak volgens Vates: de REST-cookie authenticationToken wordt bij een speciale waarde omgezet in een leeg object, dat zonder typecontrole naar de tokenzoeker gaat; die geeft het eerste token terug.",
-    "Gevolg: inloggen als de eigenaar van een niet-verlopen token, ook als beheerder, met daarna code-uitvoering op beheerde pools en overname van een XCP-ng-node als root.",
-    "Opgelost in Xen Orchestra 6.9.1 en 6.10.0 en in xo-server 5.211.2 en 5.213.1; gevonden door Filip Magic en Christoffer Olsen van TDC NET Security.",
-    "Advies: niet op internet zetten, de lege token-cookie blokkeren in WAF of reverse proxy, logs controleren op die cookie, op onverwachte VM's en op bestanden in cron-mappen, en bij compromittering alle geheimen roteren."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo werkt de fout in leerboekvorm. Bovenaan de kwetsbare versie: de cookiewaarde gaat ongecontroleerd naar de zoekfunctie. Is die waarde een leeg object, dan zoekt de database zonder voorwaarden en geeft hij het eerste token. Onderaan de veilige versie: eerst controleren dat het tekst is en dan alleen op dat ene id zoeken.",
-    "language": "python",
-    "code": "# Kwetsbaar (vereenvoudigd)\nwaarde = cookies[\"authenticationToken\"]   # kan tekst zijn, maar ook een object\ntoken = tokens.find_one(waarde)          # leeg object = geen voorwaarden = eerste token\n\n# Veilig\nwaarde = cookies[\"authenticationToken\"]\nif not isinstance(waarde, str):\n    weiger_verzoek()\ntoken = tokens.find_one({\"id\": waarde})\nif token is None or token.verlopen():\n    weiger_verzoek()",
-    "note": "Nagebouwd voorbeeld om het principe te laten zien; dit is niet de echte code van Xen Orchestra. Het precieze cookiepatroon staat in het advies van Vates."
-   },
-   "terms": [
-    {
-     "term": "cookie",
-     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
-    },
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "virtuele machines",
-     "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien."
-    },
-    {
-     "term": "hypervisor",
-     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
-    },
-    {
-     "term": "WAF",
-     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
-    },
-    {
-     "term": "reverse proxy",
-     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; misbruikt weblek met een duidelijke technische oorzaak, zoals eerdere inloglekken."
-   },
-   "takeaway": "Software die invoer niet op type controleert, kan een lege zoekopdracht uitvoeren die 'alles' teruggeeft. Bij inloggen betekent dat: iemand anders zijn sessie.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
-  },
   {
    "id": "3e830a9401ea",
    "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
@@ -608,7 +419,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.86,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -700,6 +511,195 @@
    "region": "world"
   },
   {
+   "id": "0eb55bf1598e",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T16:00:55Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Aanvallers misbruikten twee lekken in back-upsoftware AhsayCBS. Huntress vond webshells, cryptominers en een Python-achterdeur die weigert te starten in een testomgeving van onderzoekers.",
+   "personal_relevance": "Back-upservers vallen vaak buiten de aandacht van detectie en patching. Een goede vraag aan klanten: worden back-upservers net zo bewaakt en gepatcht als domeincontrollers, en welke wachtwoorden staan erop opgeslagen?",
+   "limitations": [
+    "De oorzaak van de twee lekken en de getroffen versies staan niet in het artikel.",
+    "Wie achter de aanval zit en hoeveel organisaties zijn getroffen, is niet bekend.",
+    "Hoeveel inloggegevens via de Veeam-server zijn buitgemaakt, is onbekend.",
+    "Huntress is een securityleverancier en beschrijft één onderzocht incident."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "siem_detection",
+    "malware"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T02:08:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer",
+   "story": [
+    "Huntress zag begin oktober een aanval op een server met AhsayCBS, software waarmee organisaties back-ups beheren. De aanvallers combineerden twee lekken, CVE-2026-105133 en CVE-2026-105134. Daarmee kwamen ze zonder inlog binnen en konden ze opdrachten uitvoeren. Ahsay bracht half oktober updates uit.",
+    "Eerst leek het een snelle roof: webshells en een cryptominer. Maar Huntress zag meer: vijf soorten webshells op verschillende plekken, een tweede miner die via een geplande taak elke minuut opnieuw start, uitzonderingen in Microsoft Defender, tunneltools en legitieme software voor beheer op afstand. Eén webshell verstopte versleutelde code in de pixels van PNG-plaatjes en voerde die alleen in het geheugen uit. Zo blijft er weinig op de schijf staan om te vinden.",
+    "Het slimste stuk is de Python-achterdeur. Hij berekent een hash van een uniek nummer van de Windows-computer (de MachineGuid) en zoekt een bestand met die naam naast zich. Alleen als dat klopt, laadt hij zijn eigenlijke code in het geheugen. Die maakt dan contact met de server van de aanvaller. In een sandbox of op de computer van een onderzoeker ontbreekt dat bestand, dus daar doet de achterdeur niets. Het is als een sleutel die alleen in één slot past.",
+    "Waarom back-upservers? Op een gekoppelde Veeam-server zag Huntress een script dat opgeslagen wachtwoorden uit de database van Veeam las en ontsleutelde. Volgens onderzoeker Semon bewaart back-upsoftware wachtwoorden voor hypervisors, opslag en domeinaccounts. Een back-upserver is dus een sleutelbos voor het hele netwerk. Hoeveel wachtwoorden de aanvaller kreeg, is onbekend.",
+    "In de logs en bij EDR vallen zulke aanvallen op door de bijwerkingen: nieuwe JSP-bestanden in webmappen, een geplande taak met SYSTEM-rechten die elke minuut draait, nieuwe uitzonderingen in de virusscanner en onbekende beheersoftware. Voor vulnerability management: back-upsoftware staat vaak niet bovenaan de patchlijst, maar verdient die plek wel."
+   ],
+   "key_facts": [
+    "Huntress zag begin oktober 2026 misbruik van de keten CVE-2026-105133 en CVE-2026-105134 in AhsayCBS om de authenticatie te omzeilen en willekeurige opdrachten uit te voeren (The Hacker News, 10 november 2026).",
+    "Ahsay Backup bracht half oktober 2026 patches uit.",
+    "Huntress vond vijf families JSP-webshells, waaronder een loader die versleutelde code in de pixeldata van PNG-afbeeldingen verbergt en in het geheugen uitvoert.",
+    "Twee XMRig-miners, waarvan één via een geplande taak met SYSTEM-rechten elke minuut herstart; verder Defender-uitzonderingen, de tunneltools GOST en Chisel en AnyDesk, Atera en Splashtop.",
+    "De Python-implant controleert een SHA-256-hash van de MachineGuid tegen een markerbestand en laadt pas dan een x64-DLL in het geheugen die contact maakt met een C2-server.",
+    "Op een gekoppelde Veeam-server las een PowerShell-script, vermoedelijk via WMI gestart, opgeslagen inloggegevens uit de PostgreSQL-database van Veeam en ontsleutelde die met DPAPI."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "webshells",
+     "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "geplande taak",
+     "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien."
+    },
+    {
+     "term": "tunneltools",
+     "explanation": "Software die een verbinding van binnen een netwerk naar buiten opzet, zodat iemand buiten via die 'tunnel' interne systemen kan bereiken."
+    },
+    {
+     "term": "hash",
+     "explanation": "Een vaste 'vingerafdruk' van gegevens, berekend met een wiskundige functie. Dezelfde invoer geeft altijd dezelfde hash, maar je kunt de invoer er niet uit terugrekenen."
+    },
+    {
+     "term": "sandbox",
+     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint detection and response: software op computers en servers die verdacht gedrag vastlegt en meldt, zoals nieuwe taken of onbekende programma's."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt lek met een volledige aanvalsketen en duidelijke detectiepunten."
+   },
+   "takeaway": "Malware die zich aan één computer koppelt, doet niets in een sandbox. Detectie moet dan leunen op gedrag op het echte systeem: nieuwe taken, uitzonderingen in de virusscanner en onbekende verbindingen.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "9398616ade4d",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T18:12:21Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Een fout in de beheersoftware Xen Orchestra laat een aanvaller zonder wachtwoord inloggen als een bestaande gebruiker, ook als beheerder. Vates ziet het lek al misbruikt worden.",
+   "personal_relevance": "Klanten met XCP-ng en Xen Orchestra zien dit lek mogelijk niet in een scan die op CVE-nummers zoekt. Een goede vraag: staat de beheerinterface van jullie virtualisatie op internet, en hoe vinden jullie lekken die nog geen CVE hebben?",
+   "limitations": [
+    "Niet bekend is sinds wanneer het lek wordt misbruikt, wie de aanvaller is en hoeveel servers zijn getroffen.",
+    "Er is nog geen CVE-nummer; daardoor ontbreekt een CVSS-score en staat het lek niet in de KEV-lijst.",
+    "De technische uitleg komt uit het citaat van het advies in The Hacker News; het advies van Vates zelf is niet geopend."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "web"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.94,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:50:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten",
+   "story": [
+    "Vates, de Franse maker van Xen Orchestra, waarschuwt voor een kritiek lek dat al wordt aangevallen. Xen Orchestra is een webinterface waarmee beheerders hun XCP-ng-servers beheren. Daarop draaien virtuele machines. Het lek heeft nog geen CVE-nummer en heet bij Vates VSA-2026-062. Volgens Vates misbruikt één aanvaller het. Wanneer dat begon, is niet bekend.",
+    "Eerst de normale werking. Na het inloggen krijgt je browser een cookie met een token. Bij elk volgend verzoek stuurt de browser dat token mee. De server zoekt het token op in zijn lijst met geldige tokens en weet zo wie je bent. Hier gaat het mis. Xen Orchestra zet een speciaal opgemaakte cookie niet om in tekst, maar in een leeg object. Dat lege object gaat zonder controle naar de zoekfunctie. Een zoekopdracht zonder voorwaarden geeft gewoon het eerste token uit de lijst terug. Vergelijk het met een portier die je vraagt om 'de sleutel die past bij…' en dan niets zegt: hij geeft je de eerste sleutel van het bord.",
+    "Is dat token nog geldig, dan is de aanvaller ingelogd als de eigenaar ervan. Volgens Vates kan hij zich zo als beheerder voordoen. Daarna kan hij code uitvoeren op de beheerde servers en uiteindelijk een XCP-ng-server overnemen met root-rechten. Dat maakt dit gevaarlijk: wie de hypervisor beheerst, beheerst alle virtuele machines erop.",
+    "Updaten helpt: Xen Orchestra 6.9.1 of 6.10.0, of xo-server 5.211.2 of 5.213.1. Vates adviseert de beheerinterface niet op internet te zetten en de lege token-cookie te blokkeren in een WAF of reverse proxy. In de logs van de webserver zie je de aanval aan verzoeken met die lege token-waarde; het precieze patroon staat in het advies. Kijk ook naar onverwachte virtuele machines, vreemde instellingen voor de seriële console en verdachte bestanden in cron-mappen. Bij twijfel: alle wachtwoorden en geheimen vervangen.",
+    "Voor vulnerability management is dit een typisch geval waarin de CVSS-score niet het hele verhaal vertelt: er is nog geen CVE, dus scanners die op CVE-nummers leunen, zien het mogelijk niet. Beheerinterfaces van virtualisatie zijn een geliefd doelwit, omdat één inbraak direct veel systemen raakt."
+   ],
+   "key_facts": [
+    "Vates VMS meldt een kritieke authenticatie-omzeiling in Xen Orchestra, bijgehouden als VSA-2026-062; er is nog geen CVE-nummer (The Hacker News, 10 november 2026).",
+    "Vates ziet actief misbruik door één aanvaller; wanneer het begon en of het een zero-day was, is onbekend.",
+    "Oorzaak volgens Vates: de REST-cookie authenticationToken wordt bij een speciale waarde omgezet in een leeg object, dat zonder typecontrole naar de tokenzoeker gaat; die geeft het eerste token terug.",
+    "Gevolg: inloggen als de eigenaar van een niet-verlopen token, ook als beheerder, met daarna code-uitvoering op beheerde pools en overname van een XCP-ng-node als root.",
+    "Opgelost in Xen Orchestra 6.9.1 en 6.10.0 en in xo-server 5.211.2 en 5.213.1; gevonden door Filip Magic en Christoffer Olsen van TDC NET Security.",
+    "Advies: niet op internet zetten, de lege token-cookie blokkeren in WAF of reverse proxy, logs controleren op die cookie, op onverwachte VM's en op bestanden in cron-mappen, en bij compromittering alle geheimen roteren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt de fout in leerboekvorm. Bovenaan de kwetsbare versie: de cookiewaarde gaat ongecontroleerd naar de zoekfunctie. Is die waarde een leeg object, dan zoekt de database zonder voorwaarden en geeft hij het eerste token. Onderaan de veilige versie: eerst controleren dat het tekst is en dan alleen op dat ene id zoeken.",
+    "language": "python",
+    "code": "# Kwetsbaar (vereenvoudigd)\nwaarde = cookies[\"authenticationToken\"]   # kan tekst zijn, maar ook een object\ntoken = tokens.find_one(waarde)          # leeg object = geen voorwaarden = eerste token\n\n# Veilig\nwaarde = cookies[\"authenticationToken\"]\nif not isinstance(waarde, str):\n    weiger_verzoek()\ntoken = tokens.find_one({\"id\": waarde})\nif token is None or token.verlopen():\n    weiger_verzoek()",
+    "note": "Nagebouwd voorbeeld om het principe te laten zien; dit is niet de echte code van Xen Orchestra. Het precieze cookiepatroon staat in het advies van Vates."
+   },
+   "terms": [
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "virtuele machines",
+     "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien."
+    },
+    {
+     "term": "hypervisor",
+     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
+    },
+    {
+     "term": "WAF",
+     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+     "term": "reverse proxy",
+     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt weblek met een duidelijke technische oorzaak, zoals eerdere inloglekken."
+   },
+   "takeaway": "Software die invoer niet op type controleert, kan een lege zoekopdracht uitvoeren die 'alles' teruggeeft. Bij inloggen betekent dat: iemand anders zijn sessie.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "27d0d882d07e",
    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
@@ -728,7 +728,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -834,7 +834,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.64,
+    "recency": 0.62,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -955,101 +955,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "ed98e46a8b24",
-   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
-   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
-   "source_id": "huntress_blog",
-   "published_at": "2026-11-09T21:00:00Z",
-   "fetched_at": "2026-11-10T07:41:51.099464Z",
-   "summary": "Een onderzoeker zette aanvalsketens voor de beheersoftware N-central openbaar op GitHub, zonder N-able vooraf te waarschuwen. N-able haalde de clouddienst offline en vraagt klanten hun eigen servers ook uit te zetten.",
-   "personal_relevance": "Veel klanten werken met een IT-dienstverlener die RMM-software gebruikt. Een goede vraag: welke beheertools heeft jullie dienstverlener op jullie systemen, en zien jullie het in de logs als daarmee onverwacht scripts worden uitgerold?",
-   "limitations": [
-    "Er zijn nog geen CVE-nummers en geen hotfixversie; N-able verhoogt bij live hotfixes niet altijd het versienummer.",
-    "BleepingComputer heeft niet alle lekken zelf geverifieerd; de bronnen verschillen in het aantal lekken en ketens.",
-    "Of de eerdere meldingen van de onderzoeker inderdaad onbeantwoord bleven, is niet bevestigd; N-able reageerde daar niet op.",
-    "Huntress is een securityleverancier die zelf klanten met N-central bedient."
-   ],
-   "topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "supply_chain",
-    "incident_response"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen",
-    "web",
-    "detectie"
-   ],
-   "relevance_score": 91,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.93,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:52:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "N-able haalt N-central offline na publicatie van ruim 30 lekken",
-   "story": [
-    "N-able heeft op 9 november zijn gehoste N-central-omgeving offline gehaald. N-central is RMM-software: IT-dienstverleners beheren er de computers van al hun klanten mee. Aanleiding: een onafhankelijke onderzoeker publiceerde op GitHub details en proof of concept-code voor ruim 30 kritieke lekken, samen 'Able2Shell' genoemd. Volgens Huntress zijn het 33 lekken in vier ketens. Drie leiden tot remote code execution, één tot root-rechten. N-able zag tot 9 november geen misbruik.",
-    "Hoe zo'n keten werkt: geen enkel lek is op zichzelf genoeg, maar achter elkaar wel. Volgens BleepingComputer begint de belangrijkste keten met een XXE-lek in de importfunctie, zonder inlog. XXE betekent dat de server een XML-bestand leest en daarbij ook 'externe' verwijzingen in dat bestand volgt. Zo kan een aanvaller de server laten verwijzen naar dingen die hij niet hoort te zien. Via die stap kan hij een sessie stelen, een wachtwoord resetten of een beheerdersaccount aanmaken, en daarna opdrachten uitvoeren.",
-    "Waarom is dit zo gevaarlijk? Een RMM-server heeft per definitie macht over duizenden computers bij veel klanten. Wie de RMM-server overneemt, kan via de normale beheerfuncties scripts en software uitrollen naar al die computers. Bij eerdere aanvallen op N-central deden aanvallers precies dat. En openbare aanvalscode betekent dat niet alleen ervaren aanvallers het kunnen proberen, maar iedereen.",
-    "Huntress adviseert eigen servers offline te halen tot N-able een veilige hotfix heeft. Controleer vanaf 8 november de inlogactiviteit en de auditlogs. Let op onverwachte sessies op afstand, nieuw uitgerolde scripts en nieuwe beheerdersaccounts. Bij verdachte activiteit moet je ook de netwerken onderzoeken die vanuit N-central worden beheerd.",
-    "N-central kreeg dit jaar al eerder kritieke lekken, waaronder een misbruikte zero-day in september. De onderzoeker zegt dat hij publiceerde omdat N-able eerdere meldingen maandenlang niet oploste; N-able noemt de publicatie onverantwoord. Wie gelijk heeft, is niet vast te stellen. Voor organisaties is de les dat beheersoftware van een dienstverlener deel is van hun eigen aanvalsoppervlak."
-   ],
-   "key_facts": [
-    "N-able haalde de gehoste N-central-omgeving op 9 november 2026 offline en vroeg klanten met eigen servers die tijdelijk offline te halen.",
-    "Volgens Huntress gaat het om 33 kritieke lekken in vier 'Able2Shell'-ketens: drie leiden tot remote code execution, één tot rechtenverhoging naar root. BleepingComputer spreekt van 'meer dan 30'.",
-    "Getest op N-central Appliance 2026.4.0.31; eerdere versies zijn waarschijnlijk ook kwetsbaar. Een hotfix is in de maak, zonder datum.",
-    "N-able zag tot 9 november 15:15 UTC geen actief misbruik; er staan wel proof of concept-exploits op GitHub.",
-    "Volgens BleepingComputer is de kritiekste keten een XXE-lek zonder inlog in de importfunctie, waarmee een aanvaller een sessie steelt, een wachtwoord reset of een beheerdersaccount aanmaakt en opdrachten uitvoert.",
-    "Eerder in 2026: CVE-2026-18556 en de onvolledige fix CVE-2026-18577 (augustus) en de misbruikte zero-day CVE-2026-86218 met CVSS 10,0 (september)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "RMM",
-     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
-    },
-    {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
-    },
-    {
-     "term": "remote code execution",
-     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
-    },
-    {
-     "term": "XXE",
-     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    },
-    {
-     "term": "aanvalsoppervlak",
-     "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; lekken in beheersoftware met directe gevolgen voor klantgesprekken."
-   },
-   "takeaway": "Een RMM-server is een sleutelbos voor alle beheerde computers. Wie hem overneemt, gebruikt gewone beheerfuncties als aanvalswapen, dus bewaak juist wat er via die tool wordt uitgerold.",
-   "region": "world",
-   "exploitation": "poc_openbaar",
-   "patch_status": "geen_patch"
-  },
-  {
    "id": "11af3bdb9908",
    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
@@ -1106,7 +1011,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.54,
+    "recency": 0.52,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -1263,7 +1168,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.56,
+    "recency": 0.54,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -1402,7 +1307,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.65,
+    "recency": 0.63,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -1468,6 +1373,101 @@
    "region": "world"
   },
   {
+   "id": "ed98e46a8b24",
+   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
+   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+   "source_id": "huntress_blog",
+   "published_at": "2026-11-09T21:00:00Z",
+   "fetched_at": "2026-11-10T07:41:51.099464Z",
+   "summary": "Een onderzoeker zette aanvalsketens voor de beheersoftware N-central openbaar op GitHub, zonder N-able vooraf te waarschuwen. N-able haalde de clouddienst offline en vraagt klanten hun eigen servers ook uit te zetten.",
+   "personal_relevance": "Veel klanten werken met een IT-dienstverlener die RMM-software gebruikt. Een goede vraag: welke beheertools heeft jullie dienstverlener op jullie systemen, en zien jullie het in de logs als daarmee onverwacht scripts worden uitgerold?",
+   "limitations": [
+    "Er zijn nog geen CVE-nummers en geen hotfixversie; N-able verhoogt bij live hotfixes niet altijd het versienummer.",
+    "BleepingComputer heeft niet alle lekken zelf geverifieerd; de bronnen verschillen in het aantal lekken en ketens.",
+    "Of de eerdere meldingen van de onderzoeker inderdaad onbeantwoord bleven, is niet bevestigd; N-able reageerde daar niet op.",
+    "Huntress is een securityleverancier die zelf klanten met N-central bedient."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "supply_chain",
+    "incident_response"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "web",
+    "detectie"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.9,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:52:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "N-able haalt N-central offline na publicatie van ruim 30 lekken",
+   "story": [
+    "N-able heeft op 9 november zijn gehoste N-central-omgeving offline gehaald. N-central is RMM-software: IT-dienstverleners beheren er de computers van al hun klanten mee. Aanleiding: een onafhankelijke onderzoeker publiceerde op GitHub details en proof of concept-code voor ruim 30 kritieke lekken, samen 'Able2Shell' genoemd. Volgens Huntress zijn het 33 lekken in vier ketens. Drie leiden tot remote code execution, één tot root-rechten. N-able zag tot 9 november geen misbruik.",
+    "Hoe zo'n keten werkt: geen enkel lek is op zichzelf genoeg, maar achter elkaar wel. Volgens BleepingComputer begint de belangrijkste keten met een XXE-lek in de importfunctie, zonder inlog. XXE betekent dat de server een XML-bestand leest en daarbij ook 'externe' verwijzingen in dat bestand volgt. Zo kan een aanvaller de server laten verwijzen naar dingen die hij niet hoort te zien. Via die stap kan hij een sessie stelen, een wachtwoord resetten of een beheerdersaccount aanmaken, en daarna opdrachten uitvoeren.",
+    "Waarom is dit zo gevaarlijk? Een RMM-server heeft per definitie macht over duizenden computers bij veel klanten. Wie de RMM-server overneemt, kan via de normale beheerfuncties scripts en software uitrollen naar al die computers. Bij eerdere aanvallen op N-central deden aanvallers precies dat. En openbare aanvalscode betekent dat niet alleen ervaren aanvallers het kunnen proberen, maar iedereen.",
+    "Huntress adviseert eigen servers offline te halen tot N-able een veilige hotfix heeft. Controleer vanaf 8 november de inlogactiviteit en de auditlogs. Let op onverwachte sessies op afstand, nieuw uitgerolde scripts en nieuwe beheerdersaccounts. Bij verdachte activiteit moet je ook de netwerken onderzoeken die vanuit N-central worden beheerd.",
+    "N-central kreeg dit jaar al eerder kritieke lekken, waaronder een misbruikte zero-day in september. De onderzoeker zegt dat hij publiceerde omdat N-able eerdere meldingen maandenlang niet oploste; N-able noemt de publicatie onverantwoord. Wie gelijk heeft, is niet vast te stellen. Voor organisaties is de les dat beheersoftware van een dienstverlener deel is van hun eigen aanvalsoppervlak."
+   ],
+   "key_facts": [
+    "N-able haalde de gehoste N-central-omgeving op 9 november 2026 offline en vroeg klanten met eigen servers die tijdelijk offline te halen.",
+    "Volgens Huntress gaat het om 33 kritieke lekken in vier 'Able2Shell'-ketens: drie leiden tot remote code execution, één tot rechtenverhoging naar root. BleepingComputer spreekt van 'meer dan 30'.",
+    "Getest op N-central Appliance 2026.4.0.31; eerdere versies zijn waarschijnlijk ook kwetsbaar. Een hotfix is in de maak, zonder datum.",
+    "N-able zag tot 9 november 15:15 UTC geen actief misbruik; er staan wel proof of concept-exploits op GitHub.",
+    "Volgens BleepingComputer is de kritiekste keten een XXE-lek zonder inlog in de importfunctie, waarmee een aanvaller een sessie steelt, een wachtwoord reset of een beheerdersaccount aanmaakt en opdrachten uitvoert.",
+    "Eerder in 2026: CVE-2026-18556 en de onvolledige fix CVE-2026-18577 (augustus) en de misbruikte zero-day CVE-2026-86218 met CVSS 10,0 (september)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "remote code execution",
+     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+     "term": "XXE",
+     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    },
+    {
+     "term": "aanvalsoppervlak",
+     "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; lekken in beheersoftware met directe gevolgen voor klantgesprekken."
+   },
+   "takeaway": "Een RMM-server is een sleutelbos voor alle beheerde computers. Wie hem overneemt, gebruikt gewone beheerfuncties als aanvalswapen, dus bewaak juist wat er via die tool wordt uitgerold.",
+   "region": "world",
+   "exploitation": "poc_openbaar",
+   "patch_status": "geen_patch"
+  },
+  {
    "id": "d2cce75fefaf",
    "title": "It was a matter of when, not if...",
    "url": "https://www.divd.nl/newsroom/articles/when-no-if/",
@@ -1508,7 +1508,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.1,
+    "recency": 0.09,
     "source": 0.8,
     "quality": 0.78,
     "region": 0.06,
@@ -1650,7 +1650,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.77,
+    "recency": 0.74,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.0
@@ -1766,7 +1766,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.79,
+    "recency": 0.76,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -1855,7 +1855,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.7,
     "fit": -0.05
@@ -1943,7 +1943,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -2027,7 +2027,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.74,
+    "recency": 0.72,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -2156,7 +2156,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.52,
+    "recency": 0.5,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -2271,149 +2271,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "30b15a7c5706",
-   "title": "Shutting the Door on the XCPE Botnet",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
-   "source_id": "google_threat_intel",
-   "published_at": "2026-11-02T14:00:00Z",
-   "fetched_at": "2026-11-03T21:07:38.601172Z",
-   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
-   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
-   "limitations": [
-    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
-    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
-    "Een reactie van Videostrong staat niet in de bron.",
-    "De precieze datum van de actie en de rechtbank worden niet genoemd."
-   ],
-   "official_docs": [
-    {
-     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
-     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
-    }
-   ],
-   "topics": [
-    "threat_intelligence",
-    "supply_chain",
-    "malware"
-   ],
-   "groups": [
-    "ti",
-    "web",
-    "aanvallen"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.65,
-    "source": 0.8,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-03T21:37:00Z",
-   "reading_minutes": 5,
-   "format_version": 2,
-   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
-   "story": [
-    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
-    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
-   ],
-   "key_facts": [
-    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
-    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
-    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
-    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
-    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
-    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "botnet",
-     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
-    },
-    {
-     "term": "firmware",
-     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "residential proxy",
-     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
-    },
-    {
-     "term": "C2",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "IOC's",
-     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
-    }
-   ],
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
-   },
-   "sections": [
-    {
-     "heading": "Wat is de technologie?",
-     "paragraphs": [
-      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
-      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
-     ]
-    },
-    {
-     "heading": "Wat gaat er technisch fout?",
-     "paragraphs": [
-      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
-      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
-     ]
-    },
-    {
-     "heading": "Hoe kan een aanvaller dit misbruiken?",
-     "paragraphs": [
-      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
-      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
-      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
-     ]
-    },
-    {
-     "heading": "Wat is de mogelijke impact?",
-     "paragraphs": [
-      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
-      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
-     ]
-    },
-    {
-     "heading": "Hoe zie je dit?",
-     "paragraphs": [
-      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
-      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
-     ]
-    },
-    {
-     "heading": "Hoe voorkom je dit?",
-     "paragraphs": [
-      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
-      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
-     ]
-    }
-   ],
-   "customer_questions": [
-    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
-    "Staan die apparaten in een apart netwerksegment?",
-    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
-   ],
-   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
-   "region": "world"
-  },
-  {
    "id": "ed60ea7fa412",
    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
@@ -2442,7 +2299,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.78,
+    "recency": 0.75,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -2509,95 +2366,6 @@
     "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
    },
    "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
-   "region": "world"
-  },
-  {
-   "id": "ff63fc905db0",
-   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-07T00:00:55Z",
-   "fetched_at": "2026-11-07T01:23:05.079011Z",
-   "summary": "SonicWall dicht zeven lekken in SonicOS. Eén ervan, CVE-2026-19868, wordt al misbruikt: wie geldige gegevens voor een andere inlogmethode heeft, komt langs de SAML-controle van de SSL-VPN.",
-   "personal_relevance": "Veel klanten gebruiken SonicWall-vpn's met MFA en voelen zich daardoor veilig. Een goede vraag: gebruiken jullie SAML op de SSL-VPN, staan er nog lokale accounts op de firewall en is de update al geïnstalleerd?",
-   "limitations": [
-    "SonicWall deelt geen details over het misbruik: niet wie, niet hoeveel organisaties en niet hoe de aanvallers aan geldige inloggegevens kwamen.",
-    "Welke 'andere inlogmethode' precies bedoeld wordt, staat niet in het artikel; de technische werking is alleen op hoofdlijnen bekend.",
-    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit BleepingComputer."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "edge_devices",
-    "phishing_identity"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.81,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:30:20Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
-   "story": [
-    "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS, de software van zijn firewalls. Eén lek, CVE-2026-19868, wordt al misbruikt. SonicWall onderzocht een melding van mogelijk misbruik en vraagt klanten zo snel mogelijk te updaten. CISA zette het lek op de KEV-lijst. Amerikaanse overheidsdiensten moeten het uiterlijk 20 november oplossen.",
-    "Eerst de normale werking. Via de SSL-VPN van een SonicWall-firewall loggen medewerkers van buiten in op het bedrijfsnetwerk. Veel organisaties laten die inlog via SAML lopen. Dan controleert niet de firewall zelf wie je bent, maar een centrale inlogdienst, vaak met MFA. De firewall vertrouwt op het antwoord van die dienst. Daarnaast kan een firewall nog andere inlogmethodes kennen, zoals lokale accounts.",
-    "Hier gaat het mis. Volgens SonicWall kan een aanvaller met geldige gegevens voor een andere inlogmethode langs de SAML-controle komen. Daarmee omzeilt hij mogelijk ook de MFA die via SAML wordt afgedwongen. Alleen SSL-VPN's die SAML gebruiken zijn kwetsbaar. De aanvaller heeft dus wel al een geldig wachtwoord nodig; dat verklaart de CVSS-score van 7,1. Toch is het ernstig: juist MFA moest een gestolen wachtwoord onschadelijk maken.",
-    "Er is geen tijdelijke oplossing; alleen updaten helpt. Gen7 moet naar 7.3.4-7013 of later, Gen8 naar 8.2.3-8015 of later. Algemene tips voor de logs: zoek naar vpn-inlogs die niet via SAML liepen bij gebruikers die altijd via SAML inloggen, en ruim lokale accounts op de firewall op. Bij de andere zes lekken zitten twee fouten in de beheerinterface (CVSS 8,8) waarmee iemand zonder inlog handelingen kan doen.",
-    "SonicWall-apparaten zijn een geliefd doelwit. Dit jaar werden ook de SMA1000-apparaten van SonicWall meerdere keren via zero-days aangevallen. Voor vulnerability management geldt: een randapparaat dat op internet staat en op de KEV-lijst komt, gaat voor alles. Wie wil weten of hij al geraakt is, kijkt in de logs ook terug naar de tijd vóór de update."
-   ],
-   "key_facts": [
-    "CVE-2026-19868 (CVSS 7,1) is een omzeiling van de SSL-VPN-authenticatie: met geldige gegevens voor een andere inlogmethode kan een aanvaller de SAML-controle omzeilen, mogelijk inclusief via SAML afgedwongen MFA.",
-    "Alleen SSL-VPN-diensten die SAML gebruiken zijn getroffen; Ryan Harris van The Electronic Office meldde het lek.",
-    "SonicWall PSIRT onderzocht een melding van mogelijk misbruik; CISA zette het lek op de KEV-lijst met een deadline van 20 november 2026 voor Amerikaanse federale diensten.",
-    "Getroffen: SonicOS Gen7 7.3.3-7015 en eerder en Gen8 8.2.2-8015 en eerder; opgelost in 7.3.4-7013 en 8.2.3-8015. Er is geen workaround (advies SNWLID-2026-0014).",
-    "De update dicht zeven lekken, waaronder twee fouten in de beheerinterface (CVSS 8,8), buffer overflows vóór de inlog in SSL-VPN en TACACS+ die een storing kunnen veroorzaken, en zwakke wachtwoord-hashing in virtuele appliances.",
-    "Eerder dit jaar werden SonicWall SMA1000-apparaten aangevallen via zero-days (juli en september) en via CVE-2026-102255 (oktober)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "SSL-VPN",
-     "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
-    },
-    {
-     "term": "SAML",
-     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
-    },
-    {
-     "term": "MFA",
-     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
-    },
-    {
-     "term": "lokale accounts",
-     "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    },
-    {
-     "term": "zero-days",
-     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
-   },
-   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
    "region": "world"
   },
   {
@@ -2727,7 +2495,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -2825,7 +2593,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.38,
+    "recency": 0.36,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -2895,101 +2663,146 @@
    "region": "world"
   },
   {
-   "id": "25c3eda20cfe",
-   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-05T12:08:54Z",
-   "fetched_at": "2026-11-05T18:27:30.712169Z",
-   "summary": "OpenAI beschrijft een proefopstelling waarin een nog niet uitgebracht AI-model lekken in de Linux-kernel zocht, naspeelde en uitbuitte. Dat leverde 948 werkende exploits voor rechtenverhoging op, voor ruim 1,2 miljoen dollar.",
-   "personal_relevance": "Klanten schuiven 'lokale' kernellekken vaak naar achteren. Dit onderzoek is een goede aanleiding om te bespreken hoe snel zij Linux-kernelupdates uitrollen en of ze rootprocessen op servers in de gaten houden.",
+   "id": "30b15a7c5706",
+   "title": "Shutting the Door on the XCPE Botnet",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+   "source_id": "google_threat_intel",
+   "published_at": "2026-11-02T14:00:00Z",
+   "fetched_at": "2026-11-03T21:07:38.601172Z",
+   "summary": "Google en partners hebben het XCPE-botnet ontmanteld. Volgens Google zat de achterdeur al in de fabriekssoftware van Android-tv-kastjes en zette de fabrikant die er zelf in om geld te verdienen.",
+   "personal_relevance": "Niet elk risico komt via een lek of een phishingmail: soms zit het al in het apparaat. Een goed voorbeeld om met klanten te praten over wat er onbeheerd in hun netwerk hangt.",
    "limitations": [
-    "De publicatie van OpenAI zelf is niet gelezen; de cijfers komen uit The Hacker News.",
-    "Het model heeft geen naam, en het artikel zegt niet welke Linux-distributie het betreft.",
-    "Of de exploits en patches al bij de kernelbeheerders liggen of openbaar worden, is niet bekend.",
-    "Het systeem werkte niet volledig zelfstandig: mensen controleerden en stuurden bij.",
-    "OpenAI heeft er belang bij de kracht van zijn modellen te laten zien."
+    "Google noemt geen merken, modellen of verdeling per land; onbekend is of er ook in Nederland apparaten besmet zijn.",
+    "Het getal van 10 miljoen extra apparaten is een schatting van Google.",
+    "Een reactie van Videostrong staat niet in de bron.",
+    "De precieze datum van de actie en de rechtbank worden niet genoemd."
+   ],
+   "official_docs": [
+    {
+     "label": "Google Threat Intelligence: Shutting the Door on the XCPE Botnet",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    }
    ],
    "topics": [
-    "attack_techniques",
-    "vulnerabilities_cve",
-    "vulnerability_management"
+    "threat_intelligence",
+    "supply_chain",
+    "malware"
    ],
    "groups": [
-    "aanvallen",
-    "kwetsbaarheden",
-    "vm"
+    "ti",
+    "web",
+    "aanvallen"
    ],
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.75,
-    "source": 0.68,
-    "quality": 0.63,
+    "recency": 0.63,
+    "source": 0.8,
+    "quality": 0.7,
     "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:30:40Z",
-   "reading_minutes": 4,
+   "processed_at": "2026-11-03T21:37:00Z",
+   "reading_minutes": 5,
    "format_version": 2,
-   "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
+   "headline": "Fabrikant bouwde achterdeur in 1,3 miljoen tv-kastjes, zegt Google",
    "story": [
-    "OpenAI heeft een proefopstelling beschreven waarin een nog niet uitgebracht AI-model naar lekken in de Linux-kernel zocht. Het systeem bekeek 2.308 mogelijke fouten en speelde er 1.724 na. Het schreef 948 werkende exploits voor rechtenverhoging (local privilege escalation) op een veelgebruikte Linux-distributie. De rekenkosten waren ruim 1,2 miljoen dollar, ongeveer 1.279 dollar per exploit.",
-    "Wat is rechtenverhoging? Op Linux heeft elke gebruiker beperkte rechten. Alleen root, de hoogste beheerder, mag alles. De kernel is het hart van het besturingssysteem en bewaakt die grens. Een fout in de kernel kan een gewone gebruiker toch root maken. Zo'n lek is 'lokaal': de aanvaller moet al op het systeem zijn, bijvoorbeeld via een gestolen account of een lek in een webapplicatie. Het is de stap van een beetje toegang naar volledige controle.",
-    "De opstelling werkte in vijf stappen. AI-agenten kozen code die gewone gebruikers kunnen bereiken en zochten daar fouten. Ze speelden elke fout na in een afgeschermde testomgeving (sandbox) en bekeken of die tot rechtenverhoging leidde. Daarna schreven ze een proof of concept en een reparatie. Tot slot controleerden mensen de exploit, de patch en de ernst, voordat iets naar de beheerders van de kernel gaat. Volgens OpenAI vond het systeem ook minstens tien nieuwe aanvalstechnieken.",
-    "Wat betekent dit voor verdediging? OpenAI zegt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root, tegenover een aanvaller met veel middelen. Kernelupdates zijn dus belangrijker dan het label 'lokaal' doet denken. Detectie draait vooral om gedrag: een proces van een gewone gebruiker dat ineens als root draait, is verdacht. EDR op Linux-servers kan zulk gedrag zien.",
-    "Het past in een bredere trend. Volgens cijfers van Google Threat Intelligence Group in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 in januari naar 10.740 in augustus 2026. Het Britse NCSC verwacht dat AI ook verdedigers sneller kan maken, maar alleen als ze de tools goed inzetten. Of en wanneer deze 948 lekken openbaar worden, staat niet in het artikel."
+    "Google en partners hebben eind oktober de XCPE-achterdeur uitgeschakeld. Die had ruim 1,3 miljoen apparaten in een botnet opgenomen, vooral Android-tv-kastjes, maar ook digitale reclameborden en karaoke-apparaten. Door ook de infrastructuur van andere criminelen aan te pakken, verliezen die volgens Google de toegang tot nog minstens 10 miljoen besmette apparaten.",
+    "Google schat met grote zekerheid in dat de fabrikant Videostrong de achterdeur zelf heeft ontwikkeld en gebruikt om geld te verdienen. Volgens Google ging het niet om één kwaadwillende medewerker of een vergissing. Google heeft de banden met Videostrong verbroken."
    ],
    "key_facts": [
-    "OpenAI beschreef op 4 november 2026 een pijplijn met een nog niet uitgebracht, op cybersecurity gericht AI-model (The Hacker News, 5 november).",
-    "De pijplijn analyseerde 2.308 mogelijke kernelfouten, speelde er 1.724 na en maakte 948 werkende LPE-exploits voor een veelgebruikte Linux-distributie, plus 291 proof-of-concepts voor informatielekken.",
-    "De totale API-kosten waren 1.213.430 dollar, ongeveer 1.279 dollar per LPE-exploit; de titel van het artikel spreekt van een run van 30 uur.",
-    "Vijf stappen: fouten zoeken, naspelen in een sandbox, beoordelen op misbruikbaarheid met een proof of concept, een patch schrijven en controle door mensen voordat iets naar de beheerders gaat.",
-    "OpenAI noemt minstens tien nieuwe exploitatietechnieken en stelt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root voor een aanvaller met veel middelen.",
-    "Volgens GTIG-cijfers in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 (januari 2026) naar 10.740 (augustus 2026)."
+    "Google en partners ontmantelden eind oktober 2026 de XCPE-achterdeur, die ruim 1,3 miljoen apparaten in een botnet had opgenomen (Google Threat Intelligence, 2 november 2026).",
+    "Volgens Google verliezen andere criminelen hierdoor de toegang tot naar schatting minstens 10 miljoen extra besmette apparaten.",
+    "Google schat met grote zekerheid in dat Videostrong Technology Co. de achterdeur bewust ontwikkelde en gebruikte voor geldelijk gewin.",
+    "De achterdeur zat voorgeïnstalleerd in de systeempartitie van de firmware en laadde de kwaadaardige code pas na de eerste keer opstarten.",
+    "Partners waren onder meer de Japanse nationale politie, Lumen, HUMAN Security, Plume, Synthient en TrendAI.",
+    "Google verbrak de banden met Videostrong en sloot het bedrijf uit van het maken van gecertificeerde Android-apparaten."
    ],
    "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
-    "language": "log",
-    "code": "type=SYSCALL msg=audit(1794016801.123:4512): arch=c000003e syscall=59 success=yes exit=0 ppid=2210 pid=2245 auid=4294967295 uid=33 gid=33 euid=0 egid=0 comm=\"sh\" exe=\"/usr/bin/dash\" key=\"priv_esc\"",
-    "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
-   },
    "terms": [
     {
-     "term": "kernel",
-     "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."
+     "term": "botnet",
+     "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen."
     },
     {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+     "term": "firmware",
+     "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen."
     },
     {
-     "term": "rechtenverhoging",
-     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
     },
     {
-     "term": "sandbox",
-     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+     "term": "residential proxy",
+     "explanation": "Een dienst die internetverkeer van anderen via gewone thuisaansluitingen stuurt. Zo lijkt het verkeer van een normaal huishouden te komen."
     },
     {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+     "term": "C2",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
     },
     {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
     }
    ],
-   "learning": "Aanvalstechnieken uitgelegd",
    "soort": "onderzoek",
    "fit": {
     "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."
+    "why": "Nog geen duimpjes; onderzoek naar malware via de toeleveringsketen, minder over bedrijfssoftware."
    },
-   "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
+   "sections": [
+    {
+     "heading": "Wat is de technologie?",
+     "paragraphs": [
+      "Veel goedkope Android-apparaten worden niet door het merk zelf gemaakt, maar door een ontwerper en fabrikant op de achtergrond (een ODM). Die levert ook de firmware: de basissoftware die al op het apparaat staat als je het uitpakt.",
+      "Google test zulke apparaten voordat ze als gecertificeerd Android-apparaat mogen worden verkocht. Videostrong gebruikte volgens Google verhullingstechnieken om een gat in die tests te benutten: de kwaadaardige code werd pas geladen nadat het apparaat de eerste keer was opgestart."
+     ]
+    },
+    {
+     "heading": "Wat gaat er technisch fout?",
+     "paragraphs": [
+      "Hier is geen lek misbruikt. De achterdeur zat al in de systeempartitie van de firmware, met systeemrechten. Dit is een aanval via de toeleveringsketen (supply chain): het product is al besmet voordat de klant het koopt.",
+      "Dat maakt het zo lastig. De gebruiker kan de achterdeur niet verwijderen: na het wissen zet het apparaat hem bij de volgende herstart terug uit een beschermde map. Sinds augustus 2026 zag Google ook varianten die zich via een debugverbinding diep in het systeem nestelen en hun tijdstempels vervalsen."
+     ]
+    },
+    {
+     "heading": "Hoe kan een aanvaller dit misbruiken?",
+     "paragraphs": [
+      "De achterdeur werkt in drie stappen. Eerst neemt hij contact op met een commandoserver (C2) en houdt die verbinding open. Dan laadt een tweede onderdeel opdrachten en modules binnen. De derde stap zijn de modules die geld opleveren.",
+      "Volgens Google kon de achterdeur stilletjes apps installeren, de beveiligingscontrole Play Protect uitzetten, opdrachten uitvoeren, het scherm vastleggen en het lokale netwerk scannen. Hij verzamelde ook account- en apparaatgegevens.",
+      "Het geld kwam vooral uit twee bronnen. Het apparaat werd een residential proxy: anderen stuurden hun internetverkeer via jouw thuisaansluiting. En het apparaat deed advertentiefraude. Toegang tot de apparaten werd ook doorverkocht aan andere criminelen."
+     ]
+    },
+    {
+     "heading": "Wat is de mogelijke impact?",
+     "paragraphs": [
+      "Voor de eigenaar: zijn internetaansluiting wordt gebruikt door onbekenden, en het apparaat kan zijn thuis- of bedrijfsnetwerk verkennen. Kwaadaardig verkeer lijkt dan van zijn adres te komen.",
+      "Voor organisaties: zulke apparaten staan ook op kantoren, in wachtkamers en als reclamescherm. Een besmet apparaat in het bedrijfsnetwerk is een onbewaakt startpunt, want er draait geen EDR op."
+     ]
+    },
+    {
+     "heading": "Hoe zie je dit?",
+     "paragraphs": [
+      "Google noemt netwerksignalen: een vaste verbinding via het berichtenprotocol MQTT op ongebruikelijke poorten (3885 tot 3887) en HTTP-verkeer naar poort 8000. Dat is in firewall- of netwerklogs te zien, ook als het apparaat zelf niets logt.",
+      "Op het apparaat zelf: een app die terugkomt na verwijderen, uitgeschakelde Play Protect-controle en nieuwe bestanden in systeemmappen. Google publiceerde ook indicatoren (IOC's) zoals hashes en domeinen."
+     ]
+    },
+    {
+     "heading": "Hoe voorkom je dit?",
+     "paragraphs": [
+      "Koop apparaten van bekende fabrikanten; Google houdt een lijst met Android TV-partners bij. Laat Play Protect aanstaan en wees wantrouwig bij apps die geld bieden voor je 'ongebruikte bandbreedte'.",
+      "Zet slimme apparaten zoals schermen en mediaspelers in een apart netwerksegment, zonder toegang tot werkplekken en servers. Dan kan een besmet apparaat weinig kwaad in het bedrijfsnetwerk."
+     ]
+    }
+   ],
+   "customer_questions": [
+    "Weten jullie welke slimme apparaten (schermen, mediaspelers, camera's) in jullie netwerk hangen?",
+    "Staan die apparaten in een apart netwerksegment?",
+    "Ziet jullie monitoring het als een apparaat een vaste verbinding opzet naar een onbekende server op een ongebruikelijke poort?"
+   ],
+   "takeaway": "Bij een supply-chain-aanval is het product al besmet vóór de koop, en kan de gebruiker de malware niet verwijderen. Netwerksegmentatie en het bekijken van uitgaand verkeer zijn dan de belangrijkste verdediging.",
    "region": "world"
   },
   {
@@ -3019,7 +2832,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.79,
+    "recency": 0.76,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -3105,6 +2918,95 @@
    "region": "world"
   },
   {
+   "id": "ff63fc905db0",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-07T00:00:55Z",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "summary": "SonicWall dicht zeven lekken in SonicOS. Eén ervan, CVE-2026-19868, wordt al misbruikt: wie geldige gegevens voor een andere inlogmethode heeft, komt langs de SAML-controle van de SSL-VPN.",
+   "personal_relevance": "Veel klanten gebruiken SonicWall-vpn's met MFA en voelen zich daardoor veilig. Een goede vraag: gebruiken jullie SAML op de SSL-VPN, staan er nog lokale accounts op de firewall en is de update al geïnstalleerd?",
+   "limitations": [
+    "SonicWall deelt geen details over het misbruik: niet wie, niet hoeveel organisaties en niet hoe de aanvallers aan geldige inloggegevens kwamen.",
+    "Welke 'andere inlogmethode' precies bedoeld wordt, staat niet in het artikel; de technische werking is alleen op hoofdlijnen bekend.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit BleepingComputer."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "edge_devices",
+    "phishing_identity"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 86,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.78,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:30:20Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
+   "story": [
+    "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS, de software van zijn firewalls. Eén lek, CVE-2026-19868, wordt al misbruikt. SonicWall onderzocht een melding van mogelijk misbruik en vraagt klanten zo snel mogelijk te updaten. CISA zette het lek op de KEV-lijst. Amerikaanse overheidsdiensten moeten het uiterlijk 20 november oplossen.",
+    "Eerst de normale werking. Via de SSL-VPN van een SonicWall-firewall loggen medewerkers van buiten in op het bedrijfsnetwerk. Veel organisaties laten die inlog via SAML lopen. Dan controleert niet de firewall zelf wie je bent, maar een centrale inlogdienst, vaak met MFA. De firewall vertrouwt op het antwoord van die dienst. Daarnaast kan een firewall nog andere inlogmethodes kennen, zoals lokale accounts.",
+    "Hier gaat het mis. Volgens SonicWall kan een aanvaller met geldige gegevens voor een andere inlogmethode langs de SAML-controle komen. Daarmee omzeilt hij mogelijk ook de MFA die via SAML wordt afgedwongen. Alleen SSL-VPN's die SAML gebruiken zijn kwetsbaar. De aanvaller heeft dus wel al een geldig wachtwoord nodig; dat verklaart de CVSS-score van 7,1. Toch is het ernstig: juist MFA moest een gestolen wachtwoord onschadelijk maken.",
+    "Er is geen tijdelijke oplossing; alleen updaten helpt. Gen7 moet naar 7.3.4-7013 of later, Gen8 naar 8.2.3-8015 of later. Algemene tips voor de logs: zoek naar vpn-inlogs die niet via SAML liepen bij gebruikers die altijd via SAML inloggen, en ruim lokale accounts op de firewall op. Bij de andere zes lekken zitten twee fouten in de beheerinterface (CVSS 8,8) waarmee iemand zonder inlog handelingen kan doen.",
+    "SonicWall-apparaten zijn een geliefd doelwit. Dit jaar werden ook de SMA1000-apparaten van SonicWall meerdere keren via zero-days aangevallen. Voor vulnerability management geldt: een randapparaat dat op internet staat en op de KEV-lijst komt, gaat voor alles. Wie wil weten of hij al geraakt is, kijkt in de logs ook terug naar de tijd vóór de update."
+   ],
+   "key_facts": [
+    "CVE-2026-19868 (CVSS 7,1) is een omzeiling van de SSL-VPN-authenticatie: met geldige gegevens voor een andere inlogmethode kan een aanvaller de SAML-controle omzeilen, mogelijk inclusief via SAML afgedwongen MFA.",
+    "Alleen SSL-VPN-diensten die SAML gebruiken zijn getroffen; Ryan Harris van The Electronic Office meldde het lek.",
+    "SonicWall PSIRT onderzocht een melding van mogelijk misbruik; CISA zette het lek op de KEV-lijst met een deadline van 20 november 2026 voor Amerikaanse federale diensten.",
+    "Getroffen: SonicOS Gen7 7.3.3-7015 en eerder en Gen8 8.2.2-8015 en eerder; opgelost in 7.3.4-7013 en 8.2.3-8015. Er is geen workaround (advies SNWLID-2026-0014).",
+    "De update dicht zeven lekken, waaronder twee fouten in de beheerinterface (CVSS 8,8), buffer overflows vóór de inlog in SSL-VPN en TACACS+ die een storing kunnen veroorzaken, en zwakke wachtwoord-hashing in virtuele appliances.",
+    "Eerder dit jaar werden SonicWall SMA1000-apparaten aangevallen via zero-days (juli en september) en via CVE-2026-102255 (oktober)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SSL-VPN",
+     "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
+    },
+    {
+     "term": "SAML",
+     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "lokale accounts",
+     "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "zero-days",
+     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
+   },
+   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
+   "region": "world"
+  },
+  {
    "id": "580236cbddf9",
    "title": "ARMORY CASTLE Exploits BeyondTrust",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
@@ -3133,7 +3035,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.27,
+    "recency": 0.26,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -3235,7 +3137,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.34,
+    "recency": 0.33,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.1
@@ -3327,7 +3229,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.35,
+    "recency": 0.33,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -3425,7 +3327,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.53,
+    "recency": 0.51,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -3522,7 +3424,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.69,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -3619,7 +3521,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.71,
+    "recency": 0.69,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -3721,7 +3623,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.69,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -3781,85 +3683,6 @@
    "region": "world"
   },
   {
-   "id": "201b2063f67c",
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-04T16:00:18Z",
-   "fetched_at": "2026-11-05T01:23:20.052203Z",
-   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
-   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
-   "limitations": [
-    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
-    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
-    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
-    "mSeven reageerde niet op vragen van BleepingComputer."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "aanvallen"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.72,
-    "source": 0.68,
-    "quality": 0.55,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-05T01:41:39Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
-   "story": [
-    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
-    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
-    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
-    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
-   ],
-   "key_facts": [
-    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
-    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
-    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
-    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
-    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "passkeys",
-     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
-    },
-    {
-     "term": "AES-256",
-     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
-    },
-    {
-     "term": "zero-knowledge",
-     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
-    },
-    {
-     "term": "offline kraken",
-     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
-   },
-   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
-   "region": "na"
-  },
-  {
    "id": "987ba3712202",
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -3887,7 +3710,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.72,
+    "recency": 0.7,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -3983,7 +3806,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.71,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -4053,6 +3876,104 @@
    "region": "na"
   },
   {
+   "id": "25c3eda20cfe",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-05T12:08:54Z",
+   "fetched_at": "2026-11-05T18:27:30.712169Z",
+   "summary": "OpenAI beschrijft een proefopstelling waarin een nog niet uitgebracht AI-model lekken in de Linux-kernel zocht, naspeelde en uitbuitte. Dat leverde 948 werkende exploits voor rechtenverhoging op, voor ruim 1,2 miljoen dollar.",
+   "personal_relevance": "Klanten schuiven 'lokale' kernellekken vaak naar achteren. Dit onderzoek is een goede aanleiding om te bespreken hoe snel zij Linux-kernelupdates uitrollen en of ze rootprocessen op servers in de gaten houden.",
+   "limitations": [
+    "De publicatie van OpenAI zelf is niet gelezen; de cijfers komen uit The Hacker News.",
+    "Het model heeft geen naam, en het artikel zegt niet welke Linux-distributie het betreft.",
+    "Of de exploits en patches al bij de kernelbeheerders liggen of openbaar worden, is niet bekend.",
+    "Het systeem werkte niet volledig zelfstandig: mensen controleerden en stuurden bij.",
+    "OpenAI heeft er belang bij de kracht van zijn modellen te laten zien."
+   ],
+   "topics": [
+    "attack_techniques",
+    "vulnerabilities_cve",
+    "vulnerability_management"
+   ],
+   "groups": [
+    "aanvallen",
+    "kwetsbaarheden",
+    "vm"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.72,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:30:40Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
+   "story": [
+    "OpenAI heeft een proefopstelling beschreven waarin een nog niet uitgebracht AI-model naar lekken in de Linux-kernel zocht. Het systeem bekeek 2.308 mogelijke fouten en speelde er 1.724 na. Het schreef 948 werkende exploits voor rechtenverhoging (local privilege escalation) op een veelgebruikte Linux-distributie. De rekenkosten waren ruim 1,2 miljoen dollar, ongeveer 1.279 dollar per exploit.",
+    "Wat is rechtenverhoging? Op Linux heeft elke gebruiker beperkte rechten. Alleen root, de hoogste beheerder, mag alles. De kernel is het hart van het besturingssysteem en bewaakt die grens. Een fout in de kernel kan een gewone gebruiker toch root maken. Zo'n lek is 'lokaal': de aanvaller moet al op het systeem zijn, bijvoorbeeld via een gestolen account of een lek in een webapplicatie. Het is de stap van een beetje toegang naar volledige controle.",
+    "De opstelling werkte in vijf stappen. AI-agenten kozen code die gewone gebruikers kunnen bereiken en zochten daar fouten. Ze speelden elke fout na in een afgeschermde testomgeving (sandbox) en bekeken of die tot rechtenverhoging leidde. Daarna schreven ze een proof of concept en een reparatie. Tot slot controleerden mensen de exploit, de patch en de ernst, voordat iets naar de beheerders van de kernel gaat. Volgens OpenAI vond het systeem ook minstens tien nieuwe aanvalstechnieken.",
+    "Wat betekent dit voor verdediging? OpenAI zegt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root, tegenover een aanvaller met veel middelen. Kernelupdates zijn dus belangrijker dan het label 'lokaal' doet denken. Detectie draait vooral om gedrag: een proces van een gewone gebruiker dat ineens als root draait, is verdacht. EDR op Linux-servers kan zulk gedrag zien.",
+    "Het past in een bredere trend. Volgens cijfers van Google Threat Intelligence Group in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 in januari naar 10.740 in augustus 2026. Het Britse NCSC verwacht dat AI ook verdedigers sneller kan maken, maar alleen als ze de tools goed inzetten. Of en wanneer deze 948 lekken openbaar worden, staat niet in het artikel."
+   ],
+   "key_facts": [
+    "OpenAI beschreef op 4 november 2026 een pijplijn met een nog niet uitgebracht, op cybersecurity gericht AI-model (The Hacker News, 5 november).",
+    "De pijplijn analyseerde 2.308 mogelijke kernelfouten, speelde er 1.724 na en maakte 948 werkende LPE-exploits voor een veelgebruikte Linux-distributie, plus 291 proof-of-concepts voor informatielekken.",
+    "De totale API-kosten waren 1.213.430 dollar, ongeveer 1.279 dollar per LPE-exploit; de titel van het artikel spreekt van een run van 30 uur.",
+    "Vijf stappen: fouten zoeken, naspelen in een sandbox, beoordelen op misbruikbaarheid met een proof of concept, een patch schrijven en controle door mensen voordat iets naar de beheerders gaat.",
+    "OpenAI noemt minstens tien nieuwe exploitatietechnieken en stelt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root voor een aanvaller met veel middelen.",
+    "Volgens GTIG-cijfers in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 (januari 2026) naar 10.740 (augustus 2026)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
+    "language": "log",
+    "code": "type=SYSCALL msg=audit(1794016801.123:4512): arch=c000003e syscall=59 success=yes exit=0 ppid=2210 pid=2245 auid=4294967295 uid=33 gid=33 euid=0 egid=0 comm=\"sh\" exe=\"/usr/bin/dash\" key=\"priv_esc\"",
+    "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
+   },
+   "terms": [
+    {
+     "term": "kernel",
+     "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "rechtenverhoging",
+     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+     "term": "sandbox",
+     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."
+   },
+   "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
+   "region": "world"
+  },
+  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -4079,7 +4000,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.2,
+    "recency": 0.19,
     "source": 1.0,
     "quality": 0.72,
     "fit": 0.1
@@ -4146,34 +4067,26 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "62c945c0e6fb",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "id": "201b2063f67c",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
    "source_id": "bleepingcomputer",
-   "published_at": "2026-11-03T21:28:44Z",
-   "fetched_at": "2026-11-03T21:31:41.029642Z",
-   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
-   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "published_at": "2026-11-04T16:00:18Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "De maker van mSecure vraagt huidige en oud-klanten hun wachtwoorden te wijzigen, tweestapsverificatie opnieuw in te stellen en passkeys te verwijderen. Volgens de klantenservice werd een versleutelde database gestolen.",
+   "personal_relevance": "Klanten vragen vaak of een gelekte, versleutelde kluis erg is. Het antwoord hangt af van de sterkte van de hoofdwachtwoorden; dat is een goede vraag om terug te stellen.",
    "limitations": [
-    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
-    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
-    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
-    "Het onderzoek loopt nog."
-   ],
-   "official_docs": [
-    {
-     "label": "WorkOS: securitybulletin 30 oktober 2026",
-     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
-    }
+    "De diefstal van de database staat niet in de officiële melding; het komt uit antwoorden van de klantenservice die klanten deelden.",
+    "Hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft, is onbekend.",
+    "Waarom ook passkeys verwijderd moeten worden, legt mSeven niet uit.",
+    "mSeven reageerde niet op vragen van BleepingComputer."
    ],
    "topics": [
     "incidents_breaches",
-    "threat_intelligence",
     "phishing_identity"
    ],
    "groups": [
     "incidenten",
-    "ti",
     "aanvallen"
    ],
    "relevance_score": 84,
@@ -4181,70 +4094,55 @@
     "topic": 1.0,
     "recency": 0.69,
     "source": 0.68,
-    "quality": 0.53,
+    "quality": 0.55,
     "region": 0.01,
     "fit": 0.0
    },
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
+   "processed_at": "2026-11-05T01:41:39Z",
    "reading_minutes": 3,
    "format_version": 2,
-   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "headline": "Wachtwoordmanager mSecure meldt aanval: klanten moeten alles resetten",
    "story": [
-    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
-    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
-    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
-    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+    "mSeven Software, maker van de wachtwoordmanager mSecure, waarschuwde op 3 november 2026 huidige en oud-klanten. Het bedrijf zag verdachte activiteit en doet onderzoek met externe specialisten. Klanten moeten hun wachtwoorden wijzigen, hun tweestapsverificatie opnieuw instellen en hun passkeys verwijderen. Volgens antwoorden van de klantenservice, die klanten deelden, stal een aanvaller een versleutelde database uit mSecure Cloud. Dat staat niet in de officiële melding.",
+    "Hoe werkt een wachtwoordmanager? Al je wachtwoorden staan in een kluis. mSecure versleutelt die kluis met AES-256 op je eigen apparaat, voordat hij naar de cloud gaat. Dat heet zero-knowledge: het bedrijf heeft de sleutel niet en kan je kluis dus niet lezen. Bij zulke wachtwoordmanagers hangt die sleutel meestal af van je hoofdwachtwoord.",
+    "Waarom dan toch alles resetten? Een gestolen versleutelde kluis kan een aanvaller op zijn eigen computers proberen te kraken, zonder dat iemand het ziet. Dat heet offline kraken. Bij een sterk hoofdwachtwoord is dat praktisch onbegonnen werk, bij een zwak wachtwoord kan het lukken. BleepingComputer wijst op LastPass in 2022: gestolen kluisback-ups werden later in verband gebracht met diefstal van cryptovaluta.",
+    "Veel is nog onbekend: hoe de aanvaller binnenkwam, welke systemen geraakt zijn en hoeveel gebruikers het betreft. Volgens de klantenservice gaat het alleen om gebruikers die via mSecure Cloud synchroniseerden, en is er geen bewijs dat de inhoud is gelezen. Voor organisaties is de les: zero-knowledge beschermt de kluis, maar het hoofdwachtwoord is de laatste verdedigingslinie."
    ],
    "key_facts": [
-    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
-    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
-    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
-    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
-    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
-    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+    "mSeven Software stuurde op 3 november 2026 een beveiligingsmelding aan huidige en oud-klanten van mSecure.",
+    "Het bedrijf meldt verdachte activiteit, een onderzoek, maatregelen en de inzet van externe cybersecurityspecialisten.",
+    "Advies aan klanten: wachtwoorden wijzigen, tweestapsverificatie opnieuw instellen en bestaande passkeys verwijderen.",
+    "Volgens door klanten gedeelde antwoorden van de klantenservice werd een versleutelde database uit mSecure Cloud gestolen, gaat het alleen om gebruikers van mSecure Cloud en is er geen bewijs dat de inhoud is ingezien.",
+    "mSecure versleutelt volgens eigen documentatie met AES-256 op het apparaat (zero-knowledge)."
    ],
    "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
-    "language": "log",
-    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
-   },
    "terms": [
     {
-     "term": "single sign-on",
-     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+     "term": "passkeys",
+     "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk."
     },
     {
-     "term": "AI-agent",
-     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+     "term": "AES-256",
+     "explanation": "Een veelgebruikte, sterke versleutelingsmethode. Zonder de juiste sleutel is versleutelde data in de praktijk niet te lezen."
     },
     {
-     "term": "penetratietesten",
-     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+     "term": "zero-knowledge",
+     "explanation": "Een opzet waarbij gegevens op je eigen apparaat worden versleuteld, zodat de dienstverlener ze zelf niet kan lezen."
     },
     {
-     "term": "user agent",
-     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
-    },
-    {
-     "term": "social engineering",
-     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
-    },
-    {
-     "term": "CRM",
-     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+     "term": "offline kraken",
+     "explanation": "Een gestolen versleuteld bestand op eigen computers proberen te openen door heel veel wachtwoorden te proberen, buiten het zicht van het slachtoffer."
     }
    ],
    "soort": "incident",
    "fit": {
     "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+    "why": "Nog geen duimpjes; een incident met een korte uitleg van versleuteling, neutraal ingeschat."
    },
-   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "takeaway": "Versleuteling op je eigen apparaat (zero-knowledge) betekent dat de leverancier je kluis niet kan lezen. Wordt de kluis gestolen, dan kan een aanvaller hem wel ongestoord offline proberen te kraken; een sterk hoofdwachtwoord is dan je bescherming.",
    "region": "na"
   },
   {
@@ -4279,7 +4177,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.27,
+    "recency": 0.26,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -4376,7 +4274,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.34,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -4471,7 +4369,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.36,
+    "recency": 0.35,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -4572,7 +4470,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.48,
+    "recency": 0.46,
     "source": 0.68,
     "quality": 0.65,
     "fit": 0.05
@@ -4637,6 +4535,108 @@
    "region": "world"
   },
   {
+   "id": "62c945c0e6fb",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-03T21:28:44Z",
+   "fetched_at": "2026-11-03T21:31:41.029642Z",
+   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
+   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "limitations": [
+    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
+    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
+    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
+    "Het onderzoek loopt nog."
+   ],
+   "official_docs": [
+    {
+     "label": "WorkOS: securitybulletin 30 oktober 2026",
+     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+    }
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 83,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.67,
+    "source": 0.68,
+    "quality": 0.53,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "story": [
+    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
+    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
+    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
+    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+   ],
+   "key_facts": [
+    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
+    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
+    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
+    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
+    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
+    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
+    "language": "log",
+    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
+   },
+   "terms": [
+    {
+     "term": "single sign-on",
+     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "penetratietesten",
+     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    },
+    {
+     "term": "social engineering",
+     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
+    },
+    {
+     "term": "CRM",
+     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+   },
+   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "region": "na"
+  },
+  {
    "id": "5c07cdbef377",
    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
    "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
@@ -4665,7 +4665,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.17,
+    "recency": 0.16,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -4858,7 +4858,7 @@
    "relevance_score": 79,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.73,
+    "recency": 0.7,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -7844,36 +7844,36 @@
   "tomasr91"
  ],
  "quality_report": {
-  "fetched_items": 320,
-  "unique_after_dedupe": 501,
+  "fetched_items": 310,
+  "unique_after_dedupe": 556,
   "merged_duplicates": 1,
   "shown": 43,
   "decisions": {
-   "included": 204,
-   "below_threshold": 133,
-   "no_topic": 126,
-   "excluded": 38
+   "included": 224,
+   "below_threshold": 145,
+   "no_topic": 142,
+   "excluded": 45
   },
   "processing": {
    "enriched": 43
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 12,
    "detectie": 5,
+   "kwetsbaarheden": 12,
    "incidenten": 9,
    "aanvallen": 9,
    "ti": 5,
    "vm": 3
   },
   "per_source": {
-   "the_hacker_news": 9,
    "datadog_security_labs": 1,
+   "the_hacker_news": 9,
    "bleepingcomputer": 6,
    "security_nl": 2,
-   "huntress_blog": 4,
    "unit42": 5,
    "google_threat_intel": 5,
+   "huntress_blog": 4,
    "divd": 1,
    "microsoft_threat_intel": 4,
    "cisco_talos": 3,
@@ -7936,7 +7936,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 294
+   "skipped_no_key": 326
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -7949,10 +7949,48 @@
   "max_per_source": 12,
   "not_shown": [
    {
+    "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+    "relevance_score": 91,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0482 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Photoshop Desktop",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0482",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0481 [1.00] [M/H] Kwetsbaarheden verholpen in Adobe Experience Manager",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0481",
+    "relevance_score": 89,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -7962,7 +8000,7 @@
     "title": "NCSC-2026-0477 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Exchange server",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0477",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -7972,7 +8010,7 @@
     "title": "NCSC-2026-0476 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft SQL Server",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0476",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -7982,7 +8020,7 @@
     "title": "NCSC-2026-0475 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Azure",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0475",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -7992,7 +8030,7 @@
     "title": "NCSC-2026-0474 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Office",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0474",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -8002,7 +8040,7 @@
     "title": "NCSC-2026-0473 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Developer Tools",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0473",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -8012,7 +8050,17 @@
     "title": "NCSC-2026-0472 [1.00] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0472",
-    "relevance_score": 89,
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0478 [1.00] [M/H] Kwetsbaarheden verholpen in N-able N-central",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0478",
+    "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -8022,7 +8070,7 @@
     "title": "SonicWall waarschuwt voor lek waarmee aanvallers MFA van SSL-VPN omzeilen",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960763/SonicWall+waarschuwt+voor+lek+waarmee+aanvallers+MFA+van+SSL-VPN+omzeilen?channel=rss",
-    "relevance_score": 89,
+    "relevance_score": 88,
     "decision": "included",
     "excluded_by": []
    },
@@ -8030,39 +8078,19 @@
     "title": "NCSC-2026-0471 [1.00] [M/H] Kwetsbaarheden verholpen in SonicOS van SonicWall",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0471",
-    "relevance_score": 88,
+    "relevance_score": 87,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
    },
    {
-    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "source_id": "microsoft_threat_intel",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
     "relevance_score": 85,
     "decision": "included",
     "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
-    "relevance_score": 85,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
-    "relevance_score": 85,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
    },
    {
     "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
@@ -8075,6 +8103,14 @@
     ]
    },
    {
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0416",
@@ -8083,9 +8119,9 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
+    "title": "NCSC-2026-0466 [1.00] [L/H] Kwetsbaarheid verholpen in WordPress Core",
     "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0466",
     "relevance_score": 84,
     "decision": "excluded",
     "excluded_by": [
@@ -8093,36 +8129,64 @@
     ]
    },
    {
-    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "title": "NCSC-2026-0465 [1.00] [M/H] Kwetsbaarheden verholpen in Barracuda Email Security Gateway",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0465",
+    "relevance_score": 84,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+    "source_id": "huntress_blog",
+    "url": "https://www.huntress.com/blog/the-evolving-tradecraft-of-clickfix",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "title": "Baker Tilly notifies clients of data breach at third-party provider",
     "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-    "relevance_score": 83,
+    "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+    "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
     "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-    "relevance_score": 83,
+    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
    },
    {
-    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
     "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-    "relevance_score": 83,
+    "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+    "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
+   },
+   {
+    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+    "relevance_score": 84,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "NCSC-2026-0464 [1.00] [M/H] Kwetsbaarheid verholpen in LXD van Canonical",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0464",
+    "relevance_score": 83,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
@@ -8139,32 +8203,6 @@
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
-   },
-   {
-    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-    "relevance_score": 83,
-    "decision": "excluded",
-    "excluded_by": [
-     "roundups"
-    ]
    },
    {
     "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
@@ -8223,6 +8261,30 @@
     "excluded_by": []
    },
    {
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
@@ -8243,10 +8305,92 @@
     ]
    },
    {
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+    "relevance_score": 82,
+    "decision": "excluded",
+    "excluded_by": [
+     "roundups"
+    ]
+   },
+   {
+    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+    "source_id": "crowdstrike_blog",
+    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -8256,7 +8400,7 @@
     "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
@@ -8266,43 +8410,11 @@
     "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
-    "relevance_score": 82,
+    "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
-    "source_id": "crowdstrike_blog",
-    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0454 [1.00] [M/H] Kwetsbaarheden verholpen in HPE Networking AOS",
@@ -8315,25 +8427,17 @@
     ]
    },
    {
-    "title": "Microsoft publiceert wegens RCE-lek nieuwe versie Windows Paint",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/960761/Microsoft+publiceert+wegens+RCE-lek+nieuwe+versie+Windows+Paint?channel=rss",
-    "relevance_score": 81,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-    "relevance_score": 81,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+    "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
     "source_id": "securityweek",
-    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
@@ -8347,34 +8451,6 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0450 [1.00] [M/H] Kwetsbaarheden verholpen in Snort 3 van Cisco",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0450",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0447 [1.00] [M/H] Kwetsbaarheden verholpen in GitLab door GitLab Inc.",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0447",
-    "relevance_score": 80,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "'WordPress-lek misbruikt dat aanvaller tijdens het updaten admin maakt'",
     "source_id": "security_nl",
     "url": "https://www.security.nl/posting/960588/%27WordPress-lek+misbruikt+dat+aanvaller+tijdens+het+updaten+admin+maakt%27?channel=rss",
@@ -8383,25 +8459,9 @@
     "excluded_by": []
    },
    {
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "title": "Microsoft publiceert wegens RCE-lek nieuwe versie Windows Paint",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/960761/Microsoft+publiceert+wegens+RCE-lek+nieuwe+versie+Windows+Paint?channel=rss",
     "relevance_score": 80,
     "decision": "included",
     "excluded_by": []
@@ -8411,66 +8471,6 @@
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
     "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "relevance_score": 80,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0445 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Analytics",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0445",
-    "relevance_score": 79,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0444 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Communications",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0444",
-    "relevance_score": 79,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0443 [1.00] [H/H] Kwetsbaarheden verholpen in PHP",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0443",
-    "relevance_score": 79,
     "decision": "included",
     "excluded_by": []
    }
