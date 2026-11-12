@@ -1,0 +1,6 @@
+{
+  "article_id": "02a5d2234103",
+  "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+  "reason": "Lijst met patches zonder technische uitleg: Ivanti (13 lekken, waaronder CVE-2026-121653 en CVE-2026-121683 in EPM en CSA) en Citrix XenServer (6 lekken); het artikel legt niet uit hoe de fouten werken en Ivanti meldt geen misbruik.",
+  "checked_at": "2026-11-12T05:08:00Z"
+}

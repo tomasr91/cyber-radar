@@ -1,0 +1,92 @@
+{
+  "format_version": 2,
+  "article_id": "7bdf0c6dc5dc",
+  "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "headline": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT",
+  "summary": "Fortinet beschrijft PapRAT, nieuwe spionagemalware van de Zuid-Aziatische groep Bitter. De aanvallers komen binnen via snelkoppelingen en gebruiken vooral ingebouwde Windows-programma's, zodat er weinig verdachte bestanden zijn.",
+  "story": [
+    "Onderzoekers van Fortinet beschrijven een nieuwe campagne van Bitter, een spionagegroep uit Zuid-Azië die sinds minstens 2013 actief is. Nieuw is PapRAT, een RAT in twee versies: één in C++ en één in Rust. De doelwitten zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
+    "Hoe komen ze binnen? Fortinet zag drie routes, steeds met een bestand dat het slachtoffer zelf opent. Een LNK-bestand is een Windows-snelkoppeling: dubbelklikken start een programma, en de maker bepaalt welk. In één route zit de snelkoppeling in een VHDX, een virtuele schijf die Windows met een dubbelklik opent. Het slachtoffer ziet een Excel-lokdocument. Op de achtergrond installeert een MSI-pakket stil PapRAT.",
+    "Opvallend is de aanpak 'living off the land': zoveel mogelijk werken met programma's die al op Windows staan. In de eerste route komt er geen eigen malwarebestand aan te pas. De snelkoppeling start het ingebouwde ftp.exe, dat via de opdrachtregel een script draait. Dat script verzamelt mappen, bestanden, antivirusgegevens en schijven, stuurt het met curl weg en wist het daarna. Een geplande taak met een naam die op een Microsoft-update lijkt, zorgt dat het blijft terugkomen.",
+    "PapRAT zelf kan opdrachten uitvoeren, bestanden ophalen en wegzetten, mappen doorzoeken en schermafbeeldingen maken. De Rust-versie kan ook PowerShell draaien. De malware vraagt elke paar seconden bij zijn C2-server om nieuwe opdrachten. Via PapRAT haalden de aanvallers ook WmRAT binnen, een oudere RAT van Bitter.",
+    "Hoe zie je het? Fortinet raadt aan om niet alleen op bekende handtekeningen te letten, maar op gedrag: scripttools, geplande taken en installaties. In een SIEM vallen bijvoorbeeld op: ftp.exe dat de opdrachtregel start, msiexec dat stil iets installeert, en een computer die steeds met korte tussenpozen dezelfde server aanroept. Voor organisaties is de les dat een aanval zonder 'echte' malware op schijf alleen zichtbaar wordt als je logt wát programma's doen."
+  ],
+  "key_facts": [
+    "FortiGuard Labs (onderzoeker Cara Lin) publiceerde het onderzoek op 2 november 2026; The Hacker News schreef erover op 9 november 2026. Fortinet schrijft de campagne met hoge zekerheid toe aan Bitter (ook APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, TA397).",
+    "Bitter is volgens Fortinet een vermoedelijk Zuid-Aziatische spionagegroep, actief sinds minstens 2013; doelwitten in deze campagne zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
+    "Drie infectieketens: een LNK-bestand dat ftp.exe misbruikt om scripts te draaien en geplande taken te maken; een VHDX-schijfimage met een LNK, een lokspreadsheet en een MSI-installer; en een .url-bestand dat via WebDAV een LNK ophaalt die tot een MSI met PapRAT leidt.",
+    "PapRAT bestaat in C++ en Rust; de C++-versie heeft 8 opdrachten (o.a. shell, bestanden, schijven, screenshot, upload, download), de Rust-versie 11, waaronder PowerShell-uitvoering.",
+    "De C++-versie praat via onversleuteld HTTP met een vaste C2-server (elke 10 seconden); de Rust-versie via HTTPS (elke 5 seconden). Via PapRAT werd ook WmRAT gedownload.",
+    "Persistentie via geplande taken met namen die op Microsoft- of BIOS-updates lijken, met intervallen van 15, 30 of 49 minuten. Fortinet adviseert scripttools, geplande taken en installer-activiteit te bewaken en voorzichtig te zijn met onverwachte LNK-, URL-, schijfimage- en MSI-bestanden."
+  ],
+  "limitations": [
+    "Fortinet noemt geen specifieke landen of getroffen organisaties.",
+    "Hoe de bestanden bij de slachtoffers terechtkwamen (bijvoorbeeld per mail), staat niet precies in de bronnen.",
+    "De toeschrijving aan Bitter komt van Fortinet; Bitter wordt als Zuid-Aziatisch omschreven zonder een land te noemen.",
+    "Fortinet is een securityleverancier en noemt in het onderzoek ook eigen beschermingsproducten."
+  ],
+  "personal_relevance": "Klanten met detectie op basis van bekende malware vragen of dat genoeg is. Dit is een helder voorbeeld waarom detectie op gedrag nodig is: hier gebruikt de aanvaller vooral Windows' eigen programma's.",
+  "takeaway": "Bij 'living off the land' misbruikt een aanvaller ingebouwde programma's zoals ftp.exe, curl en geplande taken. Je herkent het niet aan een bestand, maar aan ongewoon gedrag: wie start wat, wanneer en hoe vaak.",
+  "region": "world",
+  "official_docs": [
+    {
+      "label": "FortiGuard Labs: BITTER Expands Its Arsenal with PapRAT",
+      "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    }
+  ],
+  "topics": [
+    "malware",
+    "attack_techniques",
+    "siem_detection",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.7,
+    "novelty": 0.6
+  },
+  "development_key": "bitter-paprat-fortinet-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; malware-onderzoek met een uitgewerkte infectieketen en detectie op gedrag."
+  },
+  "showcase": {
+    "caption": "Een eenvoudige Sigma-detectieregel voor één stap uit deze aanval. 'logsource' zegt dat we kijken naar het starten van processen op Windows. 'selection' zoekt een opdrachtregel (cmd.exe) waarvan het ouderproces ftp.exe is. Dat komt in normaal gebruik zelden voor; 'level: high' maakt er een melding met hoge prioriteit van.",
+    "language": "sigma",
+    "code": "title: Opdrachtregel gestart door ftp.exe\nstatus: experimental\ndescription: ftp.exe start zelden andere programma's; bij de PapRAT-campagne liep zo een script\nlogsource:\n  category: process_creation\n  product: windows\ndetection:\n  selection:\n    ParentImage|endswith: '\\ftp.exe'\n    Image|endswith: '\\cmd.exe'\n  condition: selection\nlevel: high",
+    "note": "Nagebouwde, vereenvoudigde regel op basis van de beschrijving van Fortinet; niet getest in een echte omgeving."
+  },
+  "terms": [
+    {
+      "term": "RAT",
+      "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken."
+    },
+    {
+      "term": "LNK-bestand",
+      "explanation": "Een Windows-snelkoppeling. Bij dubbelklikken start het een programma met opdrachten die de maker kiest, dus ook iets heel anders dan het pictogram doet vermoeden."
+    },
+    {
+      "term": "VHDX",
+      "explanation": "Een bestand dat een complete virtuele harde schijf bevat. Windows opent het met een dubbelklik als extra schijf, zodat de bestanden erin direct zichtbaar zijn."
+    },
+    {
+      "term": "MSI-pakket",
+      "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."
+    },
+    {
+      "term": "living off the land",
+      "explanation": "Een aanpak waarbij een aanvaller vooral programma's gebruikt die al op het systeem staan, zoals PowerShell of curl. Er is dan weinig eigen malware om te ontdekken."
+    },
+    {
+      "term": "geplande taak",
+      "explanation": "Een Windows-functie die een programma automatisch op vaste tijden start. Aanvallers gebruiken het om hun malware na een herstart weer te laten draaien."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-12T05:15:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

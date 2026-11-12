@@ -1,0 +1,7 @@
+{
+  "article_id": "44e55023f8aa",
+  "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als 7bb9dcd14586 (Patch Tuesday november 2026 met het misbruikte Outlook-lek CVE-2026-124194, vannacht al uitgelegd).",
+  "development_key": "patch-tuesday-nov-2026",
+  "checked_at": "2026-11-12T05:05:00Z"
+}

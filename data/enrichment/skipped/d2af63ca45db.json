@@ -1,0 +1,7 @@
+{
+  "article_id": "d2af63ca45db",
+  "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als cd6455aacef5 (misbruik van CVE-2026-20320 in Cisco BroadWorks en CVE-2026-111793 in Openwave, in deze run al uitgelegd).",
+  "development_key": "cve-2026-20320-cisco-broadworks",
+  "checked_at": "2026-11-12T05:05:00Z"
+}

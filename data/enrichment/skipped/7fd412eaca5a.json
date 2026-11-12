@@ -1,0 +1,7 @@
+{
+  "article_id": "7fd412eaca5a",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als a40dff3d749a (CVE-2026-123158, SSHole in OpenSSH, inclusief misbruik al op 7 november uitgelegd).",
+  "development_key": "cve-2026-123158-openssh-sshole",
+  "checked_at": "2026-11-12T05:05:00Z"
+}
