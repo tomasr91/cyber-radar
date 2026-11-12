@@ -1,0 +1,18 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-12T01:23:10Z",
+  "finished_at": "2026-11-12T01:41:07Z",
+  "status": "deels",
+  "summary": "Vers opgehaald; 3 artikelen uitgelegd (misbruikt Outlook-lek bij Patch Tuesday, nieuwe ClickFix-aanvalsketens en de achtste Chrome-zero-day), 7 overgeslagen, waarvan 2 zonder openen.",
+  "counts": {
+    "uitgelegd": 3,
+    "overgeslagen": 7,
+    "overgeslagen_zonder_openen": 2,
+    "niet_te_lezen": 2
+  },
+  "problems": [
+    "Directe links uit de werklijst konden niet worden geopend; elk artikel moest eerst via een zoekopdracht worden gevonden.",
+    "Het onderzoek van Microsoft over GSocket was niet via een zoekopdracht te vinden en kon daardoor niet worden geopend.",
+    "BleepingComputer gaf bij elke poging een serverfout; het artikel over de ScreenConnect-aanvallen op MSP's is daarom niet uitgelegd (Maersk is gelezen via een andere bron en overgeslagen om de inhoud)."
+  ]
+}
