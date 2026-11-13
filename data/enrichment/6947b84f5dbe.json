@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "article_id": "6947b84f5dbe",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+  "headline": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten",
+  "summary": "Een aanvaller gebruikt duizenden overgenomen GitHub-accounts om kwaadaardige workflows in projecten te zetten. Die stelen wachtwoorden, sleutels en toegang tot AWS, Azure en Google Cloud, en wissen daarna hun sporen.",
+  "story": [
+    "Sinds 10 november gebruikt een aanvaller 4.837 gehackte GitHub-accounts om 61.764 projecten (repositories) af te tasten. De campagne heet 'wfx-loot'. Onderzoekers van Aikido Security bevestigen dat bij minstens 1.835 doelwitten geheimen zijn gestolen. Een deel van de accounts hoort bij grote organisaties en overheden. Hoe de aanvaller die accounts zelf in handen kreeg, staat niet in het artikel.",
+    "Eerst de normale werking. GitHub Actions is de CI/CD van GitHub: bij elke wijziging in een project draait automatisch een workflow. Dat is een script dat de code bouwt, test en publiceert. Om dat te kunnen, krijgt de workflow geheimen mee, zoals API-sleutels en wachtwoorden. Vaak krijgt hij ook een OIDC-token, waarmee hij zonder vast wachtwoord tijdelijk bij AWS, Azure of Google Cloud mag inloggen. Wie een workflow kan aanpassen, krijgt dus alles wat die workflow mag.",
+    "Daar mikt de aanvaller op. Met een onschuldig ogende pull request ('docs: dependency audit notes') test hij of een account schrijfrechten heeft; 92 procent van die verzoeken staat nog open. Daarna past hij een bestaande workflow aan, zet hij een nieuwe workflow op een kortlevende branch of plant hij een installatiehook in npm. Een script van ongeveer 1.500 regels verzamelt geheimen, wisselt OIDC-tokens in voor cloudsessies en maakt waar mogelijk blijvende toegangssleutels aan of past een trust policy aan. Dat is persistentie: toegang die blijft, ook als het token verloopt. Binnen een minuut draait de aanvaller alles terug en wist hij workflow-runs en logs.",
+    "Hoe zie je het? Aikido adviseert te zoeken naar een branch met de naam 'wfx-docs', naar de test-pull request en naar gaten in de nummering van workflow-runs: gewiste runs laten een sprong in de nummers achter. Is het script gedraaid, beschouw dan alle geheimen en cloudrollen van die workflows als gestolen en vervang ze direct. In de cloudlogs (en dus in een SIEM) zijn dan nieuwe gebruikers, nieuwe toegangssleutels en gewijzigde trust policies de sporen om op te letten.",
+    "Voor organisaties is de les dat de bouwstraat van software deel is van het aanvalsoppervlak. Een workflow heeft vaak meer rechten in de cloud dan een gewone medewerker. Bovendien publiceerden een paar projecten automatisch nieuwe pakketversies met de malware erin; zo kan zo'n aanval doorschuiven naar wie die pakketten gebruikt."
+  ],
+  "key_facts": [
+    "De campagne 'wfx-loot' begon rond 10 november 2026 om 12:45 UTC.",
+    "4.837 gehackte accounts tastten 61.764 repositories af; bij minstens 1.835 doelwitten zijn geheimen bevestigd gestolen (Aikido Security).",
+    "Ongeveer 92 procent van de test-pull requests met de titel 'docs: dependency audit notes' stond nog open.",
+    "Het script wisselde GitHub OIDC-tokens in voor tijdelijke sessies bij AWS, Azure en GCP en kon waar rechten het toelieten blijvende sleutels maken of trust policies aanpassen.",
+    "De aanvaller draaide wijzigingen binnen een minuut terug en wiste workflow-runs en logs.",
+    "Via automatisch publiceren kwam de malware in een Packagist-pakket (digitalelvis/neuronai-studio 3.14.3) en een Go-module (github.com/onuragtas/docker-env v1.0.278 en v1.0.280)."
+  ],
+  "limitations": [
+    "Hoe de 4.837 GitHub-accounts zijn overgenomen, is niet bekend.",
+    "Wie achter de campagne zit, is onbekend; de onderzoekers zien alleen overeenkomsten met de GhostAction-campagne uit 2025.",
+    "Niet elke afgetaste repository heeft het script echt uitgevoerd; hoeveel cloudomgevingen daadwerkelijk zijn binnengedrongen, is niet bekend.",
+    "Aikido Security is een securityleverancier; de technische details komen uit zijn eigen onderzoek."
+  ],
+  "personal_relevance": "Klanten met ontwikkelteams vragen zich af of hun GitHub-projecten geraakt zijn. Goede vragen: welke geheimen en cloudrollen hebben jullie workflows, en komen GitHub-auditlogs en cloudlogs in de SIEM terecht?",
+  "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["supply_chain", "cloud_attacks", "incidents_breaches"],
+  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "development_key": "wfx-loot-github-actions-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "incident",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; technische aanval op bouwstraten en cloud, met concrete sporen voor detectie."},
+  "showcase": {
+    "caption": "Zo kan een gat in de nummering van workflow-runs eruitzien. Runs 413 en 414 ontbreken: de aanvaller wiste ze na afloop. Juist het gat is het spoor.",
+    "language": "text",
+    "code": "Workflow-runs van 'build.yml'\n#416  push   main          geslaagd   11 nov 09:02\n#415  push   main          geslaagd   10 nov 17:40\n#412  push   main          geslaagd   10 nov 11:15\n#411  pull   feature/ui    geslaagd   09 nov 16:22",
+    "note": "Nagebouwd voorbeeld; de nummers en tijden zijn verzonnen."
+  },
+  "terms": [
+    {"term": "CI/CD", "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."},
+    {"term": "workflow", "explanation": "Een script in GitHub Actions dat automatisch draait bij een wijziging, bijvoorbeeld om code te bouwen, te testen of te publiceren."},
+    {"term": "OIDC-token", "explanation": "Een kortlevend digitaal bewijs dat een workflow aan een clouddienst laat zien. De cloud vertrouwt dat bewijs en geeft tijdelijk toegang, zonder vast wachtwoord."},
+    {"term": "trust policy", "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."},
+    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
+    {"term": "pull request", "explanation": "Een voorstel om een wijziging aan een project toe te voegen. De eigenaar kan het bekijken en goedkeuren of afwijzen."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T01:55:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

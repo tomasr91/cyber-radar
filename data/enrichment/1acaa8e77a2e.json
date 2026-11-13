@@ -1,0 +1,53 @@
+{
+  "format_version": 2,
+  "article_id": "1acaa8e77a2e",
+  "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+  "headline": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM",
+  "summary": "Openbare aanvalscode laat een gewone Windows-gebruiker SYSTEM-rechten krijgen via de CLFS-driver en Microsoft Defender. Er is nog geen CVE en geen patch; misbruik is niet gemeld.",
+  "story": [
+    "Een onderzoeker die zich MSNightmare noemt, zette op GitHub 'SignDrop' online: proof of concept-code waarmee een gewone gebruiker op Windows SYSTEM-rechten zou krijgen. Dat gebeurde op de dag van de Windows-updates van november. Er is geen CVE-nummer en geen patch, en Microsoft heeft de fout nog niet bevestigd.",
+    "Eerst de normale werking. CLFS (Common Log File System) is een Windows-onderdeel dat logbestanden bijhoudt, met een driver in de kernel: clfs.sys. Omdat gemanipuleerde logbestanden een bekende aanvalsroute waren, voegde Microsoft in oktober 2025 een controle toe. De driver hangt een HMAC aan elk log, met een geheime sleutel per computer. Zo leest hij alleen logs die hij zelf schreef. Naast elk log maakt hij een begeleidend .cnpf-bestand met dezelfde rechten als het log.",
+    "Daar zit de zwakke plek. Een gewone gebruiker maakt een log met paden die hij zelf kiest. Opent een proces met hoge rechten dat log, dan maakt de driver het .cnpf-bestand aan namens dat proces. Met een symbolische koppeling, een soort doorverwijzing in Windows, stuurt de aanvaller die aanmaak naar een plek naar keuze. Het resultaat is een bestand dat SYSTEM aanmaakte, maar waarin de gewone gebruiker mag schrijven. In de gepubliceerde code is het proces met hoge rechten de antimalwaredienst van Microsoft Defender. Een beveiligingsfunctie wordt zo een opstap.",
+    "Hoe urgent is het? Dit is rechtenverhoging: de aanvaller moet al op de computer zijn. Het is dus de tweede stap van een aanval, niet de eerste. Volgens de onderzoeker zijn systemen kwetsbaar waar de CLFS-controle aan staat of in de leerstand, en dat is de standaard. Onderzoekers van 78researchlab bevestigen dat de exploit werkt, maar vinden hem niet betrouwbaar genoeg voor echte aanvallen. Defender moet aan staan, en de UAC-meldingen veranderen zichtbaar. SignDrop staat niet in de KEV-lijst en misbruik is niet gemeld. Wel zijn drie eerdere Defender-lekken van dezelfde onderzoeker later misbruikt.",
+    "Wat kun je doen? Beheerders kunnen de CLFS-instelling in het register controleren. De controle uitzetten haalt je buiten bereik, maar is riskant omdat je dan een beveiliging weghaalt. Volg de updates van Microsoft. Omdat SignDrop een eerste toegang nodig heeft, blijft vroege detectie van die eerste stap, bijvoorbeeld met EDR en een SIEM, de beste verdediging."
+  ],
+  "key_facts": [
+    "SignDrop is op GitHub gepubliceerd door een onderzoeker met de naam MSNightmare, op de dag van de Windows-updates van november 2026.",
+    "Er is geen CVE en geen patch; Microsoft heeft de fout niet bevestigd en noemt hem niet in de novemberupdates.",
+    "Getest op Windows 11 26H2, een experimentele build van 26H2 en Windows Server 2025 Experimental; in scope bij CLFS-authenticatiemodus 0 (afdwingen) of 1 (leren), de standaard.",
+    "Microsoft voegde de CLFS-logauthenticatie (HMAC per computer) in oktober 2025 toe aan Windows 11 25H2 en 26H1 en Windows Server 2025.",
+    "Heewon Song van 78researchlab bevestigde dat de exploit werkt, maar noemt hem niet betrouwbaar genoeg; Defender moet aan staan en UAC-meldingen veranderen zichtbaar.",
+    "SignDrop staat niet in de KEV-lijst van CISA en er zijn geen aanvallen gemeld; drie eerdere Defender-lekken van dezelfde onderzoeker zijn wel misbruikt."
+  ],
+  "limitations": [
+    "Microsoft heeft de fout niet bevestigd; de technische beschrijving komt van de onderzoeker zelf.",
+    "De claim dat het werkt met elke antimalwaredienst met hoge rechten, is niet getest.",
+    "Of en wanneer er een patch komt, is onbekend.",
+    "De bron noemt geen concrete logkenmerken om SignDrop zelf te herkennen."
+  ],
+  "personal_relevance": "Klanten vragen bij zo'n zero-day zonder patch wat ze nu kunnen doen. Het eerlijke antwoord: het is een tweede stap, dus detectie van de eerste toegang en van plotselinge SYSTEM-rechten telt meer dan paniek over deze ene fout.",
+  "takeaway": "Rechtenverhoging misbruikt vaak een proces met hoge rechten dat iets doet namens een gewone gebruiker. Kan de gebruiker bepalen wáár dat proces een bestand aanmaakt, dan kan hij de hoge rechten van dat proces lenen.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["vulnerabilities_cve", "attack_techniques", "siem_detection"],
+  "quality": {"depth": 0.8, "practicality": 0.6, "novelty": 0.8},
+  "development_key": "signdrop-clfs-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "exploitation": "poc_openbaar",
+  "patch_status": "geen_patch",
+  "fit": {"score": 0.5, "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."},
+  "terms": [
+    {"term": "SYSTEM-rechten", "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."},
+    {"term": "driver", "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."},
+    {"term": "HMAC", "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."},
+    {"term": "symbolische koppeling", "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."},
+    {"term": "rechtenverhoging", "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."},
+    {"term": "UAC", "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T02:05:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

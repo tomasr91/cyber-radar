@@ -1,0 +1,52 @@
+{
+  "format_version": 2,
+  "article_id": "9cb2b44a4924",
+  "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+  "headline": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen",
+  "summary": "Twee dagen na de patch voor Able2Shell publiceerde dezelfde onderzoeker nieuwe aanvalscode voor N-central. Binnen enkele uren zagen onderzoekers pogingen; het lek zit in de Legacy API, die standaard uit staat.",
+  "story": [
+    "N-able dichtte op 10 november de Able2Shell-lekken in zijn RMM-software N-central, met build 2026.4.1.26. Op 12 november publiceerde dezelfde onderzoeker, Sean Bales, nieuwe proof of concept-code die volgens hem ook tegen die build werkt. '4EverAble2Shell' geeft zonder inlog root op de N-central-server. 'Agent2Shell' voert opdrachten uit als SYSTEM op beheerde Windows-computers, als de aanvaller het ID van de server kent. N-able onderzoekt de claims.",
+    "Hoe werkt het? N-able zegt dat het serverprobleem alleen speelt als de Legacy API aan staat en vanaf internet bereikbaar is. Die oude koppeling staat standaard uit en wordt afgeraden. Securitybedrijf Presidian beschrijft een keten in twee stappen. Eerst voert de aanvaller code uit via CVE-2026-90436, een lek in het onderdeel Apache Axis dat op 6 november is gedicht. Dat geeft beperkte rechten. Daarna tilt 4EverAble2Shell hem naar root en downloadt de server een script van de aanvaller.",
+    "Wat is bevestigd? Presidian zag binnen enkele uren gerichte pogingen, watchTowr zag ze bij servers met de Legacy API aan. Volgens The Hacker News was er op dat moment nog geen bewijs dat ze slaagden. BleepingComputer meldt dat onderzoekers minstens 21 getroffen systemen tellen, waarvan 19 met de nieuwste update, waarop cryptominers zijn gezet. Een cryptominer gebruikt de rekenkracht van de server om cryptomunten te maken voor de aanvaller.",
+    "Wat kun je doen? Zet de Legacy API direct uit en controleer of de N-central-server niet onnodig vanaf internet bereikbaar is. Een versienummer zegt hier weinig: de configuratie bepaalt of je kwetsbaar bent. In de logs zijn uitgaande downloads vanaf de N-central-server en onverwachte processen die veel rekenkracht vragen de signalen om op te letten. De gehoste N-central-omgeving is volgens het artikel niet getroffen.",
+    "Waarom is dit belangrijk? Een RMM-server heeft macht over alle computers van alle klanten van een IT-dienstverlener. Als aanvalscode al openbaar is, volgt misbruik binnen uren. Een patch dicht dan één route, maar de onderzoeker vindt de volgende: daarom zijn het uitzetten van onnodige onderdelen en het afschermen van beheerinterfaces net zo belangrijk als patchen."
+  ],
+  "key_facts": [
+    "N-able bracht op 10 november 2026 build 2026.4.1.26 uit tegen de Able2Shell-lekken van onderzoeker Sean Bales.",
+    "Op 12 november publiceerde Bales proof of concept-code voor 4EverAble2Shell (root zonder inlog op de server) en Agent2Shell (meer dan 10 zero-days, opdrachten als NT AUTHORITY\\SYSTEM op Windows-agents als het appliance-ID bekend is); volgens hem werkt die tegen build 2026.4.1.26.",
+    "Volgens N-able speelt het serverprobleem alleen als de Legacy API aan staat en vanaf internet bereikbaar is; die staat standaard uit.",
+    "Presidian zag binnen uren gerichte pogingen en beschrijft een keten via CVE-2026-90436 (Apache Axis, CVSS 9,8, gepatcht op 6 november) gevolgd door 4EverAble2Shell; watchTowr zag ook pogingen.",
+    "BleepingComputer meldt minstens 21 getroffen systemen, waarvan 19 met de nieuwste update, met cryptominers.",
+    "Getroffen: on-premise N-central in Amerika, APAC en Europa; de gehoste omgeving niet (The Hacker News)."
+  ],
+  "limitations": [
+    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op het artikel van The Hacker News over dezelfde ontwikkeling. De 21 getroffen systemen komen alleen uit de samenvatting van BleepingComputer.",
+    "The Hacker News meldde op het moment van schrijven nog geen geslaagd misbruik; de bronnen geven dus een verschillend beeld, waarschijnlijk door het tijdstip.",
+    "Er is nog geen CVE-nummer en geen patch voor 4EverAble2Shell en Agent2Shell; N-able onderzoekt de claims nog.",
+    "Hoe Agent2Shell precies werkt en of daarvoor de Legacy API nodig is, staat niet in de bron."
+  ],
+  "personal_relevance": "Veel MDR- en MSP-klanten beheren omgevingen met RMM-software. Vraag niet alleen naar de versie, maar ook welke onderdelen aan staan en of de beheerserver vanaf internet bereikbaar is.",
+  "takeaway": "Aanvallers koppelen lekken in een keten: het eerste lek geeft een voet tussen de deur, het tweede hoge rechten. Een onderdeel dat uit staat of niet bereikbaar is, breekt zo'n keten, ook als er nog geen patch is.",
+  "region": "world",
+  "official_docs": [{"label": "The Hacker News: nieuwe N-central-exploits werken tegen gepatchte servers", "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"}],
+  "topics": ["exploited_vulnerabilities", "vulnerabilities_cve", "supply_chain"],
+  "quality": {"depth": 0.6, "practicality": 0.8, "novelty": 0.6},
+  "development_key": "4everable2shell-n-central-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "workaround",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; vervolg op het N-central-verhaal met een duidelijke aanvalsketen."},
+  "terms": [
+    {"term": "RMM", "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."},
+    {"term": "proof of concept", "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."},
+    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
+    {"term": "Legacy API", "explanation": "Een oude koppeling van N-central waarmee andere software met de server kan praten. Staat standaard uit; wie hem aanzet, vergroot het aanvalsoppervlak."},
+    {"term": "cryptominer", "explanation": "Software die de rekenkracht van een gehackt systeem gebruikt om cryptomunten te maken voor de aanvaller. Vaak te herkennen aan een hoog en aanhoudend processorgebruik."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T01:58:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

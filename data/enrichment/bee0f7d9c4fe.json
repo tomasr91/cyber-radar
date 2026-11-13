@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "article_id": "bee0f7d9c4fe",
+  "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+  "headline": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket",
+  "summary": "Microsoft ziet dat aanvallers het open-source hulpmiddel GSocket op gehackte Linux-servers zetten. Zo blijven ze binnen, ook nadat het lek waarmee ze binnenkwamen is gepatcht.",
+  "story": [
+    "Microsoft ziet dat meerdere groepen aanvallers GSocket op Linux-servers zetten. GSocket is een legitiem open-source hulpmiddel om computers achter een firewall te bereiken. Aanvallers gebruiken het om binnen te blijven, ook nadat het lek waarmee ze binnenkwamen is gedicht. Tussen maart en augustus steeg het aantal detecties met 356,2 procent. 87,1 procent van de gevallen ging om webapplicaties en hosting, vooral PHP-sites en cPanel.",
+    "Hoe werkt het? Normaal maak je voor beheer op afstand een verbinding naar de server, en een firewall bepaalt welke inkomende verbindingen mogen. GSocket draait dat om. Zowel de gehackte server als de aanvaller maken een uitgaande verbinding naar het Global Socket Relay Network. Dat koppelt de twee aan elkaar, met versleuteling. Vergelijk het met twee mensen die elkaar niet kunnen bellen, maar allebei dezelfde centrale bellen die hen doorverbindt. De server heeft geen open poort of publiek IP-adres nodig, en de aanvaller heeft geen eigen C2-server nodig.",
+    "Om ook na een herstart binnen te blijven (persistentie), vermommen de aanvallers GSocket als een kernel-thread: een proces dat eruitziet als een onderdeel van het besturingssysteem. Ze starten het via cron-jobs, systemd-services of de opstartbestanden van de shell. In sommige gevallen probeerden ze ook root te worden via de Linux-kernelfout Dirty Frag (CVE-2026-43284).",
+    "Hoe zie je het? Inkomende firewallregels zien niets, want al het verkeer gaat naar buiten. Wat wel helpt, volgens Microsoft: uitgaand verkeer beperken tot vaste bestemmingen (egress filtering) en uitgaande verbindingen bewaken. Controleer cron-jobs, systemd-services en opstartbestanden op onbekende regels. Verwijder GSocket, controleer dat verbindingen naar het relaynetwerk stoppen en patch CVE-2026-43284.",
+    "De les voor organisaties: patchen sluit de deur, maar niet de achterdeur die er al ligt. Na een misbruikt lek hoort altijd de vraag of de aanvaller al binnen was. Omdat GSocket een legitiem hulpmiddel is, slaat niet elke scanner er alarm op; gedrag en uitgaand verkeer zijn hier betere signalen."
+  ],
+  "key_facts": [
+    "Het onderzoek komt van Microsoft, op basis van telemetrie van Microsoft Defender for Endpoint.",
+    "GSocket-detecties stegen tussen maart en augustus 2026 met 356,2 procent.",
+    "87,1 procent van de incidenten betrof webapplicaties en hosting: PHP-webapps en cPanel 63,9 procent, Apache 24,3 procent; vooral onderwijs en onderzoek waren doelwit.",
+    "Server en aanvaller verbinden allebei naar buiten met het Global Socket Relay Network; de server heeft geen inkomende poort of publiek IP-adres nodig.",
+    "Persistentie via vermomming als kernel-thread, cron-jobs, systemd-services en shell-opstartbestanden.",
+    "In sommige gevallen probeerden aanvallers root te worden via Dirty Frag (CVE-2026-43284)."
+  ],
+  "limitations": [
+    "Welke lekken de aanvallers in het algemeen gebruikten om binnen te komen, staat niet in het artikel.",
+    "Het oorspronkelijke onderzoek van Microsoft kon in een eerdere run niet worden geopend; de uitleg steunt op BleepingComputer.",
+    "Wie de aanvallers zijn, wordt niet gezegd; het gaat om meerdere groepen.",
+    "De cijfers komen uit de telemetrie van één leverancier en zeggen niets over omgevingen die Microsoft niet ziet."
+  ],
+  "personal_relevance": "Bij klanten met Linux-webservers is dit een goede vraag: bewaken jullie uitgaand verkeer van servers, of alleen inkomend? Het laat ook zien waarom een incident na het patchen nog niet klaar is.",
+  "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["attack_techniques", "siem_detection", "incident_response"],
+  "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.6},
+  "development_key": "gsocket-linux-persistentie-nov-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."},
+  "showcase": {
+    "caption": "Een vermomd proces vind je vaak aan de details. Echte kernel-threads hebben ouderproces 2 (kthreadd) en draaien als root. Een 'kworker' met ouderproces 1 die als webgebruiker www-data draait, hoort daar niet.",
+    "language": "bash",
+    "code": "$ ps -eo pid,ppid,user,cmd | grep kworker\n   57      2 root      [kworker/0:1-events]\n   88      2 root      [kworker/1:0-mm_percpu_wq]\n 4113      1 www-data  [kworker/1:2]",
+    "note": "Nagebouwd voorbeeld; de procesnummers zijn verzonnen. De bron noemt de vermomming als kernel-thread, niet deze specifieke uitvoer."
+  },
+  "terms": [
+    {"term": "C2-server", "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."},
+    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
+    {"term": "kernel-thread", "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."},
+    {"term": "cron-jobs", "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."},
+    {"term": "systemd-services", "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."},
+    {"term": "egress filtering", "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T02:08:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

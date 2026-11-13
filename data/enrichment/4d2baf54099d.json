@@ -1,0 +1,61 @@
+{
+  "format_version": 2,
+  "article_id": "4d2baf54099d",
+  "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+  "headline": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog",
+  "summary": "Apache 2.4.71 dicht CVE-2026-119618, een fout in de HTTP/2-module waarmee een aanvaller zonder inlog mogelijk de webserver overneemt. Alleen servers met HTTP/2 aan zijn kwetsbaar; nog niet alle Linux-distributies hebben een update.",
+  "story": [
+    "Apache HTTP Server, een van de meest gebruikte webservers, heeft versie 2.4.71 uitgebracht. Die dicht CVE-2026-119618 in mod_http2, de module voor HTTP/2. Volgens Red Hat kan een aanvaller zonder inlog die de server kan bereiken, code laten uitvoeren en het serverproces overnemen (CVSS 9,8). Kwetsbaar zijn de versies 2.4.55 tot en met 2.4.70, maar alleen als HTTP/2 aan staat.",
+    "Hoe werkt het? Bij HTTP/2 stuurt een browser over één verbinding veel verzoeken tegelijk, elk als een eigen stroom (stream). Apache verwerkt die stromen tegelijk met meerdere threads: werkers die naast elkaar draaien en geheugen delen. Daarom moeten ze afspraken maken over wie wanneer in dat gedeelde geheugen schrijft. In de functie assign_headers() ontbreekt zo'n afspraak. Volgens Red Hat schrijft één thread dan in geheugen dat van een andere is. Dat heet een race condition, en het beschadigt de heap. Met zulke geheugenschade kan een aanvaller soms eigen code laten uitvoeren.",
+    "Hoe urgent is het? Red Hat zegt dat openbaar onderzoek een betrouwbare exploit voor de standaardinstelling heeft laten zien, maar noemt die niet. Wiz zag op dezelfde dag geen beschikbare exploit en geen misbruik. Het lek zit vóór het inloggen, op een dienst die per definitie vanaf internet bereikbaar is; dat maakt het ernstig. Red Hat Enterprise Linux 9 en 10 geven elke stroom een eigen stuk geheugenbeheer. Daardoor is misbruik daar veel moeilijker en noemt Red Hat het 'Important' in plaats van 'Critical'.",
+    "Wat moet je doen? Update naar 2.4.71 of de update van je Linux-distributie. Debian stable en Amazon Linux hadden nog geen update, en de losse mod_h2 krijgt er geen meer. Kun je nog niet patchen, haal dan h2 en h2c weg uit de Protocols-instelling, zowel algemeen als per website. Let op bij vulnerability management: distributies zetten een fix vaak in een ouder versienummer (backport). Een scanner die alleen naar het versienummer kijkt, kan je dan ten onrechte kwetsbaar of veilig noemen.",
+    "Ook servers die al naar 2.4.67 tot en met 2.4.70 waren bijgewerkt voor een eerder HTTP/2-lek, zijn nog kwetsbaar. Logkenmerken van een aanval zijn nog niet gepubliceerd. Voor organisaties is dit vooral een inventarisatievraag: welke Apache-servers praten HTTP/2 met de buitenwereld?"
+  ],
+  "key_facts": [
+    "CVE-2026-119618 zit in mod_http2 van Apache HTTP Server; Red Hat geeft CVSS 9,8 en meldt dat een aanvaller zonder inlog het serverproces kan overnemen.",
+    "Kwetsbaar: Apache 2.4.55 tot en met 2.4.70 en losse mod_h2 2.0.8 tot en met 2.0.42; opgelost in 2.4.71 (11 november 2026).",
+    "Alleen servers met h2 of h2c in de Protocols-instelling zijn kwetsbaar; de workaround is die weghalen.",
+    "Apache noemt de oorzaak gelijktijdig gebruik van een gedeelde bron zonder goede synchronisatie in assign_headers(); Red Hat beschrijft een thread die in geheugen van een andere thread schrijft (heap-beschadiging).",
+    "Red Hat: openbaar onderzoek toonde een betrouwbare exploit voor de standaardinstelling; Wiz: geen exploit beschikbaar en geen misbruik gemeld.",
+    "Gemeld door Anthropic's OSS Scanner (26 oktober) en door Google Cloud Vulnerability Research; RHEL 9 en 10 zijn 'Important', RHEL 6 tot en met 8 niet getroffen."
+  ],
+  "limitations": [
+    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op The Hacker News en een onderzoeksnotitie van de Cloud Security Alliance.",
+    "Het onderzoek met de 'betrouwbare exploit' waar Red Hat naar verwijst, is niet openbaar gelinkt en niet onafhankelijk bevestigd.",
+    "Er zijn nog geen logkenmerken of detectieregels gepubliceerd.",
+    "Op het moment van schrijven hadden Debian stable, Amazon Linux, Ubuntu en enkele Red Hat-producten nog geen update."
+  ],
+  "personal_relevance": "Apache draait bij bijna elke klant ergens. Vraag of hun vulnerability management bij dit lek naar de configuratie (HTTP/2 aan) en het distributieadvies kijkt, niet alleen naar het versienummer.",
+  "takeaway": "Software die meerdere taken tegelijk uitvoert, moet gedeeld geheugen goed bewaken. Gaat dat mis (een race condition), dan kan een aanvaller met slim getimede verzoeken het geheugen beschadigen en soms code uitvoeren.",
+  "region": "world",
+  "official_docs": [
+    {"label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618", "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"},
+    {"label": "The Hacker News: kritiek Apache HTTP/2-lek", "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"}
+  ],
+  "topics": ["vulnerabilities_cve", "web_software_security", "vulnerability_management"],
+  "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.7},
+  "development_key": "cve-2026-119618-apache-http2",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "kwetsbaarheid",
+  "exploitation": "geen_misbruik_bekend",
+  "patch_status": "patch_beschikbaar",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."},
+  "showcase": {
+    "caption": "De tijdelijke maatregel zit in één regel van de Apache-configuratie. Boven: HTTP/2 staat aan (h2 en h2c) en de server is kwetsbaar. Onder: alleen HTTP/1.1, het lek is dan niet bereikbaar. Controleer ook elke VirtualHost.",
+    "language": "text",
+    "code": "# Kwetsbaar (2.4.55 - 2.4.70): HTTP/2 staat aan\nProtocols h2 h2c http/1.1\n\n# Tijdelijke maatregel tot de update: alleen HTTP/1.1\nProtocols http/1.1",
+    "note": "Gebaseerd op de workaround in de bronnen. Controleer eerst of geen dienst HTTP/2 nodig heeft."
+  },
+  "terms": [
+    {"term": "HTTP/2", "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."},
+    {"term": "threads", "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."},
+    {"term": "race condition", "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."},
+    {"term": "heap", "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."},
+    {"term": "backport", "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T02:02:00Z",
+  "prompt_version": "cyber-taak-v1"
+}
