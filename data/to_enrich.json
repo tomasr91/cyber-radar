@@ -1,104 +1,91 @@
 {
- "generated_at": "2026-11-12T07:38:54.281169Z",
+ "generated_at": "2026-11-13T01:23:05.345746Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "43047ed0e682",
-   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-   "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-09T14:08:08Z",
-   "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .",
-   "preliminary_score": 80,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "1d820fad715a",
-   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
-   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-   "source_id": "ncsc_nl_advisories",
-   "source_name": "NCSC-NL beveiligingsadviezen",
-   "published_at": "2026-10-22T09:49:08Z",
-   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder meer: - Arbitrary code execution uitvoeren via crafted input of deserialisatieprocessen. - Volledige systeemcompromittering bereiken via netwerktoegang zonder authenticatie. - Ongeautoriseerde toegang verkrijgen tot gevoelige of kritieke data. - Data manipuleren, creëren, verwijderen of wijzigen zonder juiste rechten. - Denial-of-Service veroorzaken door resource-uitputting, crashes of hangs. - Privilege escalation uitvoeren binnen het systeem. - Cross-site scripting en spoofing aanvallen uitvoeren. - Kwetsbaarheden in authenticatie- en autorisatiemechanismen misbruiken. De kwetsbaarheden zijn",
-   "preliminary_score": 79,
+   "id": "242ed9e7ee22",
+   "title": "Ivanti Endpoint Manager via kritiek SQL Injection-lek over te nemen",
+   "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-12T15:18:28Z",
+   "excerpt": "Ivanti heeft een beveiligingsupdate uitgebracht voor een kritiek SQL Injection-lek in Endpoint Manager (EPM), waardoor ...",
+   "preliminary_score": 91,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "attack_techniques"
+    "attack_techniques",
+    "edge_devices"
    ]
   },
   {
-   "id": "f4f1ad10a87b",
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "id": "6947b84f5dbe",
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T20:58:19Z",
-   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "preliminary_score": 79,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "b7494c226c5f",
-   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T16:58:46Z",
-   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T22:25:30Z",
+   "excerpt": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "incidents_breaches",
+    "threat_intelligence",
     "malware",
-    "supply_chain"
+    "cloud_attacks"
    ]
   },
   {
-   "id": "0914d818aa9e",
-   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "id": "9cb2b44a4924",
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T12:11:05Z",
-   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T19:51:16Z",
+   "excerpt": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
+    "exploited_vulnerabilities"
+   ]
+  },
+  {
+   "id": "4d2baf54099d",
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-12T19:12:55Z",
+   "excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
     "web_software_security"
    ]
   },
   {
-   "id": "2a5b7d5a686a",
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "id": "1acaa8e77a2e",
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-05T05:17:04Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T17:50:27Z",
+   "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "vulnerability_management",
-    "malware"
+    "siem_detection"
    ]
   },
   {
-   "id": "1b9b96d402ef",
-   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "id": "c398aa3e9226",
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-04T17:00:38Z",
-   "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T15:38:49Z",
+   "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "vulnerability_management",
@@ -106,46 +93,66 @@
    ]
   },
   {
-   "id": "5e99d13bfbb2",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "id": "bee0f7d9c4fe",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-12T09:38:00Z",
+   "excerpt": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "daa356fef18a",
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-04T14:27:52Z",
-   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T13:08:28Z",
+   "excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "incidents_breaches",
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management",
     "threat_intelligence",
-    "web_software_security",
+    "malware",
     "supply_chain"
    ]
   },
   {
-   "id": "8384c224e801",
-   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "id": "5af74d5ce665",
+   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-04T11:24:31Z",
-   "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T12:09:14Z",
+   "excerpt": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "threat_intelligence",
-    "malware"
+    "vulnerabilities_cve",
+    "incidents_breaches",
+    "cloud_attacks"
    ]
   },
   {
-   "id": "32c90d2f0958",
-   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "id": "f7cf57082e20",
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-04T07:46:15Z",
-   "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-   "preliminary_score": 79,
+   "published_at": "2026-11-12T11:51:31Z",
+   "excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve"
+    "threat_intelligence",
+    "web_software_security",
+    "phishing_identity"
    ]
   }
  ]

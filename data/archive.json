@@ -4487,7 +4487,535 @@
    "published_raw": "Thu, 12 Nov 2026 10:42:26 +0530",
    "fetched_at": "2026-11-12T07:39:01.873557Z",
    "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the"
+  },
+  "security_nl:a0d5d05511ec": {
+   "source_id": "security_nl",
+   "title": "AI-marktplaats Apify meldt inbraak op interne systemen door gestolen login",
+   "url": "https://www.security.nl/posting/961447/AI-marktplaats+Apify+meldt+inbraak+op+interne+systemen+door+gestolen+login?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 17:06:45 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Aanvallers zijn erin geslaagd om met behulp van gestolen inloggegevens op interne systemen van AI-marktplaats Apify in te ..."
+  },
+  "security_nl:4323d1794838": {
+   "source_id": "security_nl",
+   "title": "Verzekeraars zien gebruik van AI bij plegen van verzekeringsfraude",
+   "url": "https://www.security.nl/posting/961442/Verzekeraars+zien+gebruik+van+AI+bij+plegen+van+verzekeringsfraude?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 16:33:00 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Fraudeurs hebben vorig jaar verschillende keren gebruikgemaakt van AI voor het plegen van verzekeringsfraude, zo laat het ..."
+  },
+  "security_nl:242ed9e7ee22": {
+   "source_id": "security_nl",
+   "title": "Ivanti Endpoint Manager via kritiek SQL Injection-lek over te nemen",
+   "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 16:18:28 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Ivanti heeft een beveiligingsupdate uitgebracht voor een kritiek SQL Injection-lek in Endpoint Manager (EPM), waardoor ..."
+  },
+  "security_nl:6b3923f37b03": {
+   "source_id": "security_nl",
+   "title": "Fraudehelpdesk waarschuwt voor phishingberichten uit naam van BENU",
+   "url": "https://www.security.nl/posting/961431/Fraudehelpdesk+waarschuwt+voor+phishingberichten+uit+naam+van+BENU?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 15:51:27 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "De Fraudehelpdesk waarschuwt mensen voor phishingmails en sms-berichten die uit naam van apothekersketen BENU worden verstuurd ..."
+  },
+  "security_nl:9431afa39665": {
+   "source_id": "security_nl",
+   "title": "Politie haalt malware-servers offline, vindt miljoenen gestolen persoonsgegevens",
+   "url": "https://www.security.nl/posting/961420/Politie+haalt+malware-servers+offline%2C+vindt+miljoenen+gestolen+persoonsgegevens?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 14:50:15 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Tijdens een internationale actie heeft de Nederlandse politie servers en domeinnamen van de Gootloader- en CastleRAT-malware ..."
+  },
+  "security_nl:98f667877f74": {
+   "source_id": "security_nl",
+   "title": "Minister: kwetsbaarheden zoals in PHP gaan we in toekomst nog vaker zien",
+   "url": "https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 14:28:58 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Kwetsbaarheden met een grote impact, zoals de recente PHP2Shell-lekken in PHP, zullen in de toekomst vaker voorkomen, zo stelt ..."
+  },
+  "security_nl:24de84f1b47c": {
+   "source_id": "security_nl",
+   "title": "Google komt met patch voor meerdere kritieke Chrome-lekken",
+   "url": "https://www.security.nl/posting/961411/Google+komt+met+patch+voor+meerdere+kritieke+Chrome-lekken?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 13:59:55 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Google heeft patches uitgebracht die 83 kwetsbaarheden in de browser verhelpen, waaronder vijf kritieke beveiligingslekken. Via ..."
+  },
+  "security_nl:915a58d55046": {
+   "source_id": "security_nl",
+   "title": "Microsoft meldt toename van GSocket op gehackte Linux-webservers",
+   "url": "https://www.security.nl/posting/961403/Microsoft+meldt+toename+van+GSocket+op+gehackte+Linux-webservers?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 13:28:33 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Steeds vaker wordt de open source remote access tool GSocket op gehackte Linux-webservers aangetroffen, zo stelt Microsoft op ..."
+  },
+  "security_nl:ff30c3e4dda2": {
+   "source_id": "security_nl",
+   "title": "Identificatie-app itsme gaat in België gezichtsherkenning toepassen",
+   "url": "https://www.security.nl/posting/961377/Identificatie-app+itsme+gaat+in+Belgi%C3%AB+gezichtsherkenning+toepassen?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 11:53:41 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Identificatie-app itsme gaat in België gezichtsherkenning toepassen, wat moet voorkomend dat accounts van gebruikers worden ..."
+  },
+  "security_nl:d3228bec9681": {
+   "source_id": "security_nl",
+   "title": "CCB waarschuwt om koelsystemen nooit meer direct aan internet te hangen",
+   "url": "https://www.security.nl/posting/961369/CCB+waarschuwt+om+koelsystemen+nooit+meer+direct+aan+internet+te+hangen?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 11:17:15 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "De Belgische overheidsinstantie CCB waarschuwt supermarkten en andere bedrijven om hun koelsystemen nooit meer direct aan het ..."
+  },
+  "security_nl:95b0e9376649": {
+   "source_id": "security_nl",
+   "title": "Staatssecretaris: Belastingdienst moet AVG-naleving sneller op orde krijgen",
+   "url": "https://www.security.nl/posting/961364/Staatssecretaris%3A+Belastingdienst+moet+AVG-naleving+sneller+op+orde+krijgen?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 10:55:09 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "De Belastingdienst moet de naleving van de AVG sneller op orde krijgen, zo stelt staatssecretaris Eerenberg van Financiën in ..."
+  },
+  "security_nl:44973f84e4d4": {
+   "source_id": "security_nl",
+   "title": "'Tientallen organisaties gehackt via ScreenConnect-aanval'",
+   "url": "https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27?channel=rss",
+   "published_raw": "Thu, 12 Nov 2026 10:40:53 +0100",
+   "fetched_at": "2026-11-13T01:23:05.387589Z",
+   "excerpt": "Honderden systemen van tientallen organisaties zijn bij een aanval die gebruikmaakte van ScreenConnect gehackt, zo stelt ..."
+  },
+  "ncsc_nl_advisories:42bd734c7f5f": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0493 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Endpoint Manager",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0493",
+   "published_raw": "Thu, 12 Nov 2026 14:32:09 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Ivanti heeft twee kwetsbaarheden in Ivanti Endpoint Manager verholpen, die betrekking hebben op de Core- en Agent-componenten. De eerste kwetsbaarheid (CVE-2026-121653) betreft een SQL-injectie in de Core van Ivanti Endpoint Manager-versies vóór 2024 SU8. Hierdoor kan een externe, niet-geauthenticeerde aanvaller kwaadaardige SQL-commando's injecteren, wat kan leiden tot het uitvoeren van willekeurige code op afstand (Remote Code Execution, RCE).\n\nDe tweede kwetsbaarheid (CVE-2026-18128) betreft het verzenden van gevoelige informatie in cleartext door de Agent van Ivanti Endpoint Manager-versies vóór 2024 SU8. Hierdoor kan een externe, niet-geauthenticeerde aanvaller die zich in een man-in-the-middlepositie (MITM) bevindt, HTTP-verkeer onderscheppen, uitlezen en manipuleren. Dit kan de vertrouwelijkheid en integriteit van de communicatie aantasten."
+  },
+  "ncsc_nl_advisories:91edae50ca24": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0492 [1.00] [M/H] Kwetsbaarheden verholpen in Node.js",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0492",
+   "published_raw": "Thu, 12 Nov 2026 14:19:29 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Node.js heeft meerdere kwetsbaarheden verholpen in versies 22.x, 24.x en 26.x, waaronder in de HTTP/2-implementatie, HTTPS-servermodule, TLS-handling en proxy error handling. Verschillende kwetsbaarheden in Node.js kunnen leiden tot informatielekken, geheugenfouten en serveruitval. Vooral omgevingen met HTTP/2, HTTPS en TLS worden geraakt.\n\n- Proxy-authenticatie: uitlekken van inloggegevens via foutmeldingen.\n- HTTP/2: buffer overflow, geheugenlekken, overbelasting en servercrashes.\n- Bestandsbewaking: omzeilen van toegangsbeperkingen op macOS en Windows.\n- zlib: dienstverstoring door foutieve verwerking van datastromen.\n- HTTPS-server: geheugenfouten waardoor gevoelige gegevens, waaronder TLS-privésleutels, kunnen uitlekken.\n- TLS 1.2: omzeilen van authenticatie met clientcertificaten.\n- TLS-sessies: onjuist hergebruik van sessies met verschillende certificaatinstellingen."
+  },
+  "ncsc_nl_advisories:f8ba5f3c9359": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0491 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console.",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0491",
+   "published_raw": "Thu, 12 Nov 2026 14:13:25 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Citrix heeft meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console. Citrix heeft meerdere kwetsbaarheden verholpen in Citrix Secure Access Client for Windows, NetScaler ADC, NetScaler Gateway en NetScaler Console. De kwetsbaarheden hebben CVSS v4.0-scores variërend van 6.9 tot 9.5 en omvatten onder andere geheugenbeschadiging (Memory Corruption), authenticatieomzeiling (Improper Authentication) en privilege-escalatie (Improper Privilege Management).\n\nMisbruik van de kwetsbaarheden kan leiden tot Denial-of-Service, ongeautoriseerde toegang tot afgeschermde resources of het verkrijgen van SYSTEM-rechten op een Windows-systeem. Meerdere kwetsbaarheden in NetScaler ADC en Gateway kunnen op afstand worden misbruikt zonder voorafgaande authenticatie. Voor andere kwetsbaarheden is lokale toegang of een specifieke productconfiguratie vereist."
+  },
+  "ncsc_nl_advisories:3f47d08089da": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0490 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiAuthenticator",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0490",
+   "published_raw": "Thu, 12 Nov 2026 12:12:02 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiAuthenticator versies 6.6.0 tot 6.6.10 en 8.0.0 tot 8.0.3. Meerdere kwetsbaarheden in FortiAuthenticator kunnen leiden tot ongeoorloofde toegang, informatielekken, code-uitvoering of uitval. Sommige zijn zonder account te misbruiken\n\n- Open redirect: doorsturen van gebruikers naar ongewenste websites.\n- Dienstverstoring: uitval door oneindige lussen of overbelasting.\n- Toegangscontrole: ongeoorloofde toegang door fouten in autorisatie en rechtenbeheer.\n- FSSO: buffer overflow in de authenticatieonderdelen.\n- LDAP- en SQL-injectie: manipuleren van directory- en databaseopdrachten.\n- Geheugenfouten: schrijven buiten geheugenbuffers en ongeldige geheugenverwijzingen.\n- Formatstringfout: onveilige verwerking van aangeleverde tekst.\n- Hardcoded wachtwoorden: misbruik van vaste, ingebouwde wachtwoorden."
+  },
+  "ncsc_nl_advisories:43da1d2c795b": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0489 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0489",
+   "published_raw": "Thu, 12 Nov 2026 12:04:06 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiOS. Verschillende kwetsbaarheden in FortiOS en andere Fortinet-producten kunnen leiden tot ongeoorloofde toegang, netwerkstoringen of volledige overname.\n\n- SSLVPN: onderscheppen van verkeer door gebrekkige certificaatcontrole.\n- Beheerinterface: verkrijgen van verhoogde rechten via een ongeldig token.\n- OSPF: manipuleren van routinginformatie zonder in te loggen.\n- iBGP: onverwacht routinggedrag door foutieve verwerking van gegevens.\n- SSH: omzeilen van authenticatie met gemanipuleerde aanmeldgegevens.\n- Geheugenfout: uitvoeren van code door een aanvaller met bestaande rechten.\n- WAD: laten vastlopen van proxy- en ZTNA-verbindingen.\n- HA FGSP: verkrijgen van volledige beheerderscontrole zonder account, bij bepaalde instellingen."
+  },
+  "ncsc_nl_advisories:b670915f7d7f": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0488 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiManager en FortiAnalyzer",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0488",
+   "published_raw": "Thu, 12 Nov 2026 11:56:36 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiManager en FortiAnalyzer, inclusief hun cloudversies en aanverwante producten zoals FortiManager Cloud, FortiAnalyzer Cloud, FortiAnalyzer-BigData, FortiSASE-Sovereign en FortiSASE-Sovereign GUI. De kwetsbaarheden betreffen diverse beveiligingsproblemen in Fortinet FortiManager en FortiAnalyzer producten, waaronder path traversal, improper encoding of escaping, extern gecontroleerde format string, SQL-injectie, XML-injectie, heap- en stack-based buffer overflows, OS command injection, privilege escalation, authorization bypass, argument injection, unrestricted file upload, server-side template injection, out-of-bounds write, en improper certificate validation binnen het RADIUS-protocol. \n\nDeze kwetsbaarheden kunnen door een aanvaller worden misbruikt om, afhankelijk van de specifieke kwetsbaarheid, ongeautoriseerde code of commando's uit te voeren, bestanden te lezen, schrijven of verwijderen, privileges te escaleren, authenticatie te omzeilen, configuraties te manipuleren, en denial-of-service te veroorzaken. Sommige kwetsbaarheden vereisen authentificatie met verschillende privilege niveaus, variërend van read-only gebruikers tot geauthenticeerde beheerders, terwijl andere ook misbruikt kunnen worden door niet-geauthenticeerde aanvallers. \n\nDe kwetsbaarheden zijn aanwezig in zowel on-premises als cloudversies van de FortiManager en FortiAnalyzer producten en beïnvloeden belangrijke netwerkbeheer- en beveiligingsanalysefuncties. Exploitatie kan leiden tot compromittering van systeemintegriteit, controle over beheerde apparaten, en verstoring van netwerkbeheerprocessen. Specifieke aanvalsvectoren omvatten het verzenden van speciaal vervaardigde HTTP/HTTPS-requests, JSON-RPC-requests, OFTP-pakketten, en manipulatie van GUI-interfaces en template engines."
+  },
+  "ncsc_nl_advisories:84a9a40cfe3f": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0487 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiMail",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0487",
+   "published_raw": "Thu, 12 Nov 2026 08:54:20 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Fortinet heeft meerdere kwetsbaarheden verholpen in FortiMail. De kwetsbaarheden in FortiMail betreffen onder andere OS command injection, path traversal, SQL-injectie, authenticatie- en autorisatieproblemen, argument injection, XML-injectie, en resource consumptie. Sommige kwetsbaarheden kunnen door ongeauthenticeerde aanvallers worden misbruikt, terwijl andere authenticatie vereisen. Exploitatie kan leiden tot het uitvoeren van ongeautoriseerde commando's op root-niveau, het omzeilen van authenticatie en autorisatie, het resetten van wachtwoorden van webmailgebruikers, het lezen en verzenden van versleutelde e-mails namens andere gebruikers, het verwijderen van gebruikers in multi-tenant omgevingen, en het veroorzaken van denial-of-service door crashes of resource uitputting. De kwetsbaarheden beïnvloeden verschillende versies van FortiMail, met name versies tussen 7.2 en 8.0.2, en hebben impact op kernfunctionaliteiten zoals mailverwerking, webmailinterfaces, administratieve interfaces, en integratie met FortiAuthenticator."
+  },
+  "ncsc_nl_advisories:89d9a4563833": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0486 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiClient en FortiClientEMS",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0486",
+   "published_raw": "Thu, 12 Nov 2026 08:48:17 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Fortinet heeft kwetsbaarheden verholpen in FortiClient en FortiClientEMS. In FortiClientEMS kunnen geauthenticeerde lokale gebruikers met administratieve rechten hun toegang escaleren naar een root shell door het uitvoeren van CLI-commando's met te hoge privileges. Dit komt doordat de commando's meer rechten krijgen dan noodzakelijk, wat root-level controle mogelijk maakt. Deze kwetsbaarheid betreft het FortiClientEMS managementsysteem en kan de integriteit van beheerde endpoints beïnvloeden. Daarnaast bestaat er in FortiClient voor Mac en Windows een kwetsbaarheid in de origin validation mechanism. Een niet-geautoriseerde externe aanvaller kan hierdoor willekeurige code of commando's uitvoeren op het getroffen systeem, mits het slachtoffer interactie toont, zoals het klikken op een kwaadaardige link of het openen van een speciaal vervaardigd bestand. De oorzaak ligt in een onjuiste validatie van de oorsprong, waardoor beveiligingscontroles kunnen worden omzeild."
+  },
+  "ncsc_nl_advisories:88e35dc18e08": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0485 [1.00] [M/H] Kwetsbaarheden verholpen in SAP-producten",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0485",
+   "published_raw": "Thu, 12 Nov 2026 08:43:05 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "SAP heeft meerdere kwetsbaarheden verholpen in diverse SAP-producten, waaronder SAP NetWeaver Application Server ABAP, SAP NetWeaver AS Java, SAP Web Dispatcher, SAP BusinessObjects Business Intelligence Platform, SAP Cloud SDK, SAP Host Agent, SAP NetWeaver Enterprise Portal, SAP NetWeaver Visual Composer, en SAP Solution Tools Plug-In. De kwetsbaarheden betreffen verschillende componenten binnen SAP-producten en omvatten onder andere security misconfiguraties, memory corruptie, OS command injection, broken access control, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), Server-Side Request Forgery (SSRF), XML External Entity (XXE) aanvallen, code injection, informatielekken, path traversal, en cryptografische zwaktes. Aanvallers kunnen deze kwetsbaarheden misbruiken om onder meer arbitrary code uit te voeren, denial-of-service te veroorzaken, ongeautoriseerde toegang te verkrijgen, gevoelige informatie te lekken, en integriteit van systemen en data aan te tasten. Sommige kwetsbaarheden vereisen geen authenticatie voor exploitatie, terwijl andere misbruik maken van onvoldoende autorisatie- en inputvalidatiecontroles. De kwetsbaarheden zijn aanwezig in zowel ABAP- als Java-componenten, webinterfaces, en SDK's van SAP. Er zijn geen specifieke aanwijzingen voor publiek beschikbare proof-of-concept exploits in de beschrijvingen, maar de technische details geven aan dat exploitatie mogelijk is via speciaal vervaardigde verzoeken of input."
+  },
+  "ncsc_nl_advisories:dc9f393a3edb": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0484 [1.00] [M/H] Kwetsbaarheid verholpen in Apache HTTP Server",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0484",
+   "published_raw": "Thu, 12 Nov 2026 07:59:35 +0000",
+   "fetched_at": "2026-11-13T01:23:05.840008Z",
+   "excerpt": "Apache heeft een kwetsbaarheid verholpen in Apache HTTP Server, specifiek in de mod_http2 module (versies 2.4.55 tot 2.4.70) en mod_h2 module (versies 2.0.8 tot 2.0.42). De kwetsbaarheid betreft een concurrency probleem in de assign_headers functie van de mod_http2 en mod_h2 modules. De kwetsbaarheid maakt het mogelijk voor niet-geauthenticeerde externe aanvallers om op afstand willekeurige commando's uit te voeren, wat kan leiden tot remote code execution op servers waar HTTP/2 is ingeschakeld. Servers die alleen HTTP/1.1 ondersteunen zijn niet kwetsbaar."
+  },
+  "cisco_talos:a03140a67450": {
+   "source_id": "cisco_talos",
+   "title": "Never be afraid to ask questions",
+   "url": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+   "published_raw": "Thu, 12 Nov 2026 19:00:00 GMT",
+   "fetched_at": "2026-11-13T01:23:08.059406Z",
+   "excerpt": "Amy reflects on a formative college anthropology course that taught her the power of asking questions to bridge cultural gaps."
+  },
+  "microsoft_threat_intel:d70e434642fc": {
+   "source_id": "microsoft_threat_intel",
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "published_raw": "Thu, 12 Nov 2026 17:00:00 +0000",
+   "fetched_at": "2026-11-13T01:23:09.928640Z",
+   "excerpt": "<p>Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/\">Trained to betray: How post-training supply chain attacks hijack coding agents</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "unit42:4667871d85f7": {
+   "source_id": "unit42",
+   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+   "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+   "published_raw": "Thu, 12 Nov 2026 15:00:31 +0000",
+   "fetched_at": "2026-11-13T01:23:10.040513Z",
+   "excerpt": "<p>Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/\">Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>"
+  },
+  "crowdstrike_blog:f95564ec3707": {
+   "source_id": "crowdstrike_blog",
+   "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/",
+   "published_raw": "Nov 12, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-13T01:23:10.270680Z",
+   "excerpt": ""
+  },
+  "bleepingcomputer:a9ddc6359634": {
+   "source_id": "bleepingcomputer",
+   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "published_raw": "Thu, 12 Nov 2026 17:53:10 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]"
+  },
+  "bleepingcomputer:6947b84f5dbe": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+   "published_raw": "Thu, 12 Nov 2026 17:25:30 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]"
+  },
+  "bleepingcomputer:2abeb68b7334": {
+   "source_id": "bleepingcomputer",
+   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+   "published_raw": "Thu, 12 Nov 2026 15:15:16 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]"
+  },
+  "bleepingcomputer:9cb2b44a4924": {
+   "source_id": "bleepingcomputer",
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "published_raw": "Thu, 12 Nov 2026 14:51:16 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]"
+  },
+  "bleepingcomputer:4d2baf54099d": {
+   "source_id": "bleepingcomputer",
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "published_raw": "Thu, 12 Nov 2026 14:12:55 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]"
+  },
+  "bleepingcomputer:c270d121cad4": {
+   "source_id": "bleepingcomputer",
+   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+   "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+   "published_raw": "Thu, 12 Nov 2026 11:04:00 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]"
+  },
+  "bleepingcomputer:789c1a9d36e7": {
+   "source_id": "bleepingcomputer",
+   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+   "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "published_raw": "Thu, 12 Nov 2026 10:07:20 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]"
+  },
+  "bleepingcomputer:3eb3dda3413b": {
+   "source_id": "bleepingcomputer",
+   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+   "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+   "published_raw": "Thu, 12 Nov 2026 10:00:10 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]"
+  },
+  "bleepingcomputer:706b5029abbf": {
+   "source_id": "bleepingcomputer",
+   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+   "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+   "published_raw": "Thu, 12 Nov 2026 09:36:47 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]"
+  },
+  "bleepingcomputer:eae5749d1a10": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+   "published_raw": "Thu, 12 Nov 2026 07:11:11 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]"
+  },
+  "bleepingcomputer:13fc86b2ae6c": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "published_raw": "Thu, 12 Nov 2026 05:24:07 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]"
+  },
+  "bleepingcomputer:bee0f7d9c4fe": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "published_raw": "Thu, 12 Nov 2026 04:38:00 -0500",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "excerpt": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]"
+  },
+  "the_record:e52fb1952d02": {
+   "source_id": "the_record",
+   "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+   "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+   "published_raw": "Thu, 12 Nov 2026 21:42:00 GMT",
+   "fetched_at": "2026-11-13T01:23:10.569531Z",
+   "excerpt": "The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations."
+  },
+  "the_record:bb48d6f8868d": {
+   "source_id": "the_record",
+   "title": "United to block customers from using AI agents, citing cyber threats",
+   "url": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+   "published_raw": "Thu, 12 Nov 2026 19:20:00 GMT",
+   "fetched_at": "2026-11-13T01:23:10.569531Z",
+   "excerpt": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said."
+  },
+  "the_record:2559f2095350": {
+   "source_id": "the_record",
+   "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+   "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+   "published_raw": "Thu, 12 Nov 2026 18:28:00 GMT",
+   "fetched_at": "2026-11-13T01:23:10.569531Z",
+   "excerpt": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week."
+  },
+  "the_record:023264eb01e1": {
+   "source_id": "the_record",
+   "title": "European authorities take down SteaIC malware servers for second time this year",
+   "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+   "published_raw": "Thu, 12 Nov 2026 16:21:00 GMT",
+   "fetched_at": "2026-11-13T01:23:10.569531Z",
+   "excerpt": "German authorities on Thursday said investigators traced the rebuilt network to the  Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit."
+  },
+  "the_record:7968b43f44c2": {
+   "source_id": "the_record",
+   "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
+   "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+   "published_raw": "Thu, 12 Nov 2026 16:16:00 GMT",
+   "fetched_at": "2026-11-13T01:23:10.569531Z",
+   "excerpt": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50."
+  },
+  "the_hacker_news:950205e16691": {
+   "source_id": "the_hacker_news",
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+   "published_raw": "Thu, 12 Nov 2026 23:37:15 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\n\nA suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody"
+  },
+  "the_hacker_news:0215fb6873ae": {
+   "source_id": "the_hacker_news",
+   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+   "published_raw": "Thu, 12 Nov 2026 23:32:51 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.\n\nAttackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while"
+  },
+  "the_hacker_news:1acaa8e77a2e": {
+   "source_id": "the_hacker_news",
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+   "published_raw": "Thu, 12 Nov 2026 23:20:27 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of"
+  },
+  "the_hacker_news:093b008afb96": {
+   "source_id": "the_hacker_news",
+   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+   "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+   "published_raw": "Thu, 12 Nov 2026 21:57:01 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay"
+  },
+  "the_hacker_news:c398aa3e9226": {
+   "source_id": "the_hacker_news",
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+   "published_raw": "Thu, 12 Nov 2026 21:08:49 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.\n\nThe critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below -\n\n\n  CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet"
+  },
+  "the_hacker_news:50b7d482cfd7": {
+   "source_id": "the_hacker_news",
+   "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+   "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+   "published_raw": "Thu, 12 Nov 2026 20:45:40 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.\n\nThis delivery pattern has been codenamed TypoPrompting by Island.\n\n\"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,"
+  },
+  "the_hacker_news:daa356fef18a": {
+   "source_id": "the_hacker_news",
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+   "published_raw": "Thu, 12 Nov 2026 18:38:28 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.\n\nBlackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an"
+  },
+  "the_hacker_news:5af74d5ce665": {
+   "source_id": "the_hacker_news",
+   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "published_raw": "Thu, 12 Nov 2026 17:39:14 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.\n\nThe affected"
+  },
+  "the_hacker_news:4fb3f4a554eb": {
+   "source_id": "the_hacker_news",
+   "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+   "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+   "published_raw": "Thu, 12 Nov 2026 17:21:43 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is"
+  },
+  "the_hacker_news:f7cf57082e20": {
+   "source_id": "the_hacker_news",
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "published_raw": "Thu, 12 Nov 2026 17:21:31 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire."
+  },
+  "the_hacker_news:988b46d175c6": {
+   "source_id": "the_hacker_news",
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "published_raw": "Thu, 12 Nov 2026 17:03:15 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.\n\nIt has been described as a case of improper input validation and deserialization of untrusted data that could result in"
+  },
+  "the_hacker_news:26d811aac83d": {
+   "source_id": "the_hacker_news",
+   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "published_raw": "Thu, 12 Nov 2026 14:55:00 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica"
+  },
+  "the_hacker_news:c2d283cd7530": {
+   "source_id": "the_hacker_news",
+   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+   "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+   "published_raw": "Thu, 12 Nov 2026 13:50:37 +0530",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "excerpt": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections.\n\nFixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1.\n\nThe crash"
+  },
+  "securityweek:64b35d795d75": {
+   "source_id": "securityweek",
+   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+   "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+   "published_raw": "Thu, 12 Nov 2026 20:55:30 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/\">Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:cfa80f78adb3": {
+   "source_id": "securityweek",
+   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+   "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+   "published_raw": "Thu, 12 Nov 2026 15:38:31 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled.</p>\n<p>The post <a href=\"https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/\">Apache Patches Critical HTTP Server RCE Found by Anthropic, Google</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:31b5c219d6f7": {
+   "source_id": "securityweek",
+   "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+   "published_raw": "Thu, 12 Nov 2026 13:42:09 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/\">Chrome, Firefox Updates Patch Over 180 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:fa85d9157c65": {
+   "source_id": "securityweek",
+   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+   "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+   "published_raw": "Thu, 12 Nov 2026 13:39:03 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories.</p>\n<p>The post <a href=\"https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/\">Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:22848929c0d1": {
+   "source_id": "securityweek",
+   "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+   "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+   "published_raw": "Thu, 12 Nov 2026 13:12:11 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets.</p>\n<p>The post <a href=\"https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/\">Daylight Lands $80 Million for AI-Powered Security Operations</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:54154cfe4a11": {
+   "source_id": "securityweek",
+   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+   "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+   "published_raw": "Thu, 12 Nov 2026 11:08:52 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable.</p>\n<p>The post <a href=\"https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/\">Notion Customer Data Compromised in Fireworks AI Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:d37e24abb537": {
+   "source_id": "securityweek",
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "published_raw": "Thu, 12 Nov 2026 10:39:34 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/\">Hackers Deploy Malware in Fresh ScreenConnect Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:4c8d8af9bfca": {
+   "source_id": "securityweek",
+   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+   "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+   "published_raw": "Thu, 12 Nov 2026 09:39:55 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/\">Hackers Target N-central Zero-Days as N-able Rushes Patches </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:2f01d2c20574": {
+   "source_id": "securityweek",
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "published_raw": "Thu, 12 Nov 2026 09:23:21 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/\">Critical Red Hat Quay Vulnerability Could Expose Private Container Images</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:eace43c9534b": {
+   "source_id": "securityweek",
+   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+   "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+   "published_raw": "Thu, 12 Nov 2026 08:38:47 +0000",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "excerpt": "<p>The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/\">Maersk Confirms Data Theft Amid $5 Million Extortion Attempt</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-12T07:38:54.281169Z"
+ "updated_at": "2026-11-13T01:23:05.345746Z"
 }
