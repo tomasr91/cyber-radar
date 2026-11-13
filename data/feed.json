@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T03:25:34.328143Z",
+ "generated_at": "2026-11-13T04:38:52.809593Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-13T01:35:30Z",
- "last_successful_update": "2026-11-13T03:25:34.328143Z",
+ "last_successful_update": "2026-11-13T04:38:52.809593Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T03:25:34.388701Z"
+   "checked_at": "2026-11-13T04:38:52.869278Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T03:25:34.907895Z"
+   "checked_at": "2026-11-13T04:38:53.451414Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T03:25:35.659389Z"
+   "checked_at": "2026-11-13T04:38:54.127594Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T03:25:37.029798Z"
+   "checked_at": "2026-11-13T04:38:54.593353Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T03:25:37.952168Z"
+   "checked_at": "2026-11-13T04:38:55.443714Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T03:25:38.025656Z"
+   "checked_at": "2026-11-13T04:38:55.637668Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T03:25:38.120163Z"
+   "checked_at": "2026-11-13T04:38:55.720114Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T03:25:38.214868Z"
+   "checked_at": "2026-11-13T04:38:55.844826Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T03:25:38.703343Z"
+   "checked_at": "2026-11-13T04:38:56.084795Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T03:25:45.338943Z"
+   "checked_at": "2026-11-13T04:38:57.566043Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T03:25:45.498373Z"
+   "checked_at": "2026-11-13T04:38:57.709626Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T03:25:46.263294Z"
+   "checked_at": "2026-11-13T04:38:57.872497Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T03:25:46.354733Z"
+   "checked_at": "2026-11-13T04:38:57.995913Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T03:25:46.575750Z"
+   "checked_at": "2026-11-13T04:38:58.110222Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T03:25:46.679910Z"
+   "checked_at": "2026-11-13T04:38:58.172063Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T03:25:46.773696Z"
+   "checked_at": "2026-11-13T04:38:58.241742Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T03:25:46.952251Z"
+   "checked_at": "2026-11-13T04:38:58.740816Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T03:25:47.180835Z"
+   "checked_at": "2026-11-13T04:38:58.865752Z"
   }
  ],
  "daily_top": [
@@ -696,7 +696,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.92,
+    "recency": 0.91,
     "source": 0.85,
     "quality": 0.67,
     "fit": 0.05
@@ -2063,7 +2063,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.59,
+    "recency": 0.58,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -4074,7 +4074,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.32,
+    "recency": 0.31,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.1
@@ -4240,104 +4240,6 @@
     "why": "Nog geen duimpjes; een uitgewerkte aanvalsketen met concrete signalen in de logs past bij je leerdoelen."
    },
    "takeaway": "Een token is een toegangsbewijs dat ná MFA wordt uitgegeven; wie het steelt, is ingelogd zonder MFA. Na een accountovername moet je ook apparaten, MFA-methoden en inbox-regels nalopen, niet alleen het wachtwoord.",
-   "region": "world"
-  },
-  {
-   "id": "842bc764ab47",
-   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-   "source_id": "securityweek",
-   "published_at": "2026-11-04T10:36:32Z",
-   "fetched_at": "2026-11-05T01:23:20.491689Z",
-   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
-   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
-   "limitations": [
-    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
-    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
-    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
-    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
-   ],
-   "topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
-   ],
-   "groups": [
-    "incidenten",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.65,
-    "source": 0.51,
-    "quality": 0.73,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-06T01:34:10Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
-   "story": [
-    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
-    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
-    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
-    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
-    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
-   ],
-   "key_facts": [
-    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
-    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
-    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
-    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
-    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
-    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
-    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
-    "language": "log",
-    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
-   },
-   "terms": [
-    {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
-    },
-    {
-     "term": "zero-day",
-     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
-    },
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "containers",
-     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
-    },
-    {
-     "term": "hot wallet",
-     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
-    },
-    {
-     "term": "smart contract",
-     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
-   },
-   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
    "region": "world"
   },
   {
@@ -4713,6 +4615,104 @@
     "Kijken jullie wel eens naar nieuwe geplande taken met SYSTEM-rechten?"
    ],
    "takeaway": "Gekraakte software is een klassieke besmettingsroute: de gebruiker start zelf de installer. Geplande taken zijn een veelgebruikte manier om software na een herstart terug te laten komen, en daarom een goed punt om op te monitoren.",
+   "region": "world"
+  },
+  {
+   "id": "842bc764ab47",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-04T10:36:32Z",
+   "fetched_at": "2026-11-05T01:23:20.491689Z",
+   "summary": "Het incidentrapport van Binance laat zien hoe aanvallers maandenlang de werkplekken van wallet-engineers belaagden, onder meer met een nep-sollicitatie. De FBI wijst de Noord-Koreaanse groep TraderTraitor aan.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over de werkplek van ontwikkelaars: worden ontwikkelaarslaptops even streng gemonitord als servers, en hoe lang en hoe breed zijn hun tokens geldig?",
+   "limitations": [
+    "Hoe de interne AI-tool precies is misbruikt, staat niet in het rapport.",
+    "Welk ontwikkeltoolonderdeel werd nagemaakt en wat de zero-day precies was, is niet bekend.",
+    "Het rapport is van Binance zelf; onafhankelijke beveiligingsbedrijven onderzoeken het incident nog.",
+    "De toeschrijving aan TraderTraitor komt van de FBI; Noord-Korea ontkent."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.65,
+    "source": 0.51,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-06T01:34:10Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Binance-roof van 6 miljard begon bij laptops van drie engineers",
+   "story": [
+    "Bij cryptobeurs Binance is ongeveer 6,34 miljard dollar aan cryptomunten gestolen. Volgens SecurityWeek is ongeveer 2,85 miljard dollar daarvan bevroren of onderschept. Op 3 november publiceerde Binance een eerste incidentrapport. Daaruit blijkt dat het geen snelle inbraak was, maar een campagne van maanden. De FBI schrijft de diefstal toe aan TraderTraitor, een hackersgroep die door Noord-Korea wordt gesteund. Noord-Korea ontkent dat.",
+    "De aanvallers richtten zich niet eerst op servers, maar op de computers van engineers uit het walletteam. Wie daar werkt, heeft veel rechten, dus zijn laptop is een sleutel tot de kluis. In juni downloadde een engineer via een zoekmachine een nagemaakte installatie van Homebrew, een veelgebruikt programma om ontwikkelsoftware te installeren. Hij zocht eigenlijk een populaire AI-programmeertool. Binance verving het apparaat, maar de aanvallers wisten toen al hoe het team werkte.",
+    "In september benaderde een zogenaamde projectdirecteur een tweede engineer met een baan. Na twee nep-sollicitatiegesprekken moest hij een programmeeropdracht op zijn werkcomputer downloaden. Zodra hij het project opzette, startte er verborgen code. Die plaatste een nagemaakt onderdeel van een ontwikkeltool en opende een verbinding met een server van de aanvallers. De EDR op de laptop zag dit niet; het rapport spreekt van een zero-day.",
+    "Op 20 oktober namen de aanvallers met die besmette computer en een interne AI-tool ook de computers van de eerste en een derde engineer over. Hoe ze die AI-tool precies gebruikten, staat niet in het rapport. Op 29 oktober gebruikten ze een token waarmee je containers mocht uitrollen. Zo misbruikten ze een interne dienst die wallettransacties ondertekent, en haalden ze munten uit een hot wallet. Via een Ethereum-functie (EIP-7702) gaven ze ook een eigen smart contract zeggenschap over een wallet. Opnames stopzetten hielp daardoor niet meteen.",
+    "De les: de zwakke plek was de werkplek van ontwikkelaars, niet de wallet zelf. Code die je downloadt voor een test of sollicitatie draait met jouw rechten, dus ook met jouw toegang tot het bedrijf. Daarom horen zulke opdrachten in een afgeschermde omgeving, zoals een losse virtuele machine. Een SIEM kan helpen door te letten op ontwikkeltools die onverwacht naar onbekende servers verbinden, en op tokens die opeens vanaf een ander apparaat worden gebruikt."
+   ],
+   "key_facts": [
+    "Binance meldt een diefstal van ongeveer 6,34 miljard dollar; volgens SecurityWeek is ongeveer 2,85 miljard dollar bevroren of onderschept.",
+    "Binance publiceerde op 3 november 2026 een eerste incidentrapport; de aanval verliep in fasen en raakte de computers van drie engineers.",
+    "De FBI schrijft de diefstal toe aan TraderTraitor, gesteund door Noord-Korea; Noord-Korea wijst dat af.",
+    "Juni 2026: een Wallet DevOps-engineer downloadde via een zoekmachine een gemanipuleerde Homebrew-installatie terwijl hij een AI-programmeertool zocht.",
+    "September 2026: een tweede engineer kreeg na nep-sollicitatiegesprekken een programmeeropdracht met kwaadaardige code die bij het opzetten startte; de endpointbeveiliging zag deze zero-day niet.",
+    "20 en 29 oktober 2026: met een interne AI-tool en een token voor containerdeployments werd een interne signing-dienst misbruikt om XRP, SOL, OP en BTC uit hot wallets te halen; via EIP-7702 kreeg een contract van de aanvallers gedeeltelijke uitvoeringsrechten over een hot wallet.",
+    "Volgens Elliptic ging de buit in minder dan vier dagen via ongeveer 12.000 wallets op 11 blockchains."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een besmette programmeeropdracht eruitzien in de procesgegevens van een EDR of SIEM. Let op de volgorde: een installatie in een testproject start een script, en dat script maakt meteen verbinding met een onbekende server.",
+    "language": "log",
+    "code": "2026-09-18 10:02:11  proces   terminal -> pakketbeheerder install   (map: ~/sollicitatie-opdracht)\n2026-09-18 10:02:14  proces   pakketbeheerder -> setup-script\n2026-09-18 10:02:15  netwerk  setup-script -> 203.0.113.10:443   (eerste keer gezien)\n2026-09-18 10:02:16  bestand  setup-script schrijft nieuw programma in een verborgen map",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres. De bron zegt niet welke tooling of bestanden de echte opdracht gebruikte."
+   },
+   "terms": [
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    },
+    {
+     "term": "zero-day",
+     "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "containers",
+     "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf."
+    },
+    {
+     "term": "hot wallet",
+     "explanation": "Een cryptowallet die online staat en snel transacties kan doen, bijvoorbeeld voor opnames van klanten. Handig, maar daardoor kwetsbaarder dan een wallet die offline staat."
+    },
+    {
+     "term": "smart contract",
+     "explanation": "Een programmaatje op een blockchain dat automatisch uitvoert wat erin is vastgelegd, bijvoorbeeld geld doorsturen als aan een voorwaarde is voldaan."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met een concrete aanvalsketen van eerste toegang tot diefstal."
+   },
+   "takeaway": "Ontwikkelaars met veel rechten zijn een doelwit: code die zij lokaal draaien, draait met hun toegang. Afgeschermde testomgevingen en tokens met weinig rechten en een korte geldigheid beperken de schade.",
    "region": "world"
   },
   {
@@ -5789,7 +5789,7 @@
     "aanvallen",
     "web"
    ],
-   "relevance_score": 79,
+   "relevance_score": 78,
    "score_parts": {
     "topic": 0.85,
     "recency": 0.66,
@@ -9154,6 +9154,13 @@
  "runs": {
   "date": "2026-11-13",
   "tasks": {
+   "inhalen": {
+    "status": "ok",
+    "summary": "niets in te halen",
+    "finished_at": "2026-11-13T04:38:36Z",
+    "problems": [],
+    "counts": {}
+   },
    "verdiepen": {
     "status": "ok",
     "summary": "Gisteren is geen verdieping gekozen, dus vannacht geen verdieping geschreven; 5 nieuwe keuzes klaargezet.",
@@ -9247,8 +9254,8 @@
    "google_threat_intel": 5,
    "microsoft_threat_intel": 4,
    "cisco_talos": 3,
-   "securityweek": 1,
    "watchtowr_labs": 1,
+   "securityweek": 1,
    "the_record": 1
   },
   "date_flags": [
@@ -9357,36 +9364,6 @@
     ]
    },
    {
-    "title": "NCSC-2026-0490 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiAuthenticator",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0490",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0489 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0489",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0488 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiManager en FortiAnalyzer",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0488",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0483",
@@ -9420,6 +9397,36 @@
     "title": "NCSC-2026-0478 [1.00] [M/H] Kwetsbaarheden verholpen in N-able N-central",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0478",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0490 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiAuthenticator",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0490",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0489 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiOS",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0489",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0488 [1.00] [M/H] Kwetsbaarheden verholpen in Fortinet FortiManager en FortiAnalyzer",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0488",
     "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
@@ -9715,14 +9722,6 @@
     "excluded_by": []
    },
    {
-    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
@@ -9810,6 +9809,14 @@
     "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
