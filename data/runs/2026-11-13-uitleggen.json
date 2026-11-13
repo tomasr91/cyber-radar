@@ -1,0 +1,13 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-13T01:22:42Z",
+  "finished_at": "2026-11-13T01:37:01Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 7 artikelen uitgelegd (wfx-loot op GitHub, nieuwe N-central-exploits, Apache HTTP/2-lek, SignDrop in Windows, GSocket op Linux-servers, SCKit via ScreenConnect en sessiediefstal via nep-agenda-uitnodigingen) en 3 overgeslagen (Ivanti- en Citrix-patches zonder uitleg of misbruik, AMD-processorlekken met weinig urgentie).",
+  "counts": {"uitgelegd": 7, "overgeslagen": 3, "overgeslagen_zonder_openen": 0, "niet_te_lezen": 0},
+  "problems": [
+    "De artikelen van BleepingComputer over N-central en over Apache HTTP/2 gaven een serverfout; die uitleg steunt op The Hacker News (en voor Apache ook op een notitie van de Cloud Security Alliance).",
+    "Directe links moesten eerst via een zoekopdracht worden gevonden.",
+    "Twee eerdere 'niet te lezen'-gevallen (GSocket en SCKit) zijn bijgewerkt naar 'zelfde ontwikkeling', omdat ze nu zijn uitgelegd."
+  ]
+}
