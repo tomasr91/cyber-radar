@@ -1,0 +1,13 @@
+{
+  "task": "overzicht",
+  "started_at": "2026-11-13T03:23:01Z",
+  "finished_at": "2026-11-13T03:24:30Z",
+  "status": "ok",
+  "summary": "3 trends bijgewerkt (AI-agenten aangevuld met AntiFox en Cisco BroadWorks, MFA-trend vernieuwd met de Google-sessiediefstal, randapparaten ongewijzigd), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (vrijdag).",
+  "counts": {
+    "trends": 3,
+    "interesses_aangepast": 0,
+    "begrippen_aangevuld": 0
+  },
+  "problems": []
+}
