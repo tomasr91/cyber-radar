@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T01:23:05.345746Z",
+ "generated_at": "2026-11-13T01:35:33.983550Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-12T05:15:00Z",
- "last_successful_update": "2026-11-13T01:23:05.345746Z",
+ "last_article_added_at": "2026-11-13T02:08:00Z",
+ "last_successful_update": "2026-11-13T01:35:33.983550Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T01:23:05.387589Z"
+   "checked_at": "2026-11-13T01:35:34.043769Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T01:23:05.840008Z"
+   "checked_at": "2026-11-13T01:35:34.634161Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T01:23:06.460571Z"
+   "checked_at": "2026-11-13T01:35:35.471418Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T01:23:06.972582Z"
+   "checked_at": "2026-11-13T01:35:36.200392Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T01:23:07.834802Z"
+   "checked_at": "2026-11-13T01:35:37.149974Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T01:23:07.902869Z"
+   "checked_at": "2026-11-13T01:35:37.374544Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T01:23:08.059406Z"
+   "checked_at": "2026-11-13T01:35:37.490959Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T01:23:08.142144Z"
+   "checked_at": "2026-11-13T01:35:37.661314Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T01:23:08.378707Z"
+   "checked_at": "2026-11-13T01:35:38.093998Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T01:23:09.928640Z"
+   "checked_at": "2026-11-13T01:35:39.846899Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T01:23:10.040513Z"
+   "checked_at": "2026-11-13T01:35:40.191693Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T01:23:10.083274Z"
+   "checked_at": "2026-11-13T01:35:40.466517Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T01:23:10.199513Z"
+   "checked_at": "2026-11-13T01:35:40.640514Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T01:23:10.270680Z"
+   "checked_at": "2026-11-13T01:35:40.892483Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T01:23:10.535365Z"
+   "checked_at": "2026-11-13T01:35:41.005773Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T01:23:10.569531Z"
+   "checked_at": "2026-11-13T01:35:41.090336Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T01:23:10.741225Z"
+   "checked_at": "2026-11-13T01:35:41.337613Z"
   },
   {
    "id": "securityweek",
@@ -381,17 +381,112 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T01:23:10.878340Z"
+   "checked_at": "2026-11-13T01:35:41.601334Z"
   }
  ],
  "daily_top": [
+  "6947b84f5dbe",
   "9398616ade4d",
   "7bb9dcd14586",
   "3e830a9401ea",
-  "7d35c70e6708",
-  "11515cc0259f"
+  "7d35c70e6708"
  ],
  "articles": [
+  {
+   "id": "6947b84f5dbe",
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T22:25:30Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Een aanvaller gebruikt duizenden overgenomen GitHub-accounts om kwaadaardige workflows in projecten te zetten. Die stelen wachtwoorden, sleutels en toegang tot AWS, Azure en Google Cloud, en wissen daarna hun sporen.",
+   "personal_relevance": "Klanten met ontwikkelteams vragen zich af of hun GitHub-projecten geraakt zijn. Goede vragen: welke geheimen en cloudrollen hebben jullie workflows, en komen GitHub-auditlogs en cloudlogs in de SIEM terecht?",
+   "limitations": [
+    "Hoe de 4.837 GitHub-accounts zijn overgenomen, is niet bekend.",
+    "Wie achter de campagne zit, is onbekend; de onderzoekers zien alleen overeenkomsten met de GhostAction-campagne uit 2025.",
+    "Niet elke afgetaste repository heeft het script echt uitgevoerd; hoeveel cloudomgevingen daadwerkelijk zijn binnengedrongen, is niet bekend.",
+    "Aikido Security is een securityleverancier; de technische details komen uit zijn eigen onderzoek."
+   ],
+   "topics": [
+    "incidents_breaches",
+    "supply_chain",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "incidenten",
+    "web"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T01:55:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten",
+   "story": [
+    "Sinds 10 november gebruikt een aanvaller 4.837 gehackte GitHub-accounts om 61.764 projecten (repositories) af te tasten. De campagne heet 'wfx-loot'. Onderzoekers van Aikido Security bevestigen dat bij minstens 1.835 doelwitten geheimen zijn gestolen. Een deel van de accounts hoort bij grote organisaties en overheden. Hoe de aanvaller die accounts zelf in handen kreeg, staat niet in het artikel.",
+    "Eerst de normale werking. GitHub Actions is de CI/CD van GitHub: bij elke wijziging in een project draait automatisch een workflow. Dat is een script dat de code bouwt, test en publiceert. Om dat te kunnen, krijgt de workflow geheimen mee, zoals API-sleutels en wachtwoorden. Vaak krijgt hij ook een OIDC-token, waarmee hij zonder vast wachtwoord tijdelijk bij AWS, Azure of Google Cloud mag inloggen. Wie een workflow kan aanpassen, krijgt dus alles wat die workflow mag.",
+    "Daar mikt de aanvaller op. Met een onschuldig ogende pull request ('docs: dependency audit notes') test hij of een account schrijfrechten heeft; 92 procent van die verzoeken staat nog open. Daarna past hij een bestaande workflow aan, zet hij een nieuwe workflow op een kortlevende branch of plant hij een installatiehook in npm. Een script van ongeveer 1.500 regels verzamelt geheimen, wisselt OIDC-tokens in voor cloudsessies en maakt waar mogelijk blijvende toegangssleutels aan of past een trust policy aan. Dat is persistentie: toegang die blijft, ook als het token verloopt. Binnen een minuut draait de aanvaller alles terug en wist hij workflow-runs en logs.",
+    "Hoe zie je het? Aikido adviseert te zoeken naar een branch met de naam 'wfx-docs', naar de test-pull request en naar gaten in de nummering van workflow-runs: gewiste runs laten een sprong in de nummers achter. Is het script gedraaid, beschouw dan alle geheimen en cloudrollen van die workflows als gestolen en vervang ze direct. In de cloudlogs (en dus in een SIEM) zijn dan nieuwe gebruikers, nieuwe toegangssleutels en gewijzigde trust policies de sporen om op te letten.",
+    "Voor organisaties is de les dat de bouwstraat van software deel is van het aanvalsoppervlak. Een workflow heeft vaak meer rechten in de cloud dan een gewone medewerker. Bovendien publiceerden een paar projecten automatisch nieuwe pakketversies met de malware erin; zo kan zo'n aanval doorschuiven naar wie die pakketten gebruikt."
+   ],
+   "key_facts": [
+    "De campagne 'wfx-loot' begon rond 10 november 2026 om 12:45 UTC.",
+    "4.837 gehackte accounts tastten 61.764 repositories af; bij minstens 1.835 doelwitten zijn geheimen bevestigd gestolen (Aikido Security).",
+    "Ongeveer 92 procent van de test-pull requests met de titel 'docs: dependency audit notes' stond nog open.",
+    "Het script wisselde GitHub OIDC-tokens in voor tijdelijke sessies bij AWS, Azure en GCP en kon waar rechten het toelieten blijvende sleutels maken of trust policies aanpassen.",
+    "De aanvaller draaide wijzigingen binnen een minuut terug en wiste workflow-runs en logs.",
+    "Via automatisch publiceren kwam de malware in een Packagist-pakket (digitalelvis/neuronai-studio 3.14.3) en een Go-module (github.com/onuragtas/docker-env v1.0.278 en v1.0.280)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een gat in de nummering van workflow-runs eruitzien. Runs 413 en 414 ontbreken: de aanvaller wiste ze na afloop. Juist het gat is het spoor.",
+    "language": "text",
+    "code": "Workflow-runs van 'build.yml'\n#416  push   main          geslaagd   11 nov 09:02\n#415  push   main          geslaagd   10 nov 17:40\n#412  push   main          geslaagd   10 nov 11:15\n#411  pull   feature/ui    geslaagd   09 nov 16:22",
+    "note": "Nagebouwd voorbeeld; de nummers en tijden zijn verzonnen."
+   },
+   "terms": [
+    {
+     "term": "CI/CD",
+     "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."
+    },
+    {
+     "term": "workflow",
+     "explanation": "Een script in GitHub Actions dat automatisch draait bij een wijziging, bijvoorbeeld om code te bouwen, te testen of te publiceren."
+    },
+    {
+     "term": "OIDC-token",
+     "explanation": "Een kortlevend digitaal bewijs dat een workflow aan een clouddienst laat zien. De cloud vertrouwt dat bewijs en geeft tijdelijk toegang, zonder vast wachtwoord."
+    },
+    {
+     "term": "trust policy",
+     "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "pull request",
+     "explanation": "Een voorstel om een wijziging aan een project toe te voegen. De eigenaar kan het bekijken en goedkeuren of afwijzen."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; technische aanval op bouwstraten en cloud, met concrete sporen voor detectie."
+   },
+   "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
+   "region": "world"
+  },
   {
    "id": "9398616ade4d",
    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
@@ -578,6 +673,111 @@
    },
    "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
    "region": "world"
+  },
+  {
+   "id": "4d2baf54099d",
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T19:12:55Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Apache 2.4.71 dicht CVE-2026-119618, een fout in de HTTP/2-module waarmee een aanvaller zonder inlog mogelijk de webserver overneemt. Alleen servers met HTTP/2 aan zijn kwetsbaar; nog niet alle Linux-distributies hebben een update.",
+   "personal_relevance": "Apache draait bij bijna elke klant ergens. Vraag of hun vulnerability management bij dit lek naar de configuratie (HTTP/2 aan) en het distributieadvies kijkt, niet alleen naar het versienummer.",
+   "limitations": [
+    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op The Hacker News en een onderzoeksnotitie van de Cloud Security Alliance.",
+    "Het onderzoek met de 'betrouwbare exploit' waar Red Hat naar verwijst, is niet openbaar gelinkt en niet onafhankelijk bevestigd.",
+    "Er zijn nog geen logkenmerken of detectieregels gepubliceerd.",
+    "Op het moment van schrijven hadden Debian stable, Amazon Linux, Ubuntu en enkele Red Hat-producten nog geen update."
+   ],
+   "official_docs": [
+    {
+     "label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"
+    },
+    {
+     "label": "The Hacker News: kritiek Apache HTTP/2-lek",
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    }
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "web"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T02:02:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog",
+   "story": [
+    "Apache HTTP Server, een van de meest gebruikte webservers, heeft versie 2.4.71 uitgebracht. Die dicht CVE-2026-119618 in mod_http2, de module voor HTTP/2. Volgens Red Hat kan een aanvaller zonder inlog die de server kan bereiken, code laten uitvoeren en het serverproces overnemen (CVSS 9,8). Kwetsbaar zijn de versies 2.4.55 tot en met 2.4.70, maar alleen als HTTP/2 aan staat.",
+    "Hoe werkt het? Bij HTTP/2 stuurt een browser over één verbinding veel verzoeken tegelijk, elk als een eigen stroom (stream). Apache verwerkt die stromen tegelijk met meerdere threads: werkers die naast elkaar draaien en geheugen delen. Daarom moeten ze afspraken maken over wie wanneer in dat gedeelde geheugen schrijft. In de functie assign_headers() ontbreekt zo'n afspraak. Volgens Red Hat schrijft één thread dan in geheugen dat van een andere is. Dat heet een race condition, en het beschadigt de heap. Met zulke geheugenschade kan een aanvaller soms eigen code laten uitvoeren.",
+    "Hoe urgent is het? Red Hat zegt dat openbaar onderzoek een betrouwbare exploit voor de standaardinstelling heeft laten zien, maar noemt die niet. Wiz zag op dezelfde dag geen beschikbare exploit en geen misbruik. Het lek zit vóór het inloggen, op een dienst die per definitie vanaf internet bereikbaar is; dat maakt het ernstig. Red Hat Enterprise Linux 9 en 10 geven elke stroom een eigen stuk geheugenbeheer. Daardoor is misbruik daar veel moeilijker en noemt Red Hat het 'Important' in plaats van 'Critical'.",
+    "Wat moet je doen? Update naar 2.4.71 of de update van je Linux-distributie. Debian stable en Amazon Linux hadden nog geen update, en de losse mod_h2 krijgt er geen meer. Kun je nog niet patchen, haal dan h2 en h2c weg uit de Protocols-instelling, zowel algemeen als per website. Let op bij vulnerability management: distributies zetten een fix vaak in een ouder versienummer (backport). Een scanner die alleen naar het versienummer kijkt, kan je dan ten onrechte kwetsbaar of veilig noemen.",
+    "Ook servers die al naar 2.4.67 tot en met 2.4.70 waren bijgewerkt voor een eerder HTTP/2-lek, zijn nog kwetsbaar. Logkenmerken van een aanval zijn nog niet gepubliceerd. Voor organisaties is dit vooral een inventarisatievraag: welke Apache-servers praten HTTP/2 met de buitenwereld?"
+   ],
+   "key_facts": [
+    "CVE-2026-119618 zit in mod_http2 van Apache HTTP Server; Red Hat geeft CVSS 9,8 en meldt dat een aanvaller zonder inlog het serverproces kan overnemen.",
+    "Kwetsbaar: Apache 2.4.55 tot en met 2.4.70 en losse mod_h2 2.0.8 tot en met 2.0.42; opgelost in 2.4.71 (11 november 2026).",
+    "Alleen servers met h2 of h2c in de Protocols-instelling zijn kwetsbaar; de workaround is die weghalen.",
+    "Apache noemt de oorzaak gelijktijdig gebruik van een gedeelde bron zonder goede synchronisatie in assign_headers(); Red Hat beschrijft een thread die in geheugen van een andere thread schrijft (heap-beschadiging).",
+    "Red Hat: openbaar onderzoek toonde een betrouwbare exploit voor de standaardinstelling; Wiz: geen exploit beschikbaar en geen misbruik gemeld.",
+    "Gemeld door Anthropic's OSS Scanner (26 oktober) en door Google Cloud Vulnerability Research; RHEL 9 en 10 zijn 'Important', RHEL 6 tot en met 8 niet getroffen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "De tijdelijke maatregel zit in één regel van de Apache-configuratie. Boven: HTTP/2 staat aan (h2 en h2c) en de server is kwetsbaar. Onder: alleen HTTP/1.1, het lek is dan niet bereikbaar. Controleer ook elke VirtualHost.",
+    "language": "text",
+    "code": "# Kwetsbaar (2.4.55 - 2.4.70): HTTP/2 staat aan\nProtocols h2 h2c http/1.1\n\n# Tijdelijke maatregel tot de update: alleen HTTP/1.1\nProtocols http/1.1",
+    "note": "Gebaseerd op de workaround in de bronnen. Controleer eerst of geen dienst HTTP/2 nodig heeft."
+   },
+   "terms": [
+    {
+     "term": "HTTP/2",
+     "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."
+    },
+    {
+     "term": "threads",
+     "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."
+    },
+    {
+     "term": "race condition",
+     "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
+    },
+    {
+     "term": "heap",
+     "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
+    },
+    {
+     "term": "backport",
+     "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."
+   },
+   "takeaway": "Software die meerdere taken tegelijk uitvoert, moet gedeeld geheugen goed bewaken. Gaat dat mis (een race condition), dan kan een aanvaller met slim getimede verzoeken het geheugen beschadigen en soms code uitvoeren.",
+   "region": "world",
+   "exploitation": "geen_misbruik_bekend",
+   "patch_status": "patch_beschikbaar"
   },
   {
    "id": "3e830a9401ea",
@@ -1184,6 +1384,288 @@
    "region": "eu",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "bee0f7d9c4fe",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T09:38:00Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Microsoft ziet dat aanvallers het open-source hulpmiddel GSocket op gehackte Linux-servers zetten. Zo blijven ze binnen, ook nadat het lek waarmee ze binnenkwamen is gepatcht.",
+   "personal_relevance": "Bij klanten met Linux-webservers is dit een goede vraag: bewaken jullie uitgaand verkeer van servers, of alleen inkomend? Het laat ook zien waarom een incident na het patchen nog niet klaar is.",
+   "limitations": [
+    "Welke lekken de aanvallers in het algemeen gebruikten om binnen te komen, staat niet in het artikel.",
+    "Het oorspronkelijke onderzoek van Microsoft kon in een eerdere run niet worden geopend; de uitleg steunt op BleepingComputer.",
+    "Wie de aanvallers zijn, wordt niet gezegd; het gaat om meerdere groepen.",
+    "De cijfers komen uit de telemetrie van één leverancier en zeggen niets over omgevingen die Microsoft niet ziet."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "incident_response"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T02:08:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket",
+   "story": [
+    "Microsoft ziet dat meerdere groepen aanvallers GSocket op Linux-servers zetten. GSocket is een legitiem open-source hulpmiddel om computers achter een firewall te bereiken. Aanvallers gebruiken het om binnen te blijven, ook nadat het lek waarmee ze binnenkwamen is gedicht. Tussen maart en augustus steeg het aantal detecties met 356,2 procent. 87,1 procent van de gevallen ging om webapplicaties en hosting, vooral PHP-sites en cPanel.",
+    "Hoe werkt het? Normaal maak je voor beheer op afstand een verbinding naar de server, en een firewall bepaalt welke inkomende verbindingen mogen. GSocket draait dat om. Zowel de gehackte server als de aanvaller maken een uitgaande verbinding naar het Global Socket Relay Network. Dat koppelt de twee aan elkaar, met versleuteling. Vergelijk het met twee mensen die elkaar niet kunnen bellen, maar allebei dezelfde centrale bellen die hen doorverbindt. De server heeft geen open poort of publiek IP-adres nodig, en de aanvaller heeft geen eigen C2-server nodig.",
+    "Om ook na een herstart binnen te blijven (persistentie), vermommen de aanvallers GSocket als een kernel-thread: een proces dat eruitziet als een onderdeel van het besturingssysteem. Ze starten het via cron-jobs, systemd-services of de opstartbestanden van de shell. In sommige gevallen probeerden ze ook root te worden via de Linux-kernelfout Dirty Frag (CVE-2026-43284).",
+    "Hoe zie je het? Inkomende firewallregels zien niets, want al het verkeer gaat naar buiten. Wat wel helpt, volgens Microsoft: uitgaand verkeer beperken tot vaste bestemmingen (egress filtering) en uitgaande verbindingen bewaken. Controleer cron-jobs, systemd-services en opstartbestanden op onbekende regels. Verwijder GSocket, controleer dat verbindingen naar het relaynetwerk stoppen en patch CVE-2026-43284.",
+    "De les voor organisaties: patchen sluit de deur, maar niet de achterdeur die er al ligt. Na een misbruikt lek hoort altijd de vraag of de aanvaller al binnen was. Omdat GSocket een legitiem hulpmiddel is, slaat niet elke scanner er alarm op; gedrag en uitgaand verkeer zijn hier betere signalen."
+   ],
+   "key_facts": [
+    "Het onderzoek komt van Microsoft, op basis van telemetrie van Microsoft Defender for Endpoint.",
+    "GSocket-detecties stegen tussen maart en augustus 2026 met 356,2 procent.",
+    "87,1 procent van de incidenten betrof webapplicaties en hosting: PHP-webapps en cPanel 63,9 procent, Apache 24,3 procent; vooral onderwijs en onderzoek waren doelwit.",
+    "Server en aanvaller verbinden allebei naar buiten met het Global Socket Relay Network; de server heeft geen inkomende poort of publiek IP-adres nodig.",
+    "Persistentie via vermomming als kernel-thread, cron-jobs, systemd-services en shell-opstartbestanden.",
+    "In sommige gevallen probeerden aanvallers root te worden via Dirty Frag (CVE-2026-43284)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een vermomd proces vind je vaak aan de details. Echte kernel-threads hebben ouderproces 2 (kthreadd) en draaien als root. Een 'kworker' met ouderproces 1 die als webgebruiker www-data draait, hoort daar niet.",
+    "language": "bash",
+    "code": "$ ps -eo pid,ppid,user,cmd | grep kworker\n   57      2 root      [kworker/0:1-events]\n   88      2 root      [kworker/1:0-mm_percpu_wq]\n 4113      1 www-data  [kworker/1:2]",
+    "note": "Nagebouwd voorbeeld; de procesnummers zijn verzonnen. De bron noemt de vermomming als kernel-thread, niet deze specifieke uitvoer."
+   },
+   "terms": [
+    {
+     "term": "C2-server",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "kernel-thread",
+     "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."
+    },
+    {
+     "term": "cron-jobs",
+     "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."
+    },
+    {
+     "term": "systemd-services",
+     "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."
+    },
+    {
+     "term": "egress filtering",
+     "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."
+   },
+   "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
+   "region": "world"
+  },
+  {
+   "id": "1acaa8e77a2e",
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-12T17:50:27Z",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "summary": "Openbare aanvalscode laat een gewone Windows-gebruiker SYSTEM-rechten krijgen via de CLFS-driver en Microsoft Defender. Er is nog geen CVE en geen patch; misbruik is niet gemeld.",
+   "personal_relevance": "Klanten vragen bij zo'n zero-day zonder patch wat ze nu kunnen doen. Het eerlijke antwoord: het is een tweede stap, dus detectie van de eerste toegang en van plotselinge SYSTEM-rechten telt meer dan paniek over deze ene fout.",
+   "limitations": [
+    "Microsoft heeft de fout niet bevestigd; de technische beschrijving komt van de onderzoeker zelf.",
+    "De claim dat het werkt met elke antimalwaredienst met hoge rechten, is niet getest.",
+    "Of en wanneer er een patch komt, is onbekend.",
+    "De bron noemt geen concrete logkenmerken om SignDrop zelf te herkennen."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "siem_detection"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T02:05:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM",
+   "story": [
+    "Een onderzoeker die zich MSNightmare noemt, zette op GitHub 'SignDrop' online: proof of concept-code waarmee een gewone gebruiker op Windows SYSTEM-rechten zou krijgen. Dat gebeurde op de dag van de Windows-updates van november. Er is geen CVE-nummer en geen patch, en Microsoft heeft de fout nog niet bevestigd.",
+    "Eerst de normale werking. CLFS (Common Log File System) is een Windows-onderdeel dat logbestanden bijhoudt, met een driver in de kernel: clfs.sys. Omdat gemanipuleerde logbestanden een bekende aanvalsroute waren, voegde Microsoft in oktober 2025 een controle toe. De driver hangt een HMAC aan elk log, met een geheime sleutel per computer. Zo leest hij alleen logs die hij zelf schreef. Naast elk log maakt hij een begeleidend .cnpf-bestand met dezelfde rechten als het log.",
+    "Daar zit de zwakke plek. Een gewone gebruiker maakt een log met paden die hij zelf kiest. Opent een proces met hoge rechten dat log, dan maakt de driver het .cnpf-bestand aan namens dat proces. Met een symbolische koppeling, een soort doorverwijzing in Windows, stuurt de aanvaller die aanmaak naar een plek naar keuze. Het resultaat is een bestand dat SYSTEM aanmaakte, maar waarin de gewone gebruiker mag schrijven. In de gepubliceerde code is het proces met hoge rechten de antimalwaredienst van Microsoft Defender. Een beveiligingsfunctie wordt zo een opstap.",
+    "Hoe urgent is het? Dit is rechtenverhoging: de aanvaller moet al op de computer zijn. Het is dus de tweede stap van een aanval, niet de eerste. Volgens de onderzoeker zijn systemen kwetsbaar waar de CLFS-controle aan staat of in de leerstand, en dat is de standaard. Onderzoekers van 78researchlab bevestigen dat de exploit werkt, maar vinden hem niet betrouwbaar genoeg voor echte aanvallen. Defender moet aan staan, en de UAC-meldingen veranderen zichtbaar. SignDrop staat niet in de KEV-lijst en misbruik is niet gemeld. Wel zijn drie eerdere Defender-lekken van dezelfde onderzoeker later misbruikt.",
+    "Wat kun je doen? Beheerders kunnen de CLFS-instelling in het register controleren. De controle uitzetten haalt je buiten bereik, maar is riskant omdat je dan een beveiliging weghaalt. Volg de updates van Microsoft. Omdat SignDrop een eerste toegang nodig heeft, blijft vroege detectie van die eerste stap, bijvoorbeeld met EDR en een SIEM, de beste verdediging."
+   ],
+   "key_facts": [
+    "SignDrop is op GitHub gepubliceerd door een onderzoeker met de naam MSNightmare, op de dag van de Windows-updates van november 2026.",
+    "Er is geen CVE en geen patch; Microsoft heeft de fout niet bevestigd en noemt hem niet in de novemberupdates.",
+    "Getest op Windows 11 26H2, een experimentele build van 26H2 en Windows Server 2025 Experimental; in scope bij CLFS-authenticatiemodus 0 (afdwingen) of 1 (leren), de standaard.",
+    "Microsoft voegde de CLFS-logauthenticatie (HMAC per computer) in oktober 2025 toe aan Windows 11 25H2 en 26H1 en Windows Server 2025.",
+    "Heewon Song van 78researchlab bevestigde dat de exploit werkt, maar noemt hem niet betrouwbaar genoeg; Defender moet aan staan en UAC-meldingen veranderen zichtbaar.",
+    "SignDrop staat niet in de KEV-lijst van CISA en er zijn geen aanvallen gemeld; drie eerdere Defender-lekken van dezelfde onderzoeker zijn wel misbruikt."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SYSTEM-rechten",
+     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+     "term": "driver",
+     "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."
+    },
+    {
+     "term": "HMAC",
+     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+     "term": "symbolische koppeling",
+     "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."
+    },
+    {
+     "term": "rechtenverhoging",
+     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+     "term": "UAC",
+     "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."
+   },
+   "takeaway": "Rechtenverhoging misbruikt vaak een proces met hoge rechten dat iets doet namens een gewone gebruiker. Kan de gebruiker bepalen wáár dat proces een bestand aanmaakt, dan kan hij de hoge rechten van dat proces lenen.",
+   "region": "world",
+   "exploitation": "poc_openbaar",
+   "patch_status": "geen_patch"
+  },
+  {
+   "id": "9cb2b44a4924",
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T19:51:16Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Twee dagen na de patch voor Able2Shell publiceerde dezelfde onderzoeker nieuwe aanvalscode voor N-central. Binnen enkele uren zagen onderzoekers pogingen; het lek zit in de Legacy API, die standaard uit staat.",
+   "personal_relevance": "Veel MDR- en MSP-klanten beheren omgevingen met RMM-software. Vraag niet alleen naar de versie, maar ook welke onderdelen aan staan en of de beheerserver vanaf internet bereikbaar is.",
+   "limitations": [
+    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op het artikel van The Hacker News over dezelfde ontwikkeling. De 21 getroffen systemen komen alleen uit de samenvatting van BleepingComputer.",
+    "The Hacker News meldde op het moment van schrijven nog geen geslaagd misbruik; de bronnen geven dus een verschillend beeld, waarschijnlijk door het tijdstip.",
+    "Er is nog geen CVE-nummer en geen patch voor 4EverAble2Shell en Agent2Shell; N-able onderzoekt de claims nog.",
+    "Hoe Agent2Shell precies werkt en of daarvoor de Legacy API nodig is, staat niet in de bron."
+   ],
+   "official_docs": [
+    {
+     "label": "The Hacker News: nieuwe N-central-exploits werken tegen gepatchte servers",
+     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "supply_chain"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.99,
+    "source": 0.68,
+    "quality": 0.67,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T01:58:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen",
+   "story": [
+    "N-able dichtte op 10 november de Able2Shell-lekken in zijn RMM-software N-central, met build 2026.4.1.26. Op 12 november publiceerde dezelfde onderzoeker, Sean Bales, nieuwe proof of concept-code die volgens hem ook tegen die build werkt. '4EverAble2Shell' geeft zonder inlog root op de N-central-server. 'Agent2Shell' voert opdrachten uit als SYSTEM op beheerde Windows-computers, als de aanvaller het ID van de server kent. N-able onderzoekt de claims.",
+    "Hoe werkt het? N-able zegt dat het serverprobleem alleen speelt als de Legacy API aan staat en vanaf internet bereikbaar is. Die oude koppeling staat standaard uit en wordt afgeraden. Securitybedrijf Presidian beschrijft een keten in twee stappen. Eerst voert de aanvaller code uit via CVE-2026-90436, een lek in het onderdeel Apache Axis dat op 6 november is gedicht. Dat geeft beperkte rechten. Daarna tilt 4EverAble2Shell hem naar root en downloadt de server een script van de aanvaller.",
+    "Wat is bevestigd? Presidian zag binnen enkele uren gerichte pogingen, watchTowr zag ze bij servers met de Legacy API aan. Volgens The Hacker News was er op dat moment nog geen bewijs dat ze slaagden. BleepingComputer meldt dat onderzoekers minstens 21 getroffen systemen tellen, waarvan 19 met de nieuwste update, waarop cryptominers zijn gezet. Een cryptominer gebruikt de rekenkracht van de server om cryptomunten te maken voor de aanvaller.",
+    "Wat kun je doen? Zet de Legacy API direct uit en controleer of de N-central-server niet onnodig vanaf internet bereikbaar is. Een versienummer zegt hier weinig: de configuratie bepaalt of je kwetsbaar bent. In de logs zijn uitgaande downloads vanaf de N-central-server en onverwachte processen die veel rekenkracht vragen de signalen om op te letten. De gehoste N-central-omgeving is volgens het artikel niet getroffen.",
+    "Waarom is dit belangrijk? Een RMM-server heeft macht over alle computers van alle klanten van een IT-dienstverlener. Als aanvalscode al openbaar is, volgt misbruik binnen uren. Een patch dicht dan één route, maar de onderzoeker vindt de volgende: daarom zijn het uitzetten van onnodige onderdelen en het afschermen van beheerinterfaces net zo belangrijk als patchen."
+   ],
+   "key_facts": [
+    "N-able bracht op 10 november 2026 build 2026.4.1.26 uit tegen de Able2Shell-lekken van onderzoeker Sean Bales.",
+    "Op 12 november publiceerde Bales proof of concept-code voor 4EverAble2Shell (root zonder inlog op de server) en Agent2Shell (meer dan 10 zero-days, opdrachten als NT AUTHORITY\\SYSTEM op Windows-agents als het appliance-ID bekend is); volgens hem werkt die tegen build 2026.4.1.26.",
+    "Volgens N-able speelt het serverprobleem alleen als de Legacy API aan staat en vanaf internet bereikbaar is; die staat standaard uit.",
+    "Presidian zag binnen uren gerichte pogingen en beschrijft een keten via CVE-2026-90436 (Apache Axis, CVSS 9,8, gepatcht op 6 november) gevolgd door 4EverAble2Shell; watchTowr zag ook pogingen.",
+    "BleepingComputer meldt minstens 21 getroffen systemen, waarvan 19 met de nieuwste update, met cryptominers.",
+    "Getroffen: on-premise N-central in Amerika, APAC en Europa; de gehoste omgeving niet (The Hacker News)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "root",
+     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+     "term": "Legacy API",
+     "explanation": "Een oude koppeling van N-central waarmee andere software met de server kan praten. Staat standaard uit; wie hem aanzet, vergroot het aanvalsoppervlak."
+    },
+    {
+     "term": "cryptominer",
+     "explanation": "Software die de rekenkracht van een gehackt systeem gebruikt om cryptomunten te maken voor de aanvaller. Vaak te herkennen aan een hoog en aanhoudend processorgebruik."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; vervolg op het N-central-verhaal met een duidelijke aanvalsketen."
+   },
+   "takeaway": "Aanvallers koppelen lekken in een keten: het eerste lek geeft een voet tussen de deur, het tweede hoge rechten. Een onderdeel dat uit staat of niet bereikbaar is, breekt zo'n keten, ook als er nog geen patch is.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "workaround"
   },
   {
    "id": "11af3bdb9908",
@@ -3875,118 +4357,6 @@
    "region": "world"
   },
   {
-   "id": "649e0d8b078e",
-   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T12:06:43Z",
-   "date_note": "Het advies van Microsoft is van 13 oktober 2026; het artikel van 6 november gaat over de beschikbaarheid van de fix.",
-   "fetched_at": "2026-11-07T01:23:05.552825Z",
-   "summary": "Microsoft heeft een lek in Paint gedicht waarmee code kan worden uitgevoerd. De fix komt alleen via de Microsoft Store, en de officiële versienummers spreken elkaar tegen. Dat kan scanners in de war brengen.",
-   "personal_relevance": "Dit is een praktisch voorbeeld voor klantgesprekken over vulnerability management: dekt de scanner ook Store-apps, per gebruiker, en welke versie geldt als 'opgelost' als bronnen elkaar tegenspreken?",
-   "limitations": [
-    "Welke dienst het 'netwerkpakket' ontvangt en of de aanval via bestanden loopt, is niet bekend.",
-    "Waarom de fix alleen via de Store komt en waarom het fixnummer veranderde, legt Microsoft niet uit.",
-    "Hoe snel de Store-update op grote schaal aankomt, is niet bekend; één testmachine kreeg hem automatisch.",
-    "Hoe systemen met een uitgeschakelde Store de fix krijgen, staat niet in het artikel."
-   ],
-   "topics": [
-    "vulnerability_management",
-    "vulnerabilities_cve"
-   ],
-   "groups": [
-    "vm",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.72,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:35:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update",
-   "story": [
-    "Microsoft heeft een kwetsbaarheid in Paint gedicht, CVE-2026-83844. Het is een out-of-bounds read die tot remote code execution kan leiden. Microsoft noemt de ernst 'Important', met een CVSS-score van 8,1. Bij publicatie op 13 oktober werd het lek volgens Microsoft niet misbruikt en was het niet openbaar. De fix zit in Paint-versie 11.2609.401.0, en die komt alleen via de Microsoft Store.",
-    "Waarom is dat bijzonder? Klassieke Windows-onderdelen krijgen hun updates via Windows Update, op Patch Tuesday. Paint is tegenwoordig een Store-app. Zo'n app wordt per gebruiker geïnstalleerd en apart bijgewerkt. Windows kan daarnaast een voorbereide kopie bewaren voor nieuwe gebruikers. Wie alleen naar Windows Update kijkt, mist deze fix dus. Wie alleen het account van de ingelogde gebruiker controleert, mist oudere kopieën bij andere gebruikers.",
-    "Wat is een out-of-bounds read? Een programma leest gegevens buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie prijsgeven en is soms een opstap om code uit te voeren. Volgens het advies stuurt een aanvaller 'een speciaal gemaakt pakket naar een getroffen dienst via het netwerk'. Welke dienst dat bij Paint is, en of het om bestanden zoals afbeeldingen gaat, zegt het artikel niet. Microsoft zegt wel dat een aanval diepe kennis van het doelsysteem vraagt.",
-    "Er is nog een probleem voor vulnerability management. Het CVE-record en NVD noemen Paint alleen kwetsbaar onder versie 11.2605.91.0. Een scanner die daarop vertrouwt, keurt versies vanaf 11.2605.91.0 goed. Microsoft noemt in zijn advies juist 11.2609.401.0 als versie met de fix. Wie zeker wil zijn, houdt het hoogste nummer aan. Met PowerShell vraag je de versie voor alle gebruikers op, en met beheertools zoals Intune dwing je de Store-update af.",
-    "Voor organisaties is de les dat niet elke patch dezelfde route volgt. Store-apps en andere programma's met een eigen updater vallen buiten het maandelijkse patchritme. Is de Store in je omgeving uitgeschakeld, dan is onduidelijk hoe deze fix binnenkomt; het artikel zegt daar niets over. Een workaround is er niet. Wie Paint niet nodig heeft, kan het volgens een onderzoeker verwijderen, maar dat is niet getest."
-   ],
-   "key_facts": [
-    "CVE-2026-83844 is een out-of-bounds read in Windows Paint die tot remote code execution kan leiden; Microsoft geeft 'Important' en CVSS 8,1 (advies van 13 oktober 2026).",
-    "Volgens Microsoft was het lek bij publicatie niet misbruikt en niet openbaar; het stond niet in CISA KEV toen The Hacker News keek.",
-    "De fix (Paint 11.2609.401.0) komt alleen via een update in de Microsoft Store, niet via Windows Update.",
-    "Het CVE-record en NVD noemen Paint alleen kwetsbaar onder 11.2605.91.0; Microsofts advies noemt 11.2609.401.0 als versie met de fix, zonder uitleg over het verschil.",
-    "Paint wordt per gebruiker geïnstalleerd en Windows kan een voorbereide kopie voor nieuwe gebruikers bewaren; het artikel geeft PowerShell-opdrachten om alle kopieën te controleren.",
-    "The Hacker News zag 11.2609.401.0 op 6 november als nieuwste Store-versie in alle tien gecontroleerde landen; eerder die week was dat nog 11.2605.81.0, zonder fix."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Met deze opdracht uit het artikel zie je in een PowerShell-venster met beheerdersrechten welke Paint-versie elke gebruiker heeft. Alles onder 11.2609.401.0 moet nog worden bijgewerkt.",
-    "language": "powershell",
-    "code": "Get-AppxPackage -AllUsers -Name Microsoft.Paint | Select-Object Version, @{ n = 'Users'; e = { $_.PackageUserInformation.UserSecurityId.Username -join ', ' } }",
-    "note": "Overgenomen uit het artikel. Het artikel geeft ook een tweede opdracht voor de voorbereide kopie voor nieuwe gebruikers.",
-    "result": {
-     "columns": [
-      "Version",
-      "Users"
-     ],
-     "rows": [
-      [
-       "11.2609.401.0",
-       "VOORBEELD\\anna"
-      ],
-      [
-       "11.2605.81.0",
-       "VOORBEELD\\piet"
-      ]
-     ]
-    }
-   },
-   "terms": [
-    {
-     "term": "out-of-bounds read",
-     "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code."
-    },
-    {
-     "term": "remote code execution",
-     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
-    },
-    {
-     "term": "Patch Tuesday",
-     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
-    },
-    {
-     "term": "Store-app",
-     "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker."
-    },
-    {
-     "term": "NVD",
-     "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken."
-    },
-    {
-     "term": "Intune",
-     "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een praktisch vulnerability-managementvoorbeeld rond patchroutes."
-   },
-   "takeaway": "Niet elke Windows-fix komt via Windows Update. Store-apps worden per gebruiker apart bijgewerkt, en als CVE-gegevens en het advies van de maker verschillen, kan een scanner een kwetsbare versie goedkeuren.",
-   "region": "world"
-  },
-  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -6138,6 +6508,17 @@
    ]
   },
   {
+   "term": "backport",
+   "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "4d2baf54099d",
+     "title": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog"
+    }
+   ]
+  },
+  {
    "term": "botnet",
    "explanation": "Een netwerk van besmette apparaten die een aanvaller op afstand samen aanstuurt, bijvoorbeeld voor fraude of aanvallen.",
    "refs": [
@@ -6198,6 +6579,17 @@
    ]
   },
   {
+   "term": "C2-server",
+   "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
+    }
+   ]
+  },
+  {
    "term": "CAPTCHA",
    "explanation": "Een controle op websites die moet aantonen dat er een mens achter de computer zit, bijvoorbeeld een vinkje 'I'm not a robot' of het herkennen van plaatjes.",
    "refs": [
@@ -6212,6 +6604,11 @@
    "term": "CI/CD",
    "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
+    },
     {
      "kind": "a",
      "id": "8b5f34b85bf1",
@@ -6360,6 +6757,28 @@
    ]
   },
   {
+   "term": "cron-jobs",
+   "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
+    }
+   ]
+  },
+  {
+   "term": "cryptominer",
+   "explanation": "Software die de rekenkracht van een gehackt systeem gebruikt om cryptomunten te maken voor de aanvaller. Vaak te herkennen aan een hoog en aanhoudend processorgebruik.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9cb2b44a4924",
+     "title": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen"
+    }
+   ]
+  },
+  {
    "term": "CSIRT",
    "explanation": "Computer Security Incident Response Team: een team dat beveiligingsmeldingen ontvangt en bij incidenten coördineert.",
    "refs": [
@@ -6490,6 +6909,17 @@
    ]
   },
   {
+   "term": "driver",
+   "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
+    }
+   ]
+  },
+  {
    "term": "EdgeTransport.exe",
    "explanation": "Het Windows-proces van Exchange dat de mailstroom verwerkt: inkomende en uitgaande berichten gaan erdoorheen. Code die daarin draait, ziet dus alle mail.",
    "refs": [
@@ -6528,6 +6958,17 @@
      "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
+    }
+   ]
+  },
+  {
+   "term": "egress filtering",
+   "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
     }
    ]
   },
@@ -6716,6 +7157,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "4d2baf54099d",
+     "title": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog"
+    },
+    {
+     "kind": "a",
      "id": "ce0b470d4dea",
      "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
     }
@@ -6725,6 +7171,11 @@
    "term": "HMAC",
    "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
+    },
     {
      "kind": "a",
      "id": "0968634953ed",
@@ -6767,6 +7218,17 @@
      "kind": "a",
      "id": "842bc764ab47",
      "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
+    }
+   ]
+  },
+  {
+   "term": "HTTP/2",
+   "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "4d2baf54099d",
+     "title": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog"
     }
    ]
   },
@@ -6816,17 +7278,6 @@
      "kind": "a",
      "id": "6852a83cc063",
      "title": "Nep-CAPTCHA laat slachtoffer zelf malware starten met oud Windows-commando"
-    }
-   ]
-  },
-  {
-   "term": "Intune",
-   "explanation": "Beheersoftware van Microsoft waarmee IT-afdelingen op afstand instellingen, apps en updates op computers en telefoons regelen.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
    ]
   },
@@ -6893,6 +7344,17 @@
      "kind": "a",
      "id": "25c3eda20cfe",
      "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+    }
+   ]
+  },
+  {
+   "term": "kernel-thread",
+   "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
     }
    ]
   },
@@ -6994,6 +7456,17 @@
      "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "Legacy API",
+   "explanation": "Een oude koppeling van N-central waarmee andere software met de server kan praten. Staat standaard uit; wie hem aanzet, vergroot het aanvalsoppervlak.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "9cb2b44a4924",
+     "title": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen"
     }
    ]
   },
@@ -7214,11 +7687,6 @@
    "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken.",
    "refs": [
     {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
-    },
-    {
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
@@ -7242,6 +7710,17 @@
    ]
   },
   {
+   "term": "OIDC-token",
+   "explanation": "Een kortlevend digitaal bewijs dat een workflow aan een clouddienst laat zien. De cloud vertrouwt dat bewijs en geeft tijdelijk toegang, zonder vast wachtwoord.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
+    }
+   ]
+  },
+  {
    "term": "on-path attack",
    "explanation": "Een aanval waarbij de aanvaller tussen twee partijen in zit, zoals jij en een website, en het verkeer kan meelezen of aanpassen. Vroeger 'man-in-the-middle' genoemd.",
    "refs": [
@@ -7260,17 +7739,6 @@
      "kind": "a",
      "id": "27d0d882d07e",
      "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
-    }
-   ]
-  },
-  {
-   "term": "out-of-bounds read",
-   "explanation": "Een fout waarbij een programma gegevens leest buiten het stuk geheugen dat ervoor bedoeld is. Dat kan informatie lekken of een opstap zijn naar het uitvoeren van code.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
    ]
   },
@@ -7320,11 +7788,6 @@
      "kind": "a",
      "id": "7bb9dcd14586",
      "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
-    },
-    {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     },
     {
      "kind": "a",
@@ -7388,6 +7851,16 @@
    "refs": [
     {
      "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
+    },
+    {
+     "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
+    },
+    {
+     "kind": "a",
      "id": "ed60ea7fa412",
      "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
     },
@@ -7437,6 +7910,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "9cb2b44a4924",
+     "title": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen"
+    },
+    {
+     "kind": "a",
      "id": "ed98e46a8b24",
      "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
     },
@@ -7465,6 +7943,28 @@
      "kind": "a",
      "id": "875e59480304",
      "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "pull request",
+   "explanation": "Een voorstel om een wijziging aan een project toe te voegen. De eigenaar kan het bekijken en goedkeuren of afwijzen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
+    }
+   ]
+  },
+  {
+   "term": "race condition",
+   "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "4d2baf54099d",
+     "title": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog"
     }
    ]
   },
@@ -7506,6 +8006,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
+    },
+    {
+     "kind": "a",
      "id": "25c3eda20cfe",
      "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     }
@@ -7519,11 +8024,6 @@
      "kind": "a",
      "id": "ed98e46a8b24",
      "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
-    },
-    {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
     }
    ]
   },
@@ -7593,6 +8093,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "9cb2b44a4924",
+     "title": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen"
+    },
+    {
+     "kind": "a",
      "id": "ed98e46a8b24",
      "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
     },
@@ -7614,6 +8119,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "9cb2b44a4924",
+     "title": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen"
+    },
+    {
+     "kind": "a",
      "id": "ed60ea7fa412",
      "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
     },
@@ -7631,11 +8141,6 @@
      "kind": "a",
      "id": "d0e0e442d471",
      "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
-    },
-    {
-     "kind": "a",
-     "id": "580236cbddf9",
-     "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
     }
    ]
   },
@@ -7891,17 +8396,6 @@
    ]
   },
   {
-   "term": "Store-app",
-   "explanation": "Een programma dat via de Microsoft Store wordt geïnstalleerd en bijgewerkt, los van Windows Update en per gebruiker.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "649e0d8b078e",
-     "title": "Lek in Paint: de fix komt via de Microsoft Store, niet via Windows Update"
-    }
-   ]
-  },
-  {
    "term": "sudo",
    "explanation": "Het Linux-commando waarmee een gebruiker één opdracht met beheerdersrechten uitvoert, na het invoeren van zijn wachtwoord.",
    "refs": [
@@ -7961,6 +8455,17 @@
    ]
   },
   {
+   "term": "symbolische koppeling",
+   "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
+    }
+   ]
+  },
+  {
    "term": "syslog",
    "explanation": "Een standaard manier om logberichten van apparaten en servers naar een centrale plek te sturen, zoals een SIEM.",
    "refs": [
@@ -7988,8 +8493,35 @@
    "refs": [
     {
      "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
+    },
+    {
+     "kind": "a",
      "id": "875e59480304",
      "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "systemd-services",
+   "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "bee0f7d9c4fe",
+     "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
+    }
+   ]
+  },
+  {
+   "term": "threads",
+   "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "4d2baf54099d",
+     "title": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog"
     }
    ]
   },
@@ -8058,6 +8590,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
+    },
+    {
+     "kind": "a",
      "id": "27d0d882d07e",
      "title": "Via gehackt account van Qubole bij tientallen AWS-klanten binnen"
     }
@@ -8082,6 +8619,17 @@
      "kind": "a",
      "id": "0eb55bf1598e",
      "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
+    }
+   ]
+  },
+  {
+   "term": "UAC",
+   "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1acaa8e77a2e",
+     "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
     }
    ]
   },
@@ -8332,6 +8880,17 @@
      "kind": "a",
      "id": "11af3bdb9908",
      "title": "PHP2Shell: twee lekken in PHP zelf, nu actief misbruikt"
+    }
+   ]
+  },
+  {
+   "term": "workflow",
+   "explanation": "Een script in GitHub Actions dat automatisch draait bij een wijziging, bijvoorbeeld om code te bouwen, te testen of te publiceren.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "6947b84f5dbe",
+     "title": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten"
     }
    ]
   },
@@ -8674,32 +9233,32 @@
   "fetched_items": 310,
   "unique_after_dedupe": 626,
   "merged_duplicates": 1,
-  "shown": 48,
+  "shown": 52,
   "decisions": {
-   "included": 251,
+   "included": 250,
    "below_threshold": 157,
    "no_topic": 157,
    "excluded": 57,
-   "source_cap": 4
+   "source_cap": 5
   },
   "processing": {
-   "enriched": 48
+   "enriched": 52
   },
   "without_date": 0,
   "per_group": {
-   "kwetsbaarheden": 15,
+   "incidenten": 9,
+   "kwetsbaarheden": 18,
    "detectie": 5,
    "ti": 5,
-   "aanvallen": 12,
-   "incidenten": 8,
-   "vm": 3
+   "aanvallen": 13,
+   "vm": 2
   },
   "per_source": {
+   "bleepingcomputer": 10,
    "the_hacker_news": 12,
    "security_nl": 3,
    "datadog_security_labs": 1,
    "huntress_blog": 5,
-   "bleepingcomputer": 6,
    "unit42": 5,
    "divd": 1,
    "google_threat_intel": 5,
@@ -8764,7 +9323,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 360
+   "skipped_no_key": 355
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9045,6 +9604,14 @@
     "excluded_by": []
    },
    {
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "relevance_score": 85,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
@@ -9089,46 +9656,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
@@ -9197,9 +9724,9 @@
     "excluded_by": []
    },
    {
-    "title": "Hackers plant GSocket on Linux servers for persistent access",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -9308,6 +9835,38 @@
     "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []

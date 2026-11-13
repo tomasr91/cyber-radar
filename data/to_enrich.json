@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T01:23:05.345746Z",
+ "generated_at": "2026-11-13T01:35:33.983550Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -18,66 +18,6 @@
    ]
   },
   {
-   "id": "6947b84f5dbe",
-   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-12T22:25:30Z",
-   "excerpt": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "malware",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "9cb2b44a4924",
-   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-12T19:51:16Z",
-   "excerpt": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
-   ]
-  },
-  {
-   "id": "4d2baf54099d",
-   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-12T19:12:55Z",
-   "excerpt": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "1acaa8e77a2e",
-   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-12T17:50:27Z",
-   "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "siem_detection"
-   ]
-  },
-  {
    "id": "c398aa3e9226",
    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
@@ -85,26 +25,11 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-12T15:38:49Z",
    "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "vulnerability_management",
     "edge_devices"
-   ]
-  },
-  {
-   "id": "bee0f7d9c4fe",
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-12T09:38:00Z",
-   "excerpt": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "vulnerability_management"
    ]
   },
   {
@@ -153,6 +78,80 @@
     "threat_intelligence",
     "web_software_security",
     "phishing_identity"
+   ]
+  },
+  {
+   "id": "988b46d175c6",
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-12T11:33:15Z",
+   "excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "vulnerability_management",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "64b35d795d75",
+   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+   "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-12T20:55:30Z",
+   "excerpt": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "cfa80f78adb3",
+   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+   "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-12T15:38:31Z",
+   "excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "fa85d9157c65",
+   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+   "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-12T13:39:03Z",
+   "excerpt": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "d37e24abb537",
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-12T10:39:34Z",
+   "excerpt": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "threat_intelligence",
+    "malware"
    ]
   }
  ]
