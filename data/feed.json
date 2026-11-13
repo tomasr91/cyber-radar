@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T04:38:52.809593Z",
+ "generated_at": "2026-11-13T07:10:31.715071Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-13T01:35:30Z",
- "last_successful_update": "2026-11-13T04:38:52.809593Z",
+ "last_successful_update": "2026-11-13T07:10:31.715071Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T04:38:52.869278Z"
+   "checked_at": "2026-11-13T07:10:31.774034Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T04:38:53.451414Z"
+   "checked_at": "2026-11-13T07:10:32.313880Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T04:38:54.127594Z"
+   "checked_at": "2026-11-13T07:10:33.075647Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T04:38:54.593353Z"
+   "checked_at": "2026-11-13T07:10:34.184305Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T04:38:55.443714Z"
+   "checked_at": "2026-11-13T07:10:34.989829Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T04:38:55.637668Z"
+   "checked_at": "2026-11-13T07:10:35.111305Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T04:38:55.720114Z"
+   "checked_at": "2026-11-13T07:10:35.175372Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T04:38:55.844826Z"
+   "checked_at": "2026-11-13T07:10:35.286962Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T04:38:56.084795Z"
+   "checked_at": "2026-11-13T07:10:35.664149Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T04:38:57.566043Z"
+   "checked_at": "2026-11-13T07:10:37.087034Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T04:38:57.709626Z"
+   "checked_at": "2026-11-13T07:10:37.134163Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T04:38:57.872497Z"
+   "checked_at": "2026-11-13T07:10:37.189998Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T04:38:57.995913Z"
+   "checked_at": "2026-11-13T07:10:37.285536Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T04:38:58.110222Z"
+   "checked_at": "2026-11-13T07:10:37.497832Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T04:38:58.172063Z"
+   "checked_at": "2026-11-13T07:10:37.667957Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T04:38:58.241742Z"
+   "checked_at": "2026-11-13T07:10:37.745668Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T04:38:58.740816Z"
+   "checked_at": "2026-11-13T07:10:37.965909Z"
   },
   {
    "id": "securityweek",
@@ -381,14 +381,14 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T04:38:58.865752Z"
+   "checked_at": "2026-11-13T07:10:38.084297Z"
   }
  ],
  "daily_top": [
   "f7cf57082e20",
   "daa356fef18a",
   "6947b84f5dbe",
-  "7bb9dcd14586",
+  "4d2baf54099d",
   "3e830a9401ea"
  ],
  "articles": [
@@ -420,7 +420,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.8,
     "fit": 0.05
@@ -512,7 +512,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -599,7 +599,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.99,
+    "recency": 0.98,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -665,97 +665,6 @@
     "why": "Nog geen duimpjes; technische aanval op bouwstraten en cloud, met concrete sporen voor detectie."
    },
    "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
-   "region": "world"
-  },
-  {
-   "id": "7bb9dcd14586",
-   "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
-   "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
-   "source_id": "security_nl",
-   "published_at": "2026-11-11T08:36:00Z",
-   "fetched_at": "2026-11-12T01:23:35.896506Z",
-   "summary": "Microsoft dichtte in november ruim duizend lekken. Eén lek in Outlook wordt al misbruikt: een bestand openen is genoeg om je NTLM-inloggegevens naar een server van de aanvaller te sturen.",
-   "personal_relevance": "Klanten vragen na zo'n enorme Patch Tuesday vaak waar ze moeten beginnen. Je kunt ze helpen prioriteren: eerst wat misbruikt wordt, dan wat zonder klik of inlog werkt, dan wat vanaf internet bereikbaar is.",
-   "limitations": [
-    "Microsoft geeft geen details over wie het Outlook-lek misbruikt, hoe vaak en tegen wie.",
-    "Andere bronnen noemen andere totalen voor deze Patch Tuesday (Cisco Talos spreekt van 1.328 kwetsbaarheden); het verschil hangt waarschijnlijk af van wat er wordt meegeteld.",
-    "Het artikel noemt geen CVSS-scores en geen technische details over hoe de Schannel- en Windows Search-lekken precies werken.",
-    "De tip over uitgaand SMB- of WebDAV-verkeer is algemene uitleg over het lekken van NTLM-hashes, niet iets wat Microsoft of Security.NL voor dit lek beschrijft."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "vulnerability_management",
-    "phishing_identity"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "vm",
-    "aanvallen"
-   ],
-   "relevance_score": 92,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.91,
-    "source": 0.85,
-    "quality": 0.67,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-12T01:37:05Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller",
-   "story": [
-    "Microsoft heeft tijdens de Patch Tuesday van november 1.094 kwetsbaarheden verholpen, meldt Security.NL. Daarvan zitten er 726 in Windows. Het is de derde maand op rij met zo'n grote hoeveelheid updates. Eén lek, CVE-2026-124194 in Outlook, wordt volgens Microsoft al door aanvallers misbruikt. Details over die aanvallen geeft Microsoft niet.",
-    "Om dat lek te begrijpen, eerst de normale werking. Windows-computers kunnen zich bij een andere server aanmelden met NTLM, een oud inlogprotocol. Daarbij stuurt de computer niet het wachtwoord zelf mee, maar een afgeleide waarde: de NTLMv2-hash. Bij het Outlook-lek stuurt een aanvaller zonder inlog een speciaal gemaakt bestand. Opent het slachtoffer dat in een kwetsbare Outlook, dan maakt Outlook verbinding met een server van de aanvaller en geeft daar zijn NTLMv2-hash af. Met die hash kan de aanvaller zich vervolgens als die gebruiker aanmelden.",
-    "Twee andere lekken zijn vooral gevaarlijk omdat er geen klik voor nodig is. Bij CVE-2026-116928 in Windows Search hoeft een aanvaller alleen een bijlage naar een Exchange-mailserver te mailen: het lek gaat af als de server die bijlage automatisch indexeert. Bij CVE-2026-119952 in Schannel, het onderdeel dat versleutelde verbindingen regelt, is één speciaal pakket genoeg om code uit te voeren. Microsoft verwacht dat aanvallers dat lek gaan misbruiken. Bij tien Office-lekken is het voorbeeldvenster al genoeg; de gebruiker hoeft het bestand dus niet eens te openen. Dustin Childs van ZDI telt dertig lekken die 'wormable' zijn: een worm kan zich er zonder menselijke hulp mee verspreiden.",
-    "Hoe ga je hiermee om? Met ruim duizend lekken kun je niet alles tegelijk doen. Vulnerability management helpt dan door eerst te kijken naar wat al misbruikt wordt (de Outlook-fout), wat zonder klik of inlog werkt (Schannel, Windows Search op Exchange) en wat vanaf internet bereikbaar is. In de logs kun je letten op werkstations die via SMB of WebDAV contact zoeken met onbekende servers buiten het netwerk; zo lekken NTLM-hashes meestal weg. Uitgaand SMB-verkeer naar internet blokkeren is een bekende maatregel tegen dit soort lekken.",
-    "Voor organisaties betekent dit vooral: snel patchen, te beginnen bij mailservers en de werkplekken met Outlook. Updates installeren zich op de meeste systemen automatisch, maar in bedrijven duurt de uitrol vaak langer. Juist die tussenperiode is wat aanvallers proberen te benutten."
-   ],
-   "key_facts": [
-    "Microsoft verhielp in de Patch Tuesday van november 2026 1.094 kwetsbaarheden, waarvan 726 in Windows (Security.NL).",
-    "CVE-2026-124194 (spoofing, Outlook) wordt volgens Microsoft actief misbruikt: een speciaal gemaakt bestand laat Outlook verbinding maken met een server van de aanvaller en de NTLMv2-hash van de gebruiker versturen.",
-    "CVE-2026-116928 (RCE, Windows Search): een bijlage naar een Exchange Server is genoeg; het lek gaat af bij het automatisch indexeren, zonder handeling van een gebruiker.",
-    "CVE-2026-119952 (RCE, Windows Schannel): één speciaal gemaakt pakket is genoeg, zonder inlog of handeling van een gebruiker; Microsoft verwacht misbruik.",
-    "Tien Office-lekken zijn ook via het voorbeeldvenster te misbruiken.",
-    "Volgens Dustin Childs (ZDI) zijn dertig van de lekken 'wormable'."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "Patch Tuesday",
-     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
-    },
-    {
-     "term": "NTLM",
-     "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
-    },
-    {
-     "term": "NTLMv2-hash",
-     "explanation": "De waarde die Windows bij inloggen via NTLM meestuurt in plaats van het wachtwoord. Wie hem onderschept, kan zich er soms mee aanmelden of proberen het wachtwoord eruit te kraken."
-    },
-    {
-     "term": "Schannel",
-     "explanation": "Het onderdeel van Windows dat versleutelde verbindingen (TLS) regelt, bijvoorbeeld voor websites en mailservers. Een fout daarin is vaak vanaf het netwerk bereikbaar."
-    },
-    {
-     "term": "wormable",
-     "explanation": "Een lek waarmee malware zich zelfstandig van computer naar computer kan verspreiden, zonder dat een gebruiker iets hoeft te doen."
-    },
-    {
-     "term": "SMB",
-     "explanation": "Het protocol waarmee Windows bestanden en printers deelt via het netwerk. Bij een verbinding probeert Windows vaak automatisch in te loggen."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; een misbruikt lek met concrete hulp bij prioriteren."
-   },
-   "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
    "region": "world"
   },
   {
@@ -1108,7 +1017,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1296,7 +1205,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1395,7 +1304,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -1493,7 +1402,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.91,
+    "recency": 0.9,
     "source": 0.68,
     "quality": 0.67,
     "region": 0.02,
@@ -1564,6 +1473,97 @@
    "region": "eu",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "7bb9dcd14586",
+   "title": "Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday",
+   "url": "https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-11T08:36:00Z",
+   "fetched_at": "2026-11-12T01:23:35.896506Z",
+   "summary": "Microsoft dichtte in november ruim duizend lekken. Eén lek in Outlook wordt al misbruikt: een bestand openen is genoeg om je NTLM-inloggegevens naar een server van de aanvaller te sturen.",
+   "personal_relevance": "Klanten vragen na zo'n enorme Patch Tuesday vaak waar ze moeten beginnen. Je kunt ze helpen prioriteren: eerst wat misbruikt wordt, dan wat zonder klik of inlog werkt, dan wat vanaf internet bereikbaar is.",
+   "limitations": [
+    "Microsoft geeft geen details over wie het Outlook-lek misbruikt, hoe vaak en tegen wie.",
+    "Andere bronnen noemen andere totalen voor deze Patch Tuesday (Cisco Talos spreekt van 1.328 kwetsbaarheden); het verschil hangt waarschijnlijk af van wat er wordt meegeteld.",
+    "Het artikel noemt geen CVSS-scores en geen technische details over hoe de Schannel- en Windows Search-lekken precies werken.",
+    "De tip over uitgaand SMB- of WebDAV-verkeer is algemene uitleg over het lekken van NTLM-hashes, niet iets wat Microsoft of Security.NL voor dit lek beschrijft."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "phishing_identity"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "aanvallen"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.91,
+    "source": 0.85,
+    "quality": 0.67,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-12T01:37:05Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller",
+   "story": [
+    "Microsoft heeft tijdens de Patch Tuesday van november 1.094 kwetsbaarheden verholpen, meldt Security.NL. Daarvan zitten er 726 in Windows. Het is de derde maand op rij met zo'n grote hoeveelheid updates. Eén lek, CVE-2026-124194 in Outlook, wordt volgens Microsoft al door aanvallers misbruikt. Details over die aanvallen geeft Microsoft niet.",
+    "Om dat lek te begrijpen, eerst de normale werking. Windows-computers kunnen zich bij een andere server aanmelden met NTLM, een oud inlogprotocol. Daarbij stuurt de computer niet het wachtwoord zelf mee, maar een afgeleide waarde: de NTLMv2-hash. Bij het Outlook-lek stuurt een aanvaller zonder inlog een speciaal gemaakt bestand. Opent het slachtoffer dat in een kwetsbare Outlook, dan maakt Outlook verbinding met een server van de aanvaller en geeft daar zijn NTLMv2-hash af. Met die hash kan de aanvaller zich vervolgens als die gebruiker aanmelden.",
+    "Twee andere lekken zijn vooral gevaarlijk omdat er geen klik voor nodig is. Bij CVE-2026-116928 in Windows Search hoeft een aanvaller alleen een bijlage naar een Exchange-mailserver te mailen: het lek gaat af als de server die bijlage automatisch indexeert. Bij CVE-2026-119952 in Schannel, het onderdeel dat versleutelde verbindingen regelt, is één speciaal pakket genoeg om code uit te voeren. Microsoft verwacht dat aanvallers dat lek gaan misbruiken. Bij tien Office-lekken is het voorbeeldvenster al genoeg; de gebruiker hoeft het bestand dus niet eens te openen. Dustin Childs van ZDI telt dertig lekken die 'wormable' zijn: een worm kan zich er zonder menselijke hulp mee verspreiden.",
+    "Hoe ga je hiermee om? Met ruim duizend lekken kun je niet alles tegelijk doen. Vulnerability management helpt dan door eerst te kijken naar wat al misbruikt wordt (de Outlook-fout), wat zonder klik of inlog werkt (Schannel, Windows Search op Exchange) en wat vanaf internet bereikbaar is. In de logs kun je letten op werkstations die via SMB of WebDAV contact zoeken met onbekende servers buiten het netwerk; zo lekken NTLM-hashes meestal weg. Uitgaand SMB-verkeer naar internet blokkeren is een bekende maatregel tegen dit soort lekken.",
+    "Voor organisaties betekent dit vooral: snel patchen, te beginnen bij mailservers en de werkplekken met Outlook. Updates installeren zich op de meeste systemen automatisch, maar in bedrijven duurt de uitrol vaak langer. Juist die tussenperiode is wat aanvallers proberen te benutten."
+   ],
+   "key_facts": [
+    "Microsoft verhielp in de Patch Tuesday van november 2026 1.094 kwetsbaarheden, waarvan 726 in Windows (Security.NL).",
+    "CVE-2026-124194 (spoofing, Outlook) wordt volgens Microsoft actief misbruikt: een speciaal gemaakt bestand laat Outlook verbinding maken met een server van de aanvaller en de NTLMv2-hash van de gebruiker versturen.",
+    "CVE-2026-116928 (RCE, Windows Search): een bijlage naar een Exchange Server is genoeg; het lek gaat af bij het automatisch indexeren, zonder handeling van een gebruiker.",
+    "CVE-2026-119952 (RCE, Windows Schannel): één speciaal gemaakt pakket is genoeg, zonder inlog of handeling van een gebruiker; Microsoft verwacht misbruik.",
+    "Tien Office-lekken zijn ook via het voorbeeldvenster te misbruiken.",
+    "Volgens Dustin Childs (ZDI) zijn dertig van de lekken 'wormable'."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "Patch Tuesday",
+     "explanation": "De vaste maandelijkse dag (tweede dinsdag van de maand) waarop Microsoft beveiligingsupdates uitbrengt."
+    },
+    {
+     "term": "NTLM",
+     "explanation": "Een oud inlogprotocol van Windows. Het is kwetsbaarder dan het nieuwere Kerberos en wordt daarom steeds vaker uitgezet."
+    },
+    {
+     "term": "NTLMv2-hash",
+     "explanation": "De waarde die Windows bij inloggen via NTLM meestuurt in plaats van het wachtwoord. Wie hem onderschept, kan zich er soms mee aanmelden of proberen het wachtwoord eruit te kraken."
+    },
+    {
+     "term": "Schannel",
+     "explanation": "Het onderdeel van Windows dat versleutelde verbindingen (TLS) regelt, bijvoorbeeld voor websites en mailservers. Een fout daarin is vaak vanaf het netwerk bereikbaar."
+    },
+    {
+     "term": "wormable",
+     "explanation": "Een lek waarmee malware zich zelfstandig van computer naar computer kan verspreiden, zonder dat een gebruiker iets hoeft te doen."
+    },
+    {
+     "term": "SMB",
+     "explanation": "Het protocol waarmee Windows bestanden en printers deelt via het netwerk. Bij een verbinding probeert Windows vaak automatisch in te loggen."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; een misbruikt lek met concrete hulp bij prioriteren."
+   },
+   "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
+   "region": "world"
   },
   {
    "id": "bee0f7d9c4fe",
@@ -1689,7 +1689,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.97,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.0
@@ -2184,101 +2184,6 @@
    "patch_status": "patch_beschikbaar"
   },
   {
-   "id": "ed98e46a8b24",
-   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
-   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
-   "source_id": "huntress_blog",
-   "published_at": "2026-11-09T21:00:00Z",
-   "fetched_at": "2026-11-10T07:41:51.099464Z",
-   "summary": "Een onderzoeker zette aanvalsketens voor de beheersoftware N-central openbaar op GitHub, zonder N-able vooraf te waarschuwen. N-able haalde de clouddienst offline en vraagt klanten hun eigen servers ook uit te zetten.",
-   "personal_relevance": "Veel klanten werken met een IT-dienstverlener die RMM-software gebruikt. Een goede vraag: welke beheertools heeft jullie dienstverlener op jullie systemen, en zien jullie het in de logs als daarmee onverwacht scripts worden uitgerold?",
-   "limitations": [
-    "Er zijn nog geen CVE-nummers en geen hotfixversie; N-able verhoogt bij live hotfixes niet altijd het versienummer.",
-    "BleepingComputer heeft niet alle lekken zelf geverifieerd; de bronnen verschillen in het aantal lekken en ketens.",
-    "Of de eerdere meldingen van de onderzoeker inderdaad onbeantwoord bleven, is niet bevestigd; N-able reageerde daar niet op.",
-    "Huntress is een securityleverancier die zelf klanten met N-central bedient."
-   ],
-   "topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "supply_chain",
-    "incident_response"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen",
-    "web",
-    "detectie"
-   ],
-   "relevance_score": 90,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.85,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:52:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "N-able haalt N-central offline na publicatie van ruim 30 lekken",
-   "story": [
-    "N-able heeft op 9 november zijn gehoste N-central-omgeving offline gehaald. N-central is RMM-software: IT-dienstverleners beheren er de computers van al hun klanten mee. Aanleiding: een onafhankelijke onderzoeker publiceerde op GitHub details en proof of concept-code voor ruim 30 kritieke lekken, samen 'Able2Shell' genoemd. Volgens Huntress zijn het 33 lekken in vier ketens. Drie leiden tot remote code execution, één tot root-rechten. N-able zag tot 9 november geen misbruik.",
-    "Hoe zo'n keten werkt: geen enkel lek is op zichzelf genoeg, maar achter elkaar wel. Volgens BleepingComputer begint de belangrijkste keten met een XXE-lek in de importfunctie, zonder inlog. XXE betekent dat de server een XML-bestand leest en daarbij ook 'externe' verwijzingen in dat bestand volgt. Zo kan een aanvaller de server laten verwijzen naar dingen die hij niet hoort te zien. Via die stap kan hij een sessie stelen, een wachtwoord resetten of een beheerdersaccount aanmaken, en daarna opdrachten uitvoeren.",
-    "Waarom is dit zo gevaarlijk? Een RMM-server heeft per definitie macht over duizenden computers bij veel klanten. Wie de RMM-server overneemt, kan via de normale beheerfuncties scripts en software uitrollen naar al die computers. Bij eerdere aanvallen op N-central deden aanvallers precies dat. En openbare aanvalscode betekent dat niet alleen ervaren aanvallers het kunnen proberen, maar iedereen.",
-    "Huntress adviseert eigen servers offline te halen tot N-able een veilige hotfix heeft. Controleer vanaf 8 november de inlogactiviteit en de auditlogs. Let op onverwachte sessies op afstand, nieuw uitgerolde scripts en nieuwe beheerdersaccounts. Bij verdachte activiteit moet je ook de netwerken onderzoeken die vanuit N-central worden beheerd.",
-    "N-central kreeg dit jaar al eerder kritieke lekken, waaronder een misbruikte zero-day in september. De onderzoeker zegt dat hij publiceerde omdat N-able eerdere meldingen maandenlang niet oploste; N-able noemt de publicatie onverantwoord. Wie gelijk heeft, is niet vast te stellen. Voor organisaties is de les dat beheersoftware van een dienstverlener deel is van hun eigen aanvalsoppervlak."
-   ],
-   "key_facts": [
-    "N-able haalde de gehoste N-central-omgeving op 9 november 2026 offline en vroeg klanten met eigen servers die tijdelijk offline te halen.",
-    "Volgens Huntress gaat het om 33 kritieke lekken in vier 'Able2Shell'-ketens: drie leiden tot remote code execution, één tot rechtenverhoging naar root. BleepingComputer spreekt van 'meer dan 30'.",
-    "Getest op N-central Appliance 2026.4.0.31; eerdere versies zijn waarschijnlijk ook kwetsbaar. Een hotfix is in de maak, zonder datum.",
-    "N-able zag tot 9 november 15:15 UTC geen actief misbruik; er staan wel proof of concept-exploits op GitHub.",
-    "Volgens BleepingComputer is de kritiekste keten een XXE-lek zonder inlog in de importfunctie, waarmee een aanvaller een sessie steelt, een wachtwoord reset of een beheerdersaccount aanmaakt en opdrachten uitvoert.",
-    "Eerder in 2026: CVE-2026-18556 en de onvolledige fix CVE-2026-18577 (augustus) en de misbruikte zero-day CVE-2026-86218 met CVSS 10,0 (september)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "RMM",
-     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
-    },
-    {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
-    },
-    {
-     "term": "remote code execution",
-     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
-    },
-    {
-     "term": "XXE",
-     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
-    },
-    {
-     "term": "auditlogs",
-     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
-    },
-    {
-     "term": "aanvalsoppervlak",
-     "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; lekken in beheersoftware met directe gevolgen voor klantgesprekken."
-   },
-   "takeaway": "Een RMM-server is een sleutelbos voor alle beheerde computers. Wie hem overneemt, gebruikt gewone beheerfuncties als aanvalswapen, dus bewaak juist wat er via die tool wordt uitgerold.",
-   "region": "world",
-   "exploitation": "poc_openbaar",
-   "patch_status": "geen_patch"
-  },
-  {
    "id": "ce0b470d4dea",
    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
@@ -2407,7 +2312,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -2928,6 +2833,101 @@
    "region": "world"
   },
   {
+   "id": "ed98e46a8b24",
+   "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
+   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+   "source_id": "huntress_blog",
+   "published_at": "2026-11-09T21:00:00Z",
+   "fetched_at": "2026-11-10T07:41:51.099464Z",
+   "summary": "Een onderzoeker zette aanvalsketens voor de beheersoftware N-central openbaar op GitHub, zonder N-able vooraf te waarschuwen. N-able haalde de clouddienst offline en vraagt klanten hun eigen servers ook uit te zetten.",
+   "personal_relevance": "Veel klanten werken met een IT-dienstverlener die RMM-software gebruikt. Een goede vraag: welke beheertools heeft jullie dienstverlener op jullie systemen, en zien jullie het in de logs als daarmee onverwacht scripts worden uitgerold?",
+   "limitations": [
+    "Er zijn nog geen CVE-nummers en geen hotfixversie; N-able verhoogt bij live hotfixes niet altijd het versienummer.",
+    "BleepingComputer heeft niet alle lekken zelf geverifieerd; de bronnen verschillen in het aantal lekken en ketens.",
+    "Of de eerdere meldingen van de onderzoeker inderdaad onbeantwoord bleven, is niet bevestigd; N-able reageerde daar niet op.",
+    "Huntress is een securityleverancier die zelf klanten met N-central bedient."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "supply_chain",
+    "incident_response"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "web",
+    "detectie"
+   ],
+   "relevance_score": 89,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.84,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:52:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "N-able haalt N-central offline na publicatie van ruim 30 lekken",
+   "story": [
+    "N-able heeft op 9 november zijn gehoste N-central-omgeving offline gehaald. N-central is RMM-software: IT-dienstverleners beheren er de computers van al hun klanten mee. Aanleiding: een onafhankelijke onderzoeker publiceerde op GitHub details en proof of concept-code voor ruim 30 kritieke lekken, samen 'Able2Shell' genoemd. Volgens Huntress zijn het 33 lekken in vier ketens. Drie leiden tot remote code execution, één tot root-rechten. N-able zag tot 9 november geen misbruik.",
+    "Hoe zo'n keten werkt: geen enkel lek is op zichzelf genoeg, maar achter elkaar wel. Volgens BleepingComputer begint de belangrijkste keten met een XXE-lek in de importfunctie, zonder inlog. XXE betekent dat de server een XML-bestand leest en daarbij ook 'externe' verwijzingen in dat bestand volgt. Zo kan een aanvaller de server laten verwijzen naar dingen die hij niet hoort te zien. Via die stap kan hij een sessie stelen, een wachtwoord resetten of een beheerdersaccount aanmaken, en daarna opdrachten uitvoeren.",
+    "Waarom is dit zo gevaarlijk? Een RMM-server heeft per definitie macht over duizenden computers bij veel klanten. Wie de RMM-server overneemt, kan via de normale beheerfuncties scripts en software uitrollen naar al die computers. Bij eerdere aanvallen op N-central deden aanvallers precies dat. En openbare aanvalscode betekent dat niet alleen ervaren aanvallers het kunnen proberen, maar iedereen.",
+    "Huntress adviseert eigen servers offline te halen tot N-able een veilige hotfix heeft. Controleer vanaf 8 november de inlogactiviteit en de auditlogs. Let op onverwachte sessies op afstand, nieuw uitgerolde scripts en nieuwe beheerdersaccounts. Bij verdachte activiteit moet je ook de netwerken onderzoeken die vanuit N-central worden beheerd.",
+    "N-central kreeg dit jaar al eerder kritieke lekken, waaronder een misbruikte zero-day in september. De onderzoeker zegt dat hij publiceerde omdat N-able eerdere meldingen maandenlang niet oploste; N-able noemt de publicatie onverantwoord. Wie gelijk heeft, is niet vast te stellen. Voor organisaties is de les dat beheersoftware van een dienstverlener deel is van hun eigen aanvalsoppervlak."
+   ],
+   "key_facts": [
+    "N-able haalde de gehoste N-central-omgeving op 9 november 2026 offline en vroeg klanten met eigen servers die tijdelijk offline te halen.",
+    "Volgens Huntress gaat het om 33 kritieke lekken in vier 'Able2Shell'-ketens: drie leiden tot remote code execution, één tot rechtenverhoging naar root. BleepingComputer spreekt van 'meer dan 30'.",
+    "Getest op N-central Appliance 2026.4.0.31; eerdere versies zijn waarschijnlijk ook kwetsbaar. Een hotfix is in de maak, zonder datum.",
+    "N-able zag tot 9 november 15:15 UTC geen actief misbruik; er staan wel proof of concept-exploits op GitHub.",
+    "Volgens BleepingComputer is de kritiekste keten een XXE-lek zonder inlog in de importfunctie, waarmee een aanvaller een sessie steelt, een wachtwoord reset of een beheerdersaccount aanmaakt en opdrachten uitvoert.",
+    "Eerder in 2026: CVE-2026-18556 en de onvolledige fix CVE-2026-18577 (augustus) en de misbruikte zero-day CVE-2026-86218 met CVSS 10,0 (september)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "RMM",
+     "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "remote code execution",
+     "explanation": "Een aanvaller kan op afstand eigen opdrachten of code laten uitvoeren op een systeem (RCE)."
+    },
+    {
+     "term": "XXE",
+     "explanation": "XML External Entity: een fout waarbij een server in een XML-bestand ook verwijzingen naar andere bestanden of adressen volgt. Een aanvaller kan zo gegevens lezen of verzoeken laten doen die niet bedoeld zijn."
+    },
+    {
+     "term": "auditlogs",
+     "explanation": "Logs die vastleggen wie wat deed in een systeem, zoals wie een dienst aanzette of een instelling wijzigde."
+    },
+    {
+     "term": "aanvalsoppervlak",
+     "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen: systemen op internet, software, accounts en ook tools van leveranciers."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; lekken in beheersoftware met directe gevolgen voor klantgesprekken."
+   },
+   "takeaway": "Een RMM-server is een sleutelbos voor alle beheerde computers. Wie hem overneemt, gebruikt gewone beheerfuncties als aanvalswapen, dus bewaak juist wat er via die tool wordt uitgerold.",
+   "region": "world",
+   "exploitation": "poc_openbaar",
+   "patch_status": "geen_patch"
+  },
+  {
    "id": "9fcf62b29cf8",
    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
@@ -3172,7 +3172,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -3269,7 +3269,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.68,
+    "recency": 0.67,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -3852,95 +3852,6 @@
    "region": "world"
   },
   {
-   "id": "ff63fc905db0",
-   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-07T00:00:55Z",
-   "fetched_at": "2026-11-07T01:23:05.079011Z",
-   "summary": "SonicWall dicht zeven lekken in SonicOS. Eén ervan, CVE-2026-19868, wordt al misbruikt: wie geldige gegevens voor een andere inlogmethode heeft, komt langs de SAML-controle van de SSL-VPN.",
-   "personal_relevance": "Veel klanten gebruiken SonicWall-vpn's met MFA en voelen zich daardoor veilig. Een goede vraag: gebruiken jullie SAML op de SSL-VPN, staan er nog lokale accounts op de firewall en is de update al geïnstalleerd?",
-   "limitations": [
-    "SonicWall deelt geen details over het misbruik: niet wie, niet hoeveel organisaties en niet hoe de aanvallers aan geldige inloggegevens kwamen.",
-    "Welke 'andere inlogmethode' precies bedoeld wordt, staat niet in het artikel; de technische werking is alleen op hoofdlijnen bekend.",
-    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit BleepingComputer."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "edge_devices",
-    "phishing_identity"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.74,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:30:20Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
-   "story": [
-    "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS, de software van zijn firewalls. Eén lek, CVE-2026-19868, wordt al misbruikt. SonicWall onderzocht een melding van mogelijk misbruik en vraagt klanten zo snel mogelijk te updaten. CISA zette het lek op de KEV-lijst. Amerikaanse overheidsdiensten moeten het uiterlijk 20 november oplossen.",
-    "Eerst de normale werking. Via de SSL-VPN van een SonicWall-firewall loggen medewerkers van buiten in op het bedrijfsnetwerk. Veel organisaties laten die inlog via SAML lopen. Dan controleert niet de firewall zelf wie je bent, maar een centrale inlogdienst, vaak met MFA. De firewall vertrouwt op het antwoord van die dienst. Daarnaast kan een firewall nog andere inlogmethodes kennen, zoals lokale accounts.",
-    "Hier gaat het mis. Volgens SonicWall kan een aanvaller met geldige gegevens voor een andere inlogmethode langs de SAML-controle komen. Daarmee omzeilt hij mogelijk ook de MFA die via SAML wordt afgedwongen. Alleen SSL-VPN's die SAML gebruiken zijn kwetsbaar. De aanvaller heeft dus wel al een geldig wachtwoord nodig; dat verklaart de CVSS-score van 7,1. Toch is het ernstig: juist MFA moest een gestolen wachtwoord onschadelijk maken.",
-    "Er is geen tijdelijke oplossing; alleen updaten helpt. Gen7 moet naar 7.3.4-7013 of later, Gen8 naar 8.2.3-8015 of later. Algemene tips voor de logs: zoek naar vpn-inlogs die niet via SAML liepen bij gebruikers die altijd via SAML inloggen, en ruim lokale accounts op de firewall op. Bij de andere zes lekken zitten twee fouten in de beheerinterface (CVSS 8,8) waarmee iemand zonder inlog handelingen kan doen.",
-    "SonicWall-apparaten zijn een geliefd doelwit. Dit jaar werden ook de SMA1000-apparaten van SonicWall meerdere keren via zero-days aangevallen. Voor vulnerability management geldt: een randapparaat dat op internet staat en op de KEV-lijst komt, gaat voor alles. Wie wil weten of hij al geraakt is, kijkt in de logs ook terug naar de tijd vóór de update."
-   ],
-   "key_facts": [
-    "CVE-2026-19868 (CVSS 7,1) is een omzeiling van de SSL-VPN-authenticatie: met geldige gegevens voor een andere inlogmethode kan een aanvaller de SAML-controle omzeilen, mogelijk inclusief via SAML afgedwongen MFA.",
-    "Alleen SSL-VPN-diensten die SAML gebruiken zijn getroffen; Ryan Harris van The Electronic Office meldde het lek.",
-    "SonicWall PSIRT onderzocht een melding van mogelijk misbruik; CISA zette het lek op de KEV-lijst met een deadline van 20 november 2026 voor Amerikaanse federale diensten.",
-    "Getroffen: SonicOS Gen7 7.3.3-7015 en eerder en Gen8 8.2.2-8015 en eerder; opgelost in 7.3.4-7013 en 8.2.3-8015. Er is geen workaround (advies SNWLID-2026-0014).",
-    "De update dicht zeven lekken, waaronder twee fouten in de beheerinterface (CVSS 8,8), buffer overflows vóór de inlog in SSL-VPN en TACACS+ die een storing kunnen veroorzaken, en zwakke wachtwoord-hashing in virtuele appliances.",
-    "Eerder dit jaar werden SonicWall SMA1000-apparaten aangevallen via zero-days (juli en september) en via CVE-2026-102255 (oktober)."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "SSL-VPN",
-     "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
-    },
-    {
-     "term": "SAML",
-     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
-    },
-    {
-     "term": "MFA",
-     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
-    },
-    {
-     "term": "lokale accounts",
-     "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    },
-    {
-     "term": "zero-days",
-     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
-   },
-   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
-   "region": "world"
-  },
-  {
    "id": "580236cbddf9",
    "title": "ARMORY CASTLE Exploits BeyondTrust",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
@@ -4243,6 +4154,95 @@
    "region": "world"
   },
   {
+   "id": "ff63fc905db0",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-07T00:00:55Z",
+   "fetched_at": "2026-11-07T01:23:05.079011Z",
+   "summary": "SonicWall dicht zeven lekken in SonicOS. Eén ervan, CVE-2026-19868, wordt al misbruikt: wie geldige gegevens voor een andere inlogmethode heeft, komt langs de SAML-controle van de SSL-VPN.",
+   "personal_relevance": "Veel klanten gebruiken SonicWall-vpn's met MFA en voelen zich daardoor veilig. Een goede vraag: gebruiken jullie SAML op de SSL-VPN, staan er nog lokale accounts op de firewall en is de update al geïnstalleerd?",
+   "limitations": [
+    "SonicWall deelt geen details over het misbruik: niet wie, niet hoeveel organisaties en niet hoe de aanvallers aan geldige inloggegevens kwamen.",
+    "Welke 'andere inlogmethode' precies bedoeld wordt, staat niet in het artikel; de technische werking is alleen op hoofdlijnen bekend.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit BleepingComputer."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "edge_devices",
+    "phishing_identity"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.73,
+    "source": 0.68,
+    "quality": 0.63,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:30:20Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA",
+   "story": [
+    "SonicWall heeft updates uitgebracht voor zeven kwetsbaarheden in SonicOS, de software van zijn firewalls. Eén lek, CVE-2026-19868, wordt al misbruikt. SonicWall onderzocht een melding van mogelijk misbruik en vraagt klanten zo snel mogelijk te updaten. CISA zette het lek op de KEV-lijst. Amerikaanse overheidsdiensten moeten het uiterlijk 20 november oplossen.",
+    "Eerst de normale werking. Via de SSL-VPN van een SonicWall-firewall loggen medewerkers van buiten in op het bedrijfsnetwerk. Veel organisaties laten die inlog via SAML lopen. Dan controleert niet de firewall zelf wie je bent, maar een centrale inlogdienst, vaak met MFA. De firewall vertrouwt op het antwoord van die dienst. Daarnaast kan een firewall nog andere inlogmethodes kennen, zoals lokale accounts.",
+    "Hier gaat het mis. Volgens SonicWall kan een aanvaller met geldige gegevens voor een andere inlogmethode langs de SAML-controle komen. Daarmee omzeilt hij mogelijk ook de MFA die via SAML wordt afgedwongen. Alleen SSL-VPN's die SAML gebruiken zijn kwetsbaar. De aanvaller heeft dus wel al een geldig wachtwoord nodig; dat verklaart de CVSS-score van 7,1. Toch is het ernstig: juist MFA moest een gestolen wachtwoord onschadelijk maken.",
+    "Er is geen tijdelijke oplossing; alleen updaten helpt. Gen7 moet naar 7.3.4-7013 of later, Gen8 naar 8.2.3-8015 of later. Algemene tips voor de logs: zoek naar vpn-inlogs die niet via SAML liepen bij gebruikers die altijd via SAML inloggen, en ruim lokale accounts op de firewall op. Bij de andere zes lekken zitten twee fouten in de beheerinterface (CVSS 8,8) waarmee iemand zonder inlog handelingen kan doen.",
+    "SonicWall-apparaten zijn een geliefd doelwit. Dit jaar werden ook de SMA1000-apparaten van SonicWall meerdere keren via zero-days aangevallen. Voor vulnerability management geldt: een randapparaat dat op internet staat en op de KEV-lijst komt, gaat voor alles. Wie wil weten of hij al geraakt is, kijkt in de logs ook terug naar de tijd vóór de update."
+   ],
+   "key_facts": [
+    "CVE-2026-19868 (CVSS 7,1) is een omzeiling van de SSL-VPN-authenticatie: met geldige gegevens voor een andere inlogmethode kan een aanvaller de SAML-controle omzeilen, mogelijk inclusief via SAML afgedwongen MFA.",
+    "Alleen SSL-VPN-diensten die SAML gebruiken zijn getroffen; Ryan Harris van The Electronic Office meldde het lek.",
+    "SonicWall PSIRT onderzocht een melding van mogelijk misbruik; CISA zette het lek op de KEV-lijst met een deadline van 20 november 2026 voor Amerikaanse federale diensten.",
+    "Getroffen: SonicOS Gen7 7.3.3-7015 en eerder en Gen8 8.2.2-8015 en eerder; opgelost in 7.3.4-7013 en 8.2.3-8015. Er is geen workaround (advies SNWLID-2026-0014).",
+    "De update dicht zeven lekken, waaronder twee fouten in de beheerinterface (CVSS 8,8), buffer overflows vóór de inlog in SSL-VPN en TACACS+ die een storing kunnen veroorzaken, en zwakke wachtwoord-hashing in virtuele appliances.",
+    "Eerder dit jaar werden SonicWall SMA1000-apparaten aangevallen via zero-days (juli en september) en via CVE-2026-102255 (oktober)."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SSL-VPN",
+     "explanation": "Een vpn die via een gewone versleutelde webverbinding werkt. Medewerkers loggen er van buiten mee in om bij het interne netwerk te komen."
+    },
+    {
+     "term": "SAML",
+     "explanation": "Een standaard voor single sign-on: een centrale inlogdienst bevestigt wie je bent en stuurt een ondertekend bewijs naar de applicatie, die daarop vertrouwt."
+    },
+    {
+     "term": "MFA",
+     "explanation": "Meerfactorauthenticatie: naast een wachtwoord nog een tweede bewijs, zoals een code op je telefoon of een hardwaresleutel."
+    },
+    {
+     "term": "lokale accounts",
+     "explanation": "Accounts die direct op een apparaat zelf zijn aangemaakt, los van de centrale gebruikersadministratie. Ze vallen daardoor vaak buiten centrale regels zoals MFA."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "zero-days",
+     "explanation": "Kwetsbaarheden die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een misbruikt lek in een veelgebruikte vpn met een les over MFA."
+   },
+   "takeaway": "MFA beschermt alleen als elke inlogroute erlangs moet. Als een systeem nog een tweede inlogmethode kent, kan een fout die route openzetten en de MFA overslaan.",
+   "region": "world"
+  },
+  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -4452,7 +4452,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.48,
     "source": 0.8,
     "quality": 0.65,
     "fit": 0.05
@@ -4549,7 +4549,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.63,
+    "recency": 0.62,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -4646,7 +4646,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.65,
+    "recency": 0.64,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -4833,7 +4833,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.66,
+    "recency": 0.65,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -5010,7 +5010,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.67,
+    "recency": 0.66,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -5404,7 +5404,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.33,
+    "recency": 0.32,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -5499,7 +5499,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.33,
+    "recency": 0.32,
     "source": 0.8,
     "quality": 0.67,
     "fit": 0.05
@@ -9221,11 +9221,11 @@
  ],
  "quality_report": {
   "fetched_items": 310,
-  "unique_after_dedupe": 627,
+  "unique_after_dedupe": 628,
   "merged_duplicates": 1,
   "shown": 52,
   "decisions": {
-   "included": 248,
+   "included": 249,
    "below_threshold": 158,
    "no_topic": 157,
    "excluded": 57,
@@ -9246,9 +9246,9 @@
   "per_source": {
    "the_hacker_news": 12,
    "bleepingcomputer": 10,
-   "security_nl": 3,
    "datadog_security_labs": 1,
    "huntress_blog": 5,
+   "security_nl": 3,
    "unit42": 5,
    "divd": 1,
    "google_threat_intel": 5,
@@ -9313,7 +9313,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 354
+   "skipped_no_key": 355
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9332,36 +9332,6 @@
     "relevance_score": 91,
     "decision": "included",
     "excluded_by": []
-   },
-   {
-    "title": "NCSC-2026-0493 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Endpoint Manager",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0493",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0492 [1.00] [M/H] Kwetsbaarheden verholpen in Node.js",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0492",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
-    "title": "NCSC-2026-0491 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console.",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0491",
-    "relevance_score": 89,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
    },
    {
     "title": "NCSC-2026-0483 [1.00] [M/H] Kwetsbaarheid verholpen in Fortinet FortiSandbox",
@@ -9397,6 +9367,36 @@
     "title": "NCSC-2026-0478 [1.00] [M/H] Kwetsbaarheden verholpen in N-able N-central",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0478",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0493 [1.00] [M/H] Kwetsbaarheden verholpen in Ivanti Endpoint Manager",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0493",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0492 [1.00] [M/H] Kwetsbaarheden verholpen in Node.js",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0492",
+    "relevance_score": 88,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0491 [1.00] [M/H] Meerdere kwetsbaarheden verholpen in Citrix Secure Access Client, NetScaler ADC, NetScaler Gateway en NetScaler Console.",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0491",
     "relevance_score": 88,
     "decision": "excluded",
     "excluded_by": [
@@ -9618,14 +9618,6 @@
     "excluded_by": []
    },
    {
-    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
-    "source_id": "cisco_talos",
-    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
     "source_id": "microsoft_threat_intel",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
@@ -9662,6 +9654,14 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "source_id": "cisco_talos",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "NCSC-2026-0416 [1.01] [H/H] ZeroDay kwetsbaarheden verholpen in Ivanti Connect Secure",
@@ -9846,20 +9846,24 @@
     "excluded_by": []
    },
    {
-    "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
+    "title": "NCSC-2026-0459 [1.00] [M/H] Kwetsbaarheid verholpen in Arista VeloCloud Orchestrator (VCO) on-premises",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0459",
+    "relevance_score": 81,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    },
    {
-    "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
+    "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
+    "relevance_score": 81,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
    }
   ],
   "topics_without_source": []
