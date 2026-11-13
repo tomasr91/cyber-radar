@@ -1,0 +1,52 @@
+{
+  "format_version": 2,
+  "article_id": "daa356fef18a",
+  "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+  "headline": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener",
+  "summary": "Aanvallers misbruiken een al gedicht lek in ScreenConnect en zetten de toolkit SCKit neer. Die probeert de technicus te besmetten die komt kijken, en met diens sessie andere klanten te bereiken.",
+  "story": [
+    "Onderzoekers van Blackpoint Cyber analyseerden SCKit, een toolkit uit een lopende campagne tegen ConnectWise ScreenConnect. Het gaat niet om een nieuw lek, maar om CVE-2026-84869 (CVSS 9,9). Dat lek is al gepatcht en staat sinds 11 september in de KEV-lijst van CISA. Volgens Blackpoint blokkeert een volledig bijgewerkte ScreenConnect-client de aanval.",
+    "Eerst de normale werking. ScreenConnect is software voor ondersteuning op afstand: een technicus, vaak van een IT-dienstverlener (MSP), maakt via een sessie verbinding met de computer van een klant. Het lek maakt het mogelijk om via een actieve sessie bestanden over te zetten en uit te voeren, zonder toestemming of bevestiging op de computer. De aanvallers gebruiken daarvoor de ingebouwde functie Run Command. Die installeert een MSI-pakket, dat via een batchscript en PowerShell de toolkit binnenhaalt. Twee eigen ScreenConnect-clients zorgen dat de aanvaller blijvend toegang heeft.",
+    "Wat SCKit bijzonder maakt: het onderdeel RelayTrap mengt zich in de sessies waarmee een technicus komt kijken. Het probeert dan de werkplek van die technicus te besmetten. Daar zoekt SCKit in de browser en het geheugen naar sessiecookies van ScreenConnect (.ASPXAUTH). Met zo'n cookie is de aanvaller ingelogd als de technicus en kan hij opdrachten sturen naar computers van andere klanten, die daar als SYSTEM draaien. Volgens Blackpoint is nog niet gezien dat dit echt is gelukt.",
+    "Hoe zie en voorkom je het? Patch de ScreenConnect-clients. Bescherm sessies van technici beter, met strengere controle en extra authenticatie voor acties op veel computers tegelijk. Onderzoek bij een verdachte computer niet alleen die computer, maar de hele beheerrelatie: onbekende ScreenConnect-installaties, de geschiedenis van beheeropdrachten, en de werkplekken en browsers van technici die verbinding maakten.",
+    "Voor organisaties is de les dat beheersoftware van een dienstverlener een brug is tussen klanten. De aanvaller richt zich hier op de technicus die het incident komt onderzoeken: de onderzoeker wordt het doelwit."
+  ],
+  "key_facts": [
+    "De campagne misbruikt CVE-2026-84869 (CVSS 9,9), een fout in rechtenbeheer en autorisatie in ConnectWise ScreenConnect; geen nieuw lek.",
+    "CISA zette het lek op 11 september 2026 in de KEV-lijst, met een patchdeadline voor federale instanties op 14 september 2026.",
+    "Onderzoek door de Adversary Pursuit Group van Blackpoint Cyber (Sam Decker en Nevan Beal); volgens hun tests blokkeert de bestaande patch de aanval.",
+    "Keten: Run Command installeert een MSI-pakket, dat een batchscript en PowerShell-onderdelen ophaalt; twee ongeautoriseerde ScreenConnect Access-clients geven blijvende toegang.",
+    "RelayTrap probeert de werkplek van een technicus te besmetten; SCKit zoekt daar naar .ASPXAUTH-sessiecookies om opdrachten naar andere klantcomputers te sturen, die als NT AUTHORITY\\SYSTEM draaien.",
+    "Er is geen bewijs van verspreiding naar een werkplek van een technicus of van omzeiling van de patch; ConnectWise schakelde uit voorzorg vijf extensies uit, zonder bekend verband met SCKit."
+  ],
+  "limitations": [
+    "Het aantal slachtoffers is niet bekend.",
+    "Wie achter de campagne zit, staat niet in de bron.",
+    "ConnectWise had nog niet op vragen van The Hacker News gereageerd.",
+    "Blackpoint Cyber is een securityleverancier die MSP's als klant heeft."
+  ],
+  "personal_relevance": "MSP's en hun klanten gebruiken vaak ScreenConnect. Een goede vraag bij een incident: wie heeft na de melding verbinding gemaakt met de verdachte computer, en is die werkplek ook onderzocht?",
+  "takeaway": "Een gestolen sessiecookie is net zo goed als inloggen, inclusief de tweede factor. Wie de technicus van een dienstverlener overneemt, krijgt via de beheersoftware toegang tot alle klanten van die technicus.",
+  "region": "world",
+  "official_docs": [],
+  "topics": ["supply_chain", "exploited_vulnerabilities", "incident_response", "malware"],
+  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "development_key": "sckit-screenconnect-cve-2026-84869",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {"score": 0.55, "why": "Nog geen duimpjes; aanvalsketen via beheersoftware, dicht bij het werk van MSP- en MDR-klanten."},
+  "terms": [
+    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
+    {"term": "MSP", "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."},
+    {"term": "Run Command", "explanation": "Een functie in beheersoftware waarmee een beheerder op afstand een opdracht of script op een computer laat draaien, zonder daar zelf in te loggen."},
+    {"term": "MSI-pakket", "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."},
+    {"term": "sessiecookies", "explanation": "Kleine stukjes gegevens die een website na het inloggen in je browser zet, als bewijs dat je al bent ingelogd. Wie ze steelt, is ingelogd als jij."}
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T02:14:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

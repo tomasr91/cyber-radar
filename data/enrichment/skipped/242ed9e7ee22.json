@@ -1,0 +1,7 @@
+{
+  "article_id": "242ed9e7ee22",
+  "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
+  "reason": "Kort bericht zonder technische uitleg: CVE-2026-121653, een kritiek SQL injection-lek in Ivanti Endpoint Manager (CVSS 9,8, opgelost in 2024 SU8). Ivanti kent geen misbruik. Dezelfde patch werd op 12 november al overgeslagen (02a5d2234103); bij misbruik alsnog uitleggen.",
+  "development_key": "cve-2026-121653-ivanti-epm",
+  "checked_at": "2026-11-13T02:22:00Z"
+}

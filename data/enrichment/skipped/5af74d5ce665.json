@@ -1,0 +1,7 @@
+{
+  "article_id": "5af74d5ce665",
+  "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+  "reason": "Weinig urgent en ver van de praktijk van de lezer: drie side-channel-lekken (Transient Scheduler Attacks) in AMD Turin-processors, lokaal, met hoge complexiteit, door Google als Medium beoordeeld en zonder bekend misbruik. Google heeft de aanvallen tussen VM's al afgeschermd.",
+  "development_key": "amd-turin-tsa-nov-2026",
+  "checked_at": "2026-11-13T02:22:00Z"
+}

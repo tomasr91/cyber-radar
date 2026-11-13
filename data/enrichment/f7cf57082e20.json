@@ -1,0 +1,80 @@
+{
+  "format_version": 2,
+  "article_id": "f7cf57082e20",
+  "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+  "headline": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA",
+  "summary": "Een phishingcampagne stuurt agenda-uitnodigingen van bekende afzenders en zet een live proxy voor de echte Google-inlogpagina. Zo pakt de aanvaller de sessie, ook als je een tweede factor gebruikt.",
+  "story": [
+    "Sinds half augustus steelt een phishingcampagne live Google-sessies van zakelijke gebruikers. Onderzoekers van Material Security ontdekten de campagne en lieten in één maand 897 domeinen van de aanvaller offline halen. Ze noemen hun aanpak Operation CloudFire. Het opvallende: elke controle waarop verdedigers normaal vertrouwen, gaf groen licht.",
+    "Zo verloopt het. Het slachtoffer krijgt een uitnodiging voor Google Agenda, vaak van een organisatie waarmee hij al mailt. Die afzenders zijn zelf gehackt. De aanleiding is alledaags: een voicemail, een offerteaanvraag, een dagvaarding of een gemiste betaling. De link loopt eerst via Google's eigen doorverwijzer. Daarna volgt een Cloudflare Turnstile-controle, die automatische scanners tegenhoudt. Pas dan komt het slachtoffer op een reverse proxy die de echte Google-inlogpagina doorgeeft.",
+    "Dat laatste is de kern: adversary-in-the-middle. Het slachtoffer ziet de echte Google-pagina en typt zijn wachtwoord en tweede factor in. De proxy geeft alles live door aan Google en houdt de sessie vast die Google teruggeeft. Volgens het artikel werkt dat ook bij een sms-code, een code uit een authenticator-app, number matching en herstel via de telefoon. Met de sessie leest de aanvaller mail en Drive, en kan hij namens het slachtoffer OAuth-toegang geven aan een app.",
+    "Waarom zagen de controles niets? De domeinen hadden een schone reputatie, de eerste link was een echte Google-link, en de phishingpagina werd pas in de browser opgebouwd door JavaScript. Scanners zagen dus niets kwaadaardigs. De domeinen waren wegwerpdomeinen, vaak een paar dagen eerder geregistreerd. De onderzoekers adviseren om niet op één signaal te vertrouwen, maar techniek, linkbestemming en de relatie met de afzender samen te wegen.",
+    "Wat kun je doen? Een overgenomen sessie laat sporen achter in de auditlogs van Google Workspace. Zorg dat je team sessies snel kan intrekken, OAuth-toegang kan inperken en accounts kan resetten, het liefst binnen een uur. Behandel agenda-uitnodigingen als een eigen aanvalsroute: een mailfilter ziet ze niet altijd. De aanvaller had ook al een versie voor Microsoft 365 klaarstaan."
+  ],
+  "key_facts": [
+    "De campagne loopt sinds half augustus 2026 en richt zich op zakelijke Google-gebruikers; ontdekt door het Threat Research-team van Material Security (Operation CloudFire).",
+    "Lokmiddel: Google Agenda-uitnodigingen, vaak van gehackte legitieme afzenders; links via Google's eigen doorverwijzer, share.google, Google Drive of Intuit-meldingen.",
+    "Een Cloudflare Turnstile-controle houdt scanners tegen; een live reverse proxy voor de echte Google-inlogpagina vangt de sessie, ook bij sms, authenticator-codes, number matching en herstel via de telefoon.",
+    "Het framework heet Nyasher en werd in februari 2026 openbaar beschreven; er lag een onafgemaakte versie voor Microsoft 365 klaar.",
+    "In één maand bij deelnemende organisaties: 68.676 berichten geblokkeerd, 2.112 kwaadaardige URL's geanalyseerd, 897 domeinen offline gehaald en 8.570 gehackte afzenderadressen op 6.354 domeinen.",
+    "De lokmiddelen zijn verschoven naar uitnodigingen om Google Drive-documenten te delen."
+  ],
+  "limitations": [
+    "Hoeveel sessies daadwerkelijk zijn gestolen, staat niet in de bron.",
+    "Wie achter de campagne zit, is niet bekend; de verzendactiviteit volgt Amerikaanse kantooruren.",
+    "De bron zegt niet of phishingbestendige MFA, zoals passkeys of hardwaresleutels, de aanval tegenhield.",
+    "Material Security is een securityleverancier; de detectiecijfers gelden alleen voor organisaties die meededen en komen uit eigen onderzoek."
+  ],
+  "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen phishing. Dit is een concreet voorbeeld om te vragen welke soort MFA ze gebruiken, en of hun SIEM de auditlogs van Google Workspace of Microsoft 365 binnenkrijgt.",
+  "takeaway": "Bij adversary-in-the-middle log je echt in, maar via de aanvaller. Een code die je overtypt of goedkeurt, beschermt dan niet: de aanvaller pakt de sessie die na het inloggen ontstaat.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "phishing_identity",
+    "cloud_attacks",
+    "threat_intelligence"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.9,
+    "novelty": 0.7
+  },
+  "development_key": "nyasher-google-sessies-agenda-2026",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "soort": "onderzoek",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; concrete uitleg van sessiediefstal ondanks MFA, handig voor klantgesprekken."
+  },
+  "terms": [
+    {
+      "term": "reverse proxy",
+      "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
+    },
+    {
+      "term": "adversary-in-the-middle",
+      "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
+    },
+    {
+      "term": "sessie",
+      "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+      "term": "number matching",
+      "explanation": "Een vorm van MFA waarbij je in een app het getal intikt dat op het inlogscherm staat. Beschermt tegen blind goedkeuren, maar niet tegen een live proxy."
+    },
+    {
+      "term": "OAuth-toegang",
+      "explanation": "Toestemming die je een app geeft om namens jou bij je gegevens te mogen, zonder je wachtwoord. Na een overgenomen account moet je die toegang apart controleren en intrekken."
+    },
+    {
+      "term": "Cloudflare Turnstile",
+      "explanation": "Een controle die nagaat of er een mens achter de browser zit, zoals een CAPTCHA. Aanvallers gebruiken het om automatische scanners buiten te houden."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "processed_at": "2026-11-13T02:18:00Z",
+  "prompt_version": "cyber-taak-v1"
+}

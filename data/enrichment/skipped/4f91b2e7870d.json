@@ -1,6 +1,7 @@
 {
   "article_id": "4f91b2e7870d",
   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-  "reason": "Niet te lezen: de link naar het onderzoek van Microsoft over misbruik van GSocket kon in deze run niet worden geopend (toegang tot de pagina niet toegestaan) en de pagina was niet via een zoekopdracht te vinden.",
-  "checked_at": "2026-11-12T01:40:50Z"
+  "reason": "Zelfde ontwikkeling als bee0f7d9c4fe (aanvallers houden toegang tot Linux-servers met GSocket); op 13 november uitgelegd via BleepingComputer. Eerder: het onderzoek van Microsoft kon niet worden geopend.",
+  "checked_at": "2026-11-13T02:22:00Z",
+  "development_key": "gsocket-linux-persistentie-nov-2026"
 }

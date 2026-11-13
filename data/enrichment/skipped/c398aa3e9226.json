@@ -1,0 +1,7 @@
+{
+  "article_id": "c398aa3e9226",
+  "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+  "reason": "Patchlijst zonder technische uitleg: twaalf lekken in NetScaler ADC, Gateway, Console en Secure Access Client, vooral geheugenfouten die tot DoS leiden, plus een authenticatie-omzeiling in NetScaler Console (CVE-2026-120869). Citrix kent geen misbruik; bij misbruik alsnog uitleggen.",
+  "development_key": "citrix-netscaler-patches-nov-2026",
+  "checked_at": "2026-11-13T02:22:00Z"
+}
