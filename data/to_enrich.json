@@ -1,85 +1,7 @@
 {
- "generated_at": "2026-11-13T01:35:33.983550Z",
+ "generated_at": "2026-11-13T01:37:14.513480Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
-  {
-   "id": "242ed9e7ee22",
-   "title": "Ivanti Endpoint Manager via kritiek SQL Injection-lek over te nemen",
-   "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
-   "source_id": "security_nl",
-   "source_name": "Security.NL",
-   "published_at": "2026-11-12T15:18:28Z",
-   "excerpt": "Ivanti heeft een beveiligingsupdate uitgebracht voor een kritiek SQL Injection-lek in Endpoint Manager (EPM), waardoor ...",
-   "preliminary_score": 91,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "edge_devices"
-   ]
-  },
-  {
-   "id": "c398aa3e9226",
-   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-   "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-12T15:38:49Z",
-   "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "vulnerability_management",
-    "edge_devices"
-   ]
-  },
-  {
-   "id": "daa356fef18a",
-   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-   "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-12T13:08:28Z",
-   "excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "threat_intelligence",
-    "malware",
-    "supply_chain"
-   ]
-  },
-  {
-   "id": "5af74d5ce665",
-   "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-12T12:09:14Z",
-   "excerpt": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "incidents_breaches",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "f7cf57082e20",
-   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-12T11:51:31Z",
-   "excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "web_software_security",
-    "phishing_identity"
-   ]
-  },
   {
    "id": "988b46d175c6",
    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
@@ -152,6 +74,78 @@
     "vulnerabilities_cve",
     "threat_intelligence",
     "malware"
+   ]
+  },
+  {
+   "id": "2f01d2c20574",
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-12T09:23:21Z",
+   "excerpt": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "43047ed0e682",
+   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+   "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-09T14:08:08Z",
+   "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .",
+   "preliminary_score": 80,
+   "preliminary_topics": [
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "1d820fad715a",
+   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-10-22T09:49:08Z",
+   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder meer: - Arbitrary code execution uitvoeren via crafted input of deserialisatieprocessen. - Volledige systeemcompromittering bereiken via netwerktoegang zonder authenticatie. - Ongeautoriseerde toegang verkrijgen tot gevoelige of kritieke data. - Data manipuleren, creëren, verwijderen of wijzigen zonder juiste rechten. - Denial-of-Service veroorzaken door resource-uitputting, crashes of hangs. - Privilege escalation uitvoeren binnen het systeem. - Cross-site scripting en spoofing aanvallen uitvoeren. - Kwetsbaarheden in authenticatie- en autorisatiemechanismen misbruiken. De kwetsbaarheden zijn",
+   "preliminary_score": 79,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "f4f1ad10a87b",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T20:58:19Z",
+   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+   "preliminary_score": 79,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "incidents_breaches"
+   ]
+  },
+  {
+   "id": "b7494c226c5f",
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-04T16:58:46Z",
+   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+   "preliminary_score": 79,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "malware",
+    "supply_chain"
    ]
   }
  ]

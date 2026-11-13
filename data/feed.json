@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T01:35:33.983550Z",
+ "generated_at": "2026-11-13T01:37:14.513480Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-13T02:08:00Z",
- "last_successful_update": "2026-11-13T01:35:33.983550Z",
+ "last_article_added_at": "2026-11-13T02:18:00Z",
+ "last_successful_update": "2026-11-13T01:37:14.513480Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T01:35:34.043769Z"
+   "checked_at": "2026-11-13T01:37:14.561594Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T01:35:34.634161Z"
+   "checked_at": "2026-11-13T01:37:15.232965Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T01:35:35.471418Z"
+   "checked_at": "2026-11-13T01:37:16.238994Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T01:35:36.200392Z"
+   "checked_at": "2026-11-13T01:37:17.734814Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T01:35:37.149974Z"
+   "checked_at": "2026-11-13T01:37:18.860742Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T01:35:37.374544Z"
+   "checked_at": "2026-11-13T01:37:19.141014Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T01:35:37.490959Z"
+   "checked_at": "2026-11-13T01:37:19.277136Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T01:35:37.661314Z"
+   "checked_at": "2026-11-13T01:37:19.530824Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T01:35:38.093998Z"
+   "checked_at": "2026-11-13T01:37:19.979530Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T01:35:39.846899Z"
+   "checked_at": "2026-11-13T01:37:21.415701Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T01:35:40.191693Z"
+   "checked_at": "2026-11-13T01:37:21.640683Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T01:35:40.466517Z"
+   "checked_at": "2026-11-13T01:37:21.798133Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T01:35:40.640514Z"
+   "checked_at": "2026-11-13T01:37:22.030959Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T01:35:40.892483Z"
+   "checked_at": "2026-11-13T01:37:22.329816Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T01:35:41.005773Z"
+   "checked_at": "2026-11-13T01:37:22.607050Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T01:35:41.090336Z"
+   "checked_at": "2026-11-13T01:37:22.785438Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T01:35:41.337613Z"
+   "checked_at": "2026-11-13T01:37:23.233135Z"
   },
   {
    "id": "securityweek",
@@ -381,17 +381,197 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T01:35:41.601334Z"
+   "checked_at": "2026-11-13T01:37:23.466718Z"
   }
  ],
  "daily_top": [
+  "f7cf57082e20",
+  "daa356fef18a",
   "6947b84f5dbe",
   "9398616ade4d",
-  "7bb9dcd14586",
-  "3e830a9401ea",
-  "7d35c70e6708"
+  "3e830a9401ea"
  ],
  "articles": [
+  {
+   "id": "f7cf57082e20",
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-12T11:51:31Z",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "summary": "Een phishingcampagne stuurt agenda-uitnodigingen van bekende afzenders en zet een live proxy voor de echte Google-inlogpagina. Zo pakt de aanvaller de sessie, ook als je een tweede factor gebruikt.",
+   "personal_relevance": "Klanten denken vaak dat MFA hen beschermt tegen phishing. Dit is een concreet voorbeeld om te vragen welke soort MFA ze gebruiken, en of hun SIEM de auditlogs van Google Workspace of Microsoft 365 binnenkrijgt.",
+   "limitations": [
+    "Hoeveel sessies daadwerkelijk zijn gestolen, staat niet in de bron.",
+    "Wie achter de campagne zit, is niet bekend; de verzendactiviteit volgt Amerikaanse kantooruren.",
+    "De bron zegt niet of phishingbestendige MFA, zoals passkeys of hardwaresleutels, de aanval tegenhield.",
+    "Material Security is een securityleverancier; de detectiecijfers gelden alleen voor organisaties die meededen en komen uit eigen onderzoek."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "phishing_identity",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "ti",
+    "aanvallen",
+    "incidenten"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.8,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T02:18:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA",
+   "story": [
+    "Sinds half augustus steelt een phishingcampagne live Google-sessies van zakelijke gebruikers. Onderzoekers van Material Security ontdekten de campagne en lieten in één maand 897 domeinen van de aanvaller offline halen. Ze noemen hun aanpak Operation CloudFire. Het opvallende: elke controle waarop verdedigers normaal vertrouwen, gaf groen licht.",
+    "Zo verloopt het. Het slachtoffer krijgt een uitnodiging voor Google Agenda, vaak van een organisatie waarmee hij al mailt. Die afzenders zijn zelf gehackt. De aanleiding is alledaags: een voicemail, een offerteaanvraag, een dagvaarding of een gemiste betaling. De link loopt eerst via Google's eigen doorverwijzer. Daarna volgt een Cloudflare Turnstile-controle, die automatische scanners tegenhoudt. Pas dan komt het slachtoffer op een reverse proxy die de echte Google-inlogpagina doorgeeft.",
+    "Dat laatste is de kern: adversary-in-the-middle. Het slachtoffer ziet de echte Google-pagina en typt zijn wachtwoord en tweede factor in. De proxy geeft alles live door aan Google en houdt de sessie vast die Google teruggeeft. Volgens het artikel werkt dat ook bij een sms-code, een code uit een authenticator-app, number matching en herstel via de telefoon. Met de sessie leest de aanvaller mail en Drive, en kan hij namens het slachtoffer OAuth-toegang geven aan een app.",
+    "Waarom zagen de controles niets? De domeinen hadden een schone reputatie, de eerste link was een echte Google-link, en de phishingpagina werd pas in de browser opgebouwd door JavaScript. Scanners zagen dus niets kwaadaardigs. De domeinen waren wegwerpdomeinen, vaak een paar dagen eerder geregistreerd. De onderzoekers adviseren om niet op één signaal te vertrouwen, maar techniek, linkbestemming en de relatie met de afzender samen te wegen.",
+    "Wat kun je doen? Een overgenomen sessie laat sporen achter in de auditlogs van Google Workspace. Zorg dat je team sessies snel kan intrekken, OAuth-toegang kan inperken en accounts kan resetten, het liefst binnen een uur. Behandel agenda-uitnodigingen als een eigen aanvalsroute: een mailfilter ziet ze niet altijd. De aanvaller had ook al een versie voor Microsoft 365 klaarstaan."
+   ],
+   "key_facts": [
+    "De campagne loopt sinds half augustus 2026 en richt zich op zakelijke Google-gebruikers; ontdekt door het Threat Research-team van Material Security (Operation CloudFire).",
+    "Lokmiddel: Google Agenda-uitnodigingen, vaak van gehackte legitieme afzenders; links via Google's eigen doorverwijzer, share.google, Google Drive of Intuit-meldingen.",
+    "Een Cloudflare Turnstile-controle houdt scanners tegen; een live reverse proxy voor de echte Google-inlogpagina vangt de sessie, ook bij sms, authenticator-codes, number matching en herstel via de telefoon.",
+    "Het framework heet Nyasher en werd in februari 2026 openbaar beschreven; er lag een onafgemaakte versie voor Microsoft 365 klaar.",
+    "In één maand bij deelnemende organisaties: 68.676 berichten geblokkeerd, 2.112 kwaadaardige URL's geanalyseerd, 897 domeinen offline gehaald en 8.570 gehackte afzenderadressen op 6.354 domeinen.",
+    "De lokmiddelen zijn verschoven naar uitnodigingen om Google Drive-documenten te delen."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "reverse proxy",
+     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
+    },
+    {
+     "term": "adversary-in-the-middle",
+     "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept."
+    },
+    {
+     "term": "sessie",
+     "explanation": "Een tijdelijk toegangsbewijs na het inloggen, zodat je niet bij elke klik opnieuw hoeft in te loggen. Wie het overneemt, is ingelogd als jou."
+    },
+    {
+     "term": "number matching",
+     "explanation": "Een vorm van MFA waarbij je in een app het getal intikt dat op het inlogscherm staat. Beschermt tegen blind goedkeuren, maar niet tegen een live proxy."
+    },
+    {
+     "term": "OAuth-toegang",
+     "explanation": "Toestemming die je een app geeft om namens jou bij je gegevens te mogen, zonder je wachtwoord. Na een overgenomen account moet je die toegang apart controleren en intrekken."
+    },
+    {
+     "term": "Cloudflare Turnstile",
+     "explanation": "Een controle die nagaat of er een mens achter de browser zit, zoals een CAPTCHA. Aanvallers gebruiken het om automatische scanners buiten te houden."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; concrete uitleg van sessiediefstal ondanks MFA, handig voor klantgesprekken."
+   },
+   "takeaway": "Bij adversary-in-the-middle log je echt in, maar via de aanvaller. Een code die je overtypt of goedkeurt, beschermt dan niet: de aanvaller pakt de sessie die na het inloggen ontstaat.",
+   "region": "world"
+  },
+  {
+   "id": "daa356fef18a",
+   "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+   "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-12T13:08:28Z",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "summary": "Aanvallers misbruiken een al gedicht lek in ScreenConnect en zetten de toolkit SCKit neer. Die probeert de technicus te besmetten die komt kijken, en met diens sessie andere klanten te bereiken.",
+   "personal_relevance": "MSP's en hun klanten gebruiken vaak ScreenConnect. Een goede vraag bij een incident: wie heeft na de melding verbinding gemaakt met de verdachte computer, en is die werkplek ook onderzocht?",
+   "limitations": [
+    "Het aantal slachtoffers is niet bekend.",
+    "Wie achter de campagne zit, staat niet in de bron.",
+    "ConnectWise had nog niet op vragen van The Hacker News gereageerd.",
+    "Blackpoint Cyber is een securityleverancier die MSP's als klant heeft."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "supply_chain",
+    "incident_response",
+    "malware"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "web",
+    "detectie",
+    "aanvallen"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T02:14:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener",
+   "story": [
+    "Onderzoekers van Blackpoint Cyber analyseerden SCKit, een toolkit uit een lopende campagne tegen ConnectWise ScreenConnect. Het gaat niet om een nieuw lek, maar om CVE-2026-84869 (CVSS 9,9). Dat lek is al gepatcht en staat sinds 11 september in de KEV-lijst van CISA. Volgens Blackpoint blokkeert een volledig bijgewerkte ScreenConnect-client de aanval.",
+    "Eerst de normale werking. ScreenConnect is software voor ondersteuning op afstand: een technicus, vaak van een IT-dienstverlener (MSP), maakt via een sessie verbinding met de computer van een klant. Het lek maakt het mogelijk om via een actieve sessie bestanden over te zetten en uit te voeren, zonder toestemming of bevestiging op de computer. De aanvallers gebruiken daarvoor de ingebouwde functie Run Command. Die installeert een MSI-pakket, dat via een batchscript en PowerShell de toolkit binnenhaalt. Twee eigen ScreenConnect-clients zorgen dat de aanvaller blijvend toegang heeft.",
+    "Wat SCKit bijzonder maakt: het onderdeel RelayTrap mengt zich in de sessies waarmee een technicus komt kijken. Het probeert dan de werkplek van die technicus te besmetten. Daar zoekt SCKit in de browser en het geheugen naar sessiecookies van ScreenConnect (.ASPXAUTH). Met zo'n cookie is de aanvaller ingelogd als de technicus en kan hij opdrachten sturen naar computers van andere klanten, die daar als SYSTEM draaien. Volgens Blackpoint is nog niet gezien dat dit echt is gelukt.",
+    "Hoe zie en voorkom je het? Patch de ScreenConnect-clients. Bescherm sessies van technici beter, met strengere controle en extra authenticatie voor acties op veel computers tegelijk. Onderzoek bij een verdachte computer niet alleen die computer, maar de hele beheerrelatie: onbekende ScreenConnect-installaties, de geschiedenis van beheeropdrachten, en de werkplekken en browsers van technici die verbinding maakten.",
+    "Voor organisaties is de les dat beheersoftware van een dienstverlener een brug is tussen klanten. De aanvaller richt zich hier op de technicus die het incident komt onderzoeken: de onderzoeker wordt het doelwit."
+   ],
+   "key_facts": [
+    "De campagne misbruikt CVE-2026-84869 (CVSS 9,9), een fout in rechtenbeheer en autorisatie in ConnectWise ScreenConnect; geen nieuw lek.",
+    "CISA zette het lek op 11 september 2026 in de KEV-lijst, met een patchdeadline voor federale instanties op 14 september 2026.",
+    "Onderzoek door de Adversary Pursuit Group van Blackpoint Cyber (Sam Decker en Nevan Beal); volgens hun tests blokkeert de bestaande patch de aanval.",
+    "Keten: Run Command installeert een MSI-pakket, dat een batchscript en PowerShell-onderdelen ophaalt; twee ongeautoriseerde ScreenConnect Access-clients geven blijvende toegang.",
+    "RelayTrap probeert de werkplek van een technicus te besmetten; SCKit zoekt daar naar .ASPXAUTH-sessiecookies om opdrachten naar andere klantcomputers te sturen, die als NT AUTHORITY\\SYSTEM draaien.",
+    "Er is geen bewijs van verspreiding naar een werkplek van een technicus of van omzeiling van de patch; ConnectWise schakelde uit voorzorg vijf extensies uit, zonder bekend verband met SCKit."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "MSP",
+     "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."
+    },
+    {
+     "term": "Run Command",
+     "explanation": "Een functie in beheersoftware waarmee een beheerder op afstand een opdracht of script op een computer laat draaien, zonder daar zelf in te loggen."
+    },
+    {
+     "term": "MSI-pakket",
+     "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."
+    },
+    {
+     "term": "sessiecookies",
+     "explanation": "Kleine stukjes gegevens die een website na het inloggen in je browser zet, als bewijs dat je al bent ingelogd. Wie ze steelt, is ingelogd als jij."
+    }
+   ],
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; aanvalsketen via beheersoftware, dicht bij het werk van MSP- en MDR-klanten."
+   },
+   "takeaway": "Een gestolen sessiecookie is net zo goed als inloggen, inclusief de tweede factor. Wie de technicus van een dienstverlener overneemt, krijgt via de beheersoftware toegang tot alle klanten van die technicus.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
   {
    "id": "6947b84f5dbe",
    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
@@ -3183,104 +3363,6 @@
    "region": "world"
   },
   {
-   "id": "ed60ea7fa412",
-   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T05:58:54Z",
-   "fetched_at": "2026-11-06T07:19:04.207644Z",
-   "summary": "Onderzoekers vonden een nagebouwde versie van de webserver van Control Web Panel die verborgen opdrachten uitvoert. Die verzoeken komen niet in de toegangslog. De aanvaller moet wel eerst root zijn.",
-   "personal_relevance": "Hostingklanten en MSP's vertrouwen vaak op webserverlogs om misbruik te zien. Dit voorbeeld helpt om te vragen welke andere bronnen hun SIEM of MDR gebruikt als een server zijn eigen logs niet meer betrouwbaar bijhoudt.",
-   "limitations": [
-    "Hoe de aanvallers root kregen, is niet bekend.",
-    "Hoeveel servers besmet zijn en wie erachter zit, is niet bekend.",
-    "Of cwpdoor en Ebury bij dezelfde aanvaller horen, weet XLab niet.",
-    "Hoe de achterdeur precies voorkomt dat verzoeken in de toegangslog komen, beschrijft het artikel niet.",
-    "Het rapport van XLab zelf is niet gelezen; de details komen uit The Hacker News."
-   ],
-   "topics": [
-    "siem_detection",
-    "malware",
-    "web_software_security"
-   ],
-   "groups": [
-    "detectie",
-    "aanvallen",
-    "web"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.71,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:34:20Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Achterdeur in webserver van Control Web Panel blijft buiten de logs",
-   "story": [
-    "Control Web Panel (CWP) is een gratis beheerpaneel voor Linux-servers die websites hosten. Onderzoekers van XLab, onderdeel van het Chinese securitybedrijf QiAnXin, vonden een achterdeur in de webserver van dat paneel, cwpsrv. Ze noemen hem cwpdoor. Op 29 juni vingen ze een installatiescript op dat zich voordeed als update. Op 30 september dook een kopie op bij VirusTotal, geüpload vanuit Brazilië. Volgens XLab wijst dat erop dat er echte slachtoffers zijn.",
-    "Eerst de normale werking. Een webserver ontvangt verzoeken van browsers, stuurt pagina's terug en schrijft elk verzoek in een toegangslog. Het script vervangt cwpsrv door een nagebouwde versie met extra code. Die gedraagt zich normaal, tot er een verzoek binnenkomt met speciale headers met een geldige tijd en handtekening. Dan voert de server de meegestuurde opdracht uit, met volledige controle over de server. Zulke verzoeken verschijnen niet in de toegangslog.",
-    "Om het programma te vervangen, moet de aanvaller al root zijn. Dit is dus geen eerste inbraak, maar een manier om binnen te blijven (persistentie). Hoe de aanvallers root kregen, weten de onderzoekers niet. Het script zet de oorspronkelijke datum van het bestand terug, zodat een directorylijst geen wijziging toont. Bij controle herkende geen van de 63 virusscanners op VirusTotal het bestand.",
-    "Hoe vind je het dan? Niet in de toegangslog, dus kijk naar andere sporen. XLab noemt er drie: een Unix-socket met de naam van een integriteitsmodule, onverwachte hulpprocessen onder cwpsrv, en de namen van de speciale headers als tekst in het programmabestand. Herstel betekent: het originele programma terugzetten, CWP bijwerken, alle wachtwoorden van het paneel wijzigen en de hele server als gehackt behandelen. In dezelfde upload zat ook Ebury, een bekende achterdeur in OpenSSH die wachtwoorden steelt.",
-    "De les voor detectie is breder dan CWP. Een gehackte server kan liegen over zijn eigen logs, en bestandsdatums zijn geen bewijs. Daarom helpt het om bronnen te combineren: netwerkverkeer naar het paneel, processen op de server en een vergelijking van programmabestanden met een bekende goede versie. Een SIEM die al die bronnen samenbrengt, ziet meer dan één logbestand."
-   ],
-   "key_facts": [
-    "XLab (QiAnXin) meldde begin november 2026 een achterdeur, cwpdoor, in cwpsrv, de webserver van Control Web Panel.",
-    "XLab ving op 29 juni een installatiescript op dat zich voordeed als versie-update; het vervangt cwpsrv en werkt alleen voor cwpsrv 1.15.10 en 1.24.0.",
-    "De nagebouwde server voert een opdracht uit bij een verzoek met een geldige tijd en handtekening in headers die beginnen met X-Ngx-Integrity; die verzoeken komen niet in de toegangslog.",
-    "Installatie vereist root; het script herstelt de oorspronkelijke tijdstempels en het bestand had 0 van 63 detecties op VirusTotal.",
-    "Op 30 september werd vanuit Brazilië een archief met de achterdeur naar VirusTotal geüpload; daarin zat ook Ebury.",
-    "XLab adviseert te controleren op de Unix-socket van de achterdeur, onverwachte hulpprocessen van cwpsrv en de headernamen in het programmabestand, en daarna het origineel terug te zetten, CWP bij te werken en wachtwoorden te wijzigen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo bekijk je op Linux welke Unix-sockets een programma openhoudt. Een socket van cwpsrv met een naam die je niet kent, is een reden om verder te kijken. XLab noemt de echte naam in zijn rapport.",
-    "language": "bash",
-    "code": "$ ss -xlp | grep cwpsrv\nu_str LISTEN 0 128 /tmp/.voorbeeld-integrity.sock 41234 * 0 users:((\"cwpsrv\",pid=1187,fd=9))",
-    "note": "Nagebouwd voorbeeld; de socketnaam is verzonnen."
-   },
-   "terms": [
-    {
-     "term": "achterdeur",
-     "explanation": "Een verborgen toegang die een aanvaller achterlaat, zodat hij later altijd weer binnen kan, buiten de normale inlog om."
-    },
-    {
-     "term": "toegangslog",
-     "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat."
-    },
-    {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
-    },
-    {
-     "term": "persistentie",
-     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
-    },
-    {
-     "term": "Unix-socket",
-     "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar."
-    },
-    {
-     "term": "VirusTotal",
-     "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; technisch onderzoek met een duidelijke les over detectie en logs."
-   },
-   "takeaway": "Wie root heeft op een server, kan de software zelf vervangen en zijn sporen uit de logs houden. Detectie moet dan leunen op bronnen buiten dat programma: processen, sockets, netwerkverkeer en controles van bestanden.",
-   "region": "world"
-  },
-  {
    "id": "b06c9cfc80a7",
    "title": "Investigating Ephemeral Supply Chain Tampering",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
@@ -4259,104 +4341,6 @@
    "region": "world"
   },
   {
-   "id": "25c3eda20cfe",
-   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-05T12:08:54Z",
-   "fetched_at": "2026-11-05T18:27:30.712169Z",
-   "summary": "OpenAI beschrijft een proefopstelling waarin een nog niet uitgebracht AI-model lekken in de Linux-kernel zocht, naspeelde en uitbuitte. Dat leverde 948 werkende exploits voor rechtenverhoging op, voor ruim 1,2 miljoen dollar.",
-   "personal_relevance": "Klanten schuiven 'lokale' kernellekken vaak naar achteren. Dit onderzoek is een goede aanleiding om te bespreken hoe snel zij Linux-kernelupdates uitrollen en of ze rootprocessen op servers in de gaten houden.",
-   "limitations": [
-    "De publicatie van OpenAI zelf is niet gelezen; de cijfers komen uit The Hacker News.",
-    "Het model heeft geen naam, en het artikel zegt niet welke Linux-distributie het betreft.",
-    "Of de exploits en patches al bij de kernelbeheerders liggen of openbaar worden, is niet bekend.",
-    "Het systeem werkte niet volledig zelfstandig: mensen controleerden en stuurden bij.",
-    "OpenAI heeft er belang bij de kracht van zijn modellen te laten zien."
-   ],
-   "topics": [
-    "attack_techniques",
-    "vulnerabilities_cve",
-    "vulnerability_management"
-   ],
-   "groups": [
-    "aanvallen",
-    "kwetsbaarheden",
-    "vm"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.69,
-    "source": 0.68,
-    "quality": 0.63,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:30:40Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "AI van OpenAI vindt 948 manieren om root te worden op Linux",
-   "story": [
-    "OpenAI heeft een proefopstelling beschreven waarin een nog niet uitgebracht AI-model naar lekken in de Linux-kernel zocht. Het systeem bekeek 2.308 mogelijke fouten en speelde er 1.724 na. Het schreef 948 werkende exploits voor rechtenverhoging (local privilege escalation) op een veelgebruikte Linux-distributie. De rekenkosten waren ruim 1,2 miljoen dollar, ongeveer 1.279 dollar per exploit.",
-    "Wat is rechtenverhoging? Op Linux heeft elke gebruiker beperkte rechten. Alleen root, de hoogste beheerder, mag alles. De kernel is het hart van het besturingssysteem en bewaakt die grens. Een fout in de kernel kan een gewone gebruiker toch root maken. Zo'n lek is 'lokaal': de aanvaller moet al op het systeem zijn, bijvoorbeeld via een gestolen account of een lek in een webapplicatie. Het is de stap van een beetje toegang naar volledige controle.",
-    "De opstelling werkte in vijf stappen. AI-agenten kozen code die gewone gebruikers kunnen bereiken en zochten daar fouten. Ze speelden elke fout na in een afgeschermde testomgeving (sandbox) en bekeken of die tot rechtenverhoging leidde. Daarna schreven ze een proof of concept en een reparatie. Tot slot controleerden mensen de exploit, de patch en de ernst, voordat iets naar de beheerders van de kernel gaat. Volgens OpenAI vond het systeem ook minstens tien nieuwe aanvalstechnieken.",
-    "Wat betekent dit voor verdediging? OpenAI zegt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root, tegenover een aanvaller met veel middelen. Kernelupdates zijn dus belangrijker dan het label 'lokaal' doet denken. Detectie draait vooral om gedrag: een proces van een gewone gebruiker dat ineens als root draait, is verdacht. EDR op Linux-servers kan zulk gedrag zien.",
-    "Het past in een bredere trend. Volgens cijfers van Google Threat Intelligence Group in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 in januari naar 10.740 in augustus 2026. Het Britse NCSC verwacht dat AI ook verdedigers sneller kan maken, maar alleen als ze de tools goed inzetten. Of en wanneer deze 948 lekken openbaar worden, staat niet in het artikel."
-   ],
-   "key_facts": [
-    "OpenAI beschreef op 4 november 2026 een pijplijn met een nog niet uitgebracht, op cybersecurity gericht AI-model (The Hacker News, 5 november).",
-    "De pijplijn analyseerde 2.308 mogelijke kernelfouten, speelde er 1.724 na en maakte 948 werkende LPE-exploits voor een veelgebruikte Linux-distributie, plus 291 proof-of-concepts voor informatielekken.",
-    "De totale API-kosten waren 1.213.430 dollar, ongeveer 1.279 dollar per LPE-exploit; de titel van het artikel spreekt van een run van 30 uur.",
-    "Vijf stappen: fouten zoeken, naspelen in een sandbox, beoordelen op misbruikbaarheid met een proof of concept, een patch schrijven en controle door mensen voordat iets naar de beheerders gaat.",
-    "OpenAI noemt minstens tien nieuwe exploitatietechnieken en stelt dat een account met weinig rechten op een ongepatcht systeem voorlopig bijna gelijkstaat aan root voor een aanvaller met veel middelen.",
-    "Volgens GTIG-cijfers in het artikel steeg het aantal gemelde kwetsbaarheden per maand van 5.045 (januari 2026) naar 10.740 (augustus 2026)."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet rechtenverhoging eruit in een auditlog van Linux. Gebruiker www-data (de webserver, uid 33) start een shell die ineens als root (euid 0) draait, zonder sudo. Dat patroon is verdacht.",
-    "language": "log",
-    "code": "type=SYSCALL msg=audit(1794016801.123:4512): arch=c000003e syscall=59 success=yes exit=0 ppid=2210 pid=2245 auid=4294967295 uid=33 gid=33 euid=0 egid=0 comm=\"sh\" exe=\"/usr/bin/dash\" key=\"priv_esc\"",
-    "note": "Nagebouwd voorbeeld van een auditd-regel. De bron bevat geen logregels."
-   },
-   "terms": [
-    {
-     "term": "kernel",
-     "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag."
-    },
-    {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
-    },
-    {
-     "term": "rechtenverhoging",
-     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
-    },
-    {
-     "term": "sandbox",
-     "explanation": "Een afgeschermde testomgeving waarin je software veilig kunt laten draaien, zonder dat de rest van het systeem geraakt wordt."
-    },
-    {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; onderzoek dat uitlegt hoe rechtenverhoging werkt en waarom AI het tempo verhoogt."
-   },
-   "takeaway": "Een lek voor rechtenverhoging is pas gevaarlijk als iemand al binnen is, maar die eerste stap is vaak makkelijk. Als AI zulke lekken massaal vindt, moet je ervan uitgaan dat elke gewone gebruiker op een ongepatcht systeem root kan worden.",
-   "region": "world"
-  },
-  {
    "id": "1fa3674c266e",
    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
    "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
@@ -5230,7 +5214,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.64,
+    "recency": 0.63,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -6264,11 +6248,6 @@
    "refs": [
     {
      "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
-    },
-    {
-     "kind": "a",
      "id": "7b72d51a9df2",
      "title": "KeyDrift: malware op Cisco SD-WAN steelt de sleutels van het netwerk"
     }
@@ -6300,6 +6279,11 @@
    "term": "adversary-in-the-middle",
    "explanation": "Een aanval waarbij een nep-inlogpagina al het verkeer tussen jou en de echte dienst doorgeeft en onderweg je wachtwoord en toegangsbewijs onderschept.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
+    },
     {
      "kind": "a",
      "id": "4d33a21d5cc6",
@@ -6649,6 +6633,17 @@
    ]
   },
   {
+   "term": "Cloudflare Turnstile",
+   "explanation": "Een controle die nagaat of er een mens achter de browser zit, zoals een CAPTCHA. Aanvallers gebruiken het om automatische scanners buiten te houden.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
+    }
+   ]
+  },
+  {
    "term": "CloudTrail",
    "explanation": "De auditlog van AWS: die legt vast welke identiteit welke actie in een AWS-omgeving probeerde, en of dat lukte. De eerste plek om te kijken bij misbruik van een sleutel.",
    "refs": [
@@ -6941,11 +6936,6 @@
     },
     {
      "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
-    },
-    {
-     "kind": "a",
      "id": "842bc764ab47",
      "title": "Binance-roof van 6 miljard begon bij laptops van drie engineers"
     },
@@ -6958,6 +6948,11 @@
      "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
+    },
+    {
+     "kind": "a",
+     "id": "08252db330fb",
+     "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
     }
    ]
   },
@@ -7337,17 +7332,6 @@
    ]
   },
   {
-   "term": "kernel",
-   "explanation": "Het hart van het besturingssysteem. De kernel regelt geheugen, bestanden en apparaten, en bewaakt wat elke gebruiker mag.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
-    }
-   ]
-  },
-  {
    "term": "kernel-thread",
    "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam.",
    "refs": [
@@ -7375,6 +7359,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "daa356fef18a",
+     "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
+    },
+    {
+     "kind": "a",
      "id": "cd6455aacef5",
      "title": "XXE-lek in Cisco BroadWorks misbruikt, volgens onderzoekers door AI-agent"
     },
@@ -7392,11 +7381,6 @@
      "kind": "a",
      "id": "ce55129e00e3",
      "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
-    },
-    {
-     "kind": "v",
-     "id": "cve-cvss-epss-kev",
-     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -7628,8 +7612,24 @@
    "refs": [
     {
      "kind": "a",
+     "id": "daa356fef18a",
+     "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
+    },
+    {
+     "kind": "a",
      "id": "7bdf0c6dc5dc",
      "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+    }
+   ]
+  },
+  {
+   "term": "MSP",
+   "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "daa356fef18a",
+     "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
     }
    ]
   },
@@ -7683,6 +7683,17 @@
    ]
   },
   {
+   "term": "number matching",
+   "explanation": "Een vorm van MFA waarbij je in een app het getal intikt dat op het inlogscherm staat. Beschermt tegen blind goedkeuren, maar niet tegen een live proxy.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
+    }
+   ]
+  },
+  {
    "term": "NVD",
    "explanation": "National Vulnerability Database: de Amerikaanse database van NIST die CVE's aanvult met scores en productgegevens. Sinds april 2026 alleen nog voor een deel van de lekken.",
    "refs": [
@@ -7690,6 +7701,17 @@
      "kind": "v",
      "id": "cve-cvss-epss-kev",
      "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
+    }
+   ]
+  },
+  {
+   "term": "OAuth-toegang",
+   "explanation": "Toestemming die je een app geeft om namens jou bij je gegevens te mogen, zonder je wachtwoord. Na een overgenomen account moet je die toegang apart controleren en intrekken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
     }
    ]
   },
@@ -7861,11 +7883,6 @@
     },
     {
      "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
-    },
-    {
-     "kind": "a",
      "id": "580236cbddf9",
      "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
     }
@@ -7917,11 +7934,6 @@
      "kind": "a",
      "id": "ed98e46a8b24",
      "title": "N-able haalt N-central offline na publicatie van ruim 30 lekken"
-    },
-    {
-     "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     },
     {
      "kind": "a",
@@ -8008,11 +8020,6 @@
      "kind": "a",
      "id": "1acaa8e77a2e",
      "title": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM"
-    },
-    {
-     "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     }
    ]
   },
@@ -8053,6 +8060,11 @@
    "term": "reverse proxy",
    "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
+    },
     {
      "kind": "a",
      "id": "9398616ade4d",
@@ -8124,30 +8136,35 @@
     },
     {
      "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
-    },
-    {
-     "kind": "a",
      "id": "a665869d02d2",
      "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
     },
     {
      "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
+     "id": "d0e0e442d471",
+     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     },
     {
      "kind": "a",
-     "id": "d0e0e442d471",
-     "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
+     "id": "580236cbddf9",
+     "title": "Vermoedelijk Chinese spionagegroep misbruikte lek in BeyondTrust"
+    },
+    {
+     "kind": "a",
+     "id": "d2cce75fefaf",
+     "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
     }
    ]
   },
   {
    "term": "Run Command",
-   "explanation": "Een functie in Azure waarmee beheerders vanuit de cloudconsole een script op een virtuele server laten draaien, zonder daar zelf in te loggen.",
+   "explanation": "Een functie in beheersoftware waarmee een beheerder op afstand een opdracht of script op een computer laat draaien, zonder daar zelf in te loggen.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "daa356fef18a",
+     "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
+    },
     {
      "kind": "a",
      "id": "9fcf62b29cf8",
@@ -8201,11 +8218,6 @@
      "kind": "a",
      "id": "0eb55bf1598e",
      "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
-    },
-    {
-     "kind": "a",
-     "id": "25c3eda20cfe",
-     "title": "AI van OpenAI vindt 948 manieren om root te worden op Linux"
     }
    ]
   },
@@ -8286,6 +8298,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "f7cf57082e20",
+     "title": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA"
+    },
+    {
+     "kind": "a",
      "id": "987ba3712202",
      "title": "DreamHost: aanvallers stalen twee maanden FTP-wachtwoorden van klanten"
     },
@@ -8293,6 +8310,17 @@
      "kind": "a",
      "id": "d2cce75fefaf",
      "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    }
+   ]
+  },
+  {
+   "term": "sessiecookies",
+   "explanation": "Kleine stukjes gegevens die een website na het inloggen in je browser zet, als bewijs dat je al bent ingelogd. Wie ze steelt, is ingelogd als jij.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "daa356fef18a",
+     "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
     }
    ]
   },
@@ -8537,17 +8565,6 @@
    ]
   },
   {
-   "term": "toegangslog",
-   "explanation": "Het logbestand waarin een webserver elk binnenkomend verzoek noteert: wie, wanneer, welke pagina en met welk resultaat.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
-    }
-   ]
-  },
-  {
    "term": "token",
    "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij.",
    "refs": [
@@ -8634,17 +8651,6 @@
    ]
   },
   {
-   "term": "Unix-socket",
-   "explanation": "Een communicatiekanaal tussen programma's op dezelfde Linux-computer. Het lijkt op een netwerkpoort, maar is alleen van binnen de machine bereikbaar.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
-    }
-   ]
-  },
-  {
    "term": "use-after-free",
    "explanation": "Een programmeerfout waarbij software geheugen blijft gebruiken dat al is vrijgegeven. Als een aanvaller dat geheugen zelf vult, kan hij de software iets anders laten doen.",
    "refs": [
@@ -8723,17 +8729,6 @@
      "kind": "a",
      "id": "9398616ade4d",
      "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
-    }
-   ]
-  },
-  {
-   "term": "VirusTotal",
-   "explanation": "Een website waar je een bestand laat controleren door tientallen virusscanners tegelijk. Onderzoekers vinden er ook vaak nieuwe malware.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "ed60ea7fa412",
-     "title": "Achterdeur in webserver van Control Web Panel blijft buiten de logs"
     }
    ]
   },
@@ -9156,56 +9151,22 @@
  "interest_suggestions": [],
  "interest_log": [],
  "runs": {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "tasks": {
-   "verdiepen": {
-    "status": "ok",
-    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
-    "finished_at": "2026-11-12T02:29:29Z",
-    "problems": [],
-    "counts": {
-     "verdiepingen": 0,
-     "keuzes": 5
-    }
-   },
    "uitleggen": {
     "status": "ok",
-    "summary": "Vers opgehaald; in de eerste run 3 artikelen uitgelegd en in de inhaalrun nog 6 (Turla-spionage via Exchange, vier SAP-lekken met score 10, misbruikt Cisco BroadWorks-lek, AI-pentesttool AntiFox, hack bij Fireworks AI en de PapRAT-campagne van Bitter); 21 artikelen overgeslagen, vooral dubbel nieuws.",
-    "finished_at": "2026-11-12T05:10:00Z",
+    "summary": "Vers opgehaald; 7 artikelen uitgelegd (wfx-loot op GitHub, nieuwe N-central-exploits, Apache HTTP/2-lek, SignDrop in Windows, GSocket op Linux-servers, SCKit via ScreenConnect en sessiediefstal via nep-agenda-uitnodigingen) en 3 overgeslagen (Ivanti- en Citrix-patches zonder uitleg of misbruik, AMD-processorlekken met weinig urgentie).",
+    "finished_at": "2026-11-13T01:37:01Z",
     "problems": [
-     "In de eerste run waren het onderzoek van Microsoft over GSocket en het BleepingComputer-artikel over ScreenConnect-aanvallen op MSP's niet te lezen; die komen over een week nog één keer terug.",
-     "Directe links moesten eerst via een zoekopdracht worden gevonden; de oorspronkelijke rapporten van ESET, Cisco en Arctic Wolf konden niet worden geopend, de uitleg steunt daar op The Hacker News.",
-     "Na het inhalen is de werklijst opnieuw gevuld met oudere artikelen (4 tot 9 november); die blijven staan voor de volgende run."
+     "De artikelen van BleepingComputer over N-central en over Apache HTTP/2 gaven een serverfout; die uitleg steunt op The Hacker News (en voor Apache ook op een notitie van de Cloud Security Alliance).",
+     "Directe links moesten eerst via een zoekopdracht worden gevonden.",
+     "Twee eerdere 'niet te lezen'-gevallen (GSocket en SCKit) zijn bijgewerkt naar 'zelfde ontwikkeling', omdat ze nu zijn uitgelegd."
     ],
     "counts": {
-     "uitgelegd": 9,
-     "overgeslagen": 21,
-     "overgeslagen_zonder_openen": 15,
-     "niet_te_lezen": 2
-    }
-   },
-   "overzicht": {
-    "status": "ok",
-    "summary": "3 trends bijgewerkt (AI-agenten zonder twee te oude artikelen, randapparaten en MFA ongewijzigd), geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (donderdag).",
-    "finished_at": "2026-11-12T03:24:04Z",
-    "problems": [],
-    "counts": {
-     "trends": 3,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
-    }
-   },
-   "inhalen": {
-    "status": "ok",
-    "summary": "Uitleggen ingehaald: 6 artikelen extra uitgelegd en 14 overgeslagen (vooral dubbel nieuws); verdiepen en overzicht waren al gelukt.",
-    "finished_at": "2026-11-12T05:12:00Z",
-    "problems": [
-     "De werklijst werd na het inhalen opnieuw gevuld met oudere artikelen (4 tot 9 november); die zijn blijven staan voor de volgende run."
-    ],
-    "counts": {
-     "ingehaald_uitleggen": 1,
-     "uitgelegd": 6,
-     "overgeslagen": 14
+     "uitgelegd": 7,
+     "overgeslagen": 3,
+     "overgeslagen_zonder_openen": 0,
+     "niet_te_lezen": 0
     }
    }
   }
@@ -9235,27 +9196,27 @@
   "merged_duplicates": 1,
   "shown": 52,
   "decisions": {
-   "included": 250,
+   "included": 248,
    "below_threshold": 157,
    "no_topic": 157,
    "excluded": 57,
-   "source_cap": 5
+   "source_cap": 7
   },
   "processing": {
    "enriched": 52
   },
   "without_date": 0,
   "per_group": {
+   "ti": 6,
+   "kwetsbaarheden": 19,
    "incidenten": 9,
-   "kwetsbaarheden": 18,
-   "detectie": 5,
-   "ti": 5,
-   "aanvallen": 13,
+   "detectie": 4,
+   "aanvallen": 12,
    "vm": 2
   },
   "per_source": {
-   "bleepingcomputer": 10,
    "the_hacker_news": 12,
+   "bleepingcomputer": 10,
    "security_nl": 3,
    "datadog_security_labs": 1,
    "huntress_blog": 5,
@@ -9323,7 +9284,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 355
+   "skipped_no_key": 353
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9596,10 +9557,26 @@
     ]
    },
    {
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "relevance_score": 87,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
     "relevance_score": 86,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "relevance_score": 85,
     "decision": "source_cap",
     "excluded_by": []
    },
@@ -9732,25 +9709,9 @@
     "excluded_by": []
    },
    {
-    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
