@@ -1,62 +1,61 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-12T02:29:19Z",
+  "generated_at": "2026-11-13T02:40:00Z",
   "options": [
     {
-      "id": "dns-en-ip",
-      "title": "IP-adressen en DNS: hoe computers elkaar vinden",
-      "question": "Wat is een IP-adres, wat doet DNS, en waarom kijken securityteams zo graag naar DNS-verkeer?",
-      "why": "Een basisonderwerp uit het leerpad: deze week maakte een achterdeur op gehackte AhsayCBS-back-upservers contact met een server van de aanvaller, en om zulk verkeer te snappen begin je bij IP-adressen en DNS.",
+      "id": "http-en-https",
+      "title": "HTTP en HTTPS: de taal van het web",
+      "question": "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?",
+      "why": "Deze week dichtte Apache een kritiek lek in zijn HTTP/2-module; wie weet hoe HTTP werkt, begrijpt beter waar zo'n fout in een webserver zit.",
       "topics": [
-        "siem_detection",
-        "malware"
-      ],
-      "area": "praktijk"
-    },
-    {
-      "id": "ntlm-hash-gelekt",
-      "title": "Wat is NTLM, en waarom is een gelekte NTLM-hash al gevaarlijk?",
-      "question": "Hoe bewijst Windows met NTLM wie je bent, waarom kan een bestand Outlook laten inloggen bij een server van een aanvaller, en wat kan die aanvaller met de hash die hij zo krijgt?",
-      "why": "Bij de Patch Tuesday van november wordt een Outlook-lek al misbruikt: een speciaal gemaakt bestand laat Outlook de NTLMv2-hash van de gebruiker naar een server van de aanvaller sturen.",
-      "topics": [
-        "phishing_identity",
-        "attack_techniques",
-        "exploited_vulnerabilities"
+        "web_software_security",
+        "siem_detection"
       ],
       "area": "techniek"
     },
     {
-      "id": "vulnerability-management-in-de-praktijk",
-      "title": "Vulnerability management in de praktijk: van scan tot opgelost",
-      "question": "Hoe vindt een organisatie haar kwetsbare systemen, hoe kiest ze wat eerst, en hoe controleer je of iets echt is opgelost?",
-      "why": "Microsoft dichtte in november 1.094 lekken in één keer, en de fix voor een Paint-lek komt alleen via de Microsoft Store met versienummers die elkaar tegenspreken, wat scanners in de war kan brengen.",
+      "id": "phishingbestendige-mfa",
+      "title": "Passkeys en FIDO2: waarom een nep-inlogpagina daar niets mee kan",
+      "question": "Hoe werkt MFA die niet te phishen is, en waarom houdt die een live proxy tegen terwijl sms-codes en authenticator-apps dat niet doen?",
+      "why": "Trend 'MFA omzeild met gestolen sessies': deze week beschreef Material Security een Google-campagne met een live proxy die sms, authenticator-codes en number matching omzeilt, en Talos raadt MFA aan die niet te phishen is.",
       "topics": [
-        "vulnerability_management",
-        "exploited_vulnerabilities"
+        "phishing_identity",
+        "cloud_attacks"
       ],
-      "area": "praktijk"
+      "area": "techniek"
     },
     {
-      "id": "lek-in-ai-inference-server",
-      "title": "Lek in AI-software SGLang: wat een inference-server is en wat er lekte",
-      "question": "Wat doet een inference engine als SGLang, waarom beschermt een afgeschermde omgeving (TEE) niet tegen een lek in de software die erin draait, en wat kun je leren van hoe NEAR AI reageerde?",
-      "why": "Via een remote code execution-lek in SGLang kon een aanvaller deze week verzoeken op een server van NEAR AI meelezen en gegevens van 18 agenten en ongeveer 100 gebruikers stelen.",
+      "id": "github-workflows-geheimen-gestolen",
+      "title": "Hoe gehackte GitHub-accounts cloudsleutels uit bouwstraten stelen",
+      "question": "Wat is een GitHub-workflow (CI/CD), waarom heeft die toegang tot AWS, Azure en Google Cloud, en hoe misbruikte de campagne met 4.837 gehackte accounts dat?",
+      "why": "Op 10 november begon een campagne waarin duizenden overgenomen GitHub-accounts kwaadaardige workflows plaatsten die geheimen en cloudtoegang stalen en daarna hun sporen wisten.",
       "topics": [
-        "incidents_breaches",
-        "vulnerabilities_cve",
-        "web_software_security"
+        "supply_chain",
+        "cloud_attacks",
+        "incidents_breaches"
       ],
       "area": "incidenten"
     },
     {
-      "id": "saml-inlog-op-vpn-omzeild",
-      "title": "SAML-inlog op een vpn omzeild: hoe single sign-on werkt en misgaat",
-      "question": "Hoe werkt inloggen via SAML (single sign-on) op een vpn, hoe kan een fout in de controle ervoor zorgen dat een aanvaller ook de MFA overslaat, en wat zie je daarvan terug in de logs?",
-      "why": "Dit hoort bij de trend van misbruikte lekken in vpn-servers en randapparaten: bij SonicWall-vpn's wordt CVE-2026-19868 al misbruikt om langs de SAML-controle te komen, mogelijk inclusief MFA.",
+      "id": "persistentie-op-linux-servers",
+      "title": "Binnen blijven: hoe aanvallers zich vastzetten op een Linux-server",
+      "question": "Wat is persistentie, welke plekken op een Linux-server misbruikt een aanvaller om terug te komen (cron, systemd, opstartbestanden), en hoe vindt een securityteam dat?",
+      "why": "Microsoft zag deze week dat aanvallers het legitieme hulpmiddel GSocket op gehackte Linux-servers zetten en zo binnen blijven, ook nadat het lek is gepatcht.",
       "topics": [
-        "edge_devices",
+        "attack_techniques",
+        "siem_detection",
+        "incident_response"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "van-poc-naar-aanval-in-uren",
+      "title": "Van openbare aanvalscode naar aanval in uren: wat doe je in die tijd?",
+      "question": "Wat is een proof of concept, waarom volgen aanvallen soms binnen uren na publicatie, en hoe richt je vulnerability management in op die snelheid?",
+      "why": "Deze week werden zowel het N-central-lek 4EverAble2Shell als het OpenSSH-lek SSHole binnen enkele uren na publicatie aangevallen.",
+      "topics": [
         "exploited_vulnerabilities",
-        "phishing_identity"
+        "vulnerability_management"
       ],
       "area": "kwetsbaarheden"
     }
@@ -355,6 +354,64 @@
         "attack_techniques"
       ],
       "area": "techniek"
+    },
+    {
+      "id": "dns-en-ip",
+      "title": "IP-adressen en DNS: hoe computers elkaar vinden",
+      "question": "Wat is een IP-adres, wat doet DNS, en waarom kijken securityteams zo graag naar DNS-verkeer?",
+      "why": "Een basisonderwerp uit het leerpad: deze week maakte een achterdeur op gehackte AhsayCBS-back-upservers contact met een server van de aanvaller, en om zulk verkeer te snappen begin je bij IP-adressen en DNS.",
+      "topics": [
+        "siem_detection",
+        "malware"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "ntlm-hash-gelekt",
+      "title": "Wat is NTLM, en waarom is een gelekte NTLM-hash al gevaarlijk?",
+      "question": "Hoe bewijst Windows met NTLM wie je bent, waarom kan een bestand Outlook laten inloggen bij een server van een aanvaller, en wat kan die aanvaller met de hash die hij zo krijgt?",
+      "why": "Bij de Patch Tuesday van november wordt een Outlook-lek al misbruikt: een speciaal gemaakt bestand laat Outlook de NTLMv2-hash van de gebruiker naar een server van de aanvaller sturen.",
+      "topics": [
+        "phishing_identity",
+        "attack_techniques",
+        "exploited_vulnerabilities"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "vulnerability-management-in-de-praktijk",
+      "title": "Vulnerability management in de praktijk: van scan tot opgelost",
+      "question": "Hoe vindt een organisatie haar kwetsbare systemen, hoe kiest ze wat eerst, en hoe controleer je of iets echt is opgelost?",
+      "why": "Microsoft dichtte in november 1.094 lekken in één keer, en de fix voor een Paint-lek komt alleen via de Microsoft Store met versienummers die elkaar tegenspreken, wat scanners in de war kan brengen.",
+      "topics": [
+        "vulnerability_management",
+        "exploited_vulnerabilities"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "lek-in-ai-inference-server",
+      "title": "Lek in AI-software SGLang: wat een inference-server is en wat er lekte",
+      "question": "Wat doet een inference engine als SGLang, waarom beschermt een afgeschermde omgeving (TEE) niet tegen een lek in de software die erin draait, en wat kun je leren van hoe NEAR AI reageerde?",
+      "why": "Via een remote code execution-lek in SGLang kon een aanvaller deze week verzoeken op een server van NEAR AI meelezen en gegevens van 18 agenten en ongeveer 100 gebruikers stelen.",
+      "topics": [
+        "incidents_breaches",
+        "vulnerabilities_cve",
+        "web_software_security"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "saml-inlog-op-vpn-omzeild",
+      "title": "SAML-inlog op een vpn omzeild: hoe single sign-on werkt en misgaat",
+      "question": "Hoe werkt inloggen via SAML (single sign-on) op een vpn, hoe kan een fout in de controle ervoor zorgen dat een aanvaller ook de MFA overslaat, en wat zie je daarvan terug in de logs?",
+      "why": "Dit hoort bij de trend van misbruikte lekken in vpn-servers en randapparaten: bij SonicWall-vpn's wordt CVE-2026-19868 al misbruikt om langs de SAML-controle te komen, mogelijk inclusief MFA.",
+      "topics": [
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "phishing_identity"
+      ],
+      "area": "kwetsbaarheden"
     }
   ]
 }
