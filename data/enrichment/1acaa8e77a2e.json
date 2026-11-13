@@ -29,8 +29,16 @@
   "takeaway": "Rechtenverhoging misbruikt vaak een proces met hoge rechten dat iets doet namens een gewone gebruiker. Kan de gebruiker bepalen wáár dat proces een bestand aanmaakt, dan kan hij de hoge rechten van dat proces lenen.",
   "region": "world",
   "official_docs": [],
-  "topics": ["vulnerabilities_cve", "attack_techniques", "siem_detection"],
-  "quality": {"depth": 0.8, "practicality": 0.6, "novelty": 0.8},
+  "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "siem_detection"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.6,
+    "novelty": 0.8
+  },
   "development_key": "signdrop-clfs-nov-2026",
   "date_note": "",
   "exceptional": false,
@@ -38,16 +46,37 @@
   "soort": "kwetsbaarheid",
   "exploitation": "poc_openbaar",
   "patch_status": "geen_patch",
-  "fit": {"score": 0.5, "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."},
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."
+  },
   "terms": [
-    {"term": "SYSTEM-rechten", "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."},
-    {"term": "driver", "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."},
-    {"term": "HMAC", "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."},
-    {"term": "symbolische koppeling", "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."},
-    {"term": "rechtenverhoging", "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."},
-    {"term": "UAC", "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."}
+    {
+      "term": "SYSTEM-rechten",
+      "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+      "term": "driver",
+      "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."
+    },
+    {
+      "term": "HMAC",
+      "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+      "term": "symbolische koppeling",
+      "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."
+    },
+    {
+      "term": "rechtenverhoging",
+      "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+      "term": "UAC",
+      "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T02:05:00Z",
+  "processed_at": "2026-11-13T01:32:30Z",
   "prompt_version": "cyber-taak-v1"
 }

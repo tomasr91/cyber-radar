@@ -29,8 +29,17 @@
   "takeaway": "Een gestolen sessiecookie is net zo goed als inloggen, inclusief de tweede factor. Wie de technicus van een dienstverlener overneemt, krijgt via de beheersoftware toegang tot alle klanten van die technicus.",
   "region": "world",
   "official_docs": [],
-  "topics": ["supply_chain", "exploited_vulnerabilities", "incident_response", "malware"],
-  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "topics": [
+    "supply_chain",
+    "exploited_vulnerabilities",
+    "incident_response",
+    "malware"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
   "development_key": "sckit-screenconnect-cve-2026-84869",
   "date_note": "",
   "exceptional": false,
@@ -38,15 +47,33 @@
   "soort": "onderzoek",
   "exploitation": "actief_misbruikt",
   "patch_status": "patch_beschikbaar",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; aanvalsketen via beheersoftware, dicht bij het werk van MSP- en MDR-klanten."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; aanvalsketen via beheersoftware, dicht bij het werk van MSP- en MDR-klanten."
+  },
   "terms": [
-    {"term": "KEV-lijst", "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."},
-    {"term": "MSP", "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."},
-    {"term": "Run Command", "explanation": "Een functie in beheersoftware waarmee een beheerder op afstand een opdracht of script op een computer laat draaien, zonder daar zelf in te loggen."},
-    {"term": "MSI-pakket", "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."},
-    {"term": "sessiecookies", "explanation": "Kleine stukjes gegevens die een website na het inloggen in je browser zet, als bewijs dat je al bent ingelogd. Wie ze steelt, is ingelogd als jij."}
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "MSP",
+      "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."
+    },
+    {
+      "term": "Run Command",
+      "explanation": "Een functie in beheersoftware waarmee een beheerder op afstand een opdracht of script op een computer laat draaien, zonder daar zelf in te loggen."
+    },
+    {
+      "term": "MSI-pakket",
+      "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."
+    },
+    {
+      "term": "sessiecookies",
+      "explanation": "Kleine stukjes gegevens die een website na het inloggen in je browser zet, als bewijs dat je al bent ingelogd. Wie ze steelt, is ingelogd als jij."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T02:14:00Z",
+  "processed_at": "2026-11-13T01:35:00Z",
   "prompt_version": "cyber-taak-v1"
 }

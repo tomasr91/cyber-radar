@@ -28,9 +28,22 @@
   "personal_relevance": "Veel MDR- en MSP-klanten beheren omgevingen met RMM-software. Vraag niet alleen naar de versie, maar ook welke onderdelen aan staan en of de beheerserver vanaf internet bereikbaar is.",
   "takeaway": "Aanvallers koppelen lekken in een keten: het eerste lek geeft een voet tussen de deur, het tweede hoge rechten. Een onderdeel dat uit staat of niet bereikbaar is, breekt zo'n keten, ook als er nog geen patch is.",
   "region": "world",
-  "official_docs": [{"label": "The Hacker News: nieuwe N-central-exploits werken tegen gepatchte servers", "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"}],
-  "topics": ["exploited_vulnerabilities", "vulnerabilities_cve", "supply_chain"],
-  "quality": {"depth": 0.6, "practicality": 0.8, "novelty": 0.6},
+  "official_docs": [
+    {
+      "label": "The Hacker News: nieuwe N-central-exploits werken tegen gepatchte servers",
+      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    }
+  ],
+  "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "supply_chain"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
   "development_key": "4everable2shell-n-central-nov-2026",
   "date_note": "",
   "exceptional": false,
@@ -38,15 +51,33 @@
   "soort": "kwetsbaarheid",
   "exploitation": "actief_misbruikt",
   "patch_status": "workaround",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; vervolg op het N-central-verhaal met een duidelijke aanvalsketen."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; vervolg op het N-central-verhaal met een duidelijke aanvalsketen."
+  },
   "terms": [
-    {"term": "RMM", "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."},
-    {"term": "proof of concept", "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."},
-    {"term": "root", "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."},
-    {"term": "Legacy API", "explanation": "Een oude koppeling van N-central waarmee andere software met de server kan praten. Staat standaard uit; wie hem aanzet, vergroot het aanvalsoppervlak."},
-    {"term": "cryptominer", "explanation": "Software die de rekenkracht van een gehackt systeem gebruikt om cryptomunten te maken voor de aanvaller. Vaak te herkennen aan een hoog en aanhoudend processorgebruik."}
+    {
+      "term": "RMM",
+      "explanation": "Remote monitoring and management: software waarmee IT-beheerders computers op afstand overnemen en beheren. Aanvallers misbruiken het omdat het legitiem lijkt."
+    },
+    {
+      "term": "proof of concept",
+      "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+      "term": "root",
+      "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
+    },
+    {
+      "term": "Legacy API",
+      "explanation": "Een oude koppeling van N-central waarmee andere software met de server kan praten. Staat standaard uit; wie hem aanzet, vergroot het aanvalsoppervlak."
+    },
+    {
+      "term": "cryptominer",
+      "explanation": "Software die de rekenkracht van een gehackt systeem gebruikt om cryptomunten te maken voor de aanvaller. Vaak te herkennen aan een hoog en aanhoudend processorgebruik."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T01:58:00Z",
+  "processed_at": "2026-11-13T01:31:30Z",
   "prompt_version": "cyber-taak-v1"
 }

@@ -2,6 +2,6 @@
   "article_id": "ab7e7ef2388b",
   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
   "reason": "Zelfde ontwikkeling als daa356fef18a (SCKit-toolkit in ScreenConnect-aanvallen op MSP's); op 13 november uitgelegd via The Hacker News. Eerder: de pagina van BleepingComputer gaf een serverfout.",
-  "checked_at": "2026-11-13T02:22:00Z",
+  "checked_at": "2026-11-13T01:36:00Z",
   "development_key": "sckit-screenconnect-cve-2026-84869"
 }

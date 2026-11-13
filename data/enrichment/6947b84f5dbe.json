@@ -29,14 +29,25 @@
   "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
   "region": "world",
   "official_docs": [],
-  "topics": ["supply_chain", "cloud_attacks", "incidents_breaches"],
-  "quality": {"depth": 0.8, "practicality": 0.8, "novelty": 0.7},
+  "topics": [
+    "supply_chain",
+    "cloud_attacks",
+    "incidents_breaches"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
   "development_key": "wfx-loot-github-actions-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "incident",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; technische aanval op bouwstraten en cloud, met concrete sporen voor detectie."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; technische aanval op bouwstraten en cloud, met concrete sporen voor detectie."
+  },
   "showcase": {
     "caption": "Zo kan een gat in de nummering van workflow-runs eruitzien. Runs 413 en 414 ontbreken: de aanvaller wiste ze na afloop. Juist het gat is het spoor.",
     "language": "text",
@@ -44,14 +55,32 @@
     "note": "Nagebouwd voorbeeld; de nummers en tijden zijn verzonnen."
   },
   "terms": [
-    {"term": "CI/CD", "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."},
-    {"term": "workflow", "explanation": "Een script in GitHub Actions dat automatisch draait bij een wijziging, bijvoorbeeld om code te bouwen, te testen of te publiceren."},
-    {"term": "OIDC-token", "explanation": "Een kortlevend digitaal bewijs dat een workflow aan een clouddienst laat zien. De cloud vertrouwt dat bewijs en geeft tijdelijk toegang, zonder vast wachtwoord."},
-    {"term": "trust policy", "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."},
-    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
-    {"term": "pull request", "explanation": "Een voorstel om een wijziging aan een project toe te voegen. De eigenaar kan het bekijken en goedkeuren of afwijzen."}
+    {
+      "term": "CI/CD",
+      "explanation": "De automatische straat waarin software wordt gebouwd, getest en uitgerold. Wie die beheerst, kan code in productie krijgen."
+    },
+    {
+      "term": "workflow",
+      "explanation": "Een script in GitHub Actions dat automatisch draait bij een wijziging, bijvoorbeeld om code te bouwen, te testen of te publiceren."
+    },
+    {
+      "term": "OIDC-token",
+      "explanation": "Een kortlevend digitaal bewijs dat een workflow aan een clouddienst laat zien. De cloud vertrouwt dat bewijs en geeft tijdelijk toegang, zonder vast wachtwoord."
+    },
+    {
+      "term": "trust policy",
+      "explanation": "Een regel bij een rol in AWS die zegt welke andere accounts die rol mogen aannemen. Het is de gastenlijst van de rol."
+    },
+    {
+      "term": "persistentie",
+      "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+      "term": "pull request",
+      "explanation": "Een voorstel om een wijziging aan een project toe te voegen. De eigenaar kan het bekijken en goedkeuren of afwijzen."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T01:55:00Z",
+  "processed_at": "2026-11-13T01:31:00Z",
   "prompt_version": "cyber-taak-v1"
 }

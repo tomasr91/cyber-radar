@@ -29,14 +29,25 @@
   "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
   "region": "world",
   "official_docs": [],
-  "topics": ["attack_techniques", "siem_detection", "incident_response"],
-  "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.6},
+  "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "incident_response"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
   "development_key": "gsocket-linux-persistentie-nov-2026",
   "date_note": "",
   "exceptional": false,
   "article_type": "nieuws",
   "soort": "onderzoek",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."
+  },
   "showcase": {
     "caption": "Een vermomd proces vind je vaak aan de details. Echte kernel-threads hebben ouderproces 2 (kthreadd) en draaien als root. Een 'kworker' met ouderproces 1 die als webgebruiker www-data draait, hoort daar niet.",
     "language": "bash",
@@ -44,14 +55,32 @@
     "note": "Nagebouwd voorbeeld; de procesnummers zijn verzonnen. De bron noemt de vermomming als kernel-thread, niet deze specifieke uitvoer."
   },
   "terms": [
-    {"term": "C2-server", "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."},
-    {"term": "persistentie", "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."},
-    {"term": "kernel-thread", "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."},
-    {"term": "cron-jobs", "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."},
-    {"term": "systemd-services", "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."},
-    {"term": "egress filtering", "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."}
+    {
+      "term": "C2-server",
+      "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+      "term": "persistentie",
+      "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+      "term": "kernel-thread",
+      "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."
+    },
+    {
+      "term": "cron-jobs",
+      "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."
+    },
+    {
+      "term": "systemd-services",
+      "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."
+    },
+    {
+      "term": "egress filtering",
+      "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T02:08:00Z",
+  "processed_at": "2026-11-13T01:33:00Z",
   "prompt_version": "cyber-taak-v1"
 }

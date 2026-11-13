@@ -29,11 +29,25 @@
   "takeaway": "Software die meerdere taken tegelijk uitvoert, moet gedeeld geheugen goed bewaken. Gaat dat mis (een race condition), dan kan een aanvaller met slim getimede verzoeken het geheugen beschadigen en soms code uitvoeren.",
   "region": "world",
   "official_docs": [
-    {"label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618", "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"},
-    {"label": "The Hacker News: kritiek Apache HTTP/2-lek", "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"}
+    {
+      "label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"
+    },
+    {
+      "label": "The Hacker News: kritiek Apache HTTP/2-lek",
+      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    }
   ],
-  "topics": ["vulnerabilities_cve", "web_software_security", "vulnerability_management"],
-  "quality": {"depth": 0.7, "practicality": 0.8, "novelty": 0.7},
+  "topics": [
+    "vulnerabilities_cve",
+    "web_software_security",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.8,
+    "novelty": 0.7
+  },
   "development_key": "cve-2026-119618-apache-http2",
   "date_note": "",
   "exceptional": false,
@@ -41,7 +55,10 @@
   "soort": "kwetsbaarheid",
   "exploitation": "geen_misbruik_bekend",
   "patch_status": "patch_beschikbaar",
-  "fit": {"score": 0.55, "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."},
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."
+  },
   "showcase": {
     "caption": "De tijdelijke maatregel zit in één regel van de Apache-configuratie. Boven: HTTP/2 staat aan (h2 en h2c) en de server is kwetsbaar. Onder: alleen HTTP/1.1, het lek is dan niet bereikbaar. Controleer ook elke VirtualHost.",
     "language": "text",
@@ -49,13 +66,28 @@
     "note": "Gebaseerd op de workaround in de bronnen. Controleer eerst of geen dienst HTTP/2 nodig heeft."
   },
   "terms": [
-    {"term": "HTTP/2", "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."},
-    {"term": "threads", "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."},
-    {"term": "race condition", "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."},
-    {"term": "heap", "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."},
-    {"term": "backport", "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."}
+    {
+      "term": "HTTP/2",
+      "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."
+    },
+    {
+      "term": "threads",
+      "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."
+    },
+    {
+      "term": "race condition",
+      "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
+    },
+    {
+      "term": "heap",
+      "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
+    },
+    {
+      "term": "backport",
+      "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."
+    }
   ],
   "processed_by": "Claude (geplande taak)",
-  "processed_at": "2026-11-13T02:02:00Z",
+  "processed_at": "2026-11-13T01:32:00Z",
   "prompt_version": "cyber-taak-v1"
 }
