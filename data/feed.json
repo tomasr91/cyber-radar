@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T02:25:39.424244Z",
+ "generated_at": "2026-11-13T03:24:41.616968Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-13T01:35:30Z",
- "last_successful_update": "2026-11-13T02:25:39.424244Z",
+ "last_successful_update": "2026-11-13T03:24:41.616968Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T02:25:39.486377Z"
+   "checked_at": "2026-11-13T03:24:41.681475Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T02:25:39.946744Z"
+   "checked_at": "2026-11-13T03:24:42.340637Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T02:25:40.785144Z"
+   "checked_at": "2026-11-13T03:24:43.119763Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T02:25:41.311500Z"
+   "checked_at": "2026-11-13T03:24:44.544358Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T02:25:42.183232Z"
+   "checked_at": "2026-11-13T03:24:45.446905Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T02:25:42.242684Z"
+   "checked_at": "2026-11-13T03:24:45.641983Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T02:25:42.366659Z"
+   "checked_at": "2026-11-13T03:24:45.812416Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T02:25:42.444115Z"
+   "checked_at": "2026-11-13T03:24:45.955122Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T02:25:42.760180Z"
+   "checked_at": "2026-11-13T03:24:46.445818Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T02:25:43.705045Z"
+   "checked_at": "2026-11-13T03:24:48.107026Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T02:25:43.744700Z"
+   "checked_at": "2026-11-13T03:24:48.343453Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T02:25:43.794793Z"
+   "checked_at": "2026-11-13T03:24:48.459018Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T02:25:43.956701Z"
+   "checked_at": "2026-11-13T03:24:48.659187Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T02:25:44.089463Z"
+   "checked_at": "2026-11-13T03:24:48.892792Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T02:25:44.149677Z"
+   "checked_at": "2026-11-13T03:24:49.081256Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T02:25:44.248638Z"
+   "checked_at": "2026-11-13T03:24:49.192133Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T02:25:44.343788Z"
+   "checked_at": "2026-11-13T03:24:49.471564Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T02:25:44.462634Z"
+   "checked_at": "2026-11-13T03:24:49.690928Z"
   }
  ],
  "daily_top": [
@@ -796,7 +796,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.99,
+    "recency": 0.98,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -890,7 +890,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.82,
+    "recency": 0.81,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -1010,7 +1010,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.68,
     "quality": 0.7,
     "region": 0.02,
@@ -1206,7 +1206,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1592,7 +1592,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -1787,7 +1787,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.99,
+    "recency": 0.98,
     "source": 0.68,
     "quality": 0.67,
     "fit": 0.05
@@ -2306,7 +2306,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -3073,7 +3073,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.73,
+    "recency": 0.72,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -5792,7 +5792,7 @@
    "relevance_score": 79,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.67,
+    "recency": 0.66,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -6178,21 +6178,23 @@
  "trends": [
   {
    "id": "ai-agenten-voeren-inbraken-uit",
-   "title": "Aanvallers laten AI-agenten als ARTEX een groot deel van de inbraak doen",
-   "summary": "Google, Microsoft, WorkOS en nu ook Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Datadog ARTEX in AWS-omgevingen zag zoeken naar geheimen in logbestanden en zichzelf registreren via openbare Cognito-inlogpools; eerder zag Microsoft agenten die op GitHub gelekte sleutels zochten. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents.",
+   "title": "Aanvallers laten AI-agenten als ARTEX en AntiFox veel van de inbraak doen",
+   "summary": "Google, Microsoft, WorkOS en Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Arctic Wolf het open-source pentestplatform AntiFox koppelt aan echte inbraken op webservers en AWS, waarbij soms een productiegeheim werd uitgelezen; volgens Malbear Labs viel een AI-agent ook een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents.",
    "topics": [
     "attack_techniques",
     "threat_intelligence",
     "cloud_attacks"
    ],
    "article_ids": [
+    "63cbf25606a5",
+    "cd6455aacef5",
     "3e830a9401ea",
     "9fcf62b29cf8",
     "8b5f34b85bf1",
     "62c945c0e6fb",
     "350327fdd7cd"
    ],
-   "generated_at": "2026-11-12T03:23:46Z"
+   "generated_at": "2026-11-13T03:30:00Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
@@ -6209,23 +6211,23 @@
     "df100ad46108",
     "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-12T03:23:46Z"
+   "generated_at": "2026-11-13T03:30:00Z"
   },
   {
    "id": "mfa-omzeild-met-gestolen-sessies",
-   "title": "Aanvallers omzeilen MFA met gestolen sessietokens en eigen MFA-apparaten",
-   "summary": "Huntress zag een aanvaller bij 79 organisaties inloggen met tokens die al na MFA waren uitgegeven, en daarna nep-apparaten en een eigen authenticator registreren. Talos vond in het derde kwartaal ontbrekende of zwakke MFA in een derde van de zaken en raadt MFA aan die niet te phishen is. Ook de verdediging verschuift: Vercel koppelt inlogsessies met DBSC aan het apparaat, zodat een gestolen cookie snel waardeloos is.",
+   "title": "Aanvallers omzeilen MFA door de inlogsessie zelf te stelen",
+   "summary": "Material Security zag sinds augustus een campagne met nep-agenda-uitnodigingen en een live proxy voor de echte Google-inlogpagina, die de sessie pakt ondanks sms-codes of number matching. Talos vond in het derde kwartaal ontbrekende of zwakke MFA in een derde van de zaken en adviseert MFA die niet te phishen is, zoals hardwaresleutels. Ook de verdediging verschuift: Vercel koppelt inlogsessies met DBSC aan het apparaat, zodat een gestolen cookie snel waardeloos is.",
    "topics": [
     "phishing_identity",
     "cloud_attacks",
-    "siem_detection"
+    "threat_intelligence"
    ],
    "article_ids": [
-    "4d33a21d5cc6",
+    "f7cf57082e20",
     "08252db330fb",
     "94ac3c3bdec2"
    ],
-   "generated_at": "2026-11-12T03:23:46Z"
+   "generated_at": "2026-11-13T03:30:00Z"
   }
  ],
  "weekly": null,
@@ -9201,12 +9203,12 @@
  ],
  "quality_report": {
   "fetched_items": 310,
-  "unique_after_dedupe": 626,
+  "unique_after_dedupe": 627,
   "merged_duplicates": 1,
   "shown": 52,
   "decisions": {
    "included": 248,
-   "below_threshold": 157,
+   "below_threshold": 158,
    "no_topic": 157,
    "excluded": 57,
    "source_cap": 7
@@ -9293,7 +9295,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 353
+   "skipped_no_key": 354
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9770,14 +9772,6 @@
     "excluded_by": []
    },
    {
-    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
@@ -9837,6 +9831,14 @@
     "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
     "source_id": "securityweek",
     "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+    "relevance_score": 82,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+    "source_id": "securityweek",
+    "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
     "relevance_score": 82,
     "decision": "included",
     "excluded_by": []
