@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T01:37:14.513480Z",
+ "generated_at": "2026-11-13T01:38:07.920444Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-13T02:18:00Z",
- "last_successful_update": "2026-11-13T01:37:14.513480Z",
+ "last_article_added_at": "2026-11-13T01:35:30Z",
+ "last_successful_update": "2026-11-13T01:38:07.920444Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T01:37:14.561594Z"
+   "checked_at": "2026-11-13T01:38:07.947740Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T01:37:15.232965Z"
+   "checked_at": "2026-11-13T01:38:08.472388Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T01:37:16.238994Z"
+   "checked_at": "2026-11-13T01:38:09.714878Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T01:37:17.734814Z"
+   "checked_at": "2026-11-13T01:38:10.265773Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T01:37:18.860742Z"
+   "checked_at": "2026-11-13T01:38:11.180546Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T01:37:19.141014Z"
+   "checked_at": "2026-11-13T01:38:11.246030Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T01:37:19.277136Z"
+   "checked_at": "2026-11-13T01:38:11.337989Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T01:37:19.530824Z"
+   "checked_at": "2026-11-13T01:38:11.437514Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T01:37:19.979530Z"
+   "checked_at": "2026-11-13T01:38:12.140320Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T01:37:21.415701Z"
+   "checked_at": "2026-11-13T01:38:13.778208Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T01:37:21.640683Z"
+   "checked_at": "2026-11-13T01:38:14.023992Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T01:37:21.798133Z"
+   "checked_at": "2026-11-13T01:38:14.070031Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T01:37:22.030959Z"
+   "checked_at": "2026-11-13T01:38:14.203579Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T01:37:22.329816Z"
+   "checked_at": "2026-11-13T01:38:14.359051Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T01:37:22.607050Z"
+   "checked_at": "2026-11-13T01:38:14.423327Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T01:37:22.785438Z"
+   "checked_at": "2026-11-13T01:38:14.541431Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T01:37:23.233135Z"
+   "checked_at": "2026-11-13T01:38:14.717275Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T01:37:23.466718Z"
+   "checked_at": "2026-11-13T01:38:14.961073Z"
   }
  ],
  "daily_top": [
@@ -428,7 +428,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T02:18:00Z",
+   "processed_at": "2026-11-13T01:35:30Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "Nep-agenda-uitnodigingen stelen live Google-sessies, ondanks MFA",
@@ -520,7 +520,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T02:14:00Z",
+   "processed_at": "2026-11-13T01:35:00Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener",
@@ -607,7 +607,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T01:55:00Z",
+   "processed_at": "2026-11-13T01:31:00Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "4.837 gehackte GitHub-accounts stelen geheimen uit bouwstraten",
@@ -900,7 +900,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T02:02:00Z",
+   "processed_at": "2026-11-13T01:32:00Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog",
@@ -1600,7 +1600,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T02:08:00Z",
+   "processed_at": "2026-11-13T01:33:00Z",
    "reading_minutes": 3,
    "format_version": 2,
    "headline": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket",
@@ -1697,7 +1697,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T02:05:00Z",
+   "processed_at": "2026-11-13T01:32:30Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM",
@@ -1795,7 +1795,7 @@
    "decision": "included",
    "processing_status": "enriched",
    "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T01:58:00Z",
+   "processed_at": "2026-11-13T01:31:30Z",
    "reading_minutes": 4,
    "format_version": 2,
    "headline": "Nieuwe N-central-exploits werken ook na de patch, aanvallen volgen",
