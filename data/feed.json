@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T01:38:07.920444Z",
+ "generated_at": "2026-11-13T02:24:49.672025Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-13T01:35:30Z",
- "last_successful_update": "2026-11-13T01:38:07.920444Z",
+ "last_successful_update": "2026-11-13T02:24:49.672025Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-13T01:38:07.947740Z"
+   "checked_at": "2026-11-13T02:24:49.711217Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-13T01:38:08.472388Z"
+   "checked_at": "2026-11-13T02:24:50.286119Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-13T01:38:09.714878Z"
+   "checked_at": "2026-11-13T02:24:51.096060Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-13T01:38:10.265773Z"
+   "checked_at": "2026-11-13T02:24:51.730011Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-13T01:38:11.180546Z"
+   "checked_at": "2026-11-13T02:24:52.712188Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-13T01:38:11.246030Z"
+   "checked_at": "2026-11-13T02:24:52.909201Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-13T01:38:11.337989Z"
+   "checked_at": "2026-11-13T02:24:53.061104Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-13T01:38:11.437514Z"
+   "checked_at": "2026-11-13T02:24:53.249366Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-13T01:38:12.140320Z"
+   "checked_at": "2026-11-13T02:24:53.867168Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-13T01:38:13.778208Z"
+   "checked_at": "2026-11-13T02:24:55.296089Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-13T01:38:14.023992Z"
+   "checked_at": "2026-11-13T02:24:55.609067Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-13T01:38:14.070031Z"
+   "checked_at": "2026-11-13T02:24:55.795318Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-13T01:38:14.203579Z"
+   "checked_at": "2026-11-13T02:24:56.004410Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-13T01:38:14.359051Z"
+   "checked_at": "2026-11-13T02:24:56.262436Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-13T01:38:14.423327Z"
+   "checked_at": "2026-11-13T02:24:56.466523Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-13T01:38:14.541431Z"
+   "checked_at": "2026-11-13T02:24:56.636453Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-13T01:38:14.717275Z"
+   "checked_at": "2026-11-13T02:24:56.873971Z"
   },
   {
    "id": "securityweek",
@@ -381,14 +381,14 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-13T01:38:14.961073Z"
+   "checked_at": "2026-11-13T02:24:57.128825Z"
   }
  ],
  "daily_top": [
   "f7cf57082e20",
   "daa356fef18a",
   "6947b84f5dbe",
-  "9398616ade4d",
+  "7bb9dcd14586",
   "3e830a9401ea"
  ],
  "articles": [
@@ -666,102 +666,6 @@
    },
    "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
    "region": "world"
-  },
-  {
-   "id": "9398616ade4d",
-   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-10T18:12:21Z",
-   "fetched_at": "2026-11-11T01:23:37.843162Z",
-   "summary": "Een fout in de beheersoftware Xen Orchestra laat een aanvaller zonder wachtwoord inloggen als een bestaande gebruiker, ook als beheerder. Vates ziet het lek al misbruikt worden.",
-   "personal_relevance": "Klanten met XCP-ng en Xen Orchestra zien dit lek mogelijk niet in een scan die op CVE-nummers zoekt. Een goede vraag: staat de beheerinterface van jullie virtualisatie op internet, en hoe vinden jullie lekken die nog geen CVE hebben?",
-   "limitations": [
-    "Niet bekend is sinds wanneer het lek wordt misbruikt, wie de aanvaller is en hoeveel servers zijn getroffen.",
-    "Er is nog geen CVE-nummer; daardoor ontbreekt een CVSS-score en staat het lek niet in de KEV-lijst.",
-    "De technische uitleg komt uit het citaat van het advies in The Hacker News; het advies van Vates zelf is niet geopend."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "web_software_security"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "web"
-   ],
-   "relevance_score": 92,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.89,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-11T01:50:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten",
-   "story": [
-    "Vates, de Franse maker van Xen Orchestra, waarschuwt voor een kritiek lek dat al wordt aangevallen. Xen Orchestra is een webinterface waarmee beheerders hun XCP-ng-servers beheren. Daarop draaien virtuele machines. Het lek heeft nog geen CVE-nummer en heet bij Vates VSA-2026-062. Volgens Vates misbruikt één aanvaller het. Wanneer dat begon, is niet bekend.",
-    "Eerst de normale werking. Na het inloggen krijgt je browser een cookie met een token. Bij elk volgend verzoek stuurt de browser dat token mee. De server zoekt het token op in zijn lijst met geldige tokens en weet zo wie je bent. Hier gaat het mis. Xen Orchestra zet een speciaal opgemaakte cookie niet om in tekst, maar in een leeg object. Dat lege object gaat zonder controle naar de zoekfunctie. Een zoekopdracht zonder voorwaarden geeft gewoon het eerste token uit de lijst terug. Vergelijk het met een portier die je vraagt om 'de sleutel die past bij…' en dan niets zegt: hij geeft je de eerste sleutel van het bord.",
-    "Is dat token nog geldig, dan is de aanvaller ingelogd als de eigenaar ervan. Volgens Vates kan hij zich zo als beheerder voordoen. Daarna kan hij code uitvoeren op de beheerde servers en uiteindelijk een XCP-ng-server overnemen met root-rechten. Dat maakt dit gevaarlijk: wie de hypervisor beheerst, beheerst alle virtuele machines erop.",
-    "Updaten helpt: Xen Orchestra 6.9.1 of 6.10.0, of xo-server 5.211.2 of 5.213.1. Vates adviseert de beheerinterface niet op internet te zetten en de lege token-cookie te blokkeren in een WAF of reverse proxy. In de logs van de webserver zie je de aanval aan verzoeken met die lege token-waarde; het precieze patroon staat in het advies. Kijk ook naar onverwachte virtuele machines, vreemde instellingen voor de seriële console en verdachte bestanden in cron-mappen. Bij twijfel: alle wachtwoorden en geheimen vervangen.",
-    "Voor vulnerability management is dit een typisch geval waarin de CVSS-score niet het hele verhaal vertelt: er is nog geen CVE, dus scanners die op CVE-nummers leunen, zien het mogelijk niet. Beheerinterfaces van virtualisatie zijn een geliefd doelwit, omdat één inbraak direct veel systemen raakt."
-   ],
-   "key_facts": [
-    "Vates VMS meldt een kritieke authenticatie-omzeiling in Xen Orchestra, bijgehouden als VSA-2026-062; er is nog geen CVE-nummer (The Hacker News, 10 november 2026).",
-    "Vates ziet actief misbruik door één aanvaller; wanneer het begon en of het een zero-day was, is onbekend.",
-    "Oorzaak volgens Vates: de REST-cookie authenticationToken wordt bij een speciale waarde omgezet in een leeg object, dat zonder typecontrole naar de tokenzoeker gaat; die geeft het eerste token terug.",
-    "Gevolg: inloggen als de eigenaar van een niet-verlopen token, ook als beheerder, met daarna code-uitvoering op beheerde pools en overname van een XCP-ng-node als root.",
-    "Opgelost in Xen Orchestra 6.9.1 en 6.10.0 en in xo-server 5.211.2 en 5.213.1; gevonden door Filip Magic en Christoffer Olsen van TDC NET Security.",
-    "Advies: niet op internet zetten, de lege token-cookie blokkeren in WAF of reverse proxy, logs controleren op die cookie, op onverwachte VM's en op bestanden in cron-mappen, en bij compromittering alle geheimen roteren."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo werkt de fout in leerboekvorm. Bovenaan de kwetsbare versie: de cookiewaarde gaat ongecontroleerd naar de zoekfunctie. Is die waarde een leeg object, dan zoekt de database zonder voorwaarden en geeft hij het eerste token. Onderaan de veilige versie: eerst controleren dat het tekst is en dan alleen op dat ene id zoeken.",
-    "language": "python",
-    "code": "# Kwetsbaar (vereenvoudigd)\nwaarde = cookies[\"authenticationToken\"]   # kan tekst zijn, maar ook een object\ntoken = tokens.find_one(waarde)          # leeg object = geen voorwaarden = eerste token\n\n# Veilig\nwaarde = cookies[\"authenticationToken\"]\nif not isinstance(waarde, str):\n    weiger_verzoek()\ntoken = tokens.find_one({\"id\": waarde})\nif token is None or token.verlopen():\n    weiger_verzoek()",
-    "note": "Nagebouwd voorbeeld om het principe te laten zien; dit is niet de echte code van Xen Orchestra. Het precieze cookiepatroon staat in het advies van Vates."
-   },
-   "terms": [
-    {
-     "term": "cookie",
-     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
-    },
-    {
-     "term": "token",
-     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
-    },
-    {
-     "term": "virtuele machines",
-     "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien."
-    },
-    {
-     "term": "hypervisor",
-     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
-    },
-    {
-     "term": "WAF",
-     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
-    },
-    {
-     "term": "reverse proxy",
-     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; misbruikt weblek met een duidelijke technische oorzaak, zoals eerdere inloglekken."
-   },
-   "takeaway": "Software die invoer niet op type controleert, kan een lege zoekopdracht uitvoeren die 'alles' teruggeeft. Bij inloggen betekent dat: iemand anders zijn sessie.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
   },
   {
    "id": "7bb9dcd14586",
@@ -1362,6 +1266,102 @@
     "why": "Nog geen duimpjes; misbruikt lek met een volledige aanvalsketen en duidelijke detectiepunten."
    },
    "takeaway": "Malware die zich aan één computer koppelt, doet niets in een sandbox. Detectie moet dan leunen op gedrag op het echte systeem: nieuwe taken, uitzonderingen in de virusscanner en onbekende verbindingen.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "9398616ade4d",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-10T18:12:21Z",
+   "fetched_at": "2026-11-11T01:23:37.843162Z",
+   "summary": "Een fout in de beheersoftware Xen Orchestra laat een aanvaller zonder wachtwoord inloggen als een bestaande gebruiker, ook als beheerder. Vates ziet het lek al misbruikt worden.",
+   "personal_relevance": "Klanten met XCP-ng en Xen Orchestra zien dit lek mogelijk niet in een scan die op CVE-nummers zoekt. Een goede vraag: staat de beheerinterface van jullie virtualisatie op internet, en hoe vinden jullie lekken die nog geen CVE hebben?",
+   "limitations": [
+    "Niet bekend is sinds wanneer het lek wordt misbruikt, wie de aanvaller is en hoeveel servers zijn getroffen.",
+    "Er is nog geen CVE-nummer; daardoor ontbreekt een CVSS-score en staat het lek niet in de KEV-lijst.",
+    "De technische uitleg komt uit het citaat van het advies in The Hacker News; het advies van Vates zelf is niet geopend."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.89,
+    "source": 0.68,
+    "quality": 0.77,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-11T01:50:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten",
+   "story": [
+    "Vates, de Franse maker van Xen Orchestra, waarschuwt voor een kritiek lek dat al wordt aangevallen. Xen Orchestra is een webinterface waarmee beheerders hun XCP-ng-servers beheren. Daarop draaien virtuele machines. Het lek heeft nog geen CVE-nummer en heet bij Vates VSA-2026-062. Volgens Vates misbruikt één aanvaller het. Wanneer dat begon, is niet bekend.",
+    "Eerst de normale werking. Na het inloggen krijgt je browser een cookie met een token. Bij elk volgend verzoek stuurt de browser dat token mee. De server zoekt het token op in zijn lijst met geldige tokens en weet zo wie je bent. Hier gaat het mis. Xen Orchestra zet een speciaal opgemaakte cookie niet om in tekst, maar in een leeg object. Dat lege object gaat zonder controle naar de zoekfunctie. Een zoekopdracht zonder voorwaarden geeft gewoon het eerste token uit de lijst terug. Vergelijk het met een portier die je vraagt om 'de sleutel die past bij…' en dan niets zegt: hij geeft je de eerste sleutel van het bord.",
+    "Is dat token nog geldig, dan is de aanvaller ingelogd als de eigenaar ervan. Volgens Vates kan hij zich zo als beheerder voordoen. Daarna kan hij code uitvoeren op de beheerde servers en uiteindelijk een XCP-ng-server overnemen met root-rechten. Dat maakt dit gevaarlijk: wie de hypervisor beheerst, beheerst alle virtuele machines erop.",
+    "Updaten helpt: Xen Orchestra 6.9.1 of 6.10.0, of xo-server 5.211.2 of 5.213.1. Vates adviseert de beheerinterface niet op internet te zetten en de lege token-cookie te blokkeren in een WAF of reverse proxy. In de logs van de webserver zie je de aanval aan verzoeken met die lege token-waarde; het precieze patroon staat in het advies. Kijk ook naar onverwachte virtuele machines, vreemde instellingen voor de seriële console en verdachte bestanden in cron-mappen. Bij twijfel: alle wachtwoorden en geheimen vervangen.",
+    "Voor vulnerability management is dit een typisch geval waarin de CVSS-score niet het hele verhaal vertelt: er is nog geen CVE, dus scanners die op CVE-nummers leunen, zien het mogelijk niet. Beheerinterfaces van virtualisatie zijn een geliefd doelwit, omdat één inbraak direct veel systemen raakt."
+   ],
+   "key_facts": [
+    "Vates VMS meldt een kritieke authenticatie-omzeiling in Xen Orchestra, bijgehouden als VSA-2026-062; er is nog geen CVE-nummer (The Hacker News, 10 november 2026).",
+    "Vates ziet actief misbruik door één aanvaller; wanneer het begon en of het een zero-day was, is onbekend.",
+    "Oorzaak volgens Vates: de REST-cookie authenticationToken wordt bij een speciale waarde omgezet in een leeg object, dat zonder typecontrole naar de tokenzoeker gaat; die geeft het eerste token terug.",
+    "Gevolg: inloggen als de eigenaar van een niet-verlopen token, ook als beheerder, met daarna code-uitvoering op beheerde pools en overname van een XCP-ng-node als root.",
+    "Opgelost in Xen Orchestra 6.9.1 en 6.10.0 en in xo-server 5.211.2 en 5.213.1; gevonden door Filip Magic en Christoffer Olsen van TDC NET Security.",
+    "Advies: niet op internet zetten, de lege token-cookie blokkeren in WAF of reverse proxy, logs controleren op die cookie, op onverwachte VM's en op bestanden in cron-mappen, en bij compromittering alle geheimen roteren."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo werkt de fout in leerboekvorm. Bovenaan de kwetsbare versie: de cookiewaarde gaat ongecontroleerd naar de zoekfunctie. Is die waarde een leeg object, dan zoekt de database zonder voorwaarden en geeft hij het eerste token. Onderaan de veilige versie: eerst controleren dat het tekst is en dan alleen op dat ene id zoeken.",
+    "language": "python",
+    "code": "# Kwetsbaar (vereenvoudigd)\nwaarde = cookies[\"authenticationToken\"]   # kan tekst zijn, maar ook een object\ntoken = tokens.find_one(waarde)          # leeg object = geen voorwaarden = eerste token\n\n# Veilig\nwaarde = cookies[\"authenticationToken\"]\nif not isinstance(waarde, str):\n    weiger_verzoek()\ntoken = tokens.find_one({\"id\": waarde})\nif token is None or token.verlopen():\n    weiger_verzoek()",
+    "note": "Nagebouwd voorbeeld om het principe te laten zien; dit is niet de echte code van Xen Orchestra. Het precieze cookiepatroon staat in het advies van Vates."
+   },
+   "terms": [
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "virtuele machines",
+     "explanation": "Computers die als software draaien op een fysieke server. Eén server kan zo tientallen afgeschermde 'computers' tegelijk draaien."
+    },
+    {
+     "term": "hypervisor",
+     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
+    },
+    {
+     "term": "WAF",
+     "explanation": "Web application firewall: een filter voor een website dat verdachte webverzoeken herkent en tegenhoudt, zoals bekende aanvalspatronen."
+    },
+    {
+     "term": "reverse proxy",
+     "explanation": "Een server die vóór een webapplicatie staat en alle verzoeken eerst ontvangt en doorgeeft. Je kunt er verzoeken filteren of blokkeren voordat ze de applicatie bereiken."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; misbruikt weblek met een duidelijke technische oorzaak, zoals eerdere inloglekken."
+   },
+   "takeaway": "Software die invoer niet op type controleert, kan een lege zoekopdracht uitvoeren die 'alles' teruggeeft. Bij inloggen betekent dat: iemand anders zijn sessie.",
    "region": "world",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
@@ -2862,7 +2862,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.6,
+    "recency": 0.59,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -3742,7 +3742,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.6,
+    "recency": 0.59,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -5311,7 +5311,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.16,
+    "recency": 0.15,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -6114,63 +6114,62 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-12T02:29:19Z",
+  "generated_at": "2026-11-13T02:40:00Z",
   "options": [
    {
-    "id": "dns-en-ip",
-    "title": "IP-adressen en DNS: hoe computers elkaar vinden",
-    "question": "Wat is een IP-adres, wat doet DNS, en waarom kijken securityteams zo graag naar DNS-verkeer?",
-    "why": "Een basisonderwerp uit het leerpad: deze week maakte een achterdeur op gehackte AhsayCBS-back-upservers contact met een server van de aanvaller, en om zulk verkeer te snappen begin je bij IP-adressen en DNS.",
+    "id": "http-en-https",
+    "title": "HTTP en HTTPS: de taal van het web",
+    "question": "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?",
+    "why": "Deze week dichtte Apache een kritiek lek in zijn HTTP/2-module; wie weet hoe HTTP werkt, begrijpt beter waar zo'n fout in een webserver zit.",
     "topics": [
-     "siem_detection",
-     "malware"
-    ],
-    "area": "praktijk"
-   },
-   {
-    "id": "ntlm-hash-gelekt",
-    "title": "Wat is NTLM, en waarom is een gelekte NTLM-hash al gevaarlijk?",
-    "question": "Hoe bewijst Windows met NTLM wie je bent, waarom kan een bestand Outlook laten inloggen bij een server van een aanvaller, en wat kan die aanvaller met de hash die hij zo krijgt?",
-    "why": "Bij de Patch Tuesday van november wordt een Outlook-lek al misbruikt: een speciaal gemaakt bestand laat Outlook de NTLMv2-hash van de gebruiker naar een server van de aanvaller sturen.",
-    "topics": [
-     "phishing_identity",
-     "attack_techniques",
-     "exploited_vulnerabilities"
+     "web_software_security",
+     "siem_detection"
     ],
     "area": "techniek"
    },
    {
-    "id": "vulnerability-management-in-de-praktijk",
-    "title": "Vulnerability management in de praktijk: van scan tot opgelost",
-    "question": "Hoe vindt een organisatie haar kwetsbare systemen, hoe kiest ze wat eerst, en hoe controleer je of iets echt is opgelost?",
-    "why": "Microsoft dichtte in november 1.094 lekken in één keer, en de fix voor een Paint-lek komt alleen via de Microsoft Store met versienummers die elkaar tegenspreken, wat scanners in de war kan brengen.",
+    "id": "phishingbestendige-mfa",
+    "title": "Passkeys en FIDO2: waarom een nep-inlogpagina daar niets mee kan",
+    "question": "Hoe werkt MFA die niet te phishen is, en waarom houdt die een live proxy tegen terwijl sms-codes en authenticator-apps dat niet doen?",
+    "why": "Trend 'MFA omzeild met gestolen sessies': deze week beschreef Material Security een Google-campagne met een live proxy die sms, authenticator-codes en number matching omzeilt, en Talos raadt MFA aan die niet te phishen is.",
     "topics": [
-     "vulnerability_management",
-     "exploited_vulnerabilities"
+     "phishing_identity",
+     "cloud_attacks"
     ],
-    "area": "praktijk"
+    "area": "techniek"
    },
    {
-    "id": "lek-in-ai-inference-server",
-    "title": "Lek in AI-software SGLang: wat een inference-server is en wat er lekte",
-    "question": "Wat doet een inference engine als SGLang, waarom beschermt een afgeschermde omgeving (TEE) niet tegen een lek in de software die erin draait, en wat kun je leren van hoe NEAR AI reageerde?",
-    "why": "Via een remote code execution-lek in SGLang kon een aanvaller deze week verzoeken op een server van NEAR AI meelezen en gegevens van 18 agenten en ongeveer 100 gebruikers stelen.",
+    "id": "github-workflows-geheimen-gestolen",
+    "title": "Hoe gehackte GitHub-accounts cloudsleutels uit bouwstraten stelen",
+    "question": "Wat is een GitHub-workflow (CI/CD), waarom heeft die toegang tot AWS, Azure en Google Cloud, en hoe misbruikte de campagne met 4.837 gehackte accounts dat?",
+    "why": "Op 10 november begon een campagne waarin duizenden overgenomen GitHub-accounts kwaadaardige workflows plaatsten die geheimen en cloudtoegang stalen en daarna hun sporen wisten.",
     "topics": [
-     "incidents_breaches",
-     "vulnerabilities_cve",
-     "web_software_security"
+     "supply_chain",
+     "cloud_attacks",
+     "incidents_breaches"
     ],
     "area": "incidenten"
    },
    {
-    "id": "saml-inlog-op-vpn-omzeild",
-    "title": "SAML-inlog op een vpn omzeild: hoe single sign-on werkt en misgaat",
-    "question": "Hoe werkt inloggen via SAML (single sign-on) op een vpn, hoe kan een fout in de controle ervoor zorgen dat een aanvaller ook de MFA overslaat, en wat zie je daarvan terug in de logs?",
-    "why": "Dit hoort bij de trend van misbruikte lekken in vpn-servers en randapparaten: bij SonicWall-vpn's wordt CVE-2026-19868 al misbruikt om langs de SAML-controle te komen, mogelijk inclusief MFA.",
+    "id": "persistentie-op-linux-servers",
+    "title": "Binnen blijven: hoe aanvallers zich vastzetten op een Linux-server",
+    "question": "Wat is persistentie, welke plekken op een Linux-server misbruikt een aanvaller om terug te komen (cron, systemd, opstartbestanden), en hoe vindt een securityteam dat?",
+    "why": "Microsoft zag deze week dat aanvallers het legitieme hulpmiddel GSocket op gehackte Linux-servers zetten en zo binnen blijven, ook nadat het lek is gepatcht.",
     "topics": [
-     "edge_devices",
+     "attack_techniques",
+     "siem_detection",
+     "incident_response"
+    ],
+    "area": "praktijk"
+   },
+   {
+    "id": "van-poc-naar-aanval-in-uren",
+    "title": "Van openbare aanvalscode naar aanval in uren: wat doe je in die tijd?",
+    "question": "Wat is een proof of concept, waarom volgen aanvallen soms binnen uren na publicatie, en hoe richt je vulnerability management in op die snelheid?",
+    "why": "Deze week werden zowel het N-central-lek 4EverAble2Shell als het OpenSSH-lek SSHole binnen enkele uren na publicatie aangevallen.",
+    "topics": [
      "exploited_vulnerabilities",
-     "phishing_identity"
+     "vulnerability_management"
     ],
     "area": "kwetsbaarheden"
    }
@@ -9477,16 +9476,6 @@
     "excluded_by": []
    },
    {
-    "title": "NCSC-2026-0471 [1.00] [M/H] Kwetsbaarheden verholpen in SonicOS van SonicWall",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0471",
-    "relevance_score": 87,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
-   },
-   {
     "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
@@ -9557,10 +9546,20 @@
     ]
    },
    {
+    "title": "NCSC-2026-0471 [1.00] [M/H] Kwetsbaarheden verholpen in SonicOS van SonicWall",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0471",
+    "relevance_score": 86,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
     "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "relevance_score": 87,
+    "relevance_score": 86,
     "decision": "source_cap",
     "excluded_by": []
    },
