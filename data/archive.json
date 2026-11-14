@@ -5423,7 +5423,15 @@
    "published_raw": "Fri, 13 Nov 2026 07:39:04 +0000",
    "fetched_at": "2026-11-14T01:23:29.241166Z",
    "excerpt": "<p>PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.</p>\n<p>The post <a href=\"https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/\">PHP2Shell Exploited in Destructive Check Point Gateway Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "crowdstrike_blog:c05cc37bce16": {
+   "source_id": "crowdstrike_blog",
+   "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
+   "url": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
+   "published_raw": "Nov 13, 2026 00:00:00-0600",
+   "fetched_at": "2026-11-14T03:25:17.527878Z",
+   "excerpt": ""
   }
  },
- "updated_at": "2026-11-14T02:25:30.368614Z"
+ "updated_at": "2026-11-14T03:25:08.620157Z"
 }

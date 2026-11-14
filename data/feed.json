@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T02:25:30.368614Z",
+ "generated_at": "2026-11-14T03:25:08.620157Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-14T01:36:09Z",
- "last_successful_update": "2026-11-14T02:25:30.368614Z",
+ "last_successful_update": "2026-11-14T03:25:08.620157Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-14T02:25:30.403196Z"
+   "checked_at": "2026-11-14T03:25:08.652203Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-14T02:25:31.015275Z"
+   "checked_at": "2026-11-14T03:25:09.234233Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-14T02:25:31.652094Z"
+   "checked_at": "2026-11-14T03:25:10.052618Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-14T02:25:33.891794Z"
+   "checked_at": "2026-11-14T03:25:11.457921Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-14T02:25:34.813669Z"
+   "checked_at": "2026-11-14T03:25:12.455136Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-14T02:25:34.984101Z"
+   "checked_at": "2026-11-14T03:25:12.700203Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-14T02:25:35.058578Z"
+   "checked_at": "2026-11-14T03:25:12.787912Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-14T02:25:35.106603Z"
+   "checked_at": "2026-11-14T03:25:12.897825Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-14T02:25:35.287370Z"
+   "checked_at": "2026-11-14T03:25:13.698524Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-14T02:25:36.971035Z"
+   "checked_at": "2026-11-14T03:25:15.373648Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-14T02:25:37.010479Z"
+   "checked_at": "2026-11-14T03:25:15.534246Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-14T02:25:37.061038Z"
+   "checked_at": "2026-11-14T03:25:15.707879Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-14T02:25:37.073638Z"
+   "checked_at": "2026-11-14T03:25:15.902229Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-14T02:25:37.371548Z"
+   "checked_at": "2026-11-14T03:25:17.527878Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-14T02:25:37.458226Z"
+   "checked_at": "2026-11-14T03:25:17.643536Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-14T02:25:37.485171Z"
+   "checked_at": "2026-11-14T03:25:17.764854Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-14T02:25:37.569549Z"
+   "checked_at": "2026-11-14T03:25:17.979561Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-14T02:25:37.672644Z"
+   "checked_at": "2026-11-14T03:25:18.257491Z"
   }
  ],
  "daily_top": [
@@ -618,7 +618,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -2999,7 +2999,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.57,
+    "recency": 0.56,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.05
@@ -3189,7 +3189,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.89,
+    "recency": 0.88,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.0
@@ -4017,7 +4017,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.57,
+    "recency": 0.56,
     "source": 0.8,
     "quality": 0.7,
     "fit": 0.0
@@ -5174,108 +5174,6 @@
    "region": "world"
   },
   {
-   "id": "62c945c0e6fb",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-03T21:28:44Z",
-   "fetched_at": "2026-11-03T21:31:41.029642Z",
-   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
-   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
-   "limitations": [
-    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
-    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
-    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
-    "Het onderzoek loopt nog."
-   ],
-   "official_docs": [
-    {
-     "label": "WorkOS: securitybulletin 30 oktober 2026",
-     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
-    }
-   ],
-   "topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity"
-   ],
-   "groups": [
-    "incidenten",
-    "ti",
-    "aanvallen"
-   ],
-   "relevance_score": 83,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.6,
-    "source": 0.68,
-    "quality": 0.53,
-    "region": 0.01,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
-   "story": [
-    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
-    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
-    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
-    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
-   ],
-   "key_facts": [
-    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
-    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
-    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
-    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
-    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
-    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
-    "language": "log",
-    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
-   },
-   "terms": [
-    {
-     "term": "single sign-on",
-     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
-    },
-    {
-     "term": "AI-agent",
-     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
-    },
-    {
-     "term": "penetratietesten",
-     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
-    },
-    {
-     "term": "user agent",
-     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
-    },
-    {
-     "term": "social engineering",
-     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
-    },
-    {
-     "term": "CRM",
-     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
-    }
-   ],
-   "soort": "incident",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
-   },
-   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
-   "region": "na"
-  },
-  {
    "id": "201b2063f67c",
    "title": "mSecure password manager hack prompts password reset warnings",
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
@@ -5735,6 +5633,108 @@
    ],
    "takeaway": "Bij DLL-sideloading laat een aanvaller een echt, vertrouwd programma zijn kwaadaardige DLL laden. De naam van het programma ziet er dan goed uit; de verraderlijke aanwijzing is de map waaruit het draait.",
    "region": "world"
+  },
+  {
+   "id": "62c945c0e6fb",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-03T21:28:44Z",
+   "fetched_at": "2026-11-03T21:31:41.029642Z",
+   "summary": "Bij WorkOS, leverancier van inlogdiensten voor softwarebedrijven, zat een aanvaller in een interne verkoopapplicatie. Hij kon contactgegevens en samenvattingen van klantgesprekken zien. De oprichter wijst naar de AI-aanvalstool ARTEX.",
+   "personal_relevance": "Ook bij een securityleverancier staan klantgesprekken en contactgegevens in een CRM. Dit is een goed voorbeeld om met klanten te bespreken: worden interne tools net zo goed gemonitord als productie, en staan ze open naar internet?",
+   "limitations": [
+    "Hoe de aanvaller binnenkwam en hoe lang hij toegang had, is niet bekend.",
+    "Hoeveel klanten en records geraakt zijn, is nog niet bekend; WorkOS zegt getroffen klanten zelf te benaderen.",
+    "Het gebruik van ARTEX is een toeschrijving door de oprichter op basis van sporen; de bulletin van WorkOS noemt de naam niet letterlijk.",
+    "Het onderzoek loopt nog."
+   ],
+   "official_docs": [
+    {
+     "label": "WorkOS: securitybulletin 30 oktober 2026",
+     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident"
+    }
+   ],
+   "topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 82,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.6,
+    "source": 0.68,
+    "quality": 0.53,
+    "region": 0.01,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "WorkOS: aanvaller met AI-tool leest klantgesprekken in verkoopsysteem",
+   "story": [
+    "WorkOS levert inlogdiensten, zoals single sign-on, aan softwarebedrijven. Volgens de eigen website gebruiken minstens 3.000 bedrijven die diensten. Op 30 oktober ontdekte WorkOS dat een aanvaller toegang had tot een interne applicatie van het verkoop- en klantteam. Daarin stonden contactgegevens, accountgeschiedenis en samenvattingen van verkoopgesprekken, supportgesprekken en Slack-gesprekken met klanten. Volgens WorkOS zijn de productiesystemen en de gegevens in het platform zelf niet geraakt. Hoe de aanvaller binnenkwam, is nog niet bekend.",
+    "WorkOS zag dat de aanvaller een AI-agent gebruikte om automatisch te verkennen en misbruik te proberen. Zo'n agent kiest zelf de volgende stap op basis van wat het doelwit terugstuurt. Oprichter Michael Grinich noemt de tool ARTEX, een openbaar framework voor penetratietesten dat al bij meer aanvallen opdook. Onderzoekers vonden in de webverzoeken van de aanvaller de user agents \"artex-enrich/1.0\" en \"norma/0.4\".",
+    "Een user agent is het naamkaartje dat een programma bij elk webverzoek meestuurt. Een browser zegt bijvoorbeeld dat hij Chrome is; een aanvalstool kan zijn eigen naam meesturen. Daarom is het zinvol om in de logs van webservers en proxy's op zulke namen te zoeken. Let wel: een user agent is makkelijk aan te passen. Het is dus een aanwijzing, geen bewijs. WorkOS zette externe toegang tot de applicatie uit en controleert nu de toegang tot al zijn interne tools. Dat wijst erop dat de applicatie vanaf internet bereikbaar was.",
+    "Voor klanten zit het grootste risico in wat er nu kan volgen: phishing en social engineering. Een aanvaller die weet wie met wie praat en waarover, kan een heel geloofwaardige mail sturen. WorkOS waarschuwt daar zelf voor, ook als een bericht naar een echte collega of een echt supportgesprek verwijst. De les voor organisaties: een CRM of verkooptool lijkt minder belangrijk dan productie, maar bevat precies de informatie die een aanvaller voor misleiding nodig heeft."
+   ],
+   "key_facts": [
+    "WorkOS ontdekte de ongeautoriseerde toegang op 30 oktober 2026 en publiceerde op 2 november 2026 een securitybulletin.",
+    "Getroffen: contactgegevens, accountgeschiedenis, gegevens over klantrelaties en samenvattingen en fragmenten van verkoop-, support- en Slack-gesprekken met klanten.",
+    "Volgens WorkOS is er geen bewijs dat applicatiegegevens of productiediensten zijn geraakt.",
+    "WorkOS zag een AI-ondersteund aanvalsframework voor geautomatiseerde verkenning en pogingen tot misbruik; oprichter Michael Grinich noemt ARTEX.",
+    "BleepingComputer meldt de user agents \"artex-enrich/1.0\" en \"norma/0.4\" in de webverzoeken van de aanvaller.",
+    "WorkOS zette externe toegang tot de applicatie uit, huurde een extern forensisch bureau in en waarschuwt klanten voor phishing en social engineering."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verzoek van een aanvalstool eruitzien in het toegangslog van een webserver. Het laatste stuk tussen aanhalingstekens is de user agent: hier staat de naam van de tool in plaats van een browser.",
+    "language": "log",
+    "code": "203.0.113.10 - - [29/Oct/2026:22:14:07 +0000] \"GET /api/accounts?page=1 HTTP/1.1\" 200 4312 \"-\" \"artex-enrich/1.0\"\n203.0.113.10 - - [29/Oct/2026:22:14:08 +0000] \"GET /api/accounts?page=2 HTTP/1.1\" 200 4398 \"-\" \"artex-enrich/1.0\"",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen paden. Alleen de user agent komt uit de berichtgeving."
+   },
+   "terms": [
+    {
+     "term": "single sign-on",
+     "explanation": "Eén keer inloggen om toegang te krijgen tot meerdere applicaties. Een centrale dienst bevestigt wie je bent, zodat je niet overal een apart wachtwoord nodig hebt."
+    },
+    {
+     "term": "AI-agent",
+     "explanation": "Een programma dat een taalmodel zelf acties laat uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiest."
+    },
+    {
+     "term": "penetratietesten",
+     "explanation": "Met toestemming en met de methoden van aanvallers proberen in te breken, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+     "term": "user agent",
+     "explanation": "Een stukje tekst dat een browser of programma bij elk webverzoek meestuurt om te zeggen wat het is. Het staat in de logs van de webserver, maar is makkelijk te vervalsen."
+    },
+    {
+     "term": "social engineering",
+     "explanation": "Mensen misleiden zodat ze zelf iets doen wat de aanvaller wil, zoals een wachtwoord geven of een betaling doen. De aanvaller speelt vaak een bekende of collega."
+    },
+    {
+     "term": "CRM",
+     "explanation": "Customer relationship management: software waarin een bedrijf klantgegevens, contactmomenten en verkoopkansen bijhoudt."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een incident met weinig technische details maar een duidelijke les over phishing."
+   },
+   "takeaway": "Gegevens uit een CRM zijn waardevol voor aanvallers omdat ze phishing geloofwaardig maken. Een user agent in de logs kan een aanvalstool verraden, maar is makkelijk te vervalsen.",
+   "region": "na"
   },
   {
    "id": "892b2bea5cd6",
@@ -6251,7 +6251,7 @@
   {
    "id": "ai-agenten-voeren-inbraken-uit",
    "title": "Aanvallers laten AI-agenten als ARTEX en AntiFox veel van de inbraak doen",
-   "summary": "Google, Microsoft, WorkOS en Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Arctic Wolf het open-source pentestplatform AntiFox koppelt aan echte inbraken op webservers en AWS, waarbij soms een productiegeheim werd uitgelezen; volgens Malbear Labs viel een AI-agent ook een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents.",
+   "summary": "Google, Microsoft, WorkOS en Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten; Arctic Wolf koppelt het pentestplatform AntiFox aan echte inbraken op webservers en AWS, en volgens Malbear Labs viel een AI-agent een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents. Ook Google Project Zero schrijft dat taalmodellen het vinden en misbruiken van lekken sneller maken, en maakt details van lekken daarom voortaan eerder openbaar.",
    "topics": [
     "attack_techniques",
     "threat_intelligence",
@@ -6264,41 +6264,43 @@
     "9fcf62b29cf8",
     "8b5f34b85bf1",
     "62c945c0e6fb",
-    "350327fdd7cd"
+    "350327fdd7cd",
+    "1838248a60d9"
    ],
-   "generated_at": "2026-11-13T03:30:00Z"
+   "generated_at": "2026-11-14T03:30:00Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
-   "title": "Lekken in vpn-servers, switches en SD-WAN aan de rand van netwerken misbruikt",
-   "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en SonicWall, in Cisco SD-WAN-controllers en in Zyxel-switches. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de normale inlogcontrole, om daarna sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: bij Ivanti en Zyxel bleken bijgewerkte versies opnieuw kwetsbaar.",
+   "title": "Lekken in vpn-servers, firewalls en SD-WAN aan de rand van netwerken misbruikt",
+   "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en SonicWall, in Cisco SD-WAN-controllers en nu ook in Check Point-firewalls. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de normale inlogcontrole, om daarna sleutels of configuraties te stelen of verder het netwerk in te gaan; bij Check Point wiste hij bij een deel van de slachtoffers zelfs bestanden op VMware ESXi-servers. Patchen is niet altijd genoeg: bij Ivanti bleken versies die als veilig golden opnieuw kwetsbaar.",
    "topics": [
     "edge_devices",
     "exploited_vulnerabilities",
     "vulnerability_management"
    ],
    "article_ids": [
+    "c0eea237828e",
     "ff63fc905db0",
     "df100ad46108",
     "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-13T03:30:00Z"
+   "generated_at": "2026-11-14T03:30:00Z"
   },
   {
-   "id": "mfa-omzeild-met-gestolen-sessies",
-   "title": "Aanvallers omzeilen MFA door de inlogsessie zelf te stelen",
-   "summary": "Material Security zag sinds augustus een campagne met nep-agenda-uitnodigingen en een live proxy voor de echte Google-inlogpagina, die de sessie pakt ondanks sms-codes of number matching. Talos vond in het derde kwartaal ontbrekende of zwakke MFA in een derde van de zaken en adviseert MFA die niet te phishen is, zoals hardwaresleutels. Ook de verdediging verschuift: Vercel koppelt inlogsessies met DBSC aan het apparaat, zodat een gestolen cookie snel waardeloos is.",
+   "id": "beheersoftware-msp-aangevallen",
+   "title": "Aanvallers mikken op beheersoftware van IT-dienstverleners zoals N-central",
+   "summary": "Voor N-central, de RMM-software van N-able, verscheen binnen enkele dagen twee keer openbare aanvalscode; na de tweede keer zagen onderzoekers binnen uren aanvalspogingen, en volgens BleepingComputer staan er op getroffen servers al cryptominers. Tegelijk misbruiken aanvallers een al gedicht lek in ScreenConnect met de toolkit SCKit, die via de technicus die komt kijken andere klanten probeert te bereiken. De gemeenschappelijke lijn: wie de beheersoftware van een dienstverlener overneemt, kan bij al diens klanten komen.",
    "topics": [
-    "phishing_identity",
-    "cloud_attacks",
-    "threat_intelligence"
+    "supply_chain",
+    "exploited_vulnerabilities",
+    "incident_response"
    ],
    "article_ids": [
-    "f7cf57082e20",
-    "08252db330fb",
-    "94ac3c3bdec2"
+    "9cb2b44a4924",
+    "ed98e46a8b24",
+    "daa356fef18a"
    ],
-   "generated_at": "2026-11-13T03:30:00Z"
+   "generated_at": "2026-11-14T03:30:00Z"
   }
  ],
  "weekly": null,
@@ -9321,13 +9323,13 @@
  ],
  "quality_report": {
   "fetched_items": 310,
-  "unique_after_dedupe": 677,
+  "unique_after_dedupe": 678,
   "merged_duplicates": 1,
   "shown": 53,
   "decisions": {
    "included": 260,
    "below_threshold": 174,
-   "no_topic": 174,
+   "no_topic": 175,
    "excluded": 58,
    "source_cap": 11
   },
@@ -9535,14 +9537,6 @@
     ]
    },
    {
-    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-    "relevance_score": 88,
-    "decision": "source_cap",
-    "excluded_by": []
-   },
-   {
     "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
@@ -9685,6 +9679,14 @@
     "excluded_by": []
    },
    {
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "relevance_score": 87,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
@@ -9761,14 +9763,6 @@
     "excluded_by": []
    },
    {
-    "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
-    "source_id": "the_record",
-    "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
@@ -9832,6 +9826,14 @@
     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+    "source_id": "the_record",
+    "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
