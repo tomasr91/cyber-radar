@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T01:23:21.007601Z",
+ "generated_at": "2026-11-14T01:36:39.838439Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-13T01:35:30Z",
- "last_successful_update": "2026-11-14T01:23:21.007601Z",
+ "last_article_added_at": "2026-11-14T01:36:09Z",
+ "last_successful_update": "2026-11-14T01:36:39.838439Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-14T01:23:21.067536Z"
+   "checked_at": "2026-11-14T01:36:39.898408Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-14T01:23:21.882520Z"
+   "checked_at": "2026-11-14T01:36:40.680232Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-14T01:23:22.971591Z"
+   "checked_at": "2026-11-14T01:36:41.806822Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-14T01:23:24.340325Z"
+   "checked_at": "2026-11-14T01:36:43.167020Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-14T01:23:25.831486Z"
+   "checked_at": "2026-11-14T01:36:44.361615Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-14T01:23:25.872617Z"
+   "checked_at": "2026-11-14T01:36:44.444837Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-14T01:23:25.964861Z"
+   "checked_at": "2026-11-14T01:36:44.531183Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-14T01:23:26.006906Z"
+   "checked_at": "2026-11-14T01:36:44.575757Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-14T01:23:26.475722Z"
+   "checked_at": "2026-11-14T01:36:45.202501Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-14T01:23:27.899519Z"
+   "checked_at": "2026-11-14T01:36:46.747420Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-14T01:23:28.293687Z"
+   "checked_at": "2026-11-14T01:36:47.227260Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-14T01:23:28.359964Z"
+   "checked_at": "2026-11-14T01:36:47.269113Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-14T01:23:28.412376Z"
+   "checked_at": "2026-11-14T01:36:47.323308Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-14T01:23:28.631108Z"
+   "checked_at": "2026-11-14T01:36:47.552844Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-14T01:23:28.772372Z"
+   "checked_at": "2026-11-14T01:36:47.901741Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-14T01:23:28.851505Z"
+   "checked_at": "2026-11-14T01:36:48.049708Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-14T01:23:29.055944Z"
+   "checked_at": "2026-11-14T01:36:48.277116Z"
   },
   {
    "id": "securityweek",
@@ -381,13 +381,13 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-14T01:23:29.241166Z"
+   "checked_at": "2026-11-14T01:36:48.523278Z"
   }
  ],
  "daily_top": [
   "f7cf57082e20",
+  "c0eea237828e",
   "daa356fef18a",
-  "4d2baf54099d",
   "6947b84f5dbe",
   "11515cc0259f"
  ],
@@ -481,6 +481,112 @@
    },
    "takeaway": "Bij adversary-in-the-middle log je echt in, maar via de aanvaller. Een code die je overtypt of goedkeurt, beschermt dan niet: de aanvaller pakt de sessie die na het inloggen ontstaat.",
    "region": "world"
+  },
+  {
+   "id": "c0eea237828e",
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-13T08:05:49Z",
+   "fetched_at": "2026-11-14T01:23:29.055944Z",
+   "summary": "Een onbekende aanvaller kwam via PHP2Shell binnen op ongepatchte Check Point-gateways, werd root via een nieuw lek en zette een eigen achterdeur neer. Bij een deel van de slachtoffers wiste hij daarna bestanden op VMware ESXi.",
+   "personal_relevance": "Klanten met randapparaten van welke leverancier ook kun je vragen: komen de logs van de firewall ook buiten het apparaat terecht, en zien we het als een firewall zelf verbinding maakt met interne servers?",
+   "limitations": [
+    "Hoeveel organisaties in totaal getroffen zijn, en hoeveel daarvan schade door de wiper hadden, is niet bekend.",
+    "Wie achter de aanvallen zit is onzeker; Check Point noemt naast een China-gelinkte groep ook een tussenpersoon, een valse vlag of vernietiging als rookgordijn.",
+    "De bronnen noemen niet per versie welke update of hotfix het lek dicht; daarvoor verwijst Check Point naar advies SK1000362.",
+    "De analyse komt van Check Point, de maker van het getroffen product."
+   ],
+   "official_docs": [
+    {
+     "label": "Check Point Research: PHP2Shell Exploitation on Check Point Gateway",
+     "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "attack_techniques",
+    "threat_intelligence",
+    "edge_devices"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "ti"
+   ],
+   "relevance_score": 93,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.96,
+    "source": 0.68,
+    "quality": 0.78,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-14T01:36:09Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist",
+   "story": [
+    "Check Point Research beschrijft aanvallen op de Security Gateways van Check Point zelf: de firewalls die het netwerk van een organisatie afschermen. Een onbekende aanvaller begon op 30 oktober met Israëlische organisaties, ongeveer een week nadat er een fix was. Op 2 november volgde een bredere golf tegen organisaties in meerdere landen en sectoren. Bij een deel van de slachtoffers uit de eerste golf werden bestanden vernietigd.",
+    "Hoe kwam de aanvaller binnen? Veel firewalls hebben ook een webportaal, hier Mobile Access, waarmee medewerkers op afstand inloggen. Dat portaal draait op PHP. Via PHP2Shell, de twee lekken in PHP zelf die eind oktober bekend werden, voerde de aanvaller code uit met de rechten van het portaalaccount. Daarna gebruikte hij een nieuw lek, CVE-2026-123039, in het onderdeel DynamicCLI van Gaia, het besturingssysteem van de gateway. DynamicCLI neemt opdrachten aan via een socket, maar controleert niet of de afzender dat mag. Eén verzoek was genoeg om root te worden. Dat heet rechtenverhoging.",
+    "Als root plaatste de aanvaller webshells in de map met sjablonen van het portaal. Daarnaast installeerde hij TSGA, een achterdeur die speciaal voor Check Point-apparaten is gemaakt. TSGA kan versleuteld toegang geven, de configuratie stelen, zich in andere processen nestelen en de firewalllogs op het apparaat aanpassen. Met een scanner bracht de aanvaller het interne netwerk in kaart. Daarna logde hij via SSH in op een VMware ESXi-server, met het serviceaccount vpxuser. Daar startte hij een wiper: malware die bestanden met nullen overschrijft en daarna wist.",
+    "Hoe zie en voorkom je het? Installeer de fixes voor PHP2Shell en voor CVE-2026-123039. Check Point noemt sporen op de gateway, zoals onverwachte .tpl-bestanden in de sjabloonmap, herhaalde crashes van Apache- en PHP-processen en processen die vanuit /tmp starten. Op het netwerk valt een SSH-verbinding van een firewall naar een ESXi-server op. TSGA kan logs op het apparaat aanpassen. Daarom is een kopie van die logs in de SIEM extra waardevol: die kan de aanvaller niet zomaar wijzigen.",
+    "Wie zit erachter? Check Point ziet overeenkomsten met PhiliKit, een toolkit die ESET koppelde aan een China-gelinkte groep. Maar de wiper en de focus op Israël passen daar slecht bij. Check Point houdt daarom meerdere scenario's open, zoals een tussenpersoon die alleen toegang verkocht (initial access broker) of een valse vlag. De les: een firewall die vanaf internet bereikbaar is, is een ideale eerste stap. En van daaruit is de hypervisor met alle virtuele servers niet ver weg."
+   ],
+   "key_facts": [
+    "Check Point Research (12 november 2026): eerste golf vanaf 30 oktober 2026 tegen Israëlische organisaties, ongeveer een week nadat een fix beschikbaar was; tweede, bredere golf op 2 november.",
+    "Eerste toegang via PHP2Shell (CVE-2026-109618 en CVE-2026-109619) in Mobile Access-portalen.",
+    "CVE-2026-123039 (CVSS 7,8): ontbrekende autorisatiecontrole in DynamicCLI van Gaia OS; een lokaal account wordt root met één verzoek naar de socket (advies SK1000362). Volgens Check Point misbruikt bij 'een paar dozijn' klanten.",
+    "Getroffen versies R81 tot en met R82.20 van onder meer Force Firewalls, Management- en Log Servers, Multi-Domain Security Management en Maestro Orchestrator.",
+    "Na root: PHP-webshells, achterdeur TSGA (als slot_CPconfigdaemon) met netwerkonderdeel TSProxy, scanner gogo, SSH naar ESXi met vpxuser en de wiper destroy_v6 met een notitie DREAM_ANNEXATION.txt.",
+    "Check Point rekent TSGA en TSProxy tot PhiliKit, dat ESET in juni 2026 koppelde aan Armory Castle (voorheen UNC5221), maar vindt het bewijs voor die toeschrijving te zwak."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan de stap van firewall naar hypervisor eruitzien in het SSH-log van een ESXi-server. Let op twee dingen: het account vpxuser logt interactief in, en het bronadres is dat van de firewall. Een SIEM-regel die SSH-logins op hypervisors vanaf randapparaten meldt, vangt dit.",
+    "language": "log",
+    "code": "2026-10-31T09:14:02Z sshd[52311]: Connection from 192.0.2.1 port 50122\n2026-10-31T09:14:03Z sshd[52311]: Accepted keyboard-interactive/pam for vpxuser from 192.0.2.1 port 50122 ssh2\n2026-10-31T09:14:03Z sshd[52311]: Session opened for 'vpxuser' on /dev/char/pty/t0",
+    "note": "Nagebouwd voorbeeld; 192.0.2.1 staat voor het interne adres van de gateway. De echte sporen staan in het onderzoek van Check Point."
+   },
+   "terms": [
+    {
+     "term": "socket",
+     "explanation": "Een aansluitpunt waarlangs programma's berichten naar elkaar sturen, op hetzelfde apparaat of via het netwerk. Wie erbij kan, kan het programma erachter opdrachten geven."
+    },
+    {
+     "term": "rechtenverhoging",
+     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+     "term": "webshells",
+     "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+    },
+    {
+     "term": "wiper",
+     "explanation": "Malware die gegevens vernietigt in plaats van ze te versleutelen of te stelen. Er is geen sleutel om iets terug te krijgen; alleen een back-up helpt."
+    },
+    {
+     "term": "initial access broker",
+     "explanation": "Een criminele tussenpersoon die inbreekt bij organisaties en die toegang doorverkoopt, bijvoorbeeld aan ransomwaregroepen."
+    },
+    {
+     "term": "hypervisor",
+     "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; volledige aanvalsketen van firewall naar hypervisor, met sporen voor detectie."
+   },
+   "takeaway": "Een webportaal op een firewall maakt die firewall een webserver, met de lekken van webservers. Wie root wordt op het apparaat, kan ook de lokale logs aanpassen; alleen logs die elders liggen blijven betrouwbaar.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
   },
   {
    "id": "daa356fef18a",
@@ -771,6 +877,104 @@
    },
    "takeaway": "Een workflow in een bouwstraat draait met de geheimen en cloudrechten die hij nodig heeft. Wie de workflow kan aanpassen, krijgt die rechten erbij, ook als de toegang via kortlevende tokens loopt.",
    "region": "world"
+  },
+  {
+   "id": "e05f7a78ce38",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-13T16:53:08Z",
+   "fetched_at": "2026-11-14T01:23:29.055944Z",
+   "summary": "Via CVE-2026-6460 kan een databasegebruiker die objecten mag maken code uitvoeren op de server. De update helpt pas helemaal als ook C-extensies opnieuw worden gebouwd.",
+   "personal_relevance": "Bij klanten met PostgreSQL is de vraag niet alleen 'is er gepatcht?', maar ook 'zijn de C-extensies herbouwd?'. Dat ziet een versiescan niet.",
+   "limitations": [
+    "Het artikel van The Hacker News kon niet direct worden geopend; de uitleg steunt op de adviezen en release notes van PostgreSQL en een ingekorte overname van het artikel.",
+    "Welke extensies codeaanpassingen nodig hebben, staat niet in de gelezen bronnen.",
+    "De ouderdom van 22 jaar komt uit het nieuwsbericht en staat niet in het officiële advies.",
+    "Over misbruik zeggen de adviezen niets; geen misbruik bekend betekent niet dat het uitgesloten is."
+   ],
+   "official_docs": [
+    {
+     "label": "PostgreSQL: CVE-2026-6460",
+     "url": "https://www.postgresql.org/support/security/CVE-2026-6460/"
+    },
+    {
+     "label": "PostgreSQL 18.7 release notes",
+     "url": "https://www.postgresql.org/docs/release/18.7"
+    }
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm"
+   ],
+   "relevance_score": 92,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.98,
+    "source": 0.68,
+    "quality": 0.72,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-14T01:36:09Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout",
+   "story": [
+    "Het PostgreSQL-project bracht op 12 november updates uit voor alle ondersteunde versies: 18.7, 17.12, 16.16, 15.20 en 14.25. Ze dichten 52 beveiligingslekken. Het opvallendste is CVE-2026-6460 (CVSS 8,8). Volgens The Hacker News zit die fout al 22 jaar in de software. Tientallen andere lekken in dezelfde release hebben ook score 8,8 en kunnen eveneens tot het uitvoeren van code leiden.",
+    "Hoe werkt het? Een database bewaart gegevens met een vast type, zoals tekst of een getal. Een beheerder kan dat type later veranderen, bijvoorbeeld met ALTER ... SET DATA TYPE. Op dat moment kunnen er nog oude waarden in omloop zijn, bijvoorbeeld in variabelen van PL/pgSQL, de programmeertaal in de database. Volgens het advies hield PostgreSQL niet goed bij welk type zo'n waarde had, en een waarde zegt niet zelf wat ze is. De server leest de oude bytes dan als een ander type. Dat heet type confusion. Zo kan een gewone waarde bijvoorbeeld worden gelezen als een verwijzing naar een plek in het geheugen, en daarmee kan een aanvaller code laten uitvoeren.",
+    "Hoe urgent is het? De aanvaller moet kunnen inloggen en objecten mogen maken, zoals een tabel of een type. Hij krijgt dan de rechten van het besturingssysteemaccount waaronder de database draait. Dat is minder urgent dan een lek zonder inlog. Maar het is serieus waar veel gebruikers of applicaties een eigen databaseaccount hebben, zoals bij gedeelde databaseplatforms. De adviezen melden geen misbruik.",
+    "Wat moet je doen? Installeer de update. Een herstart met de nieuwe versie is genoeg; de database hoeft niet opnieuw te worden ingeladen. Let op een addertje: volgens de release notes vraagt volledige bescherming ook het opnieuw bouwen van C-extensies, en sommige extensies hebben codeaanpassingen nodig. Een scanner voor vulnerability management ziet wel het nieuwe versienummer, maar niet of extensies zijn herbouwd. Verder is 14.25 de laatste update van PostgreSQL 14: die versie is nu end-of-life."
+   ],
+   "key_facts": [
+    "CVE-2026-6460 (CVSS 8,8): type confusion na ALTER ... SET DATA TYPE laat een objectmaker code uitvoeren als het besturingssysteemaccount van de database (PostgreSQL-advies).",
+    "Opgelost in 18.7, 17.12, 16.16, 15.20 en 14.25, uitgebracht op 12 november 2026; de release dicht 52 beveiligingslekken.",
+    "Release notes 18.7: volledige bescherming vereist het herbouwen van C-extensies, sommige extensies vragen codewijzigingen; de nieuwe instelling composite_type_mismatch kan de controles uitzetten, met beveiligingsrisico.",
+    "Melders volgens de release notes onder meer Mehmet Ince, het OpenAI Security Research Team, het Anthropic OSS-programma en Ada Logics.",
+    "Veel andere lekken in dezelfde release (CVSS 8,8) leiden ook tot code-uitvoering, onder meer use-after-free-fouten in plperl en pltcl.",
+    "14.25 is de laatste release van PostgreSQL 14; The Hacker News noemt de fout 22 jaar oud."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Twee gewone beheerqueries om na de update te controleren. De eerste toont de draaiende versie (moet 18.7, 17.12, 16.16, 15.20 of 14.25 of hoger zijn). De tweede toont welke extensies geïnstalleerd zijn: dat is je lijst om na te lopen of de C-extensies zijn herbouwd.",
+    "language": "sql",
+    "code": "-- Welke versie draait er?\nSELECT version();\n\n-- Welke extensies zijn geïnstalleerd?\nSELECT extname, extversion FROM pg_extension ORDER BY extname;",
+    "note": "Deze queries lezen alleen informatie. Of een extensie in C is geschreven, staat in de documentatie van die extensie."
+   },
+   "terms": [
+    {
+     "term": "PL/pgSQL",
+     "explanation": "De ingebouwde programmeertaal van PostgreSQL. Ontwikkelaars schrijven er functies mee die in de database zelf draaien."
+    },
+    {
+     "term": "type confusion",
+     "explanation": "Een fout waarbij software gegevens van het ene type leest alsof het een ander type is. Zo kan een getal per ongeluk als geheugenadres worden gebruikt, wat een aanvaller kan misbruiken."
+    },
+    {
+     "term": "C-extensies",
+     "explanation": "Uitbreidingen van PostgreSQL die in de programmeertaal C zijn geschreven en tot een programma zijn omgezet. Ze draaien in de database zelf en moeten passen bij de versie van de kern."
+    },
+    {
+     "term": "end-of-life",
+     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; databaselek met een concrete valkuil voor vulnerability management."
+   },
+   "takeaway": "Type confusion ontstaat als software bytes leest als een ander type dan waarmee ze zijn geschreven. Een fix in de kern helpt soms pas helemaal als ook de onderdelen die erop aansluiten opnieuw worden gebouwd.",
+   "region": "world",
+   "exploitation": "geen_misbruik_bekend",
+   "patch_status": "patch_beschikbaar"
   },
   {
    "id": "11515cc0259f",
@@ -1339,6 +1543,191 @@
    "patch_status": "geen_patch"
   },
   {
+   "id": "1838248a60d9",
+   "title": "Policy and Disclosure: 2026 Edition",
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+   "source_id": "project_zero",
+   "published_at": "2026-11-13T08:00:00Z",
+   "fetched_at": "2026-11-14T01:23:26.006906Z",
+   "summary": "Google Project Zero publiceert details van lekken voortaan een vast aantal dagen na de melding, ook als er al een patch is. Die termijn daalt stap voor stap van 90 naar 30 dagen. De reden: AI maakt vinden en misbruiken sneller.",
+   "personal_relevance": "Bij klanten die patchen in maandelijkse cycli is dit een goed gespreksonderwerp: hoe snel kunnen ze reageren als details van een lek kort na de patch openbaar zijn?",
+   "limitations": [
+    "Of andere onderzoeksteams of leveranciers hun termijnen ook inkorten, is onbekend.",
+    "Of makers echt sneller gaan patchen, of vaker deadlines laten verlopen, moet nog blijken; makers wezen zelf op dat risico.",
+    "Het is het beleid van één team van Google; het geldt niet voor lekken die anderen melden."
+   ],
+   "official_docs": [
+    {
+     "label": "Project Zero: Policy and Disclosure: 2026 Edition",
+     "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+    },
+    {
+     "label": "Project Zero: huidige beleidspagina (90+30)",
+     "url": "https://projectzero.google/vulnerability-disclosure-policy.html"
+    }
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.96,
+    "source": 0.8,
+    "quality": 0.68,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-14T01:36:09Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen",
+   "story": [
+    "Google Project Zero, het team dat lekken zoekt in software van anderen, verandert zijn regels voor openbaarmaking. Sinds 2021 kreeg een maker 90 dagen voor een fix. Kwam die er, dan volgden nog 30 dagen voor de uitrol, voordat de details openbaar werden. Nu wordt het 'Full X': de details komen X dagen na de melding naar buiten, punt. Full 90 geldt vanaf 13 november 2026, Full 60 vanaf 2 februari 2027 en Full 30 vanaf 3 januari 2028. Extra uitstel (een grace period) verdwijnt.",
+    "Hoe werkt dit normaal? Bij gecoördineerde openbaarmaking meldt een onderzoeker een lek eerst vertrouwelijk aan de maker. Die krijgt tijd om een patch te maken. Daarna komen de details openbaar, zodat verdedigers begrijpen wat er speelt en makers niet eindeloos kunnen wachten. De 30 extra dagen waren bedoeld om gebruikers tijd te geven de patch te installeren, voordat aanvallers de details kenden.",
+    "Waarom verandert dat? Volgens Project Zero maken taalmodellen het vinden en misbruiken van lekken sneller. Daardoor is de kans groter dat ook kwaadwillenden hetzelfde lek vinden. Ook kunnen aanvallers een patch sneller terugrekenen naar het lek dat hij dicht (reverse engineering). De tijd tussen een patch en de installatie, de patch gap, is daardoor gevaarlijker geworden. 'Patch soak time is no longer meaningful', schrijft het team. Bovendien vindt Project Zero nu meerdere lekken per week, te veel om per geval te onderhandelen.",
+    "Wat betekent het? Actief misbruikte lekken vallen onder het aparte, strengere beleid van Google. Voor makers wordt snel patchen belangrijker, net als tijdelijke maatregelen als een patch nog niet klaar is. Voor organisaties en vulnerability management is de les: technische details komen sneller na een patch openbaar, soms al voordat iedereen heeft geïnstalleerd. Het venster om te patchen wordt dus korter."
+   ],
+   "key_facts": [
+    "Project Zero hanteerde sinds 2021 '90+30': 90 dagen voor een fix plus 30 dagen voor uitrol voordat details openbaar werden.",
+    "Nieuw beleid 'Full X': openbaarmaking X dagen na de melding; Full 90 vanaf 13 november 2026, Full 60 vanaf 2 februari 2027, Full 30 vanaf 3 januari 2028.",
+    "De grace period en het variantbeleid vervallen; Project Zero blijft bijhouden of een lek is gedicht, maar dat bepaalt de datum niet meer.",
+    "Uitzonderingen: actief misbruikte lekken (Google-beleid voor applicatiebeveiliging), lekken die al openbaar zijn en verzoeken van de maker zelf.",
+    "Redenen volgens Project Zero: taalmodellen versnellen het vinden en misbruiken van lekken en het terugrekenen van patches; het team vindt nu meerdere lekken per week.",
+    "De invoering is geleidelijk, omdat makers waarschuwden dat een plotselinge wijziging ongedichte lekken zou blootleggen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Het verschil in een rekenvoorbeeld. Oud: een patch op dag 47 betekende openbare details op dag 77. Nieuw (Full 30, vanaf 2028): details op dag 30, hoe snel de patch ook kwam. Wie pas na een maand patcht, loopt dan achter op de openbare details.",
+    "language": "text",
+    "code": "Oud beleid (90+30), patch op dag 47\n  dag  0  lek gemeld aan de maker\n  dag 47  patch verschijnt\n  dag 77  details openbaar (47 + 30)\n\nNieuw beleid (Full 30, vanaf 3 januari 2028), patch op dag 20\n  dag  0  lek gemeld aan de maker\n  dag 20  patch verschijnt\n  dag 30  details openbaar (vaste termijn)",
+    "note": "Het oude voorbeeld komt uit de beleidspagina van Project Zero; het nieuwe is een rekenvoorbeeld."
+   },
+   "terms": [
+    {
+     "term": "gecoördineerde openbaarmaking",
+     "explanation": "Afspraak waarbij een onderzoeker een lek eerst vertrouwelijk meldt aan de maker, en de details pas na een vaste termijn of een patch openbaar maakt (coordinated disclosure)."
+    },
+    {
+     "term": "taalmodellen",
+     "explanation": "AI-systemen die getraind zijn op grote hoeveelheden tekst en code, zoals de modellen achter chatbots. Ze kunnen ook code lezen en schrijven."
+    },
+    {
+     "term": "reverse engineering",
+     "explanation": "Uit een kant-en-klaar programma afleiden hoe het werkt. Bij een patch: vergelijken wat er veranderd is om te vinden welk lek is gedicht."
+    },
+    {
+     "term": "patch gap",
+     "explanation": "De tijd tussen het verschijnen van een patch en het moment dat systemen hem echt hebben. In die periode is het lek bekend maar nog niet overal gedicht."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "achtergrond",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; achtergrond over hoe lekken openbaar worden, nuttig voor vulnerability management."
+   },
+   "takeaway": "Een patch is ook een wegwijzer naar het lek. Hoe sneller aanvallers een patch kunnen terugrekenen, hoe korter de veilige tijd tussen het verschijnen en het installeren van die patch.",
+   "region": "world"
+  },
+  {
+   "id": "5df4bf07aed5",
+   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-13T10:55:03Z",
+   "fetched_at": "2026-11-14T01:23:29.055944Z",
+   "summary": "Politie uit onder meer Nederland, Duitsland, Denemarken en de VS nam 235 servers en 257 domeinen over en vond 6,4 miljoen gestolen inloggegevens. Via Check your hack kun je zien of jouw e-mailadres erin staat.",
+   "personal_relevance": "Een goed gespreksonderwerp bij klanten: controleren ze na zo'n takedown of gegevens van hun medewerkers in de buit zitten, en zetten ze de gepubliceerde IOC's in hun SIEM en threat intelligence?",
+   "limitations": [
+    "Schattingen van het aantal Gootloader-besmettingen lopen sterk uiteen: minstens 25.000 sinds 2018 volgens de VS, miljoenen sinds 2020 volgens de Duitse politie.",
+    "Hoe lang de verstoring standhoudt, is onbekend; StealC kwam na de actie in juni terug.",
+    "Het persbericht van Europol en de berichten van de politie zijn niet zelf geopend; de cijfers komen uit The Hacker News."
+   ],
+   "topics": [
+    "ransomware",
+    "threat_intelligence",
+    "malware"
+   ],
+   "groups": [
+    "incidenten",
+    "ti",
+    "aanvallen"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.97,
+    "source": 0.68,
+    "quality": 0.63,
+    "region": 0.02,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-14T01:36:09Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline",
+   "story": [
+    "Een internationale politieactie binnen Operation Endgame, met steun van Europol, heeft deze week de servers achter drie soorten malware offline gehaald: Gootloader, CastleRAT en StealC. In totaal gaat het om 235 servers en 257 domeinen. De Duitse politie (BKA) vond ongeveer 6,4 miljoen gestolen inloggegevens van meer dan 40.000 slachtoffers. Er zijn geen arrestaties gemeld. De Nederlandse politie onderzoekt de hoofdverdachte achter Gootloader verder.",
+    "Hoe werken deze drie? Gootloader is een loader: een eerste stukje malware dat andere malware binnenhaalt. Criminelen hackten websites, vaak WordPress-sites, en zetten daar nep-juridische documenten op. Met SEO poisoning lieten ze die pagina's hoog in zoekresultaten verschijnen. Wie zo'n document downloadde, haalde malware binnen. De toegang tot besmette computers werd doorverkocht aan ransomwaregroepen. Het Amerikaanse ministerie van Justitie koppelt Gootloader aan minstens 44 ransomwareslachtoffers en zo'n 28,8 miljoen dollar schade.",
+    "CastleRAT is een RAT: malware waarmee een aanvaller een computer op afstand bestuurt. StealC is een infostealer die wachtwoorden en andere inloggegevens steelt. StealC werd in juni al eens aangepakt, maar de makers verhuisden en kwamen terug. Een deel draaide op bulletproof hosting, die eind oktober zelf werd opgerold. Zo zie je de keten. De ene dienst zorgt voor de eerste toegang, de andere voor besturing en gestolen wachtwoorden. Een ransomwaregroep koopt die toegang.",
+    "Wat kun je doen? De Nederlandse politie zette gegevens die met CastleRAT zijn gestolen in de dienst Check your hack. Daar kun je een e-mailadres controleren; organisaties kunnen aansluiten bij No More Leaks. De gegevens gaan ook naar Have I Been Pwned en Shadowserver. Let op: de politie stuurt nooit e-mails met links, dus zo'n mail is nep. In Denemarken haalde de politie de schadelijke code van 681 websites. Het advies aan beheerders van WordPress-sites: unieke wachtwoorden, MFA, onbekende accounts verwijderen, alles bijwerken en /wp-admin alleen bereikbaar maken vanaf je eigen IP-adressen.",
+    "Voor organisaties betekent zo'n actie vooral nieuwe informatie. Staan gegevens van medewerkers in de buit, dan zijn die wachtwoorden en sessies niet meer te vertrouwen. Een takedown levert ook IOC's op, zoals domeinen en servers van de malware, die je in een SIEM kunt opzoeken. Maar de terugkeer van StealC laat zien dat zulke infrastructuur te vervangen is."
+   ],
+   "key_facts": [
+    "Operation Endgame (week van 13 november 2026, met steun van Europol): 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC in beslag genomen; geen arrestaties gemeld.",
+    "BKA: ongeveer 6,4 miljoen gestolen inloggegevens van meer dan 40.000 slachtoffers.",
+    "Gootloader: verspreid via nep-juridische documenten op gehackte (vaak WordPress-)sites en SEO poisoning; volgens het Amerikaanse ministerie van Justitie minstens 25.000 besmette computers sinds 2018, 44 ransomwareslachtoffers en zo'n 28,8 miljoen dollar schade.",
+    "Bij Gootloader 14 servers en 218 domeinen offline; de Deense politie (NSK) verwijderde de code van 681 websites; bij CastleRAT 120 servers en 39 domeinen.",
+    "StealC werd in juni al aangepakt en kwam terug; een deel draaide op bulletproof hosting Virtualine/Omegatech, eind oktober offline gehaald.",
+    "De Nederlandse politie zette CastleRAT-buit in Check your hack; gegevens gaan ook naar Have I Been Pwned en Shadowserver."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "loader",
+     "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend."
+    },
+    {
+     "term": "SEO poisoning",
+     "explanation": "Criminelen laten kwaadaardige pagina's hoog in zoekmachines verschijnen, zodat mensen er zelf op klikken in de veronderstelling dat het een betrouwbaar resultaat is."
+    },
+    {
+     "term": "RAT",
+     "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken."
+    },
+    {
+     "term": "infostealer",
+     "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+    },
+    {
+     "term": "bulletproof hosting",
+     "explanation": "Een hostingbedrijf dat criminelen bewust laat werken en klachten of verzoeken van politie negeert. Een soort schuilplaats voor kwaadaardige servers."
+    },
+    {
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+   ],
+   "soort": "incident",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; politieactie met uitleg van de ransomwareketen en een Nederlandse dienst om te checken."
+   },
+   "takeaway": "Ransomware begint vaak bij losse criminele diensten: een loader voor de eerste toegang, een RAT voor besturing en een infostealer voor wachtwoorden. Wie die vroege stappen ziet, kan de ransomware nog voor zijn.",
+   "region": "eu"
+  },
+  {
    "id": "df100ad46108",
    "title": "Ivanti dicht actief aangevallen lekken in Connect Secure vpn-servers",
    "url": "https://www.security.nl/posting/959931/Ivanti+dicht+actief+aangevallen+lekken+in+Connect+Secure+vpn-servers?channel=rss",
@@ -1642,7 +2031,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.0
@@ -1742,7 +2131,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.68,
     "quality": 0.7,
     "region": 0.02,
@@ -3046,323 +3435,6 @@
    "region": "world"
   },
   {
-   "id": "a40dff3d749a",
-   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-06T15:21:49Z",
-   "fetched_at": "2026-11-07T01:23:05.552825Z",
-   "summary": "Door een fout in OpenSSH kan een aanvaller met een extreem lang wachtwoord inloggen op accounts die helemaal geen wachtwoord hebben. Een lokserver met Alpine Linux werd binnen negen uur na publicatie overgenomen.",
-   "personal_relevance": "Klanten met Linux-servers of containers op Alpine kunnen dit missen als hun scanner alleen naar versienummers kijkt. Een goede vraag: weten jullie welke systemen Alpine draaien en of daar SSH vanaf internet bereikbaar is?",
-   "limitations": [
-    "Het artikel noemt niet welke OpenSSH-versies precies kwetsbaar zijn.",
-    "Of het lek op de KEV-lijst van CISA staat, staat niet in het artikel.",
-    "Het enige gemelde misbruik is op één honeypot; hoeveel echte systemen getroffen zijn, is niet bekend.",
-    "Wie achter de pogingen zit, is niet bekend.",
-    "Of andere distributies op musl ook kwetsbaar zijn, staat niet in het artikel."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.69,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:34:40Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt",
-   "story": [
-    "Aanvallers probeerden binnen negen uur na publicatie een nieuw lek in OpenSSH te misbruiken, meldt het threat-intelligencebedrijf Previdian. Het lek heet SSHole (CVE-2026-123158, CVSS 8,1). Op een honeypot met Alpine Linux kreeg de aanvaller rootrechten. Daarna voerde hij alleen verkenningsopdrachten uit, zoals id, uname en hostname.",
-    "Eerst de normale werking. OpenSSH is de standaardsoftware om op afstand in te loggen op Linux-servers. Bij inloggen met een wachtwoord berekent de server een hash van wat je intypt. Die vergelijkt hij met de hash in de gebruikersadministratie. Accounts waarop wachtwoordinlog uit staat, hebben daar geen hash maar een sterretje: '*'. Zo kan niemand met een wachtwoord inloggen op bijvoorbeeld een account dat alleen sleutels gebruikt.",
-    "Hier zit de fout. Mislukt het berekenen van de hash, dan geeft de functie ook een '*' terug. OpenSSH vergelijkt die '*' met de '*' van het account, ziet twee gelijke waarden en laat de aanvaller binnen. Een extreem lang wachtwoord, van 257 tot 1.024 tekens, laat de berekening mislukken. De fout kwam binnen met een patch uit 2016 voor een ander lek. Het gaat alleen mis bij OpenSSH op de musl-bibliotheek zonder PAM, zoals in de standaardinstelling van Alpine Linux.",
-    "Oplossen kan met OpenSSH 10.6p2 of het bijgewerkte pakket van je distributie, gevolgd door een herstart van sshd. Systemen met glibc, zoals de meeste andere Linux-distributies, zijn niet kwetsbaar, en systemen die PAM gebruiken ook niet. Alpine adviseert in /var/log/messages te zoeken naar 'Accepted password for' bij accounts die geen wachtwoordinlog horen te hebben. Kun je een inlog niet uitsluiten, behandel de machine dan als gehackt.",
-    "Waarom is dit urgent, ondanks de beperkte groep systemen? Er is geen wachtwoord of account nodig: de aanvaller krijgt direct de rechten van het account, bij root dus alles. En aanvallers waren er binnen uren bij. Voor vulnerability management betekent dit: kijk niet alleen naar de versie van OpenSSH, maar ook naar hoe het is gebouwd en ingesteld."
-   ],
-   "key_facts": [
-    "CVE-2026-123158 (CVSS 8,1), bijnaam SSHole, werd gevonden door onderzoeker Ozgun Kultekin.",
-    "Previdian zag de eerste poging minder dan negen uur na publicatie van de CVE, telde acht pogingen vanaf één IP-adres en bevestigde rootrechten op een honeypot met Alpine Linux en OpenSSH.",
-    "Na het inloggen voerde de aanvaller id, uname en hostname uit via niet-interactieve SSH-sessies.",
-    "Oorzaak: een patch uit 2016 voor CVE-2016-6210 laat een mislukte hashberekening '*' teruggeven, dezelfde waarde als accounts zonder wachtwoordinlog; een wachtwoord van 257 tot 1.024 bytes veroorzaakt die mislukking.",
-    "Getroffen: OpenSSH gebouwd op musl met PAM uit, waaronder de standaardinstelling van Alpine Linux; niet getroffen: glibc-distributies, systemen met PAM, Dropbear en niet-Linux-systemen.",
-    "Opgelost in OpenSSH 10.6p2; Alpine adviseert /var/log/messages te doorzoeken op 'Accepted password for' bij accounts zonder wachtwoordinlog."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo ziet een geslaagde wachtwoordinlog eruit in /var/log/messages op Alpine. Staat hier 'Accepted password' bij root of een account dat alleen sleutels gebruikt, dan is dat verdacht.",
-    "language": "log",
-    "code": "Nov  6 03:12:44 web01 sshd[2311]: Accepted password for root from 203.0.113.10 port 51522 ssh2\nNov  6 09:01:10 web01 sshd[2490]: Accepted publickey for beheer from 198.51.100.7 port 40112 ssh2",
-    "note": "Nagebouwd voorbeeld met voorbeeldadressen. Alpine noemt de zoekterm 'Accepted password for'."
-   },
-   "terms": [
-    {
-     "term": "honeypot",
-     "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen."
-    },
-    {
-     "term": "hash",
-     "explanation": "Een soort vingerafdruk van gegevens, berekend met een vaste formule. Uit de hash kun je het origineel niet direct terugrekenen, maar dezelfde invoer geeft altijd dezelfde hash."
-    },
-    {
-     "term": "musl",
-     "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc."
-    },
-    {
-     "term": "PAM",
-     "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH."
-    },
-    {
-     "term": "sshd",
-     "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een lek met een heldere technische oorzaak en concrete logtips."
-   },
-   "takeaway": "Een controle die een foutwaarde verwart met een geldige waarde, opent de deur. Hier zag OpenSSH een mislukte berekening aan voor 'geen wachtwoord', en liet daardoor iedereen binnen.",
-   "region": "world"
-  },
-  {
-   "id": "7bdf0c6dc5dc",
-   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-09T14:31:29Z",
-   "fetched_at": "2026-11-10T07:41:52.163107Z",
-   "summary": "Fortinet beschrijft PapRAT, nieuwe spionagemalware van de Zuid-Aziatische groep Bitter. De aanvallers komen binnen via snelkoppelingen en gebruiken vooral ingebouwde Windows-programma's, zodat er weinig verdachte bestanden zijn.",
-   "personal_relevance": "Klanten met detectie op basis van bekende malware vragen of dat genoeg is. Dit is een helder voorbeeld waarom detectie op gedrag nodig is: hier gebruikt de aanvaller vooral Windows' eigen programma's.",
-   "limitations": [
-    "Fortinet noemt geen specifieke landen of getroffen organisaties.",
-    "Hoe de bestanden bij de slachtoffers terechtkwamen (bijvoorbeeld per mail), staat niet precies in de bronnen.",
-    "De toeschrijving aan Bitter komt van Fortinet; Bitter wordt als Zuid-Aziatisch omschreven zonder een land te noemen.",
-    "Fortinet is een securityleverancier en noemt in het onderzoek ook eigen beschermingsproducten."
-   ],
-   "official_docs": [
-    {
-     "label": "FortiGuard Labs: BITTER Expands Its Arsenal with PapRAT",
-     "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
-    }
-   ],
-   "topics": [
-    "attack_techniques",
-    "siem_detection",
-    "threat_intelligence",
-    "malware"
-   ],
-   "groups": [
-    "aanvallen",
-    "detectie",
-    "ti"
-   ],
-   "relevance_score": 88,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.8,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-12T05:15:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT",
-   "story": [
-    "Onderzoekers van Fortinet beschrijven een nieuwe campagne van Bitter, een spionagegroep uit Zuid-Azië die sinds minstens 2013 actief is. Nieuw is PapRAT, een RAT in twee versies: één in C++ en één in Rust. De doelwitten zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
-    "Hoe komen ze binnen? Fortinet zag drie routes, steeds met een bestand dat het slachtoffer zelf opent. Een LNK-bestand is een Windows-snelkoppeling: dubbelklikken start een programma, en de maker bepaalt welk. In één route zit de snelkoppeling in een VHDX, een virtuele schijf die Windows met een dubbelklik opent. Het slachtoffer ziet een Excel-lokdocument. Op de achtergrond installeert een MSI-pakket stil PapRAT.",
-    "Opvallend is de aanpak 'living off the land': zoveel mogelijk werken met programma's die al op Windows staan. In de eerste route komt er geen eigen malwarebestand aan te pas. De snelkoppeling start het ingebouwde ftp.exe, dat via de opdrachtregel een script draait. Dat script verzamelt mappen, bestanden, antivirusgegevens en schijven, stuurt het met curl weg en wist het daarna. Een geplande taak met een naam die op een Microsoft-update lijkt, zorgt dat het blijft terugkomen.",
-    "PapRAT zelf kan opdrachten uitvoeren, bestanden ophalen en wegzetten, mappen doorzoeken en schermafbeeldingen maken. De Rust-versie kan ook PowerShell draaien. De malware vraagt elke paar seconden bij zijn C2-server om nieuwe opdrachten. Via PapRAT haalden de aanvallers ook WmRAT binnen, een oudere RAT van Bitter.",
-    "Hoe zie je het? Fortinet raadt aan om niet alleen op bekende handtekeningen te letten, maar op gedrag: scripttools, geplande taken en installaties. In een SIEM vallen bijvoorbeeld op: ftp.exe dat de opdrachtregel start en msiexec dat stil iets installeert. Ook een computer die steeds met korte tussenpozen dezelfde server aanroept, is verdacht. Voor organisaties is de les dat een aanval zonder 'echte' malware op schijf alleen zichtbaar wordt als je logt wát programma's doen."
-   ],
-   "key_facts": [
-    "FortiGuard Labs (onderzoeker Cara Lin) publiceerde het onderzoek op 2 november 2026; The Hacker News schreef erover op 9 november 2026. Fortinet schrijft de campagne met hoge zekerheid toe aan Bitter (ook APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, TA397).",
-    "Bitter is volgens Fortinet een vermoedelijk Zuid-Aziatische spionagegroep, actief sinds minstens 2013; doelwitten in deze campagne zijn organisaties in Zuid-Azië, vooral overheid, energie en engineering.",
-    "Drie infectieketens: een LNK-bestand dat ftp.exe misbruikt om scripts te draaien en geplande taken te maken; een VHDX-schijfimage met een LNK, een lokspreadsheet en een MSI-installer; en een .url-bestand dat via WebDAV een LNK ophaalt die tot een MSI met PapRAT leidt.",
-    "PapRAT bestaat in C++ en Rust; de C++-versie heeft 8 opdrachten (o.a. shell, bestanden, schijven, screenshot, upload, download), de Rust-versie 11, waaronder PowerShell-uitvoering.",
-    "De C++-versie praat via onversleuteld HTTP met een vaste C2-server (elke 10 seconden); de Rust-versie via HTTPS (elke 5 seconden). Via PapRAT werd ook WmRAT gedownload.",
-    "Persistentie via geplande taken met namen die op Microsoft- of BIOS-updates lijken, met intervallen van 15, 30 of 49 minuten. Fortinet adviseert scripttools, geplande taken en installer-activiteit te bewaken en voorzichtig te zijn met onverwachte LNK-, URL-, schijfimage- en MSI-bestanden."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een eenvoudige Sigma-detectieregel voor één stap uit deze aanval. 'logsource' zegt dat we kijken naar het starten van processen op Windows. 'selection' zoekt een opdrachtregel (cmd.exe) waarvan het ouderproces ftp.exe is. Dat komt in normaal gebruik zelden voor; 'level: high' maakt er een melding met hoge prioriteit van.",
-    "language": "sigma",
-    "code": "title: Opdrachtregel gestart door ftp.exe\nstatus: experimental\ndescription: ftp.exe start zelden andere programma's; bij de PapRAT-campagne liep zo een script\nlogsource:\n  category: process_creation\n  product: windows\ndetection:\n  selection:\n    ParentImage|endswith: '\\ftp.exe'\n    Image|endswith: '\\cmd.exe'\n  condition: selection\nlevel: high",
-    "note": "Nagebouwde, vereenvoudigde regel op basis van de beschrijving van Fortinet; niet getest in een echte omgeving."
-   },
-   "terms": [
-    {
-     "term": "RAT",
-     "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken."
-    },
-    {
-     "term": "LNK-bestand",
-     "explanation": "Een Windows-snelkoppeling. Bij dubbelklikken start het een programma met opdrachten die de maker kiest, dus ook iets heel anders dan het pictogram doet vermoeden."
-    },
-    {
-     "term": "VHDX",
-     "explanation": "Een bestand dat een complete virtuele harde schijf bevat. Windows opent het met een dubbelklik als extra schijf, zodat de bestanden erin direct zichtbaar zijn."
-    },
-    {
-     "term": "MSI-pakket",
-     "explanation": "Een Windows-installatiebestand. Het kan ook stil installeren, zonder dat de gebruiker een venster ziet."
-    },
-    {
-     "term": "living off the land",
-     "explanation": "Een aanpak waarbij een aanvaller vooral programma's gebruikt die al op het systeem staan, zoals PowerShell of curl. Er is dan weinig eigen malware om te ontdekken."
-    },
-    {
-     "term": "geplande taak",
-     "explanation": "Een Windows-functie die een programma automatisch op vaste tijden start. Aanvallers gebruiken het om hun malware na een herstart weer te laten draaien."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; malware-onderzoek met een uitgewerkte infectieketen en detectie op gedrag."
-   },
-   "takeaway": "Bij 'living off the land' misbruikt een aanvaller ingebouwde programma's zoals ftp.exe, curl en geplande taken. Je herkent het niet aan een bestand, maar aan ongewoon gedrag: wie start wat, wanneer en hoe vaak.",
-   "region": "world"
-  },
-  {
-   "id": "a665869d02d2",
-   "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-   "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-05T07:06:33Z",
-   "fetched_at": "2026-11-05T18:27:30.712169Z",
-   "summary": "Aanvallers braken in augustus in bij 996 Zyxel GS1900-switches. Onderzoeker Binarly ontdekte dat hun exploit ook werkt op de eerdere patch. Zyxel bracht nu Patch 3 uit voor tien modellen.",
-   "personal_relevance": "Klanten vertrouwen vaak op 'patch geïnstalleerd' als eindpunt. Dit voorbeeld helpt om te vragen of hun vulnerability management ook bijhoudt wanneer een eerdere patch onvoldoende blijkt, en of netwerkapparatuur op standaardwachtwoorden wordt gecontroleerd.",
-   "limitations": [
-    "Niet bekend is welke firmware de gehackte switches hadden en of daar Patch 2 op stond.",
-    "Binarly houdt twee verklaringen open: Patch 2 was een gebrekkige reparatie, of de aanvallers gebruikten een ander lek dan het lek dat CISA noemt.",
-    "Hoe je een al gehackte switch controleert en of een update de aanvaller verwijdert, staat niet in het advies.",
-    "Binarly is een commercieel securitybedrijf en zegt binnenkort een kleinere proof of concept te publiceren; dat kan misbruik makkelijker maken."
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "vulnerabilities_cve",
-    "edge_devices"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "vm"
-   ],
-   "relevance_score": 87,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.65,
-    "source": 0.68,
-    "quality": 0.77,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:31:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3",
-   "story": [
-    "Zyxel GS1900-switches verbinden computers in kleine en middelgrote netwerken. Rond 17 augustus 2026 haalden aanvallers gegevens weg van 996 van deze switches, meldde GreyNoise. Ze namen configuraties, gehashte rootwachtwoorden en netwerkinformatie mee. Onderzoeker Binarly vond de exploit op een server van de aanvallers. Die blijkt ook te werken op switches met de eerdere patch, 2.90 Patch 2.",
-    "Hoe werkt het lek? Je beheert de switch via een webinterface. Een programma op de switch leest elk webverzoek en zet de onderdelen ervan, de parameters, in een vast stuk geheugen met plek voor 140 stuks. Het controleerde niet hoe groot een parameter was. Een te grote 140e parameter loopt over de rand en overschrijft de teller die bijhoudt hoeveel parameters er zijn. Zo'n buffer overflow laat de aanvaller een functie vervangen door een eigen opdracht, die als root draait. Inloggen is niet nodig.",
-    "Waarom faalde Patch 2? Zyxel voegde een controle op de teller toe. Maar die controle kwam pas nadat de te grote parameter al was gekopieerd. De teller had dan al de waarde van de aanvaller. Patch 3 controleert eerst en beperkt ook de grootte. Het restlek heeft een eigen nummer: CVE-2026-107441. Het eerste lek, CVE-2026-7273, staat sinds 21 september op de KEV-lijst.",
-    "Wat moet je doen? Installeer Patch 3 voor het juiste model; er is geen tijdelijke oplossing. Verstandig is ook om de webinterface alleen bereikbaar te maken vanuit een beheernetwerk, al zegt de bron dat niet expliciet. Let op: 564 van de 996 gehackte switches gebruikten nog het standaardwachtwoord. Of een update een aanvaller die al binnen is ook verwijdert, zeggen Zyxel en Binarly niet.",
-    "Voor vulnerability management is dit een belangrijke les: 'gepatcht' betekent niet altijd 'veilig'. Een scanner die alleen kijkt of Patch 2 erop staat, meldt deze switches ten onrechte als in orde. Volgens GreyNoise hangen de aanvallers samen met Red Heron, een Chineessprekende groep die Acronis volgt."
-   ],
-   "key_facts": [
-    "GreyNoise meldde op 21 september dat aanvallers rond 17 augustus 2026 gegevens weghaalden van 996 GS1900-switches: configuraties, gehashte rootwachtwoorden en netwerkinformatie; 564 switches gebruikten nog standaardinloggegevens.",
-    "CVE-2026-7273 (advies 16 juni, opgelost in 2.90 Patch 2) staat sinds 21 september 2026 in CISA KEV.",
-    "Binarly vond de exploit op 17 september op een server die ook als commandoserver voor de JITTERLY-achterdeur diende, meldde het lek op 29 september bij Zyxel en zag dat de exploit ongewijzigd werkt tegen Patch 2.",
-    "Het nieuwe lek CVE-2026-107441 is een out-of-bounds write in de verwerking van webverzoeken: geen controle op de grootte van parameters, en de controle op het aantal komt pas na het kopiëren. Binarly geeft CVSS 9,8, NVD 8,8.",
-    "Zyxel bracht op 23 oktober 2.90 Patch 3 uit voor tien GS1900-modellen; er is geen workaround. Of CVE-2026-107441 zelf in het wild is misbruikt, zegt Zyxel niet.",
-    "GreyNoise koppelt de aanvallers aan Red Heron, een Chineessprekende groep die Acronis volgt."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een vulnerability scanner deze switches tonen. Een switch op Patch 2 was na de eerste fix 'in orde', maar is nu weer kwetsbaar. Alleen de Patch 3-firmware (.3) is veilig.",
-    "language": "text",
-    "code": "Zoekopdracht: Zyxel GS1900, firmware 2.90 lager dan Patch 3",
-    "note": "Nagebouwd voorbeeld met verzonnen apparaten. De firmwarenummers van Patch 2 en Patch 3 komen uit het advies van Zyxel; de andere versie is verzonnen.",
-    "result": {
-     "columns": [
-      "Apparaat",
-      "Model",
-      "Firmware",
-      "Status"
-     ],
-     "rows": [
-      [
-       "sw-kantoor-01",
-       "GS1900-24",
-       "2.90(AAHL.2)C0",
-       "Kwetsbaar (CVE-2026-107441)"
-      ],
-      [
-       "sw-magazijn-02",
-       "GS1900-8HP",
-       "2.90(AAHI.1)C0",
-       "Kwetsbaar (CVE-2026-7273 en CVE-2026-107441)"
-      ],
-      [
-       "sw-receptie-03",
-       "GS1900-16",
-       "2.90(AAHJ.3)C0",
-       "Opgelost"
-      ]
-     ]
-    }
-   },
-   "terms": [
-    {
-     "term": "switches",
-     "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen."
-    },
-    {
-     "term": "webinterface",
-     "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver."
-    },
-    {
-     "term": "buffer overflow",
-     "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma."
-    },
-    {
-     "term": "root",
-     "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; concrete technische uitleg van een misbruikt lek en een mislukte patch."
-   },
-   "takeaway": "Een patch kan een lek maar half dichten, bijvoorbeeld als een controle op de verkeerde plek staat. Controleer bij misbruikte lekken of er een nieuwere fix is, ook als je al gepatcht had.",
-   "region": "world"
-  },
-  {
    "id": "f8af8b71c7c1",
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -4081,7 +4153,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.71,
+    "recency": 0.7,
     "source": 0.68,
     "quality": 0.63,
     "fit": 0.0
@@ -6207,7 +6279,6 @@
    ],
    "article_ids": [
     "ff63fc905db0",
-    "a665869d02d2",
     "df100ad46108",
     "7b72d51a9df2"
    ],
@@ -6526,13 +6597,13 @@
    ]
   },
   {
-   "term": "buffer overflow",
-   "explanation": "Een fout waarbij een programma meer gegevens in een stuk geheugen schrijft dan erin past. Het teveel overschrijft wat ernaast staat, soms zelfs instructies van het programma.",
+   "term": "bulletproof hosting",
+   "explanation": "Een hostingbedrijf dat criminelen bewust laat werken en klachten of verzoeken van politie negeert. Een soort schuilplaats voor kwaadaardige servers.",
    "refs": [
     {
      "kind": "a",
-     "id": "a665869d02d2",
-     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
     }
    ]
   },
@@ -6544,6 +6615,17 @@
      "kind": "a",
      "id": "08252db330fb",
      "title": "Talos: aanvallers bellen als 'IT-helpdesk', ransomware neemt toe"
+    }
+   ]
+  },
+  {
+   "term": "C-extensies",
+   "explanation": "Uitbreidingen van PostgreSQL die in de programmeertaal C zijn geschreven en tot een programma zijn omgezet. Ze draaien in de database zelf en moeten passen bij de versie van de kern.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "e05f7a78ce38",
+     "title": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout"
     }
    ]
   },
@@ -6974,6 +7056,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "e05f7a78ce38",
+     "title": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout"
+    },
+    {
+     "kind": "a",
      "id": "ce55129e00e3",
      "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
     }
@@ -7068,6 +7155,17 @@
    ]
   },
   {
+   "term": "gecoördineerde openbaarmaking",
+   "explanation": "Afspraak waarbij een onderzoeker een lek eerst vertrouwelijk meldt aan de maker, en de details pas na een vaste termijn of een patch openbaar maakt (coordinated disclosure).",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1838248a60d9",
+     "title": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen"
+    }
+   ]
+  },
+  {
    "term": "geheugenbeschadiging",
    "explanation": "Een fout waardoor software gegevens in het geheugen op de verkeerde plek leest of schrijft. Vaak de basis voor het uitvoeren van code door een aanvaller.",
    "refs": [
@@ -7080,13 +7178,8 @@
   },
   {
    "term": "geplande taak",
-   "explanation": "Een Windows-functie die een programma automatisch op vaste tijden start. Aanvallers gebruiken het om hun malware na een herstart weer te laten draaien.",
+   "explanation": "Een taak die Windows automatisch op vaste momenten of bij het opstarten uitvoert. Aanvallers gebruiken die om hun software steeds opnieuw te laten draaien.",
    "refs": [
-    {
-     "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
-    },
     {
      "kind": "a",
      "id": "0eb55bf1598e",
@@ -7137,11 +7230,6 @@
     },
     {
      "kind": "a",
-     "id": "a40dff3d749a",
-     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
-    },
-    {
-     "kind": "a",
      "id": "350327fdd7cd",
      "title": "Chainalysis: gegevens van alle gebruikers buitgemaakt, ook tokens"
     }
@@ -7176,17 +7264,6 @@
      "kind": "a",
      "id": "0968634953ed",
      "title": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto"
-    }
-   ]
-  },
-  {
-   "term": "honeypot",
-   "explanation": "Een lokserver die verdedigers expres neerzetten om aanvallers te lokken en te zien wat ze doen.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "a40dff3d749a",
-     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
     }
    ]
   },
@@ -7234,6 +7311,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
+    },
+    {
+     "kind": "a",
      "id": "9398616ade4d",
      "title": "Misbruikt lek in Xen Orchestra: lege cookie geeft beheerdersrechten"
     }
@@ -7267,6 +7349,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
+    },
+    {
+     "kind": "a",
      "id": "94ac3c3bdec2",
      "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
     },
@@ -7278,9 +7365,25 @@
    ]
   },
   {
+   "term": "initial access broker",
+   "explanation": "Een criminele tussenpersoon die inbreekt bij organisaties en die toegang doorverkoopt, bijvoorbeeld aan ransomwaregroepen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
+    }
+   ]
+  },
+  {
    "term": "IOC's",
    "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
+    },
     {
      "kind": "a",
      "id": "30b15a7c5706",
@@ -7370,11 +7473,6 @@
     },
     {
      "kind": "a",
-     "id": "a665869d02d2",
-     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
-    },
-    {
-     "kind": "a",
      "id": "ff63fc905db0",
      "title": "Misbruikt lek in SonicWall-vpn omzeilt SAML-inlog en mogelijk MFA"
     },
@@ -7382,6 +7480,11 @@
      "kind": "a",
      "id": "ce55129e00e3",
      "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
+    },
+    {
+     "kind": "v",
+     "id": "cve-cvss-epss-kev",
+     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -7456,17 +7559,6 @@
    ]
   },
   {
-   "term": "living off the land",
-   "explanation": "Een aanpak waarbij een aanvaller vooral programma's gebruikt die al op het systeem staan, zoals PowerShell of curl. Er is dan weinig eigen malware om te ontdekken.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
-    }
-   ]
-  },
-  {
    "term": "LLMJacking",
    "explanation": "Het kapen van de toegang van een organisatie tot AI-taalmodellen in de cloud, zodat de aanvaller ze gebruikt of doorverkoopt en het slachtoffer betaalt.",
    "refs": [
@@ -7479,13 +7571,8 @@
   },
   {
    "term": "LNK-bestand",
-   "explanation": "Een Windows-snelkoppeling. Bij dubbelklikken start het een programma met opdrachten die de maker kiest, dus ook iets heel anders dan het pictogram doet vermoeden.",
+   "explanation": "Een Windows-snelkoppeling. Die kan een opdracht starten en een willekeurig pictogram tonen, bijvoorbeeld dat van een pdf.",
    "refs": [
-    {
-     "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
-    },
     {
      "kind": "a",
      "id": "892b2bea5cd6",
@@ -7497,6 +7584,11 @@
    "term": "loader",
    "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
+    },
     {
      "kind": "a",
      "id": "6852a83cc063",
@@ -7615,11 +7707,6 @@
      "kind": "a",
      "id": "daa356fef18a",
      "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
-    },
-    {
-     "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
     }
    ]
   },
@@ -7631,17 +7718,6 @@
      "kind": "a",
      "id": "daa356fef18a",
      "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
-    }
-   ]
-  },
-  {
-   "term": "musl",
-   "explanation": "Een kleine C-bibliotheek: basiscode waarop programma's op Linux steunen. Alpine Linux gebruikt musl, de meeste andere distributies gebruiken glibc.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "a40dff3d749a",
-     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
     }
    ]
   },
@@ -7766,17 +7842,6 @@
    ]
   },
   {
-   "term": "PAM",
-   "explanation": "Pluggable Authentication Modules: een Linux-onderdeel dat het controleren van wachtwoorden en andere inlogregels regelt voor programma's zoals SSH.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "a40dff3d749a",
-     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
-    }
-   ]
-  },
-  {
    "term": "passkeys",
    "explanation": "Een inlogmethode zonder wachtwoord: je apparaat bewaart een geheime sleutel en bewijst daarmee wie je bent, bijvoorbeeld na je vingerafdruk.",
    "refs": [
@@ -7800,6 +7865,17 @@
      "kind": "a",
      "id": "df100ad46108",
      "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
+    }
+   ]
+  },
+  {
+   "term": "patch gap",
+   "explanation": "De tijd tussen het verschijnen van een patch en het moment dat systemen hem echt hebben. In die periode is het lek bekend maar nog niet overal gedicht.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1838248a60d9",
+     "title": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen"
     }
    ]
   },
@@ -7901,6 +7977,17 @@
    ]
   },
   {
+   "term": "PL/pgSQL",
+   "explanation": "De ingebouwde programmeertaal van PostgreSQL. Ontwikkelaars schrijven er functies mee die in de database zelf draaien.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "e05f7a78ce38",
+     "title": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout"
+    }
+   ]
+  },
+  {
    "term": "poort",
    "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites.",
    "refs": [
@@ -7987,8 +8074,8 @@
    "refs": [
     {
      "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
     },
     {
      "kind": "a",
@@ -8017,6 +8104,11 @@
    "term": "rechtenverhoging",
    "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation).",
    "refs": [
+    {
+     "kind": "a",
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
+    },
     {
      "kind": "a",
      "id": "1acaa8e77a2e",
@@ -8054,6 +8146,17 @@
      "kind": "a",
      "id": "875e59480304",
      "title": "Nep-installers voor gekraakte software maken van je pc een verdienmodel"
+    }
+   ]
+  },
+  {
+   "term": "reverse engineering",
+   "explanation": "Uit een kant-en-klaar programma afleiden hoe het werkt. Bij een patch: vergelijken wat er veranderd is om te vinden welk lek is gedicht.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1838248a60d9",
+     "title": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen"
     }
    ]
   },
@@ -8137,11 +8240,6 @@
     },
     {
      "kind": "a",
-     "id": "a665869d02d2",
-     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
-    },
-    {
-     "kind": "a",
      "id": "d0e0e442d471",
      "title": "Spionage op Linux-servers van overheden, met AI-achtige scripts"
     },
@@ -8154,6 +8252,11 @@
      "kind": "a",
      "id": "d2cce75fefaf",
      "title": "DIVD gehackt via twee zero-days in helpdesksoftware Zammad"
+    },
+    {
+     "kind": "a",
+     "id": "df100ad46108",
+     "title": "Drie zero-days in Ivanti-vpn samen gebruikt om root te worden"
     }
    ]
   },
@@ -8263,6 +8366,17 @@
      "kind": "a",
      "id": "63cbf25606a5",
      "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
+    }
+   ]
+  },
+  {
+   "term": "SEO poisoning",
+   "explanation": "Criminelen laten kwaadaardige pagina's hoog in zoekmachines verschijnen, zodat mensen er zelf op klikken in de veronderstelling dat het een betrouwbaar resultaat is.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "5df4bf07aed5",
+     "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
     }
    ]
   },
@@ -8392,13 +8506,13 @@
    ]
   },
   {
-   "term": "sshd",
-   "explanation": "Het serverprogramma van OpenSSH dat inlogpogingen ontvangt en controleert. Na een update moet je het herstarten voordat de fix werkt.",
+   "term": "socket",
+   "explanation": "Een aansluitpunt waarlangs programma's berichten naar elkaar sturen, op hetzelfde apparaat of via het netwerk. Wie erbij kan, kan het programma erachter opdrachten geven.",
    "refs": [
     {
      "kind": "a",
-     "id": "a40dff3d749a",
-     "title": "SSHole: lek in OpenSSH op Alpine Linux binnen uren misbruikt"
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
     }
    ]
   },
@@ -8473,17 +8587,6 @@
    ]
   },
   {
-   "term": "switches",
-   "explanation": "Netwerkapparaten die computers, printers en andere apparaten binnen een netwerk met elkaar verbinden en het verkeer naar de juiste aansluiting sturen.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "a665869d02d2",
-     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
-    }
-   ]
-  },
-  {
    "term": "symbolische koppeling",
    "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven.",
    "refs": [
@@ -8540,6 +8643,17 @@
      "kind": "a",
      "id": "bee0f7d9c4fe",
      "title": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket"
+    }
+   ]
+  },
+  {
+   "term": "taalmodellen",
+   "explanation": "AI-systemen die getraind zijn op grote hoeveelheden tekst en code, zoals de modellen achter chatbots. Ze kunnen ook code lezen en schrijven.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "1838248a60d9",
+     "title": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen"
     }
    ]
   },
@@ -8641,6 +8755,17 @@
    ]
   },
   {
+   "term": "type confusion",
+   "explanation": "Een fout waarbij software gegevens van het ene type leest alsof het een ander type is. Zo kan een getal per ongeluk als geheugenadres worden gebruikt, wat een aanvaller kan misbruiken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "e05f7a78ce38",
+     "title": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout"
+    }
+   ]
+  },
+  {
    "term": "UAC",
    "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik.",
    "refs": [
@@ -8708,17 +8833,6 @@
      "kind": "a",
      "id": "63cbf25606a5",
      "title": "Open-source AI-pentesttool AntiFox gebruikt bij aanvallen op web en AWS"
-    }
-   ]
-  },
-  {
-   "term": "VHDX",
-   "explanation": "Een bestand dat een complete virtuele harde schijf bevat. Windows opent het met een dubbelklik als extra schijf, zodat de bestanden erin direct zichtbaar zijn.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "7bdf0c6dc5dc",
-     "title": "Spionagegroep Bitter gebruikt snelkoppelingen en Windows-tools voor PapRAT"
     }
    ]
   },
@@ -8794,17 +8908,6 @@
    ]
   },
   {
-   "term": "webinterface",
-   "explanation": "Een beheerpagina in de browser waarmee je een apparaat instelt. Het apparaat draait daarvoor zelf een kleine webserver.",
-   "refs": [
-    {
-     "kind": "a",
-     "id": "a665869d02d2",
-     "title": "Patch voor misbruikt lek in Zyxel-switches hielp niet; nu Patch 3"
-    }
-   ]
-  },
-  {
    "term": "webmail-doorstuurregels",
    "explanation": "Instellingen in een mailbox die berichten automatisch naar een ander adres sturen. Aanvallers gebruiken ze om ongemerkt mee te lezen.",
    "refs": [
@@ -8852,6 +8955,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
+    },
+    {
+     "kind": "a",
      "id": "0eb55bf1598e",
      "title": "Back-upserver gehackt: achterdeur werkt alleen op het eigen slachtoffer"
     }
@@ -8865,6 +8973,17 @@
      "kind": "a",
      "id": "ce0b470d4dea",
      "title": "SAP dicht vier lekken met de maximale score 10.0, inloggen niet nodig"
+    }
+   ]
+  },
+  {
+   "term": "wiper",
+   "explanation": "Malware die gegevens vernietigt in plaats van ze te versleutelen of te stelen. Er is geen sleutel om iets terug te krijgen; alleen een back-up helpt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "c0eea237828e",
+     "title": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist"
     }
    ]
   },
@@ -9223,31 +9342,32 @@
   "fetched_items": 310,
   "unique_after_dedupe": 677,
   "merged_duplicates": 1,
-  "shown": 52,
+  "shown": 53,
   "decisions": {
-   "included": 264,
+   "included": 260,
    "below_threshold": 174,
    "no_topic": 174,
    "excluded": 58,
-   "source_cap": 7
+   "source_cap": 11
   },
   "processing": {
-   "enriched": 52
+   "enriched": 53
   },
   "without_date": 0,
   "per_group": {
    "ti": 6,
    "kwetsbaarheden": 19,
-   "incidenten": 9,
-   "aanvallen": 12,
-   "detectie": 4,
-   "vm": 2
+   "incidenten": 10,
+   "aanvallen": 11,
+   "vm": 3,
+   "detectie": 4
   },
   "per_source": {
    "the_hacker_news": 12,
    "bleepingcomputer": 10,
    "huntress_blog": 5,
    "security_nl": 3,
+   "project_zero": 1,
    "datadog_security_labs": 1,
    "divd": 1,
    "unit42": 5,
@@ -9313,7 +9433,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 386
+   "skipped_no_key": 381
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9434,6 +9554,30 @@
     ]
    },
    {
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "relevance_score": 88,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "relevance_score": 88,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
+    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+    "relevance_score": 88,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "NCSC-2026-0353 [1.03] [M/H] Kwetsbaarheden verholpen in Microsoft Windows",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0353",
@@ -9552,6 +9696,14 @@
     "excluded_by": []
    },
    {
+    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+    "relevance_score": 87,
+    "decision": "source_cap",
+    "excluded_by": []
+   },
+   {
     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
@@ -9610,14 +9762,6 @@
     "excluded_by": []
    },
    {
-    "title": "Policy and Disclosure: 2026 Edition",
-    "source_id": "project_zero",
-    "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0467 [1.00] [M/H] Kwetsbaarheden verholpen in Google Android en Samsung Mobile",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0467",
@@ -9647,14 +9791,6 @@
     "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
     "source_id": "the_record",
     "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
     "relevance_score": 84,
     "decision": "included",
     "excluded_by": []
@@ -9715,30 +9851,6 @@
     "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
-    "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
@@ -9859,6 +9971,16 @@
     "title": "NCSC-2026-0458 [1.00] [M/H] Kwetsbaarheden verholpen in Cisco Secure Firewall ASA, Threat Defense en Management Center",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0458",
+    "relevance_score": 81,
+    "decision": "excluded",
+    "excluded_by": [
+     "ncsc_lower_likelihood"
+    ]
+   },
+   {
+    "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
+    "source_id": "ncsc_nl_advisories",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
     "relevance_score": 81,
     "decision": "excluded",
     "excluded_by": [

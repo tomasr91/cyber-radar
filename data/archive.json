@@ -5425,5 +5425,5 @@
    "excerpt": "<p>PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.</p>\n<p>The post <a href=\"https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/\">PHP2Shell Exploited in Destructive Check Point Gateway Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-14T01:23:21.007601Z"
+ "updated_at": "2026-11-14T01:36:39.838439Z"
 }
