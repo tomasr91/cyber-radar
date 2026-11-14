@@ -1,0 +1,84 @@
+{
+ "format_version": 2,
+ "article_id": "1838248a60d9",
+ "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+ "headline": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen",
+ "summary": "Google Project Zero publiceert details van lekken voortaan een vast aantal dagen na de melding, ook als er al een patch is. Die termijn daalt stap voor stap van 90 naar 30 dagen. De reden: AI maakt vinden en misbruiken sneller.",
+ "story": [
+  "Google Project Zero, het team dat lekken zoekt in software van anderen, verandert zijn regels voor openbaarmaking. Sinds 2021 kreeg een maker 90 dagen voor een fix. Kwam die er, dan volgden nog 30 dagen voor de uitrol, voordat de details openbaar werden. Nu wordt het 'Full X': de details komen X dagen na de melding naar buiten, punt. Full 90 geldt vanaf 13 november 2026, Full 60 vanaf 2 februari 2027 en Full 30 vanaf 3 januari 2028. Extra uitstel (een grace period) verdwijnt.",
+  "Hoe werkt dit normaal? Bij gecoördineerde openbaarmaking meldt een onderzoeker een lek eerst vertrouwelijk aan de maker. Die krijgt tijd om een patch te maken. Daarna komen de details openbaar, zodat verdedigers begrijpen wat er speelt en makers niet eindeloos kunnen wachten. De 30 extra dagen waren bedoeld om gebruikers tijd te geven de patch te installeren, voordat aanvallers de details kenden.",
+  "Waarom verandert dat? Volgens Project Zero maken taalmodellen het vinden en misbruiken van lekken sneller. Daardoor is de kans groter dat ook kwaadwillenden hetzelfde lek vinden. Ook kunnen aanvallers een patch sneller terugrekenen naar het lek dat hij dicht (reverse engineering). De tijd tussen een patch en de installatie, de patch gap, is daardoor gevaarlijker geworden. 'Patch soak time is no longer meaningful', schrijft het team. Bovendien vindt Project Zero nu meerdere lekken per week, te veel om per geval te onderhandelen.",
+  "Wat betekent het? Actief misbruikte lekken vallen onder het aparte, strengere beleid van Google. Voor makers wordt snel patchen belangrijker, net als tijdelijke maatregelen als een patch nog niet klaar is. Voor organisaties en vulnerability management is de les: technische details komen sneller na een patch openbaar, soms al voordat iedereen heeft geïnstalleerd. Het venster om te patchen wordt dus korter."
+ ],
+ "key_facts": [
+  "Project Zero hanteerde sinds 2021 '90+30': 90 dagen voor een fix plus 30 dagen voor uitrol voordat details openbaar werden.",
+  "Nieuw beleid 'Full X': openbaarmaking X dagen na de melding; Full 90 vanaf 13 november 2026, Full 60 vanaf 2 februari 2027, Full 30 vanaf 3 januari 2028.",
+  "De grace period en het variantbeleid vervallen; Project Zero blijft bijhouden of een lek is gedicht, maar dat bepaalt de datum niet meer.",
+  "Uitzonderingen: actief misbruikte lekken (Google-beleid voor applicatiebeveiliging), lekken die al openbaar zijn en verzoeken van de maker zelf.",
+  "Redenen volgens Project Zero: taalmodellen versnellen het vinden en misbruiken van lekken en het terugrekenen van patches; het team vindt nu meerdere lekken per week.",
+  "De invoering is geleidelijk, omdat makers waarschuwden dat een plotselinge wijziging ongedichte lekken zou blootleggen."
+ ],
+ "limitations": [
+  "Of andere onderzoeksteams of leveranciers hun termijnen ook inkorten, is onbekend.",
+  "Of makers echt sneller gaan patchen, of vaker deadlines laten verlopen, moet nog blijken; makers wezen zelf op dat risico.",
+  "Het is het beleid van één team van Google; het geldt niet voor lekken die anderen melden."
+ ],
+ "personal_relevance": "Bij klanten die patchen in maandelijkse cycli is dit een goed gespreksonderwerp: hoe snel kunnen ze reageren als details van een lek kort na de patch openbaar zijn?",
+ "takeaway": "Een patch is ook een wegwijzer naar het lek. Hoe sneller aanvallers een patch kunnen terugrekenen, hoe korter de veilige tijd tussen het verschijnen en het installeren van die patch.",
+ "region": "world",
+ "official_docs": [
+  {
+   "label": "Project Zero: Policy and Disclosure: 2026 Edition",
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+  },
+  {
+   "label": "Project Zero: huidige beleidspagina (90+30)",
+   "url": "https://projectzero.google/vulnerability-disclosure-policy.html"
+  }
+ ],
+ "topics": [
+  "vulnerability_management",
+  "vulnerabilities_cve"
+ ],
+ "quality": {
+  "depth": 0.6,
+  "practicality": 0.7,
+  "novelty": 0.75
+ },
+ "development_key": "project-zero-disclosure-policy-2026",
+ "soort": "achtergrond",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; achtergrond over hoe lekken openbaar worden, nuttig voor vulnerability management."
+ },
+ "showcase": {
+  "caption": "Het verschil in een rekenvoorbeeld. Oud: een patch op dag 47 betekende openbare details op dag 77. Nieuw (Full 30, vanaf 2028): details op dag 30, hoe snel de patch ook kwam. Wie pas na een maand patcht, loopt dan achter op de openbare details.",
+  "language": "text",
+  "code": "Oud beleid (90+30), patch op dag 47\n  dag  0  lek gemeld aan de maker\n  dag 47  patch verschijnt\n  dag 77  details openbaar (47 + 30)\n\nNieuw beleid (Full 30, vanaf 3 januari 2028), patch op dag 20\n  dag  0  lek gemeld aan de maker\n  dag 20  patch verschijnt\n  dag 30  details openbaar (vaste termijn)",
+  "note": "Het oude voorbeeld komt uit de beleidspagina van Project Zero; het nieuwe is een rekenvoorbeeld."
+ },
+ "terms": [
+  {
+   "term": "gecoördineerde openbaarmaking",
+   "explanation": "Afspraak waarbij een onderzoeker een lek eerst vertrouwelijk meldt aan de maker, en de details pas na een vaste termijn of een patch openbaar maakt (coordinated disclosure)."
+  },
+  {
+   "term": "taalmodellen",
+   "explanation": "AI-systemen die getraind zijn op grote hoeveelheden tekst en code, zoals de modellen achter chatbots. Ze kunnen ook code lezen en schrijven."
+  },
+  {
+   "term": "reverse engineering",
+   "explanation": "Uit een kant-en-klaar programma afleiden hoe het werkt. Bij een patch: vergelijken wat er veranderd is om te vinden welk lek is gedicht."
+  },
+  {
+   "term": "patch gap",
+   "explanation": "De tijd tussen het verschijnen van een patch en het moment dat systemen hem echt hebben. In die periode is het lek bekend maar nog niet overal gedicht."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-14T01:36:09Z",
+ "prompt_version": "cyber-taak-v1"
+}

@@ -1,0 +1,81 @@
+{
+ "format_version": 2,
+ "article_id": "988b46d175c6",
+ "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+ "headline": "Kritiek lek in PTC Windchill: code uitvoeren via deserialisatie",
+ "summary": "PTC dicht CVE-2026-126325 in de productsoftware Windchill en FlexPLM. Misbruik is nog niet gemeld, maar een eerder Windchill-lek werd dit jaar wel gebruikt om productdata te stelen.",
+ "story": [
+  "PTC heeft updates uitgebracht voor CVE-2026-126325 in Windchill en FlexPLM (CVSS v4 9,2). Dat is software voor PLM: fabrikanten beheren er ontwerpen, onderdelen en productgegevens mee. Door PTC gehoste omgevingen zijn al bijgewerkt. Organisaties die de software zelf draaien, moeten zelf patchen.",
+  "Hoe werkt zo'n lek? Programma's sturen elkaar vaak complete objecten met gegevens. De verzender zet zo'n object om in een reeks bytes; de ontvanger bouwt er weer een object van. Dat terugbouwen heet deserialisatie. Vertrouwt de ontvanger blind wat er binnenkomt, dan kan een aanvaller een vervalst object sturen. Bij het opbouwen voert het programma dan stukjes bestaande code uit in een volgorde die de aanvaller kiest. Dat kan eindigen in het uitvoeren van eigen opdrachten op de server. PTC noemt het lek een combinatie van slechte invoercontrole en onveilige deserialisatie; meer technische details zijn er nog niet.",
+  "Hoe urgent is het? Volgens de CVSS-score is geen inlog en geen actie van een gebruiker nodig, maar is de aanval wel complex. Er is geen misbruik gemeld, het lek staat niet in de KEV-lijst en de EPSS-kans is laag. Toch is haast verstandig. Een eerder lek in dezelfde software, CVE-2026-12569, werd ongeveer vijf maanden geleden wel misbruikt. Aanvallers die aan de ransomwaregroep Cl0p worden gekoppeld, plaatsten toen webshells en stalen productdata van industriële bedrijven.",
+  "Wat moet je doen? Patchen, en tot dan beperken wie de server via het netwerk kan bereiken. PTC-software is volgens onderzoeksbedrijf watchTowr een schoolvoorbeeld van een doelwit voor ransomwaregroepen. Controleer servers daarom ook op tekenen van uitgevoerde code of webshells, bijvoorbeeld nieuwe bestanden in webmappen of processen die de webserver onverwacht start. Voor organisaties is de les: productontwerpen zijn bedrijfsgeheimen, en dus aantrekkelijk voor afpersing."
+ ],
+ "key_facts": [
+  "CVE-2026-126325 in PTC Windchill en FlexPLM: CVSS v4 9,2; CWE-20 (slechte invoercontrole) en CWE-502 (onveilige deserialisatie); gepubliceerd op 11 november 2026.",
+  "CVSS-vector: via het netwerk, geen rechten en geen gebruikersactie nodig, hoge aanvalscomplexiteit (CVE-record).",
+  "Getroffen: Windchill 11.0 M030 tot en met 13.1.4.0 en FlexPLM 11.0 M030 tot en met 13.1.3.0; door PTC gehoste omgevingen zijn al gepatcht.",
+  "Geen misbruik gemeld, niet in de KEV-lijst; EPSS ongeveer 0,5% (OpenCVE, 14 november 2026).",
+  "Eerder lek CVE-2026-12569 (CVSS 9,3) werd misbruikt; in juli 2026 plaatsten aan Cl0p gekoppelde aanvallers JSP-webshells en stalen ze productdata van industriële bedrijven (The Hacker News).",
+  "Yordan Ganchev (watchTowr) noemt PTC-software 'a textbook target' voor initial access brokers en ransomwaregroepen."
+ ],
+ "limitations": [
+  "PTC heeft niet gepubliceerd hoe de fout technisch precies werkt; de uitleg van deserialisatie is algemeen.",
+  "De versies met de fix staan niet in het artikel; het advies van PTC (CS483249) is niet zelf geopend.",
+  "Dat geen misbruik bekend is, betekent niet dat het niet gebeurt; na het vorige Windchill-lek volgde misbruik."
+ ],
+ "personal_relevance": "Bij klanten in de maakindustrie draait PLM-software vaak buiten het zicht van de gewone patchcyclus. Vraag of zulke systemen in de scope van hun vulnerability management en monitoring zitten.",
+ "takeaway": "Onveilige deserialisatie betekent: een server bouwt objecten op uit invoer die hij niet controleert. Wie die invoer vervalst, kan de server eigen code laten uitvoeren.",
+ "region": "world",
+ "official_docs": [
+  {
+   "label": "OpenCVE: CVE-2026-126325",
+   "url": "https://app.opencve.io/cve/CVE-2026-126325"
+  }
+ ],
+ "topics": [
+  "vulnerabilities_cve",
+  "web_software_security",
+  "vulnerability_management"
+ ],
+ "quality": {
+  "depth": 0.55,
+  "practicality": 0.7,
+  "novelty": 0.6
+ },
+ "development_key": "cve-2026-126325-ptc-windchill",
+ "soort": "kwetsbaarheid",
+ "exploitation": "geen_misbruik_bekend",
+ "patch_status": "patch_beschikbaar",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; kritiek lek in niche-software, wel met een uitleg van deserialisatie."
+ },
+ "terms": [
+  {
+   "term": "PLM",
+   "explanation": "Product lifecycle management: software waarin bedrijven alle gegevens over een product bewaren, van ontwerp en onderdelen tot productie."
+  },
+  {
+   "term": "deserialisatie",
+   "explanation": "Het terugbouwen van een object uit een reeks bytes die een ander programma heeft gestuurd. Wordt die invoer niet gecontroleerd, dan kan een aanvaller via een vervalst object code laten uitvoeren."
+  },
+  {
+   "term": "KEV-lijst",
+   "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+  },
+  {
+   "term": "EPSS",
+   "explanation": "Exploit Prediction Scoring System van FIRST: een model dat elke dag per CVE de kans berekent dat er in de komende 30 dagen misbruik wordt gezien."
+  },
+  {
+   "term": "webshells",
+   "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-14T01:36:09Z",
+ "prompt_version": "cyber-taak-v1"
+}

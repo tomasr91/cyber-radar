@@ -1,0 +1,7 @@
+{
+  "article_id": "eb53f75fb2b4",
+  "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als c398aa3e9226 (Citrix NetScaler-patches november 2026, vooral DoS, geen bekend misbruik); al eerder overgeslagen.",
+  "checked_at": "2026-11-14T01:24:06Z",
+  "development_key": "citrix-netscaler-patches-nov-2026"
+}

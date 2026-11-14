@@ -1,0 +1,87 @@
+{
+ "format_version": 2,
+ "article_id": "e05f7a78ce38",
+ "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+ "headline": "PostgreSQL dicht 52 lekken, waaronder een 22 jaar oude typefout",
+ "summary": "Via CVE-2026-6460 kan een databasegebruiker die objecten mag maken code uitvoeren op de server. De update helpt pas helemaal als ook C-extensies opnieuw worden gebouwd.",
+ "story": [
+  "Het PostgreSQL-project bracht op 12 november updates uit voor alle ondersteunde versies: 18.7, 17.12, 16.16, 15.20 en 14.25. Ze dichten 52 beveiligingslekken. Het opvallendste is CVE-2026-6460 (CVSS 8,8). Volgens The Hacker News zit die fout al 22 jaar in de software. Tientallen andere lekken in dezelfde release hebben ook score 8,8 en kunnen eveneens tot het uitvoeren van code leiden.",
+  "Hoe werkt het? Een database bewaart gegevens met een vast type, zoals tekst of een getal. Een beheerder kan dat type later veranderen, bijvoorbeeld met ALTER ... SET DATA TYPE. Op dat moment kunnen er nog oude waarden in omloop zijn, bijvoorbeeld in variabelen van PL/pgSQL, de programmeertaal in de database. Volgens het advies hield PostgreSQL niet goed bij welk type zo'n waarde had, en een waarde zegt niet zelf wat ze is. De server leest de oude bytes dan als een ander type. Dat heet type confusion. Zo kan een gewone waarde bijvoorbeeld worden gelezen als een verwijzing naar een plek in het geheugen, en daarmee kan een aanvaller code laten uitvoeren.",
+  "Hoe urgent is het? De aanvaller moet kunnen inloggen en objecten mogen maken, zoals een tabel of een type. Hij krijgt dan de rechten van het besturingssysteemaccount waaronder de database draait. Dat is minder urgent dan een lek zonder inlog. Maar het is serieus waar veel gebruikers of applicaties een eigen databaseaccount hebben, zoals bij gedeelde databaseplatforms. De adviezen melden geen misbruik.",
+  "Wat moet je doen? Installeer de update. Een herstart met de nieuwe versie is genoeg; de database hoeft niet opnieuw te worden ingeladen. Let op een addertje: volgens de release notes vraagt volledige bescherming ook het opnieuw bouwen van C-extensies, en sommige extensies hebben codeaanpassingen nodig. Een scanner voor vulnerability management ziet wel het nieuwe versienummer, maar niet of extensies zijn herbouwd. Verder is 14.25 de laatste update van PostgreSQL 14: die versie is nu end-of-life."
+ ],
+ "key_facts": [
+  "CVE-2026-6460 (CVSS 8,8): type confusion na ALTER ... SET DATA TYPE laat een objectmaker code uitvoeren als het besturingssysteemaccount van de database (PostgreSQL-advies).",
+  "Opgelost in 18.7, 17.12, 16.16, 15.20 en 14.25, uitgebracht op 12 november 2026; de release dicht 52 beveiligingslekken.",
+  "Release notes 18.7: volledige bescherming vereist het herbouwen van C-extensies, sommige extensies vragen codewijzigingen; de nieuwe instelling composite_type_mismatch kan de controles uitzetten, met beveiligingsrisico.",
+  "Melders volgens de release notes onder meer Mehmet Ince, het OpenAI Security Research Team, het Anthropic OSS-programma en Ada Logics.",
+  "Veel andere lekken in dezelfde release (CVSS 8,8) leiden ook tot code-uitvoering, onder meer use-after-free-fouten in plperl en pltcl.",
+  "14.25 is de laatste release van PostgreSQL 14; The Hacker News noemt de fout 22 jaar oud."
+ ],
+ "limitations": [
+  "Het artikel van The Hacker News kon niet direct worden geopend; de uitleg steunt op de adviezen en release notes van PostgreSQL en een ingekorte overname van het artikel.",
+  "Welke extensies codeaanpassingen nodig hebben, staat niet in de gelezen bronnen.",
+  "De ouderdom van 22 jaar komt uit het nieuwsbericht en staat niet in het officiële advies.",
+  "Over misbruik zeggen de adviezen niets; geen misbruik bekend betekent niet dat het uitgesloten is."
+ ],
+ "personal_relevance": "Bij klanten met PostgreSQL is de vraag niet alleen 'is er gepatcht?', maar ook 'zijn de C-extensies herbouwd?'. Dat ziet een versiescan niet.",
+ "takeaway": "Type confusion ontstaat als software bytes leest als een ander type dan waarmee ze zijn geschreven. Een fix in de kern helpt soms pas helemaal als ook de onderdelen die erop aansluiten opnieuw worden gebouwd.",
+ "region": "world",
+ "official_docs": [
+  {
+   "label": "PostgreSQL: CVE-2026-6460",
+   "url": "https://www.postgresql.org/support/security/CVE-2026-6460/"
+  },
+  {
+   "label": "PostgreSQL 18.7 release notes",
+   "url": "https://www.postgresql.org/docs/release/18.7"
+  }
+ ],
+ "topics": [
+  "vulnerabilities_cve",
+  "vulnerability_management"
+ ],
+ "quality": {
+  "depth": 0.7,
+  "practicality": 0.75,
+  "novelty": 0.7
+ },
+ "development_key": "cve-2026-6460-postgresql-nov-2026",
+ "soort": "kwetsbaarheid",
+ "exploitation": "geen_misbruik_bekend",
+ "patch_status": "patch_beschikbaar",
+ "fit": {
+  "score": 0.55,
+  "why": "Nog geen duimpjes; databaselek met een concrete valkuil voor vulnerability management."
+ },
+ "showcase": {
+  "caption": "Twee gewone beheerqueries om na de update te controleren. De eerste toont de draaiende versie (moet 18.7, 17.12, 16.16, 15.20 of 14.25 of hoger zijn). De tweede toont welke extensies geïnstalleerd zijn: dat is je lijst om na te lopen of de C-extensies zijn herbouwd.",
+  "language": "sql",
+  "code": "-- Welke versie draait er?\nSELECT version();\n\n-- Welke extensies zijn geïnstalleerd?\nSELECT extname, extversion FROM pg_extension ORDER BY extname;",
+  "note": "Deze queries lezen alleen informatie. Of een extensie in C is geschreven, staat in de documentatie van die extensie."
+ },
+ "terms": [
+  {
+   "term": "PL/pgSQL",
+   "explanation": "De ingebouwde programmeertaal van PostgreSQL. Ontwikkelaars schrijven er functies mee die in de database zelf draaien."
+  },
+  {
+   "term": "type confusion",
+   "explanation": "Een fout waarbij software gegevens van het ene type leest alsof het een ander type is. Zo kan een getal per ongeluk als geheugenadres worden gebruikt, wat een aanvaller kan misbruiken."
+  },
+  {
+   "term": "C-extensies",
+   "explanation": "Uitbreidingen van PostgreSQL die in de programmeertaal C zijn geschreven en tot een programma zijn omgezet. Ze draaien in de database zelf en moeten passen bij de versie van de kern."
+  },
+  {
+   "term": "end-of-life",
+   "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-14T01:36:09Z",
+ "prompt_version": "cyber-taak-v1"
+}

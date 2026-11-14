@@ -1,0 +1,94 @@
+{
+ "format_version": 2,
+ "article_id": "c0eea237828e",
+ "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+ "headline": "Check Point-gateways via PHP2Shell gehackt, daarna ESXi gewist",
+ "summary": "Een onbekende aanvaller kwam via PHP2Shell binnen op ongepatchte Check Point-gateways, werd root via een nieuw lek en zette een eigen achterdeur neer. Bij een deel van de slachtoffers wiste hij daarna bestanden op VMware ESXi.",
+ "story": [
+  "Check Point Research beschrijft aanvallen op de Security Gateways van Check Point zelf: de firewalls die het netwerk van een organisatie afschermen. Een onbekende aanvaller begon op 30 oktober met Israëlische organisaties, ongeveer een week nadat er een fix was. Op 2 november volgde een bredere golf tegen organisaties in meerdere landen en sectoren. Bij een deel van de slachtoffers uit de eerste golf werden bestanden vernietigd.",
+  "Hoe kwam de aanvaller binnen? Veel firewalls hebben ook een webportaal, hier Mobile Access, waarmee medewerkers op afstand inloggen. Dat portaal draait op PHP. Via PHP2Shell, de twee lekken in PHP zelf die eind oktober bekend werden, voerde de aanvaller code uit met de rechten van het portaalaccount. Daarna gebruikte hij een nieuw lek, CVE-2026-123039, in het onderdeel DynamicCLI van Gaia, het besturingssysteem van de gateway. DynamicCLI neemt opdrachten aan via een socket, maar controleert niet of de afzender dat mag. Eén verzoek was genoeg om root te worden. Dat heet rechtenverhoging.",
+  "Als root plaatste de aanvaller webshells in de map met sjablonen van het portaal. Daarnaast installeerde hij TSGA, een achterdeur die speciaal voor Check Point-apparaten is gemaakt. TSGA kan versleuteld toegang geven, de configuratie stelen, zich in andere processen nestelen en de firewalllogs op het apparaat aanpassen. Met een scanner bracht de aanvaller het interne netwerk in kaart. Daarna logde hij via SSH in op een VMware ESXi-server, met het serviceaccount vpxuser. Daar startte hij een wiper: malware die bestanden met nullen overschrijft en daarna wist.",
+  "Hoe zie en voorkom je het? Installeer de fixes voor PHP2Shell en voor CVE-2026-123039. Check Point noemt sporen op de gateway, zoals onverwachte .tpl-bestanden in de sjabloonmap, herhaalde crashes van Apache- en PHP-processen en processen die vanuit /tmp starten. Op het netwerk valt een SSH-verbinding van een firewall naar een ESXi-server op. TSGA kan logs op het apparaat aanpassen. Daarom is een kopie van die logs in de SIEM extra waardevol: die kan de aanvaller niet zomaar wijzigen.",
+  "Wie zit erachter? Check Point ziet overeenkomsten met PhiliKit, een toolkit die ESET koppelde aan een China-gelinkte groep. Maar de wiper en de focus op Israël passen daar slecht bij. Check Point houdt daarom meerdere scenario's open, zoals een tussenpersoon die alleen toegang verkocht (initial access broker) of een valse vlag. De les: een firewall die vanaf internet bereikbaar is, is een ideale eerste stap. En van daaruit is de hypervisor met alle virtuele servers niet ver weg."
+ ],
+ "key_facts": [
+  "Check Point Research (12 november 2026): eerste golf vanaf 30 oktober 2026 tegen Israëlische organisaties, ongeveer een week nadat een fix beschikbaar was; tweede, bredere golf op 2 november.",
+  "Eerste toegang via PHP2Shell (CVE-2026-109618 en CVE-2026-109619) in Mobile Access-portalen.",
+  "CVE-2026-123039 (CVSS 7,8): ontbrekende autorisatiecontrole in DynamicCLI van Gaia OS; een lokaal account wordt root met één verzoek naar de socket (advies SK1000362). Volgens Check Point misbruikt bij 'een paar dozijn' klanten.",
+  "Getroffen versies R81 tot en met R82.20 van onder meer Force Firewalls, Management- en Log Servers, Multi-Domain Security Management en Maestro Orchestrator.",
+  "Na root: PHP-webshells, achterdeur TSGA (als slot_CPconfigdaemon) met netwerkonderdeel TSProxy, scanner gogo, SSH naar ESXi met vpxuser en de wiper destroy_v6 met een notitie DREAM_ANNEXATION.txt.",
+  "Check Point rekent TSGA en TSProxy tot PhiliKit, dat ESET in juni 2026 koppelde aan Armory Castle (voorheen UNC5221), maar vindt het bewijs voor die toeschrijving te zwak."
+ ],
+ "limitations": [
+  "Hoeveel organisaties in totaal getroffen zijn, en hoeveel daarvan schade door de wiper hadden, is niet bekend.",
+  "Wie achter de aanvallen zit is onzeker; Check Point noemt naast een China-gelinkte groep ook een tussenpersoon, een valse vlag of vernietiging als rookgordijn.",
+  "De bronnen noemen niet per versie welke update of hotfix het lek dicht; daarvoor verwijst Check Point naar advies SK1000362.",
+  "De analyse komt van Check Point, de maker van het getroffen product."
+ ],
+ "personal_relevance": "Klanten met randapparaten van welke leverancier ook kun je vragen: komen de logs van de firewall ook buiten het apparaat terecht, en zien we het als een firewall zelf verbinding maakt met interne servers?",
+ "takeaway": "Een webportaal op een firewall maakt die firewall een webserver, met de lekken van webservers. Wie root wordt op het apparaat, kan ook de lokale logs aanpassen; alleen logs die elders liggen blijven betrouwbaar.",
+ "region": "world",
+ "official_docs": [
+  {
+   "label": "Check Point Research: PHP2Shell Exploitation on Check Point Gateway",
+   "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
+  }
+ ],
+ "topics": [
+  "exploited_vulnerabilities",
+  "edge_devices",
+  "attack_techniques",
+  "threat_intelligence"
+ ],
+ "quality": {
+  "depth": 0.8,
+  "practicality": 0.8,
+  "novelty": 0.75
+ },
+ "development_key": "php2shell-check-point-gaia-nov-2026",
+ "soort": "onderzoek",
+ "exploitation": "actief_misbruikt",
+ "patch_status": "patch_beschikbaar",
+ "fit": {
+  "score": 0.55,
+  "why": "Nog geen duimpjes; volledige aanvalsketen van firewall naar hypervisor, met sporen voor detectie."
+ },
+ "showcase": {
+  "caption": "Zo kan de stap van firewall naar hypervisor eruitzien in het SSH-log van een ESXi-server. Let op twee dingen: het account vpxuser logt interactief in, en het bronadres is dat van de firewall. Een SIEM-regel die SSH-logins op hypervisors vanaf randapparaten meldt, vangt dit.",
+  "language": "log",
+  "code": "2026-10-31T09:14:02Z sshd[52311]: Connection from 192.0.2.1 port 50122\n2026-10-31T09:14:03Z sshd[52311]: Accepted keyboard-interactive/pam for vpxuser from 192.0.2.1 port 50122 ssh2\n2026-10-31T09:14:03Z sshd[52311]: Session opened for 'vpxuser' on /dev/char/pty/t0",
+  "note": "Nagebouwd voorbeeld; 192.0.2.1 staat voor het interne adres van de gateway. De echte sporen staan in het onderzoek van Check Point."
+ },
+ "terms": [
+  {
+   "term": "socket",
+   "explanation": "Een aansluitpunt waarlangs programma's berichten naar elkaar sturen, op hetzelfde apparaat of via het netwerk. Wie erbij kan, kan het programma erachter opdrachten geven."
+  },
+  {
+   "term": "rechtenverhoging",
+   "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+  },
+  {
+   "term": "webshells",
+   "explanation": "Kleine programma's die een aanvaller op een gehackte webserver zet. Ze werken als achterdeur: via de browser kan hij daarna opdrachten geven aan de server."
+  },
+  {
+   "term": "wiper",
+   "explanation": "Malware die gegevens vernietigt in plaats van ze te versleutelen of te stelen. Er is geen sleutel om iets terug te krijgen; alleen een back-up helpt."
+  },
+  {
+   "term": "initial access broker",
+   "explanation": "Een criminele tussenpersoon die inbreekt bij organisaties en die toegang doorverkoopt, bijvoorbeeld aan ransomwaregroepen."
+  },
+  {
+   "term": "hypervisor",
+   "explanation": "De software die virtuele machines op een fysieke server laat draaien en van elkaar scheidt. Wie de hypervisor beheerst, kan bij alle virtuele machines erop."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-14T01:36:09Z",
+ "prompt_version": "cyber-taak-v1"
+}

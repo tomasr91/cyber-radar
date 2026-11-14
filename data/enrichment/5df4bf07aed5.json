@@ -1,0 +1,79 @@
+{
+ "format_version": 2,
+ "article_id": "5df4bf07aed5",
+ "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+ "headline": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline",
+ "summary": "Politie uit onder meer Nederland, Duitsland, Denemarken en de VS nam 235 servers en 257 domeinen over en vond 6,4 miljoen gestolen inloggegevens. Via Check your hack kun je zien of jouw e-mailadres erin staat.",
+ "story": [
+  "Een internationale politieactie binnen Operation Endgame, met steun van Europol, heeft deze week de servers achter drie soorten malware offline gehaald: Gootloader, CastleRAT en StealC. In totaal gaat het om 235 servers en 257 domeinen. De Duitse politie (BKA) vond ongeveer 6,4 miljoen gestolen inloggegevens van meer dan 40.000 slachtoffers. Er zijn geen arrestaties gemeld. De Nederlandse politie onderzoekt de hoofdverdachte achter Gootloader verder.",
+  "Hoe werken deze drie? Gootloader is een loader: een eerste stukje malware dat andere malware binnenhaalt. Criminelen hackten websites, vaak WordPress-sites, en zetten daar nep-juridische documenten op. Met SEO poisoning lieten ze die pagina's hoog in zoekresultaten verschijnen. Wie zo'n document downloadde, haalde malware binnen. De toegang tot besmette computers werd doorverkocht aan ransomwaregroepen. Het Amerikaanse ministerie van Justitie koppelt Gootloader aan minstens 44 ransomwareslachtoffers en zo'n 28,8 miljoen dollar schade.",
+  "CastleRAT is een RAT: malware waarmee een aanvaller een computer op afstand bestuurt. StealC is een infostealer die wachtwoorden en andere inloggegevens steelt. StealC werd in juni al eens aangepakt, maar de makers verhuisden en kwamen terug. Een deel draaide op bulletproof hosting, die eind oktober zelf werd opgerold. Zo zie je de keten. De ene dienst zorgt voor de eerste toegang, de andere voor besturing en gestolen wachtwoorden. Een ransomwaregroep koopt die toegang.",
+  "Wat kun je doen? De Nederlandse politie zette gegevens die met CastleRAT zijn gestolen in de dienst Check your hack. Daar kun je een e-mailadres controleren; organisaties kunnen aansluiten bij No More Leaks. De gegevens gaan ook naar Have I Been Pwned en Shadowserver. Let op: de politie stuurt nooit e-mails met links, dus zo'n mail is nep. In Denemarken haalde de politie de schadelijke code van 681 websites. Het advies aan beheerders van WordPress-sites: unieke wachtwoorden, MFA, onbekende accounts verwijderen, alles bijwerken en /wp-admin alleen bereikbaar maken vanaf je eigen IP-adressen.",
+  "Voor organisaties betekent zo'n actie vooral nieuwe informatie. Staan gegevens van medewerkers in de buit, dan zijn die wachtwoorden en sessies niet meer te vertrouwen. Een takedown levert ook IOC's op, zoals domeinen en servers van de malware, die je in een SIEM kunt opzoeken. Maar de terugkeer van StealC laat zien dat zulke infrastructuur te vervangen is."
+ ],
+ "key_facts": [
+  "Operation Endgame (week van 13 november 2026, met steun van Europol): 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC in beslag genomen; geen arrestaties gemeld.",
+  "BKA: ongeveer 6,4 miljoen gestolen inloggegevens van meer dan 40.000 slachtoffers.",
+  "Gootloader: verspreid via nep-juridische documenten op gehackte (vaak WordPress-)sites en SEO poisoning; volgens het Amerikaanse ministerie van Justitie minstens 25.000 besmette computers sinds 2018, 44 ransomwareslachtoffers en zo'n 28,8 miljoen dollar schade.",
+  "Bij Gootloader 14 servers en 218 domeinen offline; de Deense politie (NSK) verwijderde de code van 681 websites; bij CastleRAT 120 servers en 39 domeinen.",
+  "StealC werd in juni al aangepakt en kwam terug; een deel draaide op bulletproof hosting Virtualine/Omegatech, eind oktober offline gehaald.",
+  "De Nederlandse politie zette CastleRAT-buit in Check your hack; gegevens gaan ook naar Have I Been Pwned en Shadowserver."
+ ],
+ "limitations": [
+  "Schattingen van het aantal Gootloader-besmettingen lopen sterk uiteen: minstens 25.000 sinds 2018 volgens de VS, miljoenen sinds 2020 volgens de Duitse politie.",
+  "Hoe lang de verstoring standhoudt, is onbekend; StealC kwam na de actie in juni terug.",
+  "Het persbericht van Europol en de berichten van de politie zijn niet zelf geopend; de cijfers komen uit The Hacker News."
+ ],
+ "personal_relevance": "Een goed gespreksonderwerp bij klanten: controleren ze na zo'n takedown of gegevens van hun medewerkers in de buit zitten, en zetten ze de gepubliceerde IOC's in hun SIEM en threat intelligence?",
+ "takeaway": "Ransomware begint vaak bij losse criminele diensten: een loader voor de eerste toegang, een RAT voor besturing en een infostealer voor wachtwoorden. Wie die vroege stappen ziet, kan de ransomware nog voor zijn.",
+ "region": "eu",
+ "official_docs": [],
+ "topics": [
+  "malware",
+  "ransomware",
+  "threat_intelligence"
+ ],
+ "quality": {
+  "depth": 0.55,
+  "practicality": 0.75,
+  "novelty": 0.6
+ },
+ "development_key": "operation-endgame-gootloader-nov-2026",
+ "soort": "incident",
+ "fit": {
+  "score": 0.5,
+  "why": "Nog geen duimpjes; politieactie met uitleg van de ransomwareketen en een Nederlandse dienst om te checken."
+ },
+ "terms": [
+  {
+   "term": "loader",
+   "explanation": "Een klein stukje malware dat alleen de volgende, grotere malware ophaalt en start. Zo blijft de eerste stap klein en minder opvallend."
+  },
+  {
+   "term": "SEO poisoning",
+   "explanation": "Criminelen laten kwaadaardige pagina's hoog in zoekmachines verschijnen, zodat mensen er zelf op klikken in de veronderstelling dat het een betrouwbaar resultaat is."
+  },
+  {
+   "term": "RAT",
+   "explanation": "Remote access trojan: malware waarmee een aanvaller een computer op afstand bestuurt, bijvoorbeeld om bestanden te stelen, opdrachten te geven of mee te kijken."
+  },
+  {
+   "term": "infostealer",
+   "explanation": "Malware die gegevens van een computer steelt, zoals opgeslagen wachtwoorden, browsercookies en cryptowallets, en die naar de aanvaller stuurt."
+  },
+  {
+   "term": "bulletproof hosting",
+   "explanation": "Een hostingbedrijf dat criminelen bewust laat werken en klachten of verzoeken van politie negeert. Een soort schuilplaats voor kwaadaardige servers."
+  },
+  {
+   "term": "IOC's",
+   "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+  }
+ ],
+ "date_note": "",
+ "exceptional": false,
+ "article_type": "nieuws",
+ "processed_by": "Claude (geplande taak)",
+ "processed_at": "2026-11-14T01:36:09Z",
+ "prompt_version": "cyber-taak-v1"
+}
