@@ -1,7 +1,64 @@
 {
- "generated_at": "2026-11-13T07:10:31.715071Z",
+ "generated_at": "2026-11-14T01:23:21.007601Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "1838248a60d9",
+   "title": "Policy and Disclosure: 2026 Edition",
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+   "source_id": "project_zero",
+   "source_name": "Google Project Zero",
+   "published_at": "2026-11-13T08:00:00Z",
+   "excerpt": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "59b7f6903a29",
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-13T16:21:43Z",
+   "excerpt": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "malware"
+   ]
+  },
+  {
+   "id": "4c8fe02bd04c",
+   "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+   "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+   "source_id": "the_record",
+   "source_name": "The Record (Recorded Future News)",
+   "published_at": "2026-11-13T17:26:00Z",
+   "excerpt": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "e05f7a78ce38",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-13T16:53:08Z",
+   "excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management"
+   ]
+  },
   {
    "id": "988b46d175c6",
    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
@@ -19,6 +76,67 @@
    ]
   },
   {
+   "id": "5df4bf07aed5",
+   "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+   "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-13T10:55:03Z",
+   "excerpt": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "ransomware",
+    "malware"
+   ]
+  },
+  {
+   "id": "c0eea237828e",
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-13T08:05:49Z",
+   "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "attack_techniques",
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "8310e121f776",
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-13T15:20:00Z",
+   "excerpt": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "incidents_breaches",
+    "malware"
+   ]
+  },
+  {
+   "id": "eb53f75fb2b4",
+   "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+   "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-13T09:36:56Z",
+   "excerpt": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
+   "preliminary_score": 82,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "edge_devices"
+   ]
+  },
+  {
    "id": "64b35d795d75",
    "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
@@ -26,126 +144,10 @@
    "source_name": "SecurityWeek",
    "published_at": "2026-11-12T20:55:30Z",
    "excerpt": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek .",
-   "preliminary_score": 82,
+   "preliminary_score": 81,
    "preliminary_topics": [
     "incidents_breaches",
     "cloud_attacks"
-   ]
-  },
-  {
-   "id": "cfa80f78adb3",
-   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-   "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-12T15:38:31Z",
-   "excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "fa85d9157c65",
-   "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-   "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-12T13:39:03Z",
-   "excerpt": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek .",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "attack_techniques",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "d37e24abb537",
-   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-12T10:39:34Z",
-   "excerpt": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "2f01d2c20574",
-   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-12T09:23:21Z",
-   "excerpt": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "43047ed0e682",
-   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-   "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-09T14:08:08Z",
-   "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .",
-   "preliminary_score": 80,
-   "preliminary_topics": [
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "1d820fad715a",
-   "title": "NCSC-2026-0448 [1.00] [H/H] Kwetsbaarheden verholpen in Oracle Fusion Middleware",
-   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-   "source_id": "ncsc_nl_advisories",
-   "source_name": "NCSC-NL beveiligingsadviezen",
-   "published_at": "2026-10-22T09:49:08Z",
-   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in diverse producten, waaronder Oracle SOA Suite, Oracle WebLogic Server, Oracle Data Integrator, Oracle Identity Manager, Oracle Access Manager, Oracle WebCenter Content, Oracle Fusion Middleware (inclusief Helidon) en Oracle HTTP Server. De kwetsbaarheden betreffen onder andere onveilige deserialisatie, onvoldoende authenticatie- en toegangscontroles, kwetsbaarheden in netwerkprotocollen zoals HTTP, HTTP/2, SOAP, T3, IIOP en LDAP, en fouten in cryptografische bibliotheken zoals Bouncy Castle en Jackson-databind. Aanvallers kunnen hierdoor onder meer: - Arbitrary code execution uitvoeren via crafted input of deserialisatieprocessen. - Volledige systeemcompromittering bereiken via netwerktoegang zonder authenticatie. - Ongeautoriseerde toegang verkrijgen tot gevoelige of kritieke data. - Data manipuleren, creëren, verwijderen of wijzigen zonder juiste rechten. - Denial-of-Service veroorzaken door resource-uitputting, crashes of hangs. - Privilege escalation uitvoeren binnen het systeem. - Cross-site scripting en spoofing aanvallen uitvoeren. - Kwetsbaarheden in authenticatie- en autorisatiemechanismen misbruiken. De kwetsbaarheden zijn",
-   "preliminary_score": 79,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ]
-  },
-  {
-   "id": "f4f1ad10a87b",
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T20:58:19Z",
-   "excerpt": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "preliminary_score": 79,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "incidents_breaches"
-   ]
-  },
-  {
-   "id": "b7494c226c5f",
-   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-04T16:58:46Z",
-   "excerpt": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-   "preliminary_score": 79,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "malware",
-    "supply_chain"
    ]
   }
  ]
