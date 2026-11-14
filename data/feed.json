@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T04:38:15.483310Z",
+ "generated_at": "2026-11-14T06:57:15.164579Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-14T01:36:09Z",
- "last_successful_update": "2026-11-14T04:38:15.483310Z",
+ "last_successful_update": "2026-11-14T06:57:15.164579Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-14T04:38:15.518265Z"
+   "checked_at": "2026-11-14T06:57:15.198908Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-14T04:38:16.492769Z"
+   "checked_at": "2026-11-14T06:57:16.166970Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-14T04:38:17.643533Z"
+   "checked_at": "2026-11-14T06:57:17.297001Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-14T04:38:18.447407Z"
+   "checked_at": "2026-11-14T06:57:18.194871Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-14T04:38:20.091322Z"
+   "checked_at": "2026-11-14T06:57:20.015068Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-14T04:38:20.172029Z"
+   "checked_at": "2026-11-14T06:57:20.133682Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-14T04:38:20.278808Z"
+   "checked_at": "2026-11-14T06:57:20.205734Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-14T04:38:20.388962Z"
+   "checked_at": "2026-11-14T06:57:20.313502Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-14T04:38:20.914915Z"
+   "checked_at": "2026-11-14T06:57:20.793465Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-14T04:38:22.493003Z"
+   "checked_at": "2026-11-14T06:57:22.473135Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-14T04:38:22.697978Z"
+   "checked_at": "2026-11-14T06:57:22.723269Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-14T04:38:22.759410Z"
+   "checked_at": "2026-11-14T06:57:22.777551Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-14T04:38:22.799292Z"
+   "checked_at": "2026-11-14T06:57:22.814724Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-14T04:38:23.043600Z"
+   "checked_at": "2026-11-14T06:57:23.042834Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-14T04:38:23.217436Z"
+   "checked_at": "2026-11-14T06:57:23.141783Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-14T04:38:23.273050Z"
+   "checked_at": "2026-11-14T06:57:23.180214Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-14T04:38:23.543378Z"
+   "checked_at": "2026-11-14T06:57:23.432930Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-14T04:38:23.709721Z"
+   "checked_at": "2026-11-14T06:57:23.812589Z"
   }
  ],
  "daily_top": [
@@ -420,7 +420,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.92,
+    "recency": 0.91,
     "source": 0.68,
     "quality": 0.8,
     "fit": 0.05
@@ -517,7 +517,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.96,
+    "recency": 0.95,
     "source": 0.68,
     "quality": 0.78,
     "fit": 0.05
@@ -809,7 +809,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.98,
+    "recency": 0.97,
     "source": 0.68,
     "quality": 0.72,
     "fit": 0.05
@@ -899,7 +899,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1186,7 +1186,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.87,
+    "recency": 0.86,
     "source": 0.85,
     "quality": 0.67,
     "fit": 0.05
@@ -1246,102 +1246,6 @@
     "why": "Nog geen duimpjes; een misbruikt lek met concrete hulp bij prioriteren."
    },
    "takeaway": "Een lek hoeft geen code uit te voeren om gevaarlijk te zijn: als software automatisch inlogt bij een server van de aanvaller, geeft ze de inloggegevens van de gebruiker weg. Lekken die zonder klik werken, zoals bij automatisch indexeren of het voorbeeldvenster, verdienen extra voorrang.",
-   "region": "world"
-  },
-  {
-   "id": "bee0f7d9c4fe",
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-12T09:38:00Z",
-   "fetched_at": "2026-11-13T01:23:10.535365Z",
-   "summary": "Microsoft ziet dat aanvallers het open-source hulpmiddel GSocket op gehackte Linux-servers zetten. Zo blijven ze binnen, ook nadat het lek waarmee ze binnenkwamen is gepatcht.",
-   "personal_relevance": "Bij klanten met Linux-webservers is dit een goede vraag: bewaken jullie uitgaand verkeer van servers, of alleen inkomend? Het laat ook zien waarom een incident na het patchen nog niet klaar is.",
-   "limitations": [
-    "Welke lekken de aanvallers in het algemeen gebruikten om binnen te komen, staat niet in het artikel.",
-    "Het oorspronkelijke onderzoek van Microsoft kon in een eerdere run niet worden geopend; de uitleg steunt op BleepingComputer.",
-    "Wie de aanvallers zijn, wordt niet gezegd; het gaat om meerdere groepen.",
-    "De cijfers komen uit de telemetrie van één leverancier en zeggen niets over omgevingen die Microsoft niet ziet."
-   ],
-   "topics": [
-    "attack_techniques",
-    "siem_detection",
-    "incident_response"
-   ],
-   "groups": [
-    "aanvallen",
-    "detectie"
-   ],
-   "relevance_score": 91,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.92,
-    "source": 0.68,
-    "quality": 0.7,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T01:33:00Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket",
-   "story": [
-    "Microsoft ziet dat meerdere groepen aanvallers GSocket op Linux-servers zetten. GSocket is een legitiem open-source hulpmiddel om computers achter een firewall te bereiken. Aanvallers gebruiken het om binnen te blijven, ook nadat het lek waarmee ze binnenkwamen is gedicht. Tussen maart en augustus steeg het aantal detecties met 356,2 procent. 87,1 procent van de gevallen ging om webapplicaties en hosting, vooral PHP-sites en cPanel.",
-    "Hoe werkt het? Normaal maak je voor beheer op afstand een verbinding naar de server, en een firewall bepaalt welke inkomende verbindingen mogen. GSocket draait dat om. Zowel de gehackte server als de aanvaller maken een uitgaande verbinding naar het Global Socket Relay Network. Dat koppelt de twee aan elkaar, met versleuteling. Vergelijk het met twee mensen die elkaar niet kunnen bellen, maar allebei dezelfde centrale bellen die hen doorverbindt. De server heeft geen open poort of publiek IP-adres nodig, en de aanvaller heeft geen eigen C2-server nodig.",
-    "Om ook na een herstart binnen te blijven (persistentie), vermommen de aanvallers GSocket als een kernel-thread: een proces dat eruitziet als een onderdeel van het besturingssysteem. Ze starten het via cron-jobs, systemd-services of de opstartbestanden van de shell. In sommige gevallen probeerden ze ook root te worden via de Linux-kernelfout Dirty Frag (CVE-2026-43284).",
-    "Hoe zie je het? Inkomende firewallregels zien niets, want al het verkeer gaat naar buiten. Wat wel helpt, volgens Microsoft: uitgaand verkeer beperken tot vaste bestemmingen (egress filtering) en uitgaande verbindingen bewaken. Controleer cron-jobs, systemd-services en opstartbestanden op onbekende regels. Verwijder GSocket, controleer dat verbindingen naar het relaynetwerk stoppen en patch CVE-2026-43284.",
-    "De les voor organisaties: patchen sluit de deur, maar niet de achterdeur die er al ligt. Na een misbruikt lek hoort altijd de vraag of de aanvaller al binnen was. Omdat GSocket een legitiem hulpmiddel is, slaat niet elke scanner er alarm op; gedrag en uitgaand verkeer zijn hier betere signalen."
-   ],
-   "key_facts": [
-    "Het onderzoek komt van Microsoft, op basis van telemetrie van Microsoft Defender for Endpoint.",
-    "GSocket-detecties stegen tussen maart en augustus 2026 met 356,2 procent.",
-    "87,1 procent van de incidenten betrof webapplicaties en hosting: PHP-webapps en cPanel 63,9 procent, Apache 24,3 procent; vooral onderwijs en onderzoek waren doelwit.",
-    "Server en aanvaller verbinden allebei naar buiten met het Global Socket Relay Network; de server heeft geen inkomende poort of publiek IP-adres nodig.",
-    "Persistentie via vermomming als kernel-thread, cron-jobs, systemd-services en shell-opstartbestanden.",
-    "In sommige gevallen probeerden aanvallers root te worden via Dirty Frag (CVE-2026-43284)."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een vermomd proces vind je vaak aan de details. Echte kernel-threads hebben ouderproces 2 (kthreadd) en draaien als root. Een 'kworker' met ouderproces 1 die als webgebruiker www-data draait, hoort daar niet.",
-    "language": "bash",
-    "code": "$ ps -eo pid,ppid,user,cmd | grep kworker\n   57      2 root      [kworker/0:1-events]\n   88      2 root      [kworker/1:0-mm_percpu_wq]\n 4113      1 www-data  [kworker/1:2]",
-    "note": "Nagebouwd voorbeeld; de procesnummers zijn verzonnen. De bron noemt de vermomming als kernel-thread, niet deze specifieke uitvoer."
-   },
-   "terms": [
-    {
-     "term": "C2-server",
-     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
-    },
-    {
-     "term": "persistentie",
-     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
-    },
-    {
-     "term": "kernel-thread",
-     "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."
-    },
-    {
-     "term": "cron-jobs",
-     "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."
-    },
-    {
-     "term": "systemd-services",
-     "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."
-    },
-    {
-     "term": "egress filtering",
-     "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."
-   },
-   "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
    "region": "world"
   },
   {
@@ -1484,7 +1388,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.96,
+    "recency": 0.95,
     "source": 0.8,
     "quality": 0.68,
     "fit": 0.0
@@ -1672,7 +1576,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.56,
+    "recency": 0.55,
     "source": 0.85,
     "quality": 0.8,
     "fit": 0.1
@@ -2137,7 +2041,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.68,
     "quality": 0.73,
     "fit": 0.05
@@ -2306,6 +2210,102 @@
    "region": "eu",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "bee0f7d9c4fe",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T09:38:00Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Microsoft ziet dat aanvallers het open-source hulpmiddel GSocket op gehackte Linux-servers zetten. Zo blijven ze binnen, ook nadat het lek waarmee ze binnenkwamen is gepatcht.",
+   "personal_relevance": "Bij klanten met Linux-webservers is dit een goede vraag: bewaken jullie uitgaand verkeer van servers, of alleen inkomend? Het laat ook zien waarom een incident na het patchen nog niet klaar is.",
+   "limitations": [
+    "Welke lekken de aanvallers in het algemeen gebruikten om binnen te komen, staat niet in het artikel.",
+    "Het oorspronkelijke onderzoek van Microsoft kon in een eerdere run niet worden geopend; de uitleg steunt op BleepingComputer.",
+    "Wie de aanvallers zijn, wordt niet gezegd; het gaat om meerdere groepen.",
+    "De cijfers komen uit de telemetrie van één leverancier en zeggen niets over omgevingen die Microsoft niet ziet."
+   ],
+   "topics": [
+    "attack_techniques",
+    "siem_detection",
+    "incident_response"
+   ],
+   "groups": [
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.91,
+    "source": 0.68,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T01:33:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Aanvallers houden toegang tot Linux-servers met legitiem GSocket",
+   "story": [
+    "Microsoft ziet dat meerdere groepen aanvallers GSocket op Linux-servers zetten. GSocket is een legitiem open-source hulpmiddel om computers achter een firewall te bereiken. Aanvallers gebruiken het om binnen te blijven, ook nadat het lek waarmee ze binnenkwamen is gedicht. Tussen maart en augustus steeg het aantal detecties met 356,2 procent. 87,1 procent van de gevallen ging om webapplicaties en hosting, vooral PHP-sites en cPanel.",
+    "Hoe werkt het? Normaal maak je voor beheer op afstand een verbinding naar de server, en een firewall bepaalt welke inkomende verbindingen mogen. GSocket draait dat om. Zowel de gehackte server als de aanvaller maken een uitgaande verbinding naar het Global Socket Relay Network. Dat koppelt de twee aan elkaar, met versleuteling. Vergelijk het met twee mensen die elkaar niet kunnen bellen, maar allebei dezelfde centrale bellen die hen doorverbindt. De server heeft geen open poort of publiek IP-adres nodig, en de aanvaller heeft geen eigen C2-server nodig.",
+    "Om ook na een herstart binnen te blijven (persistentie), vermommen de aanvallers GSocket als een kernel-thread: een proces dat eruitziet als een onderdeel van het besturingssysteem. Ze starten het via cron-jobs, systemd-services of de opstartbestanden van de shell. In sommige gevallen probeerden ze ook root te worden via de Linux-kernelfout Dirty Frag (CVE-2026-43284).",
+    "Hoe zie je het? Inkomende firewallregels zien niets, want al het verkeer gaat naar buiten. Wat wel helpt, volgens Microsoft: uitgaand verkeer beperken tot vaste bestemmingen (egress filtering) en uitgaande verbindingen bewaken. Controleer cron-jobs, systemd-services en opstartbestanden op onbekende regels. Verwijder GSocket, controleer dat verbindingen naar het relaynetwerk stoppen en patch CVE-2026-43284.",
+    "De les voor organisaties: patchen sluit de deur, maar niet de achterdeur die er al ligt. Na een misbruikt lek hoort altijd de vraag of de aanvaller al binnen was. Omdat GSocket een legitiem hulpmiddel is, slaat niet elke scanner er alarm op; gedrag en uitgaand verkeer zijn hier betere signalen."
+   ],
+   "key_facts": [
+    "Het onderzoek komt van Microsoft, op basis van telemetrie van Microsoft Defender for Endpoint.",
+    "GSocket-detecties stegen tussen maart en augustus 2026 met 356,2 procent.",
+    "87,1 procent van de incidenten betrof webapplicaties en hosting: PHP-webapps en cPanel 63,9 procent, Apache 24,3 procent; vooral onderwijs en onderzoek waren doelwit.",
+    "Server en aanvaller verbinden allebei naar buiten met het Global Socket Relay Network; de server heeft geen inkomende poort of publiek IP-adres nodig.",
+    "Persistentie via vermomming als kernel-thread, cron-jobs, systemd-services en shell-opstartbestanden.",
+    "In sommige gevallen probeerden aanvallers root te worden via Dirty Frag (CVE-2026-43284)."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een vermomd proces vind je vaak aan de details. Echte kernel-threads hebben ouderproces 2 (kthreadd) en draaien als root. Een 'kworker' met ouderproces 1 die als webgebruiker www-data draait, hoort daar niet.",
+    "language": "bash",
+    "code": "$ ps -eo pid,ppid,user,cmd | grep kworker\n   57      2 root      [kworker/0:1-events]\n   88      2 root      [kworker/1:0-mm_percpu_wq]\n 4113      1 www-data  [kworker/1:2]",
+    "note": "Nagebouwd voorbeeld; de procesnummers zijn verzonnen. De bron noemt de vermomming als kernel-thread, niet deze specifieke uitvoer."
+   },
+   "terms": [
+    {
+     "term": "C2-server",
+     "explanation": "Command and control: de server waarmee een aanvaller zijn malware opdrachten geeft en gegevens terugkrijgt."
+    },
+    {
+     "term": "persistentie",
+     "explanation": "Maatregelen van een aanvaller om toegang te houden, ook na een herstart of een wachtwoordwissel (persistence)."
+    },
+    {
+     "term": "kernel-thread",
+     "explanation": "Een taak van het besturingssysteem zelf. In een proceslijst staat de naam tussen blokhaken, zoals [kworker]; aanvallers geven hun malware daarom zo'n naam."
+    },
+    {
+     "term": "cron-jobs",
+     "explanation": "Taken die Linux automatisch op vaste tijden of bij het opstarten uitvoert. Handig voor beheer, maar ook voor aanvallers die hun software steeds opnieuw willen starten."
+    },
+    {
+     "term": "systemd-services",
+     "explanation": "Diensten die Linux automatisch start en bewaakt. Een aanvaller die er een toevoegt, zorgt dat zijn programma na elke herstart weer draait."
+    },
+    {
+     "term": "egress filtering",
+     "explanation": "Uitgaand verkeer beperken tot bestemmingen die echt nodig zijn. Zo kan malware die naar buiten wil bellen, dat niet zomaar."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; praktische uitleg van persistentie en uitgaand verkeer voor detectie."
+   },
+   "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
+   "region": "world"
   },
   {
    "id": "1acaa8e77a2e",
@@ -2703,7 +2703,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.47,
+    "recency": 0.46,
     "source": 0.8,
     "quality": 0.82,
     "fit": 0.15
@@ -2860,7 +2860,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.49,
+    "recency": 0.48,
     "source": 0.8,
     "quality": 0.83,
     "fit": 0.1
@@ -3094,7 +3094,7 @@
    "relevance_score": 89,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.81,
+    "recency": 0.8,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -3346,7 +3346,7 @@
    "relevance_score": 88,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.67,
+    "recency": 0.66,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.0
@@ -3569,7 +3569,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.45,
+    "recency": 0.44,
     "source": 0.8,
     "quality": 0.77,
     "fit": 0.05
@@ -3809,7 +3809,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.33,
+    "recency": 0.32,
     "source": 0.68,
     "quality": 0.82,
     "fit": 0.1
@@ -4621,7 +4621,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.6,
+    "recency": 0.59,
     "source": 0.8,
     "quality": 0.6,
     "fit": 0.0
@@ -4718,7 +4718,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.62,
+    "recency": 0.61,
     "source": 0.51,
     "quality": 0.73,
     "fit": 0.0
@@ -4815,7 +4815,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.63,
+    "recency": 0.62,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -9923,14 +9923,6 @@
     "excluded_by": []
    },
    {
-    "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-    "source_id": "securityweek",
-    "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "NCSC-2026-0463 [1.00] [M/H] Kwetsbaarheid verholpen in Cisco Secure Firewall ASA en FTD Software",
     "source_id": "ncsc_nl_advisories",
     "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0463",
@@ -9971,19 +9963,25 @@
     ]
    },
    {
-    "title": "NCSC-2026-0457 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise",
-    "source_id": "ncsc_nl_advisories",
-    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0457",
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
     "relevance_score": 81,
-    "decision": "excluded",
-    "excluded_by": [
-     "ncsc_lower_likelihood"
-    ]
+    "decision": "included",
+    "excluded_by": []
    },
    {
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
     "relevance_score": 81,
     "decision": "included",
     "excluded_by": []
