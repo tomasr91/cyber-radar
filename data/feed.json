@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T01:37:39.917516Z",
+ "generated_at": "2026-11-14T02:24:26.284891Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-14T01:36:09Z",
- "last_successful_update": "2026-11-14T01:37:39.917516Z",
+ "last_successful_update": "2026-11-14T02:24:26.284891Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-14T01:37:39.982999Z"
+   "checked_at": "2026-11-14T02:24:26.332717Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-14T01:37:40.868642Z"
+   "checked_at": "2026-11-14T02:24:27.088041Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-14T01:37:41.843217Z"
+   "checked_at": "2026-11-14T02:24:28.192417Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-14T01:37:43.119863Z"
+   "checked_at": "2026-11-14T02:24:29.050445Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-14T01:37:44.263211Z"
+   "checked_at": "2026-11-14T02:24:30.636950Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-14T01:37:44.398159Z"
+   "checked_at": "2026-11-14T02:24:30.823657Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-14T01:37:44.520706Z"
+   "checked_at": "2026-11-14T02:24:30.944994Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-14T01:37:44.691897Z"
+   "checked_at": "2026-11-14T02:24:31.075368Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-14T01:37:45.054024Z"
+   "checked_at": "2026-11-14T02:24:31.536414Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-14T01:37:46.661182Z"
+   "checked_at": "2026-11-14T02:24:35.103791Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-14T01:37:46.879246Z"
+   "checked_at": "2026-11-14T02:24:35.446919Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-14T01:37:46.948829Z"
+   "checked_at": "2026-11-14T02:24:35.549136Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-14T01:37:47.045409Z"
+   "checked_at": "2026-11-14T02:24:35.707692Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-14T01:37:47.823556Z"
+   "checked_at": "2026-11-14T02:24:36.074484Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-14T01:37:48.202476Z"
+   "checked_at": "2026-11-14T02:24:36.326384Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-14T01:37:48.363503Z"
+   "checked_at": "2026-11-14T02:24:36.416240Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-14T01:37:48.612317Z"
+   "checked_at": "2026-11-14T02:24:36.669582Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-14T01:37:48.739237Z"
+   "checked_at": "2026-11-14T02:24:37.159659Z"
   }
  ],
  "daily_top": [
@@ -420,7 +420,7 @@
    "relevance_score": 93,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.93,
+    "recency": 0.92,
     "source": 0.68,
     "quality": 0.8,
     "fit": 0.05
@@ -810,7 +810,7 @@
    "relevance_score": 92,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.95,
+    "recency": 0.94,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1102,7 +1102,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1448,99 +1448,6 @@
    },
    "takeaway": "Een verbinding die van binnen naar buiten wordt opgezet, omzeilt inkomende firewallregels. Daarom is het beperken en bewaken van uitgaand verkeer van servers net zo belangrijk als het afschermen van inkomend verkeer.",
    "region": "world"
-  },
-  {
-   "id": "1acaa8e77a2e",
-   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "source_id": "the_hacker_news",
-   "published_at": "2026-11-12T17:50:27Z",
-   "fetched_at": "2026-11-13T01:23:10.741225Z",
-   "summary": "Openbare aanvalscode laat een gewone Windows-gebruiker SYSTEM-rechten krijgen via de CLFS-driver en Microsoft Defender. Er is nog geen CVE en geen patch; misbruik is niet gemeld.",
-   "personal_relevance": "Klanten vragen bij zo'n zero-day zonder patch wat ze nu kunnen doen. Het eerlijke antwoord: het is een tweede stap, dus detectie van de eerste toegang en van plotselinge SYSTEM-rechten telt meer dan paniek over deze ene fout.",
-   "limitations": [
-    "Microsoft heeft de fout niet bevestigd; de technische beschrijving komt van de onderzoeker zelf.",
-    "De claim dat het werkt met elke antimalwaredienst met hoge rechten, is niet getest.",
-    "Of en wanneer er een patch komt, is onbekend.",
-    "De bron noemt geen concrete logkenmerken om SignDrop zelf te herkennen."
-   ],
-   "topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "siem_detection"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "aanvallen",
-    "detectie"
-   ],
-   "relevance_score": 91,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.94,
-    "source": 0.68,
-    "quality": 0.73,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T01:32:30Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM",
-   "story": [
-    "Een onderzoeker die zich MSNightmare noemt, zette op GitHub 'SignDrop' online: proof of concept-code waarmee een gewone gebruiker op Windows SYSTEM-rechten zou krijgen. Dat gebeurde op de dag van de Windows-updates van november. Er is geen CVE-nummer en geen patch, en Microsoft heeft de fout nog niet bevestigd.",
-    "Eerst de normale werking. CLFS (Common Log File System) is een Windows-onderdeel dat logbestanden bijhoudt, met een driver in de kernel: clfs.sys. Omdat gemanipuleerde logbestanden een bekende aanvalsroute waren, voegde Microsoft in oktober 2025 een controle toe. De driver hangt een HMAC aan elk log, met een geheime sleutel per computer. Zo leest hij alleen logs die hij zelf schreef. Naast elk log maakt hij een begeleidend .cnpf-bestand met dezelfde rechten als het log.",
-    "Daar zit de zwakke plek. Een gewone gebruiker maakt een log met paden die hij zelf kiest. Opent een proces met hoge rechten dat log, dan maakt de driver het .cnpf-bestand aan namens dat proces. Met een symbolische koppeling, een soort doorverwijzing in Windows, stuurt de aanvaller die aanmaak naar een plek naar keuze. Het resultaat is een bestand dat SYSTEM aanmaakte, maar waarin de gewone gebruiker mag schrijven. In de gepubliceerde code is het proces met hoge rechten de antimalwaredienst van Microsoft Defender. Een beveiligingsfunctie wordt zo een opstap.",
-    "Hoe urgent is het? Dit is rechtenverhoging: de aanvaller moet al op de computer zijn. Het is dus de tweede stap van een aanval, niet de eerste. Volgens de onderzoeker zijn systemen kwetsbaar waar de CLFS-controle aan staat of in de leerstand, en dat is de standaard. Onderzoekers van 78researchlab bevestigen dat de exploit werkt, maar vinden hem niet betrouwbaar genoeg voor echte aanvallen. Defender moet aan staan, en de UAC-meldingen veranderen zichtbaar. SignDrop staat niet in de KEV-lijst en misbruik is niet gemeld. Wel zijn drie eerdere Defender-lekken van dezelfde onderzoeker later misbruikt.",
-    "Wat kun je doen? Beheerders kunnen de CLFS-instelling in het register controleren. De controle uitzetten haalt je buiten bereik, maar is riskant omdat je dan een beveiliging weghaalt. Volg de updates van Microsoft. Omdat SignDrop een eerste toegang nodig heeft, blijft vroege detectie van die eerste stap, bijvoorbeeld met EDR en een SIEM, de beste verdediging."
-   ],
-   "key_facts": [
-    "SignDrop is op GitHub gepubliceerd door een onderzoeker met de naam MSNightmare, op de dag van de Windows-updates van november 2026.",
-    "Er is geen CVE en geen patch; Microsoft heeft de fout niet bevestigd en noemt hem niet in de novemberupdates.",
-    "Getest op Windows 11 26H2, een experimentele build van 26H2 en Windows Server 2025 Experimental; in scope bij CLFS-authenticatiemodus 0 (afdwingen) of 1 (leren), de standaard.",
-    "Microsoft voegde de CLFS-logauthenticatie (HMAC per computer) in oktober 2025 toe aan Windows 11 25H2 en 26H1 en Windows Server 2025.",
-    "Heewon Song van 78researchlab bevestigde dat de exploit werkt, maar noemt hem niet betrouwbaar genoeg; Defender moet aan staan en UAC-meldingen veranderen zichtbaar.",
-    "SignDrop staat niet in de KEV-lijst van CISA en er zijn geen aanvallen gemeld; drie eerdere Defender-lekken van dezelfde onderzoeker zijn wel misbruikt."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "SYSTEM-rechten",
-     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
-    },
-    {
-     "term": "driver",
-     "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."
-    },
-    {
-     "term": "HMAC",
-     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
-    },
-    {
-     "term": "symbolische koppeling",
-     "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."
-    },
-    {
-     "term": "rechtenverhoging",
-     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
-    },
-    {
-     "term": "UAC",
-     "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."
-    }
-   ],
-   "learning": "Aanvalstechnieken uitgelegd",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."
-   },
-   "takeaway": "Rechtenverhoging misbruikt vaak een proces met hoge rechten dat iets doet namens een gewone gebruiker. Kan de gebruiker bepalen wáár dat proces een bestand aanmaakt, dan kan hij de hoge rechten van dat proces lenen.",
-   "region": "world",
-   "exploitation": "poc_openbaar",
-   "patch_status": "geen_patch"
   },
   {
    "id": "1838248a60d9",
@@ -2399,6 +2306,99 @@
    "region": "eu",
    "exploitation": "actief_misbruikt",
    "patch_status": "patch_beschikbaar"
+  },
+  {
+   "id": "1acaa8e77a2e",
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+   "source_id": "the_hacker_news",
+   "published_at": "2026-11-12T17:50:27Z",
+   "fetched_at": "2026-11-13T01:23:10.741225Z",
+   "summary": "Openbare aanvalscode laat een gewone Windows-gebruiker SYSTEM-rechten krijgen via de CLFS-driver en Microsoft Defender. Er is nog geen CVE en geen patch; misbruik is niet gemeld.",
+   "personal_relevance": "Klanten vragen bij zo'n zero-day zonder patch wat ze nu kunnen doen. Het eerlijke antwoord: het is een tweede stap, dus detectie van de eerste toegang en van plotselinge SYSTEM-rechten telt meer dan paniek over deze ene fout.",
+   "limitations": [
+    "Microsoft heeft de fout niet bevestigd; de technische beschrijving komt van de onderzoeker zelf.",
+    "De claim dat het werkt met elke antimalwaredienst met hoge rechten, is niet getest.",
+    "Of en wanneer er een patch komt, is onbekend.",
+    "De bron noemt geen concrete logkenmerken om SignDrop zelf te herkennen."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "siem_detection"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "aanvallen",
+    "detectie"
+   ],
+   "relevance_score": 90,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.94,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T01:32:30Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "SignDrop: beveiliging van Windows-logbestanden wordt opstap naar SYSTEM",
+   "story": [
+    "Een onderzoeker die zich MSNightmare noemt, zette op GitHub 'SignDrop' online: proof of concept-code waarmee een gewone gebruiker op Windows SYSTEM-rechten zou krijgen. Dat gebeurde op de dag van de Windows-updates van november. Er is geen CVE-nummer en geen patch, en Microsoft heeft de fout nog niet bevestigd.",
+    "Eerst de normale werking. CLFS (Common Log File System) is een Windows-onderdeel dat logbestanden bijhoudt, met een driver in de kernel: clfs.sys. Omdat gemanipuleerde logbestanden een bekende aanvalsroute waren, voegde Microsoft in oktober 2025 een controle toe. De driver hangt een HMAC aan elk log, met een geheime sleutel per computer. Zo leest hij alleen logs die hij zelf schreef. Naast elk log maakt hij een begeleidend .cnpf-bestand met dezelfde rechten als het log.",
+    "Daar zit de zwakke plek. Een gewone gebruiker maakt een log met paden die hij zelf kiest. Opent een proces met hoge rechten dat log, dan maakt de driver het .cnpf-bestand aan namens dat proces. Met een symbolische koppeling, een soort doorverwijzing in Windows, stuurt de aanvaller die aanmaak naar een plek naar keuze. Het resultaat is een bestand dat SYSTEM aanmaakte, maar waarin de gewone gebruiker mag schrijven. In de gepubliceerde code is het proces met hoge rechten de antimalwaredienst van Microsoft Defender. Een beveiligingsfunctie wordt zo een opstap.",
+    "Hoe urgent is het? Dit is rechtenverhoging: de aanvaller moet al op de computer zijn. Het is dus de tweede stap van een aanval, niet de eerste. Volgens de onderzoeker zijn systemen kwetsbaar waar de CLFS-controle aan staat of in de leerstand, en dat is de standaard. Onderzoekers van 78researchlab bevestigen dat de exploit werkt, maar vinden hem niet betrouwbaar genoeg voor echte aanvallen. Defender moet aan staan, en de UAC-meldingen veranderen zichtbaar. SignDrop staat niet in de KEV-lijst en misbruik is niet gemeld. Wel zijn drie eerdere Defender-lekken van dezelfde onderzoeker later misbruikt.",
+    "Wat kun je doen? Beheerders kunnen de CLFS-instelling in het register controleren. De controle uitzetten haalt je buiten bereik, maar is riskant omdat je dan een beveiliging weghaalt. Volg de updates van Microsoft. Omdat SignDrop een eerste toegang nodig heeft, blijft vroege detectie van die eerste stap, bijvoorbeeld met EDR en een SIEM, de beste verdediging."
+   ],
+   "key_facts": [
+    "SignDrop is op GitHub gepubliceerd door een onderzoeker met de naam MSNightmare, op de dag van de Windows-updates van november 2026.",
+    "Er is geen CVE en geen patch; Microsoft heeft de fout niet bevestigd en noemt hem niet in de novemberupdates.",
+    "Getest op Windows 11 26H2, een experimentele build van 26H2 en Windows Server 2025 Experimental; in scope bij CLFS-authenticatiemodus 0 (afdwingen) of 1 (leren), de standaard.",
+    "Microsoft voegde de CLFS-logauthenticatie (HMAC per computer) in oktober 2025 toe aan Windows 11 25H2 en 26H1 en Windows Server 2025.",
+    "Heewon Song van 78researchlab bevestigde dat de exploit werkt, maar noemt hem niet betrouwbaar genoeg; Defender moet aan staan en UAC-meldingen veranderen zichtbaar.",
+    "SignDrop staat niet in de KEV-lijst van CISA en er zijn geen aanvallen gemeld; drie eerdere Defender-lekken van dezelfde onderzoeker zijn wel misbruikt."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "SYSTEM-rechten",
+     "explanation": "De hoogste rechten op een Windows-computer, nog boven die van een gewone beheerder."
+    },
+    {
+     "term": "driver",
+     "explanation": "Een programma dat diep in het besturingssysteem draait, met de hoogste rechten. Een fout in een driver is daarom een geliefd doelwit voor rechtenverhoging."
+    },
+    {
+     "term": "HMAC",
+     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+     "term": "symbolische koppeling",
+     "explanation": "Een verwijzing die zegt: 'dit pad is eigenlijk dat andere pad'. Wie zo'n verwijzing slim zet, kan een programma ongemerkt naar een andere plek laten schrijven."
+    },
+    {
+     "term": "rechtenverhoging",
+     "explanation": "Een aanval waarbij iemand met beperkte rechten zichzelf meer rechten geeft, bijvoorbeeld van gewone gebruiker naar beheerder (privilege escalation)."
+    },
+    {
+     "term": "UAC",
+     "explanation": "User Account Control: de Windows-melding die vraagt of een programma wijzigingen mag aanbrengen. Hij beschermt tegen ongemerkt beheerdersgebruik."
+    }
+   ],
+   "learning": "Aanvalstechnieken uitgelegd",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; diepe uitleg van rechtenverhoging in Windows, zonder direct misbruik."
+   },
+   "takeaway": "Rechtenverhoging misbruikt vaak een proces met hoge rechten dat iets doet namens een gewone gebruiker. Kan de gebruiker bepalen wáár dat proces een bestand aanmaakt, dan kan hij de hoge rechten van dat proces lenen.",
+   "region": "world",
+   "exploitation": "poc_openbaar",
+   "patch_status": "geen_patch"
   },
   {
    "id": "9cb2b44a4924",
@@ -3464,7 +3464,7 @@
    "relevance_score": 86,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.32,
+    "recency": 0.31,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -4820,7 +4820,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.63,
+    "recency": 0.62,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -5864,7 +5864,7 @@
    "relevance_score": 78,
    "score_parts": {
     "topic": 0.85,
-    "recency": 0.64,
+    "recency": 0.63,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -6186,64 +6186,64 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-13T02:40:00Z",
+  "generated_at": "2026-11-14T02:35:00Z",
   "options": [
    {
-    "id": "http-en-https",
-    "title": "HTTP en HTTPS: de taal van het web",
-    "question": "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?",
-    "why": "Deze week dichtte Apache een kritiek lek in zijn HTTP/2-module; wie weet hoe HTTP werkt, begrijpt beter waar zo'n fout in een webserver zit.",
+    "id": "sql-injection",
+    "title": "SQL injection: als een website de verkeerde vraag aan de database stelt",
+    "question": "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?",
+    "why": "Een basisonderwerp uit het leerpad dat nog niet als keuze langskwam; deze week dichtte PostgreSQL, een veelgebruikte database achter websites, 52 lekken in één update.",
     "topics": [
-     "web_software_security",
+     "attack_techniques",
+     "web_software_security"
+    ],
+    "area": "techniek"
+   },
+   {
+    "id": "privilege-escalation",
+    "title": "Privilege escalation: van gewone gebruiker naar beheerder",
+    "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
+    "why": "Deze week verscheen SignDrop: openbare code waarmee een gewone Windows-gebruiker SYSTEM-rechten zou krijgen, nog zonder CVE of patch.",
+    "topics": [
+     "attack_techniques",
+     "vulnerabilities_cve",
      "siem_detection"
     ],
-    "area": "techniek"
+    "area": "kwetsbaarheden"
    },
    {
-    "id": "phishingbestendige-mfa",
-    "title": "Passkeys en FIDO2: waarom een nep-inlogpagina daar niets mee kan",
-    "question": "Hoe werkt MFA die niet te phishen is, en waarom houdt die een live proxy tegen terwijl sms-codes en authenticator-apps dat niet doen?",
-    "why": "Trend 'MFA omzeild met gestolen sessies': deze week beschreef Material Security een Google-campagne met een live proxy die sms, authenticator-codes en number matching omzeilt, en Talos raadt MFA aan die niet te phishen is.",
+    "id": "sessie-aan-apparaat-gekoppeld",
+    "title": "Een inlogsessie vastmaken aan je apparaat: hoe DBSC gestolen cookies stopt",
+    "question": "Wat is een sessiecookie, waarom kan een aanvaller met een gestolen cookie langs MFA, en hoe maakt Device Bound Session Credentials (DBSC) zo'n cookie waardeloos?",
+    "why": "Dit hoort bij de trend 'Aanvallers omzeilen MFA door de inlogsessie zelf te stelen'; Vercel voert DBSC nu in om precies dat tegen te gaan.",
     "topics": [
      "phishing_identity",
-     "cloud_attacks"
+     "web_software_security"
     ],
     "area": "techniek"
    },
    {
-    "id": "github-workflows-geheimen-gestolen",
-    "title": "Hoe gehackte GitHub-accounts cloudsleutels uit bouwstraten stelen",
-    "question": "Wat is een GitHub-workflow (CI/CD), waarom heeft die toegang tot AWS, Azure en Google Cloud, en hoe misbruikte de campagne met 4.837 gehackte accounts dat?",
-    "why": "Op 10 november begon een campagne waarin duizenden overgenomen GitHub-accounts kwaadaardige workflows plaatsten die geheimen en cloudtoegang stalen en daarna hun sporen wisten.",
+    "id": "infostealers-en-gestolen-inloggegevens",
+    "title": "Infostealers: hoe gestolen wachtwoorden en cookies bij criminelen belanden",
+    "question": "Hoe steelt een infostealer inloggegevens van een computer, wat gebeurt er daarna mee, en wat kan een organisatie doen als gegevens van haar medewerkers opduiken?",
+    "why": "Operation Endgame haalde deze week onder meer de infostealer StealC offline en vond ongeveer 6,4 miljoen gestolen inloggegevens; de Nederlandse politie zette een deel in Check your hack.",
     "topics": [
-     "supply_chain",
-     "cloud_attacks",
-     "incidents_breaches"
+     "malware",
+     "incidents_breaches",
+     "threat_intelligence"
     ],
     "area": "incidenten"
    },
    {
-    "id": "persistentie-op-linux-servers",
-    "title": "Binnen blijven: hoe aanvallers zich vastzetten op een Linux-server",
-    "question": "Wat is persistentie, welke plekken op een Linux-server misbruikt een aanvaller om terug te komen (cron, systemd, opstartbestanden), en hoe vindt een securityteam dat?",
-    "why": "Microsoft zag deze week dat aanvallers het legitieme hulpmiddel GSocket op gehackte Linux-servers zetten en zo binnen blijven, ook nadat het lek is gepatcht.",
+    "id": "detectieregel-maken",
+    "title": "Een detectieregel van dichtbij: hoe bepaal je wat verdacht is?",
+    "question": "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?",
+    "why": "Huntress beschreef deze week ClickFix-aanvallen waarin aanvallers gewone beheertools als PsExec en WinRM gebruikten; juist dan moet een regel verdacht gebruik van normaal beheer onderscheiden.",
     "topics": [
-     "attack_techniques",
      "siem_detection",
-     "incident_response"
+     "attack_techniques"
     ],
     "area": "praktijk"
-   },
-   {
-    "id": "van-poc-naar-aanval-in-uren",
-    "title": "Van openbare aanvalscode naar aanval in uren: wat doe je in die tijd?",
-    "question": "Wat is een proof of concept, waarom volgen aanvallen soms binnen uren na publicatie, en hoe richt je vulnerability management in op die snelheid?",
-    "why": "Deze week werden zowel het N-central-lek 4EverAble2Shell als het OpenSSH-lek SSHole binnen enkele uren na publicatie aangevallen.",
-    "topics": [
-     "exploited_vulnerabilities",
-     "vulnerability_management"
-    ],
-    "area": "kwetsbaarheden"
    }
   ]
  },
@@ -9751,14 +9751,6 @@
     "excluded_by": []
    },
    {
-    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-    "relevance_score": 84,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
     "source_id": "the_record",
     "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
@@ -9822,6 +9814,14 @@
     "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
     "source_id": "the_hacker_news",
     "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+    "relevance_score": 83,
+    "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+    "source_id": "bleepingcomputer",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
     "relevance_score": 83,
     "decision": "included",
     "excluded_by": []
