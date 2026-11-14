@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T03:25:57.204657Z",
+ "generated_at": "2026-11-14T04:38:15.483310Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-14T01:36:09Z",
- "last_successful_update": "2026-11-14T03:25:57.204657Z",
+ "last_successful_update": "2026-11-14T04:38:15.483310Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-14T03:25:57.245411Z"
+   "checked_at": "2026-11-14T04:38:15.518265Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-14T03:25:57.850971Z"
+   "checked_at": "2026-11-14T04:38:16.492769Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-14T03:25:58.977485Z"
+   "checked_at": "2026-11-14T04:38:17.643533Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-14T03:25:59.563611Z"
+   "checked_at": "2026-11-14T04:38:18.447407Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-14T03:26:00.908256Z"
+   "checked_at": "2026-11-14T04:38:20.091322Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-14T03:26:01.097131Z"
+   "checked_at": "2026-11-14T04:38:20.172029Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-14T03:26:01.172827Z"
+   "checked_at": "2026-11-14T04:38:20.278808Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-14T03:26:01.314312Z"
+   "checked_at": "2026-11-14T04:38:20.388962Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-14T03:26:01.964674Z"
+   "checked_at": "2026-11-14T04:38:20.914915Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-14T03:26:03.554719Z"
+   "checked_at": "2026-11-14T04:38:22.493003Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-14T03:26:03.790194Z"
+   "checked_at": "2026-11-14T04:38:22.697978Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-14T03:26:03.924859Z"
+   "checked_at": "2026-11-14T04:38:22.759410Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-14T03:26:04.109782Z"
+   "checked_at": "2026-11-14T04:38:22.799292Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-14T03:26:04.298534Z"
+   "checked_at": "2026-11-14T04:38:23.043600Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-14T03:26:04.390752Z"
+   "checked_at": "2026-11-14T04:38:23.217436Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-14T03:26:04.480389Z"
+   "checked_at": "2026-11-14T04:38:23.273050Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-14T03:26:04.693108Z"
+   "checked_at": "2026-11-14T04:38:23.543378Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-14T03:26:04.898926Z"
+   "checked_at": "2026-11-14T04:38:23.709721Z"
   }
  ],
  "daily_top": [
@@ -676,111 +676,6 @@
    "takeaway": "Een gestolen sessiecookie is net zo goed als inloggen, inclusief de tweede factor. Wie de technicus van een dienstverlener overneemt, krijgt via de beheersoftware toegang tot alle klanten van die technicus.",
    "region": "world",
    "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
-  },
-  {
-   "id": "4d2baf54099d",
-   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-   "source_id": "bleepingcomputer",
-   "published_at": "2026-11-12T19:12:55Z",
-   "fetched_at": "2026-11-13T01:23:10.535365Z",
-   "summary": "Apache 2.4.71 dicht CVE-2026-119618, een fout in de HTTP/2-module waarmee een aanvaller zonder inlog mogelijk de webserver overneemt. Alleen servers met HTTP/2 aan zijn kwetsbaar; nog niet alle Linux-distributies hebben een update.",
-   "personal_relevance": "Apache draait bij bijna elke klant ergens. Vraag of hun vulnerability management bij dit lek naar de configuratie (HTTP/2 aan) en het distributieadvies kijkt, niet alleen naar het versienummer.",
-   "limitations": [
-    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op The Hacker News en een onderzoeksnotitie van de Cloud Security Alliance.",
-    "Het onderzoek met de 'betrouwbare exploit' waar Red Hat naar verwijst, is niet openbaar gelinkt en niet onafhankelijk bevestigd.",
-    "Er zijn nog geen logkenmerken of detectieregels gepubliceerd.",
-    "Op het moment van schrijven hadden Debian stable, Amazon Linux, Ubuntu en enkele Red Hat-producten nog geen update."
-   ],
-   "official_docs": [
-    {
-     "label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618",
-     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"
-    },
-    {
-     "label": "The Hacker News: kritiek Apache HTTP/2-lek",
-     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
-    }
-   ],
-   "topics": [
-    "vulnerabilities_cve",
-    "vulnerability_management",
-    "web_software_security"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "vm",
-    "web"
-   ],
-   "relevance_score": 92,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.94,
-    "source": 0.68,
-    "quality": 0.73,
-    "fit": 0.05
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-13T01:32:00Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog",
-   "story": [
-    "Apache HTTP Server, een van de meest gebruikte webservers, heeft versie 2.4.71 uitgebracht. Die dicht CVE-2026-119618 in mod_http2, de module voor HTTP/2. Volgens Red Hat kan een aanvaller zonder inlog die de server kan bereiken, code laten uitvoeren en het serverproces overnemen (CVSS 9,8). Kwetsbaar zijn de versies 2.4.55 tot en met 2.4.70, maar alleen als HTTP/2 aan staat.",
-    "Hoe werkt het? Bij HTTP/2 stuurt een browser over één verbinding veel verzoeken tegelijk, elk als een eigen stroom (stream). Apache verwerkt die stromen tegelijk met meerdere threads: werkers die naast elkaar draaien en geheugen delen. Daarom moeten ze afspraken maken over wie wanneer in dat gedeelde geheugen schrijft. In de functie assign_headers() ontbreekt zo'n afspraak. Volgens Red Hat schrijft één thread dan in geheugen dat van een andere is. Dat heet een race condition, en het beschadigt de heap. Met zulke geheugenschade kan een aanvaller soms eigen code laten uitvoeren.",
-    "Hoe urgent is het? Red Hat zegt dat openbaar onderzoek een betrouwbare exploit voor de standaardinstelling heeft laten zien, maar noemt die niet. Wiz zag op dezelfde dag geen beschikbare exploit en geen misbruik. Het lek zit vóór het inloggen, op een dienst die per definitie vanaf internet bereikbaar is; dat maakt het ernstig. Red Hat Enterprise Linux 9 en 10 geven elke stroom een eigen stuk geheugenbeheer. Daardoor is misbruik daar veel moeilijker en noemt Red Hat het 'Important' in plaats van 'Critical'.",
-    "Wat moet je doen? Update naar 2.4.71 of de update van je Linux-distributie. Debian stable en Amazon Linux hadden nog geen update, en de losse mod_h2 krijgt er geen meer. Kun je nog niet patchen, haal dan h2 en h2c weg uit de Protocols-instelling, zowel algemeen als per website. Let op bij vulnerability management: distributies zetten een fix vaak in een ouder versienummer (backport). Een scanner die alleen naar het versienummer kijkt, kan je dan ten onrechte kwetsbaar of veilig noemen.",
-    "Ook servers die al naar 2.4.67 tot en met 2.4.70 waren bijgewerkt voor een eerder HTTP/2-lek, zijn nog kwetsbaar. Logkenmerken van een aanval zijn nog niet gepubliceerd. Voor organisaties is dit vooral een inventarisatievraag: welke Apache-servers praten HTTP/2 met de buitenwereld?"
-   ],
-   "key_facts": [
-    "CVE-2026-119618 zit in mod_http2 van Apache HTTP Server; Red Hat geeft CVSS 9,8 en meldt dat een aanvaller zonder inlog het serverproces kan overnemen.",
-    "Kwetsbaar: Apache 2.4.55 tot en met 2.4.70 en losse mod_h2 2.0.8 tot en met 2.0.42; opgelost in 2.4.71 (11 november 2026).",
-    "Alleen servers met h2 of h2c in de Protocols-instelling zijn kwetsbaar; de workaround is die weghalen.",
-    "Apache noemt de oorzaak gelijktijdig gebruik van een gedeelde bron zonder goede synchronisatie in assign_headers(); Red Hat beschrijft een thread die in geheugen van een andere thread schrijft (heap-beschadiging).",
-    "Red Hat: openbaar onderzoek toonde een betrouwbare exploit voor de standaardinstelling; Wiz: geen exploit beschikbaar en geen misbruik gemeld.",
-    "Gemeld door Anthropic's OSS Scanner (26 oktober) en door Google Cloud Vulnerability Research; RHEL 9 en 10 zijn 'Important', RHEL 6 tot en met 8 niet getroffen."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "De tijdelijke maatregel zit in één regel van de Apache-configuratie. Boven: HTTP/2 staat aan (h2 en h2c) en de server is kwetsbaar. Onder: alleen HTTP/1.1, het lek is dan niet bereikbaar. Controleer ook elke VirtualHost.",
-    "language": "text",
-    "code": "# Kwetsbaar (2.4.55 - 2.4.70): HTTP/2 staat aan\nProtocols h2 h2c http/1.1\n\n# Tijdelijke maatregel tot de update: alleen HTTP/1.1\nProtocols http/1.1",
-    "note": "Gebaseerd op de workaround in de bronnen. Controleer eerst of geen dienst HTTP/2 nodig heeft."
-   },
-   "terms": [
-    {
-     "term": "HTTP/2",
-     "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."
-    },
-    {
-     "term": "threads",
-     "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."
-    },
-    {
-     "term": "race condition",
-     "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
-    },
-    {
-     "term": "heap",
-     "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
-    },
-    {
-     "term": "backport",
-     "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.55,
-    "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."
-   },
-   "takeaway": "Software die meerdere taken tegelijk uitvoert, moet gedeeld geheugen goed bewaken. Gaat dat mis (een race condition), dan kan een aanvaller met slim getimede verzoeken het geheugen beschadigen en soms code uitvoeren.",
-   "region": "world",
-   "exploitation": "geen_misbruik_bekend",
    "patch_status": "patch_beschikbaar"
   },
   {
@@ -1192,7 +1087,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.85,
+    "recency": 0.84,
     "source": 0.68,
     "quality": 0.77,
     "fit": 0.05
@@ -1450,6 +1345,111 @@
    "region": "world"
   },
   {
+   "id": "4d2baf54099d",
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-12T19:12:55Z",
+   "fetched_at": "2026-11-13T01:23:10.535365Z",
+   "summary": "Apache 2.4.71 dicht CVE-2026-119618, een fout in de HTTP/2-module waarmee een aanvaller zonder inlog mogelijk de webserver overneemt. Alleen servers met HTTP/2 aan zijn kwetsbaar; nog niet alle Linux-distributies hebben een update.",
+   "personal_relevance": "Apache draait bij bijna elke klant ergens. Vraag of hun vulnerability management bij dit lek naar de configuratie (HTTP/2 aan) en het distributieadvies kijkt, niet alleen naar het versienummer.",
+   "limitations": [
+    "Het artikel van BleepingComputer kon niet worden geopend (serverfout); de uitleg steunt op The Hacker News en een onderzoeksnotitie van de Cloud Security Alliance.",
+    "Het onderzoek met de 'betrouwbare exploit' waar Red Hat naar verwijst, is niet openbaar gelinkt en niet onafhankelijk bevestigd.",
+    "Er zijn nog geen logkenmerken of detectieregels gepubliceerd.",
+    "Op het moment van schrijven hadden Debian stable, Amazon Linux, Ubuntu en enkele Red Hat-producten nog geen update."
+   ],
+   "official_docs": [
+    {
+     "label": "Cloud Security Alliance: onderzoeksnotitie CVE-2026-119618",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"
+    },
+    {
+     "label": "The Hacker News: kritiek Apache HTTP/2-lek",
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    }
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "web"
+   ],
+   "relevance_score": 91,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.93,
+    "source": 0.68,
+    "quality": 0.73,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-13T01:32:00Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Kritiek lek in HTTP/2 van Apache: code uitvoeren zonder inlog",
+   "story": [
+    "Apache HTTP Server, een van de meest gebruikte webservers, heeft versie 2.4.71 uitgebracht. Die dicht CVE-2026-119618 in mod_http2, de module voor HTTP/2. Volgens Red Hat kan een aanvaller zonder inlog die de server kan bereiken, code laten uitvoeren en het serverproces overnemen (CVSS 9,8). Kwetsbaar zijn de versies 2.4.55 tot en met 2.4.70, maar alleen als HTTP/2 aan staat.",
+    "Hoe werkt het? Bij HTTP/2 stuurt een browser over één verbinding veel verzoeken tegelijk, elk als een eigen stroom (stream). Apache verwerkt die stromen tegelijk met meerdere threads: werkers die naast elkaar draaien en geheugen delen. Daarom moeten ze afspraken maken over wie wanneer in dat gedeelde geheugen schrijft. In de functie assign_headers() ontbreekt zo'n afspraak. Volgens Red Hat schrijft één thread dan in geheugen dat van een andere is. Dat heet een race condition, en het beschadigt de heap. Met zulke geheugenschade kan een aanvaller soms eigen code laten uitvoeren.",
+    "Hoe urgent is het? Red Hat zegt dat openbaar onderzoek een betrouwbare exploit voor de standaardinstelling heeft laten zien, maar noemt die niet. Wiz zag op dezelfde dag geen beschikbare exploit en geen misbruik. Het lek zit vóór het inloggen, op een dienst die per definitie vanaf internet bereikbaar is; dat maakt het ernstig. Red Hat Enterprise Linux 9 en 10 geven elke stroom een eigen stuk geheugenbeheer. Daardoor is misbruik daar veel moeilijker en noemt Red Hat het 'Important' in plaats van 'Critical'.",
+    "Wat moet je doen? Update naar 2.4.71 of de update van je Linux-distributie. Debian stable en Amazon Linux hadden nog geen update, en de losse mod_h2 krijgt er geen meer. Kun je nog niet patchen, haal dan h2 en h2c weg uit de Protocols-instelling, zowel algemeen als per website. Let op bij vulnerability management: distributies zetten een fix vaak in een ouder versienummer (backport). Een scanner die alleen naar het versienummer kijkt, kan je dan ten onrechte kwetsbaar of veilig noemen.",
+    "Ook servers die al naar 2.4.67 tot en met 2.4.70 waren bijgewerkt voor een eerder HTTP/2-lek, zijn nog kwetsbaar. Logkenmerken van een aanval zijn nog niet gepubliceerd. Voor organisaties is dit vooral een inventarisatievraag: welke Apache-servers praten HTTP/2 met de buitenwereld?"
+   ],
+   "key_facts": [
+    "CVE-2026-119618 zit in mod_http2 van Apache HTTP Server; Red Hat geeft CVSS 9,8 en meldt dat een aanvaller zonder inlog het serverproces kan overnemen.",
+    "Kwetsbaar: Apache 2.4.55 tot en met 2.4.70 en losse mod_h2 2.0.8 tot en met 2.0.42; opgelost in 2.4.71 (11 november 2026).",
+    "Alleen servers met h2 of h2c in de Protocols-instelling zijn kwetsbaar; de workaround is die weghalen.",
+    "Apache noemt de oorzaak gelijktijdig gebruik van een gedeelde bron zonder goede synchronisatie in assign_headers(); Red Hat beschrijft een thread die in geheugen van een andere thread schrijft (heap-beschadiging).",
+    "Red Hat: openbaar onderzoek toonde een betrouwbare exploit voor de standaardinstelling; Wiz: geen exploit beschikbaar en geen misbruik gemeld.",
+    "Gemeld door Anthropic's OSS Scanner (26 oktober) en door Google Cloud Vulnerability Research; RHEL 9 en 10 zijn 'Important', RHEL 6 tot en met 8 niet getroffen."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "De tijdelijke maatregel zit in één regel van de Apache-configuratie. Boven: HTTP/2 staat aan (h2 en h2c) en de server is kwetsbaar. Onder: alleen HTTP/1.1, het lek is dan niet bereikbaar. Controleer ook elke VirtualHost.",
+    "language": "text",
+    "code": "# Kwetsbaar (2.4.55 - 2.4.70): HTTP/2 staat aan\nProtocols h2 h2c http/1.1\n\n# Tijdelijke maatregel tot de update: alleen HTTP/1.1\nProtocols http/1.1",
+    "note": "Gebaseerd op de workaround in de bronnen. Controleer eerst of geen dienst HTTP/2 nodig heeft."
+   },
+   "terms": [
+    {
+     "term": "HTTP/2",
+     "explanation": "Een nieuwere versie van het webprotocol. Een browser kan daarmee over één verbinding veel verzoeken tegelijk sturen, wat websites sneller maakt."
+    },
+    {
+     "term": "threads",
+     "explanation": "Werkers binnen één programma die tegelijk taken uitvoeren en hetzelfde geheugen delen."
+    },
+    {
+     "term": "race condition",
+     "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
+    },
+    {
+     "term": "heap",
+     "explanation": "Het deel van het werkgeheugen waar een programma tijdens het draaien ruimte reserveert voor gegevens. Schrijven buiten zo'n gereserveerd stuk kan andere gegevens overschrijven en code laten uitvoeren."
+    },
+    {
+     "term": "backport",
+     "explanation": "Een fix die een leverancier in een oudere softwareversie inbouwt, zonder het versienummer te verhogen. Scanners die alleen op versie letten, zien dat niet."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; webserverlek met uitleg van de techniek en de valkuil bij scannen."
+   },
+   "takeaway": "Software die meerdere taken tegelijk uitvoert, moet gedeeld geheugen goed bewaken. Gaat dat mis (een race condition), dan kan een aanvaller met slim getimede verzoeken het geheugen beschadigen en soms code uitvoeren.",
+   "region": "world",
+   "exploitation": "geen_misbruik_bekend",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "1838248a60d9",
    "title": "Policy and Disclosure: 2026 Edition",
    "url": "https://projectzero.google/2026/11/disclosure-policy.html",
@@ -1571,7 +1571,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.97,
+    "recency": 0.96,
     "source": 0.68,
     "quality": 0.63,
     "region": 0.02,
@@ -1819,7 +1819,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.78,
+    "recency": 0.77,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -2235,7 +2235,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.87,
+    "recency": 0.86,
     "source": 0.68,
     "quality": 0.67,
     "region": 0.02,
@@ -2433,7 +2433,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.67,
     "fit": 0.05
@@ -3781,111 +3781,6 @@
    "region": "world"
   },
   {
-   "id": "0968634953ed",
-   "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
-   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-   "source_id": "unit42",
-   "published_at": "2026-10-20T20:30:42Z",
-   "fetched_at": "2026-11-03T21:07:40.082335Z",
-   "summary": "Qilin en Inc misbruiken CVE-2026-0257 in GlobalProtect, de vpn van Palo Alto-firewalls. Door een fout in de controle van inlogcookies kunnen ze zonder wachtwoord of MFA een vpn-verbinding opzetten. De patch is er al sinds mei.",
-   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over prioriteren: een lek met een middelhoge score, maar op de KEV-lijst, met openbare aanvalscode en in een systeem aan de rand van het netwerk. Vraag klanten hoe snel zulke lekken bij hen gepatcht worden.",
-   "limitations": [
-    "Hoeveel organisaties zijn getroffen en hoeveel firewalls nog kwetsbaar zijn, staat niet in het stuk.",
-    "Palo Alto Networks legt niet in detail uit welke certificaatinstelling het lek mogelijk maakt.",
-    "ReliaQuest koppelt het misbruik ook aan Settra-ransomware; Unit 42 bevestigt dat niet.",
-    "Unit 42 hoort bij de leverancier van het kwetsbare product."
-   ],
-   "official_docs": [
-    {
-     "label": "Palo Alto Networks: advies CVE-2026-0257",
-     "url": "https://security.paloaltonetworks.com/CVE-2026-0257"
-    }
-   ],
-   "topics": [
-    "exploited_vulnerabilities",
-    "ransomware",
-    "vulnerability_management",
-    "edge_devices"
-   ],
-   "groups": [
-    "kwetsbaarheden",
-    "incidenten",
-    "vm"
-   ],
-   "relevance_score": 85,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.3,
-    "source": 0.8,
-    "quality": 0.75,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:47:36Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto",
-   "story": [
-    "Unit 42 meldt in een update van 19 en 20 oktober dat de ransomwaregroepen Qilin en Inc een lek in GlobalProtect misbruiken. GlobalProtect is de vpn van firewalls van Palo Alto Networks. Het lek, CVE-2026-0257, is sinds mei 2026 gepatcht en staat sinds 13 mei op de KEV-lijst. Op 29 mei verscheen een openbaar proof of concept. Sindsdien kan iedereen het lek veel makkelijker misbruiken.",
-    "Hoe werkt het normaal? Een medewerker logt met wachtwoord en MFA in op GlobalProtect. Om niet steeds opnieuw te hoeven inloggen, kan de beheerder 'authentication override' aanzetten. De medewerker krijgt dan een cookie: een klein bestandje dat later als inlogbewijs geldt. De firewall hoort te controleren of dat cookie echt is en niet is aangepast. Volgens Palo Alto Networks deed hij dat niet goed. De fix voegt daarom een strenge HMAC-controle toe. Gevolg: een aanvaller zonder account kan een vpn-verbinding opzetten en zo ook MFA omzeilen. Alleen firewalls met deze cookies aan en een bepaalde certificaatinstelling zijn kwetsbaar.",
-    "Na binnenkomst zag Unit 42 een bekend patroon. De aanvallers verkennen het netwerk met RMM-tools, doen aan laterale beweging via RDP en SMB, verzamelen wachtwoorden, stelen gegevens en zetten ransomware in. In één geval gingen ze van de vpn naar vCenter, het beheersysteem van virtuele servers. Ze zetten beveiliging op de ESXi-servers uit en lazen de virtuele schijf van een domeincontroller offline uit om wachtwoorden te stelen. Zo omzeil je EDR die binnen de virtuele machine draait.",
-    "Hoe zie je het? Zoek in de GlobalProtect-logs naar geslaagde verbindingen met vreemde apparaatnamen of hardware-id's. Het openbare proof of concept gebruikt vaste waarden, zoals de naam \"DESKTOP-GP01\" en het id 00:11:22:33:44:55, met een leeg domein. Patch, of gebruik een apart certificaat alleen voor deze cookies, of zet authentication override uit. Controleer ook of de beheerinterface niet onbedoeld via poort 4443 of 3879 op internet staat.",
-    "Dit is een les in prioriteren. Het lek was al vijf maanden bekend, stond op de KEV-lijst en had een openbaar proof of concept. Een vpn staat per definitie open naar internet. Dat zijn drie redenen om zo'n lek bovenaan de lijst te zetten, ook al is de CVSS-score 'maar' 7,8."
-   ],
-   "key_facts": [
-    "CVE-2026-0257 is een authenticatie-omzeiling in het portal en de gateway van GlobalProtect in PAN-OS; gepubliceerd op 13 mei 2026, CVSS 4.0-score 7,8 (Palo Alto Networks).",
-    "Het lek speelt alleen als authentication override-cookies in gebruik zijn met een bepaalde certificaatconfiguratie; Panorama en Cloud NGFW zijn niet getroffen.",
-    "CISA zette het lek op 13 mei 2026 op de KEV-lijst; een proof of concept verscheen op 29 mei 2026.",
-    "Unit 42 (update 19 oktober 2026): Spikey Scorpius (Qilin) en Tarnished Scorpius (Inc) misbruiken het lek voor toegang, gevolgd door RMM-tools, RDP en SMB, wachtwoorddiefstal, datadiefstal en ransomware.",
-    "In één geval gingen aanvallers door naar vCenter, schakelden ze beveiliging op ESXi uit en lazen ze de virtuele schijf van een domeincontroller offline uit; ook werd Veeam-lek CVE-2023-27532 gebruikt.",
-    "Unit 42 (update 20 oktober 2026): de beheerinterface kan door een configuratiefout via poort 4443 en 3879 vanaf internet bereikbaar zijn."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Zo kan een verdachte vpn-verbinding eruitzien in een vereenvoudigd GlobalProtect-log. Let op de vaste waarden van het openbare proof of concept: de apparaatnaam, het hardware-id en het lege domein.",
-    "language": "log",
-    "code": "2026/10/12 02:14:33 globalprotect gateway-connected user=j.jansen src=203.0.113.44 host_id=00:11:22:33:44:55 machine=DESKTOP-GP01 os=\"Microsoft Windows 10 Pro 64-bit\" domain=\"\" status=success",
-    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde veldnamen. De apparaatnaam, het id, het besturingssysteem en het lege domein komen uit het stuk van Unit 42."
-   },
-   "terms": [
-    {
-     "term": "proof of concept",
-     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
-    },
-    {
-     "term": "cookie",
-     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
-    },
-    {
-     "term": "HMAC",
-     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
-    },
-    {
-     "term": "laterale beweging",
-     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
-    },
-    {
-     "term": "vCenter",
-     "explanation": "Het centrale beheersysteem van VMware waarmee je alle virtuele servers op ESXi-hosts beheert. Wie het beheerst, heeft vaak toegang tot het hele serverpark."
-    },
-    {
-     "term": "EDR",
-     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
-    }
-   ],
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; actief misbruikt lek in een vpn met een duidelijke les over prioriteren."
-   },
-   "takeaway": "Een inlogcookie werkt als een toegangspas; controleert de server niet of die echt is, dan kan een aanvaller er zelf een maken. Bij edge-apparaten zoals vpn's wegen misbruik en bereikbaarheid zwaarder dan de CVSS-score.",
-   "region": "world",
-   "exploitation": "actief_misbruikt",
-   "patch_status": "patch_beschikbaar"
-  },
-  {
    "id": "4d33a21d5cc6",
    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
    "url": "https://www.huntress.com/blog/token-replay-spray",
@@ -4497,6 +4392,111 @@
    "region": "world"
   },
   {
+   "id": "0968634953ed",
+   "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
+   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "source_id": "unit42",
+   "published_at": "2026-10-20T20:30:42Z",
+   "fetched_at": "2026-11-03T21:07:40.082335Z",
+   "summary": "Qilin en Inc misbruiken CVE-2026-0257 in GlobalProtect, de vpn van Palo Alto-firewalls. Door een fout in de controle van inlogcookies kunnen ze zonder wachtwoord of MFA een vpn-verbinding opzetten. De patch is er al sinds mei.",
+   "personal_relevance": "Een goed voorbeeld voor klantgesprekken over prioriteren: een lek met een middelhoge score, maar op de KEV-lijst, met openbare aanvalscode en in een systeem aan de rand van het netwerk. Vraag klanten hoe snel zulke lekken bij hen gepatcht worden.",
+   "limitations": [
+    "Hoeveel organisaties zijn getroffen en hoeveel firewalls nog kwetsbaar zijn, staat niet in het stuk.",
+    "Palo Alto Networks legt niet in detail uit welke certificaatinstelling het lek mogelijk maakt.",
+    "ReliaQuest koppelt het misbruik ook aan Settra-ransomware; Unit 42 bevestigt dat niet.",
+    "Unit 42 hoort bij de leverancier van het kwetsbare product."
+   ],
+   "official_docs": [
+    {
+     "label": "Palo Alto Networks: advies CVE-2026-0257",
+     "url": "https://security.paloaltonetworks.com/CVE-2026-0257"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "ransomware",
+    "vulnerability_management",
+    "edge_devices"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "incidenten",
+    "vm"
+   ],
+   "relevance_score": 84,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.3,
+    "source": 0.8,
+    "quality": 0.75,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:47:36Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Ransomwaregroepen misbruiken lek uit mei in vpn van Palo Alto",
+   "story": [
+    "Unit 42 meldt in een update van 19 en 20 oktober dat de ransomwaregroepen Qilin en Inc een lek in GlobalProtect misbruiken. GlobalProtect is de vpn van firewalls van Palo Alto Networks. Het lek, CVE-2026-0257, is sinds mei 2026 gepatcht en staat sinds 13 mei op de KEV-lijst. Op 29 mei verscheen een openbaar proof of concept. Sindsdien kan iedereen het lek veel makkelijker misbruiken.",
+    "Hoe werkt het normaal? Een medewerker logt met wachtwoord en MFA in op GlobalProtect. Om niet steeds opnieuw te hoeven inloggen, kan de beheerder 'authentication override' aanzetten. De medewerker krijgt dan een cookie: een klein bestandje dat later als inlogbewijs geldt. De firewall hoort te controleren of dat cookie echt is en niet is aangepast. Volgens Palo Alto Networks deed hij dat niet goed. De fix voegt daarom een strenge HMAC-controle toe. Gevolg: een aanvaller zonder account kan een vpn-verbinding opzetten en zo ook MFA omzeilen. Alleen firewalls met deze cookies aan en een bepaalde certificaatinstelling zijn kwetsbaar.",
+    "Na binnenkomst zag Unit 42 een bekend patroon. De aanvallers verkennen het netwerk met RMM-tools, doen aan laterale beweging via RDP en SMB, verzamelen wachtwoorden, stelen gegevens en zetten ransomware in. In één geval gingen ze van de vpn naar vCenter, het beheersysteem van virtuele servers. Ze zetten beveiliging op de ESXi-servers uit en lazen de virtuele schijf van een domeincontroller offline uit om wachtwoorden te stelen. Zo omzeil je EDR die binnen de virtuele machine draait.",
+    "Hoe zie je het? Zoek in de GlobalProtect-logs naar geslaagde verbindingen met vreemde apparaatnamen of hardware-id's. Het openbare proof of concept gebruikt vaste waarden, zoals de naam \"DESKTOP-GP01\" en het id 00:11:22:33:44:55, met een leeg domein. Patch, of gebruik een apart certificaat alleen voor deze cookies, of zet authentication override uit. Controleer ook of de beheerinterface niet onbedoeld via poort 4443 of 3879 op internet staat.",
+    "Dit is een les in prioriteren. Het lek was al vijf maanden bekend, stond op de KEV-lijst en had een openbaar proof of concept. Een vpn staat per definitie open naar internet. Dat zijn drie redenen om zo'n lek bovenaan de lijst te zetten, ook al is de CVSS-score 'maar' 7,8."
+   ],
+   "key_facts": [
+    "CVE-2026-0257 is een authenticatie-omzeiling in het portal en de gateway van GlobalProtect in PAN-OS; gepubliceerd op 13 mei 2026, CVSS 4.0-score 7,8 (Palo Alto Networks).",
+    "Het lek speelt alleen als authentication override-cookies in gebruik zijn met een bepaalde certificaatconfiguratie; Panorama en Cloud NGFW zijn niet getroffen.",
+    "CISA zette het lek op 13 mei 2026 op de KEV-lijst; een proof of concept verscheen op 29 mei 2026.",
+    "Unit 42 (update 19 oktober 2026): Spikey Scorpius (Qilin) en Tarnished Scorpius (Inc) misbruiken het lek voor toegang, gevolgd door RMM-tools, RDP en SMB, wachtwoorddiefstal, datadiefstal en ransomware.",
+    "In één geval gingen aanvallers door naar vCenter, schakelden ze beveiliging op ESXi uit en lazen ze de virtuele schijf van een domeincontroller offline uit; ook werd Veeam-lek CVE-2023-27532 gebruikt.",
+    "Unit 42 (update 20 oktober 2026): de beheerinterface kan door een configuratiefout via poort 4443 en 3879 vanaf internet bereikbaar zijn."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verdachte vpn-verbinding eruitzien in een vereenvoudigd GlobalProtect-log. Let op de vaste waarden van het openbare proof of concept: de apparaatnaam, het hardware-id en het lege domein.",
+    "language": "log",
+    "code": "2026/10/12 02:14:33 globalprotect gateway-connected user=j.jansen src=203.0.113.44 host_id=00:11:22:33:44:55 machine=DESKTOP-GP01 os=\"Microsoft Windows 10 Pro 64-bit\" domain=\"\" status=success",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en vereenvoudigde veldnamen. De apparaatnaam, het id, het besturingssysteem en het lege domein komen uit het stuk van Unit 42."
+   },
+   "terms": [
+    {
+     "term": "proof of concept",
+     "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+     "term": "cookie",
+     "explanation": "Een klein stukje gegevens dat een server aan een gebruiker meegeeft en later terugkrijgt, bijvoorbeeld als bewijs dat je al bent ingelogd."
+    },
+    {
+     "term": "HMAC",
+     "explanation": "Een cryptografische controlecode die aan gegevens wordt gehangen. Alleen wie de geheime sleutel kent, kan een geldige code maken; zo zie je of iets is nagemaakt of aangepast."
+    },
+    {
+     "term": "laterale beweging",
+     "explanation": "Vanaf het eerste gehackte systeem doorstappen naar andere systemen in hetzelfde netwerk, bijvoorbeeld met gestolen wachtwoorden."
+    },
+    {
+     "term": "vCenter",
+     "explanation": "Het centrale beheersysteem van VMware waarmee je alle virtuele servers op ESXi-hosts beheert. Wie het beheerst, heeft vaak toegang tot het hele serverpark."
+    },
+    {
+     "term": "EDR",
+     "explanation": "Endpoint Detection and Response: beveiligingssoftware op laptops en servers die verdacht gedrag ziet, meldt en kan stoppen."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; actief misbruikt lek in een vpn met een duidelijke les over prioriteren."
+   },
+   "takeaway": "Een inlogcookie werkt als een toegangspas; controleert de server niet of die echt is, dan kan een aanvaller er zelf een maken. Bij edge-apparaten zoals vpn's wegen misbruik en bereikbaarheid zwaarder dan de CVSS-score.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "08252db330fb",
    "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
    "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
@@ -4788,98 +4788,6 @@
    "region": "world"
   },
   {
-   "id": "ce55129e00e3",
-   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
-   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
-   "source_id": "security_nl",
-   "published_at": "2026-11-04T14:18:43Z",
-   "fetched_at": "2026-11-05T01:23:13.301553Z",
-   "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
-   "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
-   "limitations": [
-    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
-    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
-    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
-    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
-   ],
-   "official_docs": [
-    {
-     "label": "CVE-2026-109593 (OpenCVE)",
-     "url": "https://app.opencve.io/cve/CVE-2026-109593"
-    }
-   ],
-   "topics": [
-    "vulnerability_management",
-    "vulnerabilities_cve",
-    "edge_devices"
-   ],
-   "groups": [
-    "vm",
-    "kwetsbaarheden"
-   ],
-   "relevance_score": 84,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.62,
-    "source": 0.85,
-    "quality": 0.53,
-    "fit": 0.0
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-07T01:29:40Z",
-   "reading_minutes": 3,
-   "format_version": 2,
-   "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
-   "story": [
-    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
-    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
-    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
-    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
-    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
-   ],
-   "key_facts": [
-    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
-    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
-    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
-    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
-    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
-    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
-   ],
-   "article_type": "nieuws",
-   "terms": [
-    {
-     "term": "end-of-life",
-     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
-    },
-    {
-     "term": "CWE-636",
-     "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
-    },
-    {
-     "term": "CVSS-score",
-     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
-    },
-    {
-     "term": "KEV-lijst",
-     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
-    },
-    {
-     "term": "EPSS-kans",
-     "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
-    }
-   ],
-   "learning": "Vulnerability management en prioriteren",
-   "soort": "kwetsbaarheid",
-   "fit": {
-    "score": 0.5,
-    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
-   },
-   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
-   "region": "world"
-  },
-  {
    "id": "987ba3712202",
    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
@@ -5003,7 +4911,7 @@
    "relevance_score": 84,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.64,
+    "recency": 0.63,
     "source": 0.68,
     "quality": 0.57,
     "region": 0.01,
@@ -5104,7 +5012,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.24,
+    "recency": 0.23,
     "source": 0.8,
     "quality": 0.75,
     "fit": 0.05
@@ -5174,6 +5082,98 @@
    "region": "world"
   },
   {
+   "id": "ce55129e00e3",
+   "title": "SonicWall waarschuwt dat kritiek lek in beheersysteem GMS geen patch krijgt",
+   "url": "https://www.security.nl/posting/960405/SonicWall+waarschuwt+dat+kritiek+lek+in+beheersysteem+GMS+geen+patch+krijgt?channel=rss",
+   "source_id": "security_nl",
+   "published_at": "2026-11-04T14:18:43Z",
+   "fetched_at": "2026-11-05T01:23:13.301553Z",
+   "summary": "In het beheersysteem GMS van SonicWall zit een kritiek lek waarmee iemand zonder inlog interne bestanden kan lezen. Er komt geen patch, want GMS is sinds 30 september end-of-life.",
+   "personal_relevance": "Klanten met oudere SonicWall-omgevingen kunnen GMS nog in gebruik hebben. Een goede vraag in een klantgesprek: hoe vindt en behandelt jullie vulnerability management systemen die end-of-life zijn en nooit meer een patch krijgen?",
+   "limitations": [
+    "SonicWall zegt niet welke bestanden of gegevens een aanvaller kan lezen.",
+    "Het advies van SonicWall zelf kon niet worden geopend; de details komen uit Security.NL en het CVE-record.",
+    "Of het lek al wordt misbruikt, is niet bekend; er is geen melding van misbruik.",
+    "Hoeveel GMS-servers nog vanaf internet bereikbaar zijn, staat niet in de bronnen."
+   ],
+   "official_docs": [
+    {
+     "label": "CVE-2026-109593 (OpenCVE)",
+     "url": "https://app.opencve.io/cve/CVE-2026-109593"
+    }
+   ],
+   "topics": [
+    "vulnerability_management",
+    "vulnerabilities_cve",
+    "edge_devices"
+   ],
+   "groups": [
+    "vm",
+    "kwetsbaarheden"
+   ],
+   "relevance_score": 83,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.62,
+    "source": 0.85,
+    "quality": 0.53,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-07T01:29:40Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt",
+   "story": [
+    "SonicWall meldt een kritieke kwetsbaarheid in Global Management System (GMS). Met GMS beheren organisaties vanaf één plek hun SonicWall-firewalls en andere apparaten. Het lek heeft nummer CVE-2026-109593 en zit in versie 9.5.2 en eerder. Er komt geen patch. GMS is sinds 30 september 2026 end-of-life: SonicWall levert er geen updates en ondersteuning meer voor.",
+    "GMS is een webapplicatie die op een Windows- of Linux-server draait. Normaal moet je eerst inloggen voordat je iets mag opvragen. Volgens SonicWall kan een aanvaller met netwerktoegang hier zonder inlog interne bestanden van GMS lezen. Welke bestanden en welke gegevens dat zijn, zegt SonicWall niet. Het CVE-record noemt de fout 'failing open' (CWE-636): als een controle misgaat, laat het systeem je door in plaats van je te weigeren.",
+    "Waarom is dat gevaarlijk? Een beheersysteem weet veel over het netwerk dat het beheert, zoals de instellingen van firewalls. Zulke gegevens maken een volgende aanval makkelijker. CISA geeft het lek een CVSS-score van 9,1. Misbruik is nog niet gemeld: het lek stond bij publicatie niet op de KEV-lijst en de EPSS-kans was laag.",
+    "Patchen kan hier dus niet, en SonicWall noemt geen tijdelijke oplossing. Wat algemeen helpt bij zo'n systeem: zorg dat GMS niet vanaf internet bereikbaar is, maar alleen vanuit een afgeschermd beheernetwerk. Een vulnerability scanner kan GMS-servers vinden en als end-of-life markeren. De echte oplossing is overstappen op beheersoftware die nog updates krijgt.",
+    "Voor organisaties is dit een les over de levensduur van software. Een product dat end-of-life is, blijft vaak gewoon draaien omdat het nog werkt. Elk nieuw lek blijft dan voor altijd open. In vulnerability management hoort zo'n systeem daarom hoog op de lijst, ook zonder bekend misbruik."
+   ],
+   "key_facts": [
+    "CVE-2026-109593 is volgens SonicWall een 'unauthenticated file read': een aanvaller zonder inlog kan interne GMS-bestanden lezen en zo gevoelige informatie stelen.",
+    "Getroffen is SonicWall Global Management System (GMS) 9.5.2 en eerder, op Windows en Linux (CVE-record).",
+    "Er komt geen patch: GMS is sinds 30 september 2026 end-of-life en krijgt geen updates of ondersteuning meer (Security.NL, advies SNWLID-2026-0019).",
+    "CISA (ADP) geeft een CVSS-score van 9,1; het CVE-record valt onder CWE-636 'Not Failing Securely (Failing Open)'.",
+    "Bij publicatie (3 november 2026) stond het lek niet in CISA KEV; de EPSS-score was 0,005 (OpenCVE).",
+    "Het lek werd gemeld door een onderzoeker van Pentest-Tools.com."
+   ],
+   "article_type": "nieuws",
+   "terms": [
+    {
+     "term": "end-of-life",
+     "explanation": "De fase waarin een maker een product niet meer ondersteunt. Er komen geen updates meer, ook niet voor nieuwe beveiligingslekken."
+    },
+    {
+     "term": "CWE-636",
+     "explanation": "Een soort fout uit de CWE-lijst: 'failing open'. Als een controle misgaat, laat het systeem je door, in plaats van je voor de zekerheid te weigeren."
+    },
+    {
+     "term": "CVSS-score",
+     "explanation": "Een cijfer van 0 tot 10 dat aangeeft hoe ernstig een kwetsbaarheid technisch is. Het zegt niets over of het lek al wordt misbruikt."
+    },
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "EPSS-kans",
+     "explanation": "De kans volgens het Exploit Prediction Scoring System (EPSS) dat een lek in de komende 30 dagen wordt misbruikt. Het model rekent dat elke dag opnieuw uit."
+    }
+   ],
+   "learning": "Vulnerability management en prioriteren",
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; een Nederlandse bron over een lek met een duidelijke les voor vulnerability management."
+   },
+   "takeaway": "Software die end-of-life is, krijgt voor nieuwe lekken nooit meer een patch. Dan blijft alleen over: afschermen van het netwerk en vervangen.",
+   "region": "world"
+  },
+  {
    "id": "201b2063f67c",
    "title": "mSecure password manager hack prompts password reset warnings",
    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
@@ -5199,7 +5199,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.63,
+    "recency": 0.62,
     "source": 0.68,
     "quality": 0.55,
     "region": 0.01,
@@ -5766,7 +5766,7 @@
    "relevance_score": 80,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.11,
+    "recency": 0.1,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.05
@@ -9285,6 +9285,24 @@
      "keuzes": 5
     }
    },
+   "overzicht": {
+    "status": "ok",
+    "summary": "3 trends: AI-agenten aangevuld met Project Zero, randapparaten aangevuld met de Check Point-firewalls, nieuw de aanvallen op beheersoftware van IT-dienstverleners (N-central, ScreenConnect) in plaats van de MFA-trend; geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (zaterdag).",
+    "finished_at": "2026-11-14T03:25:06Z",
+    "problems": [],
+    "counts": {
+     "trends": 3,
+     "interesses_aangepast": 0,
+     "begrippen_aangevuld": 0
+    }
+   },
+   "inhalen": {
+    "status": "ok",
+    "summary": "niets in te halen",
+    "finished_at": "2026-11-14T04:37:51Z",
+    "problems": [],
+    "counts": {}
+   },
    "uitleggen": {
     "status": "ok",
     "summary": "Vers opgehaald; 5 artikelen uitgelegd (PHP2Shell-aanvallen op Check Point-gateways, PostgreSQL-typefout, PTC Windchill-lek, Operation Endgame en het nieuwe openbaarmakingsbeleid van Project Zero) en 5 overgeslagen zonder openen (dubbel nieuws, weekoverzicht, storing zonder aanval en incidentnieuws zonder inhoud).",
@@ -9298,17 +9316,6 @@
      "overgeslagen": 5,
      "overgeslagen_zonder_openen": 5,
      "niet_te_lezen": 0
-    }
-   },
-   "overzicht": {
-    "status": "ok",
-    "summary": "3 trends: AI-agenten aangevuld met Project Zero, randapparaten aangevuld met de Check Point-firewalls, nieuw de aanvallen op beheersoftware van IT-dienstverleners (N-central, ScreenConnect) in plaats van de MFA-trend; geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (zaterdag).",
-    "finished_at": "2026-11-14T03:25:06Z",
-    "problems": [],
-    "counts": {
-     "trends": 3,
-     "interesses_aangepast": 0,
-     "begrippen_aangevuld": 0
     }
    }
   }
@@ -9740,17 +9747,17 @@
     "excluded_by": []
    },
    {
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
     "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "relevance_score": 86,
+    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "relevance_score": 85,
     "decision": "source_cap",
     "excluded_by": []
    },
    {
-    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
     "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
     "relevance_score": 85,
     "decision": "source_cap",
     "excluded_by": []
@@ -9868,14 +9875,6 @@
     "excluded_by": []
    },
    {
-    "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-    "source_id": "bleepingcomputer",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Baker Tilly notifies clients of data breach at third-party provider",
     "source_id": "bleepingcomputer",
     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
@@ -9980,6 +9979,14 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
    }
   ],
   "topics_without_source": []
