@@ -1,63 +1,63 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-13T02:40:00Z",
+  "generated_at": "2026-11-14T02:35:00Z",
   "options": [
     {
-      "id": "http-en-https",
-      "title": "HTTP en HTTPS: de taal van het web",
-      "question": "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?",
-      "why": "Deze week dichtte Apache een kritiek lek in zijn HTTP/2-module; wie weet hoe HTTP werkt, begrijpt beter waar zo'n fout in een webserver zit.",
+      "id": "sql-injection",
+      "title": "SQL injection: als een website de verkeerde vraag aan de database stelt",
+      "question": "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?",
+      "why": "Een basisonderwerp uit het leerpad dat nog niet als keuze langskwam; deze week dichtte PostgreSQL, een veelgebruikte database achter websites, 52 lekken in één update.",
       "topics": [
-        "web_software_security",
+        "attack_techniques",
+        "web_software_security"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "privilege-escalation",
+      "title": "Privilege escalation: van gewone gebruiker naar beheerder",
+      "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
+      "why": "Deze week verscheen SignDrop: openbare code waarmee een gewone Windows-gebruiker SYSTEM-rechten zou krijgen, nog zonder CVE of patch.",
+      "topics": [
+        "attack_techniques",
+        "vulnerabilities_cve",
         "siem_detection"
       ],
-      "area": "techniek"
+      "area": "kwetsbaarheden"
     },
     {
-      "id": "phishingbestendige-mfa",
-      "title": "Passkeys en FIDO2: waarom een nep-inlogpagina daar niets mee kan",
-      "question": "Hoe werkt MFA die niet te phishen is, en waarom houdt die een live proxy tegen terwijl sms-codes en authenticator-apps dat niet doen?",
-      "why": "Trend 'MFA omzeild met gestolen sessies': deze week beschreef Material Security een Google-campagne met een live proxy die sms, authenticator-codes en number matching omzeilt, en Talos raadt MFA aan die niet te phishen is.",
+      "id": "sessie-aan-apparaat-gekoppeld",
+      "title": "Een inlogsessie vastmaken aan je apparaat: hoe DBSC gestolen cookies stopt",
+      "question": "Wat is een sessiecookie, waarom kan een aanvaller met een gestolen cookie langs MFA, en hoe maakt Device Bound Session Credentials (DBSC) zo'n cookie waardeloos?",
+      "why": "Dit hoort bij de trend 'Aanvallers omzeilen MFA door de inlogsessie zelf te stelen'; Vercel voert DBSC nu in om precies dat tegen te gaan.",
       "topics": [
         "phishing_identity",
-        "cloud_attacks"
+        "web_software_security"
       ],
       "area": "techniek"
     },
     {
-      "id": "github-workflows-geheimen-gestolen",
-      "title": "Hoe gehackte GitHub-accounts cloudsleutels uit bouwstraten stelen",
-      "question": "Wat is een GitHub-workflow (CI/CD), waarom heeft die toegang tot AWS, Azure en Google Cloud, en hoe misbruikte de campagne met 4.837 gehackte accounts dat?",
-      "why": "Op 10 november begon een campagne waarin duizenden overgenomen GitHub-accounts kwaadaardige workflows plaatsten die geheimen en cloudtoegang stalen en daarna hun sporen wisten.",
+      "id": "infostealers-en-gestolen-inloggegevens",
+      "title": "Infostealers: hoe gestolen wachtwoorden en cookies bij criminelen belanden",
+      "question": "Hoe steelt een infostealer inloggegevens van een computer, wat gebeurt er daarna mee, en wat kan een organisatie doen als gegevens van haar medewerkers opduiken?",
+      "why": "Operation Endgame haalde deze week onder meer de infostealer StealC offline en vond ongeveer 6,4 miljoen gestolen inloggegevens; de Nederlandse politie zette een deel in Check your hack.",
       "topics": [
-        "supply_chain",
-        "cloud_attacks",
-        "incidents_breaches"
+        "malware",
+        "incidents_breaches",
+        "threat_intelligence"
       ],
       "area": "incidenten"
     },
     {
-      "id": "persistentie-op-linux-servers",
-      "title": "Binnen blijven: hoe aanvallers zich vastzetten op een Linux-server",
-      "question": "Wat is persistentie, welke plekken op een Linux-server misbruikt een aanvaller om terug te komen (cron, systemd, opstartbestanden), en hoe vindt een securityteam dat?",
-      "why": "Microsoft zag deze week dat aanvallers het legitieme hulpmiddel GSocket op gehackte Linux-servers zetten en zo binnen blijven, ook nadat het lek is gepatcht.",
+      "id": "detectieregel-maken",
+      "title": "Een detectieregel van dichtbij: hoe bepaal je wat verdacht is?",
+      "question": "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?",
+      "why": "Huntress beschreef deze week ClickFix-aanvallen waarin aanvallers gewone beheertools als PsExec en WinRM gebruikten; juist dan moet een regel verdacht gebruik van normaal beheer onderscheiden.",
       "topics": [
-        "attack_techniques",
         "siem_detection",
-        "incident_response"
+        "attack_techniques"
       ],
       "area": "praktijk"
-    },
-    {
-      "id": "van-poc-naar-aanval-in-uren",
-      "title": "Van openbare aanvalscode naar aanval in uren: wat doe je in die tijd?",
-      "question": "Wat is een proof of concept, waarom volgen aanvallen soms binnen uren na publicatie, en hoe richt je vulnerability management in op die snelheid?",
-      "why": "Deze week werden zowel het N-central-lek 4EverAble2Shell als het OpenSSH-lek SSHole binnen enkele uren na publicatie aangevallen.",
-      "topics": [
-        "exploited_vulnerabilities",
-        "vulnerability_management"
-      ],
-      "area": "kwetsbaarheden"
     }
   ],
   "history": [
@@ -410,6 +410,63 @@
         "edge_devices",
         "exploited_vulnerabilities",
         "phishing_identity"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "http-en-https",
+      "title": "HTTP en HTTPS: de taal van het web",
+      "question": "Hoe ziet een HTTP-verzoek eruit, wat voegt HTTPS toe, en wat ziet een securityteam ervan terug?",
+      "why": "Deze week dichtte Apache een kritiek lek in zijn HTTP/2-module; wie weet hoe HTTP werkt, begrijpt beter waar zo'n fout in een webserver zit.",
+      "topics": [
+        "web_software_security",
+        "siem_detection"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "phishingbestendige-mfa",
+      "title": "Passkeys en FIDO2: waarom een nep-inlogpagina daar niets mee kan",
+      "question": "Hoe werkt MFA die niet te phishen is, en waarom houdt die een live proxy tegen terwijl sms-codes en authenticator-apps dat niet doen?",
+      "why": "Trend 'MFA omzeild met gestolen sessies': deze week beschreef Material Security een Google-campagne met een live proxy die sms, authenticator-codes en number matching omzeilt, en Talos raadt MFA aan die niet te phishen is.",
+      "topics": [
+        "phishing_identity",
+        "cloud_attacks"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "github-workflows-geheimen-gestolen",
+      "title": "Hoe gehackte GitHub-accounts cloudsleutels uit bouwstraten stelen",
+      "question": "Wat is een GitHub-workflow (CI/CD), waarom heeft die toegang tot AWS, Azure en Google Cloud, en hoe misbruikte de campagne met 4.837 gehackte accounts dat?",
+      "why": "Op 10 november begon een campagne waarin duizenden overgenomen GitHub-accounts kwaadaardige workflows plaatsten die geheimen en cloudtoegang stalen en daarna hun sporen wisten.",
+      "topics": [
+        "supply_chain",
+        "cloud_attacks",
+        "incidents_breaches"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "persistentie-op-linux-servers",
+      "title": "Binnen blijven: hoe aanvallers zich vastzetten op een Linux-server",
+      "question": "Wat is persistentie, welke plekken op een Linux-server misbruikt een aanvaller om terug te komen (cron, systemd, opstartbestanden), en hoe vindt een securityteam dat?",
+      "why": "Microsoft zag deze week dat aanvallers het legitieme hulpmiddel GSocket op gehackte Linux-servers zetten en zo binnen blijven, ook nadat het lek is gepatcht.",
+      "topics": [
+        "attack_techniques",
+        "siem_detection",
+        "incident_response"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "van-poc-naar-aanval-in-uren",
+      "title": "Van openbare aanvalscode naar aanval in uren: wat doe je in die tijd?",
+      "question": "Wat is een proof of concept, waarom volgen aanvallen soms binnen uren na publicatie, en hoe richt je vulnerability management in op die snelheid?",
+      "why": "Deze week werden zowel het N-central-lek 4EverAble2Shell als het OpenSSH-lek SSHole binnen enkele uren na publicatie aangevallen.",
+      "topics": [
+        "exploited_vulnerabilities",
+        "vulnerability_management"
       ],
       "area": "kwetsbaarheden"
     }
