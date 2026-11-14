@@ -1,0 +1,17 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-14T01:22:53Z",
+  "finished_at": "2026-11-14T01:36:32Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 5 artikelen uitgelegd (PHP2Shell-aanvallen op Check Point-gateways, PostgreSQL-typefout, PTC Windchill-lek, Operation Endgame en het nieuwe openbaarmakingsbeleid van Project Zero) en 5 overgeslagen zonder openen (dubbel nieuws, weekoverzicht, storing zonder aanval en incidentnieuws zonder inhoud).",
+  "counts": {
+    "uitgelegd": 5,
+    "overgeslagen": 5,
+    "overgeslagen_zonder_openen": 5,
+    "niet_te_lezen": 0
+  },
+  "problems": [
+    "Directe links moesten eerst via een zoekopdracht worden gevonden.",
+    "Het artikel van The Hacker News over PostgreSQL was niet direct te openen; die uitleg steunt op de adviezen en release notes van PostgreSQL."
+  ]
+}
