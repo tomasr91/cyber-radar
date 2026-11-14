@@ -1,11 +1,11 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-13T03:30:00Z",
+  "generated_at": "2026-11-14T03:30:00Z",
   "trends": [
     {
       "id": "ai-agenten-voeren-inbraken-uit",
       "title": "Aanvallers laten AI-agenten als ARTEX en AntiFox veel van de inbraak doen",
-      "summary": "Google, Microsoft, WorkOS en Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten. Nieuw is dat Arctic Wolf het open-source pentestplatform AntiFox koppelt aan echte inbraken op webservers en AWS, waarbij soms een productiegeheim werd uitgelezen; volgens Malbear Labs viel een AI-agent ook een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents.",
+      "summary": "Google, Microsoft, WorkOS en Datadog zagen aanvallers die AI-frameworks als ARTEX laten inloggen, verkennen en rechten verhogen, soms binnen minuten; Arctic Wolf koppelt het pentestplatform AntiFox aan echte inbraken op webservers en AWS, en volgens Malbear Labs viel een AI-agent een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Zulke agenten zijn snel, maar laten veel sporen na, zoals reeksen AccessDenied-fouten, honderden aanmeldingen of herkenbare user agents. Ook Google Project Zero schrijft dat taalmodellen het vinden en misbruiken van lekken sneller maken, en maakt details van lekken daarom voortaan eerder openbaar.",
       "article_ids": [
         "63cbf25606a5",
         "cd6455aacef5",
@@ -13,7 +13,8 @@
         "9fcf62b29cf8",
         "8b5f34b85bf1",
         "62c945c0e6fb",
-        "350327fdd7cd"
+        "350327fdd7cd",
+        "1838248a60d9"
       ],
       "topics": [
         "attack_techniques",
@@ -23,11 +24,11 @@
     },
     {
       "id": "lekken-vpn-en-randapparaten",
-      "title": "Lekken in vpn-servers, switches en SD-WAN aan de rand van netwerken misbruikt",
-      "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en SonicWall, in Cisco SD-WAN-controllers en in Zyxel-switches. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de normale inlogcontrole, om daarna sleutels te stelen of verder het netwerk in te gaan. Patchen is niet altijd genoeg: bij Ivanti en Zyxel bleken bijgewerkte versies opnieuw kwetsbaar.",
+      "title": "Lekken in vpn-servers, firewalls en SD-WAN aan de rand van netwerken misbruikt",
+      "summary": "Onderzoekers beschreven de afgelopen weken aanvallen via lekken in vpn-servers van Ivanti en SonicWall, in Cisco SD-WAN-controllers en nu ook in Check Point-firewalls. Steeds staat het apparaat aan internet en komt de aanvaller binnen zonder geldige inlog of langs de normale inlogcontrole, om daarna sleutels of configuraties te stelen of verder het netwerk in te gaan; bij Check Point wiste hij bij een deel van de slachtoffers zelfs bestanden op VMware ESXi-servers. Patchen is niet altijd genoeg: bij Ivanti bleken versies die als veilig golden opnieuw kwetsbaar.",
       "article_ids": [
+        "c0eea237828e",
         "ff63fc905db0",
-        "a665869d02d2",
         "df100ad46108",
         "7b72d51a9df2"
       ],
@@ -38,18 +39,18 @@
       ]
     },
     {
-      "id": "mfa-omzeild-met-gestolen-sessies",
-      "title": "Aanvallers omzeilen MFA door de inlogsessie zelf te stelen",
-      "summary": "Material Security zag sinds augustus een campagne met nep-agenda-uitnodigingen en een live proxy voor de echte Google-inlogpagina, die de sessie pakt ondanks sms-codes of number matching. Talos vond in het derde kwartaal ontbrekende of zwakke MFA in een derde van de zaken en adviseert MFA die niet te phishen is, zoals hardwaresleutels. Ook de verdediging verschuift: Vercel koppelt inlogsessies met DBSC aan het apparaat, zodat een gestolen cookie snel waardeloos is.",
+      "id": "beheersoftware-msp-aangevallen",
+      "title": "Aanvallers mikken op beheersoftware van IT-dienstverleners zoals N-central",
+      "summary": "Voor N-central, de RMM-software van N-able, verscheen binnen enkele dagen twee keer openbare aanvalscode; na de tweede keer zagen onderzoekers binnen uren aanvalspogingen, en volgens BleepingComputer staan er op getroffen servers al cryptominers. Tegelijk misbruiken aanvallers een al gedicht lek in ScreenConnect met de toolkit SCKit, die via de technicus die komt kijken andere klanten probeert te bereiken. De gemeenschappelijke lijn: wie de beheersoftware van een dienstverlener overneemt, kan bij al diens klanten komen.",
       "article_ids": [
-        "f7cf57082e20",
-        "08252db330fb",
-        "94ac3c3bdec2"
+        "9cb2b44a4924",
+        "ed98e46a8b24",
+        "daa356fef18a"
       ],
       "topics": [
-        "phishing_identity",
-        "cloud_attacks",
-        "threat_intelligence"
+        "supply_chain",
+        "exploited_vulnerabilities",
+        "incident_response"
       ]
     }
   ]
