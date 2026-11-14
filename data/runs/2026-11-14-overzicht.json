@@ -1,0 +1,13 @@
+{
+  "task": "overzicht",
+  "started_at": "2026-11-14T03:23:17Z",
+  "finished_at": "2026-11-14T03:25:06Z",
+  "status": "ok",
+  "summary": "3 trends: AI-agenten aangevuld met Project Zero, randapparaten aangevuld met de Check Point-firewalls, nieuw de aanvallen op beheersoftware van IT-dienstverleners (N-central, ScreenConnect) in plaats van de MFA-trend; geen verzoeken voor de interesses, alle stukken hadden al begrippen; geen Jouw week (zaterdag).",
+  "counts": {
+    "trends": 3,
+    "interesses_aangepast": 0,
+    "begrippen_aangevuld": 0
+  },
+  "problems": []
+}
