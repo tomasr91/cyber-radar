@@ -1,23 +1,12 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-14T02:35:00Z",
+  "generated_at": "2026-11-15T02:30:00Z",
   "options": [
     {
-      "id": "sql-injection",
-      "title": "SQL injection: als een website de verkeerde vraag aan de database stelt",
-      "question": "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?",
-      "why": "Een basisonderwerp uit het leerpad dat nog niet als keuze langskwam; deze week dichtte PostgreSQL, een veelgebruikte database achter websites, 52 lekken in één update.",
-      "topics": [
-        "attack_techniques",
-        "web_software_security"
-      ],
-      "area": "techniek"
-    },
-    {
-      "id": "privilege-escalation",
-      "title": "Privilege escalation: van gewone gebruiker naar beheerder",
-      "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
-      "why": "Deze week verscheen SignDrop: openbare code waarmee een gewone Windows-gebruiker SYSTEM-rechten zou krijgen, nog zonder CVE of patch.",
+      "id": "remote-code-execution",
+      "title": "Remote code execution: hoe een fout een server opdrachten laat uitvoeren",
+      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert op een server, wat doet hij daarna, en wat ziet een securityteam dan?",
+      "why": "Een basisonderwerp uit het leerpad: deze week dichtte Apache een HTTP/2-lek waarmee een aanvaller zonder inlog mogelijk de webserver overneemt, en PostgreSQL een lek waarmee een databasegebruiker code op de server kan uitvoeren.",
       "topics": [
         "attack_techniques",
         "vulnerabilities_cve",
@@ -26,38 +15,51 @@
       "area": "kwetsbaarheden"
     },
     {
-      "id": "sessie-aan-apparaat-gekoppeld",
-      "title": "Een inlogsessie vastmaken aan je apparaat: hoe DBSC gestolen cookies stopt",
-      "question": "Wat is een sessiecookie, waarom kan een aanvaller met een gestolen cookie langs MFA, en hoe maakt Device Bound Session Credentials (DBSC) zo'n cookie waardeloos?",
-      "why": "Dit hoort bij de trend 'Aanvallers omzeilen MFA door de inlogsessie zelf te stelen'; Vercel voert DBSC nu in om precies dat tegen te gaan.",
+      "id": "msp-als-springplank",
+      "title": "Via de IT-dienstverlener naar alle klanten: beheersoftware als springplank",
+      "question": "Hoe werkt beheersoftware op afstand (RMM en supportsessies zoals ScreenConnect), waarom is een IT-dienstverlener zo'n aantrekkelijk doelwit, en hoe zie en beperk je misbruik?",
+      "why": "Dit is een trend: aanvallers mikken op N-central en ScreenConnect, en de toolkit SCKit probeert via de technicus die komt kijken andere klanten van de dienstverlener te bereiken.",
       "topics": [
-        "phishing_identity",
-        "web_software_security"
+        "supply_chain",
+        "attack_techniques",
+        "incidents_breaches"
       ],
       "area": "techniek"
     },
     {
-      "id": "infostealers-en-gestolen-inloggegevens",
-      "title": "Infostealers: hoe gestolen wachtwoorden en cookies bij criminelen belanden",
-      "question": "Hoe steelt een infostealer inloggegevens van een computer, wat gebeurt er daarna mee, en wat kan een organisatie doen als gegevens van haar medewerkers opduiken?",
-      "why": "Operation Endgame haalde deze week onder meer de infostealer StealC offline en vond ongeveer 6,4 miljoen gestolen inloggegevens; de Nederlandse politie zette een deel in Check your hack.",
+      "id": "politie-haalt-malware-offline",
+      "title": "Een politieactie tegen malware: wat gebeurt er bij een takedown?",
+      "question": "Hoe haalt de politie de servers en domeinen van malware offline, wat gebeurt er daarna met de besmette computers en gestolen gegevens, en hoe lang helpt zo'n actie?",
+      "why": "Operation Endgame nam deze week met politie uit onder meer Nederland 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC over en vond 6,4 miljoen gestolen inloggegevens.",
       "topics": [
-        "malware",
         "incidents_breaches",
+        "malware",
         "threat_intelligence"
       ],
       "area": "incidenten"
     },
     {
-      "id": "detectieregel-maken",
-      "title": "Een detectieregel van dichtbij: hoe bepaal je wat verdacht is?",
-      "question": "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?",
-      "why": "Huntress beschreef deze week ClickFix-aanvallen waarin aanvallers gewone beheertools als PsExec en WinRM gebruikten; juist dan moet een regel verdacht gebruik van normaal beheer onderscheiden.",
+      "id": "threat-intelligence-gebruiken",
+      "title": "Threat intelligence: van rapport naar actie",
+      "question": "Hoe komt informatie over aanvallers tot stand, wat is het verschil tussen IOC's en werkwijzen (TTP's), en hoe gebruikt een organisatie het bij detectie en prioriteren?",
+      "why": "Deze week verschenen veel onderzoeksrapporten vol aanvallerssporen, zoals over ARTEX, SCKit en de Check Point-aanvallen; dit onderwerp uit het leerpad kwam nog niet als keuze langs.",
       "topics": [
+        "threat_intelligence",
         "siem_detection",
-        "attack_techniques"
+        "vulnerability_management"
       ],
       "area": "praktijk"
+    },
+    {
+      "id": "laterale-beweging",
+      "title": "Laterale beweging: hoe een aanvaller zich door een netwerk verplaatst",
+      "question": "Hoe gaat een aanvaller van één gehackt systeem naar de rest van het netwerk, welke inloggegevens en beheertools gebruikt hij daarvoor, en hoe ziet een SIEM dat?",
+      "why": "In de aanvallen via vpn-servers en firewalls van de afgelopen weken ging de aanvaller na binnenkomst vaak verder het netwerk in; bij Check Point wiste hij zelfs bestanden op VMware ESXi-servers.",
+      "topics": [
+        "attack_techniques",
+        "siem_detection"
+      ],
+      "area": "techniek"
     }
   ],
   "history": [
@@ -469,6 +471,63 @@
         "vulnerability_management"
       ],
       "area": "kwetsbaarheden"
+    },
+    {
+      "id": "sql-injection",
+      "title": "SQL injection: als een website de verkeerde vraag aan de database stelt",
+      "question": "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?",
+      "why": "Een basisonderwerp uit het leerpad dat nog niet als keuze langskwam; deze week dichtte PostgreSQL, een veelgebruikte database achter websites, 52 lekken in één update.",
+      "topics": [
+        "attack_techniques",
+        "web_software_security"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "privilege-escalation",
+      "title": "Privilege escalation: van gewone gebruiker naar beheerder",
+      "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
+      "why": "Deze week verscheen SignDrop: openbare code waarmee een gewone Windows-gebruiker SYSTEM-rechten zou krijgen, nog zonder CVE of patch.",
+      "topics": [
+        "attack_techniques",
+        "vulnerabilities_cve",
+        "siem_detection"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "sessie-aan-apparaat-gekoppeld",
+      "title": "Een inlogsessie vastmaken aan je apparaat: hoe DBSC gestolen cookies stopt",
+      "question": "Wat is een sessiecookie, waarom kan een aanvaller met een gestolen cookie langs MFA, en hoe maakt Device Bound Session Credentials (DBSC) zo'n cookie waardeloos?",
+      "why": "Dit hoort bij de trend 'Aanvallers omzeilen MFA door de inlogsessie zelf te stelen'; Vercel voert DBSC nu in om precies dat tegen te gaan.",
+      "topics": [
+        "phishing_identity",
+        "web_software_security"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "infostealers-en-gestolen-inloggegevens",
+      "title": "Infostealers: hoe gestolen wachtwoorden en cookies bij criminelen belanden",
+      "question": "Hoe steelt een infostealer inloggegevens van een computer, wat gebeurt er daarna mee, en wat kan een organisatie doen als gegevens van haar medewerkers opduiken?",
+      "why": "Operation Endgame haalde deze week onder meer de infostealer StealC offline en vond ongeveer 6,4 miljoen gestolen inloggegevens; de Nederlandse politie zette een deel in Check your hack.",
+      "topics": [
+        "malware",
+        "incidents_breaches",
+        "threat_intelligence"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "detectieregel-maken",
+      "title": "Een detectieregel van dichtbij: hoe bepaal je wat verdacht is?",
+      "question": "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?",
+      "why": "Huntress beschreef deze week ClickFix-aanvallen waarin aanvallers gewone beheertools als PsExec en WinRM gebruikten; juist dan moet een regel verdacht gebruik van normaal beheer onderscheiden.",
+      "topics": [
+        "siem_detection",
+        "attack_techniques"
+      ],
+      "area": "praktijk"
     }
   ]
 }
