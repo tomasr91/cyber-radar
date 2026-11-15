@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T03:24:05.043067Z",
+ "generated_at": "2026-11-15T03:25:28.639513Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-15T02:12:00Z",
- "last_successful_update": "2026-11-15T03:24:05.043067Z",
+ "last_successful_update": "2026-11-15T03:25:28.639513Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-15T03:24:05.101778Z"
+   "checked_at": "2026-11-15T03:25:28.680410Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-15T03:24:05.776682Z"
+   "checked_at": "2026-11-15T03:25:29.388862Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-15T03:24:06.782185Z"
+   "checked_at": "2026-11-15T03:25:30.370521Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-15T03:24:08.287580Z"
+   "checked_at": "2026-11-15T03:25:31.036151Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-15T03:24:09.460283Z"
+   "checked_at": "2026-11-15T03:25:32.258501Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-15T03:24:09.663364Z"
+   "checked_at": "2026-11-15T03:25:32.405840Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-15T03:24:09.817828Z"
+   "checked_at": "2026-11-15T03:25:32.508458Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-15T03:24:10.022095Z"
+   "checked_at": "2026-11-15T03:25:32.697903Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-15T03:24:10.478782Z"
+   "checked_at": "2026-11-15T03:25:33.037148Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-15T03:24:11.905767Z"
+   "checked_at": "2026-11-15T03:25:34.764504Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-15T03:24:12.142022Z"
+   "checked_at": "2026-11-15T03:25:34.945769Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-15T03:24:12.395859Z"
+   "checked_at": "2026-11-15T03:25:35.007078Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-15T03:24:12.590505Z"
+   "checked_at": "2026-11-15T03:25:35.079082Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-15T03:24:12.890913Z"
+   "checked_at": "2026-11-15T03:25:35.355799Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-15T03:24:13.284795Z"
+   "checked_at": "2026-11-15T03:25:35.695646Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-15T03:24:13.429198Z"
+   "checked_at": "2026-11-15T03:25:35.861616Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-15T03:24:13.688926Z"
+   "checked_at": "2026-11-15T03:25:36.107776Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-15T03:24:13.914596Z"
+   "checked_at": "2026-11-15T03:25:36.462977Z"
   }
  ],
  "daily_top": [
@@ -6603,7 +6603,39 @@
    "generated_at": "2026-11-15T03:30:00Z"
   }
  ],
- "weekly": null,
+ "weekly": {
+  "week": "2026-W46",
+  "generated_at": "2026-11-15T03:35:00Z",
+  "intro": "Een week waarin aanvallers vooral via beheersoftware van IT-dienstverleners en via randapparaten binnenkwamen, terwijl AI-agenten steeds vaker opdoken bij echte inbraken.",
+  "focus": "Vraag een klant die maandelijks patcht hoe snel hij kan reageren als details van een lek kort na de patch openbaar worden: Google Project Zero verkort die termijn stap voor stap van 90 naar 30 dagen.",
+  "highlights": [
+   {
+    "title": "Beheersoftware van IT-dienstverleners onder vuur: N-central en ScreenConnect",
+    "why": "Voor N-central verscheen nieuwe aanvalscode die ook na de patch werkte, en via de ScreenConnect-extensie RMM+ raakten aanvallers binnen 90 minuten 288 computers bij minstens 6 IT-dienstverleners en 48 organisaties. Wie de beheertool van een dienstverlener overneemt, kan bij al diens klanten komen; vraag klanten dus welke beheertools hun dienstverlener op hun systemen heeft.",
+    "article_ids": [
+     "9cb2b44a4924",
+     "daa356fef18a",
+     "d37e24abb537"
+    ]
+   },
+   {
+    "title": "AI-agenten bij echte inbraken: sneller, maar zichtbaar in de logs",
+    "why": "Datadog en Arctic Wolf beschreven AI-tools als ARTEX en AntiFox bij aanvallen op AWS en webservers, en volgens één onderzoeksbureau viel een AI-agent een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Het gaat om bekende stappen die sneller worden uitgevoerd, dus goede logging zoals CloudTrail en beperkte rechten maken nog steeds het verschil.",
+    "article_ids": [
+     "3e830a9401ea",
+     "63cbf25606a5",
+     "cd6455aacef5"
+    ]
+   },
+   {
+    "title": "Check Point-gateways via PHP2Shell gehackt, daarna bestanden op ESXi gewist",
+    "why": "Een onbekende aanvaller kwam binnen op ongepatchte Check Point-gateways, werd root via een nieuw lek en wiste bij een deel van de slachtoffers bestanden op VMware ESXi. Het is het volgende voorbeeld in een reeks aanvallen op vpn-servers en firewalls; een goede vraag aan klanten is of de logs van zulke apparaten ook buiten het apparaat worden bewaard.",
+    "article_ids": [
+     "c0eea237828e"
+    ]
+   }
+  ]
+ },
  "glossary": [
   {
    "term": "aanvalsoppervlak",
@@ -9710,7 +9742,23 @@
   ],
   "updated": "2026-11-03"
  },
- "interest_suggestions": [],
+ "interest_suggestions": [
+  {
+   "id": "ai-bij-aanvallen",
+   "kind": "nieuw",
+   "name": "AI bij aanvallen",
+   "description": "Hoe aanvallers AI-agenten, taalmodellen en AI-pentesttools inzetten om lekken te vinden en in te breken, en welke sporen dat in logs nalaat. Ook misbruik van de AI-diensten van organisaties zelf, zoals gestolen toegang tot AI-modellen.",
+   "why": "11 van de 56 artikelen die nu in de app staan hebben AI in de kop en het is een van de trends, maar geen onderwerp in je interesses heeft zoekwoorden voor AI.",
+   "generated_at": "2026-11-15T03:35:00Z"
+  },
+  {
+   "id": "supply-chain-belangrijker",
+   "kind": "belangrijker",
+   "topic": "supply_chain",
+   "why": "7 van de 25 artikelen die deze week in de app kwamen gingen over aanvallen via leveranciers en software, vooral via beheersoftware van IT-dienstverleners zoals N-central en ScreenConnect.",
+   "generated_at": "2026-11-15T03:35:00Z"
+  }
+ ],
  "interest_log": [],
  "runs": {
   "date": "2026-11-15",
@@ -9739,6 +9787,19 @@
     "counts": {
      "verdiepingen": 0,
      "keuzes": 5
+    }
+   },
+   "overzicht": {
+    "status": "ok",
+    "summary": "3 trends: AI-agenten en randapparaten bijgewerkt, de trend over beheersoftware van IT-dienstverleners aangevuld met de ScreenConnect-extensie RMM+; geen verzoeken voor de interesses, alle stukken hadden al begrippen; Jouw week geschreven met 3 hoogtepunten en 2 voorstellen voor de interesses.",
+    "finished_at": "2026-11-15T03:25:16Z",
+    "problems": [],
+    "counts": {
+     "trends": 3,
+     "interesses_aangepast": 0,
+     "begrippen_aangevuld": 0,
+     "hoogtepunten": 3,
+     "voorstellen": 2
     }
    }
   }
