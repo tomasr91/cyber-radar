@@ -1,0 +1,18 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-15T01:22:49Z",
+  "finished_at": "2026-11-15T01:39:26Z",
+  "status": "ok",
+  "summary": "Vers opgehaald; 4 artikelen uitgelegd (misbruikt WordPress-updatelek, UnrealIRCd-lek, sleutellek in Red Hat Quay en de ScreenConnect-aanvallen via de extensie RMM+) en 6 overgeslagen, waarvan 4 zonder openen (dubbel nieuws en incidentnieuws zonder inhoud).",
+  "counts": {
+    "uitgelegd": 4,
+    "overgeslagen": 6,
+    "overgeslagen_zonder_openen": 4,
+    "niet_te_lezen": 1
+  },
+  "problems": [
+    "Directe links moesten eerst via een zoekopdracht worden gevonden.",
+    "Het NIKKE-artikel van BleepingComputer was ook bij de tweede poging niet te openen.",
+    "Het NCSC-advies over Oracle Fusion Middleware was niet direct te openen; overgeslagen als lijst updates zonder bekend misbruik."
+  ]
+}
