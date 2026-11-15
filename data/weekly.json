@@ -1,0 +1,33 @@
+{
+  "week": "2026-W46",
+  "generated_at": "2026-11-15T03:35:00Z",
+  "intro": "Een week waarin aanvallers vooral via beheersoftware van IT-dienstverleners en via randapparaten binnenkwamen, terwijl AI-agenten steeds vaker opdoken bij echte inbraken.",
+  "highlights": [
+    {
+      "title": "Beheersoftware van IT-dienstverleners onder vuur: N-central en ScreenConnect",
+      "why": "Voor N-central verscheen nieuwe aanvalscode die ook na de patch werkte, en via de ScreenConnect-extensie RMM+ raakten aanvallers binnen 90 minuten 288 computers bij minstens 6 IT-dienstverleners en 48 organisaties. Wie de beheertool van een dienstverlener overneemt, kan bij al diens klanten komen; vraag klanten dus welke beheertools hun dienstverlener op hun systemen heeft.",
+      "article_ids": [
+        "9cb2b44a4924",
+        "daa356fef18a",
+        "d37e24abb537"
+      ]
+    },
+    {
+      "title": "AI-agenten bij echte inbraken: sneller, maar zichtbaar in de logs",
+      "why": "Datadog en Arctic Wolf beschreven AI-tools als ARTEX en AntiFox bij aanvallen op AWS en webservers, en volgens één onderzoeksbureau viel een AI-agent een Europese telecomaanbieder aan via een lek in Cisco BroadWorks. Het gaat om bekende stappen die sneller worden uitgevoerd, dus goede logging zoals CloudTrail en beperkte rechten maken nog steeds het verschil.",
+      "article_ids": [
+        "3e830a9401ea",
+        "63cbf25606a5",
+        "cd6455aacef5"
+      ]
+    },
+    {
+      "title": "Check Point-gateways via PHP2Shell gehackt, daarna bestanden op ESXi gewist",
+      "why": "Een onbekende aanvaller kwam binnen op ongepatchte Check Point-gateways, werd root via een nieuw lek en wiste bij een deel van de slachtoffers bestanden op VMware ESXi. Het is het volgende voorbeeld in een reeks aanvallen op vpn-servers en firewalls; een goede vraag aan klanten is of de logs van zulke apparaten ook buiten het apparaat worden bewaard.",
+      "article_ids": [
+        "c0eea237828e"
+      ]
+    }
+  ],
+  "focus": "Vraag een klant die maandelijks patcht hoe snel hij kan reageren als details van een lek kort na de patch openbaar worden: Google Project Zero verkort die termijn stap voor stap van 90 naar 30 dagen."
+}

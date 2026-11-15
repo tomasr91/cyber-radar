@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-15T03:35:00Z",
+  "suggestions": [
+    {
+      "id": "ai-bij-aanvallen",
+      "kind": "nieuw",
+      "name": "AI bij aanvallen",
+      "description": "Hoe aanvallers AI-agenten, taalmodellen en AI-pentesttools inzetten om lekken te vinden en in te breken, en welke sporen dat in logs nalaat. Ook misbruik van de AI-diensten van organisaties zelf, zoals gestolen toegang tot AI-modellen.",
+      "why": "11 van de 56 artikelen die nu in de app staan hebben AI in de kop en het is een van de trends, maar geen onderwerp in je interesses heeft zoekwoorden voor AI."
+    },
+    {
+      "id": "supply-chain-belangrijker",
+      "kind": "belangrijker",
+      "topic": "supply_chain",
+      "why": "7 van de 25 artikelen die deze week in de app kwamen gingen over aanvallen via leveranciers en software, vooral via beheersoftware van IT-dienstverleners zoals N-central en ScreenConnect."
+    }
+  ]
+}
