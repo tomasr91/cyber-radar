@@ -1,7 +1,22 @@
 {
- "generated_at": "2026-11-14T06:57:15.164579Z",
+ "generated_at": "2026-11-15T01:23:17.103728Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "b58e8e6c37ed",
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-14T12:38:35Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
+   ]
+  },
   {
    "id": "cfa80f78adb3",
    "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
@@ -10,7 +25,7 @@
    "source_name": "SecurityWeek",
    "published_at": "2026-11-12T15:38:31Z",
    "excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
-   "preliminary_score": 81,
+   "preliminary_score": 80,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
@@ -24,7 +39,7 @@
    "source_name": "SecurityWeek",
    "published_at": "2026-11-12T13:39:03Z",
    "excerpt": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek .",
-   "preliminary_score": 81,
+   "preliminary_score": 80,
    "preliminary_topics": [
     "attack_techniques",
     "threat_intelligence",
@@ -39,7 +54,7 @@
    "source_name": "SecurityWeek",
    "published_at": "2026-11-12T10:39:34Z",
    "excerpt": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
-   "preliminary_score": 81,
+   "preliminary_score": 80,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "threat_intelligence",
@@ -54,7 +69,7 @@
    "source_name": "SecurityWeek",
    "published_at": "2026-11-12T09:23:21Z",
    "excerpt": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
-   "preliminary_score": 81,
+   "preliminary_score": 80,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
@@ -131,22 +146,6 @@
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "web_software_security"
-   ]
-  },
-  {
-   "id": "2a5b7d5a686a",
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-05T05:17:04Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-   "preliminary_score": 78,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "malware"
    ]
   }
  ]
