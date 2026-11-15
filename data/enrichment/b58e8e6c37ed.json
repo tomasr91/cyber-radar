@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "article_id": "b58e8e6c37ed",
+  "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "headline": "Misbruikt lek in UnrealIRCd: gewone gebruiker geeft serveropdrachten",
+  "summary": "Een fout in de chatserver UnrealIRCd laat elke gebruiker opdrachten uitvoeren met de rechten van de server. Het lek wordt actief misbruikt en staat sinds 13 november in de KEV-lijst van CISA.",
+  "story": [
+    "UnrealIRCd is opensourcesoftware voor IRC-servers: chatservers waar gebruikers in kanalen met elkaar praten. Versie 6.2.7.1 dicht CVE-2026-114713 (CVSS 8,6). Volgens maker Bram Matthys is het de ernstigste fout in ongeveer 15 jaar. Een dag na de hotfix begonnen de aanvallen al. CISA zette het lek op 13 november in de KEV-lijst.",
+    "Eerst de normale werking. Een IRC-netwerk bestaat vaak uit meerdere servers die aan elkaar gekoppeld zijn. Ze sturen elkaar opdrachten als losse tekstregels. Een regel van een andere server vertrouwt een server volledig. Moderne clients kunnen een bericht een label (message tag) meegeven, zodat ze het antwoord erop herkennen. De server zet dat label dan terug in zijn antwoord. Dat regelt de module labeled-response.",
+    "Daar zit de fout. De module controleert het label niet op tekens die een regel afsluiten. Zo'n scheidingsteken (delimiter) zou de server onschadelijk moeten maken. Een gebruiker kan zo een extra regel in het antwoord smokkelen. Gekoppelde servers zien die regel als opdracht van een server en voeren hem uit. Elke gewone gebruiker krijgt dan in feite de macht van een IRC-beheerder: gebruikers verbannen of van het netwerk gooien. Dit werkt alleen in netwerken met minstens twee gekoppelde servers. Wat de aanvallers precies doen, staat niet in de bronnen.",
+    "Hoe voorkom je het? Update naar 6.2.7.1, of zet de hotpatch zonder herstart op alle servers. Kan dat nog niet, dan is er een filterregel van de makers die ongeldige labels tegenhoudt. Wie nog versie 5 draait, moet de module uitschakelen en overstappen: die versie krijgt sinds 2023 geen updates meer. Vulnerability management helpt om zulke vergeten servers te vinden.",
+    "Voor de meeste organisaties is IRC geen kernsysteem. Toch is het leerzaam. Het principe heet injectie: invoer van een gebruiker belandt ongefilterd in een bericht dat een ander systeem vertrouwt. Dat is hetzelfde patroon als bij SQL injection, maar dan tussen servers."
+  ],
+  "key_facts": [
+    "CVE-2026-114713 (CVSS 8,6) is een fout in het onschadelijk maken van scheidingstekens: de module labeled-response van UnrealIRCd 6.0.0 tot 6.2.7.1 escapet de IRCv3-tag 'label' niet als die in antwoorden wordt teruggezet.",
+    "Elke gebruiker in een netwerk met twee of meer gekoppelde servers kan server-naar-serveropdrachten injecteren die met serverrechten worden uitgevoerd.",
+    "Versie 6.2.7.1 verscheen rond 7 november 2026; er is ook een hotpatch zonder herstart en een filterregel als tijdelijke oplossing.",
+    "Volgens maker Bram Matthys (Syzop) is het de ernstigste fout in UnrealIRCd in ongeveer 15 jaar; misbruikpogingen begonnen een dag na de hotfix.",
+    "CISA zette het lek op 13 november 2026 in de KEV-lijst; Amerikaanse federale instanties moeten uiterlijk 16 november 2026 patchen.",
+    "De fout werd met hulp van AI gevonden bij een interne controle door het UnrealIRCd-team."
+  ],
+  "limitations": [
+    "Wat de aanvallers met het lek doen en hoeveel servers getroffen zijn, staat niet in de bronnen.",
+    "Wie achter de aanvallen zit, is onbekend.",
+    "Oudere versies (3.2 en 4) zijn niet onderzocht; versie 5 is volgens de makers op vergelijkbare wijze kwetsbaar."
+  ],
+  "personal_relevance": "IRC draait bij klanten zelden in productie, maar soms bij ontwikkelteams of in oude omgevingen. Het is een goed voorbeeld om uit te leggen waarom ook niet-kritieke software met een KEV-vermelding voorrang verdient.",
+  "takeaway": "Gekoppelde servers vertrouwen elkaars berichten blind. Kan een gebruiker een eigen regel in zo'n bericht smokkelen, dan erft hij dat vertrouwen: daarom moet invoer altijd ontdaan worden van scheidingstekens voordat die wordt doorgestuurd.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "attack_techniques"
+  ],
+  "quality": {
+    "depth": 0.6,
+    "practicality": 0.5,
+    "novelty": 0.6
+  },
+  "development_key": "cve-2026-114713-unrealircd",
+  "soort": "kwetsbaarheid",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; misbruikt lek met een helder injectieprincipe, maar in minder gangbare software."
+  },
+  "showcase": {
+    "caption": "Zo werkt een label normaal. De client plakt een eigen label voor zijn verzoek (regel 1). De server zet hetzelfde label voor zijn antwoord (regel 2), zodat de client weet waar het bij hoort. Het lek zit erin dat de server het label ongecontroleerd terugzet.",
+    "language": "text",
+    "code": "C: @label=vraag42 WHOIS anna\nS: @label=vraag42 :irc.example.com 311 jan anna ~anna example.com * :Anna",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld van normaal verkeer, met voorbeeldnamen."
+  },
+  "terms": [
+    {
+      "term": "IRC-servers",
+      "explanation": "Servers voor Internet Relay Chat, een oud maar nog gebruikt chatprotocol. Gebruikers praten in kanalen; meerdere servers kunnen samen één netwerk vormen."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "message tag",
+      "explanation": "Een extra stukje informatie dat een IRC-client of -server voor een bericht zet, zoals een label of tijdstip. Het hoort bij de moderne IRCv3-uitbreidingen."
+    },
+    {
+      "term": "delimiter",
+      "explanation": "Een scheidingsteken dat aangeeft waar een stuk gegevens ophoudt, zoals het einde van een regel. Kan een gebruiker er zelf een invoegen, dan kan hij een extra opdracht toevoegen."
+    },
+    {
+      "term": "hotpatch",
+      "explanation": "Een reparatie die je in draaiende software laadt, zonder het programma opnieuw te starten. Handig voor diensten die niet plat mogen."
+    },
+    {
+      "term": "injectie",
+      "explanation": "Een aanvalsprincipe waarbij invoer van een gebruiker wordt opgevat als opdracht in plaats van als gewone tekst. SQL injection is het bekendste voorbeeld."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-15T01:52:00Z"
+}

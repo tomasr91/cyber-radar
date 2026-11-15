@@ -1,0 +1,7 @@
+{
+  "article_id": "f4f1ad10a87b",
+  "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als a665869d02d2 (misbruikt zero-day in Zyxel GS1900-switches), op 7 november al uitgelegd met de nieuwere patchinformatie.",
+  "checked_at": "2026-11-15T01:45:00Z",
+  "development_key": "cve-2026-107441-zyxel-gs1900"
+}

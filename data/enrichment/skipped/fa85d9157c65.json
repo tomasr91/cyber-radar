@@ -1,0 +1,7 @@
+{
+  "article_id": "fa85d9157c65",
+  "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als 6947b84f5dbe (wfx-loot-campagne die via gekaapte GitHub-accounts geheimen uit CI-workflows steelt), op 13 november uitgelegd.",
+  "checked_at": "2026-11-15T01:45:00Z",
+  "development_key": "wfx-loot-github-actions-nov-2026"
+}

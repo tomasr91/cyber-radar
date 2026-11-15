@@ -1,6 +1,6 @@
 {
   "article_id": "1d820fad715a",
   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0448",
-  "reason": "Niet te lezen: het NCSC-advies kon niet worden geopend. Het gaat om het Fusion Middleware-deel van Oracles Critical Patch Update van oktober 2026, zonder bekend misbruik; bij een nieuwe poging alleen uitleggen als er inmiddels misbruik is.",
-  "checked_at": "2026-11-03T21:49:00Z"
+  "reason": "Niet uitleggen: NCSC-advies dat vooral een lijst updates uit Oracles kwartaalpatch van oktober noemt (Fusion Middleware), zonder bekend misbruik; het advies is ruim drie weken oud. Ook bij deze tweede poging was de pagina van het NCSC niet direct te openen en niets wijst op nieuw misbruik.",
+  "checked_at": "2026-11-15T01:45:00Z"
 }

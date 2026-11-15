@@ -1,0 +1,89 @@
+{
+  "format_version": 2,
+  "article_id": "d37e24abb537",
+  "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+  "headline": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties",
+  "summary": "Aanvallers misbruikten een fout in de extensie RMM+ voor ScreenConnect: een niet ingestelde sleutel stond op leeg. Zo stuurden ze opdrachten naar 288 computers bij 48 organisaties en zetten ze de toolkit SCKit neer.",
+  "story": [
+    "Onderzoekers van Huntress zagen op 11 november nieuwe aanvallen via ConnectWise ScreenConnect, software voor ondersteuning op afstand. Binnen 90 minuten werden 288 computers geraakt, bij minstens 6 IT-dienstverleners (MSP's) en 48 organisaties. Eerder schreven we over SCKit, de toolkit die hier opnieuw opduikt. Toen ging het om een bekend lek in ScreenConnect zelf. Nu kwamen de aanvallers binnen via een extensie van een andere partij.",
+    "Eerst de normale werking. Een MSP beheert vanuit een centraal ScreenConnect-paneel de computers van zijn klanten. Extensies voegen functies toe aan dat paneel. De extensie RMM+ helpt bij het beheren van sessies en heeft een eigen koppeling (API). Die is beveiligd met een gedeelde sleutel die de beheerder zelf instelt. In versie 1.0.31 en 1.0.32 stond die sleutel op leeg als niemand hem had ingesteld. Een aanvaller kon dan met een lege waarde de authenticatie omzeilen.",
+    "Via die omweg stuurden de aanvallers opdrachten naar beheerde computers, zonder in te loggen. Ze installeerden eigen ScreenConnect-clients en SCKit. SCKit wacht tot een technicus verbinding maakt met een besmette computer. Dan probeert het de werkplek van die technicus te besmetten en via diens sessies andere panelen te bereiken. Volgens Huntress is nog niet alles wat SCKit kan ook echt in aanvallen gezien; een deel komt uit analyse van de code.",
+    "Hoe zie je het? In de logs stonden opdrachten die binnen minuten op computers aankwamen, zonder inlog ervoor, en gekoppeld aan RMM+. Dat is een goed signaal voor een SIEM: een beheeractie zonder bijbehorende aanmelding. ConnectWise schakelde vijf extensies uit de RMM+-familie uit in ongeveer 400 omgevingen. Wie ScreenConnect zelf host, moet die extensies uitzetten. Huntress en ConnectWise publiceerden IOC's om mee te zoeken.",
+    "De les voor organisaties: een standaardinstelling kan een achterdeur zijn. Extensies van derden draaien met de rechten van het beheerpaneel. Hun beveiliging hoort dus bij vulnerability management, net als die van het hoofdproduct."
+  ],
+  "key_facts": [
+    "Huntress zag de aanvallen op 11 november 2026; SecurityWeek meldde ze op 12 november.",
+    "Getroffen: minstens 6 MSP's, 288 computers en 48 organisaties; alle 288 computers werden binnen 90 minuten geraakt.",
+    "De fout zit in de extensie RMM+ versie 1.0.31 en 1.0.32: de gedeelde toegangssleutel stond standaard op leeg als de beheerder hem niet instelde, waardoor authenticatie met een lege waarde te omzeilen was. Er wordt geen CVE genoemd.",
+    "De aanvallers installeerden ongeautoriseerde ScreenConnect-clients en SCKit, dat technici probeert te besmetten en sessiecookies onderschept.",
+    "ConnectWise schakelde vijf extensies uit (onder meer Labtech Plus, RMM Plus en RMM+ Password Link) in ongeveer 400 ScreenConnect-omgevingen; volgens ConnectWise bewijst alleen de aanwezigheid van de extensie geen besmetting.",
+    "Huntress en ConnectWise publiceerden IOC's en adviseren de extensies uit te zetten in zelf gehoste installaties."
+  ],
+  "limitations": [
+    "Wie de extensie RMM+ maakt en of er een gerepareerde versie is, staat niet in de bron.",
+    "Wie achter de aanvallen zit, is onbekend.",
+    "Of SCKit in deze aanvallen ook echt technici heeft besmet, blijkt niet uit de bron.",
+    "Huntress is een securityleverancier met MSP's als klant."
+  ],
+  "personal_relevance": "Bij klanten die met een MSP werken is dit een concrete vraag: welke extensies draaien er in het beheerpaneel, en zijn hun sleutels ingesteld? Voor SIEM- en MDR-klanten: worden beheeropdrachten zonder aanmelding als afwijking gemeld?",
+  "takeaway": "Een lege of standaardsleutel is geen sleutel. Een beheeropdracht zonder bijbehorende inlog in de logs is een sterk teken dat een aanvaller een omweg langs de authenticatie gebruikt.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "supply_chain",
+    "exploited_vulnerabilities",
+    "siem_detection",
+    "malware"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.8,
+    "novelty": 0.6
+  },
+  "development_key": "sckit-screenconnect-rmmplus-nov-2026",
+  "soort": "incident",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "workaround",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; aanval via beheersoftware van MSP's met een concreet detectiesignaal, dicht bij SIEM- en MDR-werk."
+  },
+  "showcase": {
+    "caption": "Zo ziet het patroon eruit in een auditlog. Bij normaal werk staat er eerst een aanmelding van een technicus (regel 1), dan pas een opdracht (regel 2). In de aanval komen opdrachten via de extensie binnen zonder aanmelding ervoor (regels 3 en 4), bij veel computers vlak na elkaar.",
+    "language": "log",
+    "code": "11-11 09:02:10 Login        gebruiker=tech.anna  bron=198.51.100.7\n11-11 09:03:45 RunCommand   gebruiker=tech.anna  doel=PC-0142\n11-11 14:21:03 RunCommand   gebruiker=-  via=extensie:RMM+  doel=PC-0007\n11-11 14:21:04 RunCommand   gebruiker=-  via=extensie:RMM+  doel=PC-0008",
+    "note": "Nagebouwd voorbeeld met verzonnen namen en een voorbeeldadres; de echte IOC's staan bij Huntress en ConnectWise."
+  },
+  "terms": [
+    {
+      "term": "MSP",
+      "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."
+    },
+    {
+      "term": "extensie",
+      "explanation": "Een uitbreiding die extra functies toevoegt aan bestaande software. Vaak gemaakt door een andere partij, maar met dezelfde rechten als het programma zelf."
+    },
+    {
+      "term": "API",
+      "explanation": "Een vaste ingang waarmee programma's met elkaar praten, zonder scherm of muis. Wie de API mag gebruiken, kan alles wat die ingang toestaat."
+    },
+    {
+      "term": "gedeelde sleutel",
+      "explanation": "Eén geheime code die beide kanten kennen, als bewijs dat een verzoek mag. Staat die op leeg, dan kent iedereen hem."
+    },
+    {
+      "term": "SCKit",
+      "explanation": "Een toolkit uit aanvallen op ScreenConnect. Hij geeft blijvende toegang, probeert technici te besmetten en steelt sessiecookies om andere klanten te bereiken."
+    },
+    {
+      "term": "IOC's",
+      "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-15T02:05:00Z"
+}

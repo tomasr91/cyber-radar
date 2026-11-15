@@ -1,0 +1,7 @@
+{
+  "article_id": "cfa80f78adb3",
+  "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+  "reason": "Overgeslagen op titel en samenvatting: zelfde ontwikkeling als 4d2baf54099d (CVE-2026-119618 in mod_http2 van Apache HTTP Server), op 13 november uitgelegd via BleepingComputer; geen nieuwe informatie in de samenvatting.",
+  "checked_at": "2026-11-15T01:45:00Z",
+  "development_key": "cve-2026-119618-apache-http2"
+}

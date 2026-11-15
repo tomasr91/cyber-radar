@@ -1,0 +1,89 @@
+{
+  "format_version": 2,
+  "article_id": "0914d818aa9e",
+  "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+  "headline": "Misbruikt WordPress-lek: aanval tijdens de update zelf",
+  "summary": "CISA meldt misbruik van CVE-2026-119977 in de kern van WordPress. Tijdens een update staat de nieuwe versie even in een openbare map, en daar kan een aanvaller de website overnemen. Update naar 7.1.4 en blokkeer die map.",
+  "story": [
+    "CISA zette op 3 november CVE-2026-119977 in de KEV-lijst. Het lek zit in WordPress zelf, niet in een plug-in. Wordfence blokkeerde in 24 uur ruim 13.000 aanvallen erop. WordPress 7.1.4 van 28 oktober dicht het lek. Onderzoeker Umut Bayram van Picus Security vond het.",
+    "Eerst de normale werking. Bij een update downloadt WordPress een pakket en pakt het uit in een tijdelijke map onder wp-content/upgrade/. Daarna kopieert het de bestanden over de live website en ruimt de map op. Die tijdelijke map staat meestal in het openbare deel van de webserver, waar PHP-code draait. Even staat er dus een tweede, losse WordPress-installatie online, inclusief het installatiescherm.",
+    "Daar zit de fout: een race condition van het type TOCTOU. Tussen uitpakken en kopiëren zit een kort moment. Volgens Picus was de naam van de tijdelijke map in veel versies te voorspellen. Het tijdelijke installatiescherm vindt de echte configuratie niet en denkt dat de site nieuw is. Wint een aanvaller de race, dan kan hij volgens Picus de site koppelen aan een eigen database, een beheerder aanmaken en via een plug-in code laten draaien. Inloggen is niet nodig, maar de timing maakt de aanval lastig.",
+    "Hoe zie en voorkom je het? Update naar 7.1.4; de fix geldt ook voor onderhouden versies vanaf 4.7. Let op: de eerste update naar 7.1.4 loopt nog via de oude code en is dus nog deels kwetsbaar. Blokkeer daarom vooraf webverkeer naar wp-content/upgrade/, want WordPress hoeft die map nooit via het web te tonen. In de logs van de webserver zijn verzoeken naar setup-config.php in die map een duidelijk alarmsignaal.",
+    "Voor organisaties is de les ongewoon: juist het patchen opent hier even een deur. WordPress draait op een groot deel van alle websites, dus vulnerability management moet ook marketingsites en vergeten installaties meenemen."
+  ],
+  "key_facts": [
+    "CVE-2026-119977 is een TOCTOU-race condition in het updateproces van WordPress Core; CISA zette het lek op 3 november 2026 in de KEV-lijst.",
+    "WordPress 7.1.4 (28 oktober 2026) dicht het lek; volgens Picus is de fix teruggezet naar onderhouden versies tot en met 4.7, en hebben 2.7 tot en met 4.6 geen fix.",
+    "Volgens Picus zijn versies 2.7.0 tot en met 7.1.3 kwetsbaar onder voorwaarden: een lopende volledige update, een voorspelbare naam van de tijdelijke map en een via het web bereikbare map wp-content/upgrade/ waar PHP draait.",
+    "Wordfence meldde 13.095 geblokkeerde aanvallen in 24 uur; volgens BleepingComputer is geen inlog nodig, maar is de aanval complex.",
+    "Ontdekt door Umut Bayram van Picus Security; Picus noemt een CVSS-score van 8,1.",
+    "De fix gebruikt een willekeurige mapnaam, houdt upgrade/index.php in stand en kopieert wp-config.php niet meer; de eerste update naar 7.1.4 loopt nog via de oude code."
+  ],
+  "limitations": [
+    "CISA en BleepingComputer geven geen details over wie het lek misbruikt en met welk doel.",
+    "Hoeveel van de geblokkeerde aanvallen echt in het korte updatemoment vielen en slaagden, is onbekend.",
+    "De technische uitleg komt van Picus Security, een securityleverancier die het lek vond en er ook producten bij noemt."
+  ],
+  "personal_relevance": "WordPress draait bij bijna elke klant wel ergens. Een nuttige vraag: weten jullie waar al jullie WordPress-sites staan, en wordt wp-content/upgrade/ afgeschermd voordat jullie updaten?",
+  "takeaway": "Een TOCTOU-fout ontstaat als software iets controleert en pas later gebruikt: in die tussentijd kan een aanvaller de situatie veranderen. Tijdelijke bestanden in een openbare webmap zijn daarom een risico, hoe kort ze er ook staan.",
+  "region": "world",
+  "official_docs": [
+    {
+      "label": "Picus Security: CVE-2026-119977 (onderzoek)",
+      "url": "https://www.picussecurity.com/resource/blog/cve-2026-119977-when-updating-wordpress-becomes-the-vulnerability"
+    }
+  ],
+  "topics": [
+    "exploited_vulnerabilities",
+    "web_software_security",
+    "vulnerabilities_cve",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.8,
+    "practicality": 0.8,
+    "novelty": 0.8
+  },
+  "development_key": "cve-2026-119977-wordpress-core",
+  "soort": "kwetsbaarheid",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; uitgebreide uitleg van een misbruikt lek in webtechniek, met concrete detectie."
+  },
+  "showcase": {
+    "caption": "Zo kan een verdacht verzoek eruitzien in het log van de webserver. Het vraagt het installatiescherm op in de tijdelijke updatemap. Een normale bezoeker of beheerder hoeft daar nooit te komen; na afscherming hoort het antwoord 403 (geweigerd) te zijn, zoals in regel 2.",
+    "language": "log",
+    "code": "203.0.113.10 - - [04/Nov/2026:03:14:07 +0100] \"GET /wp-content/upgrade/wordpress-voorbeeld/wordpress/wp-admin/setup-config.php HTTP/1.1\" 200 4310\n203.0.113.10 - - [04/Nov/2026:03:14:09 +0100] \"GET /wp-content/upgrade/wordpress-voorbeeld/wordpress/wp-admin/setup-config.php HTTP/1.1\" 403 199",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen mapnaam; Picus noemt verzoeken naar setup-config.php onder wp-content/upgrade/ als signaal."
+  },
+  "terms": [
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "plug-in",
+      "explanation": "Een uitbreiding voor WordPress die extra functies toevoegt. Plug-ins draaien als PHP-code op de server, dus wie er een mag installeren, kan code laten draaien."
+    },
+    {
+      "term": "race condition",
+      "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
+    },
+    {
+      "term": "TOCTOU",
+      "explanation": "Time-of-check to time-of-use: software controleert iets en gebruikt het pas later. Verandert een aanvaller de situatie in die tussentijd, dan klopt de controle niet meer."
+    },
+    {
+      "term": "wp-content/upgrade/",
+      "explanation": "De map waarin WordPress updates tijdelijk uitpakt. Hij staat meestal in het openbare deel van de website, terwijl bezoekers er nooit iets te zoeken hebben."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-15T02:12:00Z"
+}

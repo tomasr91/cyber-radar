@@ -1,0 +1,87 @@
+{
+  "format_version": 2,
+  "article_id": "2f01d2c20574",
+  "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+  "headline": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images",
+  "summary": "Een kritiek lek in de containerregistry Red Hat Quay laat een aanvaller een eigen ondertekeningssleutel installeren. Daarmee maakt hij toegangsbewijzen voor elke repository, ook privé. Misbruik is niet bekend.",
+  "story": [
+    "Red Hat waarschuwt voor CVE-2026-123710 (CVSS 9,8) in Red Hat Quay. Quay is een containerregistry: een opslagplaats voor container-images, de pakketjes waarin bedrijven hun software uitrollen. Volgens Red Hat kan een aanvaller zonder inlog het ondertekenen van toegangsbewijzen overnemen. Het lek is gevonden door Dave O'Connor van Red Hat. Misbruik is niet gemeld.",
+    "Eerst de normale werking. Wie een image wil ophalen of opslaan, krijgt van de registry eerst een token: een digitaal toegangsbewijs. Daarin staat welke repositories je mag lezen of beschrijven. De registry zet er een digitale handtekening onder met een geheime sleutel. Elk token met een handtekening van een vertrouwde sleutel wordt geaccepteerd. Een aparte dienst, de service key server, beheert die sleutels en vervangt ze af en toe (sleutelrotatie).",
+    "Daar gaat het mis. Staat anonieme toegang aan, dan haalt een aanvaller zonder account een token op. Via zwakke plekken in de sleutelrotatie installeert hij daarna zijn eigen sleutel als vertrouwde sleutel. Nu ondertekent hij zelf tokens met lees- en schrijfrechten op elke repository. Hij kan privé-images stelen, inclusief wachtwoorden of sleutels die erin zitten. Hij kan ook images overschrijven die andere systemen later downloaden. Anonieme toegang uitzetten helpt niet: volgens Red Hat kan elk geldig Quay-account het lek misbruiken.",
+    "Zo'n sleutel heeft geen vervaldatum en blijft na een herstart staan. Wachtwoorden wijzigen of robot-tokens vernieuwen helpt dus niet. Red Hat adviseert de toegang tot de sleuteldienst te beperken, in de logs te zoeken naar verdachte sleutelwijzigingen en onbekende sleutels te verwijderen. Op 11 november kwamen er reparaties in de code op GitHub, maar een versie met de oplossing noemt de bron niet.",
+    "Voor organisaties raakt dit de softwareketen. Wie de registry beheerst, bepaalt welke software in productie belandt. Een overschreven image kan zo ongemerkt malware verspreiden naar alle servers die het downloaden."
+  ],
+  "key_facts": [
+    "CVE-2026-123710 in Red Hat Quay heeft een CVSS-score van 9,8 (kritiek); ontdekt door Dave O'Connor van Red Hat.",
+    "Volgens Red Hat laat een fout in de service key server een aanvaller zonder inlog het ondertekenen van registry-tokens overnemen, als anonieme toegang aan staat; anders kan elk geldig Quay-account het lek misbruiken.",
+    "Met een eigen vertrouwde sleutel kan de aanvaller tokens maken met lees- en schrijfrechten op elke repository; de sleutel kan zonder vervaldatum en blijft na een herstart bestaan.",
+    "Rotatie verwijdert als bijeffect de echte instance key, waardoor gebruikers mogelijk geen images meer kunnen uploaden of downloaden.",
+    "Reparaties zijn op 11 november 2026 in de GitHub-repository van het project gezet, samen met een fix voor CVE-2026-110697; een versie met de oplossing wordt niet genoemd.",
+    "Misbruik in de praktijk is niet gemeld."
+  ],
+  "limitations": [
+    "Welke versies van Quay kwetsbaar zijn en welke versie de oplossing bevat, staat niet in de bron.",
+    "Hoe de zwakke plek in de sleutelrotatie precies werkt, legt Red Hat niet uit.",
+    "Of het lek ook de openbare dienst Quay.io raakt, staat niet in de bron."
+  ],
+  "personal_relevance": "Bij klanten met containers is dit een goede vraag: wie mag sleutels en tokens van de registry beheren, en wordt dat gelogd? Application security en vulnerability management moeten de registry zelf ook als kritiek systeem zien.",
+  "takeaway": "Een systeem dat handtekeningen controleert, is zo sterk als het beheer van zijn sleutels. Wie een eigen sleutel als vertrouwd kan laten registreren, kan elk toegangsbewijs vervalsen, en wachtwoorden wijzigen helpt dan niet.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "vulnerabilities_cve",
+    "cloud_attacks",
+    "supply_chain"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.7,
+    "novelty": 0.7
+  },
+  "development_key": "cve-2026-123710-red-hat-quay",
+  "soort": "kwetsbaarheid",
+  "exploitation": "geen_misbruik_bekend",
+  "patch_status": "workaround",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technische uitleg van tokens en sleutels bij een kritiek lek in cloudinfrastructuur."
+  },
+  "showcase": {
+    "caption": "Zo ziet de inhoud van een registry-token er ongeveer uit. Het zegt: deze gebruiker mag bedrijf/webapp ophalen (pull) en overschrijven (push). De registry gelooft dit alleen door de handtekening eronder. Wie zelf een vertrouwde sleutel heeft, kan elke inhoud ondertekenen.",
+    "language": "json",
+    "code": "{\n  \"iss\": \"quay.example.com\",\n  \"sub\": \"anoniem\",\n  \"exp\": 1763200000,\n  \"access\": [\n    {\"type\": \"repository\", \"name\": \"bedrijf/webapp\", \"actions\": [\"pull\", \"push\"]}\n  ]\n}",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld van de opbouw van een registry-token; niet uit de bron."
+  },
+  "terms": [
+    {
+      "term": "containerregistry",
+      "explanation": "Een opslagplaats voor container-images. Servers halen daar de software op die ze moeten draaien, zoals een app store voor bedrijfssoftware."
+    },
+    {
+      "term": "container-images",
+      "explanation": "Kant-en-klare pakketjes met een programma en alles wat het nodig heeft om te draaien. Een server start daar containers mee."
+    },
+    {
+      "term": "token",
+      "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+      "term": "digitale handtekening",
+      "explanation": "Een wiskundig zegel met een geheime sleutel. Iedereen kan controleren dat het bericht van de sleutelhouder komt en niet is veranderd."
+    },
+    {
+      "term": "sleutelrotatie",
+      "explanation": "Het regelmatig vervangen van geheime sleutels door nieuwe. Zo beperk je de schade als een oude sleutel ooit uitlekt."
+    },
+    {
+      "term": "robot-tokens",
+      "explanation": "Toegangsbewijzen in Quay voor automatische systemen, zoals een bouwstraat, in plaats van voor mensen."
+    }
+  ],
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws",
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-15T01:58:00Z"
+}
