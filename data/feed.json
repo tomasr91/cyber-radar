@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T02:24:29.295932Z",
+ "generated_at": "2026-11-15T02:25:27.628365Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-15T02:12:00Z",
- "last_successful_update": "2026-11-15T02:24:29.295932Z",
+ "last_successful_update": "2026-11-15T02:25:27.628365Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-15T02:24:29.356766Z"
+   "checked_at": "2026-11-15T02:25:27.660201Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-15T02:24:30.134421Z"
+   "checked_at": "2026-11-15T02:25:28.298126Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-15T02:24:31.197923Z"
+   "checked_at": "2026-11-15T02:25:29.161763Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-15T02:24:31.904810Z"
+   "checked_at": "2026-11-15T02:25:30.587191Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-15T02:24:33.416279Z"
+   "checked_at": "2026-11-15T02:25:31.682132Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-15T02:24:33.489388Z"
+   "checked_at": "2026-11-15T02:25:31.924103Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-15T02:24:33.578956Z"
+   "checked_at": "2026-11-15T02:25:32.027059Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-15T02:24:33.680327Z"
+   "checked_at": "2026-11-15T02:25:32.196123Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-15T02:24:34.153835Z"
+   "checked_at": "2026-11-15T02:25:32.838368Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-15T02:24:35.837540Z"
+   "checked_at": "2026-11-15T02:25:34.400795Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-15T02:24:35.881330Z"
+   "checked_at": "2026-11-15T02:25:34.600225Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-15T02:24:35.907427Z"
+   "checked_at": "2026-11-15T02:25:34.781881Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-15T02:24:35.953979Z"
+   "checked_at": "2026-11-15T02:25:35.063886Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-15T02:24:36.217212Z"
+   "checked_at": "2026-11-15T02:25:35.344216Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-15T02:24:36.273658Z"
+   "checked_at": "2026-11-15T02:25:35.465111Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-15T02:24:36.399908Z"
+   "checked_at": "2026-11-15T02:25:35.590214Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-15T02:24:36.615617Z"
+   "checked_at": "2026-11-15T02:25:35.829458Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-15T02:24:36.839345Z"
+   "checked_at": "2026-11-15T02:25:36.148051Z"
   }
  ],
  "daily_top": [
@@ -9729,6 +9729,16 @@
      "overgeslagen": 6,
      "overgeslagen_zonder_openen": 4,
      "niet_te_lezen": 1
+    }
+   },
+   "verdiepen": {
+    "status": "ok",
+    "summary": "Gisteren is geen verdieping gekozen, dus vandaag geen verdieping; 5 nieuwe keuzes klaargezet.",
+    "finished_at": "2026-11-15T02:24:20Z",
+    "problems": [],
+    "counts": {
+     "verdiepingen": 0,
+     "keuzes": 5
     }
    }
   }
