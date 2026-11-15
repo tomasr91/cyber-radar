@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T01:40:26.782210Z",
+ "generated_at": "2026-11-15T02:24:29.295932Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-15T02:12:00Z",
- "last_successful_update": "2026-11-15T01:40:26.782210Z",
+ "last_successful_update": "2026-11-15T02:24:29.295932Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-15T01:40:26.822807Z"
+   "checked_at": "2026-11-15T02:24:29.356766Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-15T01:40:27.752080Z"
+   "checked_at": "2026-11-15T02:24:30.134421Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-15T01:40:28.819136Z"
+   "checked_at": "2026-11-15T02:24:31.197923Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-15T01:40:30.165205Z"
+   "checked_at": "2026-11-15T02:24:31.904810Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-15T01:40:31.841296Z"
+   "checked_at": "2026-11-15T02:24:33.416279Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-15T01:40:31.983918Z"
+   "checked_at": "2026-11-15T02:24:33.489388Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-15T01:40:32.085375Z"
+   "checked_at": "2026-11-15T02:24:33.578956Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-15T01:40:32.212403Z"
+   "checked_at": "2026-11-15T02:24:33.680327Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-15T01:40:32.694304Z"
+   "checked_at": "2026-11-15T02:24:34.153835Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-15T01:40:34.193964Z"
+   "checked_at": "2026-11-15T02:24:35.837540Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-15T01:40:34.407002Z"
+   "checked_at": "2026-11-15T02:24:35.881330Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-15T01:40:34.464255Z"
+   "checked_at": "2026-11-15T02:24:35.907427Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-15T01:40:34.698233Z"
+   "checked_at": "2026-11-15T02:24:35.953979Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-15T01:40:34.908666Z"
+   "checked_at": "2026-11-15T02:24:36.217212Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-15T01:40:35.309138Z"
+   "checked_at": "2026-11-15T02:24:36.273658Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-15T01:40:35.399332Z"
+   "checked_at": "2026-11-15T02:24:36.399908Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-15T01:40:35.669664Z"
+   "checked_at": "2026-11-15T02:24:36.615617Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-15T01:40:35.894489Z"
+   "checked_at": "2026-11-15T02:24:36.839345Z"
   }
  ],
  "daily_top": [
@@ -1796,7 +1796,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.68,
     "quality": 0.7,
     "fit": 0.05
@@ -3662,7 +3662,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.88,
+    "recency": 0.87,
     "source": 0.51,
     "quality": 0.7,
     "fit": 0.0
@@ -3731,105 +3731,6 @@
    "region": "world",
    "exploitation": "geen_misbruik_bekend",
    "patch_status": "workaround"
-  },
-  {
-   "id": "f8af8b71c7c1",
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source_id": "microsoft_threat_intel",
-   "published_at": "2026-10-21T18:23:55Z",
-   "fetched_at": "2026-11-03T21:07:39.907698Z",
-   "summary": "Microsoft koppelt de inbraak bij ConnectWise Cloud Backup aan Storm-0940. Met gestolen identiteiten van ConnectWise-apps en de AI-tool ARTEX probeerde de groep in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten.",
-   "personal_relevance": "Veel klanten hebben apps van leveranciers met brede rechten in Microsoft 365. Een goede vraag: welke externe apps hebben bij jullie rechten op mail of de hele omgeving, en monitoren jullie wat die apps doen?",
-   "limitations": [
-    "De toeschrijving aan Storm-0940 en aan de Chinese staat is een inschatting van Microsoft.",
-    "Hoe de aanvaller de app-identiteiten van ConnectWise in handen kreeg, staat niet in het stuk.",
-    "Een geslaagde aanmelding betekent volgens Microsoft niet automatisch dat er gegevens zijn ingezien of gestolen.",
-    "Microsoft noemt eigen beveiligingsproducten als oplossing; het stuk is ook reclame."
-   ],
-   "topics": [
-    "threat_intelligence",
-    "siem_detection",
-    "supply_chain",
-    "cloud_attacks"
-   ],
-   "groups": [
-    "ti",
-    "detectie",
-    "web",
-    "incidenten"
-   ],
-   "relevance_score": 86,
-   "score_parts": {
-    "topic": 1.0,
-    "recency": 0.3,
-    "source": 0.8,
-    "quality": 0.8,
-    "fit": 0.1
-   },
-   "decision": "included",
-   "processing_status": "enriched",
-   "processed_by": "Claude (geplande taak)",
-   "processed_at": "2026-11-04T01:44:55Z",
-   "reading_minutes": 4,
-   "format_version": 2,
-   "headline": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI",
-   "story": [
-    "Microsoft schrijft de inbraak bij ConnectWise Cloud Backup toe aan Storm-0940, een groep die volgens Microsoft aan de Chinese staat gelieerd is. De groep kreeg controle over de identiteiten van meerdere cloudapplicaties van ConnectWise. Daarmee probeerden AI-agenten van het framework ARTEX in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten. Volgens Microsoft zat er geen fout in de eigen systemen.",
-    "Hoe werkt dat normaal? Een back-updienst moet bij de mail en bestanden van klanten kunnen. Daarvoor registreert de leverancier één app die bij veel klanten tegelijk werkt. Elke klant geeft die app eenmalig toestemming. Daarna logt de app zelf in met een eigen sleutel, zonder gebruiker: dat heet app-only. In de klantomgeving bestaat de app als service principal, een soort serviceaccount. Wie de sleutel van zo'n app steelt, krijgt in één keer toegang bij alle klanten, zonder wachtwoord of MFA van een gebruiker. Dat maakt dit een supply chain-aanval: de aanvaller misbruikt vertrouwen dat al bestond.",
-    "In sommige omgevingen ging het verder dan inloggen. Via Microsoft Graph verkenden de agenten de omgeving, voegden ze extra inloggegevens aan apps toe en probeerden ze rechten te veranderen. Een app gaf zichzelf zelfs de rol Global Administrator. In Azure lazen ze in korte tijd geheimen uit meerdere Key Vaults. Microsoft telde meer dan 200 aanmeldingen in minder dan vier minuten. Daarnaast deed dezelfde infrastructuur van 10 tot 14 oktober aan password spraying: 151.000 mislukte pogingen, zonder succes.",
-    "Je ziet dit niet in de gewone aanmeldingen van gebruikers. Je moet kijken naar de aanmeldingen van service principals en naar de auditlogs van Entra: nieuwe sleutels op een app, nieuwe rollen en nieuwe toestemmingen. Koppel die aan wat er daarna via Graph gebeurt. Microsoft adviseert de getroffen apps uit te schakelen, maar niet meteen te verwijderen: eerst bewijs bewaren. Controleer vanaf minstens 15 oktober, en aanmeldingen van service principals zo mogelijk vanaf 1 oktober.",
-    "Voor organisaties is de les breder dan ConnectWise. Elke app van een leverancier met hoge rechten is een sleutel tot je omgeving. Een extra sleutel die een aanvaller aan zo'n app hangt, blijft werken als achterdeur, ook nadat de oorspronkelijke fout is opgelost. Weet dus welke apps welke rechten hebben, en geef ze niet meer dan nodig (least privilege)."
-   ],
-   "key_facts": [
-    "Microsoft publiceerde de analyse op 21 oktober 2026 en schrijft de ConnectWise-inbraak toe aan Storm-0940, volgens Microsoft gelieerd aan de Chinese staat en actief sinds 2021.",
-    "Het getroffen product is ConnectWise Cloud Backup; ConnectWise publiceerde op 16 oktober 2026 een eerste advies.",
-    "Met gestolen app-identiteiten probeerden ARTEX-agenten in te loggen bij meer dan 2.250 tenants; meer dan 200 aanmeldingen in minder dan vier minuten met vier app-sleutels.",
-    "In sommige omgevingen volgden verkenning via Microsoft Graph, extra inloggegevens op apps, rolwijzigingen (waaronder een app die zichzelf Global Administrator maakte) en het uitlezen van Azure Key Vaults.",
-    "Van 10 tot 14 oktober 2026: password spraying op 327 accounts bij acht organisaties, meer dan 151.000 mislukte pogingen en geen geslaagde aanmelding.",
-    "Microsoft zag meerdere gevallen waarin het minder dan drie uur duurde van eerste doelwit tot beheerdersrechten, maar de meeste pogingen mislukten."
-   ],
-   "article_type": "nieuws",
-   "showcase": {
-    "caption": "Een eenvoudige zoekopdracht in de auditlogs van Entra. Regel 1 kiest de auditlogs. Regel 2 kijkt vanaf 15 oktober. Regel 3 zoekt naar nieuwe sleutels op een app, nieuwe rollen en nieuwe app-rechten. Regel 4 houdt alleen wijzigingen over die door een app zijn gedaan, niet door een mens. Regel 5 toont wanneer, wat, wie en waarop.",
-    "language": "kql",
-    "code": "AuditLogs\n| where TimeGenerated > datetime(2026-10-15)\n| where OperationName in (\"Add service principal credentials\", \"Add member to role\", \"Add app role assignment to service principal\")\n| where isnotempty(InitiatedBy.app.displayName)\n| project TimeGenerated, OperationName, InitiatedBy, TargetResources",
-    "note": "Nagebouwd voorbeeld. Microsoft publiceert zelf uitgebreidere zoekopdrachten in het oorspronkelijke stuk."
-   },
-   "terms": [
-    {
-     "term": "app-only",
-     "explanation": "Een manier van inloggen waarbij een applicatie zelf inlogt met een eigen sleutel of certificaat, zonder dat er een gebruiker bij is. Er is dus ook geen MFA van een gebruiker."
-    },
-    {
-     "term": "service principal",
-     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
-    },
-    {
-     "term": "supply chain",
-     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
-    },
-    {
-     "term": "Microsoft Graph",
-     "explanation": "De centrale toegangsweg (API) tot gegevens in Microsoft 365, zoals mail, bestanden, gebruikers en groepen. Apps en beheertools gebruiken het, aanvallers ook."
-    },
-    {
-     "term": "Key Vaults",
-     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
-    },
-    {
-     "term": "password spraying",
-     "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
-    }
-   ],
-   "learning": "SIEM, logs en detectie",
-   "soort": "onderzoek",
-   "fit": {
-    "score": 0.6,
-    "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
-   },
-   "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
-   "region": "world"
   },
   {
    "id": "7b72d51a9df2",
@@ -4076,6 +3977,105 @@
     "why": "Nog geen duimpjes; een nieuwe aanvalstechniek met een heldere uitleg van hoe updates werken."
    },
    "takeaway": "Een update is alleen te vertrouwen als de software de digitale handtekening controleert; HTTPS en een controlegetal uit hetzelfde bestand zijn niet genoeg. En een aanval die maar minuten duurt, kun je achteraf alleen terugvinden in je eigen logs.",
+   "region": "world"
+  },
+  {
+   "id": "f8af8b71c7c1",
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source_id": "microsoft_threat_intel",
+   "published_at": "2026-10-21T18:23:55Z",
+   "fetched_at": "2026-11-03T21:07:39.907698Z",
+   "summary": "Microsoft koppelt de inbraak bij ConnectWise Cloud Backup aan Storm-0940. Met gestolen identiteiten van ConnectWise-apps en de AI-tool ARTEX probeerde de groep in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten.",
+   "personal_relevance": "Veel klanten hebben apps van leveranciers met brede rechten in Microsoft 365. Een goede vraag: welke externe apps hebben bij jullie rechten op mail of de hele omgeving, en monitoren jullie wat die apps doen?",
+   "limitations": [
+    "De toeschrijving aan Storm-0940 en aan de Chinese staat is een inschatting van Microsoft.",
+    "Hoe de aanvaller de app-identiteiten van ConnectWise in handen kreeg, staat niet in het stuk.",
+    "Een geslaagde aanmelding betekent volgens Microsoft niet automatisch dat er gegevens zijn ingezien of gestolen.",
+    "Microsoft noemt eigen beveiligingsproducten als oplossing; het stuk is ook reclame."
+   ],
+   "topics": [
+    "threat_intelligence",
+    "siem_detection",
+    "supply_chain",
+    "cloud_attacks"
+   ],
+   "groups": [
+    "ti",
+    "detectie",
+    "web",
+    "incidenten"
+   ],
+   "relevance_score": 85,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.3,
+    "source": 0.8,
+    "quality": 0.8,
+    "fit": 0.1
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-04T01:44:55Z",
+   "reading_minutes": 4,
+   "format_version": 2,
+   "headline": "Microsoft: Chinese groep misbruikt app-sleutels van ConnectWise met AI",
+   "story": [
+    "Microsoft schrijft de inbraak bij ConnectWise Cloud Backup toe aan Storm-0940, een groep die volgens Microsoft aan de Chinese staat gelieerd is. De groep kreeg controle over de identiteiten van meerdere cloudapplicaties van ConnectWise. Daarmee probeerden AI-agenten van het framework ARTEX in te loggen bij meer dan 2.250 Microsoft 365-omgevingen van klanten. Volgens Microsoft zat er geen fout in de eigen systemen.",
+    "Hoe werkt dat normaal? Een back-updienst moet bij de mail en bestanden van klanten kunnen. Daarvoor registreert de leverancier één app die bij veel klanten tegelijk werkt. Elke klant geeft die app eenmalig toestemming. Daarna logt de app zelf in met een eigen sleutel, zonder gebruiker: dat heet app-only. In de klantomgeving bestaat de app als service principal, een soort serviceaccount. Wie de sleutel van zo'n app steelt, krijgt in één keer toegang bij alle klanten, zonder wachtwoord of MFA van een gebruiker. Dat maakt dit een supply chain-aanval: de aanvaller misbruikt vertrouwen dat al bestond.",
+    "In sommige omgevingen ging het verder dan inloggen. Via Microsoft Graph verkenden de agenten de omgeving, voegden ze extra inloggegevens aan apps toe en probeerden ze rechten te veranderen. Een app gaf zichzelf zelfs de rol Global Administrator. In Azure lazen ze in korte tijd geheimen uit meerdere Key Vaults. Microsoft telde meer dan 200 aanmeldingen in minder dan vier minuten. Daarnaast deed dezelfde infrastructuur van 10 tot 14 oktober aan password spraying: 151.000 mislukte pogingen, zonder succes.",
+    "Je ziet dit niet in de gewone aanmeldingen van gebruikers. Je moet kijken naar de aanmeldingen van service principals en naar de auditlogs van Entra: nieuwe sleutels op een app, nieuwe rollen en nieuwe toestemmingen. Koppel die aan wat er daarna via Graph gebeurt. Microsoft adviseert de getroffen apps uit te schakelen, maar niet meteen te verwijderen: eerst bewijs bewaren. Controleer vanaf minstens 15 oktober, en aanmeldingen van service principals zo mogelijk vanaf 1 oktober.",
+    "Voor organisaties is de les breder dan ConnectWise. Elke app van een leverancier met hoge rechten is een sleutel tot je omgeving. Een extra sleutel die een aanvaller aan zo'n app hangt, blijft werken als achterdeur, ook nadat de oorspronkelijke fout is opgelost. Weet dus welke apps welke rechten hebben, en geef ze niet meer dan nodig (least privilege)."
+   ],
+   "key_facts": [
+    "Microsoft publiceerde de analyse op 21 oktober 2026 en schrijft de ConnectWise-inbraak toe aan Storm-0940, volgens Microsoft gelieerd aan de Chinese staat en actief sinds 2021.",
+    "Het getroffen product is ConnectWise Cloud Backup; ConnectWise publiceerde op 16 oktober 2026 een eerste advies.",
+    "Met gestolen app-identiteiten probeerden ARTEX-agenten in te loggen bij meer dan 2.250 tenants; meer dan 200 aanmeldingen in minder dan vier minuten met vier app-sleutels.",
+    "In sommige omgevingen volgden verkenning via Microsoft Graph, extra inloggegevens op apps, rolwijzigingen (waaronder een app die zichzelf Global Administrator maakte) en het uitlezen van Azure Key Vaults.",
+    "Van 10 tot 14 oktober 2026: password spraying op 327 accounts bij acht organisaties, meer dan 151.000 mislukte pogingen en geen geslaagde aanmelding.",
+    "Microsoft zag meerdere gevallen waarin het minder dan drie uur duurde van eerste doelwit tot beheerdersrechten, maar de meeste pogingen mislukten."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Een eenvoudige zoekopdracht in de auditlogs van Entra. Regel 1 kiest de auditlogs. Regel 2 kijkt vanaf 15 oktober. Regel 3 zoekt naar nieuwe sleutels op een app, nieuwe rollen en nieuwe app-rechten. Regel 4 houdt alleen wijzigingen over die door een app zijn gedaan, niet door een mens. Regel 5 toont wanneer, wat, wie en waarop.",
+    "language": "kql",
+    "code": "AuditLogs\n| where TimeGenerated > datetime(2026-10-15)\n| where OperationName in (\"Add service principal credentials\", \"Add member to role\", \"Add app role assignment to service principal\")\n| where isnotempty(InitiatedBy.app.displayName)\n| project TimeGenerated, OperationName, InitiatedBy, TargetResources",
+    "note": "Nagebouwd voorbeeld. Microsoft publiceert zelf uitgebreidere zoekopdrachten in het oorspronkelijke stuk."
+   },
+   "terms": [
+    {
+     "term": "app-only",
+     "explanation": "Een manier van inloggen waarbij een applicatie zelf inlogt met een eigen sleutel of certificaat, zonder dat er een gebruiker bij is. Er is dus ook geen MFA van een gebruiker."
+    },
+    {
+     "term": "service principal",
+     "explanation": "De identiteit van een applicatie binnen een Microsoft-cloudomgeving, een soort serviceaccount. Hierop staan de rechten die de app in die omgeving heeft."
+    },
+    {
+     "term": "supply chain",
+     "explanation": "De toeleveringsketen. Bij een supply-chain-aanval wordt software of hardware al besmet voordat die bij de klant aankomt."
+    },
+    {
+     "term": "Microsoft Graph",
+     "explanation": "De centrale toegangsweg (API) tot gegevens in Microsoft 365, zoals mail, bestanden, gebruikers en groepen. Apps en beheertools gebruiken het, aanvallers ook."
+    },
+    {
+     "term": "Key Vaults",
+     "explanation": "Kluizen in Azure voor geheimen, zoals wachtwoorden, sleutels en certificaten. Wie ze kan uitlezen, krijgt vaak toegang tot nog meer systemen."
+    },
+    {
+     "term": "password spraying",
+     "explanation": "Eén of enkele veelgebruikte wachtwoorden proberen op heel veel accounts. Zo blijft de aanvaller onder de grens waarbij een account wordt geblokkeerd."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "onderzoek",
+   "fit": {
+    "score": 0.6,
+    "why": "Nog geen duimpjes; een concrete aanvalsketen in de cloud met detectie in de logs past bij wat je wilt leren."
+   },
+   "takeaway": "Een app met toestemming in je cloudomgeving logt zelf in, zonder MFA. Wie de sleutel van die app steelt, erft al die toegang; daarom horen aanmeldingen en sleutelwijzigingen van apps in je SIEM.",
    "region": "world"
   },
   {
@@ -5118,7 +5118,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.6,
+    "recency": 0.59,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -5872,7 +5872,7 @@
    "relevance_score": 82,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.58,
+    "recency": 0.57,
     "source": 0.68,
     "quality": 0.53,
     "region": 0.01,
@@ -6484,24 +6484,13 @@
   }
  ],
  "deepdive_options": {
-  "generated_at": "2026-11-14T02:35:00Z",
+  "generated_at": "2026-11-15T02:30:00Z",
   "options": [
    {
-    "id": "sql-injection",
-    "title": "SQL injection: als een website de verkeerde vraag aan de database stelt",
-    "question": "Hoe haalt een website gegevens uit een database, wat gaat er mis bij onveilige invoer, en hoe zie en voorkom je SQL injection?",
-    "why": "Een basisonderwerp uit het leerpad dat nog niet als keuze langskwam; deze week dichtte PostgreSQL, een veelgebruikte database achter websites, 52 lekken in één update.",
-    "topics": [
-     "attack_techniques",
-     "web_software_security"
-    ],
-    "area": "techniek"
-   },
-   {
-    "id": "privilege-escalation",
-    "title": "Privilege escalation: van gewone gebruiker naar beheerder",
-    "question": "Hoe krijgt een aanvaller meer rechten dan hij hoort te hebben, op Windows en Linux, en hoe zie je dat?",
-    "why": "Deze week verscheen SignDrop: openbare code waarmee een gewone Windows-gebruiker SYSTEM-rechten zou krijgen, nog zonder CVE of patch.",
+    "id": "remote-code-execution",
+    "title": "Remote code execution: hoe een fout een server opdrachten laat uitvoeren",
+    "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert op een server, wat doet hij daarna, en wat ziet een securityteam dan?",
+    "why": "Een basisonderwerp uit het leerpad: deze week dichtte Apache een HTTP/2-lek waarmee een aanvaller zonder inlog mogelijk de webserver overneemt, en PostgreSQL een lek waarmee een databasegebruiker code op de server kan uitvoeren.",
     "topics": [
      "attack_techniques",
      "vulnerabilities_cve",
@@ -6510,38 +6499,51 @@
     "area": "kwetsbaarheden"
    },
    {
-    "id": "sessie-aan-apparaat-gekoppeld",
-    "title": "Een inlogsessie vastmaken aan je apparaat: hoe DBSC gestolen cookies stopt",
-    "question": "Wat is een sessiecookie, waarom kan een aanvaller met een gestolen cookie langs MFA, en hoe maakt Device Bound Session Credentials (DBSC) zo'n cookie waardeloos?",
-    "why": "Dit hoort bij de trend 'Aanvallers omzeilen MFA door de inlogsessie zelf te stelen'; Vercel voert DBSC nu in om precies dat tegen te gaan.",
+    "id": "msp-als-springplank",
+    "title": "Via de IT-dienstverlener naar alle klanten: beheersoftware als springplank",
+    "question": "Hoe werkt beheersoftware op afstand (RMM en supportsessies zoals ScreenConnect), waarom is een IT-dienstverlener zo'n aantrekkelijk doelwit, en hoe zie en beperk je misbruik?",
+    "why": "Dit is een trend: aanvallers mikken op N-central en ScreenConnect, en de toolkit SCKit probeert via de technicus die komt kijken andere klanten van de dienstverlener te bereiken.",
     "topics": [
-     "phishing_identity",
-     "web_software_security"
+     "supply_chain",
+     "attack_techniques",
+     "incidents_breaches"
     ],
     "area": "techniek"
    },
    {
-    "id": "infostealers-en-gestolen-inloggegevens",
-    "title": "Infostealers: hoe gestolen wachtwoorden en cookies bij criminelen belanden",
-    "question": "Hoe steelt een infostealer inloggegevens van een computer, wat gebeurt er daarna mee, en wat kan een organisatie doen als gegevens van haar medewerkers opduiken?",
-    "why": "Operation Endgame haalde deze week onder meer de infostealer StealC offline en vond ongeveer 6,4 miljoen gestolen inloggegevens; de Nederlandse politie zette een deel in Check your hack.",
+    "id": "politie-haalt-malware-offline",
+    "title": "Een politieactie tegen malware: wat gebeurt er bij een takedown?",
+    "question": "Hoe haalt de politie de servers en domeinen van malware offline, wat gebeurt er daarna met de besmette computers en gestolen gegevens, en hoe lang helpt zo'n actie?",
+    "why": "Operation Endgame nam deze week met politie uit onder meer Nederland 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC over en vond 6,4 miljoen gestolen inloggegevens.",
     "topics": [
-     "malware",
      "incidents_breaches",
+     "malware",
      "threat_intelligence"
     ],
     "area": "incidenten"
    },
    {
-    "id": "detectieregel-maken",
-    "title": "Een detectieregel van dichtbij: hoe bepaal je wat verdacht is?",
-    "question": "Hoe ziet een detectieregel eruit, hoe bepaal je wat verdacht is, en waarom geeft hij soms vals alarm?",
-    "why": "Huntress beschreef deze week ClickFix-aanvallen waarin aanvallers gewone beheertools als PsExec en WinRM gebruikten; juist dan moet een regel verdacht gebruik van normaal beheer onderscheiden.",
+    "id": "threat-intelligence-gebruiken",
+    "title": "Threat intelligence: van rapport naar actie",
+    "question": "Hoe komt informatie over aanvallers tot stand, wat is het verschil tussen IOC's en werkwijzen (TTP's), en hoe gebruikt een organisatie het bij detectie en prioriteren?",
+    "why": "Deze week verschenen veel onderzoeksrapporten vol aanvallerssporen, zoals over ARTEX, SCKit en de Check Point-aanvallen; dit onderwerp uit het leerpad kwam nog niet als keuze langs.",
     "topics": [
+     "threat_intelligence",
      "siem_detection",
-     "attack_techniques"
+     "vulnerability_management"
     ],
     "area": "praktijk"
+   },
+   {
+    "id": "laterale-beweging",
+    "title": "Laterale beweging: hoe een aanvaller zich door een netwerk verplaatst",
+    "question": "Hoe gaat een aanvaller van één gehackt systeem naar de rest van het netwerk, welke inloggegevens en beheertools gebruikt hij daarvoor, en hoe ziet een SIEM dat?",
+    "why": "In de aanvallen via vpn-servers en firewalls van de afgelopen weken ging de aanvaller na binnenkomst vaak verder het netwerk in; bij Check Point wiste hij zelfs bestanden op VMware ESXi-servers.",
+    "topics": [
+     "attack_techniques",
+     "siem_detection"
+    ],
+    "area": "techniek"
    }
   ]
  },
