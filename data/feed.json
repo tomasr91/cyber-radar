@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T01:23:17.103728Z",
+ "generated_at": "2026-11-15T01:39:30.976157Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
- "last_article_added_at": "2026-11-14T01:36:09Z",
- "last_successful_update": "2026-11-15T01:23:17.103728Z",
+ "last_article_added_at": "2026-11-15T02:12:00Z",
+ "last_successful_update": "2026-11-15T01:39:30.976157Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-15T01:23:17.147602Z"
+   "checked_at": "2026-11-15T01:39:31.027458Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-15T01:23:17.815196Z"
+   "checked_at": "2026-11-15T01:39:31.711475Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-15T01:23:18.500619Z"
+   "checked_at": "2026-11-15T01:39:32.490154Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-15T01:23:19.532035Z"
+   "checked_at": "2026-11-15T01:39:33.550867Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-15T01:23:20.734683Z"
+   "checked_at": "2026-11-15T01:39:34.583850Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-15T01:23:20.965440Z"
+   "checked_at": "2026-11-15T01:39:34.717981Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-15T01:23:21.072813Z"
+   "checked_at": "2026-11-15T01:39:34.808388Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-15T01:23:21.167388Z"
+   "checked_at": "2026-11-15T01:39:34.872258Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-15T01:23:21.528303Z"
+   "checked_at": "2026-11-15T01:39:36.688787Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-15T01:23:23.290003Z"
+   "checked_at": "2026-11-15T01:39:38.219469Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-15T01:23:23.400219Z"
+   "checked_at": "2026-11-15T01:39:38.377003Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-15T01:23:23.492253Z"
+   "checked_at": "2026-11-15T01:39:38.441746Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-15T01:23:23.580084Z"
+   "checked_at": "2026-11-15T01:39:38.500790Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-15T01:23:23.728783Z"
+   "checked_at": "2026-11-15T01:39:38.656748Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-15T01:23:23.872080Z"
+   "checked_at": "2026-11-15T01:39:38.715429Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-15T01:23:23.917782Z"
+   "checked_at": "2026-11-15T01:39:38.808861Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-15T01:23:24.144715Z"
+   "checked_at": "2026-11-15T01:39:39.189639Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-15T01:23:24.296728Z"
+   "checked_at": "2026-11-15T01:39:39.530515Z"
   }
  ],
  "daily_top": [
@@ -914,7 +914,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.94,
+    "recency": 0.93,
     "source": 0.68,
     "quality": 0.72,
     "fit": 0.05
@@ -1991,7 +1991,7 @@
    "relevance_score": 90,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.9,
+    "recency": 0.89,
     "source": 0.68,
     "quality": 0.67,
     "fit": 0.05
@@ -3065,6 +3065,106 @@
    "region": "world"
   },
   {
+   "id": "0914d818aa9e",
+   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "source_id": "bleepingcomputer",
+   "published_at": "2026-11-04T12:11:05Z",
+   "fetched_at": "2026-11-05T01:23:20.052203Z",
+   "summary": "CISA meldt misbruik van CVE-2026-119977 in de kern van WordPress. Tijdens een update staat de nieuwe versie even in een openbare map, en daar kan een aanvaller de website overnemen. Update naar 7.1.4 en blokkeer die map.",
+   "personal_relevance": "WordPress draait bij bijna elke klant wel ergens. Een nuttige vraag: weten jullie waar al jullie WordPress-sites staan, en wordt wp-content/upgrade/ afgeschermd voordat jullie updaten?",
+   "limitations": [
+    "CISA en BleepingComputer geven geen details over wie het lek misbruikt en met welk doel.",
+    "Hoeveel van de geblokkeerde aanvallen echt in het korte updatemoment vielen en slaagden, is onbekend.",
+    "De technische uitleg komt van Picus Security, een securityleverancier die het lek vond en er ook producten bij noemt."
+   ],
+   "official_docs": [
+    {
+     "label": "Picus Security: CVE-2026-119977 (onderzoek)",
+     "url": "https://www.picussecurity.com/resource/blog/cve-2026-119977-when-updating-wordpress-becomes-the-vulnerability"
+    }
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "web_software_security"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "vm",
+    "web"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.59,
+    "source": 0.68,
+    "quality": 0.8,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-15T02:12:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Misbruikt WordPress-lek: aanval tijdens de update zelf",
+   "story": [
+    "CISA zette op 3 november CVE-2026-119977 in de KEV-lijst. Het lek zit in WordPress zelf, niet in een plug-in. Wordfence blokkeerde in 24 uur ruim 13.000 aanvallen erop. WordPress 7.1.4 van 28 oktober dicht het lek. Onderzoeker Umut Bayram van Picus Security vond het.",
+    "Eerst de normale werking. Bij een update downloadt WordPress een pakket en pakt het uit in een tijdelijke map onder wp-content/upgrade/. Daarna kopieert het de bestanden over de live website en ruimt de map op. Die tijdelijke map staat meestal in het openbare deel van de webserver, waar PHP-code draait. Even staat er dus een tweede, losse WordPress-installatie online, inclusief het installatiescherm.",
+    "Daar zit de fout: een race condition van het type TOCTOU. Tussen uitpakken en kopiëren zit een kort moment. Volgens Picus was de naam van de tijdelijke map in veel versies te voorspellen. Het tijdelijke installatiescherm vindt de echte configuratie niet en denkt dat de site nieuw is. Wint een aanvaller de race, dan kan hij volgens Picus de site koppelen aan een eigen database, een beheerder aanmaken en via een plug-in code laten draaien. Inloggen is niet nodig, maar de timing maakt de aanval lastig.",
+    "Hoe zie en voorkom je het? Update naar 7.1.4; de fix geldt ook voor onderhouden versies vanaf 4.7. Let op: de eerste update naar 7.1.4 loopt nog via de oude code en is dus nog deels kwetsbaar. Blokkeer daarom vooraf webverkeer naar wp-content/upgrade/, want WordPress hoeft die map nooit via het web te tonen. In de logs van de webserver zijn verzoeken naar setup-config.php in die map een duidelijk alarmsignaal.",
+    "Voor organisaties is de les ongewoon: juist het patchen opent hier even een deur. WordPress draait op een groot deel van alle websites, dus vulnerability management moet ook marketingsites en vergeten installaties meenemen."
+   ],
+   "key_facts": [
+    "CVE-2026-119977 is een TOCTOU-race condition in het updateproces van WordPress Core; CISA zette het lek op 3 november 2026 in de KEV-lijst.",
+    "WordPress 7.1.4 (28 oktober 2026) dicht het lek; volgens Picus is de fix teruggezet naar onderhouden versies tot en met 4.7, en hebben 2.7 tot en met 4.6 geen fix.",
+    "Volgens Picus zijn versies 2.7.0 tot en met 7.1.3 kwetsbaar onder voorwaarden: een lopende volledige update, een voorspelbare naam van de tijdelijke map en een via het web bereikbare map wp-content/upgrade/ waar PHP draait.",
+    "Wordfence meldde 13.095 geblokkeerde aanvallen in 24 uur; volgens BleepingComputer is geen inlog nodig, maar is de aanval complex.",
+    "Ontdekt door Umut Bayram van Picus Security; Picus noemt een CVSS-score van 8,1.",
+    "De fix gebruikt een willekeurige mapnaam, houdt upgrade/index.php in stand en kopieert wp-config.php niet meer; de eerste update naar 7.1.4 loopt nog via de oude code."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo kan een verdacht verzoek eruitzien in het log van de webserver. Het vraagt het installatiescherm op in de tijdelijke updatemap. Een normale bezoeker of beheerder hoeft daar nooit te komen; na afscherming hoort het antwoord 403 (geweigerd) te zijn, zoals in regel 2.",
+    "language": "log",
+    "code": "203.0.113.10 - - [04/Nov/2026:03:14:07 +0100] \"GET /wp-content/upgrade/wordpress-voorbeeld/wordpress/wp-admin/setup-config.php HTTP/1.1\" 200 4310\n203.0.113.10 - - [04/Nov/2026:03:14:09 +0100] \"GET /wp-content/upgrade/wordpress-voorbeeld/wordpress/wp-admin/setup-config.php HTTP/1.1\" 403 199",
+    "note": "Nagebouwd voorbeeld met een voorbeeldadres en verzonnen mapnaam; Picus noemt verzoeken naar setup-config.php onder wp-content/upgrade/ als signaal."
+   },
+   "terms": [
+    {
+     "term": "KEV-lijst",
+     "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+     "term": "plug-in",
+     "explanation": "Een uitbreiding voor WordPress die extra functies toevoegt. Plug-ins draaien als PHP-code op de server, dus wie er een mag installeren, kan code laten draaien."
+    },
+    {
+     "term": "race condition",
+     "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven."
+    },
+    {
+     "term": "TOCTOU",
+     "explanation": "Time-of-check to time-of-use: software controleert iets en gebruikt het pas later. Verandert een aanvaller de situatie in die tussentijd, dan klopt de controle niet meer."
+    },
+    {
+     "term": "wp-content/upgrade/",
+     "explanation": "De map waarin WordPress updates tijdelijk uitpakt. Hij staat meestal in het openbare deel van de website, terwijl bezoekers er nooit iets te zoeken hebben."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; uitgebreide uitleg van een misbruikt lek in webtechniek, met concrete detectie."
+   },
+   "takeaway": "Een TOCTOU-fout ontstaat als software iets controleert en pas later gebruikt: in die tussentijd kan een aanvaller de situatie veranderen. Tijdelijke bestanden in een openbare webmap zijn daarom een risico, hoe kort ze er ook staan.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "patch_beschikbaar"
+  },
+  {
    "id": "ed98e46a8b24",
    "title": "N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains",
    "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
@@ -3317,6 +3417,107 @@
    "region": "world"
   },
   {
+   "id": "d37e24abb537",
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-12T10:39:34Z",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "summary": "Aanvallers misbruikten een fout in de extensie RMM+ voor ScreenConnect: een niet ingestelde sleutel stond op leeg. Zo stuurden ze opdrachten naar 288 computers bij 48 organisaties en zetten ze de toolkit SCKit neer.",
+   "personal_relevance": "Bij klanten die met een MSP werken is dit een concrete vraag: welke extensies draaien er in het beheerpaneel, en zijn hun sleutels ingesteld? Voor SIEM- en MDR-klanten: worden beheeropdrachten zonder aanmelding als afwijking gemeld?",
+   "limitations": [
+    "Wie de extensie RMM+ maakt en of er een gerepareerde versie is, staat niet in de bron.",
+    "Wie achter de aanvallen zit, is onbekend.",
+    "Of SCKit in deze aanvallen ook echt technici heeft besmet, blijkt niet uit de bron.",
+    "Huntress is een securityleverancier met MSP's als klant."
+   ],
+   "topics": [
+    "exploited_vulnerabilities",
+    "siem_detection",
+    "supply_chain",
+    "malware"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "detectie",
+    "web",
+    "aanvallen"
+   ],
+   "relevance_score": 88,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.51,
+    "quality": 0.7,
+    "fit": 0.05
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-15T02:05:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties",
+   "story": [
+    "Onderzoekers van Huntress zagen op 11 november nieuwe aanvallen via ConnectWise ScreenConnect, software voor ondersteuning op afstand. Binnen 90 minuten werden 288 computers geraakt, bij minstens 6 IT-dienstverleners (MSP's) en 48 organisaties. Eerder schreven we over SCKit, de toolkit die hier opnieuw opduikt. Toen ging het om een bekend lek in ScreenConnect zelf. Nu kwamen de aanvallers binnen via een extensie van een andere partij.",
+    "Eerst de normale werking. Een MSP beheert vanuit een centraal ScreenConnect-paneel de computers van zijn klanten. Extensies voegen functies toe aan dat paneel. De extensie RMM+ helpt bij het beheren van sessies en heeft een eigen koppeling (API). Die is beveiligd met een gedeelde sleutel die de beheerder zelf instelt. In versie 1.0.31 en 1.0.32 stond die sleutel op leeg als niemand hem had ingesteld. Een aanvaller kon dan met een lege waarde de authenticatie omzeilen.",
+    "Via die omweg stuurden de aanvallers opdrachten naar beheerde computers, zonder in te loggen. Ze installeerden eigen ScreenConnect-clients en SCKit. SCKit wacht tot een technicus verbinding maakt met een besmette computer. Dan probeert het de werkplek van die technicus te besmetten en via diens sessies andere panelen te bereiken. Volgens Huntress is nog niet alles wat SCKit kan ook echt in aanvallen gezien; een deel komt uit analyse van de code.",
+    "Hoe zie je het? In de logs stonden opdrachten die binnen minuten op computers aankwamen, zonder inlog ervoor, en gekoppeld aan RMM+. Dat is een goed signaal voor een SIEM: een beheeractie zonder bijbehorende aanmelding. ConnectWise schakelde vijf extensies uit de RMM+-familie uit in ongeveer 400 omgevingen. Wie ScreenConnect zelf host, moet die extensies uitzetten. Huntress en ConnectWise publiceerden IOC's om mee te zoeken.",
+    "De les voor organisaties: een standaardinstelling kan een achterdeur zijn. Extensies van derden draaien met de rechten van het beheerpaneel. Hun beveiliging hoort dus bij vulnerability management, net als die van het hoofdproduct."
+   ],
+   "key_facts": [
+    "Huntress zag de aanvallen op 11 november 2026; SecurityWeek meldde ze op 12 november.",
+    "Getroffen: minstens 6 MSP's, 288 computers en 48 organisaties; alle 288 computers werden binnen 90 minuten geraakt.",
+    "De fout zit in de extensie RMM+ versie 1.0.31 en 1.0.32: de gedeelde toegangssleutel stond standaard op leeg als de beheerder hem niet instelde, waardoor authenticatie met een lege waarde te omzeilen was. Er wordt geen CVE genoemd.",
+    "De aanvallers installeerden ongeautoriseerde ScreenConnect-clients en SCKit, dat technici probeert te besmetten en sessiecookies onderschept.",
+    "ConnectWise schakelde vijf extensies uit (onder meer Labtech Plus, RMM Plus en RMM+ Password Link) in ongeveer 400 ScreenConnect-omgevingen; volgens ConnectWise bewijst alleen de aanwezigheid van de extensie geen besmetting.",
+    "Huntress en ConnectWise publiceerden IOC's en adviseren de extensies uit te zetten in zelf gehoste installaties."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet het patroon eruit in een auditlog. Bij normaal werk staat er eerst een aanmelding van een technicus (regel 1), dan pas een opdracht (regel 2). In de aanval komen opdrachten via de extensie binnen zonder aanmelding ervoor (regels 3 en 4), bij veel computers vlak na elkaar.",
+    "language": "log",
+    "code": "11-11 09:02:10 Login        gebruiker=tech.anna  bron=198.51.100.7\n11-11 09:03:45 RunCommand   gebruiker=tech.anna  doel=PC-0142\n11-11 14:21:03 RunCommand   gebruiker=-  via=extensie:RMM+  doel=PC-0007\n11-11 14:21:04 RunCommand   gebruiker=-  via=extensie:RMM+  doel=PC-0008",
+    "note": "Nagebouwd voorbeeld met verzonnen namen en een voorbeeldadres; de echte IOC's staan bij Huntress en ConnectWise."
+   },
+   "terms": [
+    {
+     "term": "MSP",
+     "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand."
+    },
+    {
+     "term": "extensie",
+     "explanation": "Een uitbreiding die extra functies toevoegt aan bestaande software. Vaak gemaakt door een andere partij, maar met dezelfde rechten als het programma zelf."
+    },
+    {
+     "term": "API",
+     "explanation": "Een vaste ingang waarmee programma's met elkaar praten, zonder scherm of muis. Wie de API mag gebruiken, kan alles wat die ingang toestaat."
+    },
+    {
+     "term": "gedeelde sleutel",
+     "explanation": "Eén geheime code die beide kanten kennen, als bewijs dat een verzoek mag. Staat die op leeg, dan kent iedereen hem."
+    },
+    {
+     "term": "SCKit",
+     "explanation": "Een toolkit uit aanvallen op ScreenConnect. Hij geeft blijvende toegang, probeert technici te besmetten en steelt sessiecookies om andere klanten te bereiken."
+    },
+    {
+     "term": "IOC's",
+     "explanation": "Indicators of Compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of hashes van bestanden, waarmee je in je eigen omgeving kunt zoeken."
+    }
+   ],
+   "learning": "SIEM, logs en detectie",
+   "soort": "incident",
+   "fit": {
+    "score": 0.55,
+    "why": "Nog geen duimpjes; aanval via beheersoftware van MSP's met een concreet detectiesignaal, dicht bij SIEM- en MDR-werk."
+   },
+   "takeaway": "Een lege of standaardsleutel is geen sleutel. Een beheeropdracht zonder bijbehorende inlog in de logs is een sterk teken dat een aanvaller een omweg langs de authenticatie gebruikt.",
+   "region": "world",
+   "exploitation": "actief_misbruikt",
+   "patch_status": "workaround"
+  },
+  {
    "id": "9fcf62b29cf8",
    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
@@ -3433,6 +3634,103 @@
    },
    "takeaway": "Een geheim in openbare code is binnen minuten te vinden en te misbruiken, ook door een AI-agent. Behandel elk gelekt geheim als gestolen en kijk naar aanmeldingen van apps, niet alleen van mensen.",
    "region": "world"
+  },
+  {
+   "id": "2f01d2c20574",
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "source_id": "securityweek",
+   "published_at": "2026-11-12T09:23:21Z",
+   "fetched_at": "2026-11-13T01:23:10.878340Z",
+   "summary": "Een kritiek lek in de containerregistry Red Hat Quay laat een aanvaller een eigen ondertekeningssleutel installeren. Daarmee maakt hij toegangsbewijzen voor elke repository, ook privé. Misbruik is niet bekend.",
+   "personal_relevance": "Bij klanten met containers is dit een goede vraag: wie mag sleutels en tokens van de registry beheren, en wordt dat gelogd? Application security en vulnerability management moeten de registry zelf ook als kritiek systeem zien.",
+   "limitations": [
+    "Welke versies van Quay kwetsbaar zijn en welke versie de oplossing bevat, staat niet in de bron.",
+    "Hoe de zwakke plek in de sleutelrotatie precies werkt, legt Red Hat niet uit.",
+    "Of het lek ook de openbare dienst Quay.io raakt, staat niet in de bron."
+   ],
+   "topics": [
+    "vulnerabilities_cve",
+    "cloud_attacks",
+    "supply_chain"
+   ],
+   "groups": [
+    "kwetsbaarheden",
+    "incidenten",
+    "web"
+   ],
+   "relevance_score": 87,
+   "score_parts": {
+    "topic": 1.0,
+    "recency": 0.88,
+    "source": 0.51,
+    "quality": 0.7,
+    "fit": 0.0
+   },
+   "decision": "included",
+   "processing_status": "enriched",
+   "processed_by": "Claude (geplande taak)",
+   "processed_at": "2026-11-15T01:58:00Z",
+   "reading_minutes": 3,
+   "format_version": 2,
+   "headline": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images",
+   "story": [
+    "Red Hat waarschuwt voor CVE-2026-123710 (CVSS 9,8) in Red Hat Quay. Quay is een containerregistry: een opslagplaats voor container-images, de pakketjes waarin bedrijven hun software uitrollen. Volgens Red Hat kan een aanvaller zonder inlog het ondertekenen van toegangsbewijzen overnemen. Het lek is gevonden door Dave O'Connor van Red Hat. Misbruik is niet gemeld.",
+    "Eerst de normale werking. Wie een image wil ophalen of opslaan, krijgt van de registry eerst een token: een digitaal toegangsbewijs. Daarin staat welke repositories je mag lezen of beschrijven. De registry zet er een digitale handtekening onder met een geheime sleutel. Elk token met een handtekening van een vertrouwde sleutel wordt geaccepteerd. Een aparte dienst, de service key server, beheert die sleutels en vervangt ze af en toe (sleutelrotatie).",
+    "Daar gaat het mis. Staat anonieme toegang aan, dan haalt een aanvaller zonder account een token op. Via zwakke plekken in de sleutelrotatie installeert hij daarna zijn eigen sleutel als vertrouwde sleutel. Nu ondertekent hij zelf tokens met lees- en schrijfrechten op elke repository. Hij kan privé-images stelen, inclusief wachtwoorden of sleutels die erin zitten. Hij kan ook images overschrijven die andere systemen later downloaden. Anonieme toegang uitzetten helpt niet: volgens Red Hat kan elk geldig Quay-account het lek misbruiken.",
+    "Zo'n sleutel heeft geen vervaldatum en blijft na een herstart staan. Wachtwoorden wijzigen of robot-tokens vernieuwen helpt dus niet. Red Hat adviseert de toegang tot de sleuteldienst te beperken, in de logs te zoeken naar verdachte sleutelwijzigingen en onbekende sleutels te verwijderen. Op 11 november kwamen er reparaties in de code op GitHub, maar een versie met de oplossing noemt de bron niet.",
+    "Voor organisaties raakt dit de softwareketen. Wie de registry beheerst, bepaalt welke software in productie belandt. Een overschreven image kan zo ongemerkt malware verspreiden naar alle servers die het downloaden."
+   ],
+   "key_facts": [
+    "CVE-2026-123710 in Red Hat Quay heeft een CVSS-score van 9,8 (kritiek); ontdekt door Dave O'Connor van Red Hat.",
+    "Volgens Red Hat laat een fout in de service key server een aanvaller zonder inlog het ondertekenen van registry-tokens overnemen, als anonieme toegang aan staat; anders kan elk geldig Quay-account het lek misbruiken.",
+    "Met een eigen vertrouwde sleutel kan de aanvaller tokens maken met lees- en schrijfrechten op elke repository; de sleutel kan zonder vervaldatum en blijft na een herstart bestaan.",
+    "Rotatie verwijdert als bijeffect de echte instance key, waardoor gebruikers mogelijk geen images meer kunnen uploaden of downloaden.",
+    "Reparaties zijn op 11 november 2026 in de GitHub-repository van het project gezet, samen met een fix voor CVE-2026-110697; een versie met de oplossing wordt niet genoemd.",
+    "Misbruik in de praktijk is niet gemeld."
+   ],
+   "article_type": "nieuws",
+   "showcase": {
+    "caption": "Zo ziet de inhoud van een registry-token er ongeveer uit. Het zegt: deze gebruiker mag bedrijf/webapp ophalen (pull) en overschrijven (push). De registry gelooft dit alleen door de handtekening eronder. Wie zelf een vertrouwde sleutel heeft, kan elke inhoud ondertekenen.",
+    "language": "json",
+    "code": "{\n  \"iss\": \"quay.example.com\",\n  \"sub\": \"anoniem\",\n  \"exp\": 1763200000,\n  \"access\": [\n    {\"type\": \"repository\", \"name\": \"bedrijf/webapp\", \"actions\": [\"pull\", \"push\"]}\n  ]\n}",
+    "note": "Nagebouwd en vereenvoudigd voorbeeld van de opbouw van een registry-token; niet uit de bron."
+   },
+   "terms": [
+    {
+     "term": "containerregistry",
+     "explanation": "Een opslagplaats voor container-images. Servers halen daar de software op die ze moeten draaien, zoals een app store voor bedrijfssoftware."
+    },
+    {
+     "term": "container-images",
+     "explanation": "Kant-en-klare pakketjes met een programma en alles wat het nodig heeft om te draaien. Een server start daar containers mee."
+    },
+    {
+     "term": "token",
+     "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij."
+    },
+    {
+     "term": "digitale handtekening",
+     "explanation": "Een wiskundig zegel met een geheime sleutel. Iedereen kan controleren dat het bericht van de sleutelhouder komt en niet is veranderd."
+    },
+    {
+     "term": "sleutelrotatie",
+     "explanation": "Het regelmatig vervangen van geheime sleutels door nieuwe. Zo beperk je de schade als een oude sleutel ooit uitlekt."
+    },
+    {
+     "term": "robot-tokens",
+     "explanation": "Toegangsbewijzen in Quay voor automatische systemen, zoals een bouwstraat, in plaats van voor mensen."
+    }
+   ],
+   "soort": "kwetsbaarheid",
+   "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technische uitleg van tokens en sleutels bij een kritiek lek in cloudinfrastructuur."
+   },
+   "takeaway": "Een systeem dat handtekeningen controleert, is zo sterk als het beheer van zijn sleutels. Wie een eigen sleutel als vertrouwd kan laten registreren, kan elk toegangsbewijs vervalsen, en wachtwoorden wijzigen helpt dan niet.",
+   "region": "world",
+   "exploitation": "geen_misbruik_bekend",
+   "patch_status": "workaround"
   },
   {
    "id": "f8af8b71c7c1",
@@ -6453,8 +6751,13 @@
   },
   {
    "term": "API",
-   "explanation": "Application programming interface: een vaste manier waarop software met andere software praat, bijvoorbeeld om een vraag naar een AI-model te sturen.",
+   "explanation": "Een vaste ingang waarmee programma's met elkaar praten, zonder scherm of muis. Wie de API mag gebruiken, kan alles wat die ingang toestaat.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
+    },
     {
      "kind": "a",
      "id": "63028db311b2",
@@ -6794,6 +7097,28 @@
    ]
   },
   {
+   "term": "container-images",
+   "explanation": "Kant-en-klare pakketjes met een programma en alles wat het nodig heeft om te draaien. Een server start daar containers mee.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
+    }
+   ]
+  },
+  {
+   "term": "containerregistry",
+   "explanation": "Een opslagplaats voor container-images. Servers halen daar de software op die ze moeten draaien, zoals een app store voor bedrijfssoftware.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
+    }
+   ]
+  },
+  {
    "term": "containers",
    "explanation": "Afgeschermde pakketjes met een programma en alles wat het nodig heeft om te draaien. Wie containers mag uitrollen, kan dus code laten draaien op de systemen van een bedrijf.",
    "refs": [
@@ -6936,8 +7261,13 @@
   },
   {
    "term": "digitale handtekening",
-   "explanation": "Een cryptografisch bewijs dat een bestand echt van een bepaalde maker komt en niet is aangepast. Alleen de maker heeft de sleutel om te ondertekenen.",
+   "explanation": "Een wiskundig zegel met een geheime sleutel. Iedereen kan controleren dat het bericht van de sleutelhouder komt en niet is veranderd.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
+    },
     {
      "kind": "a",
      "id": "b06c9cfc80a7",
@@ -7113,6 +7443,17 @@
    ]
   },
   {
+   "term": "extensie",
+   "explanation": "Een uitbreiding die extra functies toevoegt aan bestaande software. Vaak gemaakt door een andere partij, maar met dezelfde rechten als het programma zelf.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
+    }
+   ]
+  },
+  {
    "term": "firmware",
    "explanation": "De basissoftware die vast in een apparaat zit en het apparaat laat werken. Gebruikers kunnen die meestal niet zelf aanpassen.",
    "refs": [
@@ -7164,6 +7505,17 @@
      "kind": "a",
      "id": "1838248a60d9",
      "title": "Project Zero maakt lekken sneller openbaar: van 90+30 naar 30 dagen"
+    }
+   ]
+  },
+  {
+   "term": "gedeelde sleutel",
+   "explanation": "Eén geheime code die beide kanten kennen, als bewijs dat een verzoek mag. Staat die op leeg, dan kent iedereen hem.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
     }
    ]
   },
@@ -7383,6 +7735,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
+    },
+    {
+     "kind": "a",
      "id": "5df4bf07aed5",
      "title": "Operation Endgame haalt Gootloader, CastleRAT en StealC offline"
     },
@@ -7465,6 +7822,11 @@
    "refs": [
     {
      "kind": "a",
+     "id": "0914d818aa9e",
+     "title": "Misbruikt WordPress-lek: aanval tijdens de update zelf"
+    },
+    {
+     "kind": "a",
      "id": "daa356fef18a",
      "title": "SCKit: via gehackte ScreenConnect-pc's op weg naar de IT-dienstverlener"
     },
@@ -7482,11 +7844,6 @@
      "kind": "a",
      "id": "ce55129e00e3",
      "title": "Kritiek lek in SonicWall GMS krijgt geen patch: product is afgedankt"
-    },
-    {
-     "kind": "v",
-     "id": "cve-cvss-epss-kev",
-     "title": "CVE, CVSS, EPSS en KEV: vier vragen over één lek"
     }
    ]
   },
@@ -7716,6 +8073,11 @@
    "term": "MSP",
    "explanation": "Managed service provider: een IT-dienstverlener die voor meerdere klanten computers en netwerken beheert, vaak op afstand.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
+    },
     {
      "kind": "a",
      "id": "daa356fef18a",
@@ -7990,6 +8352,17 @@
    ]
   },
   {
+   "term": "plug-in",
+   "explanation": "Een uitbreiding voor WordPress die extra functies toevoegt. Plug-ins draaien als PHP-code op de server, dus wie er een mag installeren, kan code laten draaien.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0914d818aa9e",
+     "title": "Misbruikt WordPress-lek: aanval tijdens de update zelf"
+    }
+   ]
+  },
+  {
    "term": "poort",
    "explanation": "Een genummerd 'loket' op een computer waarlangs een bepaald soort netwerkverkeer binnenkomt of vertrekt, zoals 443 voor beveiligde websites.",
    "refs": [
@@ -8063,6 +8436,11 @@
    "term": "race condition",
    "explanation": "Een fout waarbij de uitkomst afhangt van welke van twee gelijktijdige taken het eerst is. Zoals twee mensen die tegelijk in hetzelfde schrift schrijven.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "0914d818aa9e",
+     "title": "Misbruikt WordPress-lek: aanval tijdens de update zelf"
+    },
     {
      "kind": "a",
      "id": "4d2baf54099d",
@@ -8232,6 +8610,17 @@
    ]
   },
   {
+   "term": "robot-tokens",
+   "explanation": "Toegangsbewijzen in Quay voor automatische systemen, zoals een bouwstraat, in plaats van voor mensen.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
+    }
+   ]
+  },
+  {
    "term": "root",
    "explanation": "De hoogste beheerder op een Linux-systeem. Wie root is, kan alles op het apparaat lezen, wijzigen en uitvoeren.",
    "refs": [
@@ -8335,6 +8724,17 @@
      "kind": "a",
      "id": "7bb9dcd14586",
      "title": "Patch Tuesday: misbruikt Outlook-lek lekt inloggegevens naar aanvaller"
+    }
+   ]
+  },
+  {
+   "term": "SCKit",
+   "explanation": "Een toolkit uit aanvallen op ScreenConnect. Hij geeft blijvende toegang, probeert technici te besmetten en steelt sessiecookies om andere klanten te bereiken.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "d37e24abb537",
+     "title": "Lege sleutel in ScreenConnect-extensie opende deur naar 48 organisaties"
     }
    ]
   },
@@ -8471,6 +8871,17 @@
      "kind": "a",
      "id": "94ac3c3bdec2",
      "title": "Vercel koppelt inlogsessies aan je apparaat tegen gestolen cookies"
+    }
+   ]
+  },
+  {
+   "term": "sleutelrotatie",
+   "explanation": "Het regelmatig vervangen van geheime sleutels door nieuwe. Zo beperk je de schade als een oude sleutel ooit uitlekt.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
     }
    ]
   },
@@ -8682,9 +9093,25 @@
    ]
   },
   {
+   "term": "TOCTOU",
+   "explanation": "Time-of-check to time-of-use: software controleert iets en gebruikt het pas later. Verandert een aanvaller de situatie in die tussentijd, dan klopt de controle niet meer.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0914d818aa9e",
+     "title": "Misbruikt WordPress-lek: aanval tijdens de update zelf"
+    }
+   ]
+  },
+  {
    "term": "token",
    "explanation": "Een digitaal toegangsbewijs dat je na het inloggen krijgt, zodat je niet steeds opnieuw hoeft in te loggen. Wie het steelt, is ingelogd als jij.",
    "refs": [
+    {
+     "kind": "a",
+     "id": "2f01d2c20574",
+     "title": "Lek in Red Hat Quay: aanvaller zet eigen sleutel en opent alle images"
+    },
     {
      "kind": "a",
      "id": "9398616ade4d",
@@ -9023,6 +9450,17 @@
    ]
   },
   {
+   "term": "wp-content/upgrade/",
+   "explanation": "De map waarin WordPress updates tijdelijk uitpakt. Hij staat meestal in het openbare deel van de website, terwijl bezoekers er nooit iets te zoeken hebben.",
+   "refs": [
+    {
+     "kind": "a",
+     "id": "0914d818aa9e",
+     "title": "Misbruikt WordPress-lek: aanval tijdens de update zelf"
+    }
+   ]
+  },
+  {
    "term": "XML",
    "explanation": "Een tekstformaat om gegevens gestructureerd op te slaan en uit te wisselen, met labels tussen punthaken zoals in HTML. Browsers en veel andere software lezen het automatisch in.",
    "refs": [
@@ -9343,29 +9781,29 @@
   "fetched_items": 310,
   "unique_after_dedupe": 687,
   "merged_duplicates": 1,
-  "shown": 53,
+  "shown": 56,
   "decisions": {
-   "included": 265,
+   "included": 264,
    "below_threshold": 177,
    "no_topic": 176,
    "excluded": 58,
-   "source_cap": 11
+   "source_cap": 12
   },
   "processing": {
-   "enriched": 53
+   "enriched": 56
   },
   "without_date": 0,
   "per_group": {
    "ti": 6,
    "incidenten": 10,
-   "kwetsbaarheden": 19,
+   "kwetsbaarheden": 22,
    "detectie": 4,
    "aanvallen": 11,
    "vm": 3
   },
   "per_source": {
    "the_hacker_news": 12,
-   "bleepingcomputer": 10,
+   "bleepingcomputer": 11,
    "datadog_security_labs": 1,
    "huntress_blog": 5,
    "security_nl": 3,
@@ -9373,10 +9811,10 @@
    "divd": 1,
    "unit42": 5,
    "google_threat_intel": 5,
+   "securityweek": 3,
    "microsoft_threat_intel": 4,
    "cisco_talos": 3,
    "watchtowr_labs": 1,
-   "securityweek": 1,
    "the_record": 1
   },
   "date_flags": [
@@ -9434,7 +9872,7 @@
    "api_key_present": false,
    "processed": 0,
    "failed": [],
-   "skipped_no_key": 389
+   "skipped_no_key": 385
   },
   "queue_size": 10,
   "invalid_enrichment": [],
@@ -9452,6 +9890,14 @@
     "url": "https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss",
     "relevance_score": 90,
     "decision": "included",
+    "excluded_by": []
+   },
+   {
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "source_id": "the_hacker_news",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "relevance_score": 88,
+    "decision": "source_cap",
     "excluded_by": []
    },
    {
@@ -9825,14 +10271,6 @@
     "excluded_by": []
    },
    {
-    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-    "source_id": "the_hacker_news",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-    "relevance_score": 83,
-    "decision": "included",
-    "excluded_by": []
-   },
-   {
     "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
     "source_id": "cisco_talos",
     "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
@@ -9857,14 +10295,6 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
-   },
-   {
-    "title": "Minister: kwetsbaarheden zoals in PHP gaan we in toekomst nog vaker zien",
-    "source_id": "security_nl",
-    "url": "https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien?channel=rss",
-    "relevance_score": 82,
-    "decision": "included",
-    "excluded_by": []
    },
    {
     "title": "Baker Tilly notifies clients of data breach at third-party provider",
@@ -9917,6 +10347,14 @@
     "excluded_by": [
      "ncsc_lower_likelihood"
     ]
+   },
+   {
+    "title": "Minister: kwetsbaarheden zoals in PHP gaan we in toekomst nog vaker zien",
+    "source_id": "security_nl",
+    "url": "https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien?channel=rss",
+    "relevance_score": 81,
+    "decision": "included",
+    "excluded_by": []
    },
    {
     "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
