@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T02:25:00.119683Z",
+ "generated_at": "2026-11-16T03:24:06.718608Z",
  "mode": "partial",
  "mode_note": "17 van 18 feeds opgehaald; zie bronstatus.",
  "last_article_added_at": "2026-11-15T02:12:00Z",
- "last_successful_update": "2026-11-16T02:25:00.119683Z",
+ "last_successful_update": "2026-11-16T03:24:06.718608Z",
  "groups": [
   {
    "id": "incidenten",
@@ -143,7 +143,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.security.nl/rss/headlines.xml",
-   "checked_at": "2026-11-16T02:25:00.178325Z"
+   "checked_at": "2026-11-16T03:24:06.787323Z"
   },
   {
    "id": "ncsc_nl_advisories",
@@ -157,7 +157,7 @@
    "status": "ok",
    "items": 25,
    "message": "25 items via https://advisories.ncsc.nl/rss/advisories",
-   "checked_at": "2026-11-16T02:25:00.908779Z"
+   "checked_at": "2026-11-16T03:24:07.255658Z"
   },
   {
    "id": "fox_it",
@@ -171,7 +171,7 @@
    "status": "failed",
    "items": 0,
    "message": "HTTP 404 bij https://blog.fox-it.com/feed/",
-   "checked_at": "2026-11-16T02:25:01.888829Z"
+   "checked_at": "2026-11-16T03:24:07.859312Z"
   },
   {
    "id": "divd",
@@ -185,7 +185,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.divd.nl/index.xml",
-   "checked_at": "2026-11-16T02:25:02.583037Z"
+   "checked_at": "2026-11-16T03:24:08.339309Z"
   },
   {
    "id": "watchtowr_labs",
@@ -199,7 +199,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://labs.watchtowr.com/rss/",
-   "checked_at": "2026-11-16T02:25:03.934211Z"
+   "checked_at": "2026-11-16T03:24:09.075572Z"
   },
   {
    "id": "dfir_report",
@@ -213,7 +213,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://thedfirreport.com/feed/",
-   "checked_at": "2026-11-16T02:25:04.064083Z"
+   "checked_at": "2026-11-16T03:24:09.209350Z"
   },
   {
    "id": "cisco_talos",
@@ -227,7 +227,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://blog.talosintelligence.com/rss/",
-   "checked_at": "2026-11-16T02:25:04.214350Z"
+   "checked_at": "2026-11-16T03:24:09.272032Z"
   },
   {
    "id": "project_zero",
@@ -241,7 +241,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://googleprojectzero.blogspot.com/feeds/posts/default",
-   "checked_at": "2026-11-16T02:25:04.411423Z"
+   "checked_at": "2026-11-16T03:24:09.345727Z"
   },
   {
    "id": "google_threat_intel",
@@ -255,7 +255,7 @@
    "status": "ok",
    "items": 20,
    "message": "20 items via https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
-   "checked_at": "2026-11-16T02:25:04.796630Z"
+   "checked_at": "2026-11-16T03:24:09.638694Z"
   },
   {
    "id": "microsoft_threat_intel",
@@ -269,7 +269,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-   "checked_at": "2026-11-16T02:25:06.405900Z"
+   "checked_at": "2026-11-16T03:24:11.168215Z"
   },
   {
    "id": "unit42",
@@ -283,7 +283,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://unit42.paloaltonetworks.com/feed/",
-   "checked_at": "2026-11-16T02:25:06.707812Z"
+   "checked_at": "2026-11-16T03:24:11.339933Z"
   },
   {
    "id": "datadog_security_labs",
@@ -297,7 +297,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://securitylabs.datadoghq.com/rss/feed.xml",
-   "checked_at": "2026-11-16T02:25:06.771998Z"
+   "checked_at": "2026-11-16T03:24:11.501964Z"
   },
   {
    "id": "huntress_blog",
@@ -311,7 +311,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://www.huntress.com/blog/rss.xml",
-   "checked_at": "2026-11-16T02:25:06.884592Z"
+   "checked_at": "2026-11-16T03:24:11.670779Z"
   },
   {
    "id": "crowdstrike_blog",
@@ -325,7 +325,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.crowdstrike.com/en-us/blog/feed",
-   "checked_at": "2026-11-16T02:25:07.155008Z"
+   "checked_at": "2026-11-16T03:24:11.919078Z"
   },
   {
    "id": "bleepingcomputer",
@@ -339,7 +339,7 @@
    "status": "ok",
    "items": 15,
    "message": "15 items via https://www.bleepingcomputer.com/feed/",
-   "checked_at": "2026-11-16T02:25:07.376565Z"
+   "checked_at": "2026-11-16T03:24:11.989802Z"
   },
   {
    "id": "the_record",
@@ -353,7 +353,7 @@
    "status": "ok",
    "items": 5,
    "message": "5 items via https://therecord.media/feed/",
-   "checked_at": "2026-11-16T02:25:07.560205Z"
+   "checked_at": "2026-11-16T03:24:12.020255Z"
   },
   {
    "id": "the_hacker_news",
@@ -367,7 +367,7 @@
    "status": "ok",
    "items": 30,
    "message": "30 items via https://feeds.feedburner.com/TheHackersNews",
-   "checked_at": "2026-11-16T02:25:07.820067Z"
+   "checked_at": "2026-11-16T03:24:12.106936Z"
   },
   {
    "id": "securityweek",
@@ -381,7 +381,7 @@
    "status": "ok",
    "items": 10,
    "message": "10 items via https://www.securityweek.com/feed/",
-   "checked_at": "2026-11-16T02:25:08.172440Z"
+   "checked_at": "2026-11-16T03:24:12.397258Z"
   }
  ],
  "daily_top": [
@@ -526,7 +526,7 @@
    "relevance_score": 91,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.84,
+    "recency": 0.83,
     "source": 0.68,
     "quality": 0.8,
     "fit": 0.05
@@ -3547,7 +3547,7 @@
    "relevance_score": 87,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.61,
+    "recency": 0.6,
     "source": 0.8,
     "quality": 0.73,
     "fit": 0.0
@@ -3859,7 +3859,7 @@
    "relevance_score": 85,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.29,
+    "recency": 0.28,
     "source": 0.8,
     "quality": 0.8,
     "fit": 0.1
@@ -5118,7 +5118,7 @@
    "relevance_score": 83,
    "score_parts": {
     "topic": 1.0,
-    "recency": 0.57,
+    "recency": 0.56,
     "source": 0.85,
     "quality": 0.53,
     "fit": 0.0
@@ -6566,7 +6566,7 @@
     "62c945c0e6fb",
     "1838248a60d9"
    ],
-   "generated_at": "2026-11-15T03:30:00Z"
+   "generated_at": "2026-11-16T03:23:47Z"
   },
   {
    "id": "lekken-vpn-en-randapparaten",
@@ -6583,7 +6583,7 @@
     "df100ad46108",
     "7b72d51a9df2"
    ],
-   "generated_at": "2026-11-15T03:30:00Z"
+   "generated_at": "2026-11-16T03:23:47Z"
   },
   {
    "id": "beheersoftware-msp-aangevallen",
@@ -6600,7 +6600,7 @@
     "daa356fef18a",
     "d37e24abb537"
    ],
-   "generated_at": "2026-11-15T03:30:00Z"
+   "generated_at": "2026-11-16T03:23:47Z"
   }
  ],
  "weekly": {
