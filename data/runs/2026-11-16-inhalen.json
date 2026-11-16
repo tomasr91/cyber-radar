@@ -1,0 +1,13 @@
+{
+  "task": "inhalen",
+  "started_at": "2026-11-16T04:37:31Z",
+  "finished_at": "2026-11-16T05:01:13Z",
+  "status": "ok",
+  "summary": "Uitleggen ontbrak vannacht en is ingehaald: 5 artikelen uitgelegd en 5 overgeslagen; verdiepen en overzicht waren al klaar.",
+  "counts": {
+    "ingehaald": 1,
+    "uitgelegd": 5,
+    "overgeslagen": 5
+  },
+  "problems": []
+}

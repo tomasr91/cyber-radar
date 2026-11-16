@@ -1,0 +1,18 @@
+{
+  "task": "uitleggen",
+  "started_at": "2026-11-16T04:37:31Z",
+  "finished_at": "2026-11-16T05:01:13Z",
+  "status": "ok",
+  "summary": "Ingehaald door de inhaalrun: 5 artikelen uitgelegd (APT29-aanval op telefoons via een gekaapt analysescript, misbruikt Barracuda-lek, kritiek Android-lek, kaping van Sogou-verkeer en het FBI-advies over ARTEX) en 5 overgeslagen, waarvan 4 als dubbel nieuws.",
+  "counts": {
+    "uitgelegd": 5,
+    "overgeslagen": 5,
+    "overgeslagen_zonder_openen": 3,
+    "niet_te_lezen": 0
+  },
+  "problems": [
+    "Directe links moesten eerst via een zoekopdracht worden gevonden.",
+    "Het TSMC-artikel van BleepingComputer gaf twee keer een serverfout; overgeslagen op basis van een ander verslag (incident zonder technische inhoud).",
+    "Het FBI-advies over ARTEX en het onderzoek van Sekoia waren niet direct te openen; de uitleg volgt de nieuwsberichten."
+  ]
+}
