@@ -1,0 +1,84 @@
+{
+  "format_version": 2,
+  "article_id": "8384c224e801",
+  "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+  "headline": "Chinese groep kaapt onversleuteld verkeer van toetsenbordsoftware",
+  "summary": "ESET zag de groep SlippyNunchucks een backdoor installeren via Sogou Input Method. Het programma haalde instellingen op zonder versleuteling, en de aanvaller stuurde dat verzoek via DNS naar eigen servers.",
+  "story": [
+    "Onderzoekers van ESET beschrijven een spionagecampagne van SlippyNunchucks. Volgens ESET werkt die groep vermoedelijk in het belang van de Chinese staat. Sinds 1 juli 2026 misbruikt de groep Sogou Input Method voor Windows, een veelgebruikt programma van Tencent om Chinese tekens te typen. Doelwitten zaten onder meer in Hong Kong, Thailand, Japan, Vietnam, Oman en Sri Lanka. Tencent dichtte het lek, CVE-2026-120422, op 29 oktober in versie 16.10.",
+    "Eerst de normale werking. Een onderdeel van Sogou, SGTool.exe, haalt instellingen op bij een server van Sogou. Om die server te vinden, vraagt de computer eerst via DNS welk IP-adres bij de servernaam hoort. Dat werkt als een telefoonboek. Het verzoek zelf ging over gewoon HTTP, zonder versleuteling. Het programma controleerde dus niet of het antwoord echt van Sogou kwam.",
+    "Daar zit de fout. Wie het DNS-antwoord kan vervalsen, stuurt het programma naar een eigen server. Die gaf een kwaadaardige configuratie terug, waarna Sogou twee extra bestanden downloadde. Daarna startte de malware DarkVigil via DLL-sideloading: een echt programma van Adobe laadt een nagemaakt bestand libcef.dll. DarkVigil is een backdoor met meer dan twintig plug-ins voor spionage. Hoe en waar de aanvaller de DNS-antwoorden vervalste, staat niet in het artikel.",
+    "Hoe zie en voorkom je het? Werk Sogou bij naar 16.10 of later; Tencent stapte over op HTTPS. Daarmee controleert het programma of het echt met Sogou praat. In DNS-logs valt op als de naam van een bekende server ineens naar een ander adres wijst. EDR-telemetrie laat zien welk programma welke DLL laadt, zoals biz_helper.exe dat een afwijkende libcef.dll laadt.",
+    "De les voor organisaties: ook kleine hulpprogramma's die zelf iets ophalen, zijn een ingang. Vulnerability management moet daarom ook software zien die gebruikers zelf installeren. Dezelfde groep gebruikte eerder een besmette VPN-tool, QuickFox. Drie dagen nadat die werd opgeschoond, stapte de groep over op Sogou."
+  ],
+  "key_facts": [
+    "ESET (onderzoeker Anh Ho) schrijft de campagne toe aan SlippyNunchucks, actief sinds minstens 15 september 2023; deze campagne is zichtbaar vanaf 1 juli 2026.",
+    "SGTool.exe in Sogou Input Method voor Windows haalde een configuratie op via onversleuteld HTTP; via gemanipuleerde DNS-antwoorden kwam het verzoek bij servers van de aanvaller.",
+    "DarkVigil (ook FDMTP) is een modulair .NET-framework met meer dan 20 plug-ins; het start via DLL-sideloading met het Adobe-programma biz_helper.exe en een kwaadaardige libcef.dll.",
+    "Het lek heeft nummer CVE-2026-120422; Tencent verhielp het in Sogou 16.10 (29 oktober 2026) door over te stappen op HTTPS.",
+    "Doelwitten: organisaties en Chineessprekenden in Hong Kong, Thailand, Japan, Vietnam, Oman en Sri Lanka, onder meer een exploitant van Chinese online gokplatforms.",
+    "ESET vond geen tactische overlap met Mustang Panda, waaraan DarkVigil eerder werd gekoppeld; Fortinet beschreef eerder een supply-chain-aanval via de VPN-tool QuickFox, waarna de aanvaller na drie dagen overstapte op Sogou."
+  ],
+  "limitations": [
+    "Hoe de aanvaller de DNS-antwoorden vervalste en waar hij in het netwerk zat, beschrijft het artikel niet.",
+    "Hoeveel systemen besmet zijn, is niet bekend.",
+    "De toeschrijving is de inschatting van ESET, een securityleverancier."
+  ],
+  "personal_relevance": "Een sterk voorbeeld voor klantgesprekken over shadow IT: zelf geïnstalleerde hulpsoftware kan een ingang zijn. Vraag of hun vulnerability management ook zulke programma's op werkplekken in beeld heeft.",
+  "takeaway": "Software die over onversleuteld HTTP iets ophaalt, kan niet controleren met wie het praat. Wie DNS of het netwerk beïnvloedt, kan dan eigen instructies of bestanden laten installeren; HTTPS voorkomt dat.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "malware",
+    "supply_chain",
+    "threat_intelligence",
+    "attack_techniques"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.6,
+    "novelty": 0.7
+  },
+  "development_key": "slippynunchucks-sogou-darkvigil-nov-2026",
+  "soort": "onderzoek",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; legt DNS en onversleuteld verkeer uit aan de hand van een echte campagne."
+  },
+  "showcase": {
+    "caption": "Zo kan een kaping er in DNS-logs uitzien. Dezelfde servernaam van Sogou wijst eerst naar het normale adres en later ineens naar een ander adres. Direct daarna haalt het programma zijn instellingen op bij dat andere adres, over gewoon HTTP.",
+    "language": "log",
+    "code": "04-11-2026 09:12:03 werkplek-17 DNS-vraag config.pinyin.sogou.com -> 198.51.100.20\n05-11-2026 09:14:41 werkplek-17 DNS-vraag config.pinyin.sogou.com -> 203.0.113.10\n05-11-2026 09:14:42 werkplek-17 SGTool.exe HTTP GET http://config.pinyin.sogou.com/api/brandScd/getBrandScd.php -> 203.0.113.10",
+    "note": "Nagebouwd voorbeeld met voorbeeldadressen en een verzonnen werkplek. De servernaam en het pad komen uit het onderzoek van ESET zoals beschreven door The Hacker News."
+  },
+  "terms": [
+    {
+      "term": "DNS",
+      "explanation": "Domain Name System: het telefoonboek van internet. Het vertaalt een naam als example.com naar het IP-adres van de server."
+    },
+    {
+      "term": "HTTPS",
+      "explanation": "De versleutelde versie van HTTP. Het certificaat van de server bewijst dat je echt met de juiste server praat, en niemand onderweg kan meelezen of iets veranderen."
+    },
+    {
+      "term": "DLL-sideloading",
+      "explanation": "Een vertrouwd programma wordt naast een nagemaakte DLL gezet, zodat het programma de kwaadaardige code laadt en uitvoert."
+    },
+    {
+      "term": "backdoor",
+      "explanation": "Een achterdeur: malware of een toegang waarmee een aanvaller later altijd weer binnenkomt, buiten de normale inlog om."
+    },
+    {
+      "term": "EDR",
+      "explanation": "Endpoint detection and response: software op laptops en servers die vastlegt wat programma's doen en alarm slaat bij verdacht gedrag."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-16T05:10:00Z",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws"
+}

@@ -1,0 +1,89 @@
+{
+  "format_version": 2,
+  "article_id": "5e99d13bfbb2",
+  "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "headline": "APT29 besmette telefoons via gekaapt analysescript op websites",
+  "summary": "Sekoia zag een campagne, vermoedelijk van de Russische groep APT29, die websitebezoekers aanviel met al gedichte lekken in iPhones en Chrome op Android. Wie zijn telefoon had bijgewerkt, liep geen risico.",
+  "story": [
+    "Het Franse securitybedrijf Sekoia publiceerde op 4 november een onderzoek naar een campagne die het 'Poisoned Source' noemt. Bezoekers van bepaalde websites kregen aanvalscode op hun telefoon, zonder iets aan te klikken (zero-click). Sekoia schrijft de campagne met gematigde tot hoge zekerheid toe aan APT29. Die groep wordt gekoppeld aan de Russische buitenlandse inlichtingendienst SVR. Dezelfde dag zette CISA een van de gebruikte Apple-lekken, CVE-2024-27834, in de KEV-lijst.",
+    "Eerst de normale werking. Veel websites laden scripts van andere diensten, bijvoorbeeld een teller die bijhoudt waar bezoekers klikken. De browser van elke bezoeker voert zo'n script uit. Wie het script aanpast, bereikt dus alle bezoekers van alle sites die het laden. Dat is het idee van een watering hole: de aanvaller besmet de plek waar zijn doelwitten toch al komen. Hier gebeurde dat via ingebroken websites, via nagemaakte sites en van 27 augustus tot 3 september via het analysescript van de Oekraïense dienst Plerdy.",
+    "Het script bekeek eerst welke browser en welk toestel de bezoeker had. Daarna kreeg de bezoeker een passende exploitketen. Er was er één voor iOS 16.7, één voor iOS 18.5 en één voor Chrome 139 tot en met 145 op Android. Alle gebruikte lekken waren al gedicht; het ging om n-day-lekken. De malware stal afhankelijk van de keten cookies, wifi-wachtwoorden of, bij iOS 18.5, onder meer berichten, mail en foto's. Met gestolen cookies kan een aanvaller vaak inloggen als het slachtoffer, zonder wachtwoord.",
+    "Hoe bescherm je je? Volgens Sekoia is een telefoon met een bijgewerkt besturingssysteem veilig voor deze aanvallen. Het draait dus om het patchniveau van telefoons en browsers. Vulnerability management moet die toestellen daarom net zo goed meenemen als servers. Voor websitebeheerders geldt: houd bij welke scripts van derden je site laadt. Een script dat ongemerkt verandert, raakt al je bezoekers.",
+    "Sekoia wijst erop dat kant-en-klare exploitketens voor bekende lekken de kosten en de technische drempel verlagen. Een aanvaller heeft dan geen dure zero-day meer nodig. Hij rekent op de vele telefoons die achterlopen met updates."
+  ],
+  "key_facts": [
+    "Sekoia ontdekte de activiteit half oktober 2026 en publiceerde het onderzoek op 4 november 2026; het schrijft de campagne met gematigde tot hoge zekerheid toe aan APT29 (Midnight Blizzard, Cozy Bear), dat aan de Russische SVR wordt gekoppeld.",
+    "Drie routes: scripts in ingebroken legitieme websites, nagemaakte domeinen die echte sites nabootsen, en het script van Plerdy SEO Tracker, dat van 27 augustus tot 3 september 2026 was aangepast.",
+    "Exploitketens: iOS 16.7 (cookies), iOS 18.5 via de DarkSword-keten (berichten, mail, foto's en meer) en Chrome 139 tot en met 145 op Android, behalve 143 (Chrome-gegevens en wifi-wachtwoorden; payload AndroSnitch).",
+    "Alle lekken waren al gepatcht, onder meer CVE-2024-27834 (Apple, gepatcht in mei 2024), CVE-2025-43529, CVE-2026-20700 en CVE-2026-3910.",
+    "CISA zette CVE-2024-27834 op 4 november 2026 in de KEV-lijst; Amerikaanse federale instanties moeten vóór 18 november patchen.",
+    "Op Android nestelde de malware zich niet blijvend; volgens Sekoia is een gebruiker met een bijgewerkt besturingssysteem beschermd."
+  ],
+  "limitations": [
+    "Hoeveel toestellen werkelijk zijn besmet, is niet bekend.",
+    "Sekoia weet niet of de aanvallers bepaalde personen zochten of zoveel mogelijk ongepatchte toestellen wilden raken.",
+    "De toeschrijving aan APT29 is een inschatting; Sekoia denkt dat de exploits van een derde partij komen.",
+    "Deze uitleg volgt nieuwsberichten over het onderzoek; Sekoia is zelf een securityleverancier."
+  ],
+  "personal_relevance": "Telefoons vallen bij klanten vaak buiten vulnerability management. Een goede vraag: weten jullie welk patchniveau de telefoons van medewerkers hebben, en hoe snel oude iOS- en Chrome-versies verdwijnen?",
+  "takeaway": "Een extern script op een website draait in de browser van elke bezoeker. Wie zo'n script kaapt, bereikt in één klap alle bezoekers van alle sites die het laden; alleen bijgewerkte toestellen zijn dan veilig.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "threat_intelligence",
+    "supply_chain",
+    "exploited_vulnerabilities",
+    "malware"
+  ],
+  "quality": {
+    "depth": 0.7,
+    "practicality": 0.6,
+    "novelty": 0.7
+  },
+  "development_key": "apt29-poisoned-source-plerdy-nov-2026",
+  "soort": "onderzoek",
+  "exploitation": "actief_misbruikt",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; technische uitleg van een aanvalsketen via een gekaapt websitescript."
+  },
+  "showcase": {
+    "caption": "Zo laadt een website een script van een andere dienst. De browser haalt het bestand op en voert het uit, met dezelfde rechten als de website zelf. Verandert de inhoud van dat bestand bij de leverancier, dan draait de nieuwe code meteen bij elke bezoeker.",
+    "language": "text",
+    "code": "<!-- Op de pagina van de website -->\n<script src=\"https://analytics.example.com/tracker/main.js\"></script>\n\n<!-- Veiliger: met integrity weigert de browser het script als de inhoud verandert -->\n<script src=\"https://analytics.example.com/tracker/main.js\"\n        integrity=\"sha384-<controlewaarde van de bekende versie>\"\n        crossorigin=\"anonymous\"></script>",
+    "note": "Nagebouwd voorbeeld met een voorbeelddomein. Het integrity-attribuut (Subresource Integrity) is een algemene webtechniek en wordt niet in het onderzoek genoemd; bij scripts die vaak veranderen, zoals analysetools, is het lastig toe te passen."
+  },
+  "terms": [
+    {
+      "term": "zero-click",
+      "explanation": "Een aanval waarbij het slachtoffer niets hoeft te doen: geen link aanklikken, geen bijlage openen. Een bezoek aan een pagina of een binnenkomend bericht is genoeg."
+    },
+    {
+      "term": "watering hole",
+      "explanation": "Een aanval waarbij de aanvaller een website besmet die zijn doelwitten vaak bezoeken. Zoals een roofdier dat bij de drinkplaats wacht in plaats van zelf te jagen."
+    },
+    {
+      "term": "exploitketen",
+      "explanation": "Een reeks lekken die een aanvaller na elkaar misbruikt. Eén lek geeft de eerste toegang, het volgende meer rechten, tot hij heeft wat hij zoekt."
+    },
+    {
+      "term": "n-day-lekken",
+      "explanation": "Kwetsbaarheden die al bekend zijn en waarvoor al een update bestaat. Ze blijven gevaarlijk zolang systemen die update nog niet hebben."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    },
+    {
+      "term": "zero-day",
+      "explanation": "Een kwetsbaarheid die aanvallers al misbruiken voordat de maker ervan weet of er een update voor heeft. Verdedigers hebben dus 'nul dagen' om zich voor te bereiden."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-16T05:10:00Z",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws"
+}

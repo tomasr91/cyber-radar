@@ -1,0 +1,6 @@
+{
+  "article_id": "2a5b7d5a686a",
+  "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+  "reason": "Zelfde ontwikkeling als 5e99d13bfbb2: CISA zette CVE-2024-27834 in de KEV-lijst na de watering hole-campagne die Sekoia aan APT29 toeschrijft. Het KEV-feit staat in de uitleg van 5e99d13bfbb2.",
+  "checked_at": "2026-11-16T04:59:00Z"
+}

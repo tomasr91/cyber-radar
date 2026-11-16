@@ -1,0 +1,105 @@
+{
+  "format_version": 2,
+  "article_id": "29c8bcf132e2",
+  "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+  "headline": "FBI waarschuwt: AI-tool ARTEX zoekt vergeten systemen op",
+  "summary": "De FBI bevestigt in een officieel advies dat meerdere aanvallers het AI-framework ARTEX gebruiken, soms van eerste poging tot beheerdersrechten in minder dan drie uur. Het advies zegt vooral waar je moet kijken.",
+  "story": [
+    "De FBI bracht op vrijdag 13 november een FLASH-advies uit over ARTEX. Dat is een open-source raamwerk voor penetratietesten, geschreven in Go. Het laat AI-agenten verkennen, lekken zoeken, inbreken en gegevens wegsluizen, met weinig menselijke sturing. Volgens de FBI gebruiken meerdere aanvallers het sinds minstens augustus 2026. Doelwitten zitten onder meer in de financiële sector, overheid, technologie, defensie en zorg. Eerder beschreven onder meer Microsoft, Google en Datadog al aanvallen met ARTEX; nieuw is dat de FBI het nu officieel bevestigt en adviezen geeft.",
+    "Hoe werkt het? ARTEX heeft geen eigen AI-model, maar stuurt bestaande taalmodellen aan. De aanvaller geeft een doel op. ARTEX vertaalt dat in opdrachten voor gespecialiseerde agenten, die elk een stap uitvoeren. Zo kan één aanvaller meerdere organisaties tegelijk aanvallen. Volgens de FBI gingen sommige inbraken in minder dan drie uur van eerste doelwit naar beheerdersrechten.",
+    "De FBI ziet dat ARTEX vooral succes heeft bij systemen waar weinig aandacht naar gaat: partnerportalen, apps voor medewerkers, oude diensten en koppelingen met derden. Dat past bij hoe zo'n agent werkt: hij probeert alles wat bereikbaar is, zonder moe te worden. Een vergeten systeem dat niemand patcht of bekijkt, is dan snel gevonden. Onderzoekers telden begin november meer dan 1.600 bereikbare ARTEX-consoles. De maker haalde de code in oktober offline, maar kopieën en een commerciële versie blijven in omloop.",
+    "Wat adviseert de FBI? Beveilig apps die op internet staan en beperk de toegang tot cloudbeheer. Controleer welke rechten applicaties hebben en bekijk inloglogs. Zet een rate limit op gevoelige API's. Let in de SIEM op pieken in automatische verzoeken, verdachte cloudactiviteit, onverwachte wijzigingen in inloggegevens of rechten en grote gegevensoverdrachten. Het advies bevat ook IOC's, maar de FBI waarschuwt dat IP-adressen al veranderd kunnen zijn.",
+    "Voor organisaties verandert vooral de snelheid. Wie pas de volgende werkdag naar een melding kijkt, kan te laat zijn als een inbraak in drie uur rond is. Vulnerability management moet daarnaast het hele aanvalsoppervlak kennen, ook de systemen die niemand meer op de lijst heeft."
+  ],
+  "key_facts": [
+    "De FBI publiceerde op vrijdag 13 november 2026 een FLASH-advies van 13 pagina's over ARTEX (BleepingComputer, 15 november 2026).",
+    "ARTEX is een open-source, autonoom framework voor penetratietesten in Go; het heeft geen eigen model en stuurt externe taalmodellen aan, zoals Claude, GPT, DeepSeek, GLM, Grok en Kimi.",
+    "Volgens de FBI gebruiken meerdere aanvallers ARTEX sinds minstens augustus 2026; sommige inbraken gingen in minder dan drie uur van eerste doelwit naar beheerdersrechten.",
+    "Volgens de FBI is ARTEX vooral effectief tegen partnerportalen, medewerkersapps, oude diensten en koppelingen met derden.",
+    "Begin november waren volgens onderzoekers meer dan 1.600 ARTEX-consoles publiek bereikbaar; de oorspronkelijke repository verdween op 8 oktober 2026, maar forks en ARTEX PRO zijn nog beschikbaar.",
+    "De FBI adviseert onder meer cloudbeheer af te schermen, app-rechten en authenticatielogs te controleren, rate limits op gevoelige API's te zetten en te letten op pieken in geautomatiseerde verzoeken."
+  ],
+  "limitations": [
+    "Het FBI-advies zelf was niet te openen; deze uitleg volgt het verslag van BleepingComputer.",
+    "Welke aanvallers het precies zijn en hoeveel organisaties zijn getroffen, staat niet in het bericht.",
+    "Het werkelijke aantal ARTEX-consoles is volgens de onderzoekers waarschijnlijk hoger dan 1.600.",
+    "De IOC's in het advies kunnen verouderd zijn."
+  ],
+  "personal_relevance": "Klanten zullen naar dit FBI-advies vragen. Een goede wedervraag: kennen jullie al je systemen die vanaf internet bereikbaar zijn, en hoe snel wordt een melding 's nachts opgepakt?",
+  "takeaway": "Een AI-agent probeert systematisch alles wat bereikbaar is. Daardoor worden vergeten systemen sneller gevonden en kan een inbraak binnen uren rond zijn; snelle detectie en een volledig beeld van je aanvalsoppervlak worden belangrijker.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "threat_intelligence",
+    "attack_techniques",
+    "siem_detection",
+    "cloud_attacks"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.8,
+    "novelty": 0.4
+  },
+  "development_key": "artex-fbi-flash-nov-2026",
+  "soort": "advies",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; officieel advies met concrete detectiepunten voor SIEM en vulnerability management."
+  },
+  "showcase": {
+    "caption": "Zo kun je in een SIEM zoeken naar pieken in automatische verzoeken, een signaal dat de FBI noemt. De zoekopdracht telt per adres en per vijf minuten hoeveel verzoeken er waren en hoeveel verschillende pagina's werden opgevraagd. Veel verzoeken naar veel verschillende pagina's wijst op een programma dat systematisch zoekt.",
+    "language": "kql",
+    "code": "// Pieken in automatische verzoeken naar een webapplicatie\nWebLogs\n| where TimeGenerated > ago(1h)\n| summarize Verzoeken = count(), Paginas = dcount(Url) by ClientIP, bin(TimeGenerated, 5m)\n| where Verzoeken > 500 and Paginas > 100\n| order by Verzoeken desc",
+    "result": {
+      "columns": [
+        "ClientIP",
+        "TimeGenerated",
+        "Verzoeken",
+        "Paginas"
+      ],
+      "rows": [
+        [
+          "203.0.113.10",
+          "16-11-2026 02:15",
+          "2184",
+          "911"
+        ],
+        [
+          "198.51.100.7",
+          "16-11-2026 02:20",
+          "640",
+          "233"
+        ]
+      ]
+    },
+    "note": "Nagebouwd voorbeeld: de tabelnaam, drempels en resultaten zijn verzonnen en de adressen zijn voorbeeldadressen. Stem drempels af op het normale verkeer van je eigen applicatie."
+  },
+  "terms": [
+    {
+      "term": "penetratietesten",
+      "explanation": "Met toestemming proberen in te breken in systemen, zoals een aanvaller dat zou doen, om zwakke plekken te vinden voordat echte aanvallers dat doen."
+    },
+    {
+      "term": "AI-agenten",
+      "explanation": "Programma's die een taalmodel zelf acties laten uitvoeren, zoals opdrachten draaien en resultaten lezen, en dan zelf de volgende stap kiezen."
+    },
+    {
+      "term": "rate limit",
+      "explanation": "Een grens aan het aantal verzoeken dat iemand in een bepaalde tijd mag doen. Zo vertraag je programma's die heel snel heel veel proberen."
+    },
+    {
+      "term": "IOC's",
+      "explanation": "Indicators of compromise: sporen van een aanval, zoals IP-adressen, domeinnamen of bestandskenmerken, waarmee je in je eigen logs kunt zoeken."
+    },
+    {
+      "term": "aanvalsoppervlak",
+      "explanation": "Alle plekken waar een aanvaller een organisatie kan proberen binnen te komen, zoals websites, servers en accounts die vanaf internet bereikbaar zijn."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-16T05:10:00Z",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws"
+}

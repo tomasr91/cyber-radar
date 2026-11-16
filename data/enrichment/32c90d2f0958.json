@@ -1,0 +1,77 @@
+{
+  "format_version": 2,
+  "article_id": "32c90d2f0958",
+  "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+  "headline": "Kritiek Android-lek: code op afstand zonder actie van de gebruiker",
+  "summary": "Google dicht in de novemberupdate CVE-2026-58868, waarmee een aanvaller op afstand code kan draaien op Android 14 tot en met 17. Misbruik is niet bekend. Wanneer je de fix krijgt, hangt af van je fabrikant.",
+  "story": [
+    "Google publiceerde op 1 november het beveiligingsbulletin van Android. Daarin staan 216 lekken, waarvan 23 kritiek. Het belangrijkste is CVE-2026-58868 in Android 14 tot en met 17. Volgens Google kan een aanvaller daarmee op afstand code uitvoeren, zonder dat de gebruiker iets doet. Op 4 november meldde Google geen aanvallen en stond het lek niet in de KEV-lijst.",
+    "Hoe werkt zo'n fout? Een programma reserveert in het werkgeheugen een vak van vaste grootte voor gegevens. Bij een heap-buffer-overflow schrijft de code meer gegevens dan in dat vak past. Wat erachter staat, wordt dan overschreven. Kan een aanvaller bepalen wat daar terechtkomt, dan kan hij soms eigen code laten draaien. Hier zit de fout in de functie onOutputReceived in FrameDecoder.cpp, een onderdeel van de Android-runtime. Google zegt niet hoe een aanvaller die code bereikt.",
+    "Is het urgent? Code op afstand zonder klik is de gevaarlijkste combinatie. Google gaat bij de score 'kritiek' wel uit van uitgeschakelde of omzeilde beschermingen in Android. Telefoons met patchniveau 2026-11-01 of later zijn beschermd; 2026-11-05 dekt het hele bulletin. Fabrikanten en providers bepalen zelf wanneer ze die update sturen. Een tijdelijke oplossing is er niet. Je ziet het patchniveau onder Instellingen, Over de telefoon, Androidversie.",
+    "Ook opvallend is CVE-2026-58882 in de sms-code voor WAP Push. Met alleen een telefoonnummer kan een aanvaller de telefoonapp laten crashen, ook tijdens een noodoproep. Een onderzoeker publiceerde eind oktober een proof of concept voor een fout in dezelfde functie. Of dat precies dit lek is, is niet bevestigd. Android 12 en 13 draaien dezelfde code, maar krijgen geen fix.",
+    "Voor organisaties draait vulnerability management bij telefoons om het patchniveau, niet om losse CVE's. De vraag is: welke toestellen hebben de update van november al, en welke krijgen hem nooit? Oude telefoons die geen updates meer krijgen, blijven kwetsbaar."
+  ],
+  "key_facts": [
+    "Google publiceerde het Android-beveiligingsbulletin van november op 1 november 2026: 216 lekken, waarvan 23 kritiek.",
+    "CVE-2026-58868 is een mogelijke out-of-bounds write door een heap-buffer-overflow in onOutputReceived in FrameDecoder.cpp (Framework/System/Android runtime); remote code execution zonder gebruikersactie, Android 14 tot en met 17.",
+    "Patchniveau 2026-11-01 of later dicht CVE-2026-58868; 2026-11-05 of later dekt het hele bulletin. Er is geen workaround.",
+    "Op 4 november 2026 meldde Google geen misbruik en stond het lek niet in de KEV-lijst van CISA.",
+    "CVE-2026-58882 is een kritiek lek in decodeWapPdu (WAP Push voor sms): met een telefoonnummer kan een aanvaller com.android.phone laten crashen, ook tijdens noodoproepen; volgens The Hacker News draaien Android 12 en 13 dezelfde code zonder fix.",
+    "Fabrikanten en providers bepalen zelf wanneer ze de updates leveren."
+  ],
+  "limitations": [
+    "Hoe een aanvaller de kwetsbare code bereikt, beschrijven het bulletin en het CVE-record niet.",
+    "Of Android 12 en 13 ook kwetsbaar zijn voor CVE-2026-58868, zegt Google niet.",
+    "Of de openbare 'SMS of Death'-proof of concept precies CVE-2026-58882 betreft, is niet bevestigd.",
+    "De score 'kritiek' van Google gaat uit van uitgeschakelde of omzeilde beschermingen."
+  ],
+  "personal_relevance": "Klanten vragen vaak hoe ze mobiele kwetsbaarheden prioriteren. Dit is een goed voorbeeld: niet de CVE telt, maar welk patchniveau elk toestel heeft en of de fabrikant nog updates levert.",
+  "takeaway": "Bij Android bepaalt het patchniveau (een datum) of een toestel veilig is, en de fabrikant bepaalt wanneer die komt. Een buffer-overflow ontstaat als code meer gegevens schrijft dan er ruimte is gereserveerd.",
+  "region": "world",
+  "official_docs": [],
+  "topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management"
+  ],
+  "quality": {
+    "depth": 0.5,
+    "practicality": 0.7,
+    "novelty": 0.6
+  },
+  "development_key": "cve-2026-58868-android",
+  "soort": "kwetsbaarheid",
+  "exploitation": "geen_misbruik_bekend",
+  "patch_status": "patch_beschikbaar",
+  "fit": {
+    "score": 0.5,
+    "why": "Nog geen duimpjes; kritiek mobiel lek met uitleg van buffer-overflows en patchniveaus."
+  },
+  "terms": [
+    {
+      "term": "heap-buffer-overflow",
+      "explanation": "Een fout waarbij een programma meer gegevens in een stuk werkgeheugen (de heap) schrijft dan er ruimte is. Wat erachter staat wordt overschreven, wat een aanvaller soms kan gebruiken om code te laten draaien."
+    },
+    {
+      "term": "patchniveau",
+      "explanation": "Bij Android de datum van de laatste beveiligingsupdate op een toestel. Alle lekken uit bulletins tot die datum zijn dan gedicht."
+    },
+    {
+      "term": "WAP Push",
+      "explanation": "Een oude techniek om via een speciaal sms-bericht instellingen of links naar een telefoon te sturen. De telefoon verwerkt zo'n bericht automatisch."
+    },
+    {
+      "term": "proof of concept",
+      "explanation": "Code die laat zien dat een kwetsbaarheid echt te misbruiken is. Zodra die openbaar is, kunnen veel meer mensen het lek aanvallen."
+    },
+    {
+      "term": "KEV-lijst",
+      "explanation": "Known Exploited Vulnerabilities: de lijst van CISA met kwetsbaarheden waarvan bewezen is dat ze worden misbruikt. Een goede graadmeter voor wat je als eerste moet patchen."
+    }
+  ],
+  "processed_by": "Claude (geplande taak)",
+  "prompt_version": "cyber-taak-v1",
+  "processed_at": "2026-11-16T05:10:00Z",
+  "date_note": "",
+  "exceptional": false,
+  "article_type": "nieuws"
+}
