@@ -1,60 +1,117 @@
 {
- "generated_at": "2026-11-16T03:25:00.571541Z",
+ "generated_at": "2026-11-16T05:01:17.877547Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
-   "id": "29c8bcf132e2",
-   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-15T18:29:53Z",
-   "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "d1f88f4d5d8d",
-   "title": "TSMC employee data breach linked to cloud provider",
-   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-15T15:23:48Z",
-   "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence"
-   ]
-  },
-  {
-   "id": "2a5b7d5a686a",
-   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "id": "77f64f32faf5",
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-05T05:17:04Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-   "preliminary_score": 78,
+   "published_at": "2026-11-03T11:23:53Z",
+   "excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+   "preliminary_score": 77,
+   "preliminary_topics": [
+    "vulnerabilities_cve"
+   ]
+  },
+  {
+   "id": "20c9c9965d29",
+   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-03T11:18:20Z",
+   "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+   "preliminary_score": 77,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "vulnerability_management",
+    "incidents_breaches",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "3ce297811edf",
+   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-03T11:00:45Z",
+   "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+   "preliminary_score": 77,
+   "preliminary_topics": [
+    "exploited_vulnerabilities",
+    "threat_intelligence",
     "malware"
    ]
   },
   {
-   "id": "1b9b96d402ef",
-   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "id": "d108c8cad61e",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-04T17:00:38Z",
-   "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+   "published_at": "2026-11-03T07:43:07Z",
+   "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
    "preliminary_score": 77,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "83a1b9cd5ac4",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-07T10:16:23Z",
+   "excerpt": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+   "preliminary_score": 77,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "edge_devices"
+   ]
+  },
+  {
+   "id": "edc3ee16f036",
+   "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
+   "source_id": "crowdstrike_blog",
+   "source_name": "CrowdStrike blog",
+   "published_at": "2026-10-30T05:00:00Z",
+   "excerpt": "",
+   "preliminary_score": 75,
+   "preliminary_topics": [
+    "siem_detection",
+    "cloud_attacks",
+    "security_market"
+   ]
+  },
+  {
+   "id": "b4efc3f65f51",
+   "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+   "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+   "source_id": "securityweek",
+   "source_name": "SecurityWeek",
+   "published_at": "2026-11-03T12:21:49Z",
+   "excerpt": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+   "preliminary_score": 75,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "35b52af746f0",
+   "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+   "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+   "source_id": "watchtowr_labs",
+   "source_name": "watchTowr Labs",
+   "published_at": "2026-09-29T13:55:35Z",
+   "excerpt": "Part 1 of this week's saga can be found here. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution, enabling organizations to rapidly react to emerging threats: the watchTowr Platform. What Is A Citrix NetScaler? NetScaler, from Citrix (now under Cloud",
+   "preliminary_score": 73,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "vulnerability_management",
@@ -62,91 +119,30 @@
    ]
   },
   {
-   "id": "5e99d13bfbb2",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T14:27:52Z",
-   "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 77,
+   "id": "05528151c701",
+   "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
+   "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+   "source_id": "watchtowr_labs",
+   "source_name": "watchTowr Labs",
+   "published_at": "2026-09-28T10:55:54Z",
+   "excerpt": "God damn it, we're back in the room again. Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScaler CVEs before Citrix had woken up",
+   "preliminary_score": 73,
    "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "web_software_security",
-    "supply_chain"
+    "vulnerabilities_cve",
+    "edge_devices"
    ]
   },
   {
-   "id": "8384c224e801",
-   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T11:24:31Z",
-   "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "32c90d2f0958",
-   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T07:46:15Z",
-   "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-   "preliminary_score": 77,
+   "id": "ddab84c94700",
+   "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
+   "url": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
+   "source_id": "watchtowr_labs",
+   "source_name": "watchTowr Labs",
+   "published_at": "2026-09-23T23:19:19Z",
+   "excerpt": "Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We're back. Sorry. We've been watching the onslaught of vulnerabilities flood the internet. Every man, dog, and their grandmas (apparently?) are now using LLMs to find and reproduce vulnerabilities - it’",
+   "preliminary_score": 73,
    "preliminary_topics": [
     "vulnerabilities_cve"
-   ]
-  },
-  {
-   "id": "349817163ae5",
-   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-04T05:43:11Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "19a35a6714f9",
-   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T16:55:58Z",
-   "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity"
-   ]
-  },
-  {
-   "id": "bc96c130a163",
-   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T15:59:19Z",
-   "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "vulnerability_management"
    ]
   }
  ]
