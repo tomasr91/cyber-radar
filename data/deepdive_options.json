@@ -1,62 +1,62 @@
 {
   "format_version": 1,
-  "generated_at": "2026-11-15T02:30:00Z",
+  "generated_at": "2026-11-16T02:30:00Z",
   "options": [
     {
-      "id": "remote-code-execution",
-      "title": "Remote code execution: hoe een fout een server opdrachten laat uitvoeren",
-      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert op een server, wat doet hij daarna, en wat ziet een securityteam dan?",
-      "why": "Een basisonderwerp uit het leerpad: deze week dichtte Apache een HTTP/2-lek waarmee een aanvaller zonder inlog mogelijk de webserver overneemt, en PostgreSQL een lek waarmee een databasegebruiker code op de server kan uitvoeren.",
+      "id": "privilege-escalation",
+      "title": "Privilege escalation: van gewone gebruiker naar beheerder",
+      "question": "Hoe krijgt een aanvaller op Windows of Linux meer rechten dan hij hoort te hebben, waarom is dat zo'n belangrijke stap in een aanval, en hoe zie je het in de logs?",
+      "why": "Een basisonderwerp uit het leerpad: deze week verscheen openbare aanvalscode (SignDrop) waarmee een gewone Windows-gebruiker SYSTEM-rechten krijgt, en bij de Check Point-aanvallen werd de aanvaller root via een nieuw lek.",
       "topics": [
         "attack_techniques",
-        "vulnerabilities_cve",
         "siem_detection"
-      ],
-      "area": "kwetsbaarheden"
-    },
-    {
-      "id": "msp-als-springplank",
-      "title": "Via de IT-dienstverlener naar alle klanten: beheersoftware als springplank",
-      "question": "Hoe werkt beheersoftware op afstand (RMM en supportsessies zoals ScreenConnect), waarom is een IT-dienstverlener zo'n aantrekkelijk doelwit, en hoe zie en beperk je misbruik?",
-      "why": "Dit is een trend: aanvallers mikken op N-central en ScreenConnect, en de toolkit SCKit probeert via de technicus die komt kijken andere klanten van de dienstverlener te bereiken.",
-      "topics": [
-        "supply_chain",
-        "attack_techniques",
-        "incidents_breaches"
       ],
       "area": "techniek"
     },
     {
-      "id": "politie-haalt-malware-offline",
-      "title": "Een politieactie tegen malware: wat gebeurt er bij een takedown?",
-      "question": "Hoe haalt de politie de servers en domeinen van malware offline, wat gebeurt er daarna met de besmette computers en gestolen gegevens, en hoe lang helpt zo'n actie?",
-      "why": "Operation Endgame nam deze week met politie uit onder meer Nederland 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC over en vond 6,4 miljoen gestolen inloggegevens.",
+      "id": "edge-devices-als-ingang",
+      "title": "Waarom vpn-servers en firewalls de favoriete ingang van aanvallers zijn",
+      "question": "Waarom misbruiken aanvallers zo vaak lekken in apparaten aan de rand van het netwerk, waarom zie je daar zo weinig van, en wat moet een organisatie ermee?",
+      "why": "Dit is een trend: de afgelopen weken werden lekken in vpn-servers van Ivanti en SonicWall, Cisco SD-WAN-controllers en Check Point-gateways misbruikt, soms ook na het patchen.",
       "topics": [
-        "incidents_breaches",
-        "malware",
-        "threat_intelligence"
+        "edge_devices",
+        "exploited_vulnerabilities",
+        "vulnerability_management"
       ],
-      "area": "incidenten"
+      "area": "kwetsbaarheden"
     },
     {
-      "id": "threat-intelligence-gebruiken",
-      "title": "Threat intelligence: van rapport naar actie",
-      "question": "Hoe komt informatie over aanvallers tot stand, wat is het verschil tussen IOC's en werkwijzen (TTP's), en hoe gebruikt een organisatie het bij detectie en prioriteren?",
-      "why": "Deze week verschenen veel onderzoeksrapporten vol aanvallerssporen, zoals over ARTEX, SCKit en de Check Point-aanvallen; dit onderwerp uit het leerpad kwam nog niet als keuze langs.",
+      "id": "wanneer-wordt-een-lek-openbaar",
+      "title": "Wanneer wordt een lek openbaar? Disclosure en de race tegen de patch",
+      "question": "Hoe verloopt het melden en openbaar maken van een kwetsbaarheid (coordinated disclosure), waarom kiezen onderzoekers voor een vaste termijn, en wat betekent sneller openbaar maken voor het patchen bij organisaties?",
+      "why": "Google Project Zero maakt details van lekken voortaan sneller openbaar, van 90+30 stap voor stap naar 30 dagen, omdat AI het vinden en misbruiken van lekken versnelt.",
       "topics": [
-        "threat_intelligence",
-        "siem_detection",
-        "vulnerability_management"
+        "vulnerability_management",
+        "vulnerabilities_cve",
+        "threat_intelligence"
       ],
       "area": "praktijk"
     },
     {
-      "id": "laterale-beweging",
-      "title": "Laterale beweging: hoe een aanvaller zich door een netwerk verplaatst",
-      "question": "Hoe gaat een aanvaller van één gehackt systeem naar de rest van het netwerk, welke inloggegevens en beheertools gebruikt hij daarvoor, en hoe ziet een SIEM dat?",
-      "why": "In de aanvallen via vpn-servers en firewalls van de afgelopen weken ging de aanvaller na binnenkomst vaak verder het netwerk in; bij Check Point wiste hij zelfs bestanden op VMware ESXi-servers.",
+      "id": "containerregistry-als-doelwit",
+      "title": "Containers en registries: waarom een lek in de image-opslag gevaarlijk is",
+      "question": "Wat is een container en een container-image, wat doet een registry zoals Red Hat Quay, en wat kan een aanvaller als hij images kan lezen of aanpassen?",
+      "why": "Deze week dichtte Red Hat een kritiek lek in Quay waarmee een aanvaller een eigen sleutel kan installeren en toegang krijgt tot elke repository, ook privé; misbruik is niet gemeld.",
       "topics": [
-        "attack_techniques",
+        "cloud_attacks",
+        "supply_chain",
+        "vulnerabilities_cve"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "spionage-via-mailserver",
+      "title": "Spionage via de mailserver: hoe malware ongezien e-mail van Exchange haalt",
+      "question": "Hoe werkt een mailserver als Microsoft Exchange, hoe kan malware zich daarin verstoppen en mails onderscheppen, en hoe ontdek je dat als er geen verkeer naar een bekende aanvallersserver gaat?",
+      "why": "ESET beschreef deze week Cereal, nieuwe malware van de Russische groep Turla die zich in Exchange-servers van overheden nestelt en zonder eigen server op internet e-mails met bijlagen buitmaakt.",
+      "topics": [
+        "malware",
+        "threat_intelligence",
         "siem_detection"
       ],
       "area": "techniek"
@@ -528,6 +528,65 @@
         "attack_techniques"
       ],
       "area": "praktijk"
+    },
+    {
+      "id": "remote-code-execution",
+      "title": "Remote code execution: hoe een fout een server opdrachten laat uitvoeren",
+      "question": "Hoe kan een fout in software ertoe leiden dat een aanvaller op afstand opdrachten uitvoert op een server, wat doet hij daarna, en wat ziet een securityteam dan?",
+      "why": "Een basisonderwerp uit het leerpad: deze week dichtte Apache een HTTP/2-lek waarmee een aanvaller zonder inlog mogelijk de webserver overneemt, en PostgreSQL een lek waarmee een databasegebruiker code op de server kan uitvoeren.",
+      "topics": [
+        "attack_techniques",
+        "vulnerabilities_cve",
+        "siem_detection"
+      ],
+      "area": "kwetsbaarheden"
+    },
+    {
+      "id": "msp-als-springplank",
+      "title": "Via de IT-dienstverlener naar alle klanten: beheersoftware als springplank",
+      "question": "Hoe werkt beheersoftware op afstand (RMM en supportsessies zoals ScreenConnect), waarom is een IT-dienstverlener zo'n aantrekkelijk doelwit, en hoe zie en beperk je misbruik?",
+      "why": "Dit is een trend: aanvallers mikken op N-central en ScreenConnect, en de toolkit SCKit probeert via de technicus die komt kijken andere klanten van de dienstverlener te bereiken.",
+      "topics": [
+        "supply_chain",
+        "attack_techniques",
+        "incidents_breaches"
+      ],
+      "area": "techniek"
+    },
+    {
+      "id": "politie-haalt-malware-offline",
+      "title": "Een politieactie tegen malware: wat gebeurt er bij een takedown?",
+      "question": "Hoe haalt de politie de servers en domeinen van malware offline, wat gebeurt er daarna met de besmette computers en gestolen gegevens, en hoe lang helpt zo'n actie?",
+      "why": "Operation Endgame nam deze week met politie uit onder meer Nederland 235 servers en 257 domeinen van Gootloader, CastleRAT en StealC over en vond 6,4 miljoen gestolen inloggegevens.",
+      "topics": [
+        "incidents_breaches",
+        "malware",
+        "threat_intelligence"
+      ],
+      "area": "incidenten"
+    },
+    {
+      "id": "threat-intelligence-gebruiken",
+      "title": "Threat intelligence: van rapport naar actie",
+      "question": "Hoe komt informatie over aanvallers tot stand, wat is het verschil tussen IOC's en werkwijzen (TTP's), en hoe gebruikt een organisatie het bij detectie en prioriteren?",
+      "why": "Deze week verschenen veel onderzoeksrapporten vol aanvallerssporen, zoals over ARTEX, SCKit en de Check Point-aanvallen; dit onderwerp uit het leerpad kwam nog niet als keuze langs.",
+      "topics": [
+        "threat_intelligence",
+        "siem_detection",
+        "vulnerability_management"
+      ],
+      "area": "praktijk"
+    },
+    {
+      "id": "laterale-beweging",
+      "title": "Laterale beweging: hoe een aanvaller zich door een netwerk verplaatst",
+      "question": "Hoe gaat een aanvaller van één gehackt systeem naar de rest van het netwerk, welke inloggegevens en beheertools gebruikt hij daarvoor, en hoe ziet een SIEM dat?",
+      "why": "In de aanvallen via vpn-servers en firewalls van de afgelopen weken ging de aanvaller na binnenkomst vaak verder het netwerk in; bij Check Point wiste hij zelfs bestanden op VMware ESXi-servers.",
+      "topics": [
+        "attack_techniques",
+        "siem_detection"
+      ],
+      "area": "techniek"
     }
   ]
 }
