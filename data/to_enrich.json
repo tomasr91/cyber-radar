@@ -1,7 +1,35 @@
 {
- "generated_at": "2026-11-15T07:05:55.867261Z",
+ "generated_at": "2026-11-16T02:24:05.344211Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "29c8bcf132e2",
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-15T18:29:53Z",
+   "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "d1f88f4d5d8d",
+   "title": "TSMC employee data breach linked to cloud provider",
+   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-15T15:23:48Z",
+   "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence"
+   ]
+  },
   {
    "id": "2a5b7d5a686a",
    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
@@ -26,7 +54,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T17:00:38Z",
    "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-   "preliminary_score": 78,
+   "preliminary_score": 77,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "vulnerability_management",
@@ -41,7 +69,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T14:27:52Z",
    "excerpt": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "preliminary_score": 78,
+   "preliminary_score": 77,
    "preliminary_topics": [
     "incidents_breaches",
     "threat_intelligence",
@@ -57,7 +85,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T11:24:31Z",
    "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-   "preliminary_score": 78,
+   "preliminary_score": 77,
    "preliminary_topics": [
     "threat_intelligence",
     "malware"
@@ -71,7 +99,7 @@
    "source_name": "The Hacker News",
    "published_at": "2026-11-04T07:46:15Z",
    "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-   "preliminary_score": 78,
+   "preliminary_score": 77,
    "preliminary_topics": [
     "vulnerabilities_cve"
    ]
@@ -118,35 +146,6 @@
    "preliminary_score": 77,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "vulnerability_management"
-   ]
-  },
-  {
-   "id": "77f64f32faf5",
-   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T11:23:53Z",
-   "excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "vulnerabilities_cve"
-   ]
-  },
-  {
-   "id": "20c9c9965d29",
-   "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-   "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-03T11:18:20Z",
-   "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
-   "preliminary_score": 77,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "incidents_breaches",
     "vulnerability_management"
    ]
   }

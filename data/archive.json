@@ -5503,7 +5503,71 @@
    "published_raw": "Sat, 14 Nov 2026 08:40:22 +0000",
    "fetched_at": "2026-11-15T01:23:24.296728Z",
    "excerpt": "<p>Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.</p>\n<p>The post <a href=\"https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/\">No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "security_nl:2697bed573ec": {
+   "source_id": "security_nl",
+   "title": "Meta krijgt 805 miljoen euro boete voor illegale toegang tot foto's Androidgebruikers",
+   "url": "https://www.security.nl/posting/961758/Meta+krijgt+805+miljoen+euro+boete+voor+illegale+toegang+tot+foto%27s+Androidgebruikers?channel=rss",
+   "published_raw": "Sun, 15 Nov 2026 09:19:52 +0100",
+   "fetched_at": "2026-11-16T02:24:05.373576Z",
+   "excerpt": "De Italiaanse privacytoezichthouder GPDP heeft Meta wegens het illegaal verkrijgen van toegang tot de foto's, video's en ..."
+  },
+  "security_nl:d2c6b5d272f3": {
+   "source_id": "security_nl",
+   "title": "Code op VI, Autoblog, GeenStijl en andere sites probeerde iPhones met malware te infecteren",
+   "url": "https://www.security.nl/posting/961749/Code+op+VI%2C+Autoblog%2C+GeenStijl+en+andere+sites+probeerde+iPhones+met+malware+te+infecteren?channel=rss",
+   "published_raw": "Sun, 15 Nov 2026 08:52:00 +0100",
+   "fetched_at": "2026-11-16T02:24:05.373576Z",
+   "excerpt": "Aanvallers hebben via het advertentiesysteem op voetbalsite VI, Autoblog, GeenStijl, Scientas, Bright, De Dagelijkse Standaard ..."
+  },
+  "bleepingcomputer:29c8bcf132e2": {
+   "source_id": "bleepingcomputer",
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "published_raw": "Sun, 15 Nov 2026 13:29:53 -0500",
+   "fetched_at": "2026-11-16T02:24:12.915315Z",
+   "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]"
+  },
+  "bleepingcomputer:d1f88f4d5d8d": {
+   "source_id": "bleepingcomputer",
+   "title": "TSMC employee data breach linked to cloud provider",
+   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "published_raw": "Sun, 15 Nov 2026 10:23:48 -0500",
+   "fetched_at": "2026-11-16T02:24:12.915315Z",
+   "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]"
+  },
+  "the_hacker_news:04c1c102f5a7": {
+   "source_id": "the_hacker_news",
+   "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "published_raw": "Sun, 15 Nov 2026 16:57:31 +0530",
+   "fetched_at": "2026-11-16T02:24:13.286807Z",
+   "excerpt": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to"
+  },
+  "the_hacker_news:960f41318ea9": {
+   "source_id": "the_hacker_news",
+   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+   "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+   "published_raw": "Sun, 15 Nov 2026 13:52:04 +0530",
+   "fetched_at": "2026-11-16T02:24:13.286807Z",
+   "excerpt": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only"
+  },
+  "securityweek:5ee1e0f76294": {
+   "source_id": "securityweek",
+   "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+   "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+   "published_raw": "Sun, 15 Nov 2026 12:51:33 +0000",
+   "fetched_at": "2026-11-16T02:24:13.550571Z",
+   "excerpt": "<p>The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.</p>\n<p>The post <a href=\"https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/\">Pentagon Renames CDAO ‘Super Intelligence Office’</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:e0841588af04": {
+   "source_id": "securityweek",
+   "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+   "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+   "published_raw": "Sat, 14 Nov 2026 19:00:00 +0000",
+   "fetched_at": "2026-11-16T02:24:13.550571Z",
+   "excerpt": "<p>The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.</p>\n<p>The post <a href=\"https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/\">Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-15T07:05:55.867261Z"
+ "updated_at": "2026-11-16T02:24:05.344211Z"
 }
