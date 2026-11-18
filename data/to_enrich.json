@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:25:12.962160Z",
+ "generated_at": "2026-11-18T07:53:35.703451Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,41 +10,25 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-16T10:31:31Z",
    "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
-   "preliminary_score": 91,
+   "preliminary_score": 90,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "attack_techniques"
    ]
   },
   {
-   "id": "225dafd7d400",
-   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-11-17T00:08:41Z",
-   "excerpt": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
+   "id": "a3b0a664adc0",
+   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+   "url": "https://blog.talosintelligence.com/java4shell/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-11-18T01:53:03Z",
+   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
    "preliminary_score": 85,
    "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "24b3e7c01273",
-   "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-   "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-11-16T23:00:55Z",
-   "excerpt": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .",
-   "preliminary_score": 85,
-   "preliminary_topics": [
+    "vulnerabilities_cve",
     "attack_techniques",
-    "threat_intelligence",
-    "malware"
+    "vulnerability_management"
    ]
   },
   {
@@ -60,6 +44,53 @@
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "threat_intelligence"
+   ]
+  },
+  {
+   "id": "225dafd7d400",
+   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+   "source_id": "microsoft_threat_intel",
+   "source_name": "Microsoft Threat Intelligence",
+   "published_at": "2026-11-17T00:08:41Z",
+   "excerpt": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "24b3e7c01273",
+   "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
+   "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-11-16T23:00:55Z",
+   "excerpt": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "attack_techniques",
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "2840a699d328",
+   "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+   "source_id": "google_threat_intel",
+   "source_name": "Google Threat Intelligence (Mandiant)",
+   "published_at": "2026-11-17T14:00:00Z",
+   "excerpt": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional n",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "threat_intelligence",
+    "phishing_identity",
+    "malware"
    ]
   },
   {
@@ -80,6 +111,38 @@
    ]
   },
   {
+   "id": "acd361cd5b7a",
+   "title": "Huntress Delivers 24/7 Response for Microsoft Defender Incidents Across Endpoints and Microsoft 365",
+   "url": "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-11-17T14:00:00Z",
+   "excerpt": "The Huntress Agentic Security Platform now sees incidents from Defender for Identity, Defender for Office 365, Defender for Cloud Apps, and Entra ID Protection. The new data already helped uncover a token-replay campaign that hit 97 accounts at 79 organizations.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "threat_intelligence",
+    "phishing_identity",
+    "cloud_attacks"
+   ]
+  },
+  {
+   "id": "1df53018af16",
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-18T06:45:26Z",
+   "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of writing, both the",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "malware",
+    "supply_chain",
+    "cloud_attacks",
+    "security_market"
+   ]
+  },
+  {
    "id": "ee4b38d3cd6b",
    "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
@@ -87,7 +150,7 @@
    "source_name": "BleepingComputer",
    "published_at": "2026-11-17T02:12:17Z",
    "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
@@ -95,62 +158,6 @@
     "web_software_security",
     "malware",
     "supply_chain"
-   ]
-  },
-  {
-   "id": "afa71c4d797b",
-   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-   "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-16T19:57:13Z",
-   "excerpt": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "5f7fb60139a3",
-   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-   "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-16T09:30:04Z",
-   "excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "9c644bd3d6c6",
-   "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-   "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-16T12:48:03Z",
-   "excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
-   "preliminary_score": 82,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "malware"
-   ]
-  },
-  {
-   "id": "efafc96e1f02",
-   "title": "Uber Data Breach Impacts 150,000 People",
-   "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
-   "source_id": "securityweek",
-   "source_name": "SecurityWeek",
-   "published_at": "2026-11-16T11:02:48Z",
-   "excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek .",
-   "preliminary_score": 81,
-   "preliminary_topics": [
-    "incidents_breaches"
    ]
   }
  ]

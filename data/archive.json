@@ -6015,7 +6015,439 @@
    "published_raw": "Mon, 16 Nov 2026 08:15:12 +0000",
    "fetched_at": "2026-11-17T08:25:21.247543Z",
    "excerpt": "<p>Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/\">Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "security_nl:a1ac28e48b1d": {
+   "source_id": "security_nl",
+   "title": "Adblocker uBlock Origin wegens kritiek XSS-lek tijdelijk verwijderd uit Tails",
+   "url": "https://www.security.nl/posting/962090/Adblocker+uBlock+Origin+wegens+kritiek+XSS-lek+tijdelijk+verwijderd+uit+Tails?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 16:43:47 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "De makers van het op privacy gerichte besturingssysteem Tails hebben een noodpatch uitgebracht om de populaire adblocker uBlock ..."
+  },
+  "security_nl:fd216cb40c8d": {
+   "source_id": "security_nl",
+   "title": "Zyxel dicht beveiligingslekken in glasvezelmodems en wifi-extenders",
+   "url": "https://www.security.nl/posting/962067/Zyxel+dicht+beveiligingslekken+in+glasvezelmodems+en+wifi-extenders?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 15:21:21 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Zyxel heeft firmware-updates uitgebracht voor beveiligingslekken in dsl- en glasvezelmodems, alsmede wifi-extenders. Het gaat ..."
+  },
+  "security_nl:d35daed5c1d9": {
+   "source_id": "security_nl",
+   "title": "Britse minister: 99 procent ambtenaren communiceert via Microsoft",
+   "url": "https://www.security.nl/posting/962061/Britse+minister%3A+99+procent+ambtenaren+communiceert+via+Microsoft?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 14:49:43 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "99 procent van de Britse ambtenaren maakt voor de communicatie gebruik van Microsoft, zo heeft de Britse minister \nIan Murray ..."
+  },
+  "security_nl:db2b4dcaa3b4": {
+   "source_id": "security_nl",
+   "title": "Helpdesks gehackt via kritiek beveiligingslek in ScreenConnect",
+   "url": "https://www.security.nl/posting/962053/Helpdesks+gehackt+via+kritiek+beveiligingslek+in+ScreenConnect?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 13:49:43 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Aanvallers zijn erin geslaagd om verschillende helpdesks van managed serviceproviders (MSP's) door middel van een kritieke ..."
+  },
+  "security_nl:869f83b0f376": {
+   "source_id": "security_nl",
+   "title": "FBI: malware op gehackte WordPress-sites leidde tot 28 miljoen dollar losgeld",
+   "url": "https://www.security.nl/posting/962034/FBI%3A+malware+op+gehackte+WordPress-sites+leidde+tot+28+miljoen+dollar+losgeld?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 12:21:19 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Malware die via gehackte WordPress-sites werd verspreid heeft criminelen 28 miljoen dollar losgeld opgeleverd, zo claimt de ..."
+  },
+  "security_nl:623605cd3beb": {
+   "source_id": "security_nl",
+   "title": "Apple voorziet macOS van extra opties voor schijf- en datatoegang",
+   "url": "https://www.security.nl/posting/962028/Apple+voorziet+macOS+van+extra+opties+voor+schijf-+en+datatoegang?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 11:30:00 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Apple gaat macOS van extra opties voorzien voor het regelen van schijf- en datatoegang, wat volgens het techbedrijf gebruikers ..."
+  },
+  "security_nl:fc76d966d0a2": {
+   "source_id": "security_nl",
+   "title": "Windows 11 krijgt optie voor op afstand vergrendelen van gestolen systemen",
+   "url": "https://www.security.nl/posting/962025/Windows+11+krijgt+optie+voor+op+afstand+vergrendelen+van+gestolen+systemen?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 11:08:27 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Windows 11 krijgt een optie waarmee organisaties gestolen of verloren systemen op afstand kunnen vergrendelen. De feature heet ..."
+  },
+  "security_nl:bd21097aaf12": {
+   "source_id": "security_nl",
+   "title": "GBA tikt chatbot-app op vingers wegens illegaal trainen met gevoelige data",
+   "url": "https://www.security.nl/posting/962021/GBA+tikt+chatbot-app+op+vingers+wegens+illegaal+trainen+met+gevoelige+data?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 10:41:11 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "De Belgische privacytoezichthouder GBA heeft een chatbot-app op de vingers getikt wegens het illegaal trainen van het eigen ..."
+  },
+  "security_nl:b860203778a0": {
+   "source_id": "security_nl",
+   "title": "'Datalek cybersecuritybedrijf Infoblox na hack van SharePoint-omgeving'",
+   "url": "https://www.security.nl/posting/962020/%27Datalek+cybersecuritybedrijf+Infoblox+na+hack+van+SharePoint-omgeving%27?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 10:20:14 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Cybersecuritybedrijf Infoblox heeft te maken gekregen met een datalek, nadat aanvallers wisten in te breken op de ..."
+  },
+  "security_nl:0dfc56680bc3": {
+   "source_id": "security_nl",
+   "title": "OpenAI in VS aangeklaagd wegens tientallen hacks door AI-agents",
+   "url": "https://www.security.nl/posting/962016/OpenAI+in+VS+aangeklaagd+wegens+tientallen+hacks+door+AI-agents?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 09:53:49 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "De Amerikaanse staat Californië heeft OpenAI aangeklaagd wegens tientallen hacks die door AI-agents waren uitgevoerd. Volgens ..."
+  },
+  "security_nl:9385cd329a4a": {
+   "source_id": "security_nl",
+   "title": "Malafide code op BBC, CNN, KLM, GitLab, Ikea en andere sites verspreidde malware",
+   "url": "https://www.security.nl/posting/962012/Malafide+code+op+BBC%2C+CNN%2C+KLM%2C+GitLab%2C+Ikea+en+andere+sites+verspreidde+malware?channel=rss",
+   "published_raw": "Tue, 17 Nov 2026 09:24:00 +0100",
+   "fetched_at": "2026-11-18T07:53:35.753475Z",
+   "excerpt": "Malafide code op de websites van BBC, CNN, KLM, GitLab, Ikea, ABN Amro, ICS Cards en andere bedrijven verspreidde malware onder ..."
+  },
+  "ncsc_nl_advisories:cf38d5068c12": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0495 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle Java",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0495",
+   "published_raw": "Tue, 17 Nov 2026 21:55:30 +0000",
+   "fetched_at": "2026-11-18T07:53:36.493049Z",
+   "excerpt": "Oracle heeft meerdere kwetsbaarheden verholpen in Oracle Java. In dit beveiligingsadvies gaan we uitsluitend in op CVE-2026-114938, de rest van de kwetsbaarheden zal hierin later worden aangevuld. De kwetsbaarheid zit in de compiler, het onderdeel dat Java-code optimaliseert en uitvoert. Een aanvaller kan die zonder authenticatie op afstand misbruiken door speciaal gemaakte gegevens naar een dienst te sturen die dit onderdeel gebruikt. Succesvol misbruik van de kwetsbaarheid kan leiden tot volledige overname van de betreffende Java-omgeving.\n\nVolgens de informatie die het NCSC momenteel tot haar beschikking heeft is de kwetsbaarheid, vanwege meerdere vereisten voor succesvolle exploitatie, niet eenvoudig te misbruiken."
+  },
+  "cisco_talos:a3b0a664adc0": {
+   "source_id": "cisco_talos",
+   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+   "url": "https://blog.talosintelligence.com/java4shell/",
+   "published_raw": "Wed, 18 Nov 2026 01:53:03 GMT",
+   "fetched_at": "2026-11-18T07:53:39.620099Z",
+   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE)."
+  },
+  "google_threat_intel:2840a699d328": {
+   "source_id": "google_threat_intel",
+   "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+   "published_raw": "Tue, 17 Nov 2026 14:00:00 +0000",
+   "fetched_at": "2026-11-18T07:53:40.178791Z",
+   "excerpt": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields</span></p>\n<hr/>\n<h3><span style=\"vertical-align: baseline;\">Introduction</span><strong style=\"vertical-align: baseline;\"> </strong></h3>\n<p><span style=\"vertical-align: baseline;\">Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. </span></p>\n<p><span style=\"vertical-align: baseline;\">COLD RELIC is a Russian state-sponsored threat group that the </span><a href=\"https://www.justice.gov/archives/opa/pr/justice-department-disrupts-russian-intelligence-spear-phishing-efforts\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">US Department of Justice (DOJ) has assessed</span></a><span style=\"vertical-align: baseline;\"> operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional networks. Once COLD RELIC compromises a target, it uses stolen emails and data to establish authentic pretexts and impersonate contacts when reaching out to subsequent targets. While COLD RELIC has largely maintained a low profile, yielding minimal public reporting relative to other Russia-nexus threat actors, it has been highly successful at compromising high-value targets (including government officials, defense contractors, and non-governmental organizations (NGOs) across Europe and North America) while maintaining a consistent operational tempo.</span></p>\n<p><span style=\"vertical-align: baseline;\">While Google Threat Intelligence Group (GTIG) has </span><a href=\"https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">tracked and disrupted</span></a><span style=\"vertical-align: baseline;\"> COLD RELIC phishing campaigns since 2015, recent Mandiant incident response investigations have uncovered critical new insights into the group’s social engineering and post-compromise tradecraft. We are sharing this end-to-end analysis—along with actionable detection and hardening guidance—to help organizations defend against COLD RELIC’s ongoing use of stolen pretexts, localized residential proxies, and cross-cloud identity abuse. As part of our efforts to thwart this threat actor, we issue </span><a href=\"https://knowledge.workspace.google.com/admin/reports/government-backed-attack-alerts\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Government-backed attack alerts</span></a><span style=\"vertical-align: baseline;\"> when we detect COLD RELIC targeting Google accounts. COLD RELIC remains an active threat; GTIG has observed evidence of new phishing operations as recently as November 2026. </span></p>\n<h3><span style=\"vertical-align: baseline;\">Threat Detail</span><strong style=\"vertical-align: baseline;\"> </strong></h3>\n<p><span style=\"vertical-align: baseline;\">Over more than a decade of tracking COLD RELIC alongside Mandiant incident response investigations, we have observed the group continually refine how it leverages data harvested from one intrusion to enable follow-on operations against downstream targets. In late 2025, COLD RELIC downloaded a large volume of data from a US-based organization, searching for names, email addresses, and email archives, likely to fulfill broader intelligence requirements. In 2026, Mandiant investigated a subsequent COLD RELIC intrusion at a second US-based organization where phishing URL parameters and impersonation pretexts indicated that COLD RELIC likely leveraged contact and relationship context from the first organization to target the second.</span></p>\n<p><span style=\"vertical-align: baseline;\">One of the hallmarks of COLD RELIC phishing campaigns is the use of a compromised website as the initial link that will redirect the target to the actual phishing domain. This provides COLD RELIC with a layer of misdirection and hides their phishing domains, while also giving them a chance to fingerprint anyone visiting the link to determine if they should be redirected or not. A COLD RELIC phishing link usually contains a parameter on the end of it with a value that is set by the attacker and often indicates a relationship to a previous victim or what the lure is. For example, a URL might look like these (though this is not always the case):</span></p></div>\n<div class=\"block-paragraph_advanced\"><pre class=\"language-markup\"><code>https://compromised.example.com/some_path/some_file.php?file=&lt;previous_victim_name&gt;\nhttps://compromised.example.com/some_path/some_file.php?ref=&lt;lure_name&gt;</code></pre>\n<p style=\"text-align: center;\"><span style=\"color: #5f6368; display: block; font-size: 16px; font-style: italic; margin-top: 8px; width: 100%;\"><span style=\"vertical-align: baseline;\">Figure 1: Sample URLs incorporating targeted individuals’ names or lure topics</span></span></p></div>\n<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">During Mandiant’s incident response investigation at the second US-based organization, responders identified that COLD RELIC initiated contact over an encrypted messaging app while impersonating an employee from the first victim organization. In parallel, GTIG correlated a COLD RELIC redirector URL from the intrusion that had been submitted to VirusTotal in June 2026, whose query parameter referenced the first victim organization.</span></p>\n<h3><span style=\"vertical-align: baseline;\">Case Study 1 - Stolen Credentials to Data Exfiltration</span></h3>\n<p><span style=\"vertical-align: baseline;\">During the late-2025 intrusion, GTIG observed COLD RELIC operators compromise the cloud productivity environment of a US-based organization. To gain initial access, COLD RELIC leveraged a residential proxy network in the US located in close geographical proximity to the victim. COLD RELIC authenticated using the stolen credentials of a Super Admin account, in combination with a </span><span style=\"vertical-align: baseline;\">multi-factor authentication</span><span style=\"font-style: italic; vertical-align: baseline;\"> </span><span style=\"vertical-align: baseline;\">(</span><span style=\"vertical-align: baseline;\">MFA) push notification fatigue attack. After the victim user accepted an MFA request, COLD RELIC registered a device model previously unseen within the tenant of the victim organization. COLD RELIC leveraged passkeys, MFA backup codes, and rogue MFA devices to retain access throughout the intrusion.</span></p>\n<p><span style=\"vertical-align: baseline;\">COLD RELIC used the privileges of the compromised Super Admin account to download the contents of the entire organization’s cloud storage drive by both mass sharing files to a COLD RELIC-operated email account and downloading files directly. While operating inside the tenant of the victim organization, COLD RELIC accessed the Admin Console, queried Admin security investigation and email audit logs to check defensive visibility, and viewed, modified, and deleted Alert Center notifications to remove forensic evidence of the initial intrusion. COLD RELIC also exported full employee lists and initiated a domain-wide data export via Google Workspace Customer Takeout using Super Admin privileges. Unlike individual end-user Google Takeout, Customer Takeout is an administrative tenant-wide export tool; these requests are logged in Google Workspace Admin audit logs (</span><code style=\"vertical-align: baseline;\">CUSTOMER_TAKEOUT_CREATED</code><span style=\"vertical-align: baseline;\">), and administrators can also </span><a href=\"https://knowledge.workspace.google.com/admin/users/advanced/allow-or-block-google-takeout\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">disable Google Takeout for users at the organizational level</span></a><span style=\"vertical-align: baseline;\">.</span></p>\n<p><span style=\"vertical-align: baseline;\">Following mass data theft and antiforensics activities, COLD RELIC maintained access to the victim organization for several months and performed additional activities including:</span></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Email inbox sync via OAuth to external email clients</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Reauthentication using unrevoked attacker-enrolled passkeys that persisted across password and session resets and bypassed device registration controls</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Targeted cloud drive document access related to credentials, email archives, personnel information, and other documents relevant to COLD RELIC’s intelligence collection requirements</span></p>\n</li>\n</ul>\n<p><span style=\"vertical-align: baseline;\">When the threat actor was removed from the victim organization’s infrastructure, GTIG observed COLD RELIC leveraging email accounts impersonating employees of the victim organization. These impersonated accounts were used to target both internal employees and associates within the same professional circles with renewed social engineering attempts.</span></p>\n<h3><span style=\"vertical-align: baseline;\">Case Study 2 - Leveraging Previous Compromise - Initial Approach</span></h3>\n<p><span style=\"vertical-align: baseline;\">During the second intrusion, COLD RELIC demonstrated competency in navigating multi-cloud environments and federated authentication mechanisms. GTIG observed COLD RELIC operators compromise a Microsoft Entra ID user account of a US-based organization that used Entra ID as its federated single sign-on (SSO) identity provider for Google Workspace. To gain initial access, COLD RELIC impersonated an employee of the organization impacted in Case Study 1 to establish a pretext for communications over a secure messaging app. The threat actor ultimately shared phishing links during the course of the conversation. These phishing links, designed to steal credentials and authentication tokens for Entra ID, redirected the victim to document lures relevant to the ongoing conversation in order to avoid raising suspicion. Upon successful authentication using the stolen credentials, COLD RELIC registered and used a new MFA device in the SSO solution to retain access to the user account throughout the intrusion. </span></p>\n<p><span style=\"vertical-align: baseline;\">A redacted and abbreviated version of the social engineering conversation is included below (image generated with LLMs):</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--medium\n      \n      \n        h-c-grid__col\n        \n        h-c-grid__col--4 h-c-grid__col--offset-4\n        \n      \"\n      >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_2_Redacted_LLM-generated_depiction_.max-1000x1000.png\"\n        \n          alt=\"Redacted, LLM-generated depiction of observed threat actor social engineering engagement\">\n        \n        </a>\n      \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"xvobo\">Figure 2: Redacted, LLM-generated depiction of observed threat actor social engineering engagement</p></figcaption>\n      \n    </figure>\n\n  \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">By impersonating someone known in the same professional circles as the new target, COLD RELIC increased their chance of phishing success. Ultimately, in this case, COLD RELIC was able to obtain credentials to the organization and perform bulk download of files accessible in the compromised user’s cloud drive. </span></p>\n<h3><span style=\"vertical-align: baseline;\">Post-Compromise Activity</span></h3>\n<p><span style=\"vertical-align: baseline;\">After gaining initial access to an organization, COLD RELIC registers rogue MFA devices, passkeys, and MFA backup codes to establish long-term persistence. Once persistence is secured, COLD RELIC conducts aggressive data collection and exfiltration operations, accessing email, chat, and cloud storage repositories. While COLD RELIC's primary objective post-compromise is mass collection and download of files and email archives, it simultaneously performs targeted queries for specific terms of interest. In particular, COLD RELIC searches for credentials, personnel information, email archives (.pst files), and documents related to their collection requirements. Additionally, COLD RELIC seeks out data that can support subsequent spear-phishing operations, including organizational rosters, contact lists, resumes, and event schedules to build convincing pretexts for future targets.</span></p>\n<p><span style=\"vertical-align: baseline;\">Beyond seeking out data to support subsequent operations, COLD RELIC also appeared to repurpose the account used in Case Study 2 for follow on targeting. After the compromise, the encrypted messaging application used for the initial approach recorded that the threat actor changed their profile name to a completely new person. GTIG believes this new persona was likely used to continue to target other organizations in the same professional circles in a similar manner to both of the cases documented here.</span></p>\n<h3><span style=\"vertical-align: baseline;\">Outlook and Implications</span></h3>\n<p><span style=\"vertical-align: baseline;\">COLD RELIC’s campaigns demonstrate the convergence of human-centric social engineering and cloud identity abuse. By obtaining access to strategic personnel rosters and operational documents, Russian intelligence services turn legitimate business communications into attack vectors against trusted partners. Their ability to navigate across multiple cloud ecosystems highlights that organizations must defend their entire identity estate holistically. GTIG will continue to track, disrupt, and expose COLD RELIC infrastructure to protect global cloud users.</span></p>\n<h3><span style=\"vertical-align: baseline;\">Remediation and Hardening</span></h3>\n<p><span style=\"vertical-align: baseline;\">As previously mentioned, GTIG has observed COLD RELIC heavily rely on residential proxy networks in the course of their intrusions. Moreover, the group goes one step further in obfuscating their activities by selecting proxies that geolocate to the same approximate location as their victim users, thereby avoiding impossible travel or other heuristic-based alerting mechanisms. GTIG recommends enriching authentication logs with </span><a href=\"https://spur.us/blog/residential-proxy-lateral-movement-risk\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">residential proxy</span></a><span style=\"vertical-align: baseline;\"> and VPN IP reputation feeds, alerting on sudden residential ASN shifts for privileged accounts, and applying conditional access policies to block or detect logons from known proxy networks.</span></p>\n<p><span style=\"vertical-align: baseline;\">In some cases, the severity and scope of COLD RELIC intrusions were amplified due to users storing credentials and other secrets within their organization’s cloud storage platforms. This enabled COLD RELIC to pivot to additional accounts or services that it would not have otherwise been able to access, including users’ personal accounts which are typically unmonitored by their employers. Organizations can implement cloud storage Data Loss Prevention (DLP) policies, such as </span><a href=\"https://knowledge.workspace.google.com/admin/security/create-data-protection-rules\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Google Workspace’s Security &amp; Data Protection</span></a><span style=\"vertical-align: baseline;\">, to warn or block users attempting to create, upload, or externally share files matching sensitive patterns.</span></p>\n<p><span style=\"vertical-align: baseline;\">In at least one case, GTIG observed that a victim organization identified the intrusion and attempted to remediate COLD RELIC’s access to their cloud tenant via password resets for impacted accounts. However, because the threat actor hijacked sessions and the victim organization failed to also revoke all existing sessions for the accounts in question, COLD RELIC maintained access. In similar circumstances, such as Business Email Compromise (BEC) intrusions, GTIG recommends organizations revoke all user sessions in addition to forcing password resets for impacted accounts.</span><span style=\"vertical-align: baseline;\">Organizations should implement the following recommendations:</span></p>\n<ol>\n<li aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Identity &amp; Multi-Factor Authentication </span></p>\n</li>\n<ul>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Enforce Phishing-Resistant MFA (FIDO2 / WebAuthn): Replace SMS, voice, and push notifications with hardware security keys (e.g., Titan Security Keys). Hardware keys are bound to the origin URL and cannot be intercepted by AiTM reverse proxies or approved via fatigue attacks.</span></p>\n</li>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Restrict and Audit Passkey Registrations: Monitor identity logs for passkey registrations and rogue device enrollments, particularly on administrative accounts.</span></p>\n</li>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Harden MFA Registration: Require existing administrators or out-of-band identity verification to approve new MFA devices or secondary authenticators (such as Microsoft Authenticator or passkeys).</span></p>\n</li>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Organizations and individuals may consider enrolling in the </span><a href=\"https://landing.google.com/advancedprotection/\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Advanced Protection Program</span></a><span style=\"vertical-align: baseline;\">. </span></p>\n</li>\n</ul>\n<li aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Session Management &amp; Incident Response </span></p>\n</li>\n<ul>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Mandate Session &amp; OAuth Revocation in BEC Playbooks: When remediating suspected account compromise, password changes alone are insufficient. Administrators must immediately revoke all active browser sessions, refresh tokens, and authorized third-party OAuth app permissions across both Google Workspace and Microsoft Entra ID, and remove any unauthorized passkeys, backup codes, or MFA devices.</span></p>\n</li>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Audit Third-Party OAuth Grants: Continuously review authorized third-party applications in Google Workspace and Microsoft 365, flagging unexpected native desktop email clients (e.g., Thunderbird) or external mail services (e.g., Proton Mail).</span></p>\n</li>\n</ul>\n<li aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Network &amp; Infrastructure Controls </span></p>\n</li>\n<ul>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Detect &amp; Block Residential Proxy Logons: Restrict administrative access from consumer ISPs, VPNs, and known residential proxy ASN ranges (e.g., AS5650, AS20115).</span></p>\n</li>\n<li aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Cross-Cloud DLP Policies: Deploy Data Loss Prevention (DLP) rules across cloud storage (Google Drive, OneDrive, SharePoint) to alert on documents containing sensitive terms (e.g., passwords, roster, .pst) or to restrict mass external file-sharing.</span></p>\n</li>\n</ul>\n</ol></div>\n<div class=\"block-paragraph_advanced\"><h3><span style=\"vertical-align: baseline;\">Detections</span></h3>\n<div align=\"left\">\n<div style=\"color: #5f6368; overflow-x: auto; overflow-y: hidden; width: 100%;\">\n<div style=\"color: #5f6368; overflow-x: auto; overflow-y: hidden; width: 100%;\">\n<div style=\"color: #5f6368; overflow-x: auto; overflow-y: hidden; width: 100%;\">\n<div style=\"color: #5f6368; overflow-x: auto; overflow-y: hidden; width: 100%;\">\n<div style=\"color: #5f6368; overflow-x: auto; overflow-y: hidden; width: 100%;\"><table><colgroup><col/><col/><col/></colgroup>\n<thead>\n<tr>\n<th scope=\"col\" style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Observed Activity</strong></p>\n</th>\n<th scope=\"col\" style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">MITRE ATT&amp;CK Mapping</strong></p>\n</th>\n<th scope=\"col\" style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Detection Opportunity</strong></p>\n</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">MFA Fatigue Attack</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1621:</strong><span style=\"vertical-align: baseline;\"> Multi-Factor Authentication Request Generation</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Monitor for MFA Spam:</strong><span style=\"vertical-align: baseline;\"> Alert on multiple failed login or MFA challenge events for a single user in a short timeframe, followed closely by a successful authentication from the same IP address.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">OAuth Abuse &amp; Mail Sync</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1114.002:</strong><span style=\"vertical-align: baseline;\"> Email Collection: Remote Email Collection </span></p>\n<p><strong style=\"vertical-align: baseline;\">T1528:</strong><span style=\"vertical-align: baseline;\"> Steal Application Access Token</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Unapproved OAuth Scopes:</strong><span style=\"vertical-align: baseline;\"> Alert on new OAuth authorizations (</span><code style=\"vertical-align: baseline;\">Authorize</code><span style=\"vertical-align: baseline;\"> event in GWS OAuth logs) granting broad scopes (e.g., </span><code style=\"vertical-align: baseline;\">https://mail.google.com/</code><span style=\"vertical-align: baseline;\">) to non-standard or unapproved email clients like Proton or Thunderbird.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Automated Data Exfiltration Attempt</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1119:</strong><span style=\"vertical-align: baseline;\"> Automated Collection</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Customer Takeout Initiation:</strong><span style=\"vertical-align: baseline;\"> Generate alerts for the creation of any tenant-wide collection or export (e.g., </span><code style=\"vertical-align: baseline;\">Customer Takeout Created</code><span style=\"vertical-align: baseline;\"> in GWS Admin logs), as this is a technique that can result in data exfiltration of an entire tenant.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Data Theft via Bulk Download</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1530:</strong><span style=\"vertical-align: baseline;\"> Data from Cloud Storage </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Anomalous Download Volume:</strong><span style=\"vertical-align: baseline;\"> Monitor logs for spikes in file downloads (e.g. </span><code style=\"vertical-align: baseline;\">Download</code><span style=\"vertical-align: baseline;\"> events in GWS Drive logs) by a single user within a short period of time, particularly originating from non-corporate ASNs/IPs or known residential proxy networks.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Data Theft via External Sharing</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1567.002:</strong><span style=\"vertical-align: baseline;\"> Exfiltration to Cloud Storage</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">External File Sharing Anomalies:</strong><span style=\"vertical-align: baseline;\"> Monitor logs for a spike in documents being shared externally (e.g., GWS Drive </span><code style=\"vertical-align: baseline;\">User Sharing Permissions Change</code><span style=\"vertical-align: baseline;\"> or </span><code style=\"vertical-align: baseline;\">Visibility</code><span style=\"vertical-align: baseline;\"> changed to </span><code style=\"vertical-align: baseline;\">shared_externally</code><span style=\"vertical-align: baseline;\">), particularly to free email providers (e.g., </span><code style=\"vertical-align: baseline;\">@gmail.com</code><span style=\"vertical-align: baseline;\">).</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Device &amp; Passkey Enrollment</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1098.005:</strong><span style=\"vertical-align: baseline;\"> Account Manipulation: Device Registration</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">New MFA/Device Enrollment:</strong><span style=\"vertical-align: baseline;\"> Alert on new passkey enrollments (e.g., GWS </span><code style=\"vertical-align: baseline;\">Passkey enrolled</code><span style=\"vertical-align: baseline;\"> events) or device registrations (GWS </span><code style=\"vertical-align: baseline;\">Device Registered</code><span style=\"vertical-align: baseline;\"> events), particularly when originating from unexpected geographic locations or immediately following an MFA fatigue pattern.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Use of MFA Backup Codes</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1078.004:</strong><span style=\"vertical-align: baseline;\"> Valid Accounts: Cloud Accounts</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Backup Code Usage:</strong><span style=\"vertical-align: baseline;\"> Monitor logs for authentications with MFA backup codes (e.g., GWS User logs where the Login Challenge Type is </span><code style=\"vertical-align: baseline;\">Backup code</code><span style=\"vertical-align: baseline;\">), particularly if it originates from a non-corporate ASN or known residential proxy networks.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Impairing Defenses via Alert Deletion</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1562.008:</strong><span style=\"vertical-align: baseline;\"> Impair Defenses: Disable or Modify Cloud Logs / Alerts</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Alert Center Tampering:</strong><span style=\"vertical-align: baseline;\"> Alert on any user modifying or deleting security alerts (e.g., </span><code style=\"vertical-align: baseline;\">Batch Delete Operation Performed</code><span style=\"vertical-align: baseline;\"> events in GWS Admin logs), particularly if the user is deleting alerts related to their own account or critical severity alerts (e.g., GWS Government-backed attack alerts).</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Internal Reconnaissance via User List</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1087.004:</strong><span style=\"vertical-align: baseline;\"> Account Discovery: Cloud Account</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Directory Export:</strong><span style=\"vertical-align: baseline;\"> Alert on domain user exports (e.g., </span><code style=\"vertical-align: baseline;\">User List Download</code><span style=\"vertical-align: baseline;\"> events in GWS Admin logs). While admins may do this legitimately, it should be heavily scrutinized, particularly when performed from unknown devices.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Forensic Counter-Investigation</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1082:</strong><span style=\"vertical-align: baseline;\"> System Information Discovery</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Admin Log Querying:</strong><span style=\"vertical-align: baseline;\"> Monitor logs for users performing audit log queries (e.g., </span><code style=\"vertical-align: baseline;\">Investigation Query</code><span style=\"vertical-align: baseline;\"> events in GWS Admin logs). Unexpected querying of security, access, or audit logs may indicate a threat actor attempting to perform counter-forensics.</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Searching for Passwords &amp; Archives</strong><span style=\"vertical-align: baseline;\"> </span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">T1083:</strong><span style=\"vertical-align: baseline;\"> File and Directory Discovery </span></p>\n<p><strong style=\"vertical-align: baseline;\">T1552.001:</strong><span style=\"vertical-align: baseline;\"> Credentials In Files</span></p>\n</td>\n<td style=\"vertical-align: top; border: 1px solid #000000; padding: 16px;\">\n<p><strong style=\"vertical-align: baseline;\">Sensitive File Search:</strong><span style=\"vertical-align: baseline;\"> Monitor logs for file directory keyword searches (e.g., </span><code style=\"vertical-align: baseline;\">Item search performed</code><span style=\"vertical-align: baseline;\"> events in GWS Drive logs) containing terms related to archives or credentials such as </span><code style=\"vertical-align: baseline;\">.pst</code><span style=\"vertical-align: baseline;\">, </span><code style=\"vertical-align: baseline;\">.bak</code><span style=\"vertical-align: baseline;\">, </span><code style=\"vertical-align: baseline;\">password</code><span style=\"vertical-align: baseline;\">, </span><code style=\"vertical-align: baseline;\">cred</code><span style=\"vertical-align: baseline;\">, or repeated accesses/downloads of documents explicitly titled with credential-related keywords.</span></p>\n</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n</div>\n</div>\n</div>\n</div></div>\n<div class=\"block-paragraph_advanced\"><h3><span style=\"vertical-align: baseline;\">Google Security Operations (SecOps)</span></h3>\n<p><span style=\"vertical-align: baseline;\">Google SecOps customers have access to these broad category rules and more under the Mandiant Frontline Threats rule pack. The activity discussed in the blog post is detected in Google SecOps under the rule names:</span></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Successful MFA Fatigue Attack</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Customer Takeout Initiated</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Alert Center Alert Deletion</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Directory User List Download</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Drive Bulk External or Freemail File Sharing</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace Device or Passkey Enrollment Following MFA Fatigue</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align: baseline;\">Google Workspace OAuth Broad Mail Scope Granted to Unapproved Client</span></p>\n</li>\n</ul></div>"
+  },
+  "microsoft_threat_intel:6604e13f2ab0": {
+   "source_id": "microsoft_threat_intel",
+   "title": "The risks of device code authentication for AI coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+   "published_raw": "Tue, 17 Nov 2026 15:00:00 +0000",
+   "fetched_at": "2026-11-18T07:53:41.870196Z",
+   "excerpt": "<p>Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/\">The risks of device code authentication for AI coding agents</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>"
+  },
+  "unit42:43f2b7c2fbb3": {
+   "source_id": "unit42",
+   "title": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
+   "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/",
+   "published_raw": "Tue, 17 Nov 2026 20:43:14 +0000",
+   "fetched_at": "2026-11-18T07:53:42.222795Z",
+   "excerpt": "<p>The OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites, highlighting the need for strict segmentation.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/\">Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>"
+  },
+  "datadog_security_labs:a40097099a90": {
+   "source_id": "datadog_security_labs",
+   "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
+   "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+   "published_raw": "2026-11-17T00:00:00Z",
+   "fetched_at": "2026-11-18T07:53:42.327919Z",
+   "excerpt": "Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it."
+  },
+  "huntress_blog:acd361cd5b7a": {
+   "source_id": "huntress_blog",
+   "title": "Huntress Delivers 24/7 Response for Microsoft Defender Incidents Across Endpoints and Microsoft 365",
+   "url": "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365",
+   "published_raw": "2026-11-17T14:00:00Z",
+   "fetched_at": "2026-11-18T07:53:42.453810Z",
+   "excerpt": "The Huntress Agentic Security Platform now sees incidents from Defender for Identity, Defender for Office 365, Defender for Cloud Apps, and Entra ID Protection. The new data already helped uncover a token-replay campaign that hit 97 accounts at 79 organizations."
+  },
+  "bleepingcomputer:56d98f6f43c2": {
+   "source_id": "bleepingcomputer",
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "published_raw": "Tue, 17 Nov 2026 18:04:21 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]"
+  },
+  "bleepingcomputer:cbc91379ad0e": {
+   "source_id": "bleepingcomputer",
+   "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+   "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+   "published_raw": "Tue, 17 Nov 2026 16:27:17 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]"
+  },
+  "bleepingcomputer:6089ef736c75": {
+   "source_id": "bleepingcomputer",
+   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+   "published_raw": "Tue, 17 Nov 2026 15:51:21 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]"
+  },
+  "bleepingcomputer:d60d6dbe547d": {
+   "source_id": "bleepingcomputer",
+   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+   "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+   "published_raw": "Tue, 17 Nov 2026 14:24:07 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]"
+  },
+  "bleepingcomputer:ce14fc31e773": {
+   "source_id": "bleepingcomputer",
+   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "published_raw": "Tue, 17 Nov 2026 13:21:24 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]"
+  },
+  "bleepingcomputer:2a89a3b48785": {
+   "source_id": "bleepingcomputer",
+   "title": "Tor releases emergency update amid ongoing DDoS attack",
+   "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+   "published_raw": "Tue, 17 Nov 2026 13:04:15 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]"
+  },
+  "bleepingcomputer:8d590059c666": {
+   "source_id": "bleepingcomputer",
+   "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+   "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+   "published_raw": "Tue, 17 Nov 2026 11:00:00 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]"
+  },
+  "bleepingcomputer:d69abafe058d": {
+   "source_id": "bleepingcomputer",
+   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+   "published_raw": "Tue, 17 Nov 2026 10:01:11 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.  [...]"
+  },
+  "bleepingcomputer:dc73a46310e9": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+   "published_raw": "Tue, 17 Nov 2026 06:19:51 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]"
+  },
+  "bleepingcomputer:7a28afcc0919": {
+   "source_id": "bleepingcomputer",
+   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+   "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+   "published_raw": "Tue, 17 Nov 2026 04:44:22 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]"
+  },
+  "bleepingcomputer:1817d151d487": {
+   "source_id": "bleepingcomputer",
+   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+   "published_raw": "Tue, 17 Nov 2026 03:35:42 -0500",
+   "fetched_at": "2026-11-18T07:53:56.241395Z",
+   "excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]"
+  },
+  "the_record:8f75784be3f3": {
+   "source_id": "the_record",
+   "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
+   "url": "https://therecord.media/optimizely-malicious-code-customer-sites",
+   "published_raw": "Tue, 17 Nov 2026 21:20:00 GMT",
+   "fetched_at": "2026-11-18T07:53:56.378438Z",
+   "excerpt": "Researchers said they found malicious JavaScript code on 178 different widely visited websites run through the Optimizely Web experimentation platform. The company confirmed the breach."
+  },
+  "the_record:1e05409f353f": {
+   "source_id": "the_record",
+   "title": "Kazakh ransomware hacking suspect extradited from Italy",
+   "url": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+   "published_raw": "Tue, 17 Nov 2026 19:09:00 GMT",
+   "fetched_at": "2026-11-18T07:53:56.378438Z",
+   "excerpt": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx."
+  },
+  "the_record:3910748ba894": {
+   "source_id": "the_record",
+   "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+   "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+   "published_raw": "Tue, 17 Nov 2026 18:50:00 GMT",
+   "fetched_at": "2026-11-18T07:53:56.378438Z",
+   "excerpt": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity."
+  },
+  "the_record:7e0cfef95a8a": {
+   "source_id": "the_record",
+   "title": "California fines Hertz $1.5 million for breaking state data privacy law",
+   "url": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
+   "published_raw": "Tue, 17 Nov 2026 17:13:00 GMT",
+   "fetched_at": "2026-11-18T07:53:56.378438Z",
+   "excerpt": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA)."
+  },
+  "the_record:bb59c1759a0e": {
+   "source_id": "the_record",
+   "title": "NSA Net, agency’s classified internal network, faces unspecified disruptions",
+   "url": "https://therecord.media/nsa-net-disruptions",
+   "published_raw": "Tue, 17 Nov 2026 16:21:00 GMT",
+   "fetched_at": "2026-11-18T07:53:56.378438Z",
+   "excerpt": "The NSA has ordered staggered arrivals at its headquarters at Fort Meade, Maryland, as technicians work to fully restore the classified internal network NSA Net."
+  },
+  "the_hacker_news:1df53018af16": {
+   "source_id": "the_hacker_news",
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "published_raw": "Wed, 18 Nov 2026 12:15:26 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of writing, both the"
+  },
+  "the_hacker_news:ee9a23761ba0": {
+   "source_id": "the_hacker_news",
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "published_raw": "Wed, 18 Nov 2026 11:28:04 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged"
+  },
+  "the_hacker_news:223101d57350": {
+   "source_id": "the_hacker_news",
+   "title": "Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "published_raw": "Wed, 18 Nov 2026 09:57:41 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as"
+  },
+  "the_hacker_news:6b530aaeb2ca": {
+   "source_id": "the_hacker_news",
+   "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+   "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+   "published_raw": "Wed, 18 Nov 2026 01:04:20 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send"
+  },
+  "the_hacker_news:7a7b2eaa4aa9": {
+   "source_id": "the_hacker_news",
+   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "published_raw": "Tue, 17 Nov 2026 20:47:36 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice."
+  },
+  "the_hacker_news:033b7c10af0d": {
+   "source_id": "the_hacker_news",
+   "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+   "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+   "published_raw": "Tue, 17 Nov 2026 20:47:28 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report"
+  },
+  "the_hacker_news:6085ef54790f": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+   "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+   "published_raw": "Tue, 17 Nov 2026 17:55:06 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a"
+  },
+  "the_hacker_news:b69860df4218": {
+   "source_id": "the_hacker_news",
+   "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+   "published_raw": "Tue, 17 Nov 2026 17:44:36 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.\n\nNik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa"
+  },
+  "the_hacker_news:5e43b1695ab6": {
+   "source_id": "the_hacker_news",
+   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+   "published_raw": "Tue, 17 Nov 2026 16:50:18 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026."
+  },
+  "the_hacker_news:cb74b2746cc6": {
+   "source_id": "the_hacker_news",
+   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+   "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+   "published_raw": "Tue, 17 Nov 2026 16:37:31 +0530",
+   "fetched_at": "2026-11-18T07:53:56.942249Z",
+   "excerpt": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.\n\n\"Before granting an app such"
+  },
+  "securityweek:536b09cc432f": {
+   "source_id": "securityweek",
+   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "published_raw": "Wed, 18 Nov 2026 07:43:34 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work</p>\n<p>The post <a href=\"https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/\">Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:961f8f5f38c0": {
+   "source_id": "securityweek",
+   "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+   "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+   "published_raw": "Wed, 18 Nov 2026 02:15:07 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency.</p>\n<p>The post <a href=\"https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/\">Classified Communications Network at the National Security Agency Goes Down, Defense Official Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:0d86a2adddb4": {
+   "source_id": "securityweek",
+   "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+   "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+   "published_raw": "Tue, 17 Nov 2026 18:16:17 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/\">AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:bef9256276f3": {
+   "source_id": "securityweek",
+   "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+   "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+   "published_raw": "Tue, 17 Nov 2026 14:55:30 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>The company made the incident public on Monday, November 16, five days after filing a complaint with authorities.</p>\n<p>The post <a href=\"https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/\">Market Research Giant Ipsos Investigating Breach of Internal System </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:baa7bfff5325": {
+   "source_id": "securityweek",
+   "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+   "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+   "published_raw": "Tue, 17 Nov 2026 14:14:24 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed.</p>\n<p>The post <a href=\"https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/\">Fandango Warns Ticket Buyers of Payment Card Data Exposure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:e72c1c696810": {
+   "source_id": "securityweek",
+   "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+   "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+   "published_raw": "Tue, 17 Nov 2026 14:00:00 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Pretxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm.</p>\n<p>The post <a href=\"https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/\">Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:d3d69b3857dc": {
+   "source_id": "securityweek",
+   "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+   "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+   "published_raw": "Tue, 17 Nov 2026 13:24:43 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files.</p>\n<p>The post <a href=\"https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/\">MSP ScreenConnect Servers Targeted in Month-Long Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:c0368bafbfa0": {
+   "source_id": "securityweek",
+   "title": "Access Dental Management Data Breach Impacts Over 340,000",
+   "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+   "published_raw": "Tue, 17 Nov 2026 12:59:04 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Hackers breached Access Dental’s network and stole personal, health, and insurance information.</p>\n<p>The post <a href=\"https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/\">Access Dental Management Data Breach Impacts Over 340,000</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:c939ea83a8db": {
+   "source_id": "securityweek",
+   "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
+   "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
+   "published_raw": "Tue, 17 Nov 2026 12:51:54 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>Led by NEA and supported by existing investors, the funding brings the company’s valuation to $1 billion.</p>\n<p>The post <a href=\"https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/\">Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:8d35578b5eb2": {
+   "source_id": "securityweek",
+   "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+   "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+   "published_raw": "Tue, 17 Nov 2026 12:28:45 +0000",
+   "fetched_at": "2026-11-18T07:53:57.104131Z",
+   "excerpt": "<p>The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/\">N-able Kills Legacy APIs, Patches 17 N-central Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-17T08:25:12.962160Z"
+ "updated_at": "2026-11-18T07:53:35.703451Z"
 }
