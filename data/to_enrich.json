@@ -1,7 +1,21 @@
 {
- "generated_at": "2026-11-19T07:51:53.153804Z",
+ "generated_at": "2026-11-20T07:41:22.361545Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "18035ec21cb3",
+   "title": "PHP komt vanmiddag met geplande kritieke beveiligingsupdate",
+   "url": "https://www.security.nl/posting/962266/PHP+komt+vanmiddag+met+geplande+kritieke+beveiligingsupdate?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-19T08:26:21Z",
+   "excerpt": "De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...",
+   "preliminary_score": 91,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
   {
    "id": "9d15f9df97e1",
    "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
@@ -10,7 +24,7 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-16T10:31:31Z",
    "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
-   "preliminary_score": 90,
+   "preliminary_score": 89,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "attack_techniques"
@@ -24,41 +38,10 @@
    "source_name": "NCSC-NL beveiligingsadviezen",
    "published_at": "2026-11-18T16:07:19Z",
    "excerpt": "F5 Networks heeft meerdere kwetsbaarheden verholpen in NGINX Plus en NGINX Open Source. De kwetsbaarheden betreffen verschillende onderdelen en configuraties van NGINX. De belangrijkste kwetsbaarheid met kenmerk CVE-2026-123007 stelt kwaadwillenden in staat om willekeurige code uit te voeren op het onderliggende systeem. Het NCSC verwacht dat er op korte termijn proof of concept code beschikbaar komt, waarna exploitatie op grote schaal verwacht wordt.",
-   "preliminary_score": 89,
+   "preliminary_score": 88,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
-   ]
-  },
-  {
-   "id": "a3b0a664adc0",
-   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-   "url": "https://blog.talosintelligence.com/java4shell/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T01:53:03Z",
-   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "vulnerability_management"
-   ]
-  },
-  {
-   "id": "2840a699d328",
-   "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
-   "source_id": "google_threat_intel",
-   "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-11-17T14:00:00Z",
-   "excerpt": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional n",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity",
-    "malware"
    ]
   },
   {
@@ -76,46 +59,65 @@
    ]
   },
   {
-   "id": "acd361cd5b7a",
-   "title": "Huntress Delivers 24/7 Response for Microsoft Defender Incidents Across Endpoints and Microsoft 365",
-   "url": "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365",
-   "source_id": "huntress_blog",
-   "source_name": "Huntress blog",
-   "published_at": "2026-11-17T14:00:00Z",
-   "excerpt": "The Huntress Agentic Security Platform now sees incidents from Defender for Identity, Defender for Office 365, Defender for Cloud Apps, and Entra ID Protection. The new data already helped uncover a token-replay campaign that hit 97 accounts at 79 organizations.",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "threat_intelligence",
-    "phishing_identity",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "cab523c1e2b5",
-   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-18T23:08:33Z",
-   "excerpt": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "ransomware"
-   ]
-  },
-  {
-   "id": "c2fb696d2a52",
-   "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+   "id": "01832162032c",
+   "title": "ARMORY CASTLE Exploits vSphere",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
    "source_id": "google_threat_intel",
    "source_name": "Google Threat Intelligence (Mandiant)",
-   "published_at": "2026-11-16T14:00:00Z",
-   "excerpt": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational velocity. Automated Vulnerability Research and Exploitation: Threat actors are increasingly leveraging LLMs and agentic frameworks to fully automate the reverse engineering of patches via differential",
-   "preliminary_score": 83,
+   "published_at": "2026-11-19T14:00:00Z",
+   "excerpt": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity involving the exploitation of a vulnerability in VMware vCenter and the deployment of additional malware families. On Nov. 19, 2026, VMware disclosed CVE-2026-123890, which impacts VMware vCenter Server deployments. vSphere consists of both ESXi (the hypervisor) and vCenter Server. The vCenter server is a centralized platform deployed as a Photon Linux virtual appliance and is used to configure, control, and monitor ESXi host environments. CVE-2026-123890 is an unauthenticated Secure Remote Password (SRP-6a) session key disclosure vulnerability over Distributed Computing Environment/Remote Procedure ",
+   "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "threat_intelligence"
+    "attack_techniques",
+    "threat_intelligence",
+    "malware"
+   ]
+  },
+  {
+   "id": "3d63ab9757e3",
+   "title": "RMM Alerts at 2 AM: An MSP and SOC Incident Response Story",
+   "url": "https://www.huntress.com/blog/rmm-alerts-msp-soc-incident-response",
+   "source_id": "huntress_blog",
+   "source_name": "Huntress blog",
+   "published_at": "2026-11-19T08:00:00Z",
+   "excerpt": "One compromised account, two rogue ScreenConnect deployments, and $3M in downtime. See how TruePath IT and the Huntress SOC handled RMM alerts at 2am.",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "siem_detection",
+    "supply_chain",
+    "incident_response"
+   ]
+  },
+  {
+   "id": "b747ce58ac6e",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-20T00:26:25Z",
+   "excerpt": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+   ]
+  },
+  {
+   "id": "dc6901c8a6d8",
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-20T06:33:31Z",
+   "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management"
    ]
   },
   {
