@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:41:22.361545Z",
+ "generated_at": "2026-11-21T07:39:04.022542Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,10 +10,24 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-19T08:26:21Z",
    "excerpt": "De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...",
-   "preliminary_score": 91,
+   "preliminary_score": 90,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
+   ]
+  },
+  {
+   "id": "ff3a27cdb586",
+   "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0510",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-11-20T09:14:55Z",
+   "excerpt": "VMware heeft kwetsbaarheden verholpen in VMware vCenter Directory Service, VMware Telco Cloud Platform, VMware SDDC Manager en VMware Tools voor Windows. De kwetsbaarheden betreffen meerdere VMware-producten en versies. In VMware vCenter Directory Service en VMware Telco Cloud Platform kunnen authenticatiemechanismen worden omzeild, waardoor ongeautoriseerde toegang mogelijk is. VMware SDDC Manager bevat meerdere kwetsbaarheden: een SQL-injectie door onvoldoende sanitatie van gebruikersinvoer, een command-injectie waarbij een geauthenticeerde gebruiker willekeurige commando's kan uitvoeren, en een lokale privilege-escalatie waarmee een gebruiker met lokale toegang zijn rechten kan verhogen. VMware Tools voor Windows heeft een kwetsbaarheid waarbij de handtekeningverificatie van SAML-tokens kan worden omzeild, wat invloed heeft op authenticatiemechanismen. De kwetsbaarheden zijn aanwezig in specifieke versies van de genoemde producten. De kwetsbaarheid met kenmerk CVE-2026-123890 wordt al actief misbruikt.",
+   "preliminary_score": 88,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
    ]
   },
   {
@@ -24,7 +38,7 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-16T10:31:31Z",
    "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
-   "preliminary_score": 89,
+   "preliminary_score": 88,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "attack_techniques"
@@ -38,24 +52,10 @@
    "source_name": "NCSC-NL beveiligingsadviezen",
    "published_at": "2026-11-18T16:07:19Z",
    "excerpt": "F5 Networks heeft meerdere kwetsbaarheden verholpen in NGINX Plus en NGINX Open Source. De kwetsbaarheden betreffen verschillende onderdelen en configuraties van NGINX. De belangrijkste kwetsbaarheid met kenmerk CVE-2026-123007 stelt kwaadwillenden in staat om willekeurige code uit te voeren op het onderliggende systeem. Het NCSC verwacht dat er op korte termijn proof of concept code beschikbaar komt, waarna exploitatie op grote schaal verwacht wordt.",
-   "preliminary_score": 88,
+   "preliminary_score": 87,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
-   ]
-  },
-  {
-   "id": "4f0864e5e345",
-   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-   "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T11:00:00Z",
-   "excerpt": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-   "preliminary_score": 84,
-   "preliminary_topics": [
-    "attack_techniques",
-    "malware"
    ]
   },
   {
@@ -76,6 +76,35 @@
    ]
   },
   {
+   "id": "a3b0a664adc0",
+   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+   "url": "https://blog.talosintelligence.com/java4shell/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-11-18T01:53:03Z",
+   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques",
+    "vulnerability_management"
+   ]
+  },
+  {
+   "id": "4f0864e5e345",
+   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
+   "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
+   "source_id": "cisco_talos",
+   "source_name": "Cisco Talos",
+   "published_at": "2026-11-18T11:00:00Z",
+   "excerpt": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "attack_techniques",
+    "malware"
+   ]
+  },
+  {
    "id": "3d63ab9757e3",
    "title": "RMM Alerts at 2 AM: An MSP and SOC Incident Response Story",
    "url": "https://www.huntress.com/blog/rmm-alerts-msp-soc-incident-response",
@@ -83,7 +112,7 @@
    "source_name": "Huntress blog",
    "published_at": "2026-11-19T08:00:00Z",
    "excerpt": "One compromised account, two rogue ScreenConnect deployments, and $3M in downtime. See how TruePath IT and the Huntress SOC handled RMM alerts at 2am.",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "incidents_breaches",
     "siem_detection",
@@ -99,56 +128,24 @@
    "source_name": "BleepingComputer",
    "published_at": "2026-11-20T00:26:25Z",
    "excerpt": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities"
    ]
   },
   {
-   "id": "dc6901c8a6d8",
-   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-20T06:33:31Z",
-   "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-   "preliminary_score": 84,
+   "id": "22f040ad332e",
+   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-19T16:28:23Z",
+   "excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management"
-   ]
-  },
-  {
-   "id": "225dafd7d400",
-   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-11-17T00:08:41Z",
-   "excerpt": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "threat_intelligence",
-    "phishing_identity",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "24b3e7c01273",
-   "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-   "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-11-16T23:00:55Z",
-   "excerpt": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "attack_techniques",
-    "threat_intelligence",
-    "malware"
+    "web_software_security"
    ]
   }
  ]
