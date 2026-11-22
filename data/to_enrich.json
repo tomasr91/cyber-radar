@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:39:04.022542Z",
+ "generated_at": "2026-11-22T07:22:39.815056Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,7 +10,7 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-19T08:26:21Z",
    "excerpt": "De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...",
-   "preliminary_score": 90,
+   "preliminary_score": 89,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
@@ -59,6 +59,20 @@
    ]
   },
   {
+   "id": "069e9d2518d3",
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-21T22:59:58Z",
+   "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "cloud_attacks"
+   ]
+  },
+  {
    "id": "01832162032c",
    "title": "ARMORY CASTLE Exploits vSphere",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
@@ -66,41 +80,12 @@
    "source_name": "Google Threat Intelligence (Mandiant)",
    "published_at": "2026-11-19T14:00:00Z",
    "excerpt": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’s post-exploitation operations. In this blog we describe additional post-compromise activity involving the exploitation of a vulnerability in VMware vCenter and the deployment of additional malware families. On Nov. 19, 2026, VMware disclosed CVE-2026-123890, which impacts VMware vCenter Server deployments. vSphere consists of both ESXi (the hypervisor) and vCenter Server. The vCenter server is a centralized platform deployed as a Photon Linux virtual appliance and is used to configure, control, and monitor ESXi host environments. CVE-2026-123890 is an unauthenticated Secure Remote Password (SRP-6a) session key disclosure vulnerability over Distributed Computing Environment/Remote Procedure ",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
     "attack_techniques",
     "threat_intelligence",
-    "malware"
-   ]
-  },
-  {
-   "id": "a3b0a664adc0",
-   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-   "url": "https://blog.talosintelligence.com/java4shell/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T01:53:03Z",
-   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "vulnerability_management"
-   ]
-  },
-  {
-   "id": "4f0864e5e345",
-   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-   "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T11:00:00Z",
-   "excerpt": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "attack_techniques",
     "malware"
    ]
   },
@@ -121,31 +106,44 @@
    ]
   },
   {
-   "id": "b747ce58ac6e",
-   "title": "VMware patches vCenter zero-day exploited in attacks since September",
-   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "id": "8aa9f2e23f66",
+   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
    "source_id": "bleepingcomputer",
    "source_name": "BleepingComputer",
-   "published_at": "2026-11-20T00:26:25Z",
-   "excerpt": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+   "published_at": "2026-11-20T15:58:06Z",
+   "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
    "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
+    "incidents_breaches"
    ]
   },
   {
-   "id": "22f040ad332e",
-   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-19T16:28:23Z",
-   "excerpt": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+   "id": "6cc616c5c6e7",
+   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-20T17:57:20Z",
+   "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
    "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "web_software_security"
+    "vulnerabilities_cve"
+   ]
+  },
+  {
+   "id": "9dbbebdeb6a3",
+   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-20T16:58:16Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "attack_techniques",
+    "malware",
+    "incident_response"
    ]
   }
  ]
