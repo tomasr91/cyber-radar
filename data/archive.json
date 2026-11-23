@@ -488,14 +488,6 @@
    "fetched_at": "2026-11-03T21:07:37.572416Z",
    "excerpt": "<p>God damn it, we&apos;re back in the room again. </p><p>Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScaler CVEs before Citrix had woken up</p>"
   },
-  "watchtowr_labs:ddab84c94700": {
-   "source_id": "watchtowr_labs",
-   "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
-   "url": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
-   "published_raw": "Wed, 23 Sep 2026 23:19:19 GMT",
-   "fetched_at": "2026-11-03T21:07:37.572416Z",
-   "excerpt": "<p>Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We&apos;re back. Sorry.</p><figure class=\"kg-card kg-image-card\"><img src=\"https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/2026/09/image.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"530\" height=\"668\"></figure><p>We&apos;ve been watching the onslaught of vulnerabilities flood the internet. Every man, dog, <strong>and</strong> their grandmas (apparently?) are now using LLMs to find and reproduce vulnerabilities - it&#x2019;</p>"
-  },
   "cisco_talos:5b0ac3b976a1": {
    "source_id": "cisco_talos",
    "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
@@ -975,14 +967,6 @@
    "published_raw": "2026-10-05T00:00:00Z",
    "fetched_at": "2026-11-03T21:07:40.181305Z",
    "excerpt": "We analyzed RBAC bindings across over 65,000 Kubernetes clusters to find dangerous permissions granted to system:anonymous, system:unauthenticated, and system:authenticated."
-  },
-  "datadog_security_labs:f825e5f840c9": {
-   "source_id": "datadog_security_labs",
-   "title": "Discovering and exploiting a remote code execution vulnerability in OpenCode (GHSA-632h-h47v-g4x4)",
-   "url": "https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/",
-   "published_raw": "2026-09-24T00:00:00Z",
-   "fetched_at": "2026-11-03T21:07:40.181305Z",
-   "excerpt": "Datadog Security Labs discovered GHSA-632h-h47v-g4x4, a vulnerability in OpenCode's upgrade endpoint that, under certain conditions, allowed malicious webpages to execute code on developers' machines."
   },
   "huntress_blog:e808ee03c7b1": {
    "source_id": "huntress_blog",
@@ -7831,7 +7815,39 @@
    "published_raw": "Sat, 21 Nov 2026 12:08:50 +0000",
    "fetched_at": "2026-11-22T07:22:48.329850Z",
    "excerpt": "<p>A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.</p>\n<p>The post <a href=\"https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/\">Amazon: China-Linked Hackers&#8217; AI Agents Exploited Medical Software Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "bleepingcomputer:0cd020d52939": {
+   "source_id": "bleepingcomputer",
+   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "published_raw": "Mon, 23 Nov 2026 02:44:19 -0500",
+   "fetched_at": "2026-11-23T08:06:52.288402Z",
+   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]"
+  },
+  "bleepingcomputer:d30ef6e5d40a": {
+   "source_id": "bleepingcomputer",
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "published_raw": "Sun, 22 Nov 2026 13:45:37 -0500",
+   "fetched_at": "2026-11-23T08:06:52.288402Z",
+   "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]"
+  },
+  "bleepingcomputer:c5cf84a8db2e": {
+   "source_id": "bleepingcomputer",
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "published_raw": "Sun, 22 Nov 2026 10:43:04 -0500",
+   "fetched_at": "2026-11-23T08:06:52.288402Z",
+   "excerpt": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]"
+  },
+  "bleepingcomputer:06c9fa474fde": {
+   "source_id": "bleepingcomputer",
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "published_raw": "Sun, 22 Nov 2026 10:15:25 -0500",
+   "fetched_at": "2026-11-23T08:06:52.288402Z",
+   "excerpt": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]"
   }
  },
- "updated_at": "2026-11-22T07:22:39.815056Z"
+ "updated_at": "2026-11-23T08:06:45.018653Z"
 }
