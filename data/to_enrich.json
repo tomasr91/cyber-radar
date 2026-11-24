@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T08:06:45.018653Z",
+ "generated_at": "2026-11-24T10:21:27.655507Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,24 +10,10 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-19T08:26:21Z",
    "excerpt": "De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...",
-   "preliminary_score": 89,
+   "preliminary_score": 88,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
-   ]
-  },
-  {
-   "id": "ff3a27cdb586",
-   "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten",
-   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0510",
-   "source_id": "ncsc_nl_advisories",
-   "source_name": "NCSC-NL beveiligingsadviezen",
-   "published_at": "2026-11-20T09:14:55Z",
-   "excerpt": "VMware heeft kwetsbaarheden verholpen in VMware vCenter Directory Service, VMware Telco Cloud Platform, VMware SDDC Manager en VMware Tools voor Windows. De kwetsbaarheden betreffen meerdere VMware-producten en versies. In VMware vCenter Directory Service en VMware Telco Cloud Platform kunnen authenticatiemechanismen worden omzeild, waardoor ongeautoriseerde toegang mogelijk is. VMware SDDC Manager bevat meerdere kwetsbaarheden: een SQL-injectie door onvoldoende sanitatie van gebruikersinvoer, een command-injectie waarbij een geauthenticeerde gebruiker willekeurige commando's kan uitvoeren, en een lokale privilege-escalatie waarmee een gebruiker met lokale toegang zijn rechten kan verhogen. VMware Tools voor Windows heeft een kwetsbaarheid waarbij de handtekeningverificatie van SAML-tokens kan worden omzeild, wat invloed heeft op authenticatiemechanismen. De kwetsbaarheden zijn aanwezig in specifieke versies van de genoemde producten. De kwetsbaarheid met kenmerk CVE-2026-123890 wordt al actief misbruikt.",
-   "preliminary_score": 87,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
    ]
   },
   {
@@ -45,6 +31,20 @@
    ]
   },
   {
+   "id": "ff3a27cdb586",
+   "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0510",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-11-20T09:14:55Z",
+   "excerpt": "VMware heeft kwetsbaarheden verholpen in VMware vCenter Directory Service, VMware Telco Cloud Platform, VMware SDDC Manager en VMware Tools voor Windows. De kwetsbaarheden betreffen meerdere VMware-producten en versies. In VMware vCenter Directory Service en VMware Telco Cloud Platform kunnen authenticatiemechanismen worden omzeild, waardoor ongeautoriseerde toegang mogelijk is. VMware SDDC Manager bevat meerdere kwetsbaarheden: een SQL-injectie door onvoldoende sanitatie van gebruikersinvoer, een command-injectie waarbij een geauthenticeerde gebruiker willekeurige commando's kan uitvoeren, en een lokale privilege-escalatie waarmee een gebruiker met lokale toegang zijn rechten kan verhogen. VMware Tools voor Windows heeft een kwetsbaarheid waarbij de handtekeningverificatie van SAML-tokens kan worden omzeild, wat invloed heeft op authenticatiemechanismen. De kwetsbaarheden zijn aanwezig in specifieke versies van de genoemde producten. De kwetsbaarheid met kenmerk CVE-2026-123890 wordt al actief misbruikt.",
+   "preliminary_score": 86,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities"
+   ]
+  },
+  {
    "id": "6913e89081cc",
    "title": "NCSC-2026-0506 [1.00] [H/H] Kwetsbaarheden verholpen in NGINX door F5 Networks",
    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0506",
@@ -52,9 +52,25 @@
    "source_name": "NCSC-NL beveiligingsadviezen",
    "published_at": "2026-11-18T16:07:19Z",
    "excerpt": "F5 Networks heeft meerdere kwetsbaarheden verholpen in NGINX Plus en NGINX Open Source. De kwetsbaarheden betreffen verschillende onderdelen en configuraties van NGINX. De belangrijkste kwetsbaarheid met kenmerk CVE-2026-123007 stelt kwaadwillenden in staat om willekeurige code uit te voeren op het onderliggende systeem. Het NCSC verwacht dat er op korte termijn proof of concept code beschikbaar komt, waarna exploitatie op grote schaal verwacht wordt.",
-   "preliminary_score": 86,
+   "preliminary_score": 85,
    "preliminary_topics": [
     "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
+  {
+   "id": "14a00d8221c4",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-24T06:02:45Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "exploited_vulnerabilities",
+    "vulnerability_management",
     "web_software_security"
    ]
   },
@@ -66,38 +82,10 @@
    "source_name": "BleepingComputer",
    "published_at": "2026-11-23T07:44:19Z",
    "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-   "preliminary_score": 84,
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities"
-   ]
-  },
-  {
-   "id": "069e9d2518d3",
-   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-21T22:59:58Z",
-   "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "cloud_attacks"
-   ]
-  },
-  {
-   "id": "7e3153a77bb3",
-   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-21T18:01:58Z",
-   "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "incidents_breaches"
    ]
   },
   {
@@ -116,32 +104,48 @@
    ]
   },
   {
-   "id": "a3b0a664adc0",
-   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-   "url": "https://blog.talosintelligence.com/java4shell/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T01:53:03Z",
-   "excerpt": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-   "preliminary_score": 82,
+   "id": "37d815c4a561",
+   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+   "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "published_at": "2026-11-23T20:54:51Z",
+   "excerpt": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques",
-    "vulnerability_management"
+    "incidents_breaches",
+    "threat_intelligence"
    ]
   },
   {
-   "id": "4f0864e5e345",
-   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-   "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
-   "source_id": "cisco_talos",
-   "source_name": "Cisco Talos",
-   "published_at": "2026-11-18T11:00:00Z",
-   "excerpt": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-   "preliminary_score": 82,
+   "id": "1ab128c432ff",
+   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+   "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-23T17:45:15Z",
+   "excerpt": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\"",
+   "preliminary_score": 83,
    "preliminary_topics": [
-    "attack_techniques",
-    "malware"
+    "incidents_breaches",
+    "siem_detection",
+    "threat_intelligence",
+    "edge_devices"
+   ]
+  },
+  {
+   "id": "cb673b121b80",
+   "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+   "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-23T13:22:20Z",
+   "excerpt": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+   "preliminary_score": 83,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "vulnerability_management",
+    "web_software_security"
    ]
   }
  ]
