@@ -1,7 +1,21 @@
 {
- "generated_at": "2026-11-24T10:21:27.655507Z",
+ "generated_at": "2026-11-25T09:02:14.571098Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
+  {
+   "id": "bb504824b5c6",
+   "title": "Ransomwaregroep claimt hack van systemen marktonderzoeker Ipsos",
+   "url": "https://www.security.nl/posting/962870/Ransomwaregroep+claimt+hack+van+systemen+marktonderzoeker+Ipsos?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-24T10:30:00Z",
+   "excerpt": "Een ransomwaregroep genaamd Qilin beweert dat het marktonderzoeksbureau Ipsos heeft gehackt, waarbij allerlei bestanden en ...",
+   "preliminary_score": 91,
+   "preliminary_topics": [
+    "incidents_breaches",
+    "ransomware"
+   ]
+  },
   {
    "id": "18035ec21cb3",
    "title": "PHP komt vanmiddag met geplande kritieke beveiligingsupdate",
@@ -14,20 +28,6 @@
    "preliminary_topics": [
     "vulnerabilities_cve",
     "web_software_security"
-   ]
-  },
-  {
-   "id": "9d15f9df97e1",
-   "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
-   "url": "https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss",
-   "source_id": "security_nl",
-   "source_name": "Security.NL",
-   "published_at": "2026-11-16T10:31:31Z",
-   "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
-   "preliminary_score": 87,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
    ]
   },
   {
@@ -45,6 +45,34 @@
    ]
   },
   {
+   "id": "9d15f9df97e1",
+   "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
+   "url": "https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-16T10:31:31Z",
+   "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
+   "preliminary_score": 86,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "d1803105347b",
+   "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-11-24T23:00:14Z",
+   "excerpt": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
+   "preliminary_score": 85,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security"
+   ]
+  },
+  {
    "id": "6913e89081cc",
    "title": "NCSC-2026-0506 [1.00] [H/H] Kwetsbaarheden verholpen in NGINX door F5 Networks",
    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0506",
@@ -59,48 +87,33 @@
    ]
   },
   {
-   "id": "14a00d8221c4",
-   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "id": "be8229fa8688",
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-24T06:02:45Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+   "published_at": "2026-11-25T06:50:19Z",
+   "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,",
    "preliminary_score": 84,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management",
-    "web_software_security"
+    "threat_intelligence",
+    "incident_response"
    ]
   },
   {
-   "id": "0cd020d52939",
-   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-23T07:44:19Z",
-   "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-   "preliminary_score": 83,
+   "id": "7a5ea8907df3",
+   "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+   "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "published_at": "2026-11-25T06:37:06Z",
+   "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
+   "preliminary_score": 84,
    "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities"
-   ]
-  },
-  {
-   "id": "d30ef6e5d40a",
-   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "source_id": "bleepingcomputer",
-   "source_name": "BleepingComputer",
-   "published_at": "2026-11-22T18:45:37Z",
-   "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "malware"
+    "incidents_breaches",
+    "edge_devices",
+    "phishing_identity",
+    "security_market"
    ]
   },
   {
@@ -118,32 +131,17 @@
    ]
   },
   {
-   "id": "1ab128c432ff",
-   "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-   "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+   "id": "14a00d8221c4",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-23T17:45:15Z",
-   "excerpt": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\"",
-   "preliminary_score": 83,
-   "preliminary_topics": [
-    "incidents_breaches",
-    "siem_detection",
-    "threat_intelligence",
-    "edge_devices"
-   ]
-  },
-  {
-   "id": "cb673b121b80",
-   "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-   "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-23T13:22:20Z",
-   "excerpt": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+   "published_at": "2026-11-24T06:02:45Z",
+   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
    "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
+    "exploited_vulnerabilities",
     "vulnerability_management",
     "web_software_security"
    ]
