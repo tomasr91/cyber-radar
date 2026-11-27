@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:50:15.401438Z",
+ "generated_at": "2026-11-27T08:59:32.841495Z",
  "instructions": "Zie taken/UITLEGGEN.md. Schrijf per artikel data/enrichment/<id>.json.",
  "items": [
   {
@@ -10,7 +10,7 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-25T14:40:10Z",
    "excerpt": "Het Dutch Institute for Vulnerability Disclosure (DIVD) heeft het rapport gepubliceerd van het forensisch onderzoek dat naar ...",
-   "preliminary_score": 91,
+   "preliminary_score": 90,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "incidents_breaches",
@@ -25,10 +25,25 @@
    "source_name": "Security.NL",
    "published_at": "2026-11-24T10:30:00Z",
    "excerpt": "Een ransomwaregroep genaamd Qilin beweert dat het marktonderzoeksbureau Ipsos heeft gehackt, waarbij allerlei bestanden en ...",
-   "preliminary_score": 90,
+   "preliminary_score": 89,
    "preliminary_topics": [
     "incidents_breaches",
     "ransomware"
+   ]
+  },
+  {
+   "id": "8687b8b0c089",
+   "title": "NCSC-2026-0524 [1.00] [H/H] Kwetsbaarheid verholpen in Drupal core",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0524",
+   "source_id": "ncsc_nl_advisories",
+   "source_name": "NCSC-NL beveiligingsadviezen",
+   "published_at": "2026-11-26T13:56:03Z",
+   "excerpt": "Drupal heeft een nieuwe kwetsbaarheid verholpen in Drupal core, specifiek in het install.php bestand en in versies tot 10.6.23 en van 11.0.0 tot 11.4.14. Het install.php bestand bevatte kwetsbaarheden die konden leiden tot overname van de site indien het bestand toegankelijk bleef na de SA-CORE-2026-017 advisory, warvoor het NCSC de eerdere advisory NCSC-2026-0507 heeft gepubliceerd. Daarnaast is er een Improper Check for Unusual or Exceptional Conditions kwetsbaarheid aanwezig in de genoemde versies, die Forceful Browsing aanvallen mogelijk maakt. Deze kwetsbaarheden betreffen authenticatieomzeiling en ongeautoriseerde toegang binnen Drupal core. Drupal maakt melding van misbruik van deze nieuwe kwetsbaarheid, ook in systemen die weliswaar gepatched zijn naar het niveau van SA-CORE-2026-017, maar door het niet volledig uitvoeren van de geadviseerde systeem-hardening kwetsbaar bleven.",
+   "preliminary_score": 88,
+   "preliminary_topics": [
+    "vulnerabilities_cve",
+    "web_software_security",
+    "security_market"
    ]
   },
   {
@@ -42,35 +57,6 @@
    "preliminary_score": 87,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "web_software_security"
-   ]
-  },
-  {
-   "id": "9d15f9df97e1",
-   "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
-   "url": "https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss",
-   "source_id": "security_nl",
-   "source_name": "Security.NL",
-   "published_at": "2026-11-16T10:31:31Z",
-   "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
-   "preliminary_score": 86,
-   "preliminary_topics": [
-    "vulnerabilities_cve",
-    "attack_techniques"
-   ]
-  },
-  {
-   "id": "ef26ebb6c833",
-   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
-   "source_id": "microsoft_threat_intel",
-   "source_name": "Microsoft Threat Intelligence",
-   "published_at": "2026-11-25T18:09:06Z",
-   "excerpt": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. The post What defenders need to know about ARTEX, the agentic AI framework threat actors abuse appeared first on Microsoft Security Blog .",
-   "preliminary_score": 85,
-   "preliminary_topics": [
-    "exploited_vulnerabilities",
-    "threat_intelligence",
     "web_software_security"
    ]
   },
@@ -89,16 +75,31 @@
    ]
   },
   {
-   "id": "d1803105347b",
-   "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
-   "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
-   "source_id": "unit42",
-   "source_name": "Unit 42 (Palo Alto Networks)",
-   "published_at": "2026-11-24T23:00:14Z",
-   "excerpt": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
-   "preliminary_score": 84,
+   "id": "9d15f9df97e1",
+   "title": "Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk",
+   "url": "https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss",
+   "source_id": "security_nl",
+   "source_name": "Security.NL",
+   "published_at": "2026-11-16T10:31:31Z",
+   "excerpt": "Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...",
+   "preliminary_score": 85,
    "preliminary_topics": [
     "vulnerabilities_cve",
+    "attack_techniques"
+   ]
+  },
+  {
+   "id": "ef26ebb6c833",
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source_id": "microsoft_threat_intel",
+   "source_name": "Microsoft Threat Intelligence",
+   "published_at": "2026-11-25T18:09:06Z",
+   "excerpt": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. The post What defenders need to know about ARTEX, the agentic AI framework threat actors abuse appeared first on Microsoft Security Blog .",
+   "preliminary_score": 84,
+   "preliminary_topics": [
+    "exploited_vulnerabilities",
+    "threat_intelligence",
     "web_software_security"
    ]
   },
@@ -117,33 +118,32 @@
    ]
   },
   {
-   "id": "457c08cf27ea",
-   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-   "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "id": "706168821faa",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
    "source_id": "the_hacker_news",
    "source_name": "The Hacker News",
-   "published_at": "2026-11-26T07:02:34Z",
-   "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+   "published_at": "2026-11-27T05:48:20Z",
+   "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
    "preliminary_score": 84,
    "preliminary_topics": [
     "vulnerabilities_cve",
     "exploited_vulnerabilities",
-    "vulnerability_management"
+    "attack_techniques"
    ]
   },
   {
-   "id": "1d57aa7ac03a",
-   "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-   "source_id": "the_hacker_news",
-   "source_name": "The Hacker News",
-   "published_at": "2026-11-26T06:44:46Z",
-   "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
-   "preliminary_score": 84,
+   "id": "d1803105347b",
+   "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+   "source_id": "unit42",
+   "source_name": "Unit 42 (Palo Alto Networks)",
+   "published_at": "2026-11-24T23:00:14Z",
+   "excerpt": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
+   "preliminary_score": 83,
    "preliminary_topics": [
     "vulnerabilities_cve",
-    "exploited_vulnerabilities",
-    "vulnerability_management"
+    "web_software_security"
    ]
   }
  ]
