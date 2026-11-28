@@ -472,14 +472,6 @@
    "fetched_at": "2026-11-03T21:07:37.572416Z",
    "excerpt": "<figure class=\"kg-card kg-image-card\"><img src=\"https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/2026/09/image-14.png\" class=\"kg-image\" alt loading=\"lazy\" width=\"500\" height=\"500\"></figure><p>Part 1 of this week&apos;s saga can be found <a href=\"https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/\">here.</a></p><p>This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution, enabling organizations to rapidly react to emerging threats: the&#xa0;<a href=\"https://watchtowr.com/demo/?ref=labs.watchtowr.com\">watchTowr Platform.</a></p><h3 id=\"what-is-a-citrix-netscaler\">What Is A Citrix NetScaler?</h3><p>NetScaler, from Citrix (now under Cloud</p>"
   },
-  "watchtowr_labs:05528151c701": {
-   "source_id": "watchtowr_labs",
-   "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
-   "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
-   "published_raw": "Mon, 28 Sep 2026 10:55:54 GMT",
-   "fetched_at": "2026-11-03T21:07:37.572416Z",
-   "excerpt": "<p>God damn it, we&apos;re back in the room again. </p><p>Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScaler CVEs before Citrix had woken up</p>"
-  },
   "cisco_talos:5b0ac3b976a1": {
    "source_id": "cisco_talos",
    "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
@@ -9375,7 +9367,255 @@
    "published_raw": "Thu, 26 Nov 2026 09:12:26 +0000",
    "fetched_at": "2026-11-27T08:59:40.566496Z",
    "excerpt": "<p>Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap.</p>\n<p>The post <a href=\"https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/\">Drupal Installer Patch Left a Gap Attackers Are Already Exploiting</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "security_nl:e806fe8ae295": {
+   "source_id": "security_nl",
+   "title": "Wereldvoetbalbond FIFA getroffen door cyberaanval",
+   "url": "https://www.security.nl/posting/963458/Wereldvoetbalbond+FIFA+getroffen+door+cyberaanval?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 18:05:29 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Wereldvoetbalbond FIFA heeft in een verklaring die naar diverse mediaplatformen is verstuurd, bevestigd dat het slachtoffer is ..."
+  },
+  "security_nl:466abe2e05d9": {
+   "source_id": "security_nl",
+   "title": "Softwarebedrijf SAP bevestigt cybersecurity-incident",
+   "url": "https://www.security.nl/posting/963438/Softwarebedrijf+SAP+bevestigt+cybersecurity-incident?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 15:05:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Softwarebedrijf SAP heeft vandaag bevestigd dat het onlangs gehackt is. Gisteren schreef het Duitse Der Spiegel al over een ..."
+  },
+  "security_nl:463990d23fb3": {
+   "source_id": "security_nl",
+   "title": "Reuters: ‘Hackers braken in op cloudplatform Amerikaanse luchtmacht’.",
+   "url": "https://www.security.nl/posting/963426/Reuters%3A+%E2%80%98Hackers+braken+in+op+cloudplatform+Amerikaanse+luchtmacht%E2%80%99_?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 14:22:06 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Persbureau Reuters meldt dat hackers toegang hebben gekregen tot het belangrijkste cloudplatform van de Amerikaanse ..."
+  },
+  "security_nl:cba0043348bb": {
+   "source_id": "security_nl",
+   "title": "Ceo recoverybedrijf aangeklaagd voor oplichten ransomware-slachtoffers",
+   "url": "https://www.security.nl/posting/963294/Ceo+recoverybedrijf+aangeklaagd+voor+oplichten+ransomware-slachtoffers?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 13:05:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "De oprichter en ceo van een Amerikaans recoverybedrijf is in de Verenigde Staten aangeklaagd voor het oplichten van bedrijven ..."
+  },
+  "security_nl:fa54dfef26a9": {
+   "source_id": "security_nl",
+   "title": "NCSC waarschuwt voor gevaren van toegenomen gebruik van AI door bedrijven",
+   "url": "https://www.security.nl/posting/963395/NCSC+waarschuwt+voor+gevaren+van+toegenomen+gebruik+van+AI+door+bedrijven?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 12:28:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Naar aanleiding van de bevindingen van het CBS over het toegenomen gebruik van AI door bedrijven benadrukt het NCSC in een ..."
+  },
+  "security_nl:b12e8d670d46": {
+   "source_id": "security_nl",
+   "title": "'Papieren wachtwoordboeken wegens vele datalekken populair in Japan'",
+   "url": "https://www.security.nl/posting/963289/%27Papieren+wachtwoordboeken+wegens+vele+datalekken+populair+in+Japan%27?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 12:02:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "In Japan is de verkoop van wachtwoordboeken, waarin mensen hun inloggegevens kunnen opschrijven, wegens het toenemend aantal ..."
+  },
+  "security_nl:2830add4eb55": {
+   "source_id": "security_nl",
+   "title": "Duitse cyberbeveiligingsauthoriteit waarschuwt voor toenemende dreiging zelfstandig opererende AI",
+   "url": "https://www.security.nl/posting/963387/Duitse+cyberbeveiligingsauthoriteit+waarschuwt+voor+toenemende+dreiging+zelfstandig+opererende+AI?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 11:37:43 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Het BSI (Bundesamt für Sicherheit in der Informationstechnik), de Duitse tegenhanger van het NCSC, waarschuwde donderdag in ..."
+  },
+  "security_nl:6f6ebf2a056f": {
+   "source_id": "security_nl",
+   "title": "Kaspersky meldt toename van Android-apparaten geleverd met malware",
+   "url": "https://www.security.nl/posting/963306/Kaspersky+meldt+toename+van+Android-apparaten+geleverd+met+malware?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 11:17:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Er is een sterke toename van het aantal Android-apparaten dat met malware wordt geleverd, zo stelt antivirusbedrijf Kaspersky. ..."
+  },
+  "security_nl:cf1728ed9716": {
+   "source_id": "security_nl",
+   "title": "Dief doet voor 22.000 euro aan frauduleuze transacties met gestolen iPhone",
+   "url": "https://www.security.nl/posting/963326/Dief+doet+voor+22_000+euro+aan+frauduleuze+transacties+met+gestolen+iPhone?channel=rss",
+   "published_raw": "Fri, 27 Nov 2026 10:10:00 +0100",
+   "fetched_at": "2026-11-28T08:21:54.631743Z",
+   "excerpt": "Een gestolen iPhone is gebruikt voor het uitvoeren van meer dan 22.000 euro aan frauduleuze betaaltransacties. De vrouw van wie ..."
+  },
+  "ncsc_nl_advisories:62bc0a315180": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0526 [1.01] [M/H] Kwetsbaarheden verholpen in GeoServer",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0526",
+   "published_raw": "Fri, 27 Nov 2026 10:01:48 +0000",
+   "fetched_at": "2026-11-28T08:21:55.125254Z",
+   "excerpt": "GeoServer heeft 17 kwetsbaarheden verholpen, waarvan GeoServer er één als kritiek en twaalf als hoog heeft beoordeeld. De kwetsbaarheid met kenmerk CVE-2026-129245 heeft een CVSS-score van 9.2 en betreft een voorspelbare cryptografische sleutel binnen de 'remember-me'-functionaliteit. Een kwaadwillende die beschikt over de benodigde gegevens kan de kwetsbaarheid misbruiken om een geldige beheerderssessie te vervalsen en daarmee administratieve toegang te verkrijgen.\n\nGeoServer beschrijft daarnaast een aanvalsketen waarbij vijf kwetsbaarheden worden gecombineerd. Naast CVE-2026-129245 betreft het CVE-2026-129244 (CVSS 6.9), CVE-2026-129243 (CVSS 8.8), CVE-2026-120705 (CVSS 8.6) en CVE-2026-129242 (CVSS 8.6). Door misbruik van deze kwetsbaarheden kan een niet-geauthenticeerde kwaadwillende op afstand uiteindelijk willekeurige code uitvoeren op een kwetsbare GeoServer-installatie.\n\nDe overige kwetsbaarheden betreffen onder meer Server-Side Request Forgery (SSRF), ongeautoriseerde bestandstoegang, het schrijven van bestanden, authenticatie- en autorisatieomzeiling en Cross-Site Scripting (XSS). De kwetsbaarheid met kenmerk CVE-2026-120706 heeft een CVSS-score van 8.2 en kan onder specifieke omstandigheden leiden tot SSRF en het uitlezen van bestanden. CVE-2026-120704 heeft een CVSS-score van 7.2 en kan door een kwaadwillende met beheerdersrechten worden misbruikt om willekeurige code uit te voeren.\n\nDe kwetsbaarheden met kenmerk CVE-2026-129294 en CVE-2026-129293 kunnen eveneens worden gecombineerd tot een aanvalsketen die leidt tot opgeslagen Cross-Site Scripting (XSS). Voor een deel van de kwetsbaarheden moeten specifieke extensies of modules zijn geïnstalleerd."
+  },
+  "ncsc_nl_advisories:fe84f7d27ffc": {
+   "source_id": "ncsc_nl_advisories",
+   "title": "NCSC-2026-0525 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
+   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0525",
+   "published_raw": "Fri, 27 Nov 2026 09:04:58 +0000",
+   "fetched_at": "2026-11-28T08:21:55.125254Z",
+   "excerpt": "De Linux kernel ontwikkelaars hebben meerdere kwetsbaarheden verholpen in diverse subsystemen en drivers, waaronder IPv6, KVM, SUNRPC, NFS, SMB, XFS, overlayfs, OCFS2, media drivers, netwerkdrivers, geheugenbeheer, en meer. De kwetsbaarheden betreffen onder andere use-after-free, race conditions, out-of-bounds reads/writes, null pointer dereferences, deadlocks, en improper synchronisatie. Aanvallers kunnen deze kwetsbaarheden lokaal of, in enkele gevallen, via netwerktoegang misbruiken om denial of service te veroorzaken, kernel crashes te triggeren, geheugen corruptie te bewerkstelligen, of in beperkte gevallen privileges te escaleren. Sommige kwetsbaarheden zijn specifiek voor bepaalde hardware of configuraties, zoals Intel TDX, AMD GPU's, of specifieke netwerkprotocollen. De patches corrigeren onder andere foutieve geheugenreferenties, verbeteren synchronisatie en locking, valideren invoerparameters, en zorgen voor correcte resource- en foutafhandeling binnen de kernelcomponenten.\n\nEen zeer ernstige kwetsbaarheid die is verholpen heeft kenmerk CVE-2026-99362 toegewezen gekregen en stelt een kwaadwillende in staat om zonder voorafgaande authenticatie willekeurige code uit te voeren op het kwetsbare systeem. Onderzoekers hebben Proof-of-Concept-code en een write-up gepubliceerd waarin ze aantonen een remote rootshell te kunnen installeren en gebruiken.\nVoor succesvol misbruik moet de kwaadwillende toegang hebben tot de nfs poort, TCP/2049. Het is ongebruikelijk dat deze poort publiek toegankelijk is buiten de eigen infrastructuur."
+  },
+  "bleepingcomputer:1fb658de3739": {
+   "source_id": "bleepingcomputer",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "published_raw": "Fri, 27 Nov 2026 14:26:04 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]"
+  },
+  "bleepingcomputer:8b082e360c9e": {
+   "source_id": "bleepingcomputer",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "published_raw": "Fri, 27 Nov 2026 13:57:42 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]"
+  },
+  "bleepingcomputer:30b0f99624be": {
+   "source_id": "bleepingcomputer",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "published_raw": "Fri, 27 Nov 2026 12:06:13 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]"
+  },
+  "bleepingcomputer:ffd015cfc374": {
+   "source_id": "bleepingcomputer",
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "published_raw": "Fri, 27 Nov 2026 10:09:40 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]"
+  },
+  "bleepingcomputer:40aa7f507fa8": {
+   "source_id": "bleepingcomputer",
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "published_raw": "Fri, 27 Nov 2026 10:00:10 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]"
+  },
+  "bleepingcomputer:970e8b59b9f5": {
+   "source_id": "bleepingcomputer",
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "published_raw": "Fri, 27 Nov 2026 09:22:06 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]"
+  },
+  "bleepingcomputer:2d084251a8a9": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "published_raw": "Fri, 27 Nov 2026 06:18:36 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]"
+  },
+  "bleepingcomputer:78b38f09dd17": {
+   "source_id": "bleepingcomputer",
+   "title": "Drupal warns of new site takeover flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "published_raw": "Fri, 27 Nov 2026 05:10:15 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]"
+  },
+  "bleepingcomputer:43fc0fc479ab": {
+   "source_id": "bleepingcomputer",
+   "title": "SAP confirms security incident after suspicious GitHub activity",
+   "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "published_raw": "Fri, 27 Nov 2026 04:56:36 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]"
+  },
+  "bleepingcomputer:94bc0b958e6f": {
+   "source_id": "bleepingcomputer",
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "published_raw": "Fri, 27 Nov 2026 04:08:16 -0500",
+   "fetched_at": "2026-11-28T08:21:59.693062Z",
+   "excerpt": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]"
+  },
+  "the_record:4a82d3723014": {
+   "source_id": "the_record",
+   "title": "Japan’s education ministry discloses breach of government procurement system",
+   "url": "https://therecord.media/japan-education-ministry-cyberattack",
+   "published_raw": "Fri, 27 Nov 2026 14:15:00 GMT",
+   "fetched_at": "2026-11-28T08:21:59.794094Z",
+   "excerpt": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses."
+  },
+  "the_record:9a79f6f175db": {
+   "source_id": "the_record",
+   "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+   "url": "https://therecord.media/sap-germany-cyberattack-github",
+   "published_raw": "Fri, 27 Nov 2026 13:15:00 GMT",
+   "fetched_at": "2026-11-28T08:21:59.794094Z",
+   "excerpt": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code."
+  },
+  "the_record:f9571136225a": {
+   "source_id": "the_record",
+   "title": "Cyberattack disrupts global news distribution platform at France’s AFP",
+   "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+   "published_raw": "Fri, 27 Nov 2026 00:00:00 GMT",
+   "fetched_at": "2026-11-28T08:21:59.794094Z",
+   "excerpt": "French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide."
+  },
+  "the_record:875b913eba13": {
+   "source_id": "the_record",
+   "title": "British government takes services offline following ‘cyber incident’",
+   "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+   "published_raw": "Fri, 27 Nov 2026 00:00:00 GMT",
+   "fetched_at": "2026-11-28T08:21:59.794094Z",
+   "excerpt": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution."
+  },
+  "the_hacker_news:f01224df1f54": {
+   "source_id": "the_hacker_news",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "published_raw": "Fri, 27 Nov 2026 22:06:11 +0530",
+   "fetched_at": "2026-11-28T08:21:59.897628Z",
+   "excerpt": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\n\nThe previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand"
+  },
+  "the_hacker_news:4895aa5a5bc0": {
+   "source_id": "the_hacker_news",
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "published_raw": "Fri, 27 Nov 2026 17:19:34 +0530",
+   "fetched_at": "2026-11-28T08:21:59.897628Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.\n\nThe intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is"
+  },
+  "the_hacker_news:415efee3262b": {
+   "source_id": "the_hacker_news",
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "published_raw": "Fri, 27 Nov 2026 16:02:18 +0530",
+   "fetched_at": "2026-11-28T08:21:59.897628Z",
+   "excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,"
+  },
+  "the_hacker_news:99bc87f8212c": {
+   "source_id": "the_hacker_news",
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "published_raw": "Fri, 27 Nov 2026 14:59:30 +0530",
+   "fetched_at": "2026-11-28T08:21:59.897628Z",
+   "excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed"
+  },
+  "securityweek:91d8956f6be2": {
+   "source_id": "securityweek",
+   "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+   "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+   "published_raw": "Fri, 27 Nov 2026 11:00:00 +0000",
+   "fetched_at": "2026-11-28T08:22:00.202557Z",
+   "excerpt": "<p>Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. </p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/\">In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
+  },
+  "securityweek:115a544701a6": {
+   "source_id": "securityweek",
+   "title": "100,000 Potentially Impacted by Colorado Data Breach",
+   "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+   "published_raw": "Fri, 27 Nov 2026 09:30:54 +0000",
+   "fetched_at": "2026-11-28T08:22:00.202557Z",
+   "excerpt": "<p>Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.</p>\n<p>The post <a href=\"https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/\">100,000 Potentially Impacted by Colorado Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>"
   }
  },
- "updated_at": "2026-11-27T08:59:32.841495Z"
+ "updated_at": "2026-11-28T08:21:54.572277Z"
 }
